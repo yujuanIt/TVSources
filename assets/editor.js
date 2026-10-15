@@ -19,9 +19,11 @@ function notice(text) {
   clearTimeout(toastTimer); toastTimer = setTimeout(() => { $('toast').hidden = true; }, 5200);
 }
 function check(condition, message) { if (!condition) throw new Error(message); }
+function m3uLinkMode() { return hosting?.channelFile === 'data/live.m3u'; }
 function editableConfig(value) {
   const next = clone(value);
-  if (next.live.channelFile) next.live.channels = [];
+  if (next.live.channelFile || m3uLinkMode()) next.live.channels = [];
+  if (m3uLinkMode()) delete next.live.channelFile;
   return next;
 }
 function channelsM3u(channels) {
@@ -45,7 +47,7 @@ function channelsM3u(channels) {
 function validate(value) {
   check(value && value.version === 1 && typeof value.name === 'string' && value.name.trim(), '需要有效的 version: 1 与源站名称');
   check(value.live && value.vod && value.live.name && value.vod.name, '请填写直播与点播片库名称');
-  check(value.live.channelFile === undefined || value.live.channelFile === 'live.m3u', 'channelFile 需要填写 live.m3u');
+  check(value.live.channelFile === undefined || ['live.m3u', 'data/live.m3u'].includes(value.live.channelFile), 'channelFile 需要使用本站 M3U 文件');
   const movies = value.vod.movies === undefined ? [] : value.vod.movies;
   for (const [name, list] of Object.entries({ playlists: value.live.playlists, channels: value.live.channels, sites: value.vod.sites, movies, categories: value.vod.categories, warehouses: value.warehouses })) {
     check(Array.isArray(list), name + ' 必须是数组');
@@ -86,11 +88,13 @@ function render() {
   const dirty = JSON.stringify(data) !== JSON.stringify(online);
   $('draft-state').textContent = dirty ? '● 本机草稿 · 尚未发布' : '● 与线上版本一致'; $('undo').disabled = !undo.length;
   $('source-name').value = data.name; $('live-name').value = data.live.name; $('vod-name').value = data.vod.name; $('raw-json').value = pretty(editableConfig(data));
-  $('m3u-maintenance').hidden = !data.live.channelFile;
+  $('m3u-maintenance').hidden = !data.live.channelFile && !m3uLinkMode();
+  $('channel-editor').hidden = m3uLinkMode();
+  $('copy-m3u').textContent = m3uLinkMode() ? '复制 M3U 链接' : '复制频道 M3U';
   $('copy-json').textContent = data.live.channelFile ? '复制接口与订阅配置' : '复制完整配置';
   const hasMovies = data.vod.movies !== undefined;
   document.querySelector('[data-tab="movies"]').hidden = !hasMovies; $('movies').hidden = !hasMovies;
-  const stats = [['自建频道', data.live.channels.length], ['直播列表', data.live.playlists.length], ...(hasMovies ? [['点播来源', data.vod.sites.length + data.warehouses.length], ['自有影片', data.vod.movies.length]] : [['点播接口', data.vod.sites.length], ['多仓配置', data.warehouses.length]])];
+  const stats = [['自建频道', m3uLinkMode() ? hosting.channelCount : data.live.channels.length], ['直播列表', data.live.playlists.length], ...(hasMovies ? [['点播来源', data.vod.sites.length + data.warehouses.length], ['自有影片', data.vod.movies.length]] : [['点播接口', data.vod.sites.length], ['多仓配置', data.warehouses.length]])];
   $('stats').replaceChildren(...stats.map(([label, count]) => { const card = element('div', undefined, 'stat'); card.append(element('b', String(count)), element('span', label)); return card; }));
   for (const kind of ['playlists', 'channels', 'sites', ...(hasMovies ? ['movies'] : []), 'warehouses']) renderList(kind);
   renderSubscriptions();
@@ -115,7 +119,7 @@ function renderSubscriptions() {
   const base = hosting.endpoints[Number($('endpoint').value) || 0].base;
   const groups = hosting.warehouseGroups || [];
   const warehouses = groups.length ? groups.map((group, index) => ['多仓分组 ' + (index + 1) + ' / ' + groups.length + ' · ' + group.count + ' 份配置', group.path]) : [['多仓订阅 · 包含外部配置', 'warehouse.json']];
-  $('subscriptions').replaceChildren(...[['综合源 · 直播 + 点播', 'box.json'], ['点播专用配置', 'vod.json'], ...warehouses, ['自建频道 · TXT', 'live.txt'], ['自建频道 · M3U', 'live.m3u'], ['自建频道 · JSON / 完整请求头', 'live.json']].map(([title, path]) => {
+  $('subscriptions').replaceChildren(...[['综合源 · 直播 + 点播', 'box.json'], ['点播专用配置', 'vod.json'], ...warehouses, ['自建频道 · TXT', 'live.txt'], ['自建频道 · M3U', hosting.channelFile || 'live.m3u'], ['自建频道 · JSON / 完整请求头', 'live.json']].map(([title, path]) => {
     const address = base + path, card = element('article', undefined, 'subscription'), head = element('div', undefined, 'subscription-head');
     head.append(element('h3', title), button('复制地址', () => copyText(address).then(() => notice('订阅地址已复制')).catch(error => notice(error.message))));
     const code = element('code', address); code.title = address; card.append(head, code);
@@ -205,10 +209,10 @@ function safeAction(action) { return (...args) => Promise.resolve().then(() => a
 async function start() {
   try {
     [online, hosting] = await Promise.all([fetchJson('data/library.json'), fetchJson('hosting.json')]); validate(online); data = clone(online);
-    try { const draft = localStorage.getItem(draftKey); if (draft) { data = validate(JSON.parse(draft)); if (online.live.channelFile && !data.live.channelFile) { data.live.channelFile = online.live.channelFile; data.live.channels = clone(online.live.channels); } if (online.vod.movies === undefined && Array.isArray(data.vod.movies) && !data.vod.movies.length) delete data.vod.movies; if (JSON.stringify(data) !== JSON.stringify(online)) notice('已恢复本机草稿。线上版本可在配置与发布中重新读取。'); } } catch { notice('本机旧草稿无法读取，已加载线上版本。'); }
+    try { const draft = localStorage.getItem(draftKey); if (draft) { data = validate(JSON.parse(draft)); if (m3uLinkMode() && data.live.channelFile) { delete data.live.channelFile; const own = online.live.playlists.find(item => item.url === hosting.channelUrl); if (own && !data.live.playlists.some(item => item.url === own.url)) data.live.playlists.unshift(clone(own)); } if (online.live.channelFile && !data.live.channelFile) { data.live.channelFile = online.live.channelFile; data.live.channels = clone(online.live.channels); } if (online.vod.movies === undefined && Array.isArray(data.vod.movies) && !data.vod.movies.length) delete data.vod.movies; if (JSON.stringify(data) !== JSON.stringify(online)) notice('已恢复本机草稿。线上版本可在配置与发布中重新读取。'); } } catch { notice('本机旧草稿无法读取，已加载线上版本。'); }
     $('github-edit').href = hosting.editUrl;
     $('github-live-edit').href = hosting.channelEditUrl || hosting.editUrl;
-    $('copy-m3u').onclick = safeAction(async () => { validate(data); await copyText(channelsM3u(data.live.channels)); notice('频道 M3U 已复制，打开 live.m3u 全选替换并提交。'); });
+    $('copy-m3u').onclick = safeAction(async () => { validate(data); await copyText(m3uLinkMode() ? hosting.channelUrl : channelsM3u(data.live.channels)); notice(m3uLinkMode() ? 'M3U 订阅链接已复制；频道内容在 data/live.m3u 维护。' : '频道 M3U 已复制，打开 M3U 文件全选替换并提交。'); });
     hosting.endpoints.forEach((endpoint, index) => { const option = element('option', endpoint.name); option.value = String(index); $('endpoint').append(option); });
     document.querySelectorAll('[data-tab]').forEach(node => { node.onclick = () => setTab(node.dataset.tab); });
     window.addEventListener('hashchange', () => setTab(location.hash.slice(1)));
@@ -219,7 +223,7 @@ async function start() {
     $('undo').onclick = () => { if (undo.length) { data = undo.pop(); persist(); render(); notice('已撤销上一步草稿修改。'); } };
     $('save-names').onclick = safeAction(() => { const next = clone(data); next.name = $('source-name').value.trim(); next.live.name = $('live-name').value.trim(); next.vod.name = $('vod-name').value.trim(); save(next); notice('名称已保存到草稿。'); });
     $('copy-json').onclick = safeAction(copyConfig); $('publish-top').onclick = () => { setTab('advanced'); notice(data.live.channelFile ? '直播频道在「直播电视」复制 M3U；其他配置在这里复制 JSON。' : '先复制完整配置，再打开 GitHub 文件粘贴并提交。'); };
-    $('apply-json').onclick = safeAction(() => { importConfig(JSON.parse($('raw-json').value)); notice('JSON 已检查并应用到草稿，直播频道使用单独的 M3U 文件。'); });
+    $('apply-json').onclick = safeAction(() => { importConfig(JSON.parse($('raw-json').value)); notice('JSON 已检查并应用到草稿。'); });
     $('download').onclick = safeAction(() => { validate(data); const url = URL.createObjectURL(new Blob([pretty(data)], { type: 'application/json;charset=utf-8' })); const link = element('a'); link.href = url; link.download = 'library.json'; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); });
     $('import-file').onchange = safeAction(async () => { const file = $('import-file').files[0]; if (!file) return; check(file.size <= 5 * 1024 * 1024, '配置文件上限为 5 MB'); importConfig(JSON.parse(await file.text())); $('import-file').value = ''; notice('配置已导入本机草稿，提交后发布。'); });
     $('reload').onclick = safeAction(async () => { if (JSON.stringify(data) !== JSON.stringify(online) && !confirm('用线上版本替换当前本机草稿？可以先导出备份。')) return; const fresh = validate(await fetchJson('data/library.json')); save(fresh); online = clone(fresh); render(); notice('已重新读取线上版本，之前的草稿可以撤销恢复。'); });

@@ -15,9 +15,10 @@
   ],
   "lives": [
     {
-      "name": "居安直播",
+      "name": "居安直播 · 我的 M3U",
       "type": 0,
-      "url": "./live.json"
+      "url": "https://yujuanit.github.io/TVSources/data/live.m3u",
+      "headers": {}
     },
     {
       "name": "居安直播 · 全部频道",

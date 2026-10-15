@@ -31,5 +31,8 @@
       "count": 1
     }
   ],
-  "channelEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/live.m3u"
+  "channelEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/live.m3u",
+  "channelFile": "data/live.m3u",
+  "channelUrl": "https://yujuanit.github.io/TVSources/data/live.m3u",
+  "channelCount": 5
 }
