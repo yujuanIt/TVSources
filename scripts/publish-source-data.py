@@ -21,7 +21,7 @@ def main():
     args = parser.parse_args()
     directory = args.directory.resolve()
     expected = {'index.html', 'assets/style.css', 'assets/editor.js', 'data/library.json', 'vod.js', '.nojekyll',
-                'box.json', 'vod.json', 'catalog.json', 'live.json', 'live.m3u', 'warehouse.json', 'manifest.json', 'hosting.json'}
+                'box.json', 'vod.json', 'catalog.json', 'live.json', 'live.m3u', 'live.txt', 'warehouse.json', 'manifest.json', 'hosting.json'}
     try:
         entries = json.loads((directory / 'warehouse.json').read_text(encoding='utf-8'))['urls']
         links = json.loads((directory / 'hosting.json').read_text(encoding='utf-8')).get('warehouseGroups', [])

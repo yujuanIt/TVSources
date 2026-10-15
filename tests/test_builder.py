@@ -6,6 +6,8 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+from unittest.mock import patch
+import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('source_builder', ROOT / 'scripts/build-source-site.py')
@@ -15,6 +17,7 @@ spec.loader.exec_module(builder)
 
 def sample():
     data = json.loads((ROOT / 'data/library.json').read_text())
+    data['live'].pop('channelFile', None)
     data['live']['channels'] = [{'name': '居安频道', 'group': '我的频道', 'logo': 'https://example.com/logo.png',
         'urls': ['https://example.com/live.m3u8?token=a%2Bb%2F&sign=abc', 'http://example.com/backup.m3u8'],
         'headers': {'User-Agent': 'My Player', 'Referer': 'https://example.com/'}}]
@@ -28,12 +31,106 @@ def sample():
 
 
 class BuilderTests(unittest.TestCase):
-    def test_initial_config_has_no_copied_movies_or_pretend_channels(self):
-        data = json.loads((ROOT / 'data/library.json').read_text())
+    def test_source_only_library_omits_movies_without_creating_an_empty_personal_site(self):
+        data = sample(); data['vod'].pop('movies')
+        before = copy.deepcopy(data)
+        with tempfile.TemporaryDirectory() as temp:
+            output = Path(temp) / 'site'
+            builder.publish_files(data, 'https://example.com/', output)
+            published = json.loads((output / 'data/library.json').read_text())
+            self.assertNotIn('movies', published['vod'])
+            self.assertEqual(before, data)
+            for name in ['box.json', 'vod.json']:
+                sites = json.loads((output / name).read_text())['sites']
+                self.assertEqual(['my_api'], [site['key'] for site in sites])
+                self.assertEqual(data['vod']['sites'][0]['headers'], sites[0]['headers'])
+            self.assertEqual([], json.loads((output / 'catalog.json').read_text())['movies'])
+            self.assertEqual(0, json.loads((output / 'manifest.json').read_text())['movies'])
+            self.assertEqual(data['live']['playlists'][0]['url'], json.loads((output / 'box.json').read_text())['lives'][1]['url'])
+
+    def test_movies_may_be_absent_but_a_present_value_must_still_be_an_array(self):
+        for bad in [None, {}, 'not-an-array']:
+            data = sample(); data['vod']['movies'] = bad
+            with self.subTest(bad=bad), self.assertRaises(ValueError): builder.build(data, 'https://example.com/')
+
+    def test_m3u_roundtrip_keeps_logos_epg_multiple_routes_and_all_headers(self):
+        data = sample(); channel = data['live']['channels'][0]
+        channel.update(group='组名,含 & "引号"', tvgId='channel-1')
+        channel['headers']['X-Playback-Token'] = 'public-example=a%2Fb'
+        out = builder.build(data, 'https://example.com/')
+        parsed = builder.parse_m3u(out['live.m3u'])
+        self.assertEqual([{**channel, 'enabled': True}], parsed)
+
+    def test_m3u_accepts_bom_crlf_single_quotes_and_resets_headers_between_channels(self):
+        content = '\ufeff#EXTM3U\r\n#EXTINF:-1 tvg-logo=\'https://example.com/logo.png?a=1&amp;b=2\' group-title=\'游戏,直播\',名称,含逗号\r\n#EXTVLCOPT:http-user-agent=Test Player\r\nhttps://example.com/1?id=1,2#keep\r\n#EXTINF:-1,另一频道\r\n#EXTGRP:其他\r\n#EXTHTTP:{"Referer":"https://example.com/"}\r\nhttps://example.com/2\r\n#EXTINF:-1 x-enabled="false",已停用\r\nhttps://example.com/off\r\n'
+        channels = builder.parse_m3u(content)
+        self.assertEqual('游戏,直播', channels[0]['group'])
+        self.assertEqual('名称,含逗号', channels[0]['name'])
+        self.assertEqual('https://example.com/logo.png?a=1&b=2', channels[0]['logo'])
+        self.assertEqual(['https://example.com/1?id=1,2#keep'], channels[0]['urls'])
+        self.assertEqual({'User-Agent': 'Test Player'}, channels[0]['headers'])
+        self.assertEqual({'Referer': 'https://example.com/'}, channels[1]['headers'])
+        self.assertFalse(channels[2]['enabled'])
+        data = sample(); data['live']['channels'] = channels
+        out = builder.build(data, 'https://example.com/')
+        self.assertNotIn('https://example.com/off', out['live.m3u'])
+        self.assertNotIn('https://example.com/off', out['live.txt'])
+
+    def test_invalid_m3u_fails_instead_of_silently_losing_channels(self):
+        for content in ['<html>error</html>', '#EXTM3U\nhttps://example.com/live',
+                        '#EXTM3U\n#EXTINF:-1,没有地址',
+                        '#EXTM3U\n#EXTINF:-1,一\n#EXTINF:-1,二\nhttps://example.com/live',
+                        '#EXTM3U\n#EXTINF:-1,一\n#EXTHTTP:[]\nhttps://example.com/live',
+                        '#EXTM3U\n#EXTINF:-1,一\nfile:///private',
+                        '#EXTM3U\n#EXTINF:-1 x-enabled="yes",一\nhttps://example.com/live']:
+            with self.subTest(content=content), self.assertRaises(ValueError): builder.parse_m3u(content)
+
+    def test_editing_project_m3u_updates_published_app_data_json_txt_and_m3u_together(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp); source = root / 'source'; source.mkdir()
+            shutil.copy2(ROOT / 'index.html', source / 'index.html')
+            shutil.copytree(ROOT / 'assets', source / 'assets')
+            channel_file = source / 'live.m3u'
+            channel_file.write_text('#EXTM3U\n#EXTINF:-1 group-title="直播",我的频道\n#EXTVLCOPT:http-user-agent=Player\nhttps://example.com/original?sign=a%2Fb\n', encoding='utf-8')
+            data = sample(); data['live'].update(channelFile='live.m3u', channels=[])
+            before = copy.deepcopy(data); output = root / 'site'
+            with patch.object(builder, 'SOURCE', source):
+                builder.publish_files(data, 'https://example.com/', output)
+                published = json.loads((output / 'data/library.json').read_text())
+                self.assertEqual('我的频道', published['live']['channels'][0]['name'])
+                self.assertEqual({'User-Agent': 'Player'}, published['live']['channels'][0]['headers'])
+                self.assertIn('https://example.com/original?sign=a%2Fb', (output / 'live.txt').read_text())
+                channel_file.write_text('#EXTM3U\n#EXTINF:-1 group-title="新分组",改名频道\nhttps://example.com/new\n', encoding='utf-8')
+                builder.publish_files(data, 'https://example.com/', output)
+                published = json.loads((output / 'data/library.json').read_text())
+                self.assertEqual('改名频道', published['live']['channels'][0]['name'])
+                self.assertEqual(['https://example.com/new'], published['live']['channels'][0]['urls'])
+                live = json.loads((output / 'live.json').read_text())
+                self.assertEqual('新分组', live['groups'][0]['name'])
+                self.assertEqual('改名频道', live['groups'][0]['channels'][0]['name'])
+                self.assertNotIn('original', (output / 'live.m3u').read_text())
+                self.assertIn('改名频道,https://example.com/new', (output / 'live.txt').read_text())
+                hosting = json.loads((output / 'hosting.json').read_text())
+                self.assertEqual('https://github.com/yujuanIt/TVSources/edit/main/live.m3u', hosting['channelEditUrl'])
+                channel_file.write_text('#EXTM3U\n#EXTINF:-1,没有地址', encoding='utf-8')
+                with self.assertRaises(ValueError): builder.publish_files(data, 'https://example.com/', output)
+                self.assertEqual(published, json.loads((output / 'data/library.json').read_text()))
+            self.assertEqual(before, data)
+
+    def test_m3u_reference_cannot_read_arbitrary_files(self):
+        for path in ['../secret.m3u', '/tmp/secret', 'data/library.json', 'https://example.com/live.m3u']:
+            data = sample(); data['live']['channelFile'] = path
+            with self.subTest(path=path), self.assertRaises(ValueError): builder.resolve_channel_file(data)
+
+    def test_empty_library_does_not_expand_remote_playlists_or_invent_movies(self):
+        data = sample()
+        data['live']['channels'] = []
+        data['vod']['movies'] = []
         out = builder.build(data, 'https://example.com/project/')
         self.assertEqual([], out['catalog.json']['movies'])
         self.assertEqual([], out['live.json']['groups'])
         self.assertEqual('#EXTM3U\n', out['live.m3u'])
+        self.assertEqual('', out['live.txt'])
 
     def test_large_warehouses_split_into_complete_six_config_batches(self):
         for count in [5, 6, 12]:
@@ -89,6 +186,23 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(2, out['live.m3u'].count('#EXTINF:'))
         self.assertIn('#EXTVLCOPT:http-referrer=https://example.com/', out['live.m3u'])
 
+    def test_txt_groups_interleaved_channels_and_preserves_every_route_and_signed_url(self):
+        data = sample()
+        data['live']['channels'] += [
+            {'name': '另一频道', 'group': '其他分组', 'urls': ['https://example.com/live?id=1,2&sign=a%2Fb#keep']},
+            {'name': '同组频道', 'group': '我的频道', 'urls': ['https://example.com/third']},
+            {'name': '停用频道', 'group': '不显示', 'urls': ['https://example.com/off'], 'enabled': False},
+        ]
+        out = builder.build(data, 'https://example.com/')
+        self.assertEqual([
+            '我的频道,#genre#',
+            '居安频道,https://example.com/live.m3u8?token=a%2Bb%2F&sign=abc',
+            '居安频道,http://example.com/backup.m3u8',
+            '同组频道,https://example.com/third',
+            '其他分组,#genre#',
+            '另一频道,https://example.com/live?id=1,2&sign=a%2Fb#keep',
+        ], out['live.txt'].splitlines())
+
     def test_disabled_items_stay_in_input_and_do_not_enter_public_subscriptions(self):
         data = sample()
         for rows in [data['live']['channels'], data['live']['playlists'], data['vod']['movies'], data['vod']['sites'], data['warehouses']]:
@@ -97,7 +211,8 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(before, data)
         self.assertEqual([], out['catalog.json']['movies'])
         self.assertEqual([], out['live.json']['groups'])
-        self.assertEqual(1, len(out['box.json']['sites']))
+        self.assertEqual('', out['live.txt'])
+        self.assertEqual(0, len(out['box.json']['sites']))
         self.assertEqual(1, len(out['warehouse.json']['urls']))
 
     def test_movies_keep_signed_urls_and_receive_the_category_display_name(self):
@@ -161,6 +276,8 @@ class PublisherTests(unittest.TestCase):
             git('fetch', 'origin', 'source-data')
             published = git('ls-tree', '-r', '--name-only', 'FETCH_HEAD').splitlines()
             self.assertIn('box.json', published); self.assertNotIn('app.txt', published)
+            self.assertIn('live.txt', published)
+            self.assertEqual((output / 'live.txt').read_text(), git('show', 'FETCH_HEAD:live.txt') + '\n')
             self.assertIn('warehouse-2.json', published)
             self.assertNotIn('README.md', published)
             self.assertEqual('uncommitted app work', (repo / 'app.txt').read_text())

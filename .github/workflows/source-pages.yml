@@ -7,6 +7,7 @@ on:
       - 'index.html'
       - 'assets/**'
       - 'data/**'
+      - 'live.m3u'
       - 'scripts/**'
       - 'tests/**'
       - '.github/workflows/source-pages.yml'
@@ -30,7 +31,7 @@ jobs:
       - name: Validate builder and adapter
         run: |
           python3 -m unittest discover -s tests -p 'test_*.py' -v
-          node --experimental-vm-modules --test tests/adapter.test.mjs
+          node --experimental-vm-modules --test tests/*.test.mjs
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5

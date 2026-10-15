@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Validate one editable document and build only the public GitHub Pages source files."""
+"""Validate editable source files and build only the public GitHub Pages source files."""
 import argparse
 import copy
 import json
 import re
 import shutil
 from datetime import datetime, timezone
+from html import unescape
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -65,6 +66,8 @@ def validate(data):
     live, vod = data.get('live'), data.get('vod')
     require(isinstance(live, dict) and isinstance(vod, dict), 'live 和 vod 必须是对象')
     text(live.get('name'), 'live.name'); text(vod.get('name'), 'vod.name')
+    if 'channelFile' in live:
+        require(live['channelFile'] == 'live.m3u', 'live.channelFile 仅支持项目根目录的 live.m3u')
     for entry in rows(live.get('playlists'), 'live.playlists'):
         text(entry.get('name'), '直播列表名称'); url(entry.get('url'), '直播列表地址')
         headers(entry.get('headers', {}), '直播列表请求头')
@@ -83,7 +86,7 @@ def validate(data):
         require(bool(ID.fullmatch(key)) and key not in category_ids, '分类 ID 需要唯一的字母 / 数字 / 下划线 / 连字符')
         category_ids.add(key)
     movie_ids = set()
-    for movie in rows(vod.get('movies'), 'vod.movies'):
+    for movie in rows(vod.get('movies', []), 'vod.movies'):
         key = text(movie.get('id'), '影片 ID'); text(movie.get('name'), '影片名称')
         require(bool(ID.fullmatch(key)) and key not in movie_ids, '影片 ID 需要唯一的字母 / 数字 / 下划线 / 连字符')
         movie_ids.add(key); require(movie.get('category') in category_ids, '影片分类必须使用 categories 中已有的 ID')
@@ -130,14 +133,78 @@ def m3u_escape(value):
     return value.replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+def parse_m3u(content):
+    lines = content.lstrip('\ufeff').splitlines()
+    require(bool(lines) and lines[0].strip().startswith('#EXTM3U'), 'live.m3u 第一行需要是 #EXTM3U')
+    channels, merged, pending = [], {}, None
+    for number, raw in enumerate(lines[1:], 2):
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith('#EXTINF:'):
+            require(pending is None, f'live.m3u 第 {number} 行：上一频道缺少播放地址')
+            quote, separator = None, None
+            for index, char in enumerate(line):
+                if char in {'"', "'"}:
+                    if quote == char: quote = None
+                    elif quote is None: quote = char
+                elif char == ',' and quote is None:
+                    separator = index; break
+            require(separator is not None, f'live.m3u 第 {number} 行：EXTINF 缺少频道名称分隔符')
+            attrs = {match[0]: unescape(match[1] or match[2]) for match in
+                     re.findall(r'''([\w-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')''', line[:separator])}
+            require(attrs.get('x-enabled', 'true') in {'true', 'false'}, f'live.m3u 第 {number} 行：x-enabled 需要是 true 或 false')
+            pending = {'name': line[separator + 1:].strip() or attrs.get('tvg-name', ''),
+                       'group': attrs.get('group-title', '') or '未分组', 'logo': attrs.get('tvg-logo', ''),
+                       'tvgId': attrs.get('tvg-id', ''), 'urls': [], 'headers': {}, 'enabled': attrs.get('x-enabled') != 'false'}
+        elif line.startswith('#EXTGRP:'):
+            require(pending is not None, f'live.m3u 第 {number} 行：分组需要放在 EXTINF 后')
+            pending['group'] = line.split(':', 1)[1].strip() or '未分组'
+        elif line.startswith('#EXTVLCOPT:'):
+            require(pending is not None, f'live.m3u 第 {number} 行：请求头需要放在 EXTINF 后')
+            option, separator, value = line.split(':', 1)[1].partition('=')
+            key = {'http-user-agent': 'User-Agent', 'http-referrer': 'Referer'}.get(option.lower())
+            if key and separator: pending['headers'][key] = value
+        elif line.startswith('#EXTHTTP:'):
+            require(pending is not None, f'live.m3u 第 {number} 行：请求头需要放在 EXTINF 后')
+            try:
+                extra = json.loads(line.split(':', 1)[1]); headers(extra, 'M3U 请求头')
+            except (ValueError, TypeError) as error:
+                raise ValueError(f'live.m3u 第 {number} 行：请求头 JSON 无效') from error
+            pending['headers'].update(extra)
+        elif not line.startswith('#'):
+            require(pending is not None, f'live.m3u 第 {number} 行：播放地址缺少 EXTINF')
+            url(line, f'live.m3u 第 {number} 行播放地址', True)
+            key = (pending['group'], pending['name'], pending['logo'], pending['tvgId'], pending['enabled'],
+                   json.dumps(pending['headers'], sort_keys=True))
+            if key not in merged:
+                merged[key] = pending; channels.append(pending)
+            merged[key]['urls'].append(line)
+            pending = None
+    require(pending is None, 'live.m3u 最后一个频道缺少播放地址')
+    return channels
+
+
+def resolve_channel_file(data):
+    validate(data)
+    resolved = copy.deepcopy(data)
+    if resolved['live'].get('channelFile'):
+        path = SOURCE / 'live.m3u'
+        require(not path.is_symlink(), 'live.m3u 不允许使用符号链接')
+        resolved['live']['channels'] = parse_m3u(path.read_text(encoding='utf-8-sig'))
+        validate(resolved)
+    return resolved
+
+
 def build(data, base_url, repository='yujuanIt/TVSources'):
     validate(data); url(base_url, '站点地址'); base_url = base_url.rstrip('/') + '/'
     require(not urlsplit(base_url).query and not urlsplit(base_url).fragment, '站点地址不能包含查询参数或片段')
     live, vod = data['live'], data['vod']
     require(bool(re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_][A-Za-z0-9_.-]*', repository)), '仓库名称格式需要 owner/repo')
     # Relative links keep Pages, Raw, and accelerator endpoints on the selected route.
+    movies = copy.deepcopy(active(vod.get('movies', [])))
     sites = [{'key': 'juan_personal', 'name': vod['name'], 'type': 3, 'api': './vod.js',
-              'ext': './catalog.json', 'searchable': 1, 'quickSearch': 1, 'filterable': 0}]
+              'ext': './catalog.json', 'searchable': 1, 'quickSearch': 1, 'filterable': 0}] if movies else []
     for item in active(vod['sites']):
         site = copy.deepcopy(item); site.pop('enabled', None); sites.append(site)
     lives = [{'name': live['name'], 'type': 0, 'url': './live.json'}]
@@ -146,7 +213,6 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
     if vod.get('spider'):
         box['spider'] = vod['spider']
     class_names = {item['id']: item['name'] for item in vod['categories']}
-    movies = copy.deepcopy(active(vod['movies']))
     for movie in movies:
         movie['typeName'] = class_names[movie['category']]
     catalog = {'name': vod['name'], 'categories': vod['categories'], 'movies': movies}
@@ -162,8 +228,16 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
             for name, value in channel.get('headers', {}).items():
                 if name.lower() == 'user-agent': m3u.append('#EXTVLCOPT:http-user-agent=' + value)
                 if name.lower() == 'referer': m3u.append('#EXTVLCOPT:http-referrer=' + value)
+            if channel.get('headers'):
+                m3u.append('#EXTHTTP:' + json.dumps(channel['headers'], ensure_ascii=False, separators=(',', ':')))
             m3u.append(address)
     live_json = {'name': live['name'], 'groups': [{'name': group, 'channels': channels} for group, channels in groups.items()]}
+    txt = []
+    for group, channels in groups.items():
+        txt.append(group + ',#genre#')
+        for channel in channels:
+            # Repeated names in the same group become fallback routes in TVBox.
+            txt.extend(channel['name'] + ',' + address for address in channel['urls'])
     warehouse = {'urls': [{'name': data['name'], 'url': './box.json'}] +
                  [{'name': item['name'], 'url': item['url']} for item in active(data['warehouses'])]}
     # Existing APKs import at most six configurations per warehouse. Publish complete
@@ -186,13 +260,17 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
                              {'name': 'GitHub Pages 原址', 'base': base_url},
                              {'name': 'GitHub Raw 原址', 'base': raw_base}],
                'warehouseGroups': group_links}
+    if live.get('channelFile'):
+        hosting['channelEditUrl'] = 'https://github.com/' + repository + '/edit/main/live.m3u'
     vod_config = {key: value for key, value in box.items() if key != 'lives'}
     return {'box.json': box, 'vod.json': vod_config, 'catalog.json': catalog, 'live.json': live_json,
             'warehouse.json': warehouse, 'manifest.json': stamp, 'hosting.json': hosting, 'live.m3u': '\n'.join(m3u) + '\n',
+            'live.txt': '\n'.join(txt) + ('\n' if txt else ''),
             **warehouse_groups}
 
 
 def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
+    data = resolve_channel_file(data)
     generated = build(data, base_url, repository)
     output = Path(output).resolve()
     require(output != SOURCE.resolve(), '输出目录必须与源文件目录分开')

@@ -17,7 +17,7 @@
       <button class="nav-item active" data-tab="overview"><span>◈</span>源站总览</button>
       <button class="nav-item" data-tab="live"><span>▣</span>直播电视</button>
       <button class="nav-item" data-tab="vod"><span>▤</span>点播接口</button>
-      <button class="nav-item" data-tab="movies"><span>▷</span>自有影片</button>
+      <button class="nav-item" data-tab="movies" hidden><span>▷</span>自有影片</button>
       <button class="nav-item" data-tab="advanced"><span>⌘</span>配置与发布</button>
     </nav>
     <div class="sidebar-bottom"><span class="dot"></span> GitHub Pages<small>by 居安</small></div>
@@ -26,31 +26,32 @@
     <header class="topbar"><span id="breadcrumb">我的源站 / 总览</span><div class="top-actions"><span id="draft-state" role="status">正在读取…</span><button id="undo" class="quiet" disabled>撤销</button><button id="publish-top" class="primary">保存到 GitHub ↗</button></div></header>
     <div id="fatal" class="notice error" hidden></div>
     <section id="overview" class="page active" aria-labelledby="overview-title">
-      <div class="hero"><div><span class="eyebrow">A PLACE FOR YOUR STORIES</span><h1 id="overview-title">我的内容，<br><em>我来整理。</em></h1><p>把直播频道、点播片库和自己的影片放在一起。<br>维护一份配置，电视始终使用同一个订阅地址。</p><button class="primary" data-open-tab="live">添加我的第一个频道 <span>↗</span></button></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-screen"><div class="screen-dots"><i></i><i></i><i></i></div><span>▷</span><small>居安影院</small></div><span class="art-chip">LIVE & CINEMA</span></div></div>
+      <div class="hero"><div><span class="eyebrow">A PLACE FOR YOUR STORIES</span><h1 id="overview-title">我的内容，<br><em>我来整理。</em></h1><p>把直播频道和点播源放在一起。<br>维护自己的列表，电视始终使用同一个订阅地址。</p><button class="primary" data-open-tab="live">添加我的第一个频道 <span>↗</span></button></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-screen"><div class="screen-dots"><i></i><i></i><i></i></div><span>▷</span><small>居安影院</small></div><span class="art-chip">LIVE & CINEMA</span></div></div>
       <div id="stats" class="stats"></div>
       <div class="section-title"><div><h2>我的订阅地址</h2><p>综合源接入点播接口与直播列表；要包含完整 TVBox 配置，请依次添加下方所有多仓分组。</p></div><select id="endpoint" aria-label="订阅访问线路"></select></div>
       <div id="subscriptions" class="subscriptions"></div>
-      <p class="hint">综合源包含外部直播列表；M3U / JSON 仅导出自己填写的频道。加速入口用于配置、清单和脚本，视频直接连接原播放地址。公共加速可能有缓存，可切换备用线路。</p>
-      <div class="steps"><article><b>01</b><h3>整理内容</h3><p>添加接口、频道或自己的视频，随时修改名称和分组。</p></article><article><b>02</b><h3>提交配置</h3><p>复制配置，打开 GitHub 编辑文件，粘贴后提交保存。</p></article><article><b>03</b><h3>自动发布</h3><p>GitHub Actions 检查并发布。电视刷新源即可读取更新。</p></article></div>
+      <p class="hint">综合源包含外部直播列表；TXT / M3U / JSON 导出自己的频道。加速入口用于配置、清单和脚本，视频直接连接原播放地址。公共加速可能有缓存，可切换备用线路。</p>
+      <div class="steps"><article><b>01</b><h3>整理内容</h3><p>添加点播接口和直播频道，随时修改名称和分组。</p></article><article><b>02</b><h3>提交配置</h3><p>复制配置，打开 GitHub 编辑文件，粘贴后提交保存。</p></article><article><b>03</b><h3>自动发布</h3><p>GitHub Actions 检查并发布。电视刷新源即可读取更新。</p></article></div>
     </section>
     <section id="live" class="page" aria-labelledby="live-title">
       <div class="page-heading"><div><span class="eyebrow">LIVE TELEVISION</span><h1 id="live-title">喜欢的频道，都在这里。</h1><p>可以接入整个 M3U / TXT 列表，也可以自己维护分组、图标和多条播放线路。</p></div></div>
-      <div class="section-title"><h2>外部直播列表</h2><button class="primary" data-add="playlists">＋ 添加直播列表</button></div><div id="list-playlists" class="item-list"></div>
+      <div id="m3u-maintenance" class="card publish-card" hidden><h2>我的直播，维护一份 M3U。</h2><p>频道保存在项目的 live.m3u 中。可以直接打开 GitHub 修改，也可以在下方整理频道，再复制 M3U 全选替换后提交。发布后 TXT 和 JSON 会一起更新。</p><div class="button-row"><button id="copy-m3u" class="primary">复制频道 M3U</button><a id="github-live-edit" class="button" target="_blank" rel="noopener noreferrer">打开 live.m3u ↗</a></div><p class="hint">改频道、分组和线路时提交 live.m3u；改外部订阅和点播接口时，在「配置与发布」中提交 library.json。</p></div>
       <div class="section-title"><h2>我的频道</h2><button class="primary" data-add="channels">＋ 添加频道</button></div><div id="list-channels" class="item-list"></div>
+      <div class="section-title"><h2>外部直播列表</h2><button class="primary" data-add="playlists">＋ 添加直播列表</button></div><div id="list-playlists" class="item-list"></div>
     </section>
     <section id="vod" class="page" aria-labelledby="vod-title">
       <div class="page-heading"><div><span class="eyebrow">VIDEO ON DEMAND</span><h1 id="vod-title">给好片库，一个固定入口。</h1><p>接入 JSON、XML、HTTP 或 JavaScript 接口。已有 TVBox 整份配置放在下方「多仓配置」里。</p></div></div>
       <div class="section-title"><h2>点播接口</h2><button class="primary" data-add="sites">＋ 添加接口</button></div><div id="list-sites" class="item-list"></div>
       <div class="section-title"><div><h2>多仓配置</h2><p>这里填写 TVBox 配置 JSON 地址，不是采集 API。使用总览中的「多仓订阅」接入。</p></div><button class="quiet" data-add="warehouses">＋ 添加配置</button></div><div id="list-warehouses" class="item-list"></div>
     </section>
-    <section id="movies" class="page" aria-labelledby="movies-title">
+    <section id="movies" class="page" aria-labelledby="movies-title" hidden>
       <div class="page-heading"><div><span class="eyebrow">YOUR OWN COLLECTION</span><h1 id="movies-title">为自己的影片，建一个片库。</h1><p>填写海报、简介与视频地址。电影、剧集和多条线路都支持，搜索与分类由片库脚本处理。</p></div><button class="primary" data-add="movies">＋ 添加影片</button></div>
       <div id="list-movies" class="item-list"></div>
     </section>
     <section id="advanced" class="page" aria-labelledby="advanced-title">
-      <div class="page-heading"><div><span class="eyebrow">MAKE IT YOURS</span><h1 id="advanced-title">一份配置，长期维护。</h1><p>页面中的修改先存为当前浏览器的草稿。提交到 GitHub 后，才会更新电视使用的订阅。</p></div></div>
-      <div class="card settings-card"><label>源站名称<input id="source-name" maxlength="80"></label><label>自有点播片库名称<input id="vod-name" maxlength="80"></label><label>自建直播列表名称<input id="live-name" maxlength="80"></label><button id="save-names" class="quiet">保存名称到草稿</button></div>
-      <div class="card publish-card"><span class="number">发布流程</span><h2>复制、粘贴、提交，就会更新。</h2><p>① 复制配置 → ② 打开 GitHub 文件 → ③ 全选替换内容，点击 Commit changes。<br>保存后等待 Actions 的 Publish personal sources 完成，再在电视中刷新源。</p><div class="button-row"><button id="copy-json" class="primary">复制完整配置</button><a id="github-edit" class="button" target="_blank" rel="noopener noreferrer">打开 GitHub 文件 ↗</a><button id="download" class="quiet">导出备份</button><label class="button file-button">导入配置<input id="import-file" type="file" accept="application/json,.json"></label></div><p class="hint">GitHub Pages 是公开源站。请勿填写账号密码或私密令牌。本站不收集 GitHub Token，只有有仓库权限的人能提交发布。</p></div>
+      <div class="page-heading"><div><span class="eyebrow">MAKE IT YOURS</span><h1 id="advanced-title">自己的源，长期维护。</h1><p>页面中的修改先存为当前浏览器的草稿。提交到 GitHub 后，才会更新电视使用的订阅。</p></div></div>
+      <div class="card settings-card"><label>源站名称<input id="source-name" maxlength="80"></label><label>点播名称<input id="vod-name" maxlength="80"></label><label>自建直播列表名称<input id="live-name" maxlength="80"></label><button id="save-names" class="quiet">保存名称到草稿</button></div>
+      <div class="card publish-card"><span class="number">发布流程</span><h2>复制、粘贴、提交，就会更新。</h2><p>直播频道在「直播电视」复制 M3U；其他内容在这里复制 JSON。<br>打开对应 GitHub 文件，全选替换内容，点击 Commit changes。<br>保存后等待 Actions 的 Publish personal sources 完成，再在电视中刷新源。</p><div class="button-row"><button id="copy-json" class="primary">复制完整配置</button><a id="github-edit" class="button" target="_blank" rel="noopener noreferrer">打开 GitHub 文件 ↗</a><button id="download" class="quiet">导出备份</button><label class="button file-button">导入配置<input id="import-file" type="file" accept="application/json,.json"></label></div><p class="hint">GitHub Pages 是公开源站。请勿填写账号密码或私密令牌。本站不收集 GitHub Token，只有有仓库权限的人能提交发布。</p></div>
       <details class="card advanced-json"><summary>直接编辑 JSON / 多线路 / 自定义请求头</summary><p class="hint">可以在这里编辑分类、更多播放线路、请求头与插件参数；也可导入由本页面导出的备份。</p><textarea id="raw-json" spellcheck="false" aria-label="完整配置 JSON"></textarea><div class="button-row"><button id="apply-json" class="quiet">检查并应用到草稿</button><button id="reload" class="quiet">重新读取线上版本</button></div></details>
     </section>
     <footer>居安源站 <span>·</span> 内容由你维护 <span>·</span> by 居安</footer>

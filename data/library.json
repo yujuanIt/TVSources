@@ -7,7 +7,7 @@
       {
         "name": "居安直播 · 常看",
         "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
-        "enabled": true,
+        "enabled": false,
         "headers": {
           "User-Agent": "okhttp/3.8.1"
         }
@@ -68,7 +68,8 @@
         "enabled": true
       }
     ],
-    "channels": []
+    "channels": [],
+    "channelFile": "live.m3u"
   },
   "vod": {
     "name": "居安片库",
@@ -98,7 +99,6 @@
         "name": "短剧"
       }
     ],
-    "movies": [],
     "sites": [
       {
         "key": "app_feifan",
