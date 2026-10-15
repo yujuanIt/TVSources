@@ -76,6 +76,19 @@ class BuilderTests(unittest.TestCase):
         self.assertNotIn('https://example.com/off', out['live.m3u'])
         self.assertNotIn('https://example.com/off', out['live.txt'])
 
+    def test_m3u_keeps_player_options_separate_and_preserves_extended_http_headers(self):
+        content = '#EXTM3U\n#EXTINF:-1 group-title="电视",频道\n#KODIPROP:inputstream.adaptive.manifest_type=mpd\n#EXTVLCOPT:network-caching=1000\n#EXTVLCOPT:http-referer=https://example.com/\n#EXTVLCOPT:http-origin=https://example.com\n#EXTVLCOPT:http-cookie=public-example=a%2Fb\nhttps://example.com/one.mpd?sign=a+b%2F\n#EXTINF:-1 group-title="电视",频道\n#KODIPROP:inputstream.adaptive.manifest_type=hls\nhttps://example.com/two.m3u8\n'
+        channels = builder.parse_m3u(content)
+        self.assertEqual(2, len(channels))
+        self.assertEqual(['#KODIPROP:inputstream.adaptive.manifest_type=mpd', '#EXTVLCOPT:network-caching=1000'], channels[0]['directives'])
+        self.assertEqual({'Referer': 'https://example.com/', 'Origin': 'https://example.com', 'Cookie': 'public-example=a%2Fb'}, channels[0]['headers'])
+        self.assertEqual({}, channels[1]['headers'])
+        data = sample(); data['live']['channels'] = channels
+        self.assertEqual(channels, builder.parse_m3u(builder.build(data, 'https://example.com/')['data/live.m3u']))
+        for value in ['#KODIPROP:x=y\nhttps://other.example/', '#EXTHTTP:{}', 'https://other.example/']:
+            data['live']['channels'][0]['directives'] = [value]
+            with self.subTest(value=value), self.assertRaises(ValueError): builder.build(data, 'https://example.com/')
+
     def test_invalid_m3u_fails_instead_of_silently_losing_channels(self):
         for content in ['<html>error</html>', '#EXTM3U\nhttps://example.com/live',
                         '#EXTM3U\n#EXTINF:-1,没有地址',
@@ -146,6 +159,35 @@ class BuilderTests(unittest.TestCase):
                 builder.publish_files(data, 'https://example.com/', output)
                 self.assertIn('第二版频道', (output / 'data/live.m3u').read_text()); self.assertNotIn('original', (output / 'data/live.m3u').read_text())
             self.assertEqual(before, data)
+
+    def test_project_m3u_accelerator_links_publish_local_channels_for_the_correct_repository(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp); source = root / 'source'; source.mkdir(); (source / 'data').mkdir()
+            shutil.copy2(ROOT / 'index.html', source / 'index.html'); shutil.copytree(ROOT / 'assets', source / 'assets')
+            content = '#EXTM3U\n#EXTINF:-1 tvg-logo="https://example.com/logo.png" group-title="IPTV IPv6 · 央视",频道\n#EXTVLCOPT:http-user-agent=Player\nhttp://[2001:db8::1]/live.m3u8?sign=a+b%2F\n'
+            (source / 'data/live.m3u').write_text(content, encoding='utf-8')
+            repository = 'example-owner/OwnSources'; base = 'https://example.com/source/'
+            for endpoint in builder.source_endpoints(base, repository):
+                data = sample(); data['live']['channels'] = []
+                address = endpoint['base'] + 'data/live.m3u'
+                data['live']['playlists'] = [{'name': '我的 M3U', 'url': address, 'enabled': True}]
+                before = copy.deepcopy(data); output = root / 'site'
+                with self.subTest(address=address), patch.object(builder, 'SOURCE', source):
+                    result = builder.publish_files(data, base, output, repository)
+                    self.assertEqual(1, result['channels'])
+                    self.assertEqual(builder.parse_m3u(content), builder.parse_m3u((output / 'data/live.m3u').read_text()))
+                    published = json.loads((output / 'data/library.json').read_text())
+                    self.assertEqual(before, published); self.assertEqual(before, data)
+                    self.assertEqual([address], [item['url'] for item in json.loads((output / 'box.json').read_text())['lives']])
+                    hosting = json.loads((output / 'hosting.json').read_text())
+                    self.assertEqual(address, hosting['channelUrl']); self.assertEqual(1, hosting['channelCount'])
+            for address in ['https://gh-proxy.com/https://raw.githubusercontent.com/other/repository/source-data/data/live.m3u',
+                            'https://gh-proxy.com/https://raw.githubusercontent.com/' + repository + '/source-data/data/live.m3u?other=true',
+                            'https://example.com/source/data/live.m3u/../secret']:
+                data['live']['playlists'][0]['url'] = address
+                with self.subTest(unrelated=address), patch.object(builder, 'SOURCE', source):
+                    resolved = builder.resolve_channel_file(data, base, repository)
+                    self.assertNotIn('channelFile', resolved['live']); self.assertEqual([], resolved['live']['channels'])
 
     def test_empty_library_does_not_expand_remote_playlists_or_invent_movies(self):
         data = sample()

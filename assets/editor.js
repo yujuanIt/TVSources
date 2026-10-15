@@ -33,6 +33,10 @@ function channelsM3u(channels) {
     const attrs = Object.entries({ 'tvg-id': item.tvgId || '', 'tvg-name': item.name, 'tvg-logo': item.logo || '', 'group-title': item.group || '未分组', 'x-enabled': item.enabled === false ? 'false' : 'true' }).map(([key, value]) => key + '="' + escape(value) + '"').join(' ');
     for (const address of item.urls) {
       lines.push('#EXTINF:-1 ' + attrs + ',' + item.name);
+      for (const directive of item.directives || []) {
+        check(typeof directive === 'string' && !/[\r\n\u0000-\u001f\u007f]/.test(directive) && /^(#KODIPROP:|#EXTVLCOPT:)/.test(directive), '播放选项需要使用单行 KODIPROP / EXTVLCOPT');
+        lines.push(directive);
+      }
       for (const [name, value] of Object.entries(item.headers || {})) {
         check(typeof value === 'string' && !/[\r\n\u0000]/.test(value), '请求头需要不含换行的文字');
         if (name.toLowerCase() === 'user-agent') lines.push('#EXTVLCOPT:http-user-agent=' + value);

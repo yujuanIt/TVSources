@@ -79,6 +79,10 @@ def validate(data):
         url(entry.get('logo', ''), '频道图标', empty=True)
         text(entry.get('tvgId', ''), '频道 EPG 标识', True)
         headers(entry.get('headers', {}), '频道请求头')
+        require(isinstance(entry.get('directives', []), list), '频道播放选项必须是数组')
+        for directive in entry.get('directives', []):
+            text(directive, '频道播放选项')
+            require(directive.startswith(('#KODIPROP:', '#EXTVLCOPT:')), '频道播放选项仅支持 KODIPROP / EXTVLCOPT')
     categories = rows(vod.get('categories'), 'vod.categories')
     category_ids = set()
     for category in categories:
@@ -163,8 +167,13 @@ def parse_m3u(content):
         elif line.startswith('#EXTVLCOPT:'):
             require(pending is not None, f'live.m3u 第 {number} 行：请求头需要放在 EXTINF 后')
             option, separator, value = line.split(':', 1)[1].partition('=')
-            key = {'http-user-agent': 'User-Agent', 'http-referrer': 'Referer'}.get(option.lower())
+            key = {'http-user-agent': 'User-Agent', 'http-referrer': 'Referer', 'http-referer': 'Referer',
+                   'http-cookie': 'Cookie', 'http-origin': 'Origin'}.get(option.lower())
             if key and separator: pending['headers'][key] = value
+            else: pending.setdefault('directives', []).append(line)
+        elif line.startswith('#KODIPROP:'):
+            require(pending is not None, f'live.m3u 第 {number} 行：播放选项需要放在 EXTINF 后')
+            pending.setdefault('directives', []).append(line)
         elif line.startswith('#EXTHTTP:'):
             require(pending is not None, f'live.m3u 第 {number} 行：请求头需要放在 EXTINF 后')
             try:
@@ -176,7 +185,7 @@ def parse_m3u(content):
             require(pending is not None, f'live.m3u 第 {number} 行：播放地址缺少 EXTINF')
             url(line, f'live.m3u 第 {number} 行播放地址', True)
             key = (pending['group'], pending['name'], pending['logo'], pending['tvgId'], pending['enabled'],
-                   json.dumps(pending['headers'], sort_keys=True))
+                   json.dumps(pending['headers'], sort_keys=True), tuple(pending.get('directives', [])))
             if key not in merged:
                 merged[key] = pending; channels.append(pending)
             merged[key]['urls'].append(line)
@@ -185,11 +194,23 @@ def parse_m3u(content):
     return channels
 
 
-def resolve_channel_file(data, base_url=None):
+def source_endpoints(base_url, repository):
+    raw_base = 'https://raw.githubusercontent.com/' + repository + '/source-data/'
+    return [{'name': '免费加速 · GH-Proxy', 'base': 'https://gh-proxy.com/' + raw_base},
+            {'name': '备用加速 · GHFast', 'base': 'https://ghfast.top/' + raw_base},
+            {'name': 'GitHub Pages 原址', 'base': base_url.rstrip('/') + '/'},
+            {'name': 'GitHub Raw 原址', 'base': raw_base}]
+
+
+def project_m3u_urls(base_url, repository):
+    return {entry['base'] + 'data/live.m3u' for entry in source_endpoints(base_url, repository)}
+
+
+def resolve_channel_file(data, base_url=None, repository='yujuanIt/TVSources'):
     validate(data)
     resolved = copy.deepcopy(data)
     channel_file = resolved['live'].get('channelFile')
-    if not channel_file and base_url and any(item['url'] == base_url.rstrip('/') + '/data/live.m3u' for item in resolved['live']['playlists']):
+    if not channel_file and base_url and any(item['url'] in project_m3u_urls(base_url, repository) for item in resolved['live']['playlists']):
         channel_file = 'data/live.m3u'
     if channel_file:
         path = SOURCE / channel_file
@@ -229,6 +250,7 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
         # Repeat EXTINF for fallback URLs; compatible clients group equal names into routes.
         for address in channel['urls']:
             m3u.append('#EXTINF:-1 ' + attrs + ',' + channel['name'])
+            m3u.extend(channel.get('directives', []))
             for name, value in channel.get('headers', {}).items():
                 if name.lower() == 'user-agent': m3u.append('#EXTVLCOPT:http-user-agent=' + value)
                 if name.lower() == 'referer': m3u.append('#EXTVLCOPT:http-referrer=' + value)
@@ -257,17 +279,14 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
     stamp = {'name': data['name'], 'generatedAt': datetime.now(timezone.utc).isoformat(),
              'channels': len(active(live['channels'])), 'livePlaylists': len(active(live['playlists'])),
              'movies': len(movies), 'sites': len(active(vod['sites'])), 'warehouses': len(active(data['warehouses']))}
-    raw_base = 'https://raw.githubusercontent.com/' + repository + '/source-data/'
     hosting = {'repository': repository, 'editUrl': 'https://github.com/' + repository + '/edit/main/data/library.json',
-               'endpoints': [{'name': '免费加速 · GH-Proxy', 'base': 'https://gh-proxy.com/' + raw_base},
-                             {'name': '备用加速 · GHFast', 'base': 'https://ghfast.top/' + raw_base},
-                             {'name': 'GitHub Pages 原址', 'base': base_url},
-                             {'name': 'GitHub Raw 原址', 'base': raw_base}],
+               'endpoints': source_endpoints(base_url, repository),
                'warehouseGroups': group_links}
     if live.get('channelFile'):
         hosting['channelEditUrl'] = 'https://github.com/' + repository + '/edit/main/' + live['channelFile']
         if live['channelFile'] == 'data/live.m3u':
-            hosting.update(channelFile='data/live.m3u', channelUrl=base_url + 'data/live.m3u', channelCount=stamp['channels'])
+            channel_url = next((item['url'] for item in live['playlists'] if item['url'] in project_m3u_urls(base_url, repository)), base_url + 'data/live.m3u')
+            hosting.update(channelFile='data/live.m3u', channelUrl=channel_url, channelCount=stamp['channels'])
     vod_config = {key: value for key, value in box.items() if key != 'lives'}
     return {'box.json': box, 'vod.json': vod_config, 'catalog.json': catalog, 'live.json': live_json,
             'warehouse.json': warehouse, 'manifest.json': stamp, 'hosting.json': hosting, 'live.m3u': '\n'.join(m3u) + '\n',
@@ -276,7 +295,7 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
 
 
 def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
-    data = resolve_channel_file(data, base_url)
+    data = resolve_channel_file(data, base_url, repository)
     generated = build(data, base_url, repository)
     output = Path(output).resolve()
     require(output != SOURCE.resolve(), '输出目录必须与源文件目录分开')

@@ -59,6 +59,17 @@ test('M3U export rejects request headers that could introduce playlist lines', (
   assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /请求头/);
 });
 
+test('M3U export keeps player options without accepting extra playlist lines', () => {
+  const context = editor();
+  context.channels = [{ name: '频道', urls: ['https://example.com/live.mpd'], directives: ['#KODIPROP:inputstream.adaptive.manifest_type=mpd', '#EXTVLCOPT:network-caching=1000'] }];
+  const result = vm.runInContext('channelsM3u(channels)', context);
+  assert.ok(result.includes('#KODIPROP:inputstream.adaptive.manifest_type=mpd\n#EXTVLCOPT:network-caching=1000\nhttps://example.com/live.mpd'));
+  for (const directive of ['#KODIPROP:x=y\nhttps://other.example/', '#EXTHTTP:{}', 'https://other.example/']) {
+    context.channels[0].directives = [directive];
+    assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /播放选项/);
+  }
+});
+
 test('URL-based M3U stays a playlist link when copying configuration', () => {
   const context = editor();
   context.input = { live: { channelFile: 'live.m3u', channels: [{ name: '旧草稿频道' }], playlists: [{ name: '我的 M3U', url: 'https://example.com/data/live.m3u' }] } };

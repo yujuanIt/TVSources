@@ -2,7 +2,7 @@
 
 网站：[居安源站](https://yujuanit.github.io/TVSources/)。已按用户要求同步 App 默认源地址，之后可以自行添加、改名、停用或删除；只维护配置和播放地址，没有复制影片文件。
 
-当前同步了 2 个直接点播接口（非凡、360），6 份完整 TVBox 配置（饭太硬、心魔、Clun、FongMI、香雅情、肥猫），以及 App 的 9 个默认直播列表。其中「居安直播 · 常看」已拆成 5 个自建频道，原列表保留为停用备份，另 8 个列表仍启用。配置与接口保持原地址，直播请求头与 App 一致；完整配置的插件、解析和站点内容继续由上游维护。
+当前维护 2 个直接点播接口（非凡、360）、6 份完整 TVBox 配置（饭太硬、心魔、Clun、FongMI、香雅情、肥猫）和直播订阅。`data/live.m3u` 已合并原有常看频道及 7 份直播列表，共 1,894 个频道条目、2,917 条播放线路。外部独立订阅仍保留原开关，常看原列表保持停用备份；需要精简 App 的直播列表时，可以在 `data/library.json` 停用已合并的独立订阅。点播配置、接口、插件和解析仍由各自上游维护。
 
 ## 固定订阅地址
 
@@ -21,11 +21,25 @@
 
 原址备用：[综合源](https://yujuanit.github.io/TVSources/box.json)、[点播](https://yujuanit.github.io/TVSources/vod.json)、[直播 TXT](https://yujuanit.github.io/TVSources/live.txt)、[直播 M3U](https://yujuanit.github.io/TVSources/data/live.m3u)。网站总览提供 GHFast 与 GitHub Raw 的备用入口，切换下拉框后复制即可。
 
-综合源通过直播列表 URL 引用自己的 M3U：[data/live.m3u](https://yujuanit.github.io/TVSources/data/live.m3u)。频道内容在仓库 [data/live.m3u](https://github.com/yujuanIt/TVSources/blob/main/data/live.m3u) 维护，订阅名称与 URL 在 `data/library.json` 的 `live.playlists` 中维护。发布后的 `live.channels` 保持空数组，不再把 M3U 频道重复写成内嵌 JSON；旧 `/live.m3u`、`live.txt`、`live.json` 仍输出兼容内容。
+综合源默认通过免费加速链接引用自己的 [data/live.m3u](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u)。频道内容在仓库 [data/live.m3u](https://github.com/yujuanIt/TVSources/blob/main/data/live.m3u) 维护，订阅名称与 URL 在 `data/library.json` 的 `live.playlists` 中维护。网页「复制 M3U 链接」也使用这个加速地址。发布后的 `live.channels` 保持空数组，不再把 M3U 频道重复写成内嵌 JSON；旧 `/live.m3u`、`live.txt`、`live.json` 仍输出兼容内容。
 
-2026-10-15 按用户要求展开了 [常看列表](https://live.yang-1989.eu.org/sub/yujuan.m3u)，当时返回 5 个频道、3 个分组：抖音「游戏」2 个、虎牙「娱乐」1 个、抖音「娱乐」2 个。频道名称、原始分组、图标、播放地址和原列表的 User-Agent 均保留。这是一次导入，后续编辑不会被上游列表覆盖；上游以后增删频道也不会自动改动这 5 项。此次仅转换清单，未据此宣称各频道均能实际播放。
+2026-10-15 按用户要求合并以下列表，原有 5 个常看频道保留在前。合并按分组、名称、台标、EPG 标识、请求头和播放选项识别相同频道；相同频道下完全相同的播放地址只保留一次，共去掉 155 条重复线路。不同请求头或播放选项不会混用，IPv4、IPv4 备用和 IPv6 的分组添加相应前缀；频道地址及签名参数保持原样，两个台标地址中的空格编码为 `%20`。
 
-TXT 使用 `分组名,#genre#` 和 `频道名,播放地址` 格式，备用线路逐行列出。TXT 不包含图标与请求头，需要这些信息时使用 M3U / JSON；综合源默认使用保留完整信息的 JSON。
+| 来源 | 读取的频道条目 | 新增频道条目 | 新增播放线路 |
+| --- | ---: | ---: | ---: |
+| [IPTV IPv4 · 综合](https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u) | 224 | 224 | 473 |
+| [IPTV IPv4 · 备用](https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u) | 96 | 96 | 96 |
+| [电视 · IPTV](https://iptv.yang-1989.xyz/playlist.m3u) | 329 | 329 | 341 |
+| [myTV · 港澳](https://iptv.yang-1989.xyz/myTV/playlist.m3u) | 93 | 91 | 91 |
+| [体育 · 赛事](https://migu.yang-1989.xyz/playlist.m3u) | 151 | 0 | 0 |
+| [IPTV IPv6](https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u) | 541 | 541 | 1,303 |
+| [网络直播](https://live.yang-1989.eu.org/Live.m3u) | 610 | 608 | 608 |
+
+体育列表此次全部包含在电视 IPTV 中，仍保留其频道及线路；[Gather](https://yang-1989.eu.org/Gather.json) 引用的三份列表也均已覆盖，不重复展开。myTV 的 245 条 `KODIPROP` 播放选项保留在 M3U 中，是否能使用这些选项取决于播放器支持；没有新增 DRM 适配或解密逻辑。IPv6 分组需要设备和网络具备 IPv6 连通性。
+
+这是一次清单导入，之后可自行编辑，不会定时从上游覆盖文件。此次检查了列表读取、去重、播放地址与请求头保留以及输出格式，没有逐台验证实际播放。
+
+TXT 使用 `分组名,#genre#` 和 `频道名,播放地址` 格式，备用线路逐行列出。TXT 不包含图标与请求头，需要这些信息时使用 M3U / JSON；综合源默认引用 M3U，额外的播放器选项也保留在 M3U 输出中。
 
 多仓分组随已启用的外部配置数量自动生成，网页总览会列出当前全部分组。删除配置后可能减少分组数，请以网页显示为准。此处同步的是 App 默认地址，没有重新逐条验证所有影片与频道的实际播放。
 
@@ -56,7 +70,7 @@ https://example.com/live.m3u8
 ## 内容格式
 
 - `live.playlists`：外部 M3U / TXT / 直播 JSON 地址，用 `name`、`url` 和可选 `headers`。
-- 默认不再填写 `live.channelFile`。自己的 M3U 也在 `live.playlists` 中以 URL 引用，例如 `https://yujuanit.github.io/TVSources/data/live.m3u`；构建器仅为本站这条链接生成兼容输出，不读取其他远程列表。
+- 默认不再填写 `live.channelFile`。自己的 M3U 也在 `live.playlists` 中以 URL 引用，默认用 GH-Proxy 加速地址；构建器识别本站 Pages、Raw、GH-Proxy、GHFast 的完整 M3U 地址，并从本地 `data/live.m3u` 生成输出，不读取其他远程列表。
 - `live.channels`：默认保持空数组以兼容 App，不再存放自建 M3U 的频道副本。旧配置仍可使用 JSON 频道；本项目的频道内容直接改 `data/live.m3u`。
 - `vod.sites`：采集 API 或脚本条目，需要唯一 `key`、名称 `name`、接口 `type`（JSON=1、XML=0、HTTP=4、插件=3）、地址 `api`；可选 `headers`、`ext`、`playUrl`、`jar`。`csp_` 类型必须配置 JAR；已有一整份 TVBox JSON 请放 `warehouses`，不要当成采集 API。
 - 当前默认配置不包含 `vod.movies`，只维护点播接口与完整配置。构建器、网页和新版 App 允许省略该字段，不会插入空的自建片库入口。旧备份若包含自有影片仍可读取；省略字段时网页隐藏「自有影片」。
