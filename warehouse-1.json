@@ -1,0 +1,28 @@
+{
+  "urls": [
+    {
+      "name": "居安的源",
+      "url": "./box.json"
+    },
+    {
+      "name": "饭太硬 · 点播与直播",
+      "url": "http://www.饭太硬.net/tv"
+    },
+    {
+      "name": "心魔在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
+    },
+    {
+      "name": "Clun在线",
+      "url": "https://clun.top/box.json"
+    },
+    {
+      "name": "FongMI线路",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json"
+    },
+    {
+      "name": "香雅情",
+      "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+    }
+  ]
+}

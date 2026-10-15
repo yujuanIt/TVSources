@@ -1,0 +1,100 @@
+{
+  "sites": [
+    {
+      "key": "juan_personal",
+      "name": "居安片库",
+      "type": 3,
+      "api": "./vod.js",
+      "ext": "./catalog.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "app_feifan",
+      "name": "非凡资源",
+      "type": 1,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "key": "app_360",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/"
+    }
+  ],
+  "lives": [
+    {
+      "name": "居安直播",
+      "type": 0,
+      "url": "./live.json"
+    },
+    {
+      "name": "居安直播 · 常看",
+      "type": 0,
+      "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      }
+    },
+    {
+      "name": "居安直播 · 全部频道",
+      "type": 0,
+      "url": "https://live.yang-1989.eu.org/Live.m3u",
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      }
+    },
+    {
+      "name": "电视 · IPTV",
+      "type": 0,
+      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      }
+    },
+    {
+      "name": "myTV · 港澳",
+      "type": 0,
+      "url": "https://iptv.yang-1989.xyz/myTV/playlist.m3u",
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      }
+    },
+    {
+      "name": "体育 · 赛事",
+      "type": 0,
+      "url": "https://migu.yang-1989.xyz/playlist.m3u",
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      }
+    },
+    {
+      "name": "Gather · 直播合集",
+      "type": 0,
+      "url": "https://yang-1989.eu.org/Gather.json",
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      }
+    },
+    {
+      "name": "IPTV IPv4 · 综合",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+      "headers": {}
+    },
+    {
+      "name": "IPTV IPv4 · 备用",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+      "headers": {}
+    },
+    {
+      "name": "IPTV IPv6 · 需要 IPv6 网络",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+      "headers": {}
+    }
+  ],
+  "parses": []
+}

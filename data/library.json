@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "name": "居安的源",
+  "live": {
+    "name": "居安直播",
+    "playlists": [
+      {
+        "name": "居安直播 · 常看",
+        "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
+        "enabled": true,
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        }
+      },
+      {
+        "name": "居安直播 · 全部频道",
+        "url": "https://live.yang-1989.eu.org/Live.m3u",
+        "enabled": true,
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        }
+      },
+      {
+        "name": "电视 · IPTV",
+        "url": "https://iptv.yang-1989.xyz/playlist.m3u",
+        "enabled": true,
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        }
+      },
+      {
+        "name": "myTV · 港澳",
+        "url": "https://iptv.yang-1989.xyz/myTV/playlist.m3u",
+        "enabled": true,
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        }
+      },
+      {
+        "name": "体育 · 赛事",
+        "url": "https://migu.yang-1989.xyz/playlist.m3u",
+        "enabled": true,
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        }
+      },
+      {
+        "name": "Gather · 直播合集",
+        "url": "https://yang-1989.eu.org/Gather.json",
+        "enabled": true,
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        }
+      },
+      {
+        "name": "IPTV IPv4 · 综合",
+        "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+        "enabled": true
+      },
+      {
+        "name": "IPTV IPv4 · 备用",
+        "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+        "enabled": true
+      },
+      {
+        "name": "IPTV IPv6 · 需要 IPv6 网络",
+        "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+        "enabled": true
+      }
+    ],
+    "channels": []
+  },
+  "vod": {
+    "name": "居安片库",
+    "categories": [
+      {
+        "id": "movie",
+        "name": "电影"
+      },
+      {
+        "id": "series",
+        "name": "电视剧"
+      },
+      {
+        "id": "variety",
+        "name": "综艺"
+      },
+      {
+        "id": "animation",
+        "name": "动漫"
+      },
+      {
+        "id": "documentary",
+        "name": "纪录片"
+      },
+      {
+        "id": "short",
+        "name": "短剧"
+      }
+    ],
+    "movies": [],
+    "sites": [
+      {
+        "key": "app_feifan",
+        "name": "非凡资源",
+        "type": 1,
+        "api": "https://api.ffzyapi.com/api.php/provide/vod/",
+        "enabled": true
+      },
+      {
+        "key": "app_360",
+        "name": "360资源",
+        "type": 1,
+        "api": "https://360zy.com/api.php/provide/vod/",
+        "enabled": true
+      }
+    ]
+  },
+  "warehouses": [
+    {
+      "name": "饭太硬 · 点播与直播",
+      "url": "http://www.饭太硬.net/tv",
+      "enabled": true
+    },
+    {
+      "name": "心魔在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "enabled": true
+    },
+    {
+      "name": "Clun在线",
+      "url": "https://clun.top/box.json",
+      "enabled": true
+    },
+    {
+      "name": "FongMI线路",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+      "enabled": true
+    },
+    {
+      "name": "香雅情",
+      "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "enabled": true
+    },
+    {
+      "name": "默认影视源 · 肥猫",
+      "url": "https://www.iyouhun.com/tv/fm",
+      "enabled": true
+    }
+  ]
+}

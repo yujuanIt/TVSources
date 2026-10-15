@@ -1,0 +1,34 @@
+{
+  "repository": "yujuanIt/TVSources",
+  "editUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/library.json",
+  "endpoints": [
+    {
+      "name": "免费加速 · GH-Proxy",
+      "base": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/"
+    },
+    {
+      "name": "备用加速 · GHFast",
+      "base": "https://ghfast.top/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/"
+    },
+    {
+      "name": "GitHub Pages 原址",
+      "base": "https://yujuanit.github.io/TVSources/"
+    },
+    {
+      "name": "GitHub Raw 原址",
+      "base": "https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/"
+    }
+  ],
+  "warehouseGroups": [
+    {
+      "name": "多仓分组 1",
+      "path": "warehouse-1.json",
+      "count": 6
+    },
+    {
+      "name": "多仓分组 2",
+      "path": "warehouse-2.json",
+      "count": 1
+    }
+  ]
+}
