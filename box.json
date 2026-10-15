@@ -17,7 +17,7 @@
     {
       "name": "居安直播 · 我的 M3U",
       "type": 0,
-      "url": "https://yujuanit.github.io/TVSources/data/live.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u",
       "headers": {}
     },
     {
