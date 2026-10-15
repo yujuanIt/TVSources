@@ -7,7 +7,7 @@
       {
         "name": "居安直播 · 常看",
         "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
-        "enabled": true,
+        "enabled": false,
         "headers": {
           "User-Agent": "okhttp/3.8.1"
         }
@@ -68,7 +68,74 @@
         "enabled": true
       }
     ],
-    "channels": []
+    "channels": [
+      {
+        "name": "小海锤石",
+        "group": "•抖音「游戏」",
+        "logo": "https://live.yang-1989.eu.org/logo/douyin/xiaohaichuishi",
+        "tvgId": "",
+        "urls": [
+          "https://cdn.ttvb.eu.org/douyin/xiaohaichuishi"
+        ],
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        },
+        "enabled": true
+      },
+      {
+        "name": "V1ncent丶文森特",
+        "group": "•虎牙「娱乐」",
+        "logo": "https://live.yang-1989.eu.org/logo/huya/949527",
+        "tvgId": "",
+        "urls": [
+          "https://cdn.ttvb.eu.org/huya/949527"
+        ],
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        },
+        "enabled": true
+      },
+      {
+        "name": "文森特",
+        "group": "•抖音「游戏」",
+        "logo": "https://live.yang-1989.eu.org/logo/douyin/398094734626",
+        "tvgId": "",
+        "urls": [
+          "https://cdn.ttvb.eu.org/douyin/398094734626"
+        ],
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        },
+        "enabled": true
+      },
+      {
+        "name": "狙神寒冰",
+        "group": "•抖音「娱乐」",
+        "logo": "https://live.yang-1989.eu.org/logo/douyin/67734176053",
+        "tvgId": "",
+        "urls": [
+          "https://cdn.ttvb.eu.org/douyin/67734176053"
+        ],
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        },
+        "enabled": true
+      },
+      {
+        "name": "帅兄盖伦（大招流寒冰）",
+        "group": "•抖音「娱乐」",
+        "logo": "https://live.yang-1989.eu.org/logo/douyin/22719830516",
+        "tvgId": "",
+        "urls": [
+          "https://cdn.ttvb.eu.org/douyin/22719830516"
+        ],
+        "headers": {
+          "User-Agent": "okhttp/3.8.1"
+        },
+        "enabled": true
+      }
+    ],
+    "channelFile": "live.m3u"
   },
   "vod": {
     "name": "居安片库",
@@ -98,7 +165,6 @@
         "name": "短剧"
       }
     ],
-    "movies": [],
     "sites": [
       {
         "key": "app_feifan",

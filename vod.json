@@ -1,16 +1,6 @@
 {
   "sites": [
     {
-      "key": "juan_personal",
-      "name": "居安片库",
-      "type": 3,
-      "api": "./vod.js",
-      "ext": "./catalog.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "app_feifan",
       "name": "非凡资源",
       "type": 1,

@@ -1,4 +1,70 @@
 {
   "name": "居安直播",
-  "groups": []
+  "groups": [
+    {
+      "name": "•抖音「游戏」",
+      "channels": [
+        {
+          "name": "小海锤石",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/xiaohaichuishi",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/xiaohaichuishi"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          }
+        },
+        {
+          "name": "文森特",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/398094734626",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/398094734626"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "•虎牙「娱乐」",
+      "channels": [
+        {
+          "name": "V1ncent丶文森特",
+          "logo": "https://live.yang-1989.eu.org/logo/huya/949527",
+          "urls": [
+            "https://cdn.ttvb.eu.org/huya/949527"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "•抖音「娱乐」",
+      "channels": [
+        {
+          "name": "狙神寒冰",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/67734176053",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/67734176053"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          }
+        },
+        {
+          "name": "帅兄盖伦（大招流寒冰）",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/22719830516",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/22719830516"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          }
+        }
+      ]
+    }
+  ]
 }

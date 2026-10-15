@@ -1,16 +1,6 @@
 {
   "sites": [
     {
-      "key": "juan_personal",
-      "name": "居安片库",
-      "type": 3,
-      "api": "./vod.js",
-      "ext": "./catalog.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "app_feifan",
       "name": "非凡资源",
       "type": 1,
@@ -28,14 +18,6 @@
       "name": "居安直播",
       "type": 0,
       "url": "./live.json"
-    },
-    {
-      "name": "居安直播 · 常看",
-      "type": 0,
-      "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
-      "headers": {
-        "User-Agent": "okhttp/3.8.1"
-      }
     },
     {
       "name": "居安直播 · 全部频道",
