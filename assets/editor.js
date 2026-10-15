@@ -32,7 +32,9 @@ function channelsM3u(channels) {
   for (const item of channels) {
     const attrs = Object.entries({ 'tvg-id': item.tvgId || '', 'tvg-name': item.name, 'tvg-logo': item.logo || '', 'group-title': item.group || '未分组', 'x-enabled': item.enabled === false ? 'false' : 'true' }).map(([key, value]) => key + '="' + escape(value) + '"').join(' ');
     for (const address of item.urls) {
-      lines.push('#EXTINF:-1 ' + attrs + ',' + item.name);
+      const origins = item.origins?.[address] || [];
+      check(Array.isArray(origins) && origins.length <= 64 && origins.every(id => typeof id === 'string' && /^[A-Za-z0-9_-]+$/.test(id)) && new Set(origins).size === origins.length, '线路来源需要不重复的有效 ID');
+      lines.push('#EXTINF:-1 ' + attrs + (origins.length ? ' x-source-id="' + origins.join(',') + '"' : '') + ',' + item.name);
       for (const directive of item.directives || []) {
         check(typeof directive === 'string' && !/[\r\n\u0000-\u001f\u007f]/.test(directive) && /^(#KODIPROP:|#EXTVLCOPT:)/.test(directive), '播放选项需要使用单行 KODIPROP / EXTVLCOPT');
         lines.push(directive);
@@ -59,7 +61,13 @@ function validate(value) {
   }
   const safeUrl = (url, live = false) => { try { const u = new URL(url); return (live ? ['http:', 'https:', 'rtsp:', 'rtmp:', 'udp:', 'rtp:'] : ['http:', 'https:']).includes(u.protocol) && !!u.hostname && !u.username && !u.password && !/[\s\u0000-\u001f]/.test(url); } catch { return false; } };
   value.live.playlists.forEach(row => check(row.name && safeUrl(row.url), '直播列表需要名称和完整的 HTTP(S) 地址'));
-  value.live.channels.forEach(row => { check(row.name && Array.isArray(row.urls) && row.urls.length && row.urls.every(url => safeUrl(url, true)), '频道需要名称和至少一条有效线路'); check(!row.logo || safeUrl(row.logo), '频道图标需要 HTTP(S) 地址'); });
+  value.live.channels.forEach(row => {
+    check(row.name && Array.isArray(row.urls) && row.urls.length && row.urls.every(url => safeUrl(url, true)), '频道需要名称和至少一条有效线路'); check(!row.logo || safeUrl(row.logo), '频道图标需要 HTTP(S) 地址');
+    if (row.origins !== undefined) {
+      check(row.origins && typeof row.origins === 'object' && !Array.isArray(row.origins), '频道来源需要按线路索引的对象');
+      for (const [address, origins] of Object.entries(row.origins)) check(row.urls.includes(address) && Array.isArray(origins) && origins.length <= 64 && origins.every(id => typeof id === 'string' && /^[A-Za-z0-9_-]+$/.test(id)) && new Set(origins).size === origins.length, '来源需要对应已有线路且使用有效 ID');
+    }
+  });
   const ids = new Set(), categories = new Set(value.vod.categories.map(c => c.id));
   movies.forEach(row => {
     check(row.name && /^[\w-]+$/.test(row.id) && !ids.has(row.id), '影片需要名称和唯一 ID'); ids.add(row.id);
@@ -93,6 +101,7 @@ function render() {
   $('draft-state').textContent = dirty ? '● 本机草稿 · 尚未发布' : '● 与线上版本一致'; $('undo').disabled = !undo.length;
   $('source-name').value = data.name; $('live-name').value = data.live.name; $('vod-name').value = data.vod.name; $('raw-json').value = pretty(editableConfig(data));
   $('m3u-maintenance').hidden = !data.live.channelFile && !m3uLinkMode();
+  $('live-sources-link').hidden = hosting?.liveSources !== 'data/live-sources.json';
   $('channel-editor').hidden = m3uLinkMode();
   $('copy-m3u').textContent = m3uLinkMode() ? '复制 M3U 链接' : '复制频道 M3U';
   $('copy-json').textContent = data.live.channelFile ? '复制接口与订阅配置' : '复制完整配置';

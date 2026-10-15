@@ -19,64 +19,6 @@
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u",
       "headers": {}
-    },
-    {
-      "name": "居安直播 · 全部频道",
-      "type": 0,
-      "url": "https://live.yang-1989.eu.org/Live.m3u",
-      "headers": {
-        "User-Agent": "okhttp/3.8.1"
-      }
-    },
-    {
-      "name": "电视 · IPTV",
-      "type": 0,
-      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
-      "headers": {
-        "User-Agent": "okhttp/3.8.1"
-      }
-    },
-    {
-      "name": "myTV · 港澳",
-      "type": 0,
-      "url": "https://iptv.yang-1989.xyz/myTV/playlist.m3u",
-      "headers": {
-        "User-Agent": "okhttp/3.8.1"
-      }
-    },
-    {
-      "name": "体育 · 赛事",
-      "type": 0,
-      "url": "https://migu.yang-1989.xyz/playlist.m3u",
-      "headers": {
-        "User-Agent": "okhttp/3.8.1"
-      }
-    },
-    {
-      "name": "Gather · 直播合集",
-      "type": 0,
-      "url": "https://yang-1989.eu.org/Gather.json",
-      "headers": {
-        "User-Agent": "okhttp/3.8.1"
-      }
-    },
-    {
-      "name": "IPTV IPv4 · 综合",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
-      "headers": {}
-    },
-    {
-      "name": "IPTV IPv4 · 备用",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
-      "headers": {}
-    },
-    {
-      "name": "IPTV IPv6 · 需要 IPv6 网络",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
-      "headers": {}
     }
   ],
   "parses": []
