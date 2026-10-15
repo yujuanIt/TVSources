@@ -59,6 +59,19 @@ test('M3U export rejects request headers that could introduce playlist lines', (
   assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /请求头/);
 });
 
+test('M3U export keeps per-route source IDs without changing channel names or playback URLs', () => {
+  const context = editor();
+  const url = 'https://example.com/live?sign=a+b%2F';
+  context.channels = [{ name: '我的频道', urls: [url], origins: { [url]: ['alpha', 'beta'] } }];
+  const m3u = vm.runInContext('channelsM3u(channels)', context);
+  assert.ok(m3u.includes('x-source-id="alpha,beta",我的频道\n' + url));
+  assert.equal(context.channels[0].name, '我的频道');
+  for (const value of [['bad\nline'], ['../private'], ['alpha', 'alpha'], {}]) {
+    context.channels[0].origins[url] = value;
+    assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /来源/);
+  }
+});
+
 test('M3U export keeps player options without accepting extra playlist lines', () => {
   const context = editor();
   context.channels = [{ name: '频道', urls: ['https://example.com/live.mpd'], directives: ['#KODIPROP:inputstream.adaptive.manifest_type=mpd', '#EXTVLCOPT:network-caching=1000'] }];

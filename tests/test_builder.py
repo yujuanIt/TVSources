@@ -30,7 +30,68 @@ def sample():
     return data
 
 
+def live_sources():
+    return {'version': 1, 'playlist': 'data/live.m3u', 'automaticSyncEnabled': False,
+            'sources': [{'id': 'alpha', 'name': '来源甲', 'url': 'https://example.com/alpha.m3u', 'format': 'm3u'},
+                        {'id': 'beta', 'name': '来源乙', 'url': 'https://example.com/beta.m3u', 'format': 'm3u'},
+                        {'id': 'collection', 'name': '合集', 'url': 'https://example.com/box.json', 'format': 'tvbox-lives', 'enabled': False, 'includes': ['alpha', 'beta']}],
+            'mergePolicy': {'sourceOrder': ['alpha', 'beta']}}
+
+
 class BuilderTests(unittest.TestCase):
+    def test_provenance_roundtrip_keeps_per_route_sources_without_splitting_or_renaming_channels(self):
+        data = sample(); channel = data['live']['channels'][0]
+        channel['origins'] = {channel['urls'][0]: ['alpha', 'beta'], channel['urls'][1]: ['beta']}
+        before = copy.deepcopy(data); registry = live_sources(); saved = copy.deepcopy(registry)
+        out = builder.build(data, 'https://example.com/', source_registry=registry)
+        self.assertEqual([{**channel, 'tvgId': '', 'enabled': True}], builder.parse_m3u(out['live.m3u']))
+        self.assertIn('x-source-id="alpha,beta" x-source-name="来源甲 / 来源乙"', out['data/live.m3u'])
+        self.assertIn('#SOURCE-MANIFEST:https://example.com/data/live-sources.json', out['live.m3u'])
+        self.assertEqual(channel['origins'], out['live.json']['groups'][0]['channels'][0]['origins'])
+        self.assertEqual(before, data); self.assertEqual(saved, registry)
+
+    def test_invalid_or_unknown_provenance_is_rejected_before_output(self):
+        for origins in [{'https://example.com/not-in-this-channel': ['alpha']},
+                        {'https://example.com/live.m3u8?token=a%2Bb%2F&sign=abc': ['alpha\n#EXTINF:-1']},
+                        {'https://example.com/live.m3u8?token=a%2Bb%2F&sign=abc': [{}]}]:
+            data = sample(); data['live']['channels'][0]['origins'] = origins
+            with self.subTest(origins=origins), self.assertRaises(ValueError): builder.build(data, 'https://example.com/')
+        data = sample(); channel = data['live']['channels'][0]; channel['origins'] = {channel['urls'][0]: ['unknown']}
+        with self.assertRaises(ValueError): builder.build(data, 'https://example.com/', source_registry=live_sources())
+        for attr in ['alpha,../bad', 'alpha,beta&x=y', 'alpha,,beta']:
+            with self.subTest(attr=attr), self.assertRaises(ValueError): builder.parse_m3u('#EXTM3U\n#EXTINF:-1 x-source-id="' + attr + '",频道\nhttps://example.com/live\n')
+
+    def test_registry_checks_ids_addresses_collection_members_and_merge_order(self):
+        builder.validate_live_sources(live_sources())
+        for change in [lambda d: d.update(playlist='../private'),
+                       lambda d: d['sources'].append(copy.deepcopy(d['sources'][0])),
+                       lambda d: d['sources'][0].update(url='file:///private'),
+                       lambda d: d['sources'][2].update(includes=['missing']),
+                       lambda d: d['sources'][2].update(includes=['collection']),
+                       lambda d: d['sources'][0].update(headers={'User-Agent': 'bad\nheader'}),
+                       lambda d: d['mergePolicy'].update(sourceOrder=['alpha']),
+                       lambda d: d['sources'][2].update(enabled=True)]:
+            registry = live_sources(); change(registry)
+            with self.subTest(registry=registry), self.assertRaises(ValueError): builder.validate_live_sources(registry)
+
+    def test_source_registry_is_published_and_bad_registry_leaves_the_previous_site_intact(self):
+        with tempfile.TemporaryDirectory() as temp:
+            source = Path(temp) / 'source'; (source / 'data').mkdir(parents=True)
+            shutil.copy2(ROOT / 'index.html', source / 'index.html'); shutil.copytree(ROOT / 'assets', source / 'assets')
+            registry = source / 'data/live-sources.json'; registry.write_text(json.dumps(live_sources()))
+            output = Path(temp) / 'site'
+            with patch.object(builder, 'SOURCE', source):
+                builder.publish_files(sample(), 'https://example.com/', output)
+                self.assertEqual(live_sources(), json.loads((output / 'data/live-sources.json').read_text()))
+                self.assertEqual('data/live-sources.json', json.loads((output / 'hosting.json').read_text())['liveSources'])
+                previous = (output / 'data/live.m3u').read_text()
+                registry.write_text('{"version":99}')
+                with self.assertRaises(ValueError): builder.publish_files(sample(), 'https://example.com/', output)
+                self.assertEqual(previous, (output / 'data/live.m3u').read_text())
+                registry.unlink(); builder.publish_files(sample(), 'https://example.com/', output)
+                self.assertFalse((output / 'data/live-sources.json').exists())
+                self.assertNotIn('liveSources', json.loads((output / 'hosting.json').read_text()))
+
     def test_source_only_library_omits_movies_without_creating_an_empty_personal_site(self):
         data = sample(); data['vod'].pop('movies')
         before = copy.deepcopy(data)
@@ -345,6 +406,7 @@ class PublisherTests(unittest.TestCase):
             self.assertIn('box.json', published); self.assertNotIn('app.txt', published)
             self.assertIn('live.txt', published)
             self.assertIn('data/live.m3u', published)
+            self.assertIn('data/live-sources.json', published)
             self.assertEqual((output / 'live.txt').read_text(), git('show', 'FETCH_HEAD:live.txt') + '\n')
             self.assertIn('warehouse-2.json', published)
             self.assertNotIn('README.md', published)
@@ -355,6 +417,10 @@ class PublisherTests(unittest.TestCase):
             rejected = subprocess.run(['python3', str(ROOT / 'scripts/publish-source-data.py'), '--directory', str(output)], cwd=repo, capture_output=True)
             self.assertNotEqual(0, rejected.returncode)
             self.assertEqual(before, git('diff', '--cached', '--binary'))
+            hosting['warehouseGroups'][0]['path'] = 'warehouse-1.json'; hosting['liveSources'] = '../private.txt'
+            (output / 'hosting.json').write_text(json.dumps(hosting))
+            rejected = subprocess.run(['python3', str(ROOT / 'scripts/publish-source-data.py'), '--directory', str(output)], cwd=repo, capture_output=True)
+            self.assertNotEqual(0, rejected.returncode); self.assertEqual(before, git('diff', '--cached', '--binary'))
 
 
 if __name__ == '__main__': unittest.main()

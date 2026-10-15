@@ -24,7 +24,15 @@ def main():
                 'box.json', 'vod.json', 'catalog.json', 'live.json', 'live.m3u', 'live.txt', 'warehouse.json', 'manifest.json', 'hosting.json'}
     try:
         entries = json.loads((directory / 'warehouse.json').read_text(encoding='utf-8'))['urls']
-        links = json.loads((directory / 'hosting.json').read_text(encoding='utf-8')).get('warehouseGroups', [])
+        hosting = json.loads((directory / 'hosting.json').read_text(encoding='utf-8'))
+        links = hosting.get('warehouseGroups', [])
+        if 'liveSources' in hosting:
+            if hosting['liveSources'] != 'data/live-sources.json':
+                raise ValueError('Invalid live source registry path')
+            registry = json.loads((directory / 'data/live-sources.json').read_text(encoding='utf-8'))
+            if registry.get('version') != 1 or registry.get('playlist') != 'data/live.m3u' or not isinstance(registry.get('sources'), list):
+                raise ValueError('Invalid live source registry')
+            expected.add('data/live-sources.json')
         if not isinstance(entries, list) or not isinstance(links, list):
             raise ValueError('Invalid warehouse manifest')
         count = (len(entries) + 5) // 6 if len(entries) > 6 else 0

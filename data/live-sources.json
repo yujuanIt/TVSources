@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "playlist": "data/live.m3u",
+  "attribute": "x-source-id",
+  "automaticSyncEnabled": false,
+  "recordedAt": "2026-10-15",
+  "sources": [
+    {
+      "id": "yang-favorites",
+      "name": "居安直播 · 常看",
+      "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      },
+      "previouslyListed": true,
+      "previousEnabled": false,
+      "selection": {
+        "mode": "keep-selected",
+        "names": [
+          "小海锤石",
+          "V1ncent丶文森特",
+          "文森特",
+          "狙神寒冰",
+          "帅兄盖伦（大招流寒冰）"
+        ]
+      },
+      "note": "最初从常看地址拆出的 5 个频道；SHA-256 对应保留的选取结果，不代表该地址完整响应。后续只更新这些选择。",
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "70957f558dade83b703aeb6bb9b28636837d7ef01bbe14718dad90f750856a5b",
+        "channels": 5,
+        "routes": 5
+      }
+    },
+    {
+      "id": "guovin-ipv4",
+      "name": "IPTV IPv4 · 综合",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {},
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "7b6f299f36c3a45312ccc24140905994eeeed8d2b756ab43a4f70c8e68cc7535",
+        "channels": 224,
+        "routes": 473
+      }
+    },
+    {
+      "id": "yuechan-ipv4",
+      "name": "IPTV IPv4 · 备用",
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {},
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "dfd5fc114051789c3c29c121e8f62a2da451bf4c337d9aaed3082278b8bdca47",
+        "channels": 96,
+        "routes": 96
+      }
+    },
+    {
+      "id": "yang-tv",
+      "name": "电视 · IPTV",
+      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      },
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "fd19aa98bb5a42470ad426c5eb01fc82d175308de04e3df9dc832bf6e23a0635",
+        "channels": 329,
+        "routes": 341
+      }
+    },
+    {
+      "id": "yang-mytv",
+      "name": "myTV · 港澳",
+      "url": "https://iptv.yang-1989.xyz/myTV/playlist.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      },
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "5f6a0701acc5e384fab8e154820d1eb73722b87e05ec22f64f87b94f40c59269",
+        "channels": 93,
+        "routes": 93
+      }
+    },
+    {
+      "id": "yang-sports",
+      "name": "体育 · 赛事",
+      "url": "https://migu.yang-1989.xyz/playlist.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      },
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "note": "首次导入时全部线路已被电视 IPTV 覆盖；仍登记共同来源，今后合并更新时去重。",
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "47950c6c3883ed4b51ff38ab31307fe4b622e54fca6ca954d7a22ee1ee1e2234",
+        "channels": 151,
+        "routes": 151
+      }
+    },
+    {
+      "id": "guovin-ipv6",
+      "name": "IPTV IPv6 · 需要 IPv6 网络",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {},
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "5d2042efc6370fcfdebcfb234f3a1b5b42017128fe7dba58abef92842fd3dead",
+        "channels": 541,
+        "routes": 1303
+      }
+    },
+    {
+      "id": "yang-network",
+      "name": "居安直播 · 全部频道",
+      "url": "https://live.yang-1989.eu.org/Live.m3u",
+      "format": "m3u",
+      "enabled": true,
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      },
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "412a6abd16bd75fd24f83ed5386885546cc1bb7318ffaeae742598bb281a08fb",
+        "channels": 610,
+        "routes": 610
+      }
+    },
+    {
+      "id": "yang-gather",
+      "name": "Gather · 直播合集",
+      "url": "https://yang-1989.eu.org/Gather.json",
+      "format": "tvbox-lives",
+      "enabled": false,
+      "headers": {
+        "User-Agent": "okhttp/3.8.1"
+      },
+      "previouslyListed": true,
+      "previousEnabled": true,
+      "includes": [
+        "yang-tv",
+        "yang-network",
+        "yang-mytv"
+      ],
+      "note": "合集只引用电视、网络、myTV；已单独登记子源，不重复展开或重复抓取。",
+      "lastImport": {
+        "date": "2026-10-15",
+        "sha256": "c76da9b42bad7b412deec92a079eef6da1e76f8af522a821a90e6851c3125baf"
+      }
+    }
+  ],
+  "mergePolicy": {
+    "sourceOrder": [
+      "yang-favorites",
+      "guovin-ipv4",
+      "yuechan-ipv4",
+      "yang-tv",
+      "yang-mytv",
+      "yang-sports",
+      "guovin-ipv6",
+      "yang-network"
+    ],
+    "routeIdentity": [
+      "exact-url",
+      "case-insensitive-header-names-with-exact-values",
+      "ordered-player-options"
+    ],
+    "onFetchFailure": "keep-last-good",
+    "onUpstreamRemoval": "keep-for-review",
+    "preserveLocalEdits": [
+      "name",
+      "group",
+      "tvgId",
+      "logo",
+      "enabled"
+    ],
+    "preservePlayback": [
+      "headers",
+      "directives",
+      "complete-url-including-signature"
+    ],
+    "notes": "这是后续同步程序的数据契约，目前不定时下载、不覆盖手工维护。签名更新应重新取上游列表，不能删改参数。"
+  },
+  "normalization": {
+    "displayLanguage": "zh-Hans",
+    "groupOrder": [
+      "央视",
+      "地方卫视",
+      "抖音",
+      "虎牙",
+      "B站",
+      "斗鱼",
+      "港澳台",
+      "体育",
+      "影视",
+      "少儿",
+      "音乐",
+      "游戏",
+      "综合频道",
+      "Twitch",
+      "SOOP",
+      "YY",
+      "公告"
+    ],
+    "preserveEpgIds": true
+  },
+  "baseline": {
+    "date": "2026-10-15",
+    "channels": 1825,
+    "routes": 2917,
+    "groups": 17
+  },
+  "attribution": {
+    "basis": "exact-playback-route-in-import-snapshots",
+    "multipleMatches": "record-all-matching-sources",
+    "note": "按原导入快照中的完整播放地址、请求头与播放器选项核对，不按域名猜测；相同线路在多个列表出现时保留所有匹配来源。"
+  }
+}

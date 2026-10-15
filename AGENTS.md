@@ -2,6 +2,7 @@
 
 - 这是独立公开的源站仓库 `yujuanIt/TVSources`，只维护静态页面、公开源地址、构建和测试工具。
 - 自建列表维护 `data/live.m3u`，在 `data/library.json` 的 `live.playlists` 中以完整 URL 引用，默认使用 GH-Proxy 加速；构建器识别本站 Pages、Raw、GH-Proxy、GHFast 地址，仍只读取本地 M3U。默认配置不再填写 `channelFile` 或内嵌频道，`live.channels` 保持空数组以兼容客户端，不下载其他远程列表。保留已有名称、开关、分组、图标、请求头、签名参数、KODIPROP / EXTVLCOPT 播放选项和影片条目。
+- 默认独立直播订阅只保留「我的 M3U」。已合并的上游依赖在 `data/live-sources.json` 登记，M3U 用 `x-source-id` / `x-source-name` 按线路注明来源；允许同一线路对应多个来源，来源标记不能改变频道合并身份。源清单和备注随静态站发布，但当前没有定时抓取 / 自动同步任务。不要把依赖清单重新注入 `live.playlists`，也不要在普通构建时联网刷新频道。后续同步程序应遵循清单里的去重、失败保留、本机编辑与中文分组规则。
 - 默认配置不包含 `vod.movies`，只维护直播与点播来源；缺省时按空片库读取，不自动补回该字段或空的自建片库入口。保留旧非空影片备份的读取兼容。
 - 不放入 Android 客户端源码、APK、签名文件、密码或私密令牌。公开 Git 历史也只包含本站文件。
 - 运行 `./scripts/check.sh` 检查 Python 构建器、JavaScript 片库和页面脚本。生成文件放在 `.tools/site/`。

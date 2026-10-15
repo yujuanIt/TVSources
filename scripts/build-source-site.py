@@ -83,6 +83,12 @@ def validate(data):
         for directive in entry.get('directives', []):
             text(directive, '频道播放选项')
             require(directive.startswith(('#KODIPROP:', '#EXTVLCOPT:')), '频道播放选项仅支持 KODIPROP / EXTVLCOPT')
+        origins = entry.get('origins', {})
+        require(isinstance(origins, dict), '频道 origins 必须是按播放地址索引的对象')
+        for address, source_ids in origins.items():
+            require(address in entry['urls'], '来源标记必须对应本频道已有线路')
+            require(isinstance(source_ids, list) and len(source_ids) <= 64 and all(isinstance(key, str) for key in source_ids) and len(set(source_ids)) == len(source_ids), '线路来源需要不重复的 ID 数组')
+            require(all(isinstance(key, str) and ID.fullmatch(key) for key in source_ids), '线路来源 ID 只能包含字母、数字、下划线和连字符')
     categories = rows(vod.get('categories'), 'vod.categories')
     category_ids = set()
     for category in categories:
@@ -137,6 +143,36 @@ def m3u_escape(value):
     return value.replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+def validate_live_sources(data):
+    require(isinstance(data, dict) and data.get('version') == 1, '直播来源清单需要 version: 1')
+    require(data.get('playlist') == 'data/live.m3u', '直播来源清单只管理 data/live.m3u')
+    require(isinstance(data.get('automaticSyncEnabled'), bool), 'automaticSyncEnabled 需要是布尔值')
+    sources = rows(data.get('sources'), '直播来源 sources'); require(0 < len(sources) <= 64, '直播来源需要 1–64 项')
+    known = {}
+    for source in sources:
+        key = text(source.get('id'), '上游 ID')
+        require(bool(ID.fullmatch(key)) and key not in known, '上游 ID 无效或重复')
+        known[key] = source
+        text(source.get('name'), '上游名称'); url(source.get('url'), '上游地址'); headers(source.get('headers', {}), '上游请求头')
+        require(source.get('format') in {'m3u', 'tvbox-lives'}, '上游格式需要 m3u 或 tvbox-lives')
+        snapshot = source.get('lastImport', {})
+        require(isinstance(snapshot, dict), 'lastImport 必须是对象')
+        if 'sha256' in snapshot:
+            require(isinstance(snapshot['sha256'], str) and bool(re.fullmatch(r'[0-9a-f]{64}', snapshot['sha256'])), '来源快照 SHA-256 无效')
+    for source in sources:
+        children = source.get('includes', [])
+        require(isinstance(children, list) and all(isinstance(key, str) and key in known and key != source['id'] for key in children), '合集 includes 需要引用已知子源')
+        require(not children or source['format'] == 'tvbox-lives', '只有合集可以声明 includes')
+        require(all(known[key]['format'] == 'm3u' for key in children), '合集只引用已登记的 M3U，不递归展开')
+    policy = data.get('mergePolicy', {})
+    require(isinstance(policy, dict), 'mergePolicy 必须是对象')
+    order = policy.get('sourceOrder', [])
+    require(isinstance(order, list) and all(isinstance(key, str) and key in known for key in order) and len(set(order)) == len(order), '合并顺序需要已知且不重复的上游 ID')
+    enabled = {source['id'] for source in sources if source.get('enabled', True)}
+    require(enabled == set(order) and all(known[key]['format'] == 'm3u' for key in enabled), '合并顺序需要包含所有启用的 M3U；已展开合集不重复抓取')
+    return data
+
+
 def parse_m3u(content):
     lines = content.lstrip('\ufeff').splitlines()
     require(bool(lines) and lines[0].strip().startswith('#EXTM3U'), 'live.m3u 第一行需要是 #EXTM3U')
@@ -161,6 +197,10 @@ def parse_m3u(content):
             pending = {'name': line[separator + 1:].strip() or attrs.get('tvg-name', ''),
                        'group': attrs.get('group-title', '') or '未分组', 'logo': attrs.get('tvg-logo', ''),
                        'tvgId': attrs.get('tvg-id', ''), 'urls': [], 'headers': {}, 'enabled': attrs.get('x-enabled') != 'false'}
+            if attrs.get('x-source-id'):
+                source_ids = attrs['x-source-id'].split(',')
+                require(len(source_ids) <= 64 and all(ID.fullmatch(key) for key in source_ids), f'live.m3u 第 {number} 行：来源 ID 无效')
+                pending['_sourceIds'] = list(dict.fromkeys(source_ids))
         elif line.startswith('#EXTGRP:'):
             require(pending is not None, f'live.m3u 第 {number} 行：分组需要放在 EXTINF 后')
             pending['group'] = line.split(':', 1)[1].strip() or '未分组'
@@ -184,11 +224,15 @@ def parse_m3u(content):
         elif not line.startswith('#'):
             require(pending is not None, f'live.m3u 第 {number} 行：播放地址缺少 EXTINF')
             url(line, f'live.m3u 第 {number} 行播放地址', True)
+            source_ids = pending.pop('_sourceIds', [])
             key = (pending['group'], pending['name'], pending['logo'], pending['tvgId'], pending['enabled'],
                    json.dumps(pending['headers'], sort_keys=True), tuple(pending.get('directives', [])))
             if key not in merged:
                 merged[key] = pending; channels.append(pending)
             merged[key]['urls'].append(line)
+            if source_ids:
+                origins = merged[key].setdefault('origins', {}).setdefault(line, [])
+                origins.extend(source_id for source_id in source_ids if source_id not in origins)
             pending = None
     require(pending is None, 'live.m3u 最后一个频道缺少播放地址')
     return channels
@@ -221,7 +265,7 @@ def resolve_channel_file(data, base_url=None, repository='yujuanIt/TVSources'):
     return resolved
 
 
-def build(data, base_url, repository='yujuanIt/TVSources'):
+def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None):
     validate(data); url(base_url, '站点地址'); base_url = base_url.rstrip('/') + '/'
     require(not urlsplit(base_url).query and not urlsplit(base_url).fragment, '站点地址不能包含查询参数或片段')
     live, vod = data['live'], data['vod']
@@ -241,15 +285,30 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
     for movie in movies:
         movie['typeName'] = class_names[movie['category']]
     catalog = {'name': vod['name'], 'categories': vod['categories'], 'movies': movies}
+    source_names = {}
     groups = {}; m3u = ['#EXTM3U']
+    if source_registry is not None:
+        validate_live_sources(source_registry)
+        source_names = {source['id']: source['name'] for source in source_registry['sources']}
+        m3u.append('#SOURCE-MANIFEST:' + base_url + 'data/live-sources.json')
+        for source in source_registry['sources']:
+            m3u.append('#SOURCE:' + json.dumps({key: source[key] for key in ['id', 'name', 'url']}, ensure_ascii=False, separators=(',', ':')))
     for channel in active(live['channels']):
         group = channel.get('group', '未分组')
-        groups.setdefault(group, []).append({'name': channel['name'], 'logo': channel.get('logo', ''),
-            'urls': channel['urls'], 'headers': channel.get('headers', {})})
+        public_channel = {'name': channel['name'], 'logo': channel.get('logo', ''), 'urls': channel['urls'], 'headers': channel.get('headers', {})}
+        if channel.get('origins'):
+            public_channel['origins'] = copy.deepcopy(channel['origins'])
+            if source_registry is not None:
+                require(all(key in source_names for ids in channel['origins'].values() for key in ids), 'M3U 线路引用了未登记的上游来源')
+        groups.setdefault(group, []).append(public_channel)
         attrs = 'tvg-id="{}" tvg-name="{}" tvg-logo="{}" group-title="{}"'.format(*(m3u_escape(v) for v in [channel.get('tvgId', ''), channel['name'], channel.get('logo', ''), group]))
         # Repeat EXTINF for fallback URLs; compatible clients group equal names into routes.
         for address in channel['urls']:
-            m3u.append('#EXTINF:-1 ' + attrs + ',' + channel['name'])
+            source_ids = channel.get('origins', {}).get(address, [])
+            source_attrs = ' x-source-id="' + ','.join(source_ids) + '"' if source_ids else ''
+            if source_ids and source_names:
+                source_attrs += ' x-source-name="' + m3u_escape(' / '.join(source_names[key] for key in source_ids)) + '"'
+            m3u.append('#EXTINF:-1 ' + attrs + source_attrs + ',' + channel['name'])
             m3u.extend(channel.get('directives', []))
             for name, value in channel.get('headers', {}).items():
                 if name.lower() == 'user-agent': m3u.append('#EXTVLCOPT:http-user-agent=' + value)
@@ -287,26 +346,35 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
         if live['channelFile'] == 'data/live.m3u':
             channel_url = next((item['url'] for item in live['playlists'] if item['url'] in project_m3u_urls(base_url, repository)), base_url + 'data/live.m3u')
             hosting.update(channelFile='data/live.m3u', channelUrl=channel_url, channelCount=stamp['channels'])
+    if source_registry is not None:
+        hosting['liveSources'] = 'data/live-sources.json'
     vod_config = {key: value for key, value in box.items() if key != 'lives'}
     return {'box.json': box, 'vod.json': vod_config, 'catalog.json': catalog, 'live.json': live_json,
             'warehouse.json': warehouse, 'manifest.json': stamp, 'hosting.json': hosting, 'live.m3u': '\n'.join(m3u) + '\n',
             'data/live.m3u': '\n'.join(m3u) + '\n', 'live.txt': '\n'.join(txt) + ('\n' if txt else ''),
-            **warehouse_groups}
+            **warehouse_groups, **({'data/live-sources.json': source_registry} if source_registry is not None else {})}
 
 
 def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
     data = resolve_channel_file(data, base_url, repository)
-    generated = build(data, base_url, repository)
+    registry_path = SOURCE / 'data/live-sources.json'
+    if registry_path.is_file():
+        require(not registry_path.is_symlink() and registry_path.resolve().is_relative_to(SOURCE.resolve()), '直播来源清单必须是仓库内的真实文件')
+    source_registry = json.loads(registry_path.read_text(encoding='utf-8')) if registry_path.is_file() else None
+    generated = build(data, base_url, repository, source_registry)
     output = Path(output).resolve()
     require(output != SOURCE.resolve(), '输出目录必须与源文件目录分开')
     require((output != ROOT and ROOT not in output.parents) or output.is_relative_to(ROOT / '.tools'), '仓库内的输出请放在 .tools 下')
     expected = {'index.html', 'assets/style.css', 'assets/editor.js', 'data/library.json', 'vod.js', '.nojekyll'} | set(generated)
     if output.exists():
         require(not any(p.is_symlink() for p in output.rglob('*')), '输出中不允许符号链接')
-        old_groups = [p for p in output.iterdir() if p.is_file() and re.fullmatch(r'warehouse-[1-9][0-9]*\.json', p.name) and p.name not in expected]
-        unexpected = [p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file() and p.relative_to(output).as_posix() not in expected and p not in old_groups]
+        obsolete = [p for p in output.iterdir() if p.is_file() and re.fullmatch(r'warehouse-[1-9][0-9]*\.json', p.name) and p.name not in expected]
+        registry_output = output / 'data/live-sources.json'
+        if registry_output.is_file() and 'data/live-sources.json' not in expected:
+            obsolete.append(registry_output)
+        unexpected = [p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file() and p.relative_to(output).as_posix() not in expected and p not in obsolete]
         require(not unexpected, '输出目录存在非发布文件，拒绝继续：' + ', '.join(unexpected))
-        for path in old_groups:
+        for path in obsolete:
             path.unlink()
     output.mkdir(parents=True, exist_ok=True)
     shutil.copy2(SOURCE / 'index.html', output / 'index.html')

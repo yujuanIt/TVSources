@@ -35,7 +35,7 @@
     </section>
     <section id="live" class="page" aria-labelledby="live-title">
       <div class="page-heading"><div><span class="eyebrow">LIVE TELEVISION</span><h1 id="live-title">喜欢的频道，都在这里。</h1><p>可以接入整个 M3U / TXT 列表，也可以自己维护分组、图标和多条播放线路。</p></div></div>
-      <div id="m3u-maintenance" class="card publish-card" hidden><h2>我的 M3U，也是一个订阅链接。</h2><p>列表文件在 data/live.m3u，data/library.json 的直播列表通过 URL 引用它。你可以编辑这个文件，也可以把订阅地址换成自己托管的 M3U 链接。</p><div class="button-row"><button id="copy-m3u" class="primary">复制频道 M3U</button><a id="github-live-edit" class="button" target="_blank" rel="noopener noreferrer">编辑 data/live.m3u ↗</a></div><p class="hint">改频道内容就编辑 data/live.m3u；改订阅地址就在直播列表中修改，并提交 data/library.json。</p></div>
+      <div id="m3u-maintenance" class="card publish-card" hidden><h2>我的 M3U，也是一个订阅链接。</h2><p>列表文件在 data/live.m3u，data/library.json 的直播列表通过 URL 引用它。你可以编辑这个文件，也可以把订阅地址换成自己托管的 M3U 链接。</p><div class="button-row"><button id="copy-m3u" class="primary">复制频道 M3U</button><a id="github-live-edit" class="button" target="_blank" rel="noopener noreferrer">编辑 data/live.m3u ↗</a><a id="live-sources-link" class="button" href="data/live-sources.json" target="_blank" rel="noopener noreferrer" hidden>查看导入来源 ↗</a></div><p class="hint">改频道内容就编辑 data/live.m3u；改订阅地址就在直播列表中修改，并提交 data/library.json。上游来源和后续同步规则记录在导入来源清单中，目前不会自动覆盖手工维护的频道。</p></div>
       <div id="channel-editor"><div class="section-title"><h2>我的频道</h2><button class="primary" data-add="channels">＋ 添加频道</button></div><div id="list-channels" class="item-list"></div></div>
       <div class="section-title"><h2>直播列表 · M3U / TXT / JSON</h2><button class="primary" data-add="playlists">＋ 添加直播列表</button></div><div id="list-playlists" class="item-list"></div>
     </section>
