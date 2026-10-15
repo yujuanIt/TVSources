@@ -7,7 +7,6 @@ on:
       - 'index.html'
       - 'assets/**'
       - 'data/**'
-      - 'live.m3u'
       - 'scripts/**'
       - 'tests/**'
       - '.github/workflows/source-pages.yml'

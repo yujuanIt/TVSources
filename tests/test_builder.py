@@ -122,6 +122,31 @@ class BuilderTests(unittest.TestCase):
             data = sample(); data['live']['channelFile'] = path
             with self.subTest(path=path), self.assertRaises(ValueError): builder.resolve_channel_file(data)
 
+    def test_project_m3u_is_a_data_url_without_duplicate_inline_channels(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp); source = root / 'source'; source.mkdir(); (source / 'data').mkdir()
+            shutil.copy2(ROOT / 'index.html', source / 'index.html'); shutil.copytree(ROOT / 'assets', source / 'assets')
+            path = source / 'data/live.m3u'; path.write_text('#EXTM3U\n#EXTINF:-1 group-title="我的分组",我的频道\nhttps://example.com/original?sig=a+b%2F\n', encoding='utf-8')
+            data = sample(); data['live']['channels'] = []
+            data['live']['playlists'] = [{'name': '我的 M3U', 'url': 'https://example.com/data/live.m3u', 'enabled': True}]
+            before = copy.deepcopy(data); output = root / 'site'
+            with patch.object(builder, 'SOURCE', source):
+                builder.publish_files(data, 'https://example.com/', output)
+                published = json.loads((output / 'data/library.json').read_text())
+                self.assertEqual([], published['live']['channels']); self.assertNotIn('channelFile', published['live'])
+                self.assertEqual(data['live']['playlists'], published['live']['playlists'])
+                lives = json.loads((output / 'box.json').read_text())['lives']
+                self.assertEqual(['https://example.com/data/live.m3u'], [item['url'] for item in lives])
+                self.assertEqual((output / 'data/live.m3u').read_text(), (output / 'live.m3u').read_text())
+                self.assertIn('original?sig=a+b%2F', (output / 'data/live.m3u').read_text())
+                hosting = json.loads((output / 'hosting.json').read_text())
+                self.assertEqual('https://example.com/data/live.m3u', hosting['channelUrl']); self.assertEqual(1, hosting['channelCount'])
+                self.assertTrue(hosting['channelEditUrl'].endswith('/data/live.m3u'))
+                path.write_text('#EXTM3U\n#EXTINF:-1,第二版频道\nhttps://example.com/updated\n', encoding='utf-8')
+                builder.publish_files(data, 'https://example.com/', output)
+                self.assertIn('第二版频道', (output / 'data/live.m3u').read_text()); self.assertNotIn('original', (output / 'data/live.m3u').read_text())
+            self.assertEqual(before, data)
+
     def test_empty_library_does_not_expand_remote_playlists_or_invent_movies(self):
         data = sample()
         data['live']['channels'] = []
@@ -277,6 +302,7 @@ class PublisherTests(unittest.TestCase):
             published = git('ls-tree', '-r', '--name-only', 'FETCH_HEAD').splitlines()
             self.assertIn('box.json', published); self.assertNotIn('app.txt', published)
             self.assertIn('live.txt', published)
+            self.assertIn('data/live.m3u', published)
             self.assertEqual((output / 'live.txt').read_text(), git('show', 'FETCH_HEAD:live.txt') + '\n')
             self.assertIn('warehouse-2.json', published)
             self.assertNotIn('README.md', published)

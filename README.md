@@ -15,13 +15,13 @@
 | 全部来源 · 多仓分组 1 | [warehouse-1.json](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/warehouse-1.json) |
 | 全部来源 · 多仓分组 2 | [warehouse-2.json](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/warehouse-2.json) |
 | 自建频道 TXT | [live.txt](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/live.txt) |
-| 自建频道 M3U | [live.m3u](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/live.m3u) |
+| 自建频道 M3U | [live.m3u](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u) |
 | 自建频道 JSON，保留完整请求头 | [live.json](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/live.json) |
 | 完整多仓索引，客户端可能限制一次导入数量 | [warehouse.json](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/warehouse.json) |
 
-原址备用：[综合源](https://yujuanit.github.io/TVSources/box.json)、[点播](https://yujuanit.github.io/TVSources/vod.json)、[直播 TXT](https://yujuanit.github.io/TVSources/live.txt)、[直播 M3U](https://yujuanit.github.io/TVSources/live.m3u)。网站总览提供 GHFast 与 GitHub Raw 的备用入口，切换下拉框后复制即可。
+原址备用：[综合源](https://yujuanit.github.io/TVSources/box.json)、[点播](https://yujuanit.github.io/TVSources/vod.json)、[直播 TXT](https://yujuanit.github.io/TVSources/live.txt)、[直播 M3U](https://yujuanit.github.io/TVSources/data/live.m3u)。网站总览提供 GHFast 与 GitHub Raw 的备用入口，切换下拉框后复制即可。
 
-综合源包含自己的频道和外部直播列表；项目根目录的 [live.m3u](https://github.com/yujuanIt/TVSources/blob/main/live.m3u) 是自己维护的频道源文件。发布时读取它，生成同一个固定地址下的 M3U、TXT 和频道 JSON，同时把频道写入已发布的 `data/library.json`，供 App 自动同步。外部列表不会在构建时自动展开。
+综合源通过直播列表 URL 引用自己的 M3U：[data/live.m3u](https://yujuanit.github.io/TVSources/data/live.m3u)。频道内容在仓库 [data/live.m3u](https://github.com/yujuanIt/TVSources/blob/main/data/live.m3u) 维护，订阅名称与 URL 在 `data/library.json` 的 `live.playlists` 中维护。发布后的 `live.channels` 保持空数组，不再把 M3U 频道重复写成内嵌 JSON；旧 `/live.m3u`、`live.txt`、`live.json` 仍输出兼容内容。
 
 2026-10-15 按用户要求展开了 [常看列表](https://live.yang-1989.eu.org/sub/yujuan.m3u)，当时返回 5 个频道、3 个分组：抖音「游戏」2 个、虎牙「娱乐」1 个、抖音「娱乐」2 个。频道名称、原始分组、图标、播放地址和原列表的 User-Agent 均保留。这是一次导入，后续编辑不会被上游列表覆盖；上游以后增删频道也不会自动改动这 5 项。此次仅转换清单，未据此宣称各频道均能实际播放。
 
@@ -33,14 +33,14 @@ TXT 使用 `分组名,#genre#` 和 `频道名,播放地址` 格式，备用线�
 
 ## 填写与发布
 
-维护直播频道时，只改项目根目录的 [live.m3u](https://github.com/yujuanIt/TVSources/edit/main/live.m3u)。外部直播订阅和点播接口在 [data/library.json](https://github.com/yujuanIt/TVSources/edit/main/data/library.json) 中维护。
+维护直播频道时，只改项目 data 目录的 [live.m3u](https://github.com/yujuanIt/TVSources/edit/main/data/live.m3u)。外部直播订阅和点播接口在 [data/library.json](https://github.com/yujuanIt/TVSources/edit/main/data/library.json) 中维护。
 
-1. 直播频道可直接在 GitHub 编辑 `live.m3u`，修改名称、`group-title` 分组、`tvg-logo` 图标和下一行的真实播放地址。也可在网页「直播电视」中逐个添加、改名、停用或删除，再点击「复制频道 M3U」和「打开 live.m3u」，全选替换并提交 Commit changes。
+1. 直播频道可直接在 GitHub 编辑 `data/live.m3u`，修改名称、`group-title` 分组、`tvg-logo` 图标和下一行的真实播放地址。网页「直播电视」提供「复制 M3U 链接」和文件编辑入口；直播列表中可以改订阅名称、开关和 URL。
 2. 改外部直播列表或点播接口时，在「配置与发布」中复制 JSON，再打开 GitHub 的 `data/library.json` 全选替换并提交。网页修改先存为浏览器草稿；需要登录有仓库写权限的 GitHub 账号才能发布，网页不收集或保存 GitHub Token。
 3. 等待仓库 [Publish personal sources](https://github.com/yujuanIt/TVSources/actions/workflows/source-pages.yml) 成功。检查失败时本次内容不会部署，修正文件后再提交。
 4. 在电视刷新相应配置。客户端可能有首页缓存，必要时刷新源或重开应用；免费代理也可能缓存旧文件。
 
-发布脚本只在本地 / Actions 构建时读取 `live.m3u`，不会向上游重新抓取或覆盖你的列表。M3U 格式错误时检查失败，已有线上版本保留。Pages 是公开站点，源文件也在公开仓库，不要填写账号密码、私密 Cookie 或令牌。
+发布脚本只在本地 / Actions 构建时读取 `data/live.m3u`，不会向上游重新抓取或覆盖你的列表。M3U 格式错误时检查失败，已有线上版本保留。Pages 是公开站点，源文件也在公开仓库，不要填写账号密码、私密 Cookie 或令牌。
 
 M3U 中每个频道示例：
 
@@ -56,8 +56,8 @@ https://example.com/live.m3u8
 ## 内容格式
 
 - `live.playlists`：外部 M3U / TXT / 直播 JSON 地址，用 `name`、`url` 和可选 `headers`。
-- `live.channelFile`：当前设置为 `live.m3u`，使用项目根目录的 M3U 维护频道。仓库中的 `live.channels` 留空；发布后的 `data/library.json` 会自动填入解析结果，不需要手工同步两份内容。
-- `live.channels`：未设置 `channelFile` 时可直接用 JSON 维护频道，字段为 `name`、`group`、`logo`、`urls`，支持备用地址、`tvgId` 和 `headers`。M3U 模式下请修改 `live.m3u`，JSON 中的频道会在构建时重新生成。JSON 保留完整请求头，M3U 同时输出 EXTVLCOPT 和 EXTHTTP；其他播放器对这些扩展的支持需实际验证。
+- 默认不再填写 `live.channelFile`。自己的 M3U 也在 `live.playlists` 中以 URL 引用，例如 `https://yujuanit.github.io/TVSources/data/live.m3u`；构建器仅为本站这条链接生成兼容输出，不读取其他远程列表。
+- `live.channels`：默认保持空数组以兼容 App，不再存放自建 M3U 的频道副本。旧配置仍可使用 JSON 频道；本项目的频道内容直接改 `data/live.m3u`。
 - `vod.sites`：采集 API 或脚本条目，需要唯一 `key`、名称 `name`、接口 `type`（JSON=1、XML=0、HTTP=4、插件=3）、地址 `api`；可选 `headers`、`ext`、`playUrl`、`jar`。`csp_` 类型必须配置 JAR；已有一整份 TVBox JSON 请放 `warehouses`，不要当成采集 API。
 - 当前默认配置不包含 `vod.movies`，只维护点播接口与完整配置。构建器、网页和新版 App 允许省略该字段，不会插入空的自建片库入口。旧备份若包含自有影片仍可读取；省略字段时网页隐藏「自有影片」。
 - `vod.categories`：保留给旧自建片库的分类定义；外部点播源的分类由各自接口返回。
@@ -66,7 +66,7 @@ https://example.com/live.m3u8
 
 ## 发布结构
 
-`main` 保存源码、可编辑的 `live.m3u` 和 `data/library.json`。工作流先执行构建器 / 脚本测试，再解析项目的 M3U 并生成白名单内的公开文件，发布到 `source-data` 分支供免费代理读取，最后部署 GitHub Pages。修改根目录 `live.m3u` 也会触发发布；应用源码改动不会触发 APK 构建或源站部署。
+`main` 保存源码、可编辑的 `data/live.m3u` 和 `data/library.json`。工作流先检查格式与脚本，再发布 M3U 链接及旧格式备用输出到 `source-data` 和 GitHub Pages。修改 `data/` 下任一文件都会触发发布，不触发 APK 构建。
 
 `source-data` 全部由工作流维护，请修改 `main` 的源文件，不要直接修改生成物。工作流仅向该分支写入公开源站文件，不强推、不操作应用暂存区，也不会把 APK、签名、SDK 或工具缓存传到 Pages。
 
@@ -87,6 +87,6 @@ GitHub Pages 是静态托管，无法自己保存服务器数据；因此网页�
 
 本仓库独立公开维护源站页面、配置和发布工具，Android 客户端保存在独立的私有仓库。公开仓库使用全新的 Git 历史，包含源站代码与许可证。
 
-迁移后的站点是 `https://yujuanit.github.io/TVSources/`。此前 `/TVApp/` 下的网页和原仓库 Raw / 免费代理订阅入口停止使用；请在电视端依次添加本页列出的两个新多仓分组。以后在本仓库的 `live.m3u` 维护频道，在 `data/library.json` 维护其他配置。
+迁移后的站点是 `https://yujuanit.github.io/TVSources/`。此前 `/TVApp/` 下的网页和原仓库 Raw / 免费代理订阅入口停止使用；请在电视端依次添加本页列出的两个新多仓分组。以后在本仓库的 `data/live.m3u` 维护频道，在 `data/library.json` 维护其他配置。
 
 本地完整检查：`./scripts/check.sh`。需要 Python 3.11+、Node.js 22+，不需要 Android SDK 或 JDK。源站代码采用仓库中的 [GPL-3.0](LICENSE)。

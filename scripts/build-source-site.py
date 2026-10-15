@@ -67,7 +67,7 @@ def validate(data):
     require(isinstance(live, dict) and isinstance(vod, dict), 'live 和 vod 必须是对象')
     text(live.get('name'), 'live.name'); text(vod.get('name'), 'vod.name')
     if 'channelFile' in live:
-        require(live['channelFile'] == 'live.m3u', 'live.channelFile 仅支持项目根目录的 live.m3u')
+        require(live['channelFile'] in {'live.m3u', 'data/live.m3u'}, 'live.channelFile 仅支持本站的 M3U 文件')
     for entry in rows(live.get('playlists'), 'live.playlists'):
         text(entry.get('name'), '直播列表名称'); url(entry.get('url'), '直播列表地址')
         headers(entry.get('headers', {}), '直播列表请求头')
@@ -185,12 +185,16 @@ def parse_m3u(content):
     return channels
 
 
-def resolve_channel_file(data):
+def resolve_channel_file(data, base_url=None):
     validate(data)
     resolved = copy.deepcopy(data)
-    if resolved['live'].get('channelFile'):
-        path = SOURCE / 'live.m3u'
-        require(not path.is_symlink(), 'live.m3u 不允许使用符号链接')
+    channel_file = resolved['live'].get('channelFile')
+    if not channel_file and base_url and any(item['url'] == base_url.rstrip('/') + '/data/live.m3u' for item in resolved['live']['playlists']):
+        channel_file = 'data/live.m3u'
+    if channel_file:
+        path = SOURCE / channel_file
+        require(not path.is_symlink() and not path.parent.is_symlink(), 'M3U 不允许使用符号链接')
+        resolved['live']['channelFile'] = channel_file
         resolved['live']['channels'] = parse_m3u(path.read_text(encoding='utf-8-sig'))
         validate(resolved)
     return resolved
@@ -207,7 +211,7 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
               'ext': './catalog.json', 'searchable': 1, 'quickSearch': 1, 'filterable': 0}] if movies else []
     for item in active(vod['sites']):
         site = copy.deepcopy(item); site.pop('enabled', None); sites.append(site)
-    lives = [{'name': live['name'], 'type': 0, 'url': './live.json'}]
+    lives = [] if live.get('channelFile') == 'data/live.m3u' else [{'name': live['name'], 'type': 0, 'url': './live.json'}]
     lives.extend({'name': item['name'], 'type': 0, 'url': item['url'], 'headers': item.get('headers', {})} for item in active(live['playlists']))
     box = {'sites': sites, 'lives': lives, 'parses': []}
     if vod.get('spider'):
@@ -261,16 +265,18 @@ def build(data, base_url, repository='yujuanIt/TVSources'):
                              {'name': 'GitHub Raw 原址', 'base': raw_base}],
                'warehouseGroups': group_links}
     if live.get('channelFile'):
-        hosting['channelEditUrl'] = 'https://github.com/' + repository + '/edit/main/live.m3u'
+        hosting['channelEditUrl'] = 'https://github.com/' + repository + '/edit/main/' + live['channelFile']
+        if live['channelFile'] == 'data/live.m3u':
+            hosting.update(channelFile='data/live.m3u', channelUrl=base_url + 'data/live.m3u', channelCount=stamp['channels'])
     vod_config = {key: value for key, value in box.items() if key != 'lives'}
     return {'box.json': box, 'vod.json': vod_config, 'catalog.json': catalog, 'live.json': live_json,
             'warehouse.json': warehouse, 'manifest.json': stamp, 'hosting.json': hosting, 'live.m3u': '\n'.join(m3u) + '\n',
-            'live.txt': '\n'.join(txt) + ('\n' if txt else ''),
+            'data/live.m3u': '\n'.join(m3u) + '\n', 'live.txt': '\n'.join(txt) + ('\n' if txt else ''),
             **warehouse_groups}
 
 
 def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
-    data = resolve_channel_file(data)
+    data = resolve_channel_file(data, base_url)
     generated = build(data, base_url, repository)
     output = Path(output).resolve()
     require(output != SOURCE.resolve(), '输出目录必须与源文件目录分开')
@@ -291,7 +297,11 @@ def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
     shutil.copy2(SOURCE / 'assets' / 'vod.js', output / 'vod.js')
     def write_json(path, value):
         path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    write_json(output / 'data' / 'library.json', data)
+    published = copy.deepcopy(data)
+    if published['live'].get('channelFile') == 'data/live.m3u':
+        published['live'].pop('channelFile')
+        published['live']['channels'] = []
+    write_json(output / 'data' / 'library.json', published)
     for name, value in generated.items():
         if isinstance(value, str): (output / name).write_text(value, encoding='utf-8')
         else: write_json(output / name, value)

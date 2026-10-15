@@ -5,6 +5,11 @@
     "name": "居安直播",
     "playlists": [
       {
+        "name": "居安直播 · 我的 M3U",
+        "url": "https://yujuanit.github.io/TVSources/data/live.m3u",
+        "enabled": true
+      },
+      {
         "name": "居安直播 · 常看",
         "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
         "enabled": false,
@@ -68,8 +73,7 @@
         "enabled": true
       }
     ],
-    "channels": [],
-    "channelFile": "live.m3u"
+    "channels": []
   },
   "vod": {
     "name": "居安片库",

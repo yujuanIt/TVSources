@@ -58,3 +58,12 @@ test('M3U export rejects request headers that could introduce playlist lines', (
   context.channels = [{ name: '频道', urls: ['https://example.com/live'], headers: { 'User-Agent': 'Player\nhttps://other.example/' } }];
   assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /请求头/);
 });
+
+test('URL-based M3U stays a playlist link when copying configuration', () => {
+  const context = editor();
+  context.input = { live: { channelFile: 'live.m3u', channels: [{ name: '旧草稿频道' }], playlists: [{ name: '我的 M3U', url: 'https://example.com/data/live.m3u' }] } };
+  vm.runInContext("hosting = { channelFile: 'data/live.m3u' }", context);
+  const result = JSON.parse(vm.runInContext('JSON.stringify(editableConfig(input))', context));
+  assert.equal(Object.hasOwn(result.live, 'channelFile'), false); assert.deepEqual(result.live.channels, []);
+  assert.deepEqual(result.live.playlists, context.input.live.playlists); assert.equal(context.input.live.channels.length, 1);
+});
