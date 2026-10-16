@@ -14045,16 +14045,16 @@
           }
         },
         {
-          "name": "西递",
-          "logo": "https://live.yang-1989.eu.org/logo/douyin/xidi1047",
+          "name": "安妮Anne🎙（深情演绎）",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/54223704689",
           "urls": [
-            "https://cdn.ttvb.eu.org/douyin/xidi1047"
+            "https://cdn.ttvb.eu.org/douyin/54223704689"
           ],
           "headers": {
             "User-Agent": "okhttp/3.8.1"
           },
           "origins": {
-            "https://cdn.ttvb.eu.org/douyin/xidi1047": [
+            "https://cdn.ttvb.eu.org/douyin/54223704689": [
               "yang-network"
             ]
           }
@@ -14223,6 +14223,21 @@
           }
         },
         {
+          "name": "南嫣FM",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/nanyan.FM168",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/nanyan.FM168"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/nanyan.FM168": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "土豆雷（第五人格）",
           "logo": "https://live.yang-1989.eu.org/logo/douyin/34497201663",
           "urls": [
@@ -14278,21 +14293,6 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/douyin/ltxzsaa": [
-              "yang-network"
-            ]
-          }
-        },
-        {
-          "name": "安妮Anne🎙（深情演绎）",
-          "logo": "https://live.yang-1989.eu.org/logo/douyin/54223704689",
-          "urls": [
-            "https://cdn.ttvb.eu.org/douyin/54223704689"
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/douyin/54223704689": [
               "yang-network"
             ]
           }
@@ -14373,6 +14373,21 @@
           }
         },
         {
+          "name": "棒球七七⚾️",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/82909921920",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/82909921920"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/82909921920": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "浙有正能量",
           "logo": "https://live.yang-1989.eu.org/logo/douyin/sir000115",
           "urls": [
@@ -14383,6 +14398,21 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/douyin/sir000115": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "爱吃番茄🍅",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/62347299995",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/62347299995"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/62347299995": [
               "yang-network"
             ]
           }
@@ -14428,6 +14458,21 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/douyin/cctv6media.": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "福州小升初",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/841326635046",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/841326635046"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/841326635046": [
               "yang-network"
             ]
           }
@@ -14718,6 +14763,21 @@
           }
         },
         {
+          "name": "YUAN¹¹²¹",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/29796443468",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/29796443468"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/29796443468": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "丁哥说法",
           "logo": "https://live.yang-1989.eu.org/logo/douyin/77992795020",
           "urls": [
@@ -14913,6 +14973,21 @@
           }
         },
         {
+          "name": "山取",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/454821649298",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/454821649298"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/454821649298": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "新闻110",
           "logo": "https://live.yang-1989.eu.org/logo/douyin/yuanyangluNO.1",
           "urls": [
@@ -14998,6 +15073,21 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/douyin/fm97520": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "西递",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/xidi1047",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/xidi1047"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/xidi1047": [
               "yang-network"
             ]
           }
@@ -16283,6 +16373,51 @@
           }
         },
         {
+          "name": "结尾超人",
+          "logo": "https://epg.yang-1989.xyz/logo/虎牙.png",
+          "urls": [
+            "https://cdn.ttvb.eu.org/huya/127981"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/huya/127981": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "Zz1tai姿态",
+          "logo": "https://live.yang-1989.eu.org/logo/huya/333003",
+          "urls": [
+            "https://cdn.ttvb.eu.org/huya/333003"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/huya/333003": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "老实人sask",
+          "logo": "https://live.yang-1989.eu.org/logo/huya/579236",
+          "urls": [
+            "https://cdn.ttvb.eu.org/huya/579236"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/huya/579236": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "V1ncent丶文森特",
           "logo": "https://live.yang-1989.eu.org/logo/huya/949527",
           "urls": [
@@ -17075,6 +17210,21 @@
           }
         },
         {
+          "name": "女战神梧桐",
+          "logo": "https://live.yang-1989.eu.org/logo/huya/812813",
+          "urls": [
+            "https://cdn.ttvb.eu.org/huya/812813"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/huya/812813": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "对君白蜥蜴",
           "logo": "https://live.yang-1989.eu.org/logo/huya/26355776",
           "urls": [
@@ -17465,6 +17615,21 @@
           }
         },
         {
+          "name": "盛世-邓小懵",
+          "logo": "https://live.yang-1989.eu.org/logo/huya/457041",
+          "urls": [
+            "https://cdn.ttvb.eu.org/huya/457041"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/huya/457041": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "神秘小希哟",
           "logo": "https://live.yang-1989.eu.org/logo/huya/20985843",
           "urls": [
@@ -17490,21 +17655,6 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/huya/21059572": [
-              "yang-network"
-            ]
-          }
-        },
-        {
-          "name": "结尾超人",
-          "logo": "https://epg.yang-1989.xyz/logo/虎牙.png",
-          "urls": [
-            "https://cdn.ttvb.eu.org/huya/127981"
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/huya/127981": [
               "yang-network"
             ]
           }
@@ -17750,21 +17900,6 @@
           }
         },
         {
-          "name": "Zz1tai姿态",
-          "logo": "https://live.yang-1989.eu.org/logo/huya/333003",
-          "urls": [
-            "https://cdn.ttvb.eu.org/huya/333003"
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/huya/333003": [
-              "yang-network"
-            ]
-          }
-        },
-        {
           "name": "baicaiovo",
           "logo": "https://live.yang-1989.eu.org/logo/huya/691406",
           "urls": [
@@ -17870,21 +18005,6 @@
           }
         },
         {
-          "name": "老实人sask",
-          "logo": "https://live.yang-1989.eu.org/logo/huya/579236",
-          "urls": [
-            "https://cdn.ttvb.eu.org/huya/579236"
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/huya/579236": [
-              "yang-network"
-            ]
-          }
-        },
-        {
           "name": "老鬼-MG",
           "logo": "https://live.yang-1989.eu.org/logo/huya/705112",
           "urls": [
@@ -17925,6 +18045,21 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/huya/387067": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "霸哥",
+          "logo": "https://live.yang-1989.eu.org/logo/huya/189201",
+          "urls": [
+            "https://cdn.ttvb.eu.org/huya/189201"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/huya/189201": [
               "yang-network"
             ]
           }
@@ -18940,6 +19075,21 @@
           }
         },
         {
+          "name": "CSGO官方赛事",
+          "logo": "https://live.yang-1989.eu.org/logo/bilibili/35",
+          "urls": [
+            "https://cdn.ttvb.eu.org/bilibili/35"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/bilibili/35": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "蜡笔小新",
           "logo": "https://www.xn--rgv465a.top/tvlogo/蜡笔小新.png",
           "urls": [
@@ -19148,16 +19298,16 @@
           }
         },
         {
-          "name": "CSGO官方赛事",
-          "logo": "https://live.yang-1989.eu.org/logo/bilibili/35",
+          "name": "Devouers",
+          "logo": "https://live.yang-1989.eu.org/logo/bilibili/23171963",
           "urls": [
-            "https://cdn.ttvb.eu.org/bilibili/35"
+            "https://cdn.ttvb.eu.org/bilibili/23171963"
           ],
           "headers": {
             "User-Agent": "okhttp/3.8.1"
           },
           "origins": {
-            "https://cdn.ttvb.eu.org/bilibili/35": [
+            "https://cdn.ttvb.eu.org/bilibili/23171963": [
               "yang-network"
             ]
           }
@@ -19323,6 +19473,21 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/bilibili/4421957": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "云墨染s",
+          "logo": "https://live.yang-1989.eu.org/logo/bilibili/9193634",
+          "urls": [
+            "https://cdn.ttvb.eu.org/bilibili/9193634"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/bilibili/9193634": [
               "yang-network"
             ]
           }
