@@ -13447,6 +13447,83 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/suburbbaby",
       "enabled": "true"
+    },
+    "c_d09e9a932f184b64b39612dd": {
+      "name": "Devouers",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/23171963",
+      "enabled": "true"
+    },
+    "c_7179360d38c5633d16d38d75": {
+      "name": "云墨染s",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/9193634",
+      "enabled": "true"
+    },
+    "c_383bb1e0190b80463e2cdfb9": {
+      "name": "南嫣FM",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/nanyan.FM168",
+      "enabled": "true"
+    },
+    "c_0d92a9cc3e5328f7461a1d80": {
+      "name": "棒球七七⚾️",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/82909921920",
+      "enabled": "true"
+    },
+    "c_b145fcf79c26b9dc8be03a6d": {
+      "name": "爱吃番茄🍅",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/62347299995",
+      "enabled": "true"
+    },
+    "c_c3e61288c7f6cf9e8ff3f8c9": {
+      "name": "福州小升初",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/841326635046",
+      "enabled": "true"
+    },
+    "c_82115976574ee611b98d5a88": {
+      "name": "女战神梧桐",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/812813",
+      "enabled": "true"
+    },
+    "c_d0ac5a349f6f442903bf2050": {
+      "name": "盛世-邓小懵",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/457041",
+      "enabled": "true"
+    },
+    "c_451bb80ec2549d9527ddec16": {
+      "name": "霸哥",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/189201",
+      "enabled": "true"
+    },
+    "c_c13d76a1926a9f9fe43f464d": {
+      "name": "YUAN¹¹²¹",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/29796443468",
+      "enabled": "true"
+    },
+    "c_8f1b9c6612b890a89d110014": {
+      "name": "山取",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/454821649298",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -22223,8 +22300,8 @@
       }
     },
     "yang-network": {
-      "sha256": "2e9c796361e8054821792b3e38f12d424c043595c73c8f67e6ebb7eca1a094c4",
-      "routes": 400,
+      "sha256": "889af2037e5d3e95297712734dfe88892a32bdf0790e1cee36546fcb2d24b680",
+      "routes": 407,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -26497,6 +26574,72 @@
           "name": "Suburbbaby",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "bf39086239e7d6b8ffdf7344c9c48f85552133e980e05cbac46953a82abf2b80": {
+          "channel": "c_d09e9a932f184b64b39612dd",
+          "name": "Devouers",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "8612a1b05cc91e5a8c9dee62d79586dca975d2d02fb63fa67eca76c7abb006e5": {
+          "channel": "c_7179360d38c5633d16d38d75",
+          "name": "云墨染s",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "cc69c6d67cdb4a8bac0d85d61fe1b7d3d21ae70c9e4502f5de6983702674bfb1": {
+          "channel": "c_383bb1e0190b80463e2cdfb9",
+          "name": "南嫣FM",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "2c4bd598ffbee7fc7cd72f43569ca52d6660fcaad4ce2db80e84551e47e73939": {
+          "channel": "c_0d92a9cc3e5328f7461a1d80",
+          "name": "棒球七七⚾️",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "9161327c7f5510bb3cdbb1c1e0956712c6ebe5fe1d5f791fdda0f5bef8ebe3fd": {
+          "channel": "c_b145fcf79c26b9dc8be03a6d",
+          "name": "爱吃番茄🍅",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a199f1cb65982c4bb89168628e69a200288dcc0df5d0c00b3a46530e378b1085": {
+          "channel": "c_c3e61288c7f6cf9e8ff3f8c9",
+          "name": "福州小升初",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a4642e2a0c15c7224c00e2b07620fa1bb69f62ffc7a48525fbfb9cbbe0a99495": {
+          "channel": "c_82115976574ee611b98d5a88",
+          "name": "女战神梧桐",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "9ba82ac5670efdd72dc4f0345961655cd02290c2bb6f1053dacabd343d7108d2": {
+          "channel": "c_d0ac5a349f6f442903bf2050",
+          "name": "盛世-邓小懵",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "1274c590ba8b48c8d33d362b276139b66f082abf3d0d79cc0d7d3bdda89658e8": {
+          "channel": "c_451bb80ec2549d9527ddec16",
+          "name": "霸哥",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
+        },
+        "e7246e253f8f53f50be37b6546b2c93fab2b6d7d0f72fda7e513556fb40c351a": {
+          "channel": "c_c13d76a1926a9f9fe43f464d",
+          "name": "YUAN¹¹²¹",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "18006c08c0939ff3a4ae7072ceca989e008e8ec565d0a091a2f62ad81f6b8d71": {
+          "channel": "c_8f1b9c6612b890a89d110014",
+          "name": "山取",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     }

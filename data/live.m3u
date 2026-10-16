@@ -3599,9 +3599,9 @@ https://cdn.ttvb.eu.org/douyin/41628750759
 #EXTINF:-1 tvg-id="" tvg-name="第一财团" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/269875672114" group-title="抖音" x-sync-id="c_d0cea052267f3e111c25b7b0" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",第一财团
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/269875672114
-#EXTINF:-1 tvg-id="" tvg-name="西递" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xidi1047" group-title="抖音" x-sync-id="c_b23b0b1cc28be6246527a29e" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",西递
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/54223704689" group-title="抖音" tvg-name="安妮Anne🎙（深情演绎）" x-sync-id="c_8719145125d447d278326f54" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",安妮Anne🎙（深情演绎）
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/douyin/xidi1047
+https://cdn.ttvb.eu.org/douyin/54223704689
 #EXTINF:-1 tvg-id="" tvg-name="小海锤石" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xiaohaichuishi" group-title="抖音" x-sync-id="c_846cc1201f1c9f023a70a65a" x-source-id="yang-favorites" x-source-name="居安直播 · 常看",小海锤石
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/xiaohaichuishi
@@ -3634,6 +3634,9 @@ https://cdn.ttvb.eu.org/douyin/mengmeng0703_
 #EXTINF:-1 tvg-id="" tvg-name="关怀" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/86092814967" group-title="抖音" x-sync-id="c_83e1f4dd70e65ebe96918092" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",关怀
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/86092814967
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/nanyan.FM168" group-title="抖音" tvg-name="南嫣FM" x-sync-id="c_383bb1e0190b80463e2cdfb9" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",南嫣FM
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/nanyan.FM168
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/34497201663" group-title="抖音" tvg-name="土豆雷（第五人格）" x-sync-id="c_875bc28066f4df967a52671b" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",土豆雷（第五人格）
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/34497201663
@@ -3646,9 +3649,6 @@ https://cdn.ttvb.eu.org/douyin/46397513330
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/ltxzsaa" group-title="抖音" tvg-name="失约海（无畏契约）" x-sync-id="c_6f5c2ec77ecaf7942efb5f54" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",失约海（无畏契约）
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/ltxzsaa
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/54223704689" group-title="抖音" tvg-name="安妮Anne🎙（深情演绎）" x-sync-id="c_8719145125d447d278326f54" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",安妮Anne🎙（深情演绎）
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/douyin/54223704689
 #EXTINF:-1 tvg-id="" tvg-name="小央视频" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv_video" group-title="抖音" x-sync-id="c_af0de63d55ed9f5a4ef031f0" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",小央视频
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/cctv_video
@@ -3664,9 +3664,15 @@ https://cdn.ttvb.eu.org/douyin/jiguangxinwen
 #EXTINF:-1 tvg-id="" tvg-name="梦里有梦" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/SUNPING800317" group-title="抖音" x-sync-id="c_aa46465a868dcb756d9ee030" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",梦里有梦
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/SUNPING800317
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/82909921920" group-title="抖音" tvg-name="棒球七七⚾️" x-sync-id="c_0d92a9cc3e5328f7461a1d80" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",棒球七七⚾️
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/82909921920
 #EXTINF:-1 tvg-id="" tvg-name="浙有正能量" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/sir000115" group-title="抖音" x-sync-id="c_89f6f1c4a34f11f6778327f1" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",浙有正能量
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/sir000115
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/62347299995" group-title="抖音" tvg-name="爱吃番茄🍅" x-sync-id="c_b145fcf79c26b9dc8be03a6d" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",爱吃番茄🍅
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/62347299995
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xiamo1107" group-title="抖音" tvg-name="电台夏末" x-sync-id="c_82346d17ecd6ac3ae727c7b4" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",电台夏末
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/xiamo1107
@@ -3676,6 +3682,9 @@ https://cdn.ttvb.eu.org/douyin/cctv6cinema
 #EXTINF:-1 tvg-id="" tvg-name="电影频道央影传媒" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/cctv6media." group-title="抖音" x-sync-id="c_ea821de5d50b92281f2e1438" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",电影频道央影传媒
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/cctv6media.
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/841326635046" group-title="抖音" tvg-name="福州小升初" x-sync-id="c_c3e61288c7f6cf9e8ff3f8c9" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",福州小升初
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/841326635046
 #EXTINF:-1 tvg-id="" tvg-name="第一现场" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/881575999" group-title="抖音" x-sync-id="c_09db76e2282e07ab1c335563" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",第一现场
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/881575999
@@ -3733,6 +3742,9 @@ https://cdn.ttvb.eu.org/douyin/55189785458
 #EXTINF:-1 tvg-id="" tvg-name="PUMA官方旗舰店" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/87524611523" group-title="抖音" x-sync-id="c_a2349d256f0fcd37fe96bac6" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",PUMA官方旗舰店
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/87524611523
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/29796443468" group-title="抖音" tvg-name="YUAN¹¹²¹" x-sync-id="c_c13d76a1926a9f9fe43f464d" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",YUAN¹¹²¹
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/29796443468
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/77992795020" group-title="抖音" tvg-name="丁哥说法" x-sync-id="c_7c83b810a3d99b810d9eee69" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",丁哥说法
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/77992795020
@@ -3772,6 +3784,9 @@ https://cdn.ttvb.eu.org/douyin/kuaikancctv
 #EXTINF:-1 tvg-id="" tvg-name="央视网财经" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/nuanxinnengl" group-title="抖音" x-sync-id="c_db9c0491a9ef51c6b92b3692" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",央视网财经
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/nuanxinnengl
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/454821649298" group-title="抖音" tvg-name="山取" x-sync-id="c_8f1b9c6612b890a89d110014" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",山取
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/454821649298
 #EXTINF:-1 tvg-id="" tvg-name="新闻110" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/yuanyangluNO.1" group-title="抖音" x-sync-id="c_c7aa51e373d817450f682084" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",新闻110
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/yuanyangluNO.1
@@ -3790,6 +3805,9 @@ https://cdn.ttvb.eu.org/douyin/KKnews
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/douyin/fm97520" group-title="抖音" tvg-name="舟山交通97" x-sync-id="c_1fdeb2443090333767a8c839" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",舟山交通97
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/fm97520
+#EXTINF:-1 tvg-id="" tvg-name="西递" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xidi1047" group-title="抖音" x-sync-id="c_b23b0b1cc28be6246527a29e" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",西递
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/xidi1047
 #EXTINF:-1 tvg-id="" tvg-name="隔壁王教练教育" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/wangjiaolian996" group-title="抖音" x-sync-id="c_8112342b54e6fff6ed97f489" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",隔壁王教练教育
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/wangjiaolian996
@@ -4045,6 +4063,15 @@ https://cdn.ttvb.eu.org/huya/149671
 #EXTINF:-1 tvg-id="" tvg-name="鹿儿影视" tvg-logo="https://live.yang-1989.eu.org/logo/huya/30986994" group-title="虎牙" x-sync-id="c_9320567c13433cd8d8a3a948" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",鹿儿影视
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/30986994
+#EXTINF:-1 tvg-logo="https://epg.yang-1989.xyz/logo/虎牙.png" group-title="虎牙" tvg-name="结尾超人" x-sync-id="c_f6cfa72e0b9b979dafb4228f" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",结尾超人
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/huya/127981
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/333003" group-title="虎牙" tvg-name="Zz1tai姿态" x-sync-id="c_d5556b0eb918e8c249da6920" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",Zz1tai姿态
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/huya/333003
+#EXTINF:-1 tvg-id="" tvg-name="老实人sask" tvg-logo="https://live.yang-1989.eu.org/logo/huya/579236" group-title="虎牙" x-sync-id="c_822d321720b8fee9db73e9e0" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",老实人sask
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/huya/579236
 #EXTINF:-1 tvg-id="" tvg-name="V1ncent丶文森特" tvg-logo="https://live.yang-1989.eu.org/logo/huya/949527" group-title="虎牙" x-sync-id="c_4d66c2cc4612a9b355e5bf04" x-source-id="yang-favorites,yang-network" x-source-name="居安直播 · 常看 / 居安直播 · 全部频道",V1ncent丶文森特
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/949527
@@ -4211,6 +4238,9 @@ https://cdn.ttvb.eu.org/huya/11342412
 #EXTINF:-1 tvg-id="" tvg-name="四大裁子之首" tvg-logo="https://live.yang-1989.eu.org/logo/huya/11602058" group-title="虎牙" x-sync-id="c_3da7767181e951eadaca51f8" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",四大裁子之首
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/11602058
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/812813" group-title="虎牙" tvg-name="女战神梧桐" x-sync-id="c_82115976574ee611b98d5a88" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",女战神梧桐
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/huya/812813
 #EXTINF:-1 tvg-id="" tvg-name="对君白蜥蜴" tvg-logo="https://live.yang-1989.eu.org/logo/huya/26355776" group-title="虎牙" x-sync-id="c_2eac240b54763a2064ef1c73" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",对君白蜥蜴
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/26355776
@@ -4289,15 +4319,15 @@ https://cdn.ttvb.eu.org/huya/29465856
 #EXTINF:-1 tvg-id="" tvg-name="电视迷痴迷港剧" tvg-logo="https://live.yang-1989.eu.org/logo/huya/29465851" group-title="虎牙" x-sync-id="c_a68628f92bac58467752e38e" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",电视迷痴迷港剧
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/29465851
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/457041" group-title="虎牙" tvg-name="盛世-邓小懵" x-sync-id="c_d0ac5a349f6f442903bf2050" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",盛世-邓小懵
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/huya/457041
 #EXTINF:-1 tvg-id="" tvg-name="神秘小希哟" tvg-logo="https://live.yang-1989.eu.org/logo/huya/20985843" group-title="虎牙" x-sync-id="c_a01715a4cd4f6dc3f61ab3ce" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",神秘小希哟
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/20985843
 #EXTINF:-1 tvg-id="" tvg-name="粤语电影放映厅" tvg-logo="https://live.yang-1989.eu.org/logo/huya/21059572" group-title="虎牙" x-sync-id="c_0b78599a0ec85914af82697d" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",粤语电影放映厅
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/21059572
-#EXTINF:-1 tvg-logo="https://epg.yang-1989.xyz/logo/虎牙.png" group-title="虎牙" tvg-name="结尾超人" x-sync-id="c_f6cfa72e0b9b979dafb4228f" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",结尾超人
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/huya/127981
 #EXTINF:-1 tvg-id="" tvg-name="美少女咸儿" tvg-logo="https://live.yang-1989.eu.org/logo/huya/11336572" group-title="虎牙" x-sync-id="c_ef718170a743ae8c977c6147" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",美少女咸儿
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/11336572
@@ -4346,9 +4376,6 @@ https://cdn.ttvb.eu.org/huya/11342430
 #EXTINF:-1 tvg-id="" tvg-name="TG-左耳老熊" tvg-logo="https://live.yang-1989.eu.org/logo/huya/834622" group-title="虎牙" x-sync-id="c_9d675e667a636544c170a4e8" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",TG-左耳老熊
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/834622
-#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/333003" group-title="虎牙" tvg-name="Zz1tai姿态" x-sync-id="c_d5556b0eb918e8c249da6920" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",Zz1tai姿态
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/huya/333003
 #EXTINF:-1 tvg-id="" tvg-name="baicaiovo" tvg-logo="https://live.yang-1989.eu.org/logo/huya/691406" group-title="虎牙" x-sync-id="c_fb1fb1b0f9d1590e8c62d36e" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",baicaiovo
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/691406
@@ -4370,9 +4397,6 @@ https://cdn.ttvb.eu.org/huya/13579
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/607911" group-title="虎牙" tvg-name="忆玖-一晨【狙神】" x-sync-id="c_854aeaa5fa7a3cac049b6566" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",忆玖-一晨【狙神】
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/607911
-#EXTINF:-1 tvg-id="" tvg-name="老实人sask" tvg-logo="https://live.yang-1989.eu.org/logo/huya/579236" group-title="虎牙" x-sync-id="c_822d321720b8fee9db73e9e0" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",老实人sask
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/huya/579236
 #EXTINF:-1 tvg-id="" tvg-name="老鬼-MG" tvg-logo="https://live.yang-1989.eu.org/logo/huya/705112" group-title="虎牙" x-sync-id="c_c14765430940c50b5fb6db78" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",老鬼-MG
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/705112
@@ -4382,6 +4406,9 @@ https://cdn.ttvb.eu.org/huya/473271
 #EXTINF:-1 tvg-id="" tvg-name="随风蛮王ovo" tvg-logo="https://live.yang-1989.eu.org/logo/huya/387067" group-title="虎牙" x-sync-id="c_3c018f8cc21c47d12aed3418" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",随风蛮王ovo
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/387067
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/huya/189201" group-title="虎牙" tvg-name="霸哥" x-sync-id="c_451bb80ec2549d9527ddec16" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",霸哥
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/huya/189201
 #EXTINF:-1 tvg-id="" tvg-name="非凡-迪安" tvg-logo="https://live.yang-1989.eu.org/logo/huya/940213" group-title="虎牙" x-sync-id="c_6de871276f09918ede260c0b" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",非凡-迪安
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/940213
@@ -4583,6 +4610,9 @@ https://cdn.ttvb.eu.org/bilibili/439304
 #EXTINF:-1 tvg-id="" tvg-name="点点柏" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1812807508" group-title="B站" x-sync-id="c_13c0c332423c8348710bbde1" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",点点柏
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/bilibili/1812807508
+#EXTINF:-1 tvg-id="" tvg-name="CSGO官方赛事" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/35" group-title="B站" x-sync-id="c_04641c7d35e54214c4872657" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",CSGO官方赛事
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/bilibili/35
 #EXTINF:-1 tvg-id="蜡笔小新" tvg-name="蜡笔小新" tvg-logo="https://www.xn--rgv465a.top/tvlogo/蜡笔小新.png" group-title="B站" x-sync-id="c_be355dc2fac2cea09e04cfc3" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",蜡笔小新
 https://live.ottiptv.cc/bilibili/30837590
 #EXTINF:-1 tvg-id="" tvg-name="「B站」热门赛事" tvg-logo="https://epg.yang-1989.xyz/logo/哔哩哔哩.png" group-title="B站" x-sync-id="c_2e09106d0ec3354deaae1ef6" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",「B站」热门赛事
@@ -4624,9 +4654,9 @@ https://cdn.ttvb.eu.org/bilibili/22021983
 #EXTINF:-1 tvg-id="" tvg-name="CS2-德云两鬼" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/22889518" group-title="B站" x-sync-id="c_21cc174c558a9072f11a509a" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",CS2-德云两鬼
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/bilibili/22889518
-#EXTINF:-1 tvg-id="" tvg-name="CSGO官方赛事" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/35" group-title="B站" x-sync-id="c_04641c7d35e54214c4872657" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",CSGO官方赛事
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/23171963" group-title="B站" tvg-name="Devouers" x-sync-id="c_d09e9a932f184b64b39612dd" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",Devouers
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/bilibili/35
+https://cdn.ttvb.eu.org/bilibili/23171963
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/22973029" group-title="B站" tvg-name="Experiment陆贰陆" x-sync-id="c_330bbbc0806e9b74f9c71f7d" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",Experiment陆贰陆
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/bilibili/22973029
@@ -4660,6 +4690,9 @@ https://cdn.ttvb.eu.org/bilibili/21473355
 #EXTINF:-1 tvg-id="" tvg-name="丿丶夜曦" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/4421957" group-title="B站" x-sync-id="c_b1d5324fc3ca7c30b9c24d28" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",丿丶夜曦
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/bilibili/4421957
+#EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/9193634" group-title="B站" tvg-name="云墨染s" x-sync-id="c_7179360d38c5633d16d38d75" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",云墨染s
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/bilibili/9193634
 #EXTINF:-1 tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/25971921" group-title="B站" tvg-name="伊索尔Sol" x-sync-id="c_4ba68392547caf535af2bece" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",伊索尔Sol
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/bilibili/25971921
