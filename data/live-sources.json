@@ -2,7 +2,7 @@
   "version": 1,
   "playlist": "data/live.m3u",
   "attribute": "x-source-id",
-  "automaticSyncEnabled": false,
+  "automaticSyncEnabled": true,
   "recordedAt": "2026-10-15",
   "sources": [
     {
@@ -208,7 +208,7 @@
       "directives",
       "complete-url-including-signature"
     ],
-    "notes": "这是后续同步程序的数据契约，目前不定时下载、不覆盖手工维护。签名更新应重新取上游列表，不能删改参数。"
+    "notes": "同步器更新已匹配频道的完整播放线路，保留本地名称、分组、台标、EPG 与开关。失败、异常缩水与未匹配旧频道保留待核对；不修改签名参数。同步和发布在同一工作流完成。"
   },
   "normalization": {
     "displayLanguage": "zh-Hans",
@@ -243,5 +243,18 @@
     "basis": "exact-playback-route-in-import-snapshots",
     "multipleMatches": "record-all-matching-sources",
     "note": "按原导入快照中的完整播放地址、请求头与播放器选项核对，不按域名猜测；相同线路在多个列表出现时保留所有匹配来源。"
+  },
+  "sync": {
+    "stateFile": "data/live-sync-state.json",
+    "intervalHours": 6,
+    "timeZone": "Asia/Shanghai",
+    "times": [
+      "04:25",
+      "10:25",
+      "16:25",
+      "22:25"
+    ],
+    "minimumPreviousRouteRatio": 0.5,
+    "workflow": "source-pages.yml"
   }
 }
