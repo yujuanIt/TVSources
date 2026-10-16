@@ -9,37 +9,10 @@
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u",
         "enabled": true
       }
-    ],
-    "channels": []
+    ]
   },
   "vod": {
     "name": "居安片库",
-    "categories": [
-      {
-        "id": "movie",
-        "name": "电影"
-      },
-      {
-        "id": "series",
-        "name": "电视剧"
-      },
-      {
-        "id": "variety",
-        "name": "综艺"
-      },
-      {
-        "id": "animation",
-        "name": "动漫"
-      },
-      {
-        "id": "documentary",
-        "name": "纪录片"
-      },
-      {
-        "id": "short",
-        "name": "短剧"
-      }
-    ],
     "sites": [
       {
         "key": "app_feifan",

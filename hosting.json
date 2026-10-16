@@ -31,9 +31,9 @@
       "count": 1
     }
   ],
-  "channelEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/live.m3u",
   "channelFile": "data/live.m3u",
   "channelUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u",
   "channelCount": 1937,
+  "channelEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/live.m3u",
   "liveSources": "data/live-sources.json"
 }
