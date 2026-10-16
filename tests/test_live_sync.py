@@ -1,5 +1,7 @@
 import copy
+from contextlib import redirect_stderr, redirect_stdout
 import importlib.util
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -176,7 +178,7 @@ class LiveSyncTests(unittest.TestCase):
             root = Path(directory); (root / 'data').mkdir()
             path = root / 'data/live.m3u'; original = m3u(row()); path.write_text(original)
             (root / 'data/live-sources.json').write_text(json.dumps(registry()))
-            with patch.object(sync, 'download', return_value=({}, {'a': 'HTTP 503', 'b': 'HTTP 404'})), patch('sys.argv', ['sync-live', '--root', str(root), '--report', str(root / 'report.json')]), self.assertRaises(SystemExit): sync.main()
+            with patch.object(sync, 'download', return_value=({}, {'a': 'HTTP 503', 'b': 'HTTP 404'})), patch('sys.argv', ['sync-live', '--root', str(root), '--report', str(root / 'report.json')]), redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()), self.assertRaises(SystemExit): sync.main()
             self.assertEqual(original, path.read_text()); self.assertFalse((root / 'data/live-sync-state.json').exists())
 
     def test_manifest_disable_prevents_any_network_or_data_write(self):
