@@ -2,7 +2,7 @@
   "urls": [
     {
       "name": "默认影视源 · 肥猫",
-      "url": "https://www.iyouhun.com/tv/fm"
+      "url": "./vod/feimao.json"
     }
   ]
 }

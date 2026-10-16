@@ -13,53 +13,7 @@
   },
   "vod": {
     "name": "居安片库",
-    "sites": [
-      {
-        "key": "app_feifan",
-        "name": "非凡资源",
-        "type": 1,
-        "api": "https://api.ffzyapi.com/api.php/provide/vod/",
-        "enabled": true
-      },
-      {
-        "key": "app_360",
-        "name": "360资源",
-        "type": 1,
-        "api": "https://360zy.com/api.php/provide/vod/",
-        "enabled": true
-      }
-    ]
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/vod-sites.json"
   },
-  "warehouses": [
-    {
-      "name": "饭太硬 · 点播与直播",
-      "url": "http://www.饭太硬.net/tv",
-      "enabled": true
-    },
-    {
-      "name": "心魔在线",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
-      "enabled": true
-    },
-    {
-      "name": "Clun在线",
-      "url": "https://clun.top/box.json",
-      "enabled": true
-    },
-    {
-      "name": "FongMI线路",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
-      "enabled": true
-    },
-    {
-      "name": "香雅情",
-      "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-      "enabled": true
-    },
-    {
-      "name": "默认影视源 · 肥猫",
-      "url": "https://www.iyouhun.com/tv/fm",
-      "enabled": true
-    }
-  ]
+  "warehouses": []
 }

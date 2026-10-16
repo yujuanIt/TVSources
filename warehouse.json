@@ -6,27 +6,27 @@
     },
     {
       "name": "饭太硬 · 点播与直播",
-      "url": "http://www.饭太硬.net/tv"
+      "url": "./vod/fantaiying.json"
     },
     {
       "name": "心魔在线",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
+      "url": "./vod/xinmo.json"
     },
     {
       "name": "Clun在线",
-      "url": "https://clun.top/box.json"
+      "url": "./vod/clun.json"
     },
     {
       "name": "FongMI线路",
-      "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json"
+      "url": "./vod/fongmi.json"
     },
     {
       "name": "香雅情",
-      "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+      "url": "./vod/xyq.json"
     },
     {
       "name": "默认影视源 · 肥猫",
-      "url": "https://www.iyouhun.com/tv/fm"
+      "url": "./vod/feimao.json"
     }
   ]
 }

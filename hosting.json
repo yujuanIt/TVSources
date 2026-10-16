@@ -31,9 +31,44 @@
       "count": 1
     }
   ],
+  "vodSiteFile": "data/vod-sites.json",
+  "vodSiteUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/vod-sites.json",
+  "vodSiteEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/vod-sites.json",
   "channelFile": "data/live.m3u",
   "channelUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u",
-  "channelCount": 1937,
+  "channelCount": 1716,
   "channelEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/live.m3u",
-  "liveSources": "data/live-sources.json"
+  "liveSources": "data/live-sources.json",
+  "vodContexts": [
+    {
+      "name": "饭太硬 · 点播与直播",
+      "path": "vod/fantaiying.json",
+      "count": 49
+    },
+    {
+      "name": "心魔在线",
+      "path": "vod/xinmo.json",
+      "count": 151
+    },
+    {
+      "name": "Clun在线",
+      "path": "vod/clun.json",
+      "count": 89
+    },
+    {
+      "name": "FongMI线路",
+      "path": "vod/fongmi.json",
+      "count": 33
+    },
+    {
+      "name": "香雅情",
+      "path": "vod/xyq.json",
+      "count": 48
+    },
+    {
+      "name": "默认影视源 · 肥猫",
+      "path": "vod/feimao.json",
+      "count": 39
+    }
+  ]
 }
