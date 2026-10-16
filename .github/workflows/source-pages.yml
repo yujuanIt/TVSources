@@ -47,10 +47,11 @@ jobs:
       - name: Refresh registered live upstreams
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync_live)
         run: python3 scripts/sync-live.py --summary "$GITHUB_STEP_SUMMARY"
-      - name: Validate builder and adapter
+      - name: Validate sources and editor
         run: |
           python3 -m unittest discover -s tests -p 'test_*.py' -v
-          node --experimental-vm-modules --test tests/*.test.mjs
+          node --test tests/*.test.mjs
+          node --check assets/editor.js
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5

@@ -46,7 +46,9 @@
 
 `vod.sites` 的接口类型为 JSON `1`、XML `0`、HTTP `4`、插件 `3`；`csp_` 插件需配置相应 JAR。完整 TVBox JSON 放在 `warehouses`，采集 API 放在 `vod.sites`。
 
-默认配置通过 `live.playlists` 的完整加速 URL 引用本站 M3U，频道直接写入 `data/live.m3u`；`live.channels` 保持空数组。外部点播源的分类与影片由相应接口提供，日常维护无需填写 `vod.movies` 或自建影片分类。
+默认配置只维护上表三类来源，通过 `live.playlists` 的完整加速 URL 引用本站 M3U，频道直接写入 `data/live.m3u`。`data/library.json` 不填写 `live.channels`、`vod.categories` 或 `vod.movies`；点播分类和影片由相应接口提供，App 的推荐分类由客户端维护。
+
+维护文件、网页草稿与发布的 `data/library.json` 使用同一结构，不自动补字段。`live` 只填写名称和直播列表；`vod` 只填写名称、点播接口与可选的公共 `spider`。配置不再接受内嵌频道、自建分类和自有影片，网页也不提供这些编辑入口；频道统一在 M3U 维护，点播内容通过接口或完整 TVBox 配置接入。
 
 列表项设置 `enabled: false` 可暂停发布并保留配置。网页编辑先保存在当前浏览器草稿中，需要把「配置与发布」中的完整 JSON 提交到 GitHub 才会上线。
 
@@ -113,7 +115,7 @@ PATH="$PWD/.tools/sync-venv/bin:$PATH" ./scripts/check.sh
 .tools/sync-venv/bin/python -m http.server 8765 --directory .tools/site
 ```
 
-打开 `http://localhost:8765/` 预览。检查脚本运行 Python / JavaScript 测试、页面脚本语法校验，并把静态站生成到 `.tools/site/`；这些步骤不联网同步上游、不发布内容。
+打开 `http://localhost:8765/` 预览。检查脚本运行 Python 构建与同步测试、JavaScript 编辑器测试及脚本语法校验，并把静态站生成到 `.tools/site/`；这些步骤不联网同步上游、不发布内容。
 
 发布流程：
 
@@ -128,7 +130,7 @@ PATH="$PWD/.tools/sync-venv/bin:$PATH" ./scripts/check.sh
 
 ```text
 data/                配置、自有 M3U、上游清单与同步状态
-assets/              页面样式、编辑器与点播适配脚本
+assets/              页面样式与配置编辑器
 scripts/             构建、直播同步、发布与检查工具
 tests/               Python / JavaScript 固定测试
 .github/workflows/   定时同步与 Pages 发布工作流

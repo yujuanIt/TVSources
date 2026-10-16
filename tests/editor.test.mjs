@@ -1,93 +1,72 @@
 import { readFile } from 'node:fs/promises';
-import { execFileSync } from 'node:child_process';
-import { fileURLToPath } from 'node:url';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 
 const source = (await readFile(new URL('../assets/editor.js', import.meta.url), 'utf8')).replace(/\nstart\(\);\s*$/, '\n');
-function editor() {
-  const context = vm.createContext({ location: { pathname: '/TVSources/' }, URL });
+const maintained = JSON.parse(await readFile(new URL('../data/library.json', import.meta.url), 'utf8'));
+function editor(input = maintained) {
+  const context = vm.createContext({ location: { pathname: '/TVSources/' }, URL, input: structuredClone(input) });
   vm.runInContext(source, context);
   return context;
 }
 
-test('source-only configuration validates and exports without recreating vod.movies', async () => {
-  const context = editor();
-  const input = JSON.parse(await readFile(new URL('../data/library.json', import.meta.url), 'utf8'));
-  delete input.vod.movies; context.input = input;
-  const before = JSON.stringify(input);
-  const out = JSON.parse(vm.runInContext('JSON.stringify(editableConfig(validate(input)))', context));
-  assert.equal(Object.hasOwn(out.vod, 'movies'), false);
-  assert.deepEqual(out.vod.sites, input.vod.sites);
-  assert.equal(JSON.stringify(input), before);
-  for (const bad of [null, {}, 'not-an-array']) {
-    context.input = structuredClone(input); context.input.vod.movies = bad;
-    assert.throws(() => vm.runInContext('validate(input)', context), /movies.*数组/);
-  }
-  context.input = structuredClone(input); context.input.vod.movies = [];
-  assert.doesNotThrow(() => vm.runInContext('validate(input)', context));
+test('configuration exports exactly the three maintained source lists without adding fields', () => {
+  const context = editor(); const before = JSON.stringify(context.input);
+  vm.runInContext('data = validate(input)', context);
+  const output = JSON.parse(vm.runInContext('exportConfig()', context));
+  assert.deepEqual(output, maintained); assert.equal(JSON.stringify(context.input), before);
+  assert.deepEqual(Object.keys(output.live), ['name', 'playlists']);
+  assert.deepEqual(Object.keys(output.vod), ['name', 'sites']);
+  context.input = output;
+  vm.runInContext('data = validate(input)', context);
+  assert.deepEqual(JSON.parse(vm.runInContext('exportConfig()', context)), output);
 });
 
-test('copying project JSON keeps the M3U reference without a second editable copy of its channels', () => {
-  const context = editor();
-  const input = { live: { channelFile: 'live.m3u', channels: [{ name: '我的频道' }] }, vod: { sites: [{ name: '接口' }] } };
-  context.input = input;
-  const out = JSON.parse(vm.runInContext('JSON.stringify(editableConfig(input))', context));
-  assert.deepEqual(out.live, { channelFile: 'live.m3u', channels: [] });
-  assert.deepEqual(out.vod, input.vod);
-  assert.equal(input.live.channels.length, 1);
-  const legacy = { live: { channels: [{ name: 'JSON 频道' }] } }; context.input = legacy;
-  assert.deepEqual(JSON.parse(vm.runInContext('JSON.stringify(editableConfig(input))', context)), legacy);
-});
-
-test('channel edits exported as M3U round-trip names, groups, logos, disabled state, routes and headers', () => {
-  const context = editor();
-  const channels = [{ name: '频道,一', group: '游戏,直播 & "其他"', tvgId: 'one', logo: 'https://example.com/logo?a=1&b=2',
-    urls: ['https://example.com/a?sign=a%2Fb#keep', 'https://example.com/backup?id=1,2'],
-    headers: { 'User-Agent': 'Player', Referer: 'https://example.com/', 'X-Example': 'public=value' }, enabled: false }];
-  context.channels = channels;
-  const m3u = vm.runInContext('channelsM3u(channels)', context);
-  const script = 'import importlib.util,json,sys; s=importlib.util.spec_from_file_location("builder", sys.argv[1]); b=importlib.util.module_from_spec(s); s.loader.exec_module(b); print(json.dumps(b.parse_m3u(sys.stdin.read()),ensure_ascii=False))';
-  const result = execFileSync('python3', ['-c', script, fileURLToPath(new URL('../scripts/build-source-site.py', import.meta.url))], { input: m3u, encoding: 'utf8', env: { ...process.env, PYTHONDONTWRITEBYTECODE: '1' } });
-  assert.deepEqual(JSON.parse(result), channels);
-});
-
-test('M3U export rejects request headers that could introduce playlist lines', () => {
-  const context = editor();
-  context.channels = [{ name: '频道', urls: ['https://example.com/live'], headers: { 'User-Agent': 'Player\nhttps://other.example/' } }];
-  assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /请求头/);
-});
-
-test('M3U export keeps per-route source IDs without changing channel names or playback URLs', () => {
-  const context = editor();
-  const url = 'https://example.com/live?sign=a+b%2F';
-  context.channels = [{ name: '我的频道', urls: [url], origins: { [url]: ['alpha', 'beta'] } }];
-  const m3u = vm.runInContext('channelsM3u(channels)', context);
-  assert.ok(m3u.includes('x-source-id="alpha,beta",我的频道\n' + url));
-  assert.equal(context.channels[0].name, '我的频道');
-  for (const value of [['bad\nline'], ['../private'], ['alpha', 'alpha'], {}]) {
-    context.channels[0].origins[url] = value;
-    assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /来源/);
+test('removed channel and movie fields are rejected rather than preserved or converted', () => {
+  for (const [owner, key] of [['live', 'channels'], ['live', 'channelFile'], ['vod', 'categories'], ['vod', 'movies']]) {
+    for (const value of [[], [{ name: '不属于订阅配置' }], null, {}]) {
+      const context = editor(); context.input[owner][key] = value;
+      assert.throws(() => vm.runInContext('validate(input)', context), new RegExp(owner + ' 仅支持'));
+    }
   }
 });
 
-test('M3U export keeps player options without accepting extra playlist lines', () => {
-  const context = editor();
-  context.channels = [{ name: '频道', urls: ['https://example.com/live.mpd'], directives: ['#KODIPROP:inputstream.adaptive.manifest_type=mpd', '#EXTVLCOPT:network-caching=1000'] }];
-  const result = vm.runInContext('channelsM3u(channels)', context);
-  assert.ok(result.includes('#KODIPROP:inputstream.adaptive.manifest_type=mpd\n#EXTVLCOPT:network-caching=1000\nhttps://example.com/live.mpd'));
-  for (const directive of ['#KODIPROP:x=y\nhttps://other.example/', '#EXTHTTP:{}', 'https://other.example/']) {
-    context.channels[0].directives = [directive];
-    assert.throws(() => vm.runInContext('channelsM3u(channels)', context), /播放选项/);
+test('required source lists cannot be missing or replaced with malformed values', () => {
+  for (const [owner, key] of [['live', 'playlists'], ['vod', 'sites'], [null, 'warehouses']]) {
+    for (const value of [null, {}, 'not-an-array']) {
+      const context = editor(); const parent = owner ? context.input[owner] : context.input;
+      parent[key] = value;
+      assert.throws(() => vm.runInContext('validate(input)', context), new RegExp(key + '.*数组'));
+      delete parent[key];
+      assert.throws(() => vm.runInContext('validate(input)', context), new RegExp(key + '.*数组'));
+    }
   }
 });
 
-test('URL-based M3U stays a playlist link when copying configuration', () => {
-  const context = editor();
-  context.input = { live: { channelFile: 'live.m3u', channels: [{ name: '旧草稿频道' }], playlists: [{ name: '我的 M3U', url: 'https://example.com/data/live.m3u' }] } };
-  vm.runInContext("hosting = { channelFile: 'data/live.m3u' }", context);
-  const result = JSON.parse(vm.runInContext('JSON.stringify(editableConfig(input))', context));
-  assert.equal(Object.hasOwn(result.live, 'channelFile'), false); assert.deepEqual(result.live.channels, []);
-  assert.deepEqual(result.live.playlists, context.input.live.playlists); assert.equal(context.input.live.channels.length, 1);
+test('exports preserve disabled sources, signed URLs, headers and all plugin parameters', () => {
+  const input = structuredClone(maintained);
+  input.live.playlists = [{ name: '我的直播', url: 'https://example.com/live.txt?sign=a+b%2F#keep', headers: { 'User-Agent': 'TV Player', Referer: 'https://example.com/' }, enabled: false }];
+  input.vod.spider = 'https://example.com/spider.jar;md5;abc';
+  input.vod.sites = [{ key: 'spider', name: '片库', type: 3, api: 'csp_Test', searchable: 1,
+    headers: { Cookie: 'fixture=keep' }, ext: { value: 'literal$#', url: 'https://example.com/ext?sign=a%2Bb' } }];
+  input.warehouses = [{ name: '完整配置', url: 'https://example.com/box.json?sign=a%2Bb%2F', enabled: false }];
+  const context = editor(input); vm.runInContext('data = validate(input)', context);
+  assert.deepEqual(JSON.parse(vm.runInContext('exportConfig()', context)), input);
+});
+
+test('empty lists are valid and do not create personal movie or channel entries', () => {
+  const input = { version: 1, name: '我的源', live: { name: '直播', playlists: [] }, vod: { name: '点播', sites: [] }, warehouses: [] };
+  const context = editor(input); vm.runInContext('data = validate(input)', context);
+  assert.deepEqual(JSON.parse(vm.runInContext('exportConfig()', context)), input);
+});
+
+test('invalid source URLs, duplicate site keys and invalid switches are rejected', () => {
+  for (const change of [input => input.live.playlists[0].url = 'file:///private',
+    input => input.vod.sites[0].api = 'javascript:alert(1)',
+    input => input.vod.sites.push(structuredClone(input.vod.sites[0])),
+    input => input.warehouses[0].enabled = 'true']) {
+    const context = editor(); change(context.input);
+    assert.throws(() => vm.runInContext('validate(input)', context));
+  }
 });

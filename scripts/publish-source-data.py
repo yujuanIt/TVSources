@@ -20,8 +20,8 @@ def main():
     parser.add_argument('--branch', default='source-data')
     args = parser.parse_args()
     directory = args.directory.resolve()
-    expected = {'index.html', 'assets/style.css', 'assets/editor.js', 'data/library.json', 'data/live.m3u', 'vod.js', '.nojekyll',
-                'box.json', 'vod.json', 'catalog.json', 'live.json', 'live.m3u', 'live.txt', 'warehouse.json', 'manifest.json', 'hosting.json'}
+    expected = {'index.html', 'assets/style.css', 'assets/editor.js', 'data/library.json', 'data/live.m3u', '.nojekyll',
+                'box.json', 'vod.json', 'live.json', 'live.m3u', 'live.txt', 'warehouse.json', 'manifest.json', 'hosting.json'}
     try:
         entries = json.loads((directory / 'warehouse.json').read_text(encoding='utf-8'))['urls']
         hosting = json.loads((directory / 'hosting.json').read_text(encoding='utf-8'))
