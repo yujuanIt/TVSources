@@ -14973,6 +14973,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/zoe_0601",
       "enabled": "true"
+    },
+    "c_b42cce8af350112a87a2a9ca": {
+      "name": "纬来体育",
+      "group": "体育",
+      "tvgId": "88zhibo-3",
+      "logo": "https://www.88zhibo.tv/storage/images/cate/vlai.png",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -29969,6 +29976,30 @@
           "group": "地方卫视"
         }
       }
+    },
+    "88-sports": {
+      "sha256": "94590127985bc6ea0f81f5b529f5fa7a53c869a692c67f2e5345c160244821b1",
+      "routes": 1,
+      "bindings": {
+        "54eebbcc47687454ae31c81f2e4471d94d41c1b164992e2a51c16c1a63f9f8d0": {
+          "channel": "c_b42cce8af350112a87a2a9ca",
+          "name": "纬来体育",
+          "tvgId": "88zhibo-3",
+          "group": "体育"
+        }
+      }
+    },
+    "88-nba": {
+      "sha256": "144659b48f342d02b9298907ab32fcf0479ac9c99a0d293c7c2ebf8df313dd12",
+      "routes": 0,
+      "bindings": {},
+      "retired": []
+    },
+    "88-cba": {
+      "sha256": "144659b48f342d02b9298907ab32fcf0479ac9c99a0d293c7c2ebf8df313dd12",
+      "routes": 0,
+      "bindings": {},
+      "retired": []
     }
   }
 }

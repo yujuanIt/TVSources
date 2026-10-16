@@ -11,11 +11,14 @@ from pathlib import Path
 import re
 import ssl
 import time
+import sys
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'scripts'))
+import sports_88
 spec = importlib.util.spec_from_file_location('live_builder', ROOT / 'scripts/build-source-site.py')
 builder = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(builder)
@@ -145,7 +148,7 @@ def merge(content, registry, previous, payloads, hans):
     known_ids = {source['id'] for source in registry['sources']}
     builder.require(all(key in known_ids for row in rows for key in row['origins']), '本地列表含未登记的来源')
     current = bootstrap(rows, state)
-    report = {'sources': [], 'addedChannels': 0, 'updatedChannels': 0, 'ambiguousChannels': 0, 'suppressedChannels': 0, 'retainedMissingChannels': 0}
+    report = {'sources': [], 'addedChannels': 0, 'updatedChannels': 0, 'ambiguousChannels': 0, 'suppressedChannels': 0, 'retainedMissingChannels': 0, 'retiredEventChannels': 0}
     sources = {source['id']: source for source in registry['sources']}
     for source_id in registry['mergePolicy']['sourceOrder']:
         source = sources[source_id]
@@ -156,7 +159,8 @@ def merge(content, registry, previous, payloads, hans):
             report['sources'].append({'id': source_id, 'status': 'kept', 'reason': '未取得有效上游，保留现有线路'}); continue
         payload = payloads[source_id]
         _, incoming = parse(payload.decode('utf-8-sig'))
-        builder.require(incoming, source_id + ' 是空列表')
+        events = source.get('format') == '88zhibo' and source.get('kind') in {'NBA', 'CBA'}
+        builder.require(incoming or events, source_id + ' 是空列表')
         selection = source.get('selection', {})
         if selection.get('mode') == 'keep-selected':
             names = {normalized(name, hans) for name in selection['names']}
@@ -168,6 +172,7 @@ def merge(content, registry, previous, payloads, hans):
             meta = metadata(row); identity = digest([meta['name'], meta['group'], meta['tvgId'], meta['logo'], classify(row, hans)])
             groups.setdefault(identity, []).append(row)
         old = state['sources'].get(source_id, {}).get('bindings', {})
+        retired = set(state['sources'].get(source_id, {}).get('retired', []))
         bindings = copy.deepcopy(old)
         updates, matched, blocked = {}, set(), set()
         source_rows = [row for row in rows if source_id in row['origins']]
@@ -197,10 +202,21 @@ def merge(content, registry, previous, payloads, hans):
                     blocked.update(exact | same | alias | epg)
                     details['ambiguous'] += 1; continue
             if candidate is not None and candidate not in current:
-                details['suppressed'] += 1; continue  # A channel deleted by the owner is a tombstone.
+                if candidate not in retired:
+                    details['suppressed'] += 1; continue  # An owner deletion stays a tombstone.
+                # An event removed by a successful snapshot may reappear. Keep
+                # its local metadata, and distinguish it from an owner deletion.
+                local = state['channels'][candidate]
+                attrs = copy.deepcopy(first['attrs'])
+                attrs.update({'tvg-id': local['tvgId'], 'tvg-logo': local['logo'], 'tvg-name': local['name'],
+                              'group-title': local['group'], 'x-enabled': local['enabled'], 'x-sync-id': candidate})
+                current[candidate] = local
+                updates[candidate] = {'template': dict(attrs=attrs, name=local['name']), 'rows': []}
+                retired.discard(candidate)
             if candidate is None:
                 a = {key: value for key, value in first['attrs'].items() if not key.startswith(('x-source-', 'x-sync-'))}
-                a.update({'group-title': classify(first, hans), 'tvg-name': hans(first['attrs'].get('tvg-name', first['name']))})
+                group = first['attrs']['group-title'] if source.get('format') == '88zhibo' else classify(first, hans)
+                a.update({'group-title': group, 'tvg-name': hans(first['attrs'].get('tvg-name', first['name']))})
                 if 'tvg-logo' in a: a['tvg-logo'] = a['tvg-logo'].replace(' ', '%20')
                 template = dict(attrs=a, name=hans(first['name']))
                 local = metadata(template); deleted = [key for key, value in state['channels'].items() if key not in current and normalized(value['name'], hans) == normalized(local['name'], hans) and value['tvgId'] == local['tvgId']]
@@ -218,6 +234,8 @@ def merge(content, registry, previous, payloads, hans):
             for row in remote_rows:
                 replacement = copy.deepcopy(row)
                 replacement.update(name=target['template']['name'], attrs=copy.deepcopy(target['template']['attrs']), origins=[source_id])
+                if events and 'x-event-start' in row['attrs']:
+                    replacement['attrs']['x-event-start'] = row['attrs']['x-event-start']
                 replacement['attrs']['x-sync-id'] = candidate
                 target['rows'].append(replacement)
             bindings[identity] = {'channel': candidate, 'name': remote['name'], 'tvgId': remote['tvgId'], 'group': remote['group']}
@@ -225,19 +243,28 @@ def merge(content, registry, previous, payloads, hans):
         for key in blocked:
             updates.pop(key, None); matched.discard(key)
         missing = {row['attrs']['x-sync-id'] for row in source_rows} - matched
-        report['retainedMissingChannels'] += len(missing)
+        retiring = missing - blocked if source.get('retireMissing') else set()
+        report['retainedMissingChannels'] += len(missing - retiring)
+        report['retiredEventChannels'] += len(retiring)
         report['updatedChannels'] += len(matched)
         report['ambiguousChannels'] += details['ambiguous']; report['suppressedChannels'] += details['suppressed']
         # Detach only this successful source from matched channels. Shared/failed sources stay attached.
         retained = []
+        replacing = set(updates) | retiring
         for row in rows:
-            if row['attrs']['x-sync-id'] in updates and source_id in row['origins']:
+            if row['attrs']['x-sync-id'] in replacing and source_id in row['origins']:
                 row = copy.deepcopy(row); row['origins'].remove(source_id)
                 if not row['origins']: continue
             retained.append(row)
         for update in updates.values(): retained.extend(update['rows'])
         rows = retained
         state['sources'][source_id] = {'sha256': hashlib.sha256(payload).hexdigest(), 'routes': len(incoming), 'bindings': bindings}
+        if events:
+            still_present = {row['attrs']['x-sync-id'] for row in rows}
+            retired.update(retiring - still_present)
+            for key in retiring - still_present:
+                current.pop(key, None)
+            state['sources'][source_id]['retired'] = sorted(retired)
         report['sources'].append(details)
     output = serialize(header, rows, registry)
     builder.parse_m3u(output)
@@ -246,6 +273,8 @@ def merge(content, registry, previous, payloads, hans):
 
 
 def fetch(source, timeout=20, max_bytes=8 * 1024 * 1024, root=ROOT):
+    if source.get('format') == '88zhibo':
+        return sports_88.fetch_playlist(source)
     if source.get('format') == 'local-m3u':
         builder.require(source.get('file') == 'data/live-official.m3u', '本地官方清单路径无效')
         path = root / source['file']
@@ -278,11 +307,12 @@ def fetch(source, timeout=20, max_bytes=8 * 1024 * 1024, root=ROOT):
         return result
 
 
-def download(registry, fetcher=fetch, previous=None):
+def download(registry, fetcher=fetch, previous=None, sports_only=False):
     payloads, failures = {}, {}
     sources = {source['id']: source for source in registry['sources']}
     for source in [sources[key] for key in registry['mergePolicy']['sourceOrder']]:
         if not source.get('enabled', True): continue
+        if sports_only and source.get('format') != '88zhibo': continue
         for attempt in range(2):
             try:
                 payload = fetcher(source)
@@ -292,9 +322,10 @@ def download(registry, fetcher=fetch, previous=None):
                     converter = OpenCC('t2s').convert
                     allowed = {normalized(name, converter) for name in source['selection']['names']}
                     fetched_rows = [row for row in fetched_rows if normalized(row['name'], converter) in allowed]
-                builder.require(fetched_rows, '上游没有可选频道')
+                events = source.get('format') == '88zhibo' and source.get('kind') in {'NBA', 'CBA'}
+                builder.require(fetched_rows or events, '上游没有可选频道')
                 last_routes = (previous or {}).get('sources', {}).get(source['id'], {}).get('routes', source.get('lastImport', {}).get('routes', 0))
-                builder.require(len(fetched_rows) >= last_routes * registry.get('sync', {}).get('minimumPreviousRouteRatio', .5), '上游线路异常减少，保留待核对')
+                builder.require(events or len(fetched_rows) >= last_routes * registry.get('sync', {}).get('minimumPreviousRouteRatio', .5), '上游线路异常减少，保留待核对')
                 payloads[source['id']] = payload; break
             except (OSError, ValueError, UnicodeError, HTTPException, HTTPError, URLError) as error:
                 failures[source['id']] = 'HTTP ' + str(error.code) if isinstance(error, HTTPError) else type(error).__name__
@@ -318,17 +349,20 @@ def main():
     parser.add_argument('--preview-dir', type=Path)
     parser.add_argument('--report', type=Path, default=ROOT / '.tools/live-sync-report.json')
     parser.add_argument('--summary', type=Path)
+    parser.add_argument('--sports-only', action='store_true', help='只检查体育频道和 NBA / CBA 赛事，不抓取其他直播上游')
     args = parser.parse_args()
     registry = builder.validate_live_sources(json.loads((args.root / 'data/live-sources.json').read_text(encoding='utf-8')))
     if not registry['automaticSyncEnabled']:
         print('自动同步已在来源清单中关闭。'); return
+    if args.sports_only and not any(source.get('enabled', True) and source['format'] == '88zhibo' for source in registry['sources']):
+        print('体育同步来源已全部停用，保留现有列表。'); return
     from opencc import OpenCC
     hans = OpenCC('t2s').convert
     path, state_path = args.root / registry['playlist'], args.root / 'data/live-sync-state.json'
     builder.require(not path.is_symlink() and not path.parent.is_symlink() and not state_path.is_symlink(), '同步数据文件不能使用符号链接')
     original = path.read_text(encoding='utf-8')
     previous = json.loads(state_path.read_text(encoding='utf-8')) if state_path.exists() else None
-    payloads, failures = download(registry, fetcher=lambda source: fetch(source, root=args.root), previous=previous)
+    payloads, failures = download(registry, fetcher=lambda source: fetch(source, root=args.root), previous=previous, sports_only=args.sports_only)
     if payloads:
         result, state, report = merge(original, registry, previous, payloads, hans)
         output = args.preview_dir if args.preview_dir else args.root / 'data'

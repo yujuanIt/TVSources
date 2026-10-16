@@ -123,6 +123,16 @@ https://example.com/live.m3u8
 
 `official-ysp` 是 `local-m3u` 来源，从仓库内 `data/live-official.m3u` 导入 `data/live.m3u`。其中保存带 `pid`、`cnlid` 的央视频官方页面入口，新版居安影院播放时通过官方匿名接口实时取得 HLS 地址；无需另建解析服务器。普通 M3U 播放器通常不能解析这些页面，可使用同台保留的 IPTV 备用线路。不要把 API 返回的临时 HLS 地址写死进文件。官方接口随地区、时段和平台策略变化，受限节目不作额外授权处理。
 
+### 体育频道与 NBA / CBA 赛事
+
+`88-sports`、`88-nba`、`88-cba` 在 `data/live-sources.json` 分别登记 [88直播体育频道](https://www.88zhibo.tv/match/21/live)、[NBA](https://www.88zhibo.tv/match/1/live)、[CBA](https://www.88zhibo.tv/match/2/live)。`format: "88zhibo"` 配合 `kind: "channels" / "NBA" / "CBA"` 使用，单项 `enabled: false` 暂停该项同步。
+
+[scripts/sports_88.py](scripts/sports_88.py) 读取公开赛程与线路接口，不执行网页 JavaScript。新增条目必须取得有效直播 HLS 清单及 TS / fMP4 视频分片；占位链接、广告、需解锁链接、回放及尚无播放线路的场次跳过。只检查公开线路，不登录或调用付费授权。2026-10-16 体育频道检查中只有纬来体育通过清单与分片验证并新增；CCTV5 / 5+ 已有官方入口，其他占位频道未收录。没有可用赛事时不生成空频道或占位比赛。
+
+M3U 的「体育」「NBA赛事」「CBA赛事」分组保存稳定的 `/live/<ID>/play` 页面入口、简体显示名、台标及来源备注；不保存会过期的 CDN 签名地址。需要包含 `SportsLive` 解析器的简影TV 客户端在播放时取得实际地址，普通播放器不能直接把这些页面当视频播放。客户端短期复用解析结果，失败时换公开线路或重新请求；视频直接连接上游，不需要自行部署转发服务器。源站验证不代表海信电视持续播放已通过。
+
+赛事抓取最近 6 小时至未来 36 小时的 NBA / CBA 赛程，只发布通过播放验证的场次。赛事来源的 `retireMissing: true` 允许在完整成功快照中移除不再提供有效直播的条目，避免比赛结束后长期积累；接口读取失败保留上次数据。手工删除仍不自动补回，自动清理的赛事若重新可播可恢复，并保留本地名称、分组与开关；普通直播来源继续采用失败保留和移除待核对规则。
+
 2026-10-16 验证：52 个候选央视 / 卫视频道中，50 个取得官方 CDN 的 HLS 清单及至少 8 KiB 视频分片后收录；其余未验证通过的候选不新增官方线路。验证是本机网络的清单与分片读取，不能替代电视设备的持续播放测试。官方入口参考 [央视直播](https://tv.cctv.com/live/) 与 [央视频](https://www.yangshipin.cn/tv/home)，频道元数据和匿名接口实现参考 GPL-3.0 的 [akiralereal/iptv](https://github.com/akiralereal/iptv)；Android 适配及许可证说明在私有 App 项目维护。
 
 ## 直播自动同步
@@ -142,6 +152,8 @@ https://example.com/live.m3u8
 - 两项都取消：仅校验和发布仓库中的内容。
 - `automaticSyncEnabled: false` 暂停全部抓取；单个来源的 `enabled: false` 暂停该源并保留其现有线路。
 
+体育频道与 NBA / CBA 另在每小时 **07、37 分**检查，只抓取这三个来源，不重复刷新其他 IPTV 或点播接口；验证、数据保存和发布仍沿用同一工作流。GitHub 定时任务可能延迟，App 还受其刷新周期和公共加速缓存影响。
+
 定时安排由 [source-pages.yml](.github/workflows/source-pages.yml) 的 `schedule` 控制；调整频率时，同步更新来源清单的 `sync` 记录。
 
 直播与点播使用同一组每 6 小时的定时触发。有数据变化时，工作流只自动提交 `data/live.m3u`、`data/live-sync-state.json`、`data/vod-sites.json` 与 `data/vod-sync-state.json`，随后在同一次运行中更新 `source-data` 和 GitHub Pages；无变化不产生数据提交。推送冲突会停止，不覆盖人工提交。各源结果和待核对数量可在工作流摘要查看。
@@ -154,6 +166,9 @@ https://example.com/live.m3u8
 
 # 写入本地 M3U 与状态，检查后通过 Git 提交发布
 .tools/sync-venv/bin/python scripts/sync-live.py
+
+# 仅刷新体育频道及 NBA / CBA，其他来源和本地编辑保留
+.tools/sync-venv/bin/python scripts/sync-live.py --sports-only
 ```
 
 依赖安装见下节。同步报告默认写入 `.tools/live-sync-report.json`；本地运行同步器不会自动推送或发布。

@@ -1,6 +1,9 @@
 #EXTM3U
 #SOURCE-MANIFEST:https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live-sources.json
 #SOURCE:{"id":"official-ysp","name":"官方直播 · 央视与卫视","url":"https://www.yangshipin.cn/tv/home"}
+#SOURCE:{"id":"88-sports","name":"88直播 · 体育频道","url":"https://www.88zhibo.tv/match/21/live"}
+#SOURCE:{"id":"88-nba","name":"88直播 · NBA赛事","url":"https://www.88zhibo.tv/match/1/live"}
+#SOURCE:{"id":"88-cba","name":"88直播 · CBA赛事","url":"https://www.88zhibo.tv/match/2/live"}
 #SOURCE:{"id":"yang-favorites","name":"居安直播 · 常看","url":"https://live.yang-1989.eu.org/sub/yujuan.m3u"}
 #SOURCE:{"id":"guovin-ipv4","name":"IPTV IPv4 · 综合","url":"https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"}
 #SOURCE:{"id":"yuechan-ipv4","name":"IPTV IPv4 · 备用","url":"https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u"}
@@ -7341,6 +7344,9 @@ https://migu.188766.xyz/?migutoken=c6b17aba558cf29b13242b5ae063e5ed&id=%E5%BF%AB
 https://migu.188766.xyz/?migutoken=f4d62cd1f8775b1b837f4232f1051f36&id=%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93&type=yy
 #EXTINF:-1 tvg-id="湖南快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://www.xn--rgv465a.top/tvlogo/快乐垂钓.png" group-title="体育" x-sync-id="c_23f1575bccda0b8f28fb7713" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",快乐垂钓
 https://migu.188766.xyz/?migutoken=396182b2a9b61dca2daded3fc6f62311&id=%E5%BF%AB%E4%B9%90%E5%9E%82%E9%92%93&type=yy
+#EXTINF:-1 tvg-id="88zhibo-3" tvg-logo="https://www.88zhibo.tv/storage/images/cate/vlai.png" group-title="体育" tvg-name="纬来体育" x-sync-id="c_b42cce8af350112a87a2a9ca" x-source-id="88-sports" x-source-name="88直播 · 体育频道",纬来体育
+#EXTHTTP:{"User-Agent":"Mozilla/5.0"}
+https://www.88zhibo.tv/live/3/play
 #EXTINF:-1 tvg-id="浙江教科影视" tvg-name="浙江教科影视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江教科影视.png" group-title="影视" x-sync-id="c_bebc98db828881eec810b545" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",浙江教科影视
 http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
 #EXTINF:-1 tvg-id="东阳影视生活" tvg-name="东阳影视生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东阳影视生活.png" group-title="影视" x-sync-id="c_184ac6032dab634bd974df3a" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",东阳影视生活

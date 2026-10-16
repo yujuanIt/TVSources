@@ -146,7 +146,15 @@ def validate_live_sources(data):
         require(bool(ID.fullmatch(key)) and key not in known, '上游 ID 无效或重复')
         known[key] = source
         text(source.get('name'), '上游名称'); url(source.get('url'), '上游地址'); headers(source.get('headers', {}), '上游请求头')
-        require(source.get('format') in {'m3u', 'local-m3u', 'tvbox-lives'}, '上游格式需要 m3u、local-m3u 或 tvbox-lives')
+        require(source.get('format') in {'m3u', 'local-m3u', 'tvbox-lives', '88zhibo'}, '上游格式需要 m3u、local-m3u、tvbox-lives 或 88zhibo')
+        if source.get('format') == '88zhibo':
+            kind = source.get('kind')
+            pages = {'channels': '21', 'NBA': '1', 'CBA': '2'}
+            require(kind in pages and source['url'] == 'https://www.88zhibo.tv/match/' + pages[kind] + '/live', '88直播仅支持已登记的体育频道、NBA、CBA 页面')
+        if 'retireMissing' in source:
+            require(isinstance(source['retireMissing'], bool), 'retireMissing 需要是布尔值')
+        if source.get('retireMissing', False):
+            require(source.get('format') == '88zhibo' and source.get('kind') in {'NBA', 'CBA'}, '只有动态赛事允许自动移除过期条目')
         if source.get('format') == 'local-m3u':
             require(source.get('file') == 'data/live-official.m3u', '本地官方清单仅支持 data/live-official.m3u')
         if 'selection' in source:
@@ -169,7 +177,7 @@ def validate_live_sources(data):
     order = policy.get('sourceOrder', [])
     require(isinstance(order, list) and all(isinstance(key, str) and key in known for key in order) and len(set(order)) == len(order), '合并顺序需要已知且不重复的上游 ID')
     enabled = {source['id'] for source in sources if source.get('enabled', True)}
-    require(enabled <= set(order) and all(known[key]['format'] in {'m3u', 'local-m3u'} for key in order), '合并顺序需要包含所有启用的 M3U；已展开合集不重复抓取')
+    require(enabled <= set(order) and all(known[key]['format'] in {'m3u', 'local-m3u', '88zhibo'} for key in order), '合并顺序需要包含所有启用的直播上游；已展开合集不重复抓取')
     if 'sync' in data:
         settings = data['sync']
         require(isinstance(settings, dict), 'sync 必须是对象')
