@@ -2,13 +2,13 @@
 
 网站：[居安源站](https://yujuanit.github.io/TVSources/)。已按用户要求同步 App 默认源地址，之后可以自行添加、改名、停用或删除；只维护配置和播放地址，没有复制影片文件。
 
-当前维护 2 个直接点播接口（非凡、360）、6 份完整 TVBox 配置（饭太硬、心魔、Clun、FongMI、香雅情、肥猫）和自己的 M3U 直播订阅。`data/live.m3u` 已合并原有常看频道及 7 份直播列表，整理后共 1,825 个频道条目、2,917 条播放线路；`live.playlists` 只保留「居安直播 · 我的 M3U」，移出已覆盖的 9 个独立订阅入口，频道、线路和点播配置不受这次入口清理影响。上游地址与来源备注保存在 [data/live-sources.json](data/live-sources.json)，便于日后编写定期同步程序。当前没有启用定期抓取。
+当前维护 2 个直接点播接口（非凡、360）、6 份完整 TVBox 配置（饭太硬、心魔、Clun、FongMI、香雅情、肥猫）和自己的 M3U 直播订阅。`live.playlists` 只保留「居安直播 · 我的 M3U」。同步程序按 [data/live-sources.json](data/live-sources.json) 登记的上游每 6 小时更新 `data/live.m3u`，保留本地名称、分组和来源备注，校验后自动发布到源站；频道总数以网页总览和工作流摘要为准。
 
 ## 直播分组
 
 自己的 M3U 按以下顺序分组：「央视、地方卫视、抖音、虎牙、B站、斗鱼、港澳台、体育、影视、少儿、音乐、游戏、综合频道、Twitch、SOOP、YY、公告」。央视常规频道按频道号排列，地方卫视中的卫视频道排在地方频道前；各平台的游戏、娱乐和其他直播统一放在相应平台组，赛事直播也按所属平台归类。港澳台频道集中到一组。
 
-原 105 个分组合并为 17 个，IPv4 / IPv6、各省及平台内容子分类不再单独成组。全部频道和 2,917 条线路保留，台标、EPG 标识、播放请求头、签名参数与播放器选项未改动。频道条目从 1,894 合并为 1,825，是分组统一后同一频道的线路归并，并未筛掉频道。公告和上游更新时间也保留在最后一组。整理前的完整清单可从 [9356a29 版本](https://github.com/yujuanIt/TVSources/blob/9356a29559fcb2fe04f3e884f6e445f6f8237216/data/live.m3u) 查看或恢复。
+原 105 个分组合并为 17 个，IPv4 / IPv6、各省及平台内容子分类不再单独成组。2026-10-15 整理时全部频道和 2,917 条线路保留，台标、EPG 标识、播放请求头、签名参数与播放器选项未改动。频道条目从 1,894 合并为 1,825，是分组统一后同一频道的线路归并，并未筛掉频道。公告和上游更新时间也保留在最后一组。整理前的完整清单可从 [9356a29 版本](https://github.com/yujuanIt/TVSources/blob/9356a29559fcb2fe04f3e884f6e445f6f8237216/data/live.m3u) 查看或恢复。
 
 此分组调整作用于自己的 `data/live.m3u` 及其 M3U / TXT / JSON 输出，上游列表仅登记为来源依赖，不再重复作为默认独立直播订阅。完整点播 TVBox 配置仍保留上游自己的原始内容。
 
@@ -47,13 +47,13 @@
 
 体育列表此次全部包含在电视 IPTV 中，仍保留其频道及线路；[Gather](https://yang-1989.eu.org/Gather.json) 引用的三份列表也均已覆盖，不重复展开。myTV 的 245 条 `KODIPROP` 播放选项保留在 M3U 中，是否能使用这些选项取决于播放器支持；没有新增 DRM 适配或解密逻辑。IPv6 分组需要设备和网络具备 IPv6 连通性。
 
-这是一次清单导入，之后可自行编辑，不会定时从上游覆盖文件。此次检查了列表读取、去重、播放地址与请求头保留以及输出格式，没有逐台验证实际播放。
+上表保留首次导入记录；现在的定时程序按下方规则更新已有线路、补充新频道。列表格式校验不等于逐台实际播放验证。
 
-## 直播来源记录与后续同步
+## 直播来源记录与自动同步
 
 [data/live-sources.json](data/live-sources.json) 是机器可读的 `version: 1` 来源清单，也随源站发布为 `/data/live-sources.json`。网页「直播电视 → 查看导入来源」可以查看。它记录原始 URL、稳定 ID、名称、M3U / TVBox lives 格式、请求头、上次导入日期与 SHA-256、合集依赖、原独立订阅开关及后续合并规则；不会作为新的直播列表导入 App。
 
-| ID | 上游 | 后续合并用途 |
+| ID | 上游 | 同步用途 |
 | --- | --- | --- |
 | `yang-favorites` | 原常看 `sub/yujuan.m3u` | 保留最初选取的 5 个频道，仅更新这些选择 |
 | `guovin-ipv4` | Guovin IPv4 | 综合电视频道 |
@@ -65,7 +65,7 @@
 | `yang-network` | 网络直播 Live | 抖音、虎牙、B站、斗鱼等直播 |
 | `yang-gather` | Gather 合集 | 引用电视、网络、myTV；子源已逐项登记，不重复抓取 |
 
-来源按本次合并时保留的原始快照核对，完整 URL、请求头和播放器选项一致才标记；不靠域名猜测。当前全部 2,917 条线路均可追溯，其中 155 条线路在多个上游有相同记录，保留所有匹配来源。来源备注不会追加到频道显示名，不影响简体名称、17 个分组、台标、EPG、原请求头、签名和 KODIPROP / EXTVLCOPT。上游快照只证明导入来源，不代表频道当前一定可播放。
+来源按本次合并时保留的原始快照核对，完整 URL、请求头和播放器选项一致才标记；不靠域名猜测。首次归因核对的 2,917 条线路均可追溯，其中 155 条线路在多个上游有相同记录，保留所有匹配来源。来源备注不会追加到频道显示名，不影响简体名称、17 个分组、台标、EPG、原请求头、签名和 KODIPROP / EXTVLCOPT。上游快照只证明导入来源，不代表频道当前一定可播放。
 
 例如同一线路出现在电视与体育两个列表中：
 
@@ -76,14 +76,30 @@ https://example.com/live.m3u8?original-signature=keep
 
 `x-source-id` 用逗号分隔稳定 ID，`x-source-name` 便于人工阅读；M3U 文件头的 `#SOURCE` JSON 注释列出 ID、名称与 URL。生成后的 M3U 保留这些备注，`live.json` 用每个频道的 `origins` 对象按完整线路地址记录来源 ID；TXT 保持普通频道列表格式，不承载来源元数据。
 
-以后同步程序可以读取 `sources` 中启用的 M3U，并按 `mergePolicy.sourceOrder` 顺序处理。清单的 `enabled` 是后续合并计划，不是 App 独立订阅开关；`automaticSyncEnabled` 当前为 `false`，尚未编写或安排定时执行。需要遵守的约定：
+[scripts/sync-live.py](scripts/sync-live.py) 已实现同步。`automaticSyncEnabled: true` 表示开启；只抓取 `sources` 中启用的 M3U，按 `mergePolicy.sourceOrder` 合并。Gather 已展开为子源，不重复请求，原常看列表只同步 `selection.names` 选中的五个频道。来源清单不会重新变成 App 的独立订阅。
 
-- 按完整播放 URL、请求头及播放器选项去重；同一 URL 使用不同请求头或选项时分别保留，合并所有来源 ID。
-- 上游下载、解析失败保留上次有效内容；上游暂时移除的频道先留待核对，不因空响应把本地整份清单清空。
-- 更新播放链接时保留手工名称、分组、显示开关、台标与 EPG 标识，沿用简体显示及既有分组顺序；新节目再按规则归类。常看只更新清单里的选取范围。
-- 签名变化应重新读取上游，不能删除或修改签名参数；请求头和播放器选项随线路保存。后续需要以来源 ID、EPG 和频道信息核对更新，不能把会过期的完整 URL 当作永久频道 ID。
+- 保留现有频道的名称、分组、台标、EPG、显示开关与自定义属性；新频道用 OpenCC 转成简体，并按上述 17 类归组。已有频道以稳定的 `x-sync-id` 匹配，绑定保存在 [data/live-sync-state.json](data/live-sync-state.json)，不依靠易过期的签名 URL 作为频道 ID。
+- 已匹配频道更新完整播放 URL、请求头和 KODIPROP / EXTVLCOPT，签名参数原样保留。来源清单中的请求头作为默认值，频道显式设置的头优先。同 URL 使用不同头或不同顺序的播放选项时分别保留，完全相同的线路归并并保留所有来源备注。
+- 每源至多请求两次，单次响应最多 8 MiB，设置网络超时。HTML、空列表、截断 / 非法 M3U 或线路数量低于上次有效值的 50% 均视为异常，该源沿用旧数据；其他正常源仍可更新。全部失败则不修改清单和状态，也不发布。
+- 上游暂时删掉的频道、匹配不明确的频道保留待核对；不随一次空响应删台。`x-enabled="false"` 保持隐藏；从文件手工删除已建立绑定的频道后，后续同步不会自动加回来。要恢复可从 Git 历史恢复含原 `x-sync-id` 的频道条目。
+- 手工新增且没有来源标记的线路保留。带 `x-source-id` 的线路由对应上游维护；需要独立手工维护某条播放地址时，移除该条的 `x-source-id` / `x-source-name`。修改频道信息时保留 `x-sync-id`，同一频道的各条线路使用相同的显示信息。
 
-本次验证：28 项 Python、14 项 JavaScript 测试通过；生成配置只有 1 个默认独立直播订阅，1,825 个频道、17 个分组和 2,917 条线路保持不变，已有播放字段逐项核对一致。没有重新抓取上游替换播放地址，也没有执行逐频道实播或自动发布。
+[source-pages 工作流](.github/workflows/source-pages.yml) 在北京时间 **04:25、10:25、16:25、22:25** 运行；也可在 [Actions → Publish personal sources](https://github.com/yujuanIt/TVSources/actions/workflows/source-pages.yml) 点 **Run workflow**，默认先同步再发布。取消勾选 `sync_live` 可只发布本地内容。把来源清单的 `automaticSyncEnabled` 改为 `false` 并提交，可暂停全部抓取；把单个来源的 `enabled` 改为 `false` 可暂停该来源，旧频道保留。调整频率请修改工作流的 `schedule`，来源清单的 `sync` 记录当前安排。
+
+工作流依次同步、测试、生成、提交有变化的 M3U / 状态文件，再在同一运行中更新 `source-data` 与 GitHub Pages；不依赖机器人提交再次触发 push 发布，也不需要个人 Token，符合 [GITHUB_TOKEN 的事件触发行为](https://docs.github.com/en/actions/concepts/security/github_token#when-github_token-triggers-workflow-runs)。没有内容变化时不产生数据提交。并发运行不互相中断；运行期间若有人提交新内容，普通推送会拒绝覆盖远端，留给后续运行重新处理。[GitHub 定时任务](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) 可能延后，并非精确定时服务；仓库长期无活动时应检查 Actions 是否仍启用。
+
+本地试跑（先按下文安装同步依赖）：
+
+```sh
+.tools/sync-venv/bin/python scripts/sync-live.py --dry-run --preview-dir .tools/live-preview
+.tools/sync-venv/bin/python scripts/sync-live.py
+```
+
+第一条只把候选清单和状态放在 `.tools/live-preview/`，不覆盖源文件。第二条写入 `data/live.m3u` 和状态，仍需检查后提交才会上线。抓取结果和失败原因写在 `.tools/live-sync-report.json`；Actions 每次运行的摘要会列出成功、失败保留、新频道和待核对数量。
+
+初始化用原始导入快照核对既有频道，保留全部 1,825 个频道及唯一的播放信息；原来分组归并后产生的 30 条完全相同条目去重，2,887 条唯一线路均保留。此后按实际上游变化更新，初始数量不作为当前总数。
+
+2026-10-16 验证：45 项 Python、14 项 JavaScript 测试及 actionlint 工作流检查通过。8 个启用上游实际读取成功，候选合并为 1,926 个频道条目、3,046 条线路、17 个分组；原有频道的本地显示信息保留。对相同上游快照连续合并两次，M3U 与同步状态完全一致。此项验证针对列表同步与发布，不代表每个直播地址均已实播；未构建 APK。
 
 TXT 使用 `分组名,#genre#` 和 `频道名,播放地址` 格式，备用线路逐行列出。TXT 不包含图标与请求头，需要这些信息时使用 M3U / JSON；综合源默认引用 M3U，额外的播放器选项也保留在 M3U 输出中。
 
@@ -100,7 +116,7 @@ TXT 使用 `分组名,#genre#` 和 `频道名,播放地址` 格式，备用线�
 3. 等待仓库 [Publish personal sources](https://github.com/yujuanIt/TVSources/actions/workflows/source-pages.yml) 成功。检查失败时本次内容不会部署，修正文件后再提交。
 4. 在电视刷新相应配置。客户端可能有首页缓存，必要时刷新源或重开应用；免费代理也可能缓存旧文件。
 
-发布脚本只在本地 / Actions 构建时读取 `data/live.m3u` 与来源清单，不会向上游重新抓取或覆盖你的列表。M3U / 来源清单格式错误时检查失败，已有线上版本保留。Pages 是公开站点，源文件也在公开仓库，不要填写账号密码、私密 Cookie 或令牌。
+普通 push 发布和本地构建只读取 `data/live.m3u` 与来源清单，不联网刷新；定时运行或手动勾选同步时，才先执行同步器。M3U / 来源清单格式错误时检查失败，已有线上版本保留。Pages 是公开站点，源文件也在公开仓库，不要填写账号密码、私密 Cookie 或令牌。
 
 M3U 中每个频道示例：
 
@@ -127,17 +143,17 @@ https://example.com/live.m3u8
 
 ## 发布结构
 
-`main` 保存源码、可编辑的 `data/live.m3u`、`data/live-sources.json` 与 `data/library.json`。工作流先检查格式与脚本，再发布 M3U、来源清单及旧格式备用输出到 `source-data` 和 GitHub Pages。修改 `data/` 下任一文件都会触发发布，不触发 APK 构建。
+`main` 保存源码、可编辑的 `data/live.m3u`、`data/live-sources.json`、频道绑定状态 `data/live-sync-state.json` 与 `data/library.json`。工作流先检查格式与脚本，再发布 M3U、来源清单及旧格式备用输出到 `source-data` 和 GitHub Pages。修改 `data/` 下任一文件都会触发发布，不触发 APK 构建。
 
 `source-data` 全部由工作流维护，请修改 `main` 的源文件，不要直接修改生成物。工作流仅向该分支写入公开源站文件，不强推、不操作应用暂存区，也不会把 APK、签名、SDK 或工具缓存传到 Pages。
 
 本地验证：
 
 ```sh
-python3 -m unittest discover -s tests -p 'test_*.py' -v
-node --experimental-vm-modules --test tests/*.test.mjs
-python3 scripts/build-source-site.py
-python3 -m http.server 8765 --directory .tools/site
+python3 -m venv .tools/sync-venv
+.tools/sync-venv/bin/python -m pip install -r scripts/requirements-sync.txt
+PATH="$PWD/.tools/sync-venv/bin:$PATH" ./scripts/check.sh
+.tools/sync-venv/bin/python -m http.server 8765 --directory .tools/site
 ```
 
 打开 `http://localhost:8765/` 预览。生成目录在 `.tools/`，不进入 `main`。
@@ -150,4 +166,4 @@ GitHub Pages 是静态托管，无法自己保存服务器数据；因此网页�
 
 迁移后的站点是 `https://yujuanit.github.io/TVSources/`。此前 `/TVApp/` 下的网页和原仓库 Raw / 免费代理订阅入口停止使用；请在电视端依次添加本页列出的两个新多仓分组。以后在本仓库的 `data/live.m3u` 维护频道，在 `data/library.json` 维护其他配置。
 
-本地完整检查：`./scripts/check.sh`。需要 Python 3.11+、Node.js 22+，不需要 Android SDK 或 JDK。源站代码采用仓库中的 [GPL-3.0](LICENSE)。
+本地完整检查：`./scripts/check.sh`。需要 Python 3.11+、Node.js 22+，以及固定版本的 `opencc-python-reimplemented`（Apache-2.0，用于繁转简）；依赖见 `scripts/requirements-sync.txt`，不需要 Android SDK 或 JDK。源站代码采用仓库中的 [GPL-3.0](LICENSE)。

@@ -69,6 +69,10 @@ class BuilderTests(unittest.TestCase):
                        lambda d: d['sources'][2].update(includes=['missing']),
                        lambda d: d['sources'][2].update(includes=['collection']),
                        lambda d: d['sources'][0].update(headers={'User-Agent': 'bad\nheader'}),
+                       lambda d: d['sources'][0].update(selection={'mode': 'keep-selected', 'names': []}),
+                       lambda d: d['sources'][0].update(selection={'mode': 'keep-selected', 'names': ['bad\nname']}),
+                       lambda d: d.update(sync={'minimumPreviousRouteRatio': 0}),
+                       lambda d: d.update(sync={'minimumPreviousRouteRatio': 2}),
                        lambda d: d['mergePolicy'].update(sourceOrder=['alpha']),
                        lambda d: d['sources'][2].update(enabled=True)]:
             registry = live_sources(); change(registry)

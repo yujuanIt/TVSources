@@ -155,6 +155,12 @@ def validate_live_sources(data):
         known[key] = source
         text(source.get('name'), '上游名称'); url(source.get('url'), '上游地址'); headers(source.get('headers', {}), '上游请求头')
         require(source.get('format') in {'m3u', 'tvbox-lives'}, '上游格式需要 m3u 或 tvbox-lives')
+        if 'selection' in source:
+            selection = source['selection']
+            require(isinstance(selection, dict) and selection.get('mode') == 'keep-selected', 'selection 仅支持 keep-selected')
+            selected_names = selection.get('names')
+            require(isinstance(selected_names, list) and 0 < len(selected_names) <= 10000, 'selection.names 需要非空频道名称数组')
+            for name in selected_names: text(name, '选取的频道名称')
         snapshot = source.get('lastImport', {})
         require(isinstance(snapshot, dict), 'lastImport 必须是对象')
         if 'sha256' in snapshot:
@@ -169,7 +175,18 @@ def validate_live_sources(data):
     order = policy.get('sourceOrder', [])
     require(isinstance(order, list) and all(isinstance(key, str) and key in known for key in order) and len(set(order)) == len(order), '合并顺序需要已知且不重复的上游 ID')
     enabled = {source['id'] for source in sources if source.get('enabled', True)}
-    require(enabled == set(order) and all(known[key]['format'] == 'm3u' for key in enabled), '合并顺序需要包含所有启用的 M3U；已展开合集不重复抓取')
+    require(enabled <= set(order) and all(known[key]['format'] == 'm3u' for key in order), '合并顺序需要包含所有启用的 M3U；已展开合集不重复抓取')
+    if 'sync' in data:
+        settings = data['sync']
+        require(isinstance(settings, dict), 'sync 必须是对象')
+        ratio = settings.get('minimumPreviousRouteRatio', .5)
+        require(type(ratio) in {int, float} and 0 < ratio <= 1, '同步线路保护比例需要大于 0 且不超过 1')
+    if data.get('automaticSyncEnabled') or 'normalization' in data:
+        normalization = data.get('normalization', {})
+        require(isinstance(normalization, dict) and normalization.get('displayLanguage', 'zh-Hans') == 'zh-Hans', '同步显示语言仅支持 zh-Hans')
+        groups = normalization.get('groupOrder', [])
+        require(isinstance(groups, list) and groups and all(isinstance(group, str) and group.strip() for group in groups) and len(set(groups)) == len(groups), '同步分组顺序需要不重复的名称数组')
+        for group in groups: text(group, '同步分组名称')
     return data
 
 
