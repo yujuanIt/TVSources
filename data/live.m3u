@@ -1,5 +1,6 @@
 #EXTM3U
 #SOURCE-MANIFEST:https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live-sources.json
+#SOURCE:{"id":"official-ysp","name":"官方直播 · 央视与卫视","url":"https://www.yangshipin.cn/tv/home"}
 #SOURCE:{"id":"yang-favorites","name":"居安直播 · 常看","url":"https://live.yang-1989.eu.org/sub/yujuan.m3u"}
 #SOURCE:{"id":"guovin-ipv4","name":"IPTV IPv4 · 综合","url":"https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"}
 #SOURCE:{"id":"yuechan-ipv4","name":"IPTV IPv4 · 备用","url":"https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u"}
@@ -40,6 +41,9 @@ https://zby.130519.xyz/PLTV/11/224/3221225723/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221225770/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV1.png" group-title="央视" x-sync-id="c_b6d59a233800959c2c331bb5" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-1
 https://zby.130519.xyz/PLTV/11/224/3221226163/index.m3u8
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1 综合" group-title="央视" x-sync-id="c_3a2712d259c4e75a43e89d30" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-1 综合
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001859&cnlid=2024078201&defn=fhd
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV 2 财经「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV2.webp" group-title="央视" x-sync-id="c_5223683f5f7f18333d695afb" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 2 财经「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/y4c2s3.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -71,6 +75,9 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225588/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV-2" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-2.png" group-title="央视" x-sync-id="c_7fabbae95e48fd7b3de3442a" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-2
 http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2 财经" group-title="央视" x-sync-id="c_e5efaac2d461dd63178976d3" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-2 财经
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001800&cnlid=2024075401&defn=fhd
 #EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV 3 综艺「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV3.webp" group-title="央视" x-sync-id="c_6180611d2a1696ef59e3fd3b" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 3 综艺「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/ewdqqa.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -102,6 +109,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226165/index.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV-3" tvg-name="CCTV-3" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-3.png" group-title="央视" x-sync-id="c_e561f3bec9468c88122bdc66" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-3
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3 综艺" group-title="央视" x-sync-id="c_d207c96f1abc06ee3bb6fe5c" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-3 综艺
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001801&cnlid=2024068501&defn=fhd
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV 4 中文国际「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV4.webp" group-title="央视" x-sync-id="c_da7f7388718cf2519b45da2f" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 4 中文国际「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/u8bby3.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -135,6 +145,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226124/index.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV-4" tvg-name="CCTV-4" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-4.png" group-title="央视" x-sync-id="c_ec3123599554f08fe3007b32" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-4
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226007/index.m3u8
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4 中文国际" group-title="央视" x-sync-id="c_3172e8c80ccb8d997a14b8c5" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-4 中文国际
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001814&cnlid=2029797101&defn=fhd
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV 5 体育「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV5.webp" group-title="央视" x-sync-id="c_6eae7b2470ec5d9559fdb88e" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 5 体育「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/s2adgk.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -169,6 +182,9 @@ https://www.freetv.top/migu/641886683.m3u8?migutoken=3e5c01f93922de8d1c940fe15bb
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5.png" group-title="央视" x-sync-id="c_6e7bcc0c734f84d27f370971" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-5
 https://migu.188766.xyz/?migutoken=3803480da7c3ee6e07115f4bb5827c0d&id=CCTV5&type=yy
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5 体育" group-title="央视" x-sync-id="c_60ba975c2af170fffababd37" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-5 体育
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001818&cnlid=2024078401&defn=fhd
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV 5+ 体育赛事「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV5%2B.webp" group-title="央视" x-sync-id="c_bf14c90a7111660573aeb9d2" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 5+ 体育赛事「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/hw8btm.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -201,6 +217,9 @@ https://smart.pendy.dpdns.org/Smart.php?id=cctv5plus
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png" group-title="央视" x-sync-id="c_6343ca4a053b9de167dc8b7f" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-5+
 http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
+#EXTINF:-1 tvg-id="cctv5p" tvg-name="CCTV-5+ 体育赛事" group-title="央视" x-sync-id="c_f79ec256f5a26176db55efec" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-5+ 体育赛事
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001817&cnlid=2024078001&defn=fhd
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV 6 电影「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV6.webp" group-title="央视" x-sync-id="c_bd8d940d9f918395f33016ee" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 6 电影「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/58n955.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -232,6 +251,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226148/index.m3u8
 https://hls-gateway.vpstv.net/streams/709554.m3u8
 #EXTINF:-1 tvg-id="CCTV-6" tvg-name="CCTV-6" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-6.png" group-title="央视" x-sync-id="c_50df5b93ce9258f657d41d8c" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-6
 https://hls-gateway.vpstv.net/streams/476890.m3u8
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6 电影" group-title="央视" x-sync-id="c_04308d3d309cb55901e99376" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-6 电影
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600108442&cnlid=2013693901&defn=fhd
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV 7 国防军事「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV7.webp" group-title="央视" x-sync-id="c_32c055679b0853caf64a9cb6" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 7 国防军事「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/39jjnx.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -263,6 +285,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226143/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221226137/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-7" tvg-name="CCTV-7" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-7.png" group-title="央视" x-sync-id="c_27745927b025edb9f19d81ee" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-7
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7 国防军事" group-title="央视" x-sync-id="c_bc6639f424abb9bd5548d3fe" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-7 国防军事
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600004092&cnlid=2024072001&defn=fhd
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV 8 电视剧「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV8.webp" group-title="央视" x-sync-id="c_669c35168b80970c1d2b97c9" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 8 电视剧「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/vwq2ee.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -294,6 +319,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226167/index.m3u8
 https://hls-gateway.vpstv.net/streams/476892.m3u8
 #EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-8.png" group-title="央视" x-sync-id="c_312b1df90f586cdb9bb5738e" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8 电视剧" group-title="央视" x-sync-id="c_4116f126af1eaf16e4701c28" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-8 电视剧
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001803&cnlid=2029793001&defn=fhd
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV 9 纪录「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV9.webp" group-title="央视" x-sync-id="c_26562fea3a87e4a9d4d5c1a1" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 9 纪录「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/6dt3qv.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -325,6 +353,9 @@ https://hls-gateway.vpstv.net/streams/476893.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV-9" tvg-name="CCTV-9" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-9.png" group-title="央视" x-sync-id="c_0bd1988c79eb7e55e79bbaf8" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-9
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9 纪录" group-title="央视" x-sync-id="c_3e4802226c07572868c67d0c" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-9 纪录
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600004078&cnlid=2024078601&defn=fhd
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV 10 科教「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV10.webp" group-title="央视" x-sync-id="c_718a819157c503fa6ef41da7" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 10 科教「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/9su36s.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -356,6 +387,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226169/index.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV-10" tvg-name="CCTV-10" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-10.png" group-title="央视" x-sync-id="c_c26a63166625f1713eabb4f2" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-10
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8
+#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10 科教" group-title="央视" x-sync-id="c_7c2c9955753b617513f88c30" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-10 科教
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001805&cnlid=2024078701&defn=fhd
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV 11 戏曲「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV11.webp" group-title="央视" x-sync-id="c_829830dfb24d1c95c207f5a7" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 11 戏曲「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/6ky5uz.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -387,6 +421,9 @@ http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221226101/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-11" tvg-name="CCTV-11" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV11.png" group-title="央视" x-sync-id="c_d0387bfc69ff1cc5714ab8be" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-11
 https://zby.130519.xyz/PLTV/11/224/3221226145/index.m3u8
+#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11 戏曲" group-title="央视" x-sync-id="c_5957486dd66fd185fe16f3d9" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-11 戏曲
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001806&cnlid=2027248701&defn=fhd
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV 12 社会与法「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV12.webp" group-title="央视" x-sync-id="c_56981a3e2b82c1f29f922501" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 12 社会与法「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/72d7w6.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -418,6 +455,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226126/index.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV-12" tvg-name="CCTV-12" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-12.png" group-title="央视" x-sync-id="c_fd2d15283194bda783a66224" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-12
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12 社会与法" group-title="央视" x-sync-id="c_63e041775214215b57f3aca0" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-12 社会与法
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001807&cnlid=2027248801&defn=fhd
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV 13 新闻「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV13.webp" group-title="央视" x-sync-id="c_a2c05cb145d95421fba9183d" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 13 新闻「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/rrw8pe.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -452,6 +492,9 @@ https://event.pull.hebtv.com/jishi/cp1.m3u8
 https://hls-gateway.vpstv.net/streams/476899.m3u8
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-13.png" group-title="央视" x-sync-id="c_01b9e7b4c95f01a6fdfef9d9" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-13
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?
+#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13 新闻" group-title="央视" x-sync-id="c_686e053e32f42bf740a1adcb" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-13 新闻
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001811&cnlid=2029797201&defn=fhd
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV 14 少儿「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV14.webp" group-title="央视" x-sync-id="c_f2d7b34b711a6c0efa25d643" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 14 少儿「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/8ahvtu.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -483,6 +526,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226150/index.m3u8
 https://event.pull.hebtv.com/jishi/cp2.m3u8
 #EXTINF:-1 tvg-id="CCTV-14" tvg-name="CCTV-14" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-14.png" group-title="央视" x-sync-id="c_ce4d3f5539634915fdaab898" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-14
 https://hls-gateway.vpstv.net/streams/476900.m3u8
+#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14 少儿" group-title="央视" x-sync-id="c_d5ed58fd2ab3c4334318b4ca" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-14 少儿
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001809&cnlid=2027248901&defn=fhd
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV 15 音乐「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV15.webp" group-title="央视" x-sync-id="c_d77915d85665bcf40750b612" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 15 音乐「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/4furr6.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -514,6 +560,9 @@ https://smart.pendy.dpdns.org/Smart.php?id=cctv15
 http://[2409:8087:1a01:df::4033]:80/TVOD/88888888/224/3221226127/main.m3u8
 #EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="央视" x-sync-id="c_bdfbd4abe0bdfa129ab75062" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-15
 http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225601/index.m3u8
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15 音乐" group-title="央视" x-sync-id="c_5010937a28efb0cddd58c185" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-15 音乐
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001815&cnlid=2027249001&defn=fhd
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16 奥林匹克「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV16.webp" group-title="央视" x-sync-id="c_a45c89723665bd9ef21f6ac5" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 16 奥林匹克「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/up5nk5.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -542,6 +591,9 @@ https://hls-gateway.vpstv.net/streams/709089.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227002/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-16.png" group-title="央视" x-sync-id="c_e40f20910b5e0650832974c3" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-16
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
+#EXTINF:-1 tvg-id="cctv16" tvg-name="CCTV-16 奥林匹克" group-title="央视" x-sync-id="c_6ba00e3b32e90d1ec9dfed7f" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-16 奥林匹克
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600098637&cnlid=2027249101&defn=fhd
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV 17 农村农业「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV17.webp" group-title="央视" x-sync-id="c_5decf3b3491c2116f201a947" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 17 农村农业「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/5sy3yt.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -567,6 +619,9 @@ https://migu.yang-1989.xyz/ysp/c25vbk.m3u8?token=5f7abe0ab6d111bc8c069254454094f
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226318/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-17.png" group-title="央视" x-sync-id="c_adca748de9215a60ccd77722" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-17
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
+#EXTINF:-1 tvg-id="cctv17" tvg-name="CCTV-17 农业农村" group-title="央视" x-sync-id="c_122041e4cb19454e2da9885d" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV-17 农业农村
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600001810&cnlid=2027249401&defn=fhd
 #EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV 4K 超高清「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV4K.webp" group-title="央视" x-sync-id="c_ac3514cb032c6fd92a007922" x-source-id="yang-tv" x-source-name="电视 · IPTV",CCTV 4K 超高清「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/m3yqmu.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -789,6 +844,15 @@ https://hls-gateway.vpstv.net/streams/708853.m3u8
 https://hls-gateway.vpstv.net/streams/708857.m3u8
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png" group-title="央视" x-sync-id="c_52abd91cb532e504d6d365cf" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",兵器科技
 https://hls-gateway.vpstv.net/streams/708856.m3u8
+#EXTINF:-1 tvg-id="cctvfyjc" tvg-name="CCTV风云剧场" group-title="央视" x-sync-id="c_1fbac83f195226b7caac5e50" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV风云剧场
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600099658&cnlid=2025637103&defn=shd
+#EXTINF:-1 tvg-id="cctvdyjc" tvg-name="CCTV第一剧场" group-title="央视" x-sync-id="c_06fdcc39c0d850288db91b22" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV第一剧场
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600099655&cnlid=2026874203&defn=shd
+#EXTINF:-1 tvg-id="cctvhjjc" tvg-name="CCTV怀旧剧场" group-title="央视" x-sync-id="c_5c0f246bc5fe589958d33d5f" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV怀旧剧场
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600099620&cnlid=2026874303&defn=shd
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/北京卫视.webp" group-title="地方卫视" x-sync-id="c_80beb9e3f76cfa6e05376b26" x-source-id="yang-tv" x-source-name="电视 · IPTV",北京卫视「Relay」
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/f6y32v.m3u8?token=385be1072ddb67fc7330cc1763452804809f2737926e1615
@@ -1573,6 +1637,93 @@ https://stream1.freetv.fun/52d0df257c5c3cec42f2ae19268dbbc261256ff391b27bd83553b
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 tvg-id="安多卫视" tvg-name="安多卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安多卫视.png" group-title="地方卫视" x-sync-id="c_44b80a7b4310114657e9e7c6" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",安多卫视
 https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqinghd
+#EXTINF:-1 tvg-id="bjws" tvg-name="北京卫视" group-title="地方卫视" x-sync-id="c_f89120c2e7fdd9a413d90f78" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",北京卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002309&cnlid=2024052703&defn=fhd
+#EXTINF:-1 tvg-id="jsws" tvg-name="江苏卫视" group-title="地方卫视" x-sync-id="c_6a55d3c5c209d6ca48cdbf37" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",江苏卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002521&cnlid=2024171103&defn=fhd
+#EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" group-title="地方卫视" x-sync-id="c_d41c51d1e3d672aa24704c7c" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",东方卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002483&cnlid=2024054503&defn=fhd
+#EXTINF:-1 tvg-id="zjws" tvg-name="浙江卫视" group-title="地方卫视" x-sync-id="c_30b80d3a69d1017b0b62a872" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",浙江卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002520&cnlid=2024054703&defn=fhd
+#EXTINF:-1 tvg-id="hnws" tvg-name="湖南卫视" group-title="地方卫视" x-sync-id="c_ca78ef2e472df85749daa11c" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",湖南卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002475&cnlid=2024054803&defn=fhd
+#EXTINF:-1 tvg-id="hbws" tvg-name="湖北卫视" group-title="地方卫视" x-sync-id="c_f857553f49091295d258926d" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",湖北卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002508&cnlid=2024171203&defn=fhd
+#EXTINF:-1 tvg-id="gdws" tvg-name="广东卫视" group-title="地方卫视" x-sync-id="c_91df5b83f866718fbc5a6283" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",广东卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002485&cnlid=2024060903&defn=fhd
+#EXTINF:-1 tvg-id="gxws" tvg-name="广西卫视" group-title="地方卫视" x-sync-id="c_a80acc627ce10a816cb9fd15" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",广西卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002509&cnlid=2024060703&defn=fhd
+#EXTINF:-1 tvg-id="hljws" tvg-name="黑龙江卫视" group-title="地方卫视" x-sync-id="c_505c310bc3f1ceba95cc675b" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",黑龙江卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002498&cnlid=2029797003&defn=fhd
+#EXTINF:-1 tvg-id="hnws2" tvg-name="海南卫视" group-title="地方卫视" x-sync-id="c_a0fb9661d0e70636f8d7aeaf" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",海南卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002506&cnlid=2024055603&defn=fhd
+#EXTINF:-1 tvg-id="cqws" tvg-name="重庆卫视" group-title="地方卫视" x-sync-id="c_22f68f4d1e88ec2541a3380c" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",重庆卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002531&cnlid=2024061103&defn=fhd
+#EXTINF:-1 tvg-id="szws" tvg-name="深圳卫视" group-title="地方卫视" x-sync-id="c_9277aebcf106461ed4cb7b80" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",深圳卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002481&cnlid=2024061303&defn=fhd
+#EXTINF:-1 tvg-id="scws" tvg-name="四川卫视" group-title="地方卫视" x-sync-id="c_922688743dd5e71f25edc0b7" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",四川卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002516&cnlid=2024061403&defn=fhd
+#EXTINF:-1 tvg-id="henanws" tvg-name="河南卫视" group-title="地方卫视" x-sync-id="c_eccb8e198bce94eb97f9425b" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",河南卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002525&cnlid=2029797303&defn=fhd
+#EXTINF:-1 tvg-id="fjdnhz" tvg-name="东南卫视" group-title="地方卫视" x-sync-id="c_321cb0d0a9521803b39bde8c" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",东南卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002484&cnlid=2024061503&defn=fhd
+#EXTINF:-1 tvg-id="gzhws" tvg-name="贵州卫视" group-title="地方卫视" x-sync-id="c_089973ec4fba01a415f7b529" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",贵州卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002490&cnlid=2024061603&defn=fhd
+#EXTINF:-1 tvg-id="jxws" tvg-name="江西卫视" group-title="地方卫视" x-sync-id="c_cc1810a5ce429ffa5a3b2a8e" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",江西卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002503&cnlid=2024061703&defn=fhd
+#EXTINF:-1 tvg-id="lnws" tvg-name="辽宁卫视" group-title="地方卫视" x-sync-id="c_b4e3839fab9e2908b92e550f" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",辽宁卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002505&cnlid=2024171303&defn=fhd
+#EXTINF:-1 tvg-id="ahws" tvg-name="安徽卫视" group-title="地方卫视" x-sync-id="c_e27c5e381119b06e986e1a57" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",安徽卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002532&cnlid=2024171403&defn=fhd
+#EXTINF:-1 tvg-id="hbws2" tvg-name="河北卫视" group-title="地方卫视" x-sync-id="c_021ccf94054bf199e369331e" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",河北卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002493&cnlid=2024171503&defn=fhd
+#EXTINF:-1 tvg-id="sdws" tvg-name="山东卫视" group-title="地方卫视" x-sync-id="c_a8800511b443b35dc46fc71d" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",山东卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600002513&cnlid=2029787903&defn=fhd
+#EXTINF:-1 tvg-id="tjws" tvg-name="天津卫视" group-title="地方卫视" x-sync-id="c_6aca7701b871004a11cd25b2" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",天津卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600152137&cnlid=2019927003&defn=fhd
+#EXTINF:-1 tvg-id="jlws" tvg-name="吉林卫视" group-title="地方卫视" x-sync-id="c_9299848b65c0bd9ccfc115d6" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",吉林卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600190405&cnlid=2025561503&defn=fhd
+#EXTINF:-1 tvg-id="shanxiws" tvg-name="陕西卫视" group-title="地方卫视" x-sync-id="c_8c013d9fc456682476ea063b" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",陕西卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600190400&cnlid=2029795103&defn=fhd
+#EXTINF:-1 tvg-id="nxws" tvg-name="宁夏卫视" group-title="地方卫视" x-sync-id="c_f677329031efab70c22255b6" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",宁夏卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600190737&cnlid=2025608503&defn=fhd
+#EXTINF:-1 tvg-id="nmgws" tvg-name="内蒙古卫视" group-title="地方卫视" x-sync-id="c_0aee8798ea9c631a3e53b9f4" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",内蒙古卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600190401&cnlid=2025561203&defn=fhd
+#EXTINF:-1 tvg-id="ynws" tvg-name="云南卫视" group-title="地方卫视" x-sync-id="c_a1c5d751c71d6ae9f72a4c67" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",云南卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600190402&cnlid=2025561303&defn=fhd
+#EXTINF:-1 tvg-id="xzws" tvg-name="西藏卫视" group-title="地方卫视" x-sync-id="c_32fda05183f14b17d60a36ab" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",西藏卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600190403&cnlid=2025558003&defn=fhd
+#EXTINF:-1 tvg-id="xjws" tvg-name="新疆卫视" group-title="地方卫视" x-sync-id="c_81e1bf533d0839193a7e0832" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",新疆卫视
+#EXTHTTP:{"User-Agent":"qqlive","Referer":"https://live.cctv.cn/"}
+https://www.yangshipin.cn/tv/home?pid=600152138&cnlid=2019927403&defn=fhd
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东珠江.png" group-title="地方卫视" x-sync-id="c_499add6b15291c830ab42e75" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",广东珠江
 http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东珠江.png" group-title="地方卫视" x-sync-id="c_499add6b15291c830ab42e75" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",广东珠江

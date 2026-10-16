@@ -1,0 +1,105 @@
+#EXTM3U
+# Public official channel entries resolved at playback by JuAn Cinema.
+# Official: https://www.yangshipin.cn/tv/home | https://tv.cctv.com/live/
+# Only channels with HLS and media-segment verification on 2026-10-16 are listed.
+# Channel metadata reference: https://github.com/akiralereal/iptv/tree/main/extractors/yangshipin
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1 综合" group-title="央视",CCTV-1 综合
+https://www.yangshipin.cn/tv/home?pid=600001859&cnlid=2024078201&defn=fhd
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2 财经" group-title="央视",CCTV-2 财经
+https://www.yangshipin.cn/tv/home?pid=600001800&cnlid=2024075401&defn=fhd
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3 综艺" group-title="央视",CCTV-3 综艺
+https://www.yangshipin.cn/tv/home?pid=600001801&cnlid=2024068501&defn=fhd
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4 中文国际" group-title="央视",CCTV-4 中文国际
+https://www.yangshipin.cn/tv/home?pid=600001814&cnlid=2029797101&defn=fhd
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5 体育" group-title="央视",CCTV-5 体育
+https://www.yangshipin.cn/tv/home?pid=600001818&cnlid=2024078401&defn=fhd
+#EXTINF:-1 tvg-id="cctv5p" tvg-name="CCTV-5+ 体育赛事" group-title="央视",CCTV-5+ 体育赛事
+https://www.yangshipin.cn/tv/home?pid=600001817&cnlid=2024078001&defn=fhd
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6 电影" group-title="央视",CCTV-6 电影
+https://www.yangshipin.cn/tv/home?pid=600108442&cnlid=2013693901&defn=fhd
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7 国防军事" group-title="央视",CCTV-7 国防军事
+https://www.yangshipin.cn/tv/home?pid=600004092&cnlid=2024072001&defn=fhd
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8 电视剧" group-title="央视",CCTV-8 电视剧
+https://www.yangshipin.cn/tv/home?pid=600001803&cnlid=2029793001&defn=fhd
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9 纪录" group-title="央视",CCTV-9 纪录
+https://www.yangshipin.cn/tv/home?pid=600004078&cnlid=2024078601&defn=fhd
+#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10 科教" group-title="央视",CCTV-10 科教
+https://www.yangshipin.cn/tv/home?pid=600001805&cnlid=2024078701&defn=fhd
+#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11 戏曲" group-title="央视",CCTV-11 戏曲
+https://www.yangshipin.cn/tv/home?pid=600001806&cnlid=2027248701&defn=fhd
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12 社会与法" group-title="央视",CCTV-12 社会与法
+https://www.yangshipin.cn/tv/home?pid=600001807&cnlid=2027248801&defn=fhd
+#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13 新闻" group-title="央视",CCTV-13 新闻
+https://www.yangshipin.cn/tv/home?pid=600001811&cnlid=2029797201&defn=fhd
+#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14 少儿" group-title="央视",CCTV-14 少儿
+https://www.yangshipin.cn/tv/home?pid=600001809&cnlid=2027248901&defn=fhd
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15 音乐" group-title="央视",CCTV-15 音乐
+https://www.yangshipin.cn/tv/home?pid=600001815&cnlid=2027249001&defn=fhd
+#EXTINF:-1 tvg-id="cctv16" tvg-name="CCTV-16 奥林匹克" group-title="央视",CCTV-16 奥林匹克
+https://www.yangshipin.cn/tv/home?pid=600098637&cnlid=2027249101&defn=fhd
+#EXTINF:-1 tvg-id="cctv17" tvg-name="CCTV-17 农业农村" group-title="央视",CCTV-17 农业农村
+https://www.yangshipin.cn/tv/home?pid=600001810&cnlid=2027249401&defn=fhd
+#EXTINF:-1 tvg-id="cctvfyjc" tvg-name="CCTV风云剧场" group-title="央视",CCTV风云剧场
+https://www.yangshipin.cn/tv/home?pid=600099658&cnlid=2025637103&defn=shd
+#EXTINF:-1 tvg-id="cctvdyjc" tvg-name="CCTV第一剧场" group-title="央视",CCTV第一剧场
+https://www.yangshipin.cn/tv/home?pid=600099655&cnlid=2026874203&defn=shd
+#EXTINF:-1 tvg-id="cctvhjjc" tvg-name="CCTV怀旧剧场" group-title="央视",CCTV怀旧剧场
+https://www.yangshipin.cn/tv/home?pid=600099620&cnlid=2026874303&defn=shd
+#EXTINF:-1 tvg-id="bjws" tvg-name="北京卫视" group-title="地方卫视",北京卫视
+https://www.yangshipin.cn/tv/home?pid=600002309&cnlid=2024052703&defn=fhd
+#EXTINF:-1 tvg-id="jsws" tvg-name="江苏卫视" group-title="地方卫视",江苏卫视
+https://www.yangshipin.cn/tv/home?pid=600002521&cnlid=2024171103&defn=fhd
+#EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" group-title="地方卫视",东方卫视
+https://www.yangshipin.cn/tv/home?pid=600002483&cnlid=2024054503&defn=fhd
+#EXTINF:-1 tvg-id="zjws" tvg-name="浙江卫视" group-title="地方卫视",浙江卫视
+https://www.yangshipin.cn/tv/home?pid=600002520&cnlid=2024054703&defn=fhd
+#EXTINF:-1 tvg-id="hnws" tvg-name="湖南卫视" group-title="地方卫视",湖南卫视
+https://www.yangshipin.cn/tv/home?pid=600002475&cnlid=2024054803&defn=fhd
+#EXTINF:-1 tvg-id="hbws" tvg-name="湖北卫视" group-title="地方卫视",湖北卫视
+https://www.yangshipin.cn/tv/home?pid=600002508&cnlid=2024171203&defn=fhd
+#EXTINF:-1 tvg-id="gdws" tvg-name="广东卫视" group-title="地方卫视",广东卫视
+https://www.yangshipin.cn/tv/home?pid=600002485&cnlid=2024060903&defn=fhd
+#EXTINF:-1 tvg-id="gxws" tvg-name="广西卫视" group-title="地方卫视",广西卫视
+https://www.yangshipin.cn/tv/home?pid=600002509&cnlid=2024060703&defn=fhd
+#EXTINF:-1 tvg-id="hljws" tvg-name="黑龙江卫视" group-title="地方卫视",黑龙江卫视
+https://www.yangshipin.cn/tv/home?pid=600002498&cnlid=2029797003&defn=fhd
+#EXTINF:-1 tvg-id="hnws2" tvg-name="海南卫视" group-title="地方卫视",海南卫视
+https://www.yangshipin.cn/tv/home?pid=600002506&cnlid=2024055603&defn=fhd
+#EXTINF:-1 tvg-id="cqws" tvg-name="重庆卫视" group-title="地方卫视",重庆卫视
+https://www.yangshipin.cn/tv/home?pid=600002531&cnlid=2024061103&defn=fhd
+#EXTINF:-1 tvg-id="szws" tvg-name="深圳卫视" group-title="地方卫视",深圳卫视
+https://www.yangshipin.cn/tv/home?pid=600002481&cnlid=2024061303&defn=fhd
+#EXTINF:-1 tvg-id="scws" tvg-name="四川卫视" group-title="地方卫视",四川卫视
+https://www.yangshipin.cn/tv/home?pid=600002516&cnlid=2024061403&defn=fhd
+#EXTINF:-1 tvg-id="henanws" tvg-name="河南卫视" group-title="地方卫视",河南卫视
+https://www.yangshipin.cn/tv/home?pid=600002525&cnlid=2029797303&defn=fhd
+#EXTINF:-1 tvg-id="fjdnhz" tvg-name="东南卫视" group-title="地方卫视",东南卫视
+https://www.yangshipin.cn/tv/home?pid=600002484&cnlid=2024061503&defn=fhd
+#EXTINF:-1 tvg-id="gzhws" tvg-name="贵州卫视" group-title="地方卫视",贵州卫视
+https://www.yangshipin.cn/tv/home?pid=600002490&cnlid=2024061603&defn=fhd
+#EXTINF:-1 tvg-id="jxws" tvg-name="江西卫视" group-title="地方卫视",江西卫视
+https://www.yangshipin.cn/tv/home?pid=600002503&cnlid=2024061703&defn=fhd
+#EXTINF:-1 tvg-id="lnws" tvg-name="辽宁卫视" group-title="地方卫视",辽宁卫视
+https://www.yangshipin.cn/tv/home?pid=600002505&cnlid=2024171303&defn=fhd
+#EXTINF:-1 tvg-id="ahws" tvg-name="安徽卫视" group-title="地方卫视",安徽卫视
+https://www.yangshipin.cn/tv/home?pid=600002532&cnlid=2024171403&defn=fhd
+#EXTINF:-1 tvg-id="hbws2" tvg-name="河北卫视" group-title="地方卫视",河北卫视
+https://www.yangshipin.cn/tv/home?pid=600002493&cnlid=2024171503&defn=fhd
+#EXTINF:-1 tvg-id="sdws" tvg-name="山东卫视" group-title="地方卫视",山东卫视
+https://www.yangshipin.cn/tv/home?pid=600002513&cnlid=2029787903&defn=fhd
+#EXTINF:-1 tvg-id="tjws" tvg-name="天津卫视" group-title="地方卫视",天津卫视
+https://www.yangshipin.cn/tv/home?pid=600152137&cnlid=2019927003&defn=fhd
+#EXTINF:-1 tvg-id="jlws" tvg-name="吉林卫视" group-title="地方卫视",吉林卫视
+https://www.yangshipin.cn/tv/home?pid=600190405&cnlid=2025561503&defn=fhd
+#EXTINF:-1 tvg-id="shanxiws" tvg-name="陕西卫视" group-title="地方卫视",陕西卫视
+https://www.yangshipin.cn/tv/home?pid=600190400&cnlid=2029795103&defn=fhd
+#EXTINF:-1 tvg-id="nxws" tvg-name="宁夏卫视" group-title="地方卫视",宁夏卫视
+https://www.yangshipin.cn/tv/home?pid=600190737&cnlid=2025608503&defn=fhd
+#EXTINF:-1 tvg-id="nmgws" tvg-name="内蒙古卫视" group-title="地方卫视",内蒙古卫视
+https://www.yangshipin.cn/tv/home?pid=600190401&cnlid=2025561203&defn=fhd
+#EXTINF:-1 tvg-id="ynws" tvg-name="云南卫视" group-title="地方卫视",云南卫视
+https://www.yangshipin.cn/tv/home?pid=600190402&cnlid=2025561303&defn=fhd
+#EXTINF:-1 tvg-id="xzws" tvg-name="西藏卫视" group-title="地方卫视",西藏卫视
+https://www.yangshipin.cn/tv/home?pid=600190403&cnlid=2025558003&defn=fhd
+#EXTINF:-1 tvg-id="xjws" tvg-name="新疆卫视" group-title="地方卫视",新疆卫视
+https://www.yangshipin.cn/tv/home?pid=600152138&cnlid=2019927403&defn=fhd

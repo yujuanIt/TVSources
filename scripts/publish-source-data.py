@@ -3,6 +3,7 @@
 import argparse
 import json
 import os
+import re
 import subprocess
 import tempfile
 from pathlib import Path
@@ -20,11 +21,23 @@ def main():
     parser.add_argument('--branch', default='source-data')
     args = parser.parse_args()
     directory = args.directory.resolve()
-    expected = {'index.html', 'assets/style.css', 'assets/editor.js', 'data/library.json', 'data/live.m3u', '.nojekyll',
+    expected = {'index.html', 'assets/style.css', 'assets/editor.js', 'data/library.json', 'data/live.m3u', 'data/vod-sites.json', '.nojekyll',
                 'box.json', 'vod.json', 'live.json', 'live.m3u', 'live.txt', 'warehouse.json', 'manifest.json', 'hosting.json'}
     try:
         entries = json.loads((directory / 'warehouse.json').read_text(encoding='utf-8'))['urls']
         hosting = json.loads((directory / 'hosting.json').read_text(encoding='utf-8'))
+        sites = json.loads((directory / 'data/vod-sites.json').read_text(encoding='utf-8'))
+        library = json.loads((directory / 'data/library.json').read_text(encoding='utf-8'))
+        if hosting.get('vodSiteFile') != 'data/vod-sites.json' or sites.get('version') != 1 or not isinstance(sites.get('sites'), list) or set(library.get('vod', {})) != {'name', 'url'}:
+            raise ValueError('Invalid standalone VOD site list')
+        for item in hosting.get('vodContexts', []):
+            path = item.get('path', '')
+            if not re.fullmatch(r'vod/[A-Za-z0-9_-]+\.json', path):
+                raise ValueError('Invalid managed VOD configuration path')
+            config = json.loads((directory / path).read_text(encoding='utf-8'))
+            if not isinstance(config.get('sites'), list) or len(config['sites']) != item.get('count') or any(key in config for key in ('lives', 'urls')):
+                raise ValueError('Invalid managed VOD configuration')
+            expected.add(path)
         links = hosting.get('warehouseGroups', [])
         if 'liveSources' in hosting:
             if hosting['liveSources'] != 'data/live-sources.json':

@@ -8,9 +8,13 @@
 
 | 文件 | 用途 | 维护方式 |
 | --- | --- | --- |
-| [data/library.json](data/library.json) | 点播接口、完整 TVBox 配置、直播订阅的名称、地址与开关 | 编辑文件，或在网页修改后复制 JSON 提交 |
+| [data/library.json](data/library.json) | 点播清单链接、完整 TVBox 配置、直播订阅的名称、地址与开关 | 编辑文件，或在网页选择主配置导出提交 |
+| [data/vod-sites.json](data/vod-sites.json) | 实际点播站点、搜索开关与各组插件 / 解析依赖 | 独立增删、改名；网页选择站点文件导出提交 |
+| [data/vod-sources.json](data/vod-sources.json) | 点播同步上游、镜像与新站点策略 | 后续增加 TVBox 上游时编辑 |
+| [data/vod-sync-state.json](data/vod-sync-state.json) | 点播字段基线、绑定与删除决定 | 同步程序维护，与站点清单一起保留 |
 | [data/live.m3u](data/live.m3u) | 自有直播频道、分组、台标、线路与来源备注 | 手工维护显示信息，同步程序更新上游线路 |
 | [data/live-sources.json](data/live-sources.json) | 上游 URL、稳定 ID、默认请求头、选取范围、合并规则与同步开关 | 新增或调整上游时编辑 |
+| [data/live-official.m3u](data/live-official.m3u) | 已验证的央视、卫视官方频道入口 | 维护频道 ID 与官方页面，不填写临时签名播放地址 |
 | [data/live-sync-state.json](data/live-sync-state.json) | 频道绑定、删除记录及上次有效同步状态 | 同步程序维护，与 M3U 一起保留 |
 
 点播由采集接口和完整 TVBox 配置组成。默认独立直播订阅为「居安直播 · 我的 M3U」，频道内容统一维护在 `data/live.m3u`；上游清单是同步依赖，不作为额外的独立订阅加入 App。频道和线路数量以网页总览及工作流摘要为准。
@@ -18,6 +22,8 @@
 ## 接入客户端
 
 居安影院默认自动同步本站的 `data/library.json`，可在「设置 → 居安源站 → 立即同步」检查更新。
+
+主配置的 `vod.url` 指向独立的 [点播站点清单](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/vod-sites.json)。App 读取两份文件后按站点列表聚合搜索；只修改站点文件也会触发更新。任一文件读取失败时保留本机配置，并按现有镜像顺序重试。该维护格式由居安影院读取，通用 TVBox 客户端继续使用下面的标准配置与多仓输出。
 
 其他支持 TVBox 的客户端可使用以下订阅地址：
 
@@ -30,7 +36,7 @@
 | 直播 TXT | [live.txt](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/live.txt) | [live.txt](https://yujuanit.github.io/TVSources/live.txt) |
 | 直播 JSON | [live.json](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/live.json) | [live.json](https://yujuanit.github.io/TVSources/live.json) |
 
-综合源包含本站的直接点播接口与直播列表；完整外部 TVBox 配置通过多仓索引接入。对于限制单次导入数量的客户端，网页总览提供每组最多 6 份配置的 `warehouse-N.json`，依次添加页面列出的全部分组即可。
+综合源包含本站的独立点播接口与直播列表；带共用插件和解析规则的站点按依赖配置生成 `vod/<ID>.json`，通过多仓索引接入。对于限制单次导入数量的客户端，网页总览提供每组最多 6 份配置的 `warehouse-N.json`，依次添加页面列出的全部分组即可。居安影院直接读取维护清单并聚合全部启用站点。
 
 网页总览可切换 GH-Proxy、GHFast、Pages 和 GitHub Raw 入口。公共代理用于配置、清单和脚本，视频仍连接原播放地址。M3U / JSON 可以保留台标、请求头和线路信息；TXT 使用普通频道列表格式，不承载完整播放元数据。
 
@@ -41,16 +47,55 @@
 | 字段 | 填写内容 |
 | --- | --- |
 | `live.playlists` | M3U、TXT 或直播 JSON 的 `name`、`url`、`enabled`，可选 `headers` |
-| `vod.sites` | 采集 API / 扩展接口的唯一 `key`、`name`、`type`、`api`，可选 `headers`、`ext`、`playUrl`、`jar` |
+| `vod` | `name` 和 `url`：点播名称及独立 `data/vod-sites.json` 的完整链接 |
 | `warehouses` | 完整 TVBox 配置或多仓的 `name`、`url`、`enabled` |
 
-`vod.sites` 的接口类型为 JSON `1`、XML `0`、HTTP `4`、插件 `3`；`csp_` 插件需配置相应 JAR。完整 TVBox JSON 放在 `warehouses`，采集 API 放在 `vod.sites`。
+原生完整 TVBox JSON 或多仓地址继续放在 `warehouses`，无需先提取为站点列表，App 仍可直接接入；当前该数组为空，可自行追加。独立站点清单的接口类型为 JSON `1`、XML `0`、HTTP `4`、插件 `3`；`csp_` 插件需要相应 JAR。
 
-默认配置只维护上表三类来源，通过 `live.playlists` 的完整加速 URL 引用本站 M3U，频道直接写入 `data/live.m3u`。`data/library.json` 不填写 `live.channels`、`vod.categories` 或 `vod.movies`；点播分类和影片由相应接口提供，App 的推荐分类由客户端维护。
+现有 TVBox 同步上游登记在 `data/vod-sources.json`，实际站点放在 `data/vod-sites.json` 的 `sites` 中；同一文件的 `contexts` 保存各组共用的 JAR、解析器、请求头与规则，站点的 `context` 指向对应依赖配置，避免混用同名插件或解析器。未填 `context` 的站点独立加载，可使用该文件的 `spider` 公共插件。
 
-维护文件、网页草稿与发布的 `data/library.json` 使用同一结构，不自动补字段。`live` 只填写名称和直播列表；`vod` 只填写名称、点播接口与可选的公共 `spider`。配置不再接受内嵌频道、自建分类和自有影片，网页也不提供这些编辑入口；频道统一在 M3U 维护，点播内容通过接口或完整 TVBox 配置接入。
+直播通过 `live.playlists` 的完整加速 URL 引用本站 M3U，频道直接写入 `data/live.m3u`。`data/library.json` 不填写 `live.channels`、`vod.categories` 或 `vod.movies`；点播分类和影片由相应接口提供，App 的推荐分类由客户端维护。
 
-列表项设置 `enabled: false` 可暂停发布并保留配置。网页编辑先保存在当前浏览器草稿中，需要把「配置与发布」中的完整 JSON 提交到 GitHub 才会上线。
+主配置中的 `live` 填写名称和直播列表，`vod` 只填写名称和链接。独立站点文件填写 `version: 1`、`sites` 与可选的 `spider`、`contexts`。频道统一在 M3U 维护，配置不接受内嵌频道、自建分类或自有影片，也不再接受主配置内嵌站点。
+
+列表项设置 `enabled: false` 可暂停发布并保留配置。网页编辑先保存在当前浏览器草稿中，在「配置与发布」选择 `library.json` 或 `vod-sites.json`，复制 / 导出后提交到对应文件；两份都修改时分别提交。
+
+## 自己维护点播站点
+
+直接编辑 [data/vod-sites.json](data/vod-sites.json) 的 `sites`：增加或删除整个站点对象，修改 `name` 改名，`enabled: false` 停用，`searchable: 0` 仅退出搜索。`key` 在同一 `context` 内唯一，允许中文；改名时保留 `key`、`context`，避免改变站点身份。没有来源标记的手工新增站点由你独立维护。
+
+导入条目的 `origin` 记录上游名称、配置 URL 与原始 key；`_syncId` 用于关联更新和记住删除决定。保留剩余条目的 `_syncId`，删除站点只需删除这一条。`contexts` 中的共用依赖由脚本维护，仍被站点引用的依赖配置不能删除。生成的标准 TVBox 配置会移除管理字段，只包含当前启用的站点与所需依赖。
+
+[scripts/sync-vod.py](scripts/sync-vod.py) 支持普通 JSON、JSON5 注释 / 尾逗号、Base64 和图片附带配置，以及有边界的递归多仓。同步只读取配置，不执行下载的插件，也不采集全部影片。
+
+```sh
+# 预览同步结果，不覆盖维护文件
+.tools/sync-venv/bin/python scripts/sync-vod.py --dry-run
+
+# 更新本地清单和同步状态；检查后通过 Git 提交发布
+.tools/sync-venv/bin/python scripts/sync-vod.py
+```
+
+预览位于 `.tools/vod-preview/`，报告位于 `.tools/vod-sync-report.json`。首次接管其他项目中现有的 `warehouses`，可使用 `--bootstrap-from-warehouses`，将它们登记为上游并在导入后清空原列表；本项目已完成这一步，日常无需再传该参数。
+
+后续增加上游，在 [data/vod-sources.json](data/vod-sources.json) 的 `sources` 追加条目：
+
+```json
+{
+  "id": "my_new_box",
+  "name": "新的上游",
+  "url": "https://example.com/box.json",
+  "enabled": true
+}
+```
+
+`id` 保持稳定，更换同一上游的 URL 时不改 ID；可选 `mirrors` 提供备用配置地址，`headers` 设置配置下载的请求头。`newSitesEnabled: true` 自动收录新站点并启用，保留上游声明的不支持搜索标志；App 仍按自身兼容范围搜索。`automaticSyncEnabled: false` 暂停全部点播同步，单个来源的 `enabled: false` 只暂停该来源的抓取。
+
+同步按字段比较上次上游值：你修改过的名称、API、请求头、扩展参数、开关和搜索设置保留，其余字段跟随上游更新。手动删除的站点记入 `data/vod-sync-state.json`，后续不自动补回；需要恢复时还原带原 `_syncId` 的站点条目。保留该状态文件；已有托管站点但状态丢失时脚本会停止，避免误覆盖人工决定。
+
+上游暂时失败或移除的站点保留待核对，单个失败不清空其他来源；所有启用上游均失败时不改清单和状态。缺少 API 的分隔条目等非法内容会跳过并写入报告。导入成功只表示配置可解析，未逐站执行搜索或验证播放。
+
+同一项目的同步脚本不能同时运行。清单和状态写入中断时，下次正常运行会从 `.tools/vod-sync-pending.json` 恢复；若中断后文件又被手动编辑，脚本会停止供你核对，不覆盖新编辑。
 
 ## 维护直播频道
 
@@ -74,9 +119,17 @@ https://example.com/live.m3u8
 
 构建器识别本站 Pages、Raw、GH-Proxy、GHFast 的完整 M3U 地址，从本地 `data/live.m3u` 生成输出；普通构建不抓取远程直播列表。
 
+发布时将央视、卫视常见别名和画质后缀统一，使同台的多个来源在居安影院中合为一个频道、多条线路；CCTV-5 / 5+、独立 4K / 8K、CCTV-4 各地区版本仍分别保留。规范化只作用于发布输出，不改写维护文件的名称、分组、同步绑定和删除记录；每条线路的请求头、播放器选项、完整签名与来源备注保持独立。来源顺序由 `mergePolicy.sourceOrder` 控制，官方入口优先，App 可依据本机稳定性记录优先选择其他线路。
+
+`official-ysp` 是 `local-m3u` 来源，从仓库内 `data/live-official.m3u` 导入 `data/live.m3u`。其中保存带 `pid`、`cnlid` 的央视频官方页面入口，新版居安影院播放时通过官方匿名接口实时取得 HLS 地址；无需另建解析服务器。普通 M3U 播放器通常不能解析这些页面，可使用同台保留的 IPTV 备用线路。不要把 API 返回的临时 HLS 地址写死进文件。官方接口随地区、时段和平台策略变化，受限节目不作额外授权处理。
+
+2026-10-16 验证：52 个候选央视 / 卫视频道中，50 个取得官方 CDN 的 HLS 清单及至少 8 KiB 视频分片后收录；其余未验证通过的候选不新增官方线路。验证是本机网络的清单与分片读取，不能替代电视设备的持续播放测试。官方入口参考 [央视直播](https://tv.cctv.com/live/) 与 [央视频](https://www.yangshipin.cn/tv/home)，频道元数据和匿名接口实现参考 GPL-3.0 的 [akiralereal/iptv](https://github.com/akiralereal/iptv)；Android 适配及许可证说明在私有 App 项目维护。
+
 ## 直播自动同步
 
 [scripts/sync-live.py](scripts/sync-live.py) 按 `data/live-sources.json` 抓取启用的 M3U 上游，遵循 `mergePolicy.sourceOrder` 合并。选取范围为 `keep-selected` 的来源只更新登记的频道；合集已登记子源时不重复抓取。
+
+`local-m3u` 只读登记的本地官方入口文件，与其他上游一起合并；定时同步不会向官方取票接口批量请求或保存临时播放凭据。
 
 同步保留文件中手工维护的名称、分组、台标、EPG 与开关，补充新频道，并更新已匹配频道的完整播放 URL、请求头和播放器选项。新频道使用 OpenCC 转为简体并归组。完全相同的线路去重并合并来源备注，不同请求头或不同播放器选项的线路分别保留。
 
@@ -85,12 +138,13 @@ https://example.com/live.m3u8
 工作流按北京时间 **04:25、10:25、16:25、22:25** 定时执行，也可在 [Actions](https://github.com/yujuanIt/TVSources/actions/workflows/source-pages.yml) 点击 **Run workflow**：
 
 - 勾选 `sync_live`：先同步上游，再校验和发布。
-- 取消勾选：仅校验和发布仓库中的内容。
+- 勾选 `sync_vod`：同步登记的 TVBox 站点，再校验和发布。
+- 两项都取消：仅校验和发布仓库中的内容。
 - `automaticSyncEnabled: false` 暂停全部抓取；单个来源的 `enabled: false` 暂停该源并保留其现有线路。
 
 定时安排由 [source-pages.yml](.github/workflows/source-pages.yml) 的 `schedule` 控制；调整频率时，同步更新来源清单的 `sync` 记录。
 
-有数据变化时，工作流只自动提交 `data/live.m3u` 与 `data/live-sync-state.json`，随后在同一次运行中更新 `source-data` 和 GitHub Pages；无变化不产生数据提交。推送冲突会停止，不覆盖人工提交。各源结果和待核对数量可在工作流摘要查看。
+直播与点播使用同一组每 6 小时的定时触发。有数据变化时，工作流只自动提交 `data/live.m3u`、`data/live-sync-state.json`、`data/vod-sites.json` 与 `data/vod-sync-state.json`，随后在同一次运行中更新 `source-data` 和 GitHub Pages；无变化不产生数据提交。推送冲突会停止，不覆盖人工提交。各源结果和待核对数量可在工作流摘要查看。
 
 本地同步命令：
 
@@ -106,7 +160,7 @@ https://example.com/live.m3u8
 
 ## 校验、预览与发布
 
-本地需要 Python 3.11+、Node.js 22+，以及固定版本的 OpenCC 同步依赖：
+本地需要 Python 3.11+、Node.js 22+，以及固定版本的 OpenCC、JSON5 同步依赖：
 
 ```sh
 python3 -m venv .tools/sync-venv
@@ -131,10 +185,10 @@ PATH="$PWD/.tools/sync-venv/bin:$PATH" ./scripts/check.sh
 ```text
 data/                配置、自有 M3U、上游清单与同步状态
 assets/              页面样式与配置编辑器
-scripts/             构建、直播同步、发布与检查工具
+scripts/             构建、直播 / 点播同步、发布与检查工具
 tests/               Python / JavaScript 固定测试
 .github/workflows/   定时同步与 Pages 发布工作流
 index.html           源站总览、内容编辑与发布入口
 ```
 
-本站维护配置与播放地址，影片、信号和网络连通性由相应上游提供；列表校验通过不代表所有地址均可播放。Git 操作遵循 [AGENTS.md](AGENTS.md)，源站代码采用 [GPL-3.0](LICENSE)，同步依赖 OpenCC 采用 Apache-2.0。
+本站维护配置与播放地址，影片、信号和网络连通性由相应上游提供；列表校验通过不代表所有地址均可播放。Git 操作遵循 [AGENTS.md](AGENTS.md)，源站代码采用 [GPL-3.0](LICENSE)，同步依赖 OpenCC、JSON5 采用 Apache-2.0。

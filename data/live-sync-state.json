@@ -13524,6 +13524,356 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/454821649298",
       "enabled": "true"
+    },
+    "c_3a2712d259c4e75a43e89d30": {
+      "name": "CCTV-1 综合",
+      "group": "央视",
+      "tvgId": "cctv1",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_e5efaac2d461dd63178976d3": {
+      "name": "CCTV-2 财经",
+      "group": "央视",
+      "tvgId": "cctv2",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_d207c96f1abc06ee3bb6fe5c": {
+      "name": "CCTV-3 综艺",
+      "group": "央视",
+      "tvgId": "cctv3",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_60ba975c2af170fffababd37": {
+      "name": "CCTV-5 体育",
+      "group": "央视",
+      "tvgId": "cctv5",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_f79ec256f5a26176db55efec": {
+      "name": "CCTV-5+ 体育赛事",
+      "group": "央视",
+      "tvgId": "cctv5p",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_04308d3d309cb55901e99376": {
+      "name": "CCTV-6 电影",
+      "group": "央视",
+      "tvgId": "cctv6",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_bc6639f424abb9bd5548d3fe": {
+      "name": "CCTV-7 国防军事",
+      "group": "央视",
+      "tvgId": "cctv7",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_3e4802226c07572868c67d0c": {
+      "name": "CCTV-9 纪录",
+      "group": "央视",
+      "tvgId": "cctv9",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_7c2c9955753b617513f88c30": {
+      "name": "CCTV-10 科教",
+      "group": "央视",
+      "tvgId": "cctv10",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_5957486dd66fd185fe16f3d9": {
+      "name": "CCTV-11 戏曲",
+      "group": "央视",
+      "tvgId": "cctv11",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_63e041775214215b57f3aca0": {
+      "name": "CCTV-12 社会与法",
+      "group": "央视",
+      "tvgId": "cctv12",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_686e053e32f42bf740a1adcb": {
+      "name": "CCTV-13 新闻",
+      "group": "央视",
+      "tvgId": "cctv13",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_d5ed58fd2ab3c4334318b4ca": {
+      "name": "CCTV-14 少儿",
+      "group": "央视",
+      "tvgId": "cctv14",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_5010937a28efb0cddd58c185": {
+      "name": "CCTV-15 音乐",
+      "group": "央视",
+      "tvgId": "cctv15",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_6ba00e3b32e90d1ec9dfed7f": {
+      "name": "CCTV-16 奥林匹克",
+      "group": "央视",
+      "tvgId": "cctv16",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_122041e4cb19454e2da9885d": {
+      "name": "CCTV-17 农业农村",
+      "group": "央视",
+      "tvgId": "cctv17",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_1fbac83f195226b7caac5e50": {
+      "name": "CCTV风云剧场",
+      "group": "央视",
+      "tvgId": "cctvfyjc",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_06fdcc39c0d850288db91b22": {
+      "name": "CCTV第一剧场",
+      "group": "央视",
+      "tvgId": "cctvdyjc",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_5c0f246bc5fe589958d33d5f": {
+      "name": "CCTV怀旧剧场",
+      "group": "央视",
+      "tvgId": "cctvhjjc",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_f89120c2e7fdd9a413d90f78": {
+      "name": "北京卫视",
+      "group": "地方卫视",
+      "tvgId": "bjws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_6a55d3c5c209d6ca48cdbf37": {
+      "name": "江苏卫视",
+      "group": "地方卫视",
+      "tvgId": "jsws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_30b80d3a69d1017b0b62a872": {
+      "name": "浙江卫视",
+      "group": "地方卫视",
+      "tvgId": "zjws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_ca78ef2e472df85749daa11c": {
+      "name": "湖南卫视",
+      "group": "地方卫视",
+      "tvgId": "hnws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_f857553f49091295d258926d": {
+      "name": "湖北卫视",
+      "group": "地方卫视",
+      "tvgId": "hbws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_91df5b83f866718fbc5a6283": {
+      "name": "广东卫视",
+      "group": "地方卫视",
+      "tvgId": "gdws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_a80acc627ce10a816cb9fd15": {
+      "name": "广西卫视",
+      "group": "地方卫视",
+      "tvgId": "gxws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_505c310bc3f1ceba95cc675b": {
+      "name": "黑龙江卫视",
+      "group": "地方卫视",
+      "tvgId": "hljws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_a0fb9661d0e70636f8d7aeaf": {
+      "name": "海南卫视",
+      "group": "地方卫视",
+      "tvgId": "hnws2",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_22f68f4d1e88ec2541a3380c": {
+      "name": "重庆卫视",
+      "group": "地方卫视",
+      "tvgId": "cqws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_9277aebcf106461ed4cb7b80": {
+      "name": "深圳卫视",
+      "group": "地方卫视",
+      "tvgId": "szws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_922688743dd5e71f25edc0b7": {
+      "name": "四川卫视",
+      "group": "地方卫视",
+      "tvgId": "scws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_eccb8e198bce94eb97f9425b": {
+      "name": "河南卫视",
+      "group": "地方卫视",
+      "tvgId": "henanws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_321cb0d0a9521803b39bde8c": {
+      "name": "东南卫视",
+      "group": "地方卫视",
+      "tvgId": "fjdnhz",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_089973ec4fba01a415f7b529": {
+      "name": "贵州卫视",
+      "group": "地方卫视",
+      "tvgId": "gzhws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_cc1810a5ce429ffa5a3b2a8e": {
+      "name": "江西卫视",
+      "group": "地方卫视",
+      "tvgId": "jxws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_b4e3839fab9e2908b92e550f": {
+      "name": "辽宁卫视",
+      "group": "地方卫视",
+      "tvgId": "lnws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_e27c5e381119b06e986e1a57": {
+      "name": "安徽卫视",
+      "group": "地方卫视",
+      "tvgId": "ahws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_021ccf94054bf199e369331e": {
+      "name": "河北卫视",
+      "group": "地方卫视",
+      "tvgId": "hbws2",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_a8800511b443b35dc46fc71d": {
+      "name": "山东卫视",
+      "group": "地方卫视",
+      "tvgId": "sdws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_f677329031efab70c22255b6": {
+      "name": "宁夏卫视",
+      "group": "地方卫视",
+      "tvgId": "nxws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_0aee8798ea9c631a3e53b9f4": {
+      "name": "内蒙古卫视",
+      "group": "地方卫视",
+      "tvgId": "nmgws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_81e1bf533d0839193a7e0832": {
+      "name": "新疆卫视",
+      "group": "地方卫视",
+      "tvgId": "xjws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_3172e8c80ccb8d997a14b8c5": {
+      "name": "CCTV-4 中文国际",
+      "group": "央视",
+      "tvgId": "cctv4",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_4116f126af1eaf16e4701c28": {
+      "name": "CCTV-8 电视剧",
+      "group": "央视",
+      "tvgId": "cctv8",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_d41c51d1e3d672aa24704c7c": {
+      "name": "东方卫视",
+      "group": "地方卫视",
+      "tvgId": "dfws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_6aca7701b871004a11cd25b2": {
+      "name": "天津卫视",
+      "group": "地方卫视",
+      "tvgId": "tjws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_9299848b65c0bd9ccfc115d6": {
+      "name": "吉林卫视",
+      "group": "地方卫视",
+      "tvgId": "jlws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_8c013d9fc456682476ea063b": {
+      "name": "陕西卫视",
+      "group": "地方卫视",
+      "tvgId": "shanxiws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_a1c5d751c71d6ae9f72a4c67": {
+      "name": "云南卫视",
+      "group": "地方卫视",
+      "tvgId": "ynws",
+      "logo": "",
+      "enabled": "true"
+    },
+    "c_32fda05183f14b17d60a36ab": {
+      "name": "西藏卫视",
+      "group": "地方卫视",
+      "tvgId": "xzws",
+      "logo": "",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -26640,6 +26990,312 @@
           "name": "山取",
           "tvgId": "",
           "group": "•抖音「其他」"
+        }
+      }
+    },
+    "official-ysp": {
+      "sha256": "0148f69ff2ece9c1dcaa357c6cf9dc23ed10a7b2a478a55f7269487a254d26c8",
+      "routes": 50,
+      "bindings": {
+        "5fab611ad4ca14f1e6044c7a3956b55a4dfc5b14310b64172a83b1f16a0faf2f": {
+          "channel": "c_3a2712d259c4e75a43e89d30",
+          "name": "CCTV-1 综合",
+          "tvgId": "cctv1",
+          "group": "央视"
+        },
+        "a7c67f19ae7cc1564145ffd05f782aae4054335c8c1be392fa96a82691e909ae": {
+          "channel": "c_e5efaac2d461dd63178976d3",
+          "name": "CCTV-2 财经",
+          "tvgId": "cctv2",
+          "group": "央视"
+        },
+        "17c300cd692530cf9e5d986c387b0dd32ac091c3a26c6c0f27278e3351f43bdd": {
+          "channel": "c_d207c96f1abc06ee3bb6fe5c",
+          "name": "CCTV-3 综艺",
+          "tvgId": "cctv3",
+          "group": "央视"
+        },
+        "0309fa034630b369da38786403b9b20f0797a46b48124c46bd7396871af2f741": {
+          "channel": "c_60ba975c2af170fffababd37",
+          "name": "CCTV-5 体育",
+          "tvgId": "cctv5",
+          "group": "央视"
+        },
+        "31202c0f6c2cf9427a784369053564b35c6499d519e089b2bf9ec0dfce486aef": {
+          "channel": "c_f79ec256f5a26176db55efec",
+          "name": "CCTV-5+ 体育赛事",
+          "tvgId": "cctv5p",
+          "group": "央视"
+        },
+        "7640b6df18b15c41926f046db2a1b429901b7563069f5b9cae646e440e26b245": {
+          "channel": "c_04308d3d309cb55901e99376",
+          "name": "CCTV-6 电影",
+          "tvgId": "cctv6",
+          "group": "央视"
+        },
+        "c443f8b8d4e0022668040644bd945bf9244e3179fa77f51318bff2e681fba69d": {
+          "channel": "c_bc6639f424abb9bd5548d3fe",
+          "name": "CCTV-7 国防军事",
+          "tvgId": "cctv7",
+          "group": "央视"
+        },
+        "3065850805deef8f32a8c624537f1e798fdc9fa360ff021846e8c243a28f0d9d": {
+          "channel": "c_3e4802226c07572868c67d0c",
+          "name": "CCTV-9 纪录",
+          "tvgId": "cctv9",
+          "group": "央视"
+        },
+        "7f4da2ad61f88b577ec1e581ab0500764d1dbbc8d9e98cd440d6767159945d8c": {
+          "channel": "c_7c2c9955753b617513f88c30",
+          "name": "CCTV-10 科教",
+          "tvgId": "cctv10",
+          "group": "央视"
+        },
+        "d3acfbb305e9ef175f96a9deaa3b9517467213ba1df63affd70b7863a8de44cb": {
+          "channel": "c_5957486dd66fd185fe16f3d9",
+          "name": "CCTV-11 戏曲",
+          "tvgId": "cctv11",
+          "group": "央视"
+        },
+        "09d382454a79fa8728c3e975e6b10f77257668544143428047e022c2e09616fb": {
+          "channel": "c_63e041775214215b57f3aca0",
+          "name": "CCTV-12 社会与法",
+          "tvgId": "cctv12",
+          "group": "央视"
+        },
+        "36f3687357ffdb06377822d1afb6719458e97a7e6073479394391320b64453aa": {
+          "channel": "c_686e053e32f42bf740a1adcb",
+          "name": "CCTV-13 新闻",
+          "tvgId": "cctv13",
+          "group": "央视"
+        },
+        "939f3ef286fb9559d5d13e55c17db1f31422cce7d298c98bb9db2577cc2387df": {
+          "channel": "c_d5ed58fd2ab3c4334318b4ca",
+          "name": "CCTV-14 少儿",
+          "tvgId": "cctv14",
+          "group": "央视"
+        },
+        "d1e71fe31d7cd365d47c6aa428bcb119ab50b31fc6297451e9871d357a839252": {
+          "channel": "c_5010937a28efb0cddd58c185",
+          "name": "CCTV-15 音乐",
+          "tvgId": "cctv15",
+          "group": "央视"
+        },
+        "62940690c74db66824c72e52f3051c94159d9ef8cfd87622563043e05e1821e1": {
+          "channel": "c_6ba00e3b32e90d1ec9dfed7f",
+          "name": "CCTV-16 奥林匹克",
+          "tvgId": "cctv16",
+          "group": "央视"
+        },
+        "cece7da878bc191160d10a514a52a6fc4c1b8ccf518cff24a5e20e379aba2cca": {
+          "channel": "c_122041e4cb19454e2da9885d",
+          "name": "CCTV-17 农业农村",
+          "tvgId": "cctv17",
+          "group": "央视"
+        },
+        "921b076c4aaef5c2709a19673c3fa0b8f9f0e451c001bebc8b4686942e8a95cf": {
+          "channel": "c_1fbac83f195226b7caac5e50",
+          "name": "CCTV风云剧场",
+          "tvgId": "cctvfyjc",
+          "group": "央视"
+        },
+        "453c3ba4aba56f892280e237ee470e734fbcf26d6b33b6896b2f7c043fc71d97": {
+          "channel": "c_06fdcc39c0d850288db91b22",
+          "name": "CCTV第一剧场",
+          "tvgId": "cctvdyjc",
+          "group": "央视"
+        },
+        "01c8cb2d0b1f0b0e0861f2aa206fd48de43e5a8bf503f65dd5eafc4b6d34c0b6": {
+          "channel": "c_5c0f246bc5fe589958d33d5f",
+          "name": "CCTV怀旧剧场",
+          "tvgId": "cctvhjjc",
+          "group": "央视"
+        },
+        "e3083118e3f2bcb9fc385ce2aeb8c718f7481dd51498d0869bc4b33e19520c08": {
+          "channel": "c_f89120c2e7fdd9a413d90f78",
+          "name": "北京卫视",
+          "tvgId": "bjws",
+          "group": "地方卫视"
+        },
+        "d38eff67106982cb1957878249f97075a8a98ef03448bb896d6bc428ecc0aa7e": {
+          "channel": "c_6a55d3c5c209d6ca48cdbf37",
+          "name": "江苏卫视",
+          "tvgId": "jsws",
+          "group": "地方卫视"
+        },
+        "a8e1b0dd873ec9bfb8d0b6963278c5fee03decbc20b38e9521a4bc3fcfda8a69": {
+          "channel": "c_30b80d3a69d1017b0b62a872",
+          "name": "浙江卫视",
+          "tvgId": "zjws",
+          "group": "地方卫视"
+        },
+        "3f96286bb29833a2e6b98314ed8a78299560daef17c3d91fc7df49a01efe21e7": {
+          "channel": "c_ca78ef2e472df85749daa11c",
+          "name": "湖南卫视",
+          "tvgId": "hnws",
+          "group": "地方卫视"
+        },
+        "7224f2470b4980ef02bc278b446d0691eccdb084844c003ae5e30527807132a6": {
+          "channel": "c_f857553f49091295d258926d",
+          "name": "湖北卫视",
+          "tvgId": "hbws",
+          "group": "地方卫视"
+        },
+        "f05246dbc28f6c192161a439df54352908e45ee29e2f89ec361a2cc9f01b4364": {
+          "channel": "c_91df5b83f866718fbc5a6283",
+          "name": "广东卫视",
+          "tvgId": "gdws",
+          "group": "地方卫视"
+        },
+        "fe8063a51b4430ba4eff03ba18d8ca21e9a62c1d0b93453f28bcae8ba6c09d84": {
+          "channel": "c_a80acc627ce10a816cb9fd15",
+          "name": "广西卫视",
+          "tvgId": "gxws",
+          "group": "地方卫视"
+        },
+        "aee21cf56f741eb5ab2dccef3f9462114fcd3f4187de5a5e9969a3bb30692edb": {
+          "channel": "c_505c310bc3f1ceba95cc675b",
+          "name": "黑龙江卫视",
+          "tvgId": "hljws",
+          "group": "地方卫视"
+        },
+        "4f5f97184f58b5cafc770ba53a4671b42730f98920726d175945ab7775f9edd5": {
+          "channel": "c_a0fb9661d0e70636f8d7aeaf",
+          "name": "海南卫视",
+          "tvgId": "hnws2",
+          "group": "地方卫视"
+        },
+        "893a780189f61d26e8b8ab27c5891222240da11c1b4463b92a9a0508736353f1": {
+          "channel": "c_22f68f4d1e88ec2541a3380c",
+          "name": "重庆卫视",
+          "tvgId": "cqws",
+          "group": "地方卫视"
+        },
+        "032dd136a4adab2668529180a0056efc042caf4e909c43914ade63b4dee2f809": {
+          "channel": "c_9277aebcf106461ed4cb7b80",
+          "name": "深圳卫视",
+          "tvgId": "szws",
+          "group": "地方卫视"
+        },
+        "702a2118f1b21a50b058578b34f1988d39ff5ff11766a340b100f4739275d950": {
+          "channel": "c_922688743dd5e71f25edc0b7",
+          "name": "四川卫视",
+          "tvgId": "scws",
+          "group": "地方卫视"
+        },
+        "d49557161d429d100f82b1cd4b1d466d680768d2a07c5d23a2fe0c9916e3ffa4": {
+          "channel": "c_eccb8e198bce94eb97f9425b",
+          "name": "河南卫视",
+          "tvgId": "henanws",
+          "group": "地方卫视"
+        },
+        "badbb0e353f667fc76a4776f33a7790477bf34588a3aba3ced6556ec24541050": {
+          "channel": "c_321cb0d0a9521803b39bde8c",
+          "name": "东南卫视",
+          "tvgId": "fjdnhz",
+          "group": "地方卫视"
+        },
+        "d28d6dcc74b869d7d85ebd3efa43b24547a905de86759436d692599516610b37": {
+          "channel": "c_089973ec4fba01a415f7b529",
+          "name": "贵州卫视",
+          "tvgId": "gzhws",
+          "group": "地方卫视"
+        },
+        "f3d12cfb44958f157adff9f1759b2ff2206fe8b95cdd6645393a7154ca5805ba": {
+          "channel": "c_cc1810a5ce429ffa5a3b2a8e",
+          "name": "江西卫视",
+          "tvgId": "jxws",
+          "group": "地方卫视"
+        },
+        "32b6b2e0d023f51106720c1da75bf2de77afe9aa0c689a2dc138b3f426cb16b9": {
+          "channel": "c_b4e3839fab9e2908b92e550f",
+          "name": "辽宁卫视",
+          "tvgId": "lnws",
+          "group": "地方卫视"
+        },
+        "57b05b11f17e2fa14283700f60694ae32dd10c96d086700d50f3092a1464b7e0": {
+          "channel": "c_e27c5e381119b06e986e1a57",
+          "name": "安徽卫视",
+          "tvgId": "ahws",
+          "group": "地方卫视"
+        },
+        "5f4e1ac92d639981cfeb59547127f2c15d81f175dfccdc11a510896bc7b83ab9": {
+          "channel": "c_021ccf94054bf199e369331e",
+          "name": "河北卫视",
+          "tvgId": "hbws2",
+          "group": "地方卫视"
+        },
+        "c2d7ec71eb0b7a51ffab7ea0641f8daaa35791acbe7294e7e52a6e7c5d5ac78f": {
+          "channel": "c_a8800511b443b35dc46fc71d",
+          "name": "山东卫视",
+          "tvgId": "sdws",
+          "group": "地方卫视"
+        },
+        "baceaf5d77c638203e0a9ef8f14c6dcebb017cc9ccc272cb2b5e4dd2d0b48f05": {
+          "channel": "c_f677329031efab70c22255b6",
+          "name": "宁夏卫视",
+          "tvgId": "nxws",
+          "group": "地方卫视"
+        },
+        "92afcff6ec3549836ad586f65f35e3bfee53746625768298a2b76dea5b18eb04": {
+          "channel": "c_0aee8798ea9c631a3e53b9f4",
+          "name": "内蒙古卫视",
+          "tvgId": "nmgws",
+          "group": "地方卫视"
+        },
+        "96e58f4e5ae714c5477c2355b1f239e51a81c0ab089a414f787cae5c02dc923d": {
+          "channel": "c_81e1bf533d0839193a7e0832",
+          "name": "新疆卫视",
+          "tvgId": "xjws",
+          "group": "地方卫视"
+        },
+        "ecd010ab4dd9ce090844079306ca284cdb04638d696be5aa8a65a87072029327": {
+          "channel": "c_3172e8c80ccb8d997a14b8c5",
+          "name": "CCTV-4 中文国际",
+          "tvgId": "cctv4",
+          "group": "央视"
+        },
+        "4a03282afb198cbe94ec87cf63a3f4ac06b4cff1c8f10b8a17df582644c08ca8": {
+          "channel": "c_4116f126af1eaf16e4701c28",
+          "name": "CCTV-8 电视剧",
+          "tvgId": "cctv8",
+          "group": "央视"
+        },
+        "bd0c07335e6176d74b695614c5a8296a226a6a2a148a114e7f9633817ae3022a": {
+          "channel": "c_d41c51d1e3d672aa24704c7c",
+          "name": "东方卫视",
+          "tvgId": "dfws",
+          "group": "地方卫视"
+        },
+        "5acaa647c0c8009bdb4e7b630f39d3e4eed87082ace7de429f9a316c55fdaffc": {
+          "channel": "c_6aca7701b871004a11cd25b2",
+          "name": "天津卫视",
+          "tvgId": "tjws",
+          "group": "地方卫视"
+        },
+        "467a1f13958b990f32c52fdc560f4a8e4e06940108fdb0d5f470a78a79e403f8": {
+          "channel": "c_9299848b65c0bd9ccfc115d6",
+          "name": "吉林卫视",
+          "tvgId": "jlws",
+          "group": "地方卫视"
+        },
+        "957f685c9fa04dca9862057331b3923e3b630decd3cd82727b240f594e73a122": {
+          "channel": "c_8c013d9fc456682476ea063b",
+          "name": "陕西卫视",
+          "tvgId": "shanxiws",
+          "group": "地方卫视"
+        },
+        "93bd50bbc81c18f07981ecf15aa4ca757ac881856c3256153bde6a80e2d6f409": {
+          "channel": "c_a1c5d751c71d6ae9f72a4c67",
+          "name": "云南卫视",
+          "tvgId": "ynws",
+          "group": "地方卫视"
+        },
+        "2854b0a2793614ba02059a52360dac7c224c01913fb28dc5a1b8e34d0b50508f": {
+          "channel": "c_32fda05183f14b17d60a36ab",
+          "name": "西藏卫视",
+          "tvgId": "xzws",
+          "group": "地方卫视"
         }
       }
     }

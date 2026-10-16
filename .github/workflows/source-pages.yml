@@ -16,6 +16,10 @@ on:
         description: '同步已登记的直播上游，再校验并发布'
         type: boolean
         default: true
+      sync_vod:
+        description: '同步已登记的 TVBox 站点，再校验并发布'
+        type: boolean
+        default: true
   schedule:
     # UTC; 北京时间 04:25、10:25、16:25、22:25，错开整点高峰。
     - cron: '25 2,8,14,20 * * *'
@@ -39,7 +43,7 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           ref: main
-      - name: Install live synchronizer dependency
+      - name: Install synchronizer dependencies
         run: |
           python3 -m venv .tools/sync-venv
           .tools/sync-venv/bin/python -m pip install --requirement scripts/requirements-sync.txt
@@ -47,6 +51,9 @@ jobs:
       - name: Refresh registered live upstreams
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync_live)
         run: python3 scripts/sync-live.py --summary "$GITHUB_STEP_SUMMARY"
+      - name: Refresh registered TVBox sites
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync_vod)
+        run: python3 scripts/sync-vod.py --summary "$GITHUB_STEP_SUMMARY"
       - name: Validate sources and editor
         run: |
           python3 -m unittest discover -s tests -p 'test_*.py' -v
@@ -57,17 +64,21 @@ jobs:
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Generate public source files
         run: python3 scripts/build-source-site.py --base-url '${{ steps.pages.outputs.base_url }}/' --repository '${{ github.repository }}'
-      - name: Save validated live updates
-        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync_live)
+      - name: Save validated source updates
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && (inputs.sync_live || inputs.sync_vod))
         run: |
           git add -- data/live.m3u
           if test -f data/live-sync-state.json; then
             git add -- data/live-sync-state.json
           fi
+          git add -- data/vod-sites.json
+          if test -f data/vod-sync-state.json; then
+            git add -- data/vod-sync-state.json
+          fi
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'chore: 同步直播上游线路'
+            git commit -m 'chore: 同步直播线路与点播站点'
             git push origin HEAD:main
           fi
       - name: Publish files for free accelerator endpoints

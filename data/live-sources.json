@@ -6,6 +6,25 @@
   "recordedAt": "2026-10-15",
   "sources": [
     {
+      "id": "official-ysp",
+      "name": "官方直播 · 央视与卫视",
+      "url": "https://www.yangshipin.cn/tv/home",
+      "format": "local-m3u",
+      "file": "data/live-official.m3u",
+      "enabled": true,
+      "headers": {
+        "User-Agent": "qqlive",
+        "Referer": "https://live.cctv.cn/"
+      },
+      "lastImport": {
+        "date": "2026-10-16",
+        "sha256": "0148f69ff2ece9c1dcaa357c6cf9dc23ed10a7b2a478a55f7269487a254d26c8",
+        "channels": 50,
+        "routes": 50
+      },
+      "note": "官方页面入口由新版居安影院在播放时请求央视频匿名接口，临时播放地址不写入静态清单。2026-10-16 本机验证 HLS 清单与视频分片可读，不代表所有地区或时段均可播放；不可用时回退原 IPTV 线路。"
+    },
+    {
       "id": "yang-favorites",
       "name": "居安直播 · 常看",
       "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
@@ -180,6 +199,7 @@
   ],
   "mergePolicy": {
     "sourceOrder": [
+      "official-ysp",
       "yang-favorites",
       "guovin-ipv4",
       "yuechan-ipv4",
@@ -208,7 +228,7 @@
       "directives",
       "complete-url-including-signature"
     ],
-    "notes": "同步器更新已匹配频道的完整播放线路，保留本地名称、分组、台标、EPG 与开关。失败、异常缩水与未匹配旧频道保留待核对；不修改签名参数。同步和发布在同一工作流完成。"
+    "notes": "同步器更新已匹配频道的完整播放线路，保留本地名称、分组、台标、EPG 与开关。失败、异常缩水与未匹配旧频道保留待核对；不修改签名参数。同步和发布在同一工作流完成。 发布时规范央视/卫视常见别名和画质后缀，使同台线路共用一个频道；官方入口优先，App 可优先最近稳定线路。维护文件的名称、分组和同步身份不被发布规范化改写。"
   },
   "normalization": {
     "displayLanguage": "zh-Hans",

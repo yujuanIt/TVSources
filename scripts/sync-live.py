@@ -245,7 +245,14 @@ def merge(content, registry, previous, payloads, hans):
     return output, state, report
 
 
-def fetch(source, timeout=20, max_bytes=8 * 1024 * 1024):
+def fetch(source, timeout=20, max_bytes=8 * 1024 * 1024, root=ROOT):
+    if source.get('format') == 'local-m3u':
+        builder.require(source.get('file') == 'data/live-official.m3u', '本地官方清单路径无效')
+        path = root / source['file']
+        builder.require(not path.is_symlink() and path.resolve().is_relative_to(root.resolve()), '本地清单必须位于源站目录内')
+        payload = path.read_bytes(); builder.require(len(payload) <= max_bytes, '本地清单超过大小上限')
+        _, rows = parse(payload.decode('utf-8-sig')); builder.require(rows, '本地官方清单没有频道')
+        return payload
     request = Request(source['url'], headers={'User-Agent': 'JuAn-Live-Sync/1.0', 'Accept-Encoding': 'identity', **source.get('headers', {})})
     began = time.monotonic()
     with urlopen(request, timeout=timeout, context=ssl.create_default_context()) as response:
@@ -321,7 +328,7 @@ def main():
     builder.require(not path.is_symlink() and not path.parent.is_symlink() and not state_path.is_symlink(), '同步数据文件不能使用符号链接')
     original = path.read_text(encoding='utf-8')
     previous = json.loads(state_path.read_text(encoding='utf-8')) if state_path.exists() else None
-    payloads, failures = download(registry, previous=previous)
+    payloads, failures = download(registry, fetcher=lambda source: fetch(source, root=args.root), previous=previous)
     if payloads:
         result, state, report = merge(original, registry, previous, payloads, hans)
         output = args.preview_dir if args.preview_dir else args.root / 'data'

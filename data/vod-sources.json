@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "automaticSyncEnabled": true,
+  "newSitesEnabled": true,
+  "sync": {
+    "intervalHours": 6,
+    "timeZone": "Asia/Shanghai"
+  },
+  "sources": [
+    {
+      "id": "fantaiying",
+      "name": "饭太硬 · 点播与直播",
+      "url": "http://www.饭太硬.net/tv",
+      "enabled": true
+    },
+    {
+      "id": "xinmo",
+      "name": "心魔在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "enabled": true
+    },
+    {
+      "id": "clun",
+      "name": "Clun在线",
+      "url": "https://clun.top/box.json",
+      "enabled": true
+    },
+    {
+      "id": "fongmi",
+      "name": "FongMI线路",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+      "enabled": true
+    },
+    {
+      "id": "xyq",
+      "name": "香雅情",
+      "url": "https://gh-proxy.org/https:/raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "enabled": true
+    },
+    {
+      "id": "feimao",
+      "name": "默认影视源 · 肥猫",
+      "url": "https://www.iyouhun.com/tv/fm",
+      "enabled": true
+    }
+  ]
+}

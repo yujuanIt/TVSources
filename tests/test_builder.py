@@ -15,7 +15,8 @@ spec.loader.exec_module(builder)
 
 
 def sample():
-    data = json.loads((ROOT / 'data/library.json').read_text())
+    data = builder.vod_config.materialize(json.loads((ROOT / 'data/library.json').read_text()), json.loads((ROOT / 'data/vod-sites.json').read_text()))
+    data['vod'].pop('contexts', None)
     data['live']['playlists'] = [{'name': '直播列表', 'url': 'https://example.com/channels.m3u?sign=a%2Fb',
                                  'headers': {'User-Agent': 'List Player'}, 'enabled': True}]
     data['vod']['sites'] = [{'key': 'my_api', 'name': '我的 API', 'type': 1, 'api': 'https://example.com/api.php',
@@ -47,11 +48,86 @@ def live_sources():
 
 
 class BuilderTests(unittest.TestCase):
+    def test_standalone_sites_are_the_only_published_copy_and_direct_tvbox_stays_separate(self):
+        data = sample(); before = copy.deepcopy(data); files = builder.build(data, 'https://example.com/')
+        self.assertEqual(builder.vod_config.site_list(data), files['data/vod-sites.json'])
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / 'site'; builder.publish_files(data, 'https://example.com/', output)
+            manifest = json.loads((output / 'data/library.json').read_text())
+            sites = json.loads((output / 'data/vod-sites.json').read_text())
+            self.assertEqual({'name', 'url'}, set(manifest['vod']))
+            self.assertEqual(data['warehouses'], manifest['warehouses'])
+            self.assertEqual(data, builder.vod_config.materialize(manifest, sites))
+            self.assertEqual('data/vod-sites.json', files['hosting.json']['vodSiteFile'])
+            self.assertIn('/edit/main/data/vod-sites.json', files['hosting.json']['vodSiteEditUrl'])
+        self.assertEqual(before, data)
+
+    def test_standalone_file_is_bounded_and_cannot_read_a_symlink_or_inline_history(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary); path = root / 'data/vod-sites.json'; path.parent.mkdir(); path.write_text('{"version":1,"sites":[]}')
+            self.assertEqual([], builder.vod_config.read_site_list(root)['sites'])
+            path.unlink(); path.symlink_to(ROOT / 'data/vod-sites.json')
+            with self.assertRaisesRegex(ValueError, '真实文件'): builder.vod_config.read_site_list(root)
+        with self.assertRaisesRegex(ValueError, 'vod 仅支持'): builder.vod_config.materialize(sample(), {'version': 1, 'sites': []})
+        for value in [{'version': 2, 'sites': []}, {'version': 1}, {'version': 1, 'sites': [], 'warehouses': []}]:
+            with self.assertRaises(ValueError): builder.vod_config.materialize(builder.vod_config.manifest(sample()), value)
+    def test_official_and_iptv_variants_share_channel_names_in_every_output_without_losing_route_headers(self):
+        registry = {'version': 1, 'playlist': 'data/live.m3u', 'automaticSyncEnabled': False,
+                    'sources': [{'id': key, 'name': name, 'url': 'https://example.com/' + key, 'format': 'm3u'} for key, name in [('official', '官方直播'), ('iptv', 'IPTV备用')]],
+                    'mergePolicy': {'sourceOrder': ['official', 'iptv']}}
+        rows = [dict(name='CCTV1高清', group='央视', urls=['https://relay.test/a?sig=old%2B'], headers={'Cookie': 'a'}, origins={'https://relay.test/a?sig=old%2B': ['iptv']}),
+                dict(name='CCTV-1 综合', group='地方卫视', urls=['https://www.yangshipin.cn/tv/home?pid=600001859&cnlid=2024078201'], headers={'User-Agent': 'qqlive'}, origins={'https://www.yangshipin.cn/tv/home?pid=600001859&cnlid=2024078201': ['official']})]
+        files = builder.build(sample(), 'https://example.com/', source_registry=registry, channel_rows=rows)
+        self.assertEqual(1, files['manifest.json']['channels'])
+        parsed = builder.parse_m3u(files['data/live.m3u'])
+        self.assertEqual(['CCTV-1 综合', 'CCTV-1 综合'], [row['name'] for row in parsed])
+        self.assertEqual(rows[1]['urls'], parsed[0]['urls']); self.assertEqual(rows[0]['headers'], parsed[1]['headers'])
+        self.assertIn('x-source-name="官方直播"', files['live.m3u'])
+        self.assertIn('CCTV-1 综合,https://relay.test/a?sig=old%2B', files['live.txt'])
+        self.assertEqual(['央视'], [group['name'] for group in files['live.json']['groups']])
+    def test_scoped_site_list_generates_independent_standard_tvbox_configs_and_only_selected_sites(self):
+        data = sample()
+        data['vod']['contexts'] = {
+            'one': {'name': '配置甲', 'url': 'https://one.example/path/box.json', 'spider': './one.jar;md5;abc',
+                    'parses': [{'name': '解析', 'type': 1, 'url': './parse?url='}], 'flags': ['line1']},
+            'two': {'name': '配置乙', 'url': 'https://two.example/box.json', 'spider': './two.jar'}}
+        for context in ('one', 'two'):
+            data['vod']['sites'].append({'context': context, 'key': '中文站点', 'name': '自己维护', 'type': 3, 'api': 'csp_Test',
+                                        '_syncId': context, 'origin': {'name': '上游'}})
+        data['vod']['sites'].append({'context': 'one', 'key': 'hidden', 'name': '停用站点', 'type': 3, 'api': 'csp_Test', 'enabled': False})
+        before = copy.deepcopy(data)
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary) / 'site'; builder.publish_files(data, 'https://example.com/', output)
+            one = json.loads((output / 'vod/one.json').read_text()); two = json.loads((output / 'vod/two.json').read_text())
+            self.assertEqual(one['spider'], 'https://one.example/path/one.jar;md5;abc')
+            self.assertEqual(two['spider'], 'https://two.example/two.jar')
+            self.assertEqual(one['parses'][0]['url'], 'https://one.example/path/parse?url=')
+            self.assertEqual(len(one['sites']), 1); self.assertNotIn('_syncId', one['sites'][0]); self.assertNotIn('context', one['sites'][0])
+            urls = json.loads((output / 'warehouse.json').read_text())['urls']
+            self.assertEqual([item['url'] for item in urls[1:3]], ['./vod/one.json', './vod/two.json'])
+            self.assertEqual(json.loads((output / 'data/library.json').read_text()), builder.vod_config.manifest(before))
+            data['vod']['sites'] = [item for item in data['vod']['sites'] if item.get('context') != 'two']
+            builder.publish_files(data, 'https://example.com/', output)
+            self.assertFalse((output / 'vod/two.json').exists())
+        self.assertEqual(data['vod']['contexts'], before['vod']['contexts'])
+
+    def test_invalid_dependency_references_and_nested_source_lists_are_rejected(self):
+        data = sample(); data['vod']['sites'][0]['context'] = 'missing'
+        with self.assertRaisesRegex(ValueError, '不存在'): builder.validate(data)
+        data['vod']['contexts'] = {'missing': {'name': '配置', 'url': 'https://example.com/box.json', 'sites': []}}
+        with self.assertRaisesRegex(ValueError, '不能内嵌'): builder.validate(data)
+
+    def test_scoped_plugins_can_inherit_the_owners_shared_spider(self):
+        data = sample(); data['vod']['spider'] = 'https://owner.example/shared.jar;md5;abc'
+        data['vod']['contexts'] = {'owner': {'name': '自建分组', 'url': 'https://owner.example/source.json'}}
+        data['vod']['sites'].append({'context': 'owner', 'key': 'plugin', 'name': '插件站点', 'type': 3, 'api': 'csp_Test'})
+        self.assertEqual(builder.build(data, 'https://example.com/')['vod/owner.json']['spider'], data['vod']['spider'])
+
     def test_source_only_configuration_publishes_exactly_the_maintained_library(self):
         data = sample(); before = copy.deepcopy(data)
         with tempfile.TemporaryDirectory() as temp:
             output = Path(temp) / 'site'; builder.publish_files(data, 'https://example.com/', output)
-            self.assertEqual(before, json.loads((output / 'data/library.json').read_text()))
+            self.assertEqual(builder.vod_config.manifest(before), json.loads((output / 'data/library.json').read_text()))
             self.assertEqual(before, data)
             box = json.loads((output / 'box.json').read_text())
             self.assertEqual(['my_api'], [site['key'] for site in box['sites']])
@@ -173,7 +249,7 @@ class BuilderTests(unittest.TestCase):
             with patch.object(builder, 'SOURCE', source):
                 result = builder.publish_files(data, 'https://example.com/', output)
                 self.assertEqual(2, result['channels'])
-                self.assertEqual(before, json.loads((output / 'data/library.json').read_text()))
+                self.assertEqual(builder.vod_config.manifest(before), json.loads((output / 'data/library.json').read_text()))
                 self.assertEqual(before, data)
                 self.assertEqual([data['live']['playlists'][0]['url']], [item['url'] for item in json.loads((output / 'box.json').read_text())['lives']])
                 self.assertEqual(builder.parse_m3u(content), builder.parse_m3u((output / 'data/live.m3u').read_text()))
@@ -203,7 +279,7 @@ class BuilderTests(unittest.TestCase):
                     result = builder.publish_files(data, base, output, repository)
                     self.assertEqual(1, result['channels'])
                     self.assertEqual(builder.parse_m3u(content), builder.parse_m3u((output / 'data/live.m3u').read_text()))
-                    self.assertEqual(before, json.loads((output / 'data/library.json').read_text())); self.assertEqual(before, data)
+                    self.assertEqual(builder.vod_config.manifest(before), json.loads((output / 'data/library.json').read_text())); self.assertEqual(before, data)
                     hosting = json.loads((output / 'hosting.json').read_text())
                     self.assertEqual(address, hosting['channelUrl']); self.assertEqual(1, hosting['channelCount'])
             for address in ['https://gh-proxy.com/https://raw.githubusercontent.com/other/repository/source-data/data/live.m3u',
@@ -337,6 +413,8 @@ class PublisherTests(unittest.TestCase):
             (repo / 'app.txt').write_text('uncommitted app work'); git('add', '--', 'app.txt')
             before = git('diff', '--cached', '--binary'); head = git('rev-parse', 'HEAD')
             output = root / 'site'; data = sample(); data['warehouses'] *= 7
+            data['vod']['contexts'] = {'owner': {'name': '自管配置', 'url': 'https://up.example/path/box.json', 'spider': './engine.jar'}}
+            data['vod']['sites'].append({'context': 'owner', 'key': '中文站点', 'name': '自管站点', 'type': 3, 'api': 'csp_Test'})
             builder.publish_files(data, 'https://example.com/', output)
             subprocess.run(['python3', str(ROOT / 'scripts/publish-source-data.py'), '--directory', str(output)], cwd=repo, check=True, capture_output=True)
             self.assertEqual(before, git('diff', '--cached', '--binary'))
@@ -347,6 +425,9 @@ class PublisherTests(unittest.TestCase):
             self.assertIn('live.txt', published)
             self.assertIn('data/live.m3u', published)
             self.assertIn('data/live-sources.json', published)
+            self.assertIn('vod/owner.json', published)
+            self.assertEqual('https://up.example/path/engine.jar', json.loads(subprocess.check_output(['git', 'show', 'FETCH_HEAD:vod/owner.json'], cwd=repo, text=True))['spider'])
+            self.assertNotIn('data/vod-sync-state.json', published)
             self.assertEqual((output / 'live.txt').read_text(), subprocess.check_output(['git', 'show', 'FETCH_HEAD:live.txt'], cwd=repo, text=True))
             self.assertIn('warehouse-2.json', published)
             self.assertNotIn('README.md', published)

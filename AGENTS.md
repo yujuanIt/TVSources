@@ -3,16 +3,18 @@
 - 这是独立公开的源站仓库 `yujuanIt/TVSources`，只维护静态页面、公开源地址、构建和测试工具。
 - 自建列表维护 `data/live.m3u`，在 `data/library.json` 的 `live.playlists` 中以完整 URL 引用，默认使用 GH-Proxy 加速；构建器识别本站 Pages、Raw、GH-Proxy、GHFast 地址，仍只读取本地 M3U。默认维护文件不填写 `channelFile`、`live.channels` 或内嵌频道，不下载其他远程列表。保留已有名称、开关、分组、图标、请求头、签名参数、KODIPROP / EXTVLCOPT 播放选项。
 - 默认独立直播订阅只保留「我的 M3U」。已合并的上游依赖在 `data/live-sources.json` 登记，M3U 用 `x-source-id` / `x-source-name` 按线路注明来源；允许同一线路对应多个来源，来源标记不能改变频道合并身份。源清单和备注随静态站发布，现在由 `scripts/sync-live.py` 每 6 小时同步，并在同一发布工作流中校验、保存数据变化和发布。不要把依赖清单重新注入 `live.playlists`，也不要在普通构建时联网刷新频道。同步器遵循清单里的去重、失败保留、本地编辑与中文分组规则；稳定绑定和删除记录保存在 `data/live-sync-state.json`，不要随意删除或重新生成。
-- 配置只维护 `live.playlists`、`vod.sites`、`warehouses` 三类来源，`vod.spider` 可提供公共插件 JAR。`live.channels`、`live.channelFile`、`vod.categories`、`vod.movies` 已移除，不保留历史格式兼容、占位字段或自建影片适配器。网页与构建器只接受当前结构，`data/library.json` 发布时原样输出；M3U 频道作为独立构建输入，生成 M3U / TXT / 直播 JSON，不写回配置 JSON。
+- 官方央视 / 卫视入口在 `data/live-official.m3u` 维护，作为 `local-m3u` 上游由同步器并入个人 M3U；只保存官方页面与频道 ID，临时 HLS 地址由新版 App 播放时通过匿名接口获取，不在 Actions 批量取票。`live_channels.py` 只在发布输出规范同台名称并按来源排线路，不改维护文件和同步身份；独立超高清台、CCTV-5+ 与海外版本不得误合并，请求头和播放器选项保持逐线路独立。
+- 主配置维护 `live.playlists`、`vod.url`、`warehouses` 三类来源，点播链接指向独立 `data/vod-sites.json`。该文件用 `sites` 维护实际站点，`spider` 可提供公共插件 JAR，导入站点通过 `context` 引用同文件 `contexts` 的共用依赖，按组生成标准 TVBox 配置；不要把各组同名解析器或插件合并。上游登记在 `data/vod-sources.json`，`scripts/sync-vod.py` 每 6 小时同步并保留人工编辑；`data/vod-sync-state.json` 保存字段基线与删除决定，不要重建或移除。默认 `warehouses` 为空，仍保留添加完整配置功能。
+- `live.channels`、`live.channelFile`、`vod.categories`、`vod.movies` 已移除，不保留历史格式兼容、占位字段或自建影片适配器。网页与构建器只接受当前结构，主配置与站点清单分别发布，不把站点内嵌回 `data/library.json`；M3U 频道作为独立构建输入，生成 M3U / TXT / 直播 JSON，不写回配置 JSON。
 - 不放入 Android 客户端源码、APK、签名文件、密码或私密令牌。公开 Git 历史也只包含本站文件。
 - 构建的 APK / APKS / AAB 及其签名伴随文件只保存在客户端本机，不提交到任何 Git 仓库，不上传 GitHub Releases、Actions artifacts 或 Pages；源站自动发布仅包含页面、公开配置与直播清单。不要用 `git add -f` 绕过安装包忽略规则。
 - 按 README 在 `.tools/sync-venv` 安装 `scripts/requirements-sync.txt`，使用该虚拟环境运行 `./scripts/check.sh` 检查 Python 构建器、M3U 同步器与 JavaScript 配置编辑器。生成文件放在 `.tools/site/`。
-- 用户已授权定时同步数据并自动发布；工作流仅可自动提交本次同步的 `data/live.m3u`、`data/live-sync-state.json`，无变化不提交，普通推送冲突则停止，不能强推或覆盖人工修改。
+- 用户已授权定时同步数据并自动发布；工作流仅可自动提交本次同步的 `data/live.m3u`、`data/live-sync-state.json`、`data/vod-sites.json`、`data/vod-sync-state.json`，无变化不提交，普通推送冲突则停止，不能强推或覆盖人工修改。
 - `.github/workflows/source-pages.yml` 负责定时同步及更新 `source-data` 分支和 GitHub Pages；生成分支不手工编辑。
 - 多仓每组最多 6 份，完整导入不能丢失来源；原始播放地址、配置和请求头保持原样。
 - 新文件创建后用明确路径 `git add -- <文件>` 暂存，不使用 `git add .` 或 `git add -A`。
 - README 描述当前配置、订阅、同步和发布流程，不堆叠迁移说明、过期数量或历史验证流水。
-- 用户已授权：每次完成代码、配置或文档修改并通过相应检查后，自动 commit 并 push，无需再次确认。用户明确要求某次只暂存、不提交或不推送时，按该次要求执行。
+- 按用户最新直接指令，日常代码、配置或文档修改只暂存，不自动 commit 或 push；用户明确要求提交或推送时再执行。此要求覆盖此前自动提交约定，不影响已授权的 GitHub Actions 定时数据同步。
 - 开始前核对工作区、暂存区、当前分支和远端；只暂存、提交本次任务的文件，保留其他修改及其暂存状态，无实际改动不创建空提交。
 - 推送前 fetch 并安全整合远端更新，目标为 `https://github.com/yujuanIt/TVSources.git`；沿用当前分支上游，无上游时设置到 origin 的同名分支。仅普通推送，不覆盖人工修改或强推。
 - 检查失败先修复再提交；无法安全处理冲突或推送受阻时保留改动与提交并说明原因。完成后报告提交号和推送结果。

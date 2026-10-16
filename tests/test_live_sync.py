@@ -41,6 +41,27 @@ def run_merge(content, payloads, previous=None, config=None):
 
 
 class LiveSyncTests(unittest.TestCase):
+    def test_registered_official_file_is_local_bounded_and_merges_idempotently(self):
+        config = registry(); official = {'id': 'official', 'name': '官方直播', 'url': 'https://www.yangshipin.cn/tv/home',
+            'format': 'local-m3u', 'file': 'data/live-official.m3u', 'headers': {'User-Agent': 'qqlive'}}
+        config['sources'].insert(0, official); config['mergePolicy']['sourceOrder'].insert(0, 'official')
+        content = m3u(row(name='CCTV1高清', epg='cctv1', group='央视', url='https://backup.test/a'))
+        public = m3u(row(name='CCTV-1 综合', epg='cctv1', origin='', group='央视', url='https://www.yangshipin.cn/tv/home?pid=600001859&cnlid=2024078201'))
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); (root / 'data').mkdir(); path = root / 'data/live-official.m3u'; path.write_text(public)
+            with patch.object(sync, 'urlopen', side_effect=AssertionError('Local import must not request the official API')):
+                payload = sync.fetch(official, root=root)
+            self.assertEqual(public.encode(), payload)
+            with self.assertRaises(ValueError): sync.fetch(official, root=root, max_bytes=8)
+            path.unlink(); path.symlink_to(ROOT / 'data/live.m3u')
+            with self.assertRaises(ValueError): sync.fetch(official, root=root)
+        first, state, report = sync.merge(content, config, None, {'official': payload}, HANS)
+        self.assertEqual(1, report['addedChannels']); self.assertIn('https://backup.test/a', first)
+        self.assertIn('x-source-name="官方直播"', first)
+        official_row = next(row for row in sync.builder.parse_m3u(first) if 'www.yangshipin.cn' in row['urls'][0])
+        self.assertEqual('qqlive', official_row['headers']['User-Agent'])
+        second, state2, _ = sync.merge(first, config, state, {'official': payload}, HANS)
+        self.assertEqual(first, second); self.assertEqual(state, state2)
     def test_signed_url_changes_and_local_edits_survive_multiple_runs(self):
         original = m3u(row(extra='x-enabled="false" custom-tag="keep"'))
         incoming = m3u(row(name='臺灣新聞', origin='', group='台湾频道', options='#EXTHTTP:{"Cookie":"signed=a%2Bb","Referer":"https://example.com/"}\n#KODIPROP:inputstream.adaptive.manifest_type=hls\n'))

@@ -5,10 +5,15 @@ import copy
 import json
 import re
 import shutil
+import sys
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 from urllib.parse import urlsplit
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import vod_config
+import live_channels
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT
@@ -67,18 +72,26 @@ def validate(data):
     require(isinstance(live, dict) and isinstance(vod, dict), 'live 和 vod 必须是对象')
     text(live.get('name'), 'live.name'); text(vod.get('name'), 'vod.name')
     require(set(live) <= {'name', 'playlists'}, 'live 仅支持 name 和 playlists，频道请在 M3U 维护')
-    require(set(vod) <= {'name', 'sites', 'spider'}, 'vod 仅支持 name、sites 和 spider，影片及分类由点播接口提供')
+    require(set(vod) <= {'name', 'url', 'sites', 'spider', 'contexts'}, 'vod 仅支持 name、url、sites、spider 和 contexts，影片及分类由点播接口提供')
+    if 'url' in vod: url(vod['url'], 'vod.url')
+    contexts = vod_config.contexts(vod)
+    for context in contexts.values():
+        url(context['url'], '依赖配置 URL')
+        if context.get('spider'):
+            url(vod_config.absolute(context['url'], context['spider']).split(';md5;', 1)[0], '依赖配置 spider')
     for entry in rows(live.get('playlists'), 'live.playlists'):
         text(entry.get('name'), '直播列表名称'); url(entry.get('url'), '直播列表地址')
         headers(entry.get('headers', {}), '直播列表请求头')
     site_keys = set()
     for site in rows(vod.get('sites'), 'vod.sites'):
         text(site.get('key'), '接口 key'); text(site.get('name'), '接口名称')
-        require(bool(ID.fullmatch(site['key'])) and site['key'] not in site_keys, '接口 key 需要唯一')
-        site_keys.add(site['key']); require(type(site.get('type')) is int and site['type'] in {0, 1, 3, 4}, '接口 type 支持 0 / 1 / 3 / 4')
+        require(isinstance(site.get('context', ''), str), '接口 context 必须是依赖配置 ID')
+        require(vod_config.site_key(site['key']) and vod_config.site_identity(site) not in site_keys, '接口 key 需要在同一依赖配置内唯一')
+        require(not site.get('context') or site['context'] in contexts, '接口引用了不存在的依赖配置')
+        site_keys.add(vod_config.site_identity(site)); require(type(site.get('type')) is int and site['type'] in {0, 1, 3, 4}, '接口 type 支持 0 / 1 / 3 / 4')
         api = text(site.get('api'), '接口 api')
         if api.startswith('csp_'):
-            require(site['type'] == 3 and bool(site.get('jar') or vod.get('spider')), 'csp 插件需设置 type: 3 及 jar 或 vod.spider')
+            require(site['type'] == 3 and bool(site.get('jar') or contexts.get(site.get('context'), {}).get('spider') or vod.get('spider')), 'csp 插件需设置 type: 3 及 jar、依赖配置 spider 或 vod.spider')
         else:
             url(api, '接口 api')
         headers(site.get('headers', {}), '接口请求头')
@@ -133,7 +146,9 @@ def validate_live_sources(data):
         require(bool(ID.fullmatch(key)) and key not in known, '上游 ID 无效或重复')
         known[key] = source
         text(source.get('name'), '上游名称'); url(source.get('url'), '上游地址'); headers(source.get('headers', {}), '上游请求头')
-        require(source.get('format') in {'m3u', 'tvbox-lives'}, '上游格式需要 m3u 或 tvbox-lives')
+        require(source.get('format') in {'m3u', 'local-m3u', 'tvbox-lives'}, '上游格式需要 m3u、local-m3u 或 tvbox-lives')
+        if source.get('format') == 'local-m3u':
+            require(source.get('file') == 'data/live-official.m3u', '本地官方清单仅支持 data/live-official.m3u')
         if 'selection' in source:
             selection = source['selection']
             require(isinstance(selection, dict) and selection.get('mode') == 'keep-selected', 'selection 仅支持 keep-selected')
@@ -154,7 +169,7 @@ def validate_live_sources(data):
     order = policy.get('sourceOrder', [])
     require(isinstance(order, list) and all(isinstance(key, str) and key in known for key in order) and len(set(order)) == len(order), '合并顺序需要已知且不重复的上游 ID')
     enabled = {source['id'] for source in sources if source.get('enabled', True)}
-    require(enabled <= set(order) and all(known[key]['format'] == 'm3u' for key in order), '合并顺序需要包含所有启用的 M3U；已展开合集不重复抓取')
+    require(enabled <= set(order) and all(known[key]['format'] in {'m3u', 'local-m3u'} for key in order), '合并顺序需要包含所有启用的 M3U；已展开合集不重复抓取')
     if 'sync' in data:
         settings = data['sync']
         require(isinstance(settings, dict), 'sync 必须是对象')
@@ -261,12 +276,15 @@ def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None,
     validate(data); url(base_url, '站点地址'); base_url = base_url.rstrip('/') + '/'
     require(not urlsplit(base_url).query and not urlsplit(base_url).fragment, '站点地址不能包含查询参数或片段')
     live, vod = data['live'], data['vod']
-    channel_rows = validate_channels([] if channel_rows is None else channel_rows)
+    channel_rows = live_channels.public_channels(validate_channels([] if channel_rows is None else channel_rows), source_registry)
     require(bool(re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_][A-Za-z0-9_.-]*', repository)), '仓库名称格式需要 owner/repo')
     # Relative links keep Pages, Raw, and accelerator endpoints on the selected route.
     sites = []
     for item in active(vod['sites']):
-        site = copy.deepcopy(item); site.pop('enabled', None); sites.append(site)
+        if not item.get('context'):
+            sites.append(vod_config.public_site(item, base_url))
+    vod_bundles = vod_config.bundles(vod)
+    bundled_files = {'vod/' + key + '.json': value for key, value in vod_bundles.items()}
     lives = [{'name': item['name'], 'type': 0, 'url': item['url'], 'headers': item.get('headers', {})} for item in active(live['playlists'])]
     box = {'sites': sites, 'lives': lives, 'parses': []}
     if vod.get('spider'):
@@ -310,6 +328,7 @@ def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None,
             # Repeated names in the same group become fallback routes in TVBox.
             txt.extend(channel['name'] + ',' + address for address in channel['urls'])
     warehouse = {'urls': [{'name': data['name'], 'url': './box.json'}] +
+                 [{'name': vod['contexts'][key]['name'], 'url': './vod/' + key + '.json'} for key in vod_bundles] +
                  [{'name': item['name'], 'url': item['url']} for item in active(data['warehouses'])]}
     # Keep each warehouse group bounded while publishing every configured source.
     warehouse_groups = {}
@@ -321,21 +340,26 @@ def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None,
             warehouse_groups[path] = {'urls': entries}
             group_links.append({'name': '多仓分组 ' + str(start // 6 + 1), 'path': path, 'count': len(entries)})
     stamp = {'name': data['name'], 'generatedAt': datetime.now(timezone.utc).isoformat(),
-             'channels': len(active(channel_rows)), 'livePlaylists': len(active(live['playlists'])),
+             'channels': len({(row['group'], row['name']) for row in channel_rows}), 'livePlaylists': len(active(live['playlists'])),
              'sites': len(active(vod['sites'])), 'warehouses': len(active(data['warehouses']))}
     hosting = {'repository': repository, 'editUrl': 'https://github.com/' + repository + '/edit/main/data/library.json',
                'endpoints': source_endpoints(base_url, repository),
                'warehouseGroups': group_links}
+    hosting.update(vodSiteFile=vod_config.SITE_FILE, vodSiteUrl=vod['url'],
+                   vodSiteEditUrl='https://github.com/' + repository + '/edit/main/' + vod_config.SITE_FILE)
     if channel_url is not None:
         hosting.update(channelFile='data/live.m3u', channelUrl=channel_url, channelCount=stamp['channels'],
                        channelEditUrl='https://github.com/' + repository + '/edit/main/data/live.m3u')
     if source_registry is not None:
         hosting['liveSources'] = 'data/live-sources.json'
-    vod_config = {key: value for key, value in box.items() if key != 'lives'}
-    return {'box.json': box, 'vod.json': vod_config, 'live.json': live_json,
+    hosting['vodContexts'] = [{'name': vod['contexts'][key]['name'], 'path': 'vod/' + key + '.json', 'count': len(value['sites'])}
+                              for key, value in vod_bundles.items()]
+    vod_output = {key: value for key, value in box.items() if key != 'lives'}
+    return {'box.json': box, 'vod.json': vod_output, 'live.json': live_json,
             'warehouse.json': warehouse, 'manifest.json': stamp, 'hosting.json': hosting, 'live.m3u': '\n'.join(m3u) + '\n',
             'data/live.m3u': '\n'.join(m3u) + '\n', 'live.txt': '\n'.join(txt) + ('\n' if txt else ''),
-            **warehouse_groups, **({'data/live-sources.json': source_registry} if source_registry is not None else {})}
+            vod_config.SITE_FILE: vod_config.site_list(data),
+            **warehouse_groups, **bundled_files, **({'data/live-sources.json': source_registry} if source_registry is not None else {})}
 
 
 def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
@@ -352,6 +376,7 @@ def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
     if output.exists():
         require(not any(p.is_symlink() for p in output.rglob('*')), '输出中不允许符号链接')
         obsolete = [p for p in output.iterdir() if p.is_file() and re.fullmatch(r'warehouse-[1-9][0-9]*\.json', p.name) and p.name not in expected]
+        obsolete.extend(p for p in (output / 'vod').glob('*.json') if p.relative_to(output).as_posix() not in expected)
         registry_output = output / 'data/live-sources.json'
         if registry_output.is_file() and 'data/live-sources.json' not in expected:
             obsolete.append(registry_output)
@@ -366,8 +391,9 @@ def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):
         shutil.copy2(SOURCE / 'assets' / name, output / 'assets' / name)
     def write_json(path, value):
         path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    write_json(output / 'data' / 'library.json', data)
+    write_json(output / 'data' / 'library.json', vod_config.manifest(data))
     for name, value in generated.items():
+        (output / name).parent.mkdir(parents=True, exist_ok=True)
         if isinstance(value, str): (output / name).write_text(value, encoding='utf-8')
         else: write_json(output / name, value)
     (output / '.nojekyll').write_text('', encoding='utf-8')
@@ -382,7 +408,8 @@ def main():
     parser.add_argument('--repository', default='yujuanIt/TVSources')
     args = parser.parse_args()
     try:
-        data = json.loads(args.input.read_text(encoding='utf-8'))
+        library = json.loads(args.input.read_text(encoding='utf-8'))
+        data = vod_config.materialize(library, vod_config.read_site_list(args.input.parent.parent))
         print(json.dumps(publish_files(data, args.base_url, args.output, args.repository), ensure_ascii=False))
     except (ValueError, OSError) as error:
         parser.exit(1, '配置检查失败：' + str(error) + '\n')
