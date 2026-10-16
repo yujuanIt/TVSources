@@ -25,6 +25,44 @@
       "note": "官方页面入口由新版居安影院在播放时请求央视频匿名接口，临时播放地址不写入静态清单。2026-10-16 本机验证 HLS 清单与视频分片可读，不代表所有地区或时段均可播放；不可用时回退原 IPTV 线路。"
     },
     {
+      "id": "88-sports",
+      "name": "88直播 · 体育频道",
+      "url": "https://www.88zhibo.tv/match/21/live",
+      "format": "88zhibo",
+      "kind": "channels",
+      "enabled": true,
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      },
+      "note": "只收录 HLS 清单与视频分片验证通过的体育频道；占位、广告与需解锁线路跳过。M3U 保留稳定页面入口，简影TV 播放时实时取得地址，普通 M3U 播放器通常不能直接解析。"
+    },
+    {
+      "id": "88-nba",
+      "name": "88直播 · NBA赛事",
+      "url": "https://www.88zhibo.tv/match/1/live",
+      "format": "88zhibo",
+      "kind": "NBA",
+      "enabled": true,
+      "retireMissing": true,
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      },
+      "note": "每半小时读取 NBA 赛程，只加入已返回可验证公开视频线路的比赛；完整成功快照中不再可播的过期赛事自动清理，接口失败保留旧列表。"
+    },
+    {
+      "id": "88-cba",
+      "name": "88直播 · CBA赛事",
+      "url": "https://www.88zhibo.tv/match/2/live",
+      "format": "88zhibo",
+      "kind": "CBA",
+      "enabled": true,
+      "retireMissing": true,
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      },
+      "note": "每半小时读取 CBA 赛程，只加入已返回可验证公开视频线路的比赛；完整成功快照中不再可播的过期赛事自动清理，接口失败保留旧列表。"
+    },
+    {
       "id": "yang-favorites",
       "name": "居安直播 · 常看",
       "url": "https://live.yang-1989.eu.org/sub/yujuan.m3u",
@@ -200,6 +238,9 @@
   "mergePolicy": {
     "sourceOrder": [
       "official-ysp",
+      "88-sports",
+      "88-nba",
+      "88-cba",
       "yang-favorites",
       "guovin-ipv4",
       "yuechan-ipv4",
@@ -241,6 +282,8 @@
       "斗鱼",
       "港澳台",
       "体育",
+      "NBA赛事",
+      "CBA赛事",
       "影视",
       "少儿",
       "音乐",
@@ -275,6 +318,7 @@
       "22:25"
     ],
     "minimumPreviousRouteRatio": 0.5,
-    "workflow": "source-pages.yml"
+    "workflow": "source-pages.yml",
+    "sportsIntervalMinutes": 30
   }
 }

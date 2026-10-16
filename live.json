@@ -31257,6 +31257,21 @@
               "guovin-ipv6"
             ]
           }
+        },
+        {
+          "name": "纬来体育",
+          "logo": "https://www.88zhibo.tv/storage/images/cate/vlai.png",
+          "urls": [
+            "https://www.88zhibo.tv/live/3/play"
+          ],
+          "headers": {
+            "User-Agent": "Mozilla/5.0"
+          },
+          "origins": {
+            "https://www.88zhibo.tv/live/3/play": [
+              "88-sports"
+            ]
+          }
         }
       ]
     },
