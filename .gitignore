@@ -2,3 +2,7 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+*.apk
+*.apks
+*.aab
+*.idsig
