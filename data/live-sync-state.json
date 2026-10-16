@@ -18088,6 +18088,160 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/iloveuu0408",
       "enabled": "true"
+    },
+    "c_d98005d3214aaf1d240c35ea": {
+      "name": "姬酱dayo",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1972731391",
+      "enabled": "true"
+    },
+    "c_29b7be084d9a86efcf52e5b2": {
+      "name": "幽铃夜",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/25515797",
+      "enabled": "true"
+    },
+    "c_b7e1e5df1a588bcbd5a0aa92": {
+      "name": "一个梦",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/S202290888",
+      "enabled": "true"
+    },
+    "c_5afcb2cba0863bd9e3b9c732": {
+      "name": "咩咩京剧🐏",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/72021626166",
+      "enabled": "true"
+    },
+    "c_b9fbed47e50225e2f8eb4d32": {
+      "name": "塔塔🐽",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/465914647873",
+      "enabled": "true"
+    },
+    "c_536272b4278d8d4f3b4e3185": {
+      "name": "强哥爱录声控助眠asmr（世一虚）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/69446958014",
+      "enabled": "true"
+    },
+    "c_3518e4be0d9093de9676eb33": {
+      "name": "腐团儿",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/4624967",
+      "enabled": "true"
+    },
+    "c_710c695824375d4932330de8": {
+      "name": "温舒蕾",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/691349",
+      "enabled": "true"
+    },
+    "c_ed404220db88e270bef3f75a": {
+      "name": "狂鸟丶小玥",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/26798562",
+      "enabled": "true"
+    },
+    "c_6e106089b8acb88a97a3baa8": {
+      "name": "虎牙电影陪看",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/23177366",
+      "enabled": "true"
+    },
+    "c_a573bea103a6332cd4648ee2": {
+      "name": "세림잉_",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/serimm",
+      "enabled": "true"
+    },
+    "c_c7b5da8021ebf4d3cd1bd271": {
+      "name": "Mews",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/mews",
+      "enabled": "true"
+    },
+    "c_d60cbb78b7f91c341a6ee6ee": {
+      "name": "mia_ivus",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/mia_ivus",
+      "enabled": "true"
+    },
+    "c_032ba5c86cda364efe9673d6": {
+      "name": "rynenzo",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/rynenzo",
+      "enabled": "true"
+    },
+    "c_20bab38cd565bf61568e1ab7": {
+      "name": "zackrawrr",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/zackrawrr",
+      "enabled": "true"
+    },
+    "c_672a6d279b20027902cb48ab": {
+      "name": "舞喵",
+      "group": "YY",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/yy/1659",
+      "enabled": "true"
+    },
+    "c_5e35a2488077ab0e9578f66c": {
+      "name": "孤单到黎明",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/14365632",
+      "enabled": "true"
+    },
+    "c_744489b8511bdd1cc62f32d3": {
+      "name": "年轻的九老师",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/22501671",
+      "enabled": "true"
+    },
+    "c_83cac3aa17dc6e63c6809fc6": {
+      "name": "库库_sama",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/5194110",
+      "enabled": "true"
+    },
+    "c_3e20e48b32e23b4d8d68840e": {
+      "name": "王者荣耀王某-（白吃火舞）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/dy25887814",
+      "enabled": "true"
+    },
+    "c_fbedbdeb1e20c14203fcaaf3": {
+      "name": "LING露雪【世1老六】",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/326513",
+      "enabled": "true"
+    },
+    "c_e43d96f90434d982064a6fa8": {
+      "name": "红色幻想乡B号机形态",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/9042354",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -20090,8 +20244,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "65780f7670c337ae52e0d1c5807445e6d5bbbff5dbc065c593c9860a7c1c5a77",
-      "routes": 341,
+      "sha256": "69856648d48509a1ebc98c866097824ca8c9d471525adf91470607ceffe5f374",
+      "routes": 192,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -22382,7 +22536,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "20cf7e9ff52508ef46cdbbb84995dded15dda46a6879f348eaf1e79cb63fab40",
+      "sha256": "4e06a4643a0a80735f066f3b739e5830eea7c4825d310a1fc8cc7b0ad857e39b",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -22946,7 +23100,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "a09ef07fc1f7d05b769787217ceeb49ecf9864caa420804e8624f81f8a7e77cf",
+      "sha256": "3b83856624075efcca2a499296c31c29d04d5f4b72e7320590ae26109e47c5da",
       "routes": 151,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -27488,8 +27642,8 @@
       }
     },
     "yang-network": {
-      "sha256": "73629b6c4bceee2b478ff574dcdf37bb91560995c7d61575a312000326c8ff82",
-      "routes": 679,
+      "sha256": "35c72259ab27856deafe29f293b575d05c193b5ec2263624ec7620e8b2e01607",
+      "routes": 401,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -35452,6 +35606,138 @@
           "name": "樂優",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "d585f1ed13edde59922eab7269ecbcaa197e1763d08aac3e782921ff4323ef87": {
+          "channel": "c_d98005d3214aaf1d240c35ea",
+          "name": "姬酱dayo",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "8de86cddfa12679bc53b3fc8584e9cba9d39e7515e8e5245113f8293c78088f3": {
+          "channel": "c_29b7be084d9a86efcf52e5b2",
+          "name": "幽铃夜",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "f2bdbe6cda9fd44c3add8e709c088f1862c2f73082320ae9b5a4278935a98ee3": {
+          "channel": "c_b7e1e5df1a588bcbd5a0aa92",
+          "name": "一个梦",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "1a96793673d4854d8fc9f5dc09322a621f39cff40b1390613febc9ecf60ec519": {
+          "channel": "c_5afcb2cba0863bd9e3b9c732",
+          "name": "咩咩京剧🐏",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "35d7269149b056dcc817f25e0640c7a2f0053da6557683cedf1f887813c59a70": {
+          "channel": "c_b9fbed47e50225e2f8eb4d32",
+          "name": "塔塔🐽",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "98ced9b9fcfe1cf654c679e2a143313f49e050458e55c243cbd637bcccd3412e": {
+          "channel": "c_536272b4278d8d4f3b4e3185",
+          "name": "强哥爱录声控助眠asmr（世一虚）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "e0c3116f2dbf92a752f34ad4e3496764dfa66f26a839723ccc2981e81409a741": {
+          "channel": "c_3518e4be0d9093de9676eb33",
+          "name": "腐团儿",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "341ca52a58edb487459d607f063ef5fe14ae109776ae2df1d5c400866b8f2dcc": {
+          "channel": "c_710c695824375d4932330de8",
+          "name": "温舒蕾",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "9d51fa4f852535bd7f4e7049f9838bfb400bc6846d07d672486617d2f91dbdfb": {
+          "channel": "c_ed404220db88e270bef3f75a",
+          "name": "狂鸟丶小玥",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "99f82e7bfc9f9f8c18894b8909f2b489fb2dfa78c286f4a1c33cc25fc84bc0e8": {
+          "channel": "c_6e106089b8acb88a97a3baa8",
+          "name": "虎牙电影陪看",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "c37cad8b79f099bfdcca820dca56e279a9a6b4bba49942be918709151e386829": {
+          "channel": "c_a573bea103a6332cd4648ee2",
+          "name": "세림잉_",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "2fb2ad2c922e3f6a7d10cb756cf671db6790db11729687bc6644174c080c4b4a": {
+          "channel": "c_c7b5da8021ebf4d3cd1bd271",
+          "name": "Mews",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "6daf3ab73b151b09c49132626e2fba33a2776a9c00c0035dac00bbac7739b6e9": {
+          "channel": "c_d60cbb78b7f91c341a6ee6ee",
+          "name": "mia_ivus",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "9570ef6f9af2ca0f59c5726efa9f7eb101eee2a738a187d1f1d2bc04fde9fd51": {
+          "channel": "c_032ba5c86cda364efe9673d6",
+          "name": "rynenzo",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "1aa352e97ce6fb2b355f66e51434c1350c1cdad4fefb8e5f95ab8d4aa2362b32": {
+          "channel": "c_20bab38cd565bf61568e1ab7",
+          "name": "zackrawrr",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "3c45dff957787692a412a18b79a413cd6fc3e0d4aa1c3f643aeb7f33c99225eb": {
+          "channel": "c_672a6d279b20027902cb48ab",
+          "name": "舞喵",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "3309f5b840122bd4aa73b595075ee6066ac16e055dd92cf3d99468be3b7898b4": {
+          "channel": "c_5e35a2488077ab0e9578f66c",
+          "name": "孤单到黎明",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "b960598ec36848b976092733c94c8f45650adc0ff0b99f216eab76e23c8ed244": {
+          "channel": "c_744489b8511bdd1cc62f32d3",
+          "name": "年轻的九老师",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "7bdf6d3ad22dcfff2cd23a9212d8e3968d4642f39c7f3547c7619090411f6c25": {
+          "channel": "c_83cac3aa17dc6e63c6809fc6",
+          "name": "库库_sama",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "421524dec597e86df9ea563fccb83728af821a0b817aa079a3f69595dcff1bb4": {
+          "channel": "c_3e20e48b32e23b4d8d68840e",
+          "name": "王者荣耀王某-（白吃火舞）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "eb2ebf2abf0324b526fd5cf39789def84f8e03ef76d5c6de7279ada2dc5fe68f": {
+          "channel": "c_fbedbdeb1e20c14203fcaaf3",
+          "name": "LING露雪【世1老六】",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
+        },
+        "6136f5f222a16c3314718e4a76400b38aadef414f5ee608829cbd1298a9a7cbb": {
+          "channel": "c_e43d96f90434d982064a6fa8",
+          "name": "红色幻想乡B号机形态",
+          "tvgId": "",
+          "group": "•哔哩「其他」"
         }
       }
     },
