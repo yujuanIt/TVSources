@@ -20104,6 +20104,97 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/thebs_chen",
       "enabled": "true"
+    },
+    "c_333ba49ad5357946e8f8d73d": {
+      "name": "事实即真理",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/30897517",
+      "enabled": "true"
+    },
+    "c_a7d3cb63149f8470440a0751": {
+      "name": "随手保存SE",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/173218",
+      "enabled": "true"
+    },
+    "c_8e1633c31c91804e604f7da1": {
+      "name": "哏的",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/genjiujiu88888",
+      "enabled": "true"
+    },
+    "c_b479e204b767993b012a66d7": {
+      "name": "我叫娟儿💕",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/440341655196",
+      "enabled": "true"
+    },
+    "c_dc4014b5fab64d1ab357510d": {
+      "name": "文思💧",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/873891952086",
+      "enabled": "true"
+    },
+    "c_5833b87a196590531f6d4ff2": {
+      "name": "小渔火ya",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/6562251",
+      "enabled": "true"
+    },
+    "c_30adcc2b1a16a1939fd0bd49": {
+      "name": "BJ햄찡",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/gusdk2362",
+      "enabled": "true"
+    },
+    "c_a34e672c988eed91a2db9ea1": {
+      "name": "AnanasAsmr",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/ananasasmr",
+      "enabled": "true"
+    },
+    "c_056514d1defaa762593af237": {
+      "name": "rasleeela",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/rasleeela",
+      "enabled": "true"
+    },
+    "c_7aa6349dcff835611fdc4add": {
+      "name": "请支持诺希",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1870881249",
+      "enabled": "true"
+    },
+    "c_ff11a7fcbc10d3b65475ebb1": {
+      "name": "Mentality桃",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/394260640881",
+      "enabled": "true"
+    },
+    "c_00cee5c73f382c9d10dfb3ee": {
+      "name": "远辞（国服云缨）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/81355354947",
+      "enabled": "true"
+    },
+    "c_ea746af17f57635cc3e88956": {
+      "name": "祈风1v9",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/8302",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -29504,8 +29595,8 @@
       }
     },
     "yang-network": {
-      "sha256": "2fde8d34980162c276c911b65a5cc251c2ebd3bbfc41cb44bceb8f942655f803",
-      "routes": 765,
+      "sha256": "acd9c49ef6483f44d86bb5092f12c3f5fc6342b8b1314cf658fd4158a41c747c",
+      "routes": 403,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -39214,6 +39305,84 @@
           "name": "陈一发儿放映室",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "c27e558ed5edb84397561739bb0878fe0f676a0970dc7b2fad12106d62cba2bf": {
+          "channel": "c_333ba49ad5357946e8f8d73d",
+          "name": "事实即真理",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "ce9333e532714f34a99c37925f8331ade71eff9d3ac327060b267eec60a54d5d": {
+          "channel": "c_a7d3cb63149f8470440a0751",
+          "name": "随手保存SE",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "2e66b67243e2607a75873a7add5579bf178f0f927cf80f22338c122a58344a25": {
+          "channel": "c_8e1633c31c91804e604f7da1",
+          "name": "哏的",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "163bb004e95d7009c5b17937c7407ac1b6e9b15bfb649c2678a5ce4a025a455e": {
+          "channel": "c_b479e204b767993b012a66d7",
+          "name": "我叫娟儿💕",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "13dc37c9d9ec914b5dadf003e2895f052c998a793b1eae95602911fef87afe03": {
+          "channel": "c_dc4014b5fab64d1ab357510d",
+          "name": "文思💧",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "320251df78531bfafd18f179aaf671c8210669523d791ccf6edbff32b124f3ae": {
+          "channel": "c_5833b87a196590531f6d4ff2",
+          "name": "小渔火ya",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "ba7debc1430d875d0f30b8b467a8e52c918cafd4f2100d8d9b5f2af3e30b29a8": {
+          "channel": "c_30adcc2b1a16a1939fd0bd49",
+          "name": "BJ햄찡",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "818144705d93a695ce53dbba770bd2ea652bc9eab6fe5aaf4f135a90b6361c0a": {
+          "channel": "c_a34e672c988eed91a2db9ea1",
+          "name": "AnanasAsmr",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "a8dfc36cf50fb1958bd126eaa26fd1709319573a232a95ac808f316ca8b30680": {
+          "channel": "c_056514d1defaa762593af237",
+          "name": "rasleeela",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "ad2b9adf68107f246e2f6377792c98673ce13ea25f012a6b83a2be9cfee572ff": {
+          "channel": "c_7aa6349dcff835611fdc4add",
+          "name": "请支持诺希",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "62dbaab750e1d4f6dd5c00ac0ec399a807dccf27d34aa7d58e13f027bad5ab73": {
+          "channel": "c_ff11a7fcbc10d3b65475ebb1",
+          "name": "Mentality桃",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "90023cf8e423e524b1a88e73634fc0ea4750ef0588f24e6c8771ee15058f66b0": {
+          "channel": "c_00cee5c73f382c9d10dfb3ee",
+          "name": "远辞（国服云缨）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "6d5f4535fc7b0ef3841afc70233d1d3259537aadbf2beed56a8f4050ae78ce56": {
+          "channel": "c_ea746af17f57635cc3e88956",
+          "name": "祈风1v9",
+          "tvgId": "",
+          "group": "•斗鱼「游戏」"
         }
       }
     },
