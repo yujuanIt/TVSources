@@ -20818,6 +20818,293 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/news5live",
       "enabled": "true"
+    },
+    "c_cf29e205ebbdcf10201a018e": {
+      "name": "小张陪你考研上岸",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/21782709",
+      "enabled": "true"
+    },
+    "c_77a35158678a996658e658a0": {
+      "name": "小松绿Viridis",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1727071052",
+      "enabled": "true"
+    },
+    "c_5b724ac32da27dc37a749dd2": {
+      "name": "崽崽不吃青菜yy",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1844846826",
+      "enabled": "true"
+    },
+    "c_a4d379e0e44d7efc7453b8cc": {
+      "name": "心羽萝妮Official",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/2853663",
+      "enabled": "true"
+    },
+    "c_68dcdd580e36c495114fbc96": {
+      "name": "梦回乒乓",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1982181049",
+      "enabled": "true"
+    },
+    "c_e07dcef1d51382533e2f0450": {
+      "name": "老佳OLP",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/701979",
+      "enabled": "true"
+    },
+    "c_85920fba80253417704b3d5c": {
+      "name": "言叶kun",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/7743967",
+      "enabled": "true"
+    },
+    "c_222fa92980c2578da6fbe2db": {
+      "name": "MD1999",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/37029384065",
+      "enabled": "true"
+    },
+    "c_4ae1d4bb930bca28519f62c1": {
+      "name": "ally",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/a11y222",
+      "enabled": "true"
+    },
+    "c_e5fe0d6df99e20494d7660c6": {
+      "name": "乐景辰",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/900426603119",
+      "enabled": "true"
+    },
+    "c_ac932908cfc7d297450be467": {
+      "name": "亚总",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/y2776784609",
+      "enabled": "true"
+    },
+    "c_f016ae66b70577831dc1d766": {
+      "name": "奶糖🎤",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/41682577403",
+      "enabled": "true"
+    },
+    "c_75cc9784d300a1effc947f8e": {
+      "name": "小深深儿",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/5233.",
+      "enabled": "true"
+    },
+    "c_09a119e82be7f73ddf794d3b": {
+      "name": "开心元元",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/KXyy12345678",
+      "enabled": "true"
+    },
+    "c_a82585cd8e5b12cccf8e67f6": {
+      "name": "泡芙（ASMR助眠）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/paofufu2333",
+      "enabled": "true"
+    },
+    "c_163d7b84c61c9f1e61957b1e": {
+      "name": "菠萝赛东",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/779264779954",
+      "enabled": "true"
+    },
+    "c_0c1b891503f764142103e0f1": {
+      "name": "蒋一帆🐵",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/173956876",
+      "enabled": "true"
+    },
+    "c_8575b85c4a2582e11307c734": {
+      "name": "虫虫",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/515537642425",
+      "enabled": "true"
+    },
+    "c_7fb1ca0e8193c6c0d7f3bda8": {
+      "name": "迅猛龙 特蕾莎",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Yoursisterrp",
+      "enabled": "true"
+    },
+    "c_1285a8a22e021097b3c437c2": {
+      "name": "邻家小小欢",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/94181502605",
+      "enabled": "true"
+    },
+    "c_32b7ead28b352848c7b0558f": {
+      "name": "锦绣长歌01",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/85864865902",
+      "enabled": "true"
+    },
+    "c_4e5fc87d29d9040e2a81c143": {
+      "name": "韦小妮🎙《朵帮》原唱🐮899",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/24959560521",
+      "enabled": "true"
+    },
+    "c_a3e684b7c1fe25cac0387a85": {
+      "name": "饭书书",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/809488737033",
+      "enabled": "true"
+    },
+    "c_9b619d430b9dfb5ebfba67df": {
+      "name": "朴雨彬",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/7930707",
+      "enabled": "true"
+    },
+    "c_1acb1dd41135f171f11c7523": {
+      "name": "이린",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/ksoim9411",
+      "enabled": "true"
+    },
+    "c_a647180dedece18d5f7f086c": {
+      "name": "初夏-有事休两天",
+      "group": "YY",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/yy/4759",
+      "enabled": "true"
+    },
+    "c_ce6ddf9897c9a08ed53347cd": {
+      "name": "Nanka南",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/2011110",
+      "enabled": "true"
+    },
+    "c_a91bd647cfda67cd20c894ce": {
+      "name": "OA-LEAVE7",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/31294374",
+      "enabled": "true"
+    },
+    "c_6d67f99021157452943502fb": {
+      "name": "傲南south",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/30423928",
+      "enabled": "true"
+    },
+    "c_cbe1f4f3428c626291efb999": {
+      "name": "翼侯大人",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/60989",
+      "enabled": "true"
+    },
+    "c_78f5073e89bb8024f12a966f": {
+      "name": "苍蓝の妖仙兽",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/11013137",
+      "enabled": "true"
+    },
+    "c_4c680cf2b77ae77e7b12af3f": {
+      "name": "CF苏墨凰",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/sumohuang",
+      "enabled": "true"
+    },
+    "c_59ebbeeaa15af7792ee4c26d": {
+      "name": "传奇金光闪闪",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/395018388633",
+      "enabled": "true"
+    },
+    "c_90066f2ffe87b828f25cb45f": {
+      "name": "峡谷时光王(东东电竞)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/187772791280",
+      "enabled": "true"
+    },
+    "c_17eceaf8f75813c5adcdfa3d": {
+      "name": "电竞讲师胖森",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/jiaolianpangsen",
+      "enabled": "true"
+    },
+    "c_18bc7da4fc3039b41769e435": {
+      "name": "薛晓",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/xxakl3",
+      "enabled": "true"
+    },
+    "c_526ee04659f9cadbe0763caa": {
+      "name": "错觉老中医（PUBG）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/CuoJue1990",
+      "enabled": "true"
+    },
+    "c_80b3b19401ffaf8caf019641": {
+      "name": "寒千落丶",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/211202",
+      "enabled": "true"
+    },
+    "c_1ea30d441db5de336758837e": {
+      "name": "Dendi",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/dendi",
+      "enabled": "true"
+    },
+    "c_f5f80f6f250e5b9ed4db3c06": {
+      "name": "划线王-马惠明斯诺克",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/153793",
+      "enabled": "true"
+    },
+    "c_6bfafcd3b1190fad59f521a5": {
+      "name": "europesinoinstitute",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/europesinoinstitute",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -22820,8 +23107,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "e07d6d4d93e5d50a10c8ab5630d86128a78472c740c20a0f53fb60728d31fd0d",
-      "routes": 341,
+      "sha256": "f278045046fb121901a8b8dbb14e85b4661fa0eea6323be94e9e2895a122597a",
+      "routes": 333,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -25676,8 +25963,8 @@
       }
     },
     "yang-sports": {
-      "sha256": "ac6806964ae7eca0764e5712edf290a5a5a99260599d4feae3e74e80354b140d",
-      "routes": 151,
+      "sha256": "e5b8d8a5c11201732a9725e2f3d4ce9d28d012f3461a64ec49a5b5e9f81705d7",
+      "routes": 143,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -30218,8 +30505,8 @@
       }
     },
     "yang-network": {
-      "sha256": "84b6dd3aabdae86bfdfb284778fc262d3b730244762ca2b83195ac4e1af263bc",
-      "routes": 748,
+      "sha256": "79adbf036e1e9434cee0d8e4cfab61f7f0564027a2b582d9698de5e47f3a951f",
+      "routes": 724,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -40544,6 +40831,252 @@
         "a787c1e7a11379767a5fc6d36e94ebd70c938830af5d36d56a1ccdcbd1ce3838": {
           "channel": "c_a193d7ddd97f05c7a1fbb4f8",
           "name": "news5live",
+          "tvgId": "",
+          "group": "•Twitch「其他」"
+        },
+        "b6550be8080382fdd6534e1ff4d2922529fc7b6bf6458d09b37dab6851164036": {
+          "channel": "c_cf29e205ebbdcf10201a018e",
+          "name": "小张陪你考研上岸",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "7c29601bd6e1fe889979aef05eb4009456f8cf1de3ba944aff14386617f88430": {
+          "channel": "c_77a35158678a996658e658a0",
+          "name": "小松绿Viridis",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "b3e930987e9aa3335d0888a28af8d9afa9a568e849f5b7e476969c3338f05855": {
+          "channel": "c_5b724ac32da27dc37a749dd2",
+          "name": "崽崽不吃青菜yy",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "8af081d222e42eda827ec5b416901941ae6b271eae0e400aeb3604cea53f5bc3": {
+          "channel": "c_a4d379e0e44d7efc7453b8cc",
+          "name": "心羽萝妮Official",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "bfc211fe2c0648da80ee782b2ce1378134fe032696a91ec2ba2f933ed9212ba0": {
+          "channel": "c_68dcdd580e36c495114fbc96",
+          "name": "梦回乒乓",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "37d3d082503feb8e1acf3df65970560cfbca8e658f85962b624cede903a5b03f": {
+          "channel": "c_e07dcef1d51382533e2f0450",
+          "name": "老佳OLP",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "9b0de53f082b266b1deebe3c807a2b8cd58a0e4890a9b0e57ecae2fd9b230a1b": {
+          "channel": "c_85920fba80253417704b3d5c",
+          "name": "言葉kun",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "617d6ae7823f591cea20d789e4207f253421359049c994ba335c33628249f2ab": {
+          "channel": "c_222fa92980c2578da6fbe2db",
+          "name": "MD1999",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "8fd0d304d8b6935ebf5b9dd940775e0af25c39aff8404cad1e4283e0b6913b94": {
+          "channel": "c_4ae1d4bb930bca28519f62c1",
+          "name": "ally",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "45ed753959fa390e52391ef1e6402dd3b792f8f228583e7082fc87d8c5309f1a": {
+          "channel": "c_e5fe0d6df99e20494d7660c6",
+          "name": "乐景辰",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "bab6d58f22fcedc467c892db3cfad9eaa01ceb5495486512794b878d5ff45a7e": {
+          "channel": "c_ac932908cfc7d297450be467",
+          "name": "亚总",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "5cf84a0edcd5b43f28ca9ac99258b09bd0207d555b19d5bf2a34f0d9e8b23603": {
+          "channel": "c_f016ae66b70577831dc1d766",
+          "name": "奶糖🎤",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ac466300c31ce3fcbbbdd1bbee02332e3243179961665ff4f1c08d961c96c30b": {
+          "channel": "c_75cc9784d300a1effc947f8e",
+          "name": "小深深儿",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "3c91daef5e208801c34ab906427e9d88d09aa365048a0bea1dc808263676a674": {
+          "channel": "c_09a119e82be7f73ddf794d3b",
+          "name": "开心元元",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "84c5baf74a3bb84aa105c0d325e5dae964f217c6bed62c267f31208ab914d8be": {
+          "channel": "c_a82585cd8e5b12cccf8e67f6",
+          "name": "泡芙（ASMR助眠）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a361e82702737961c147715480b87d9ca57baa767d018ec16cb4f0c7fd88da18": {
+          "channel": "c_163d7b84c61c9f1e61957b1e",
+          "name": "菠萝赛东",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b7d59b165a0a3133b56b7afe7c6928cffaad4943d60b1bd8f9b31226cde3b889": {
+          "channel": "c_0c1b891503f764142103e0f1",
+          "name": "蒋一帆🐵",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "11a706fe6dc4658126bdfea71e8947f0de682b0e8dd21f806b1285681feeeaae": {
+          "channel": "c_8575b85c4a2582e11307c734",
+          "name": "虫虫",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c36d1b82199d60de815875711889c0e85fa87e7f671e219d035f7cd6bd1f3336": {
+          "channel": "c_7fb1ca0e8193c6c0d7f3bda8",
+          "name": "迅猛龙 特蕾莎",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "e6301955e1191d21c8e52b0589050b50f4569b67be28882e45bedccf64c1a833": {
+          "channel": "c_1285a8a22e021097b3c437c2",
+          "name": "邻家小小欢",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f2d21d6ddf88689c62442280bbec1acc852ad594ae7d077ada74dafe3cf8c969": {
+          "channel": "c_32b7ead28b352848c7b0558f",
+          "name": "锦绣長歌01",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c8cf21d3750adb8997fc34c924badb2b3a760648265a66e3e1fc5c0579b03ac2": {
+          "channel": "c_4e5fc87d29d9040e2a81c143",
+          "name": "韦小妮🎙《朵帮》原唱🐮899",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "9abfa73b2407021f3306bbab666ab1cb832342a0333f052d3d447da1b7d51a3b": {
+          "channel": "c_a3e684b7c1fe25cac0387a85",
+          "name": "饭書書",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "00e6fd65eb19c50a8d08837abb6a4c731b2555399fadbeb15bf7f24c50f64c82": {
+          "channel": "c_9b619d430b9dfb5ebfba67df",
+          "name": "朴雨彬",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "0c16a69f52df29aa2a88226582831a734c5caf0ec3652c0977f3507fb81ee826": {
+          "channel": "c_1acb1dd41135f171f11c7523",
+          "name": "이린",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "ecd97c0538aae3946c30f7138cc46f24132a96fdd13df57ca0c506eb10969911": {
+          "channel": "c_a647180dedece18d5f7f086c",
+          "name": "初夏-有事休两天",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "34044c47669e240c967b9ccaa8d2abe633fa91b4f3c613b205e6821c8ad43ad3": {
+          "channel": "c_ce6ddf9897c9a08ed53347cd",
+          "name": "Nanka南",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "b1913550cb7d6b1f0380ab4c5adaadeeaca1e5f08d4d35de0a5fd80ee710d85e": {
+          "channel": "c_a91bd647cfda67cd20c894ce",
+          "name": "OA-LEAVE7",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "716b823663a4a815f8d2d171685fe10c2f857c007bff7658174674c77d431b2d": {
+          "channel": "c_6d67f99021157452943502fb",
+          "name": "傲南south",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "f8e32822c1491127c0a1431f98782e37e87c91c5d16dd9b630f1073a07728466": {
+          "channel": "c_cbe1f4f3428c626291efb999",
+          "name": "翼侯大人",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "c763a073627970aa8096445d169de560d9b40753800810b0ef34dbae7e45c0eb": {
+          "channel": "c_78f5073e89bb8024f12a966f",
+          "name": "苍蓝の妖仙兽",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "c6d20487828e0c64a7dd5d46acaa8bedccc49466af06710f6fb00d4d3fb28bb2": {
+          "channel": "c_4c680cf2b77ae77e7b12af3f",
+          "name": "CF苏墨凰",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "c7fd5a4b289bb7fe32c866860df125045096dc4ba6ee93bd5a9eb93c086c4f30": {
+          "channel": "c_59ebbeeaa15af7792ee4c26d",
+          "name": "传奇金光闪闪",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "189bec1bb43e76d051071b49a962e7edf5121876cd4520c473202e1aa2b24fc6": {
+          "channel": "c_90066f2ffe87b828f25cb45f",
+          "name": "峡谷时光王(东东电竞)",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "822d3cc9fbb1f6c12794593ec484dfe729da3b94bbe0ff9b1c0f3b22cf1be028": {
+          "channel": "c_17eceaf8f75813c5adcdfa3d",
+          "name": "电竞讲师胖森",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "c94344b80bd442e4dc498363deec4206c4fb2ef6ac9ae632c369c8150f26a0ef": {
+          "channel": "c_18bc7da4fc3039b41769e435",
+          "name": "薛晓",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "5b1fce18acd696d644a761ce7a989cd6db77f6f901daf7f9e126aa1cd5ff98c0": {
+          "channel": "c_526ee04659f9cadbe0763caa",
+          "name": "错觉老中医（PUBG）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "f118b1d525c02b7482d2e46523cc27e8a5d9f2d61b05b9a15f5b9e5533271157": {
+          "channel": "c_80b3b19401ffaf8caf019641",
+          "name": "寒千落丶",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
+        },
+        "a9794694e521580e5a6bb362c7b8eee2ce26bf7fa2ef50d1e7449723eac2dfbf": {
+          "channel": "c_1ea30d441db5de336758837e",
+          "name": "Dendi",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "61b2ca15f5e298d67df6931e8129933e80ece4cdfed4cb158a7419dda5464ff6": {
+          "channel": "c_f5f80f6f250e5b9ed4db3c06",
+          "name": "划线王-马惠明斯诺克",
+          "tvgId": "",
+          "group": "•虎牙「其他」"
+        },
+        "bd9f14f6f9b51f8308e6781511b08e406d77566f70a937bd1c8880736ceae18f": {
+          "channel": "c_6bfafcd3b1190fad59f521a5",
+          "name": "europesinoinstitute",
           "tvgId": "",
           "group": "•Twitch「其他」"
         }
