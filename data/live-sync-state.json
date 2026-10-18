@@ -20195,6 +20195,202 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyu/8302",
       "enabled": "true"
+    },
+    "c_214811d7366bcefd14faf9bb": {
+      "name": "694-27",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1726550092",
+      "enabled": "true"
+    },
+    "c_da4220fc3daa378ed761bb3b": {
+      "name": "宅崽卡卡",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1777643588",
+      "enabled": "true"
+    },
+    "c_86e3c7474f91a0d49f21c931": {
+      "name": "尼也特",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1442576",
+      "enabled": "true"
+    },
+    "c_656a20e940399ce5991ac2bf": {
+      "name": "甘井羽衣_Official",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/27555810",
+      "enabled": "true"
+    },
+    "c_6f314b63ee0d1ce301cce7bd": {
+      "name": "秋秋冰qqb",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/58073",
+      "enabled": "true"
+    },
+    "c_4586caa36a8a9ffc6b9adf39": {
+      "name": "花漫萌萌哒",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/7471337",
+      "enabled": "true"
+    },
+    "c_38f3bf2e6f66641324921feb": {
+      "name": "JoJo+",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/44056968415",
+      "enabled": "true"
+    },
+    "c_30841af31842f9d1c1c458a0": {
+      "name": "Qqqqqqqq",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/505843959641",
+      "enabled": "true"
+    },
+    "c_d59b5bc061016c13a894ff87": {
+      "name": "乱斗副教授",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/32644766651",
+      "enabled": "true"
+    },
+    "c_c72afe6810196dc9280af27a": {
+      "name": "佟丽吖",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/86874641945",
+      "enabled": "true"
+    },
+    "c_6db9cac9fb1d695bc34129a6": {
+      "name": "奥奥妈",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/dyzdvq8mdb32",
+      "enabled": "true"
+    },
+    "c_16a1bd3d8335f3cbcd801230": {
+      "name": "小只猪",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/5047943",
+      "enabled": "true"
+    },
+    "c_9f608728d7881cc236364535": {
+      "name": "张开心²¹⁷",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/8564042",
+      "enabled": "true"
+    },
+    "c_e1e6120d4cad299c4ad5d5dd": {
+      "name": "晚安tt",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/94080390887",
+      "enabled": "true"
+    },
+    "c_4e3a4da6450f4403ebb06deb": {
+      "name": "来点兔子吗🐰",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/958510368692",
+      "enabled": "true"
+    },
+    "c_d03ac46b99c4bd7bd6df9d98": {
+      "name": "浅浅细语",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/63541265837",
+      "enabled": "true"
+    },
+    "c_2865aed208a837a23d628f96": {
+      "name": "秘鹿",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/283384595638",
+      "enabled": "true"
+    },
+    "c_2b13c5c4d1b6b5ba29eafa51": {
+      "name": "高冷男神钱小佳",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/229346",
+      "enabled": "true"
+    },
+    "c_9aa27386954a871628de13db": {
+      "name": "맹이.zip",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/hellparty1",
+      "enabled": "true"
+    },
+    "c_c980246de7156784f984edfc": {
+      "name": "쪼다혜",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/charming98",
+      "enabled": "true"
+    },
+    "c_254a0a1283835540058fc95d": {
+      "name": "日本职业麻将联盟",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/30841267",
+      "enabled": "true"
+    },
+    "c_c75621644d6eb24785a67612": {
+      "name": "王薯条_",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/3248451",
+      "enabled": "true"
+    },
+    "c_63b45a10392558f52fd67d0a": {
+      "name": "三酒（法刺国一婉儿）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/sanjiu0530",
+      "enabled": "true"
+    },
+    "c_7c849fe5abe6d22af481bcf1": {
+      "name": "游戏打金人:牛德华",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/46789799534",
+      "enabled": "true"
+    },
+    "c_826a6e3f350a60ad3c39c904": {
+      "name": "lqscrisp",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/2739447",
+      "enabled": "true"
+    },
+    "c_0194aac529976f3f159695bc": {
+      "name": "AG宠儿",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/11424",
+      "enabled": "true"
+    },
+    "c_7493493c79687e2678d59192": {
+      "name": "买教练运动塑形",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/62358378968",
+      "enabled": "true"
+    },
+    "c_4423826190341c336824f3ca": {
+      "name": "硬件天空老鲁",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/67453312380",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -22197,7 +22393,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "14acf8f9e225c9b535e297176af7f3a724097d7dabdc809aa2040f73a018884c",
+      "sha256": "e07d6d4d93e5d50a10c8ab5630d86128a78472c740c20a0f53fb60728d31fd0d",
       "routes": 341,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -25053,7 +25249,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "eb86472ffcfe99b0f9728dc23f046468a1708b577389652ccfce956765331b4f",
+      "sha256": "ac6806964ae7eca0764e5712edf290a5a5a99260599d4feae3e74e80354b140d",
       "routes": 151,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -29595,8 +29791,8 @@
       }
     },
     "yang-network": {
-      "sha256": "acd9c49ef6483f44d86bb5092f12c3f5fc6342b8b1314cf658fd4158a41c747c",
-      "routes": 403,
+      "sha256": "ec2625bc0ec1e8915e01124eeda093a6e90972aeeaab0403a429ccc59db89f7a",
+      "routes": 555,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -39383,6 +39579,174 @@
           "name": "祈风1v9",
           "tvgId": "",
           "group": "•斗鱼「游戏」"
+        },
+        "72ea28ca76ec7ee2556ca8ec0353eff98d5e5493bb159ac74566e6b20d40ea67": {
+          "channel": "c_214811d7366bcefd14faf9bb",
+          "name": "694-27",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "9b0f6351ce7e1ef0fea29fb1f74a6b0e9dacb6ff0afd707e3b8feade8d8e5175": {
+          "channel": "c_da4220fc3daa378ed761bb3b",
+          "name": "宅崽卡卡",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "e87bf6e3c03f02e4a32d4854dc28614c0bcc98791d410cf89f15694ebc295e6c": {
+          "channel": "c_86e3c7474f91a0d49f21c931",
+          "name": "尼也特",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "22f0d648e847fb6964ea3db784a813540ae1c3f300000b33bd834d5a8c7eacf6": {
+          "channel": "c_656a20e940399ce5991ac2bf",
+          "name": "甘井羽衣_Official",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "5874d561c420695dc4080399d2c91d30f5deafed3d2fe65d5ea0c86003fb7515": {
+          "channel": "c_6f314b63ee0d1ce301cce7bd",
+          "name": "秋秋冰qqb",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "378c615f21abdf510be12de8102d86d378ee6198148305ab1fa0a057b36844b6": {
+          "channel": "c_4586caa36a8a9ffc6b9adf39",
+          "name": "花漫萌萌哒",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "989bc29c0a5886af397a82d0bf48dd31e48733949d8bc9b82012668dc9c24cc3": {
+          "channel": "c_38f3bf2e6f66641324921feb",
+          "name": "JoJo+",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "9d9cb5a841cd586d219e4fe09f4fc3bb4c20b0c1f6d78200db5be0dc4f544f8a": {
+          "channel": "c_30841af31842f9d1c1c458a0",
+          "name": "Qqqqqqqq",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "4aca0832725b1f974d2e2837098f471d4cdb62803f2bd6b170162491e64ce80c": {
+          "channel": "c_d59b5bc061016c13a894ff87",
+          "name": "乱斗副教授",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "1520ab8c7e32cf99416ba80b1ac0bb0a06a52fb5e876efe61eb13b8c818e9e8c": {
+          "channel": "c_c72afe6810196dc9280af27a",
+          "name": "佟丽吖",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "8f0e321573f68f8317ce8edd0e1b74373c833617c8f6b61076aa000825e90be9": {
+          "channel": "c_6db9cac9fb1d695bc34129a6",
+          "name": "奥奥妈",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ce352ef63bc547d27d2e38f9535630a33a3233b95eec101c24628cf90340046c": {
+          "channel": "c_16a1bd3d8335f3cbcd801230",
+          "name": "小只猪",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "9cffedb8dc60c2d532352366a62e83010992a18fb6a635d250d7f6fa4e98c583": {
+          "channel": "c_9f608728d7881cc236364535",
+          "name": "张开心²¹⁷",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "5cd2239673cfa30b656865127cced7262f370ed26245c145d71e9bab8ffad452": {
+          "channel": "c_e1e6120d4cad299c4ad5d5dd",
+          "name": "晚安tt",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a4b445571843ff0d1f7b09fe3ccff681a9518c229adfdfcee8eee3d20efab1c5": {
+          "channel": "c_4e3a4da6450f4403ebb06deb",
+          "name": "来点兔子吗🐰",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "eede36f9847a712fb28a8f75345dc3a1444953f5826ff165a5759044896b76f8": {
+          "channel": "c_d03ac46b99c4bd7bd6df9d98",
+          "name": "浅浅细语",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "89f7bf4a58af84a4936c9168eaa8b0fff28748e6264ef5a02b7a5c8989fd3e5f": {
+          "channel": "c_2865aed208a837a23d628f96",
+          "name": "秘鹿",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "9ed44e9e0a83852730668511019690e096825ef005448007b4c86961a694daaf": {
+          "channel": "c_2b13c5c4d1b6b5ba29eafa51",
+          "name": "高冷男神钱小佳",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "48ee8779268ffc8a01f08c63b299dd528f80e8ed52a985fbb7f36972d307cd40": {
+          "channel": "c_9aa27386954a871628de13db",
+          "name": "맹이.zip",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "dadee9fb12efc04e3e287eed46209ef94d6402bd21e9e0175391d9b27b66f08e": {
+          "channel": "c_c980246de7156784f984edfc",
+          "name": "쪼다혜",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "983e32b0445855278c734da67513cd7a5aeeed0c0bad5a0d1efc323d1ffc3cd0": {
+          "channel": "c_254a0a1283835540058fc95d",
+          "name": "日本职业麻将联盟",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "1440bd042de9c4337af1c46291e6f95362fe3e7426021d24788c08adf3d9d9fb": {
+          "channel": "c_c75621644d6eb24785a67612",
+          "name": "王薯条_",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "95c906f39c141fd3813d95e9692a8386009d1fa883b3dfb2efc86d6a911ca91f": {
+          "channel": "c_63b45a10392558f52fd67d0a",
+          "name": "三酒（法刺国一婉儿）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "65d9fe7ba0bb6f96c82f557af00fd6c2c0e791c130b92f94b60a565fcfa29325": {
+          "channel": "c_7c849fe5abe6d22af481bcf1",
+          "name": "游戏打金人:牛德华",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "f319e74fcffe85f4caf34ff962cf79d3b9322cd066082ea59b368ce1bf38c6b0": {
+          "channel": "c_826a6e3f350a60ad3c39c904",
+          "name": "lqscrisp",
+          "tvgId": "",
+          "group": "•斗鱼「游戏」"
+        },
+        "2c8e48e8d9ea81544ade46462f42af18b4cc61dc9082ae7ff5f44de83c7cc192": {
+          "channel": "c_0194aac529976f3f159695bc",
+          "name": "AG宠儿",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
+        },
+        "117cacd220c7bf74ea180826423c2b83303915e865a8190349b78aa1c28ba0b4": {
+          "channel": "c_7493493c79687e2678d59192",
+          "name": "买教练运动塑形",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "27d052ae111ed898a6d9607625b1007af59a38b8ea8567135deef477c0b92288": {
+          "channel": "c_4423826190341c336824f3ca",
+          "name": "硬件天空老鲁",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
