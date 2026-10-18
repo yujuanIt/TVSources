@@ -6,7 +6,7 @@ CCTV-1 综合,http://204.12.221.218:8181/3m1080p/cctv1.m3u8
 CCTV-1 综合,http://198.204.228.26/live/cctv1hd.m3u8
 CCTV-1 综合,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV-1 综合,rtp://239.3.1.129:8008
-CCTV-1 综合,https://migu.yang-1989.xyz/ysp/6kx5th.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-1 综合,https://migu.yang-1989.xyz/ysp/v3g3ug.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-1 综合,https://php.jdshipin.com/TVOD/iptv.php?id=cctv1
 CCTV-1 综合,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 CCTV-1 综合,https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
@@ -23,7 +23,7 @@ CCTV-2 财经,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/888
 CCTV-2 财经,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225588/index.m3u8
 CCTV-2 财经,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8
 CCTV-2 财经,rtp://239.3.1.60:8084
-CCTV-2 财经,https://migu.yang-1989.xyz/ysp/dx9aqz.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-2 财经,https://migu.yang-1989.xyz/ysp/awk6tb.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-2 财经,https://php.jdshipin.com/TVOD/iptv.php?id=cctv2
 CCTV-2 财经,http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
 CCTV-2 财经,https://zby.130519.xyz/PLTV/11/224/3221226122/index.m3u8
@@ -36,7 +36,7 @@ CCTV-3 综艺,http://69.30.245.50/live/cctv3.m3u8
 CCTV-3 综艺,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8?
 CCTV-3 综艺,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
 CCTV-3 综艺,rtp://239.3.1.172:8001
-CCTV-3 综艺,https://migu.yang-1989.xyz/ysp/2f7nye.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-3 综艺,https://migu.yang-1989.xyz/ysp/gs73mx.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-3 综艺,https://php.jdshipin.com/TVOD/iptv.php?id=cctv3
 CCTV-3 综艺,http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
 CCTV-3 综艺,https://zby.130519.xyz/PLTV/11/224/3221225766/index.m3u8
@@ -50,7 +50,7 @@ CCTV-4 中文国际,http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpu
 CCTV-4 中文国际,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?
 CCTV-4 中文国际,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226007/index.m3u8
 CCTV-4 中文国际,rtp://239.3.1.105:8092
-CCTV-4 中文国际,https://migu.yang-1989.xyz/ysp/x67aje.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-4 中文国际,https://migu.yang-1989.xyz/ysp/r76sen.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-4 中文国际,https://php.jdshipin.com/TVOD/iptv.php?id=cctv4
 CCTV-4 中文国际,http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 CCTV-4 中文国际,https://zby.130519.xyz/PLTV/11/224/3221226124/index.m3u8
@@ -69,7 +69,7 @@ CCTV-5 体育,https://www.freetv.top/migu/641886683.m3u8?migutoken=3e5c01f93922d
 CCTV-5 体育,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 CCTV-5 体育,https://migu.188766.xyz/?migutoken=3803480da7c3ee6e07115f4bb5827c0d&id=CCTV5&type=yy
 CCTV-5 体育,rtp://239.3.1.173:8001
-CCTV-5 体育,https://migu.yang-1989.xyz/ysp/rmgysr.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-5 体育,https://migu.yang-1989.xyz/ysp/3438ks.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-5 体育,https://cdn.qd.je/163189/cctv5
 CCTV-5 体育,https://cdn.qd.je/163189/cctv5-2
 CCTV-5+ 体育赛事,https://www.yangshipin.cn/tv/home?pid=600001817&cnlid=2024078001&defn=fhd
@@ -83,7 +83,7 @@ CCTV-5+ 体育赛事,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/
 CCTV-5+ 体育赛事,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
 CCTV-5+ 体育赛事,https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 CCTV-5+ 体育赛事,rtp://239.3.1.130:8004
-CCTV-5+ 体育赛事,https://migu.yang-1989.xyz/ysp/4xxnd7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-5+ 体育赛事,https://migu.yang-1989.xyz/ysp/gtjyag.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-5+ 体育赛事,https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
 CCTV-5+ 体育赛事,https://cdn.qd.je/163189/cctv5p-2
 CCTV-6 电影,https://www.yangshipin.cn/tv/home?pid=600108442&cnlid=2013693901&defn=fhd
@@ -95,7 +95,7 @@ CCTV-6 电影,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
 CCTV-6 电影,https://hls-gateway.vpstv.net/streams/709554.m3u8
 CCTV-6 电影,https://hls-gateway.vpstv.net/streams/476890.m3u8
 CCTV-6 电影,rtp://239.3.1.174:8001
-CCTV-6 电影,https://migu.yang-1989.xyz/ysp/jphnj4.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-6 电影,https://migu.yang-1989.xyz/ysp/mcs76x.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-6 电影,https://php.jdshipin.com/TVOD/iptv.php?id=cctv6
 CCTV-6 电影,http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
 CCTV-6 电影,https://zby.130519.xyz/PLTV/11/224/3221225741/index.m3u8
@@ -108,7 +108,7 @@ CCTV-7 国防军事,http://69.30.245.50/live/cctv7.m3u8
 CCTV-7 国防军事,http://107.150.60.122/live/cctv7hd.m3u8
 CCTV-7 国防军事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?
 CCTV-7 国防军事,rtp://239.3.1.61:8104
-CCTV-7 国防军事,https://migu.yang-1989.xyz/ysp/zym6qq.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-7 国防军事,https://migu.yang-1989.xyz/ysp/cw3tgx.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-7 国防军事,https://php.jdshipin.com/TVOD/iptv.php?id=cctv7
 CCTV-7 国防军事,http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
 CCTV-7 国防军事,https://zby.130519.xyz/PLTV/11/224/3221225701/index.m3u8
@@ -123,7 +123,7 @@ CCTV-8 电视剧,https://hls-gateway.vpstv.net/streams/476892.m3u8
 CCTV-8 电视剧,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?
 CCTV-8 电视剧,http://74.91.26.218:82/live/cctv8hd.m3u8
 CCTV-8 电视剧,rtp://239.3.1.175:8001
-CCTV-8 电视剧,https://migu.yang-1989.xyz/ysp/x2bmd8.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-8 电视剧,https://migu.yang-1989.xyz/ysp/yba786.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-8 电视剧,https://php.jdshipin.com/TVOD/iptv.php?id=cctv8
 CCTV-8 电视剧,http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
 CCTV-8 电视剧,https://zby.130519.xyz/PLTV/11/224/3221225736/index.m3u8
@@ -138,7 +138,7 @@ CCTV-9 纪录,https://hls-gateway.vpstv.net/streams/476893.m3u8
 CCTV-9 纪录,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8?
 CCTV-9 纪录,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
 CCTV-9 纪录,rtp://239.3.1.62:8112
-CCTV-9 纪录,https://migu.yang-1989.xyz/ysp/gt6eth.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-9 纪录,https://migu.yang-1989.xyz/ysp/wcydmg.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-9 纪录,https://php.jdshipin.com/TVOD/iptv.php?id=cctv9
 CCTV-9 纪录,https://xykt-fix.github.io/Y77.m3u8
 CCTV-9 纪录,http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
@@ -151,7 +151,7 @@ CCTV-10 科教,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88
 CCTV-10 科教,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8
 CCTV-10 科教,http://74.91.26.218:82/live/cctv10hd.m3u8
 CCTV-10 科教,rtp://239.3.1.63:8116
-CCTV-10 科教,https://migu.yang-1989.xyz/ysp/xh7uey.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-10 科教,https://migu.yang-1989.xyz/ysp/x5r9dq.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-10 科教,https://php.jdshipin.com/TVOD/iptv.php?id=cctv10
 CCTV-10 科教,http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
 CCTV-10 科教,https://zby.130519.xyz/PLTV/11/224/3221225743/index.m3u8
@@ -165,7 +165,7 @@ CCTV-11 戏曲,http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub
 CCTV-11 戏曲,https://xykt-fix.github.io/play/a02b/index.m3u8
 CCTV-11 戏曲,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8?
 CCTV-11 戏曲,rtp://239.3.1.152:8120
-CCTV-11 戏曲,https://migu.yang-1989.xyz/ysp/4u5as2.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-11 戏曲,https://migu.yang-1989.xyz/ysp/awaphx.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-11 戏曲,https://php.jdshipin.com/TVOD/iptv.php?id=cctv11
 CCTV-11 戏曲,http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
 CCTV-11 戏曲,https://zby.130519.xyz/PLTV/11/224/3221226101/index.m3u8
@@ -179,7 +179,7 @@ CCTV-12 社会与法,http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test
 CCTV-12 社会与法,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?
 CCTV-12 社会与法,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
 CCTV-12 社会与法,rtp://239.3.1.64:8124
-CCTV-12 社会与法,https://migu.yang-1989.xyz/ysp/a52gmh.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-12 社会与法,https://migu.yang-1989.xyz/ysp/4e3uuw.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-12 社会与法,https://php.jdshipin.com/TVOD/iptv.php?id=cctv12
 CCTV-12 社会与法,http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
 CCTV-12 社会与法,https://zby.130519.xyz/PLTV/11/224/3221226103/index.m3u8
@@ -194,7 +194,7 @@ CCTV-13 新闻,https://event.pull.hebtv.com/jishi/cp1.m3u8
 CCTV-13 新闻,https://hls-gateway.vpstv.net/streams/476899.m3u8
 CCTV-13 新闻,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?
 CCTV-13 新闻,rtp://239.3.1.124:8128
-CCTV-13 新闻,https://migu.yang-1989.xyz/ysp/67w8tn.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-13 新闻,https://migu.yang-1989.xyz/ysp/a4j4eh.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-13 新闻,https://php.jdshipin.com/TVOD/iptv.php?id=cctv13
 CCTV-13 新闻,https://cdn.qd.je/163189/cctv13-2
 CCTV-13 新闻,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
@@ -208,7 +208,7 @@ CCTV-14 少儿,https://event.pull.hebtv.com/jishi/cp2.m3u8
 CCTV-14 少儿,https://hls-gateway.vpstv.net/streams/476900.m3u8
 CCTV-14 少儿,http://74.91.26.218:82/live/cctv14hd.m3u8
 CCTV-14 少儿,rtp://239.3.1.65:8132
-CCTV-14 少儿,https://migu.yang-1989.xyz/ysp/3ze472.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-14 少儿,https://migu.yang-1989.xyz/ysp/fexpvy.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-14 少儿,https://php.jdshipin.com/TVOD/iptv.php?id=cctv14
 CCTV-14 少儿,http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
 CCTV-14 少儿,https://zby.130519.xyz/PLTV/11/224/3221225738/index.m3u8
@@ -225,7 +225,7 @@ CCTV-15 音乐,https://smart.pendy.dpdns.org/Smart.php?id=cctv15
 CCTV-15 音乐,http://[2409:8087:1a01:df::4033]:80/TVOD/88888888/224/3221226127/main.m3u8
 CCTV-15 音乐,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225601/index.m3u8
 CCTV-15 音乐,rtp://239.3.1.153:8136
-CCTV-15 音乐,https://migu.yang-1989.xyz/ysp/g6sgb4.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-15 音乐,https://migu.yang-1989.xyz/ysp/8g5nv3.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-15 音乐,https://php.jdshipin.com/TVOD/iptv.php?id=cctv15
 CCTV-16 奥林匹克,https://www.yangshipin.cn/tv/home?pid=600098637&cnlid=2027249101&defn=fhd
 CCTV-16 奥林匹克,http://207.56.13.146:81/cdnlive/cctv16.m3u8
@@ -235,7 +235,7 @@ CCTV-16 奥林匹克,https://hls-gateway.vpstv.net/streams/709089.m3u8
 CCTV-16 奥林匹克,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227002/1.m3u8?
 CCTV-16 奥林匹克,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 CCTV-16 奥林匹克,rtp://239.3.1.184:8001
-CCTV-16 奥林匹克,https://migu.yang-1989.xyz/ysp/7kjak3.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-16 奥林匹克,https://migu.yang-1989.xyz/ysp/m7qkgs.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-16 奥林匹克,https://php.jdshipin.com/TVOD/iptv.php?id=cctv16
 CCTV-16 奥林匹克,https://cdn.qd.je/163189/cctv16-2
 CCTV-16 奥林匹克,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
@@ -248,25 +248,25 @@ CCTV-17 农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 CCTV-17 农业农村,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 CCTV-17 农业农村,http://74.91.26.218:82/live/cctv17hd.m3u8
 CCTV-17 农业农村,rtp://239.3.1.151:8144
-CCTV-17 农业农村,https://migu.yang-1989.xyz/ysp/ecjkrh.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-17 农业农村,https://migu.yang-1989.xyz/ysp/dqpxq2.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CCTV-17 农业农村,https://php.jdshipin.com/TVOD/iptv.php?id=cctv17
 CCTV-4K 超高清,rtp://239.3.1.245:2000
-CCTV-4K 超高清,https://migu.yang-1989.xyz/ysp/76ahyp.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-CCTV-8K 超高清,https://migu.yang-1989.xyz/ysp/bhyxb6.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+CCTV-4K 超高清,https://migu.yang-1989.xyz/ysp/5uz44z.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+CCTV-8K 超高清,https://migu.yang-1989.xyz/ysp/v3n9bj.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 CGTN英语,rtp://239.3.1.215:4220
 CGTN纪录,rtp://239.3.1.216:4220
 CGTN西语,rtp://239.3.1.217:4220
 CGTN法语,rtp://239.3.1.218:4220
 CGTN阿语,rtp://239.3.1.219:4220
 CGTN俄语,rtp://239.3.1.220:4220
-CGTN 英语「Relay」,https://migu.yang-1989.xyz/ysp/vbcw27.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-CGTN 法语「Relay」,https://migu.yang-1989.xyz/ysp/bnvch6.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-CGTN 俄语「Relay」,https://migu.yang-1989.xyz/ysp/gkvtvy.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-CGTN 阿拉伯语「Relay」,https://migu.yang-1989.xyz/ysp/2nu85d.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-CGTN 西班牙语「Relay」,https://migu.yang-1989.xyz/ysp/dpn6v7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-CGTN 纪录「Relay」,https://migu.yang-1989.xyz/ysp/qec7rm.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-CGTN 记录频道,https://iptv.yang-1989.xyz/myTV/jxah5n.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-CGTN 英语频道,https://iptv.yang-1989.xyz/myTV/99zqc4.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+CGTN 英语「Relay」,https://migu.yang-1989.xyz/ysp/e8fs6x.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+CGTN 法语「Relay」,https://migu.yang-1989.xyz/ysp/nqghj6.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+CGTN 俄语「Relay」,https://migu.yang-1989.xyz/ysp/bxf3se.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+CGTN 阿拉伯语「Relay」,https://migu.yang-1989.xyz/ysp/ezqw8v.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+CGTN 西班牙语「Relay」,https://migu.yang-1989.xyz/ysp/f78a5s.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+CGTN 纪录「Relay」,https://migu.yang-1989.xyz/ysp/7qnavh.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+CGTN 记录频道,https://iptv.yang-1989.xyz/myTV/xdhb8w.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+CGTN 英语频道,https://iptv.yang-1989.xyz/myTV/zedxze.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 CCTV · 风云剧场,https://www.yangshipin.cn/tv/home?pid=600099658&cnlid=2025637103&defn=shd
 CCTV · 风云剧场,https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 CCTV · 风云剧场,http://173.208.212.130:8181/720p/fyjc.m3u8
@@ -353,7 +353,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 北京卫视,http://120.76.248.139/live/bfgd/4200000083.m3u8
 北京卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 北京卫视,rtp://239.3.1.22:8001
-北京卫视,https://migu.yang-1989.xyz/ysp/4kcysp.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+北京卫视,https://migu.yang-1989.xyz/ysp/4dsfv2.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 北京卫视,http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 北京卫视,https://zby.130519.xyz/PLTV/11/224/3221225724/index.m3u8
 江苏卫视,https://www.yangshipin.cn/tv/home?pid=600002521&cnlid=2024171103&defn=fhd
@@ -364,7 +364,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 江苏卫视,http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
 江苏卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 江苏卫视,rtp://239.3.1.113:3003
-江苏卫视,https://migu.yang-1989.xyz/ysp/ufxmmv.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+江苏卫视,https://migu.yang-1989.xyz/ysp/4hmazp.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
 江苏卫视,https://zby.130519.xyz/PLTV/11/224/3221225720/index.m3u8
 江苏卫视,https://cdn.ttvb.eu.org/douyin/JSTVJSTV
@@ -377,7 +377,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 东方卫视,https://hls-gateway.vpstv.net/streams/709528.m3u8
 东方卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226898/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0uh4lyjjBCCN7TCq21vSIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 东方卫视,rtp://239.3.1.119:3006
-东方卫视,https://migu.yang-1989.xyz/ysp/z3sx9g.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+东方卫视,https://migu.yang-1989.xyz/ysp/kbnsk8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 东方卫视,http://iptv.huuc.edu.cn/hls/dfhd.m3u8
 东方卫视,https://zby.130519.xyz/PLTV/11/224/3221225725/index.m3u8
 东方卫视,https://zby.130519.xyz/PLTV/11/224/3221226106/index.m3u8
@@ -390,7 +390,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 浙江卫视,http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 浙江卫视,rtp://239.3.1.114:3004
-浙江卫视,https://migu.yang-1989.xyz/ysp/qm4svq.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+浙江卫视,https://migu.yang-1989.xyz/ysp/e9285p.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 浙江卫视,https://play-qukan.cztv.com/live/1746687519046362.m3u8
 浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
 浙江卫视,https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
@@ -404,7 +404,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 湖南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226509/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EIGb_ib7rnBX9_sANRKq9sg%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000003873458%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C10000100000000060000000007253514_0%2CEND&GuardEncType=2
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 湖南卫视,rtp://239.3.1.112:3002
-湖南卫视,https://migu.yang-1989.xyz/ysp/nbxmj4.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+湖南卫视,https://migu.yang-1989.xyz/ysp/4qg387.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
 湖南卫视,https://zby.130519.xyz/PLTV/11/224/3221225726/index.m3u8
 湖北卫视,https://www.yangshipin.cn/tv/home?pid=600002508&cnlid=2024171203&defn=fhd
@@ -413,7 +413,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 湖北卫视,http://120.76.248.139/live/bfgd/4200000102.m3u8
 湖北卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EREB40lnZnCEwjRy7LZuhIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 湖北卫视,rtp://239.3.1.138:8044
-湖北卫视,https://migu.yang-1989.xyz/ysp/rqgqhg.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+湖北卫视,https://migu.yang-1989.xyz/ysp/hqaepu.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 湖北卫视,http://iptv.huuc.edu.cn/hls/hbhd.m3u8
 湖北卫视,https://zby.130519.xyz/PLTV/11/224/3221225729/index.m3u8
 广东卫视,https://www.yangshipin.cn/tv/home?pid=600002485&cnlid=2024060903&defn=fhd
@@ -424,7 +424,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 广东卫视,http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
 广东卫视,https://hls-gateway.vpstv.net/streams/476943.m3u8
 广东卫视,rtp://239.3.1.27:2000
-广东卫视,https://migu.yang-1989.xyz/ysp/uas3aa.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+广东卫视,https://migu.yang-1989.xyz/ysp/d5hked.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 广西卫视,https://www.yangshipin.cn/tv/home?pid=600002509&cnlid=2024060703&defn=fhd
 广西卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxwshd
 广西卫视,http://107.150.60.122/live/gxwshd.m3u8
@@ -434,7 +434,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 广西卫视,https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
 广西卫视,https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8
 广西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227010/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkAhb-89sxdm9fz6-heXCuw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-广西卫视,https://migu.yang-1989.xyz/ysp/92bamx.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+广西卫视,https://migu.yang-1989.xyz/ysp/2u7epe.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 广西卫视,https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
 广西卫视,https://zby.130519.xyz/PLTV/11/224/3221226130/index.m3u8
 黑龙江卫视,https://www.yangshipin.cn/tv/home?pid=600002498&cnlid=2029797003&defn=fhd
@@ -447,21 +447,21 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 黑龙江卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7UiKL56-L86ihmTWaZ6csw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 黑龙江卫视,https://epg.pw/stream/c6c1262d0b35e59eac22bf513395f00f8b60cc5eab41f598412cdf8269312f32.m3u8
 黑龙江卫视,rtp://239.3.1.133:8016
-黑龙江卫视,https://migu.yang-1989.xyz/ysp/skw3ft.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+黑龙江卫视,https://migu.yang-1989.xyz/ysp/ps482z.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 黑龙江卫视,http://iptv.huuc.edu.cn/hls/hljhd.m3u8
 海南卫视,https://www.yangshipin.cn/tv/home?pid=600002506&cnlid=2024055603&defn=fhd
 海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8
 海南卫视,https://zby.130519.xyz/PLTV/11/224/3221226154/index.m3u8
 海南卫视,rtp://239.3.1.205:8228
-海南卫视,https://migu.yang-1989.xyz/ysp/2et8k8.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+海南卫视,https://migu.yang-1989.xyz/ysp/yytqdr.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 海南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 重庆卫视,https://www.yangshipin.cn/tv/home?pid=600002531&cnlid=2024061103&defn=fhd
 重庆卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd
 重庆卫视,http://107.150.60.122/live/cqwshd.m3u8
 重庆卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 重庆卫视,rtp://239.3.1.122:8160
-重庆卫视,https://migu.yang-1989.xyz/ysp/qerfs7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+重庆卫视,https://migu.yang-1989.xyz/ysp/2cezs9.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 重庆卫视,http://iptv.huuc.edu.cn/hls/cqhd.m3u8
 重庆卫视,https://zby.130519.xyz/PLTV/11/224/3221226171/index.m3u8
 深圳卫视,https://www.yangshipin.cn/tv/home?pid=600002481&cnlid=2024061303&defn=fhd
@@ -476,7 +476,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 深圳卫视,https://smart.pendy.dpdns.org/Smart.php?id=shenzhen
 深圳卫视,http://z.b.bkpcp.top/m.php?id=szws
 深圳卫视,rtp://239.3.1.28:2000
-深圳卫视,https://migu.yang-1989.xyz/ysp/msadtg.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+深圳卫视,https://migu.yang-1989.xyz/ysp/3ygbg9.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 四川卫视,https://www.yangshipin.cn/tv/home?pid=600002516&cnlid=2024061403&defn=fhd
 四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -485,7 +485,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 四川卫视,http://107.150.60.122/live/scwshd.m3u8
 四川卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 四川卫视,rtp://239.3.1.131:3001
-四川卫视,https://migu.yang-1989.xyz/ysp/dgdnsn.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+四川卫视,https://migu.yang-1989.xyz/ysp/wsgnur.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 四川卫视,http://iptv.huuc.edu.cn/hls/schd.m3u8
 四川卫视,https://zby.130519.xyz/PLTV/11/224/3221226152/index.m3u8
 河南卫视,https://www.yangshipin.cn/tv/home?pid=600002525&cnlid=2029797303&defn=fhd
@@ -495,7 +495,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 河南卫视,http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 河南卫视,http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
 河南卫视,rtp://239.3.1.50:8184
-河南卫视,https://migu.yang-1989.xyz/ysp/cjxkve.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+河南卫视,https://migu.yang-1989.xyz/ysp/6d3p2e.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
 河南卫视,https://cdn.ttvb.eu.org/douyin/1435733665
 东南卫视,https://www.yangshipin.cn/tv/home?pid=600002484&cnlid=2024061503&defn=fhd
@@ -506,7 +506,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 东南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226991/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQ6F5Mjgs0tJyEArWFL3vQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 东南卫视,rtp://239.3.1.156:8148
-东南卫视,https://migu.yang-1989.xyz/ysp/nwsnc2.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+东南卫视,https://migu.yang-1989.xyz/ysp/33vnzu.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 东南卫视,http://iptv.huuc.edu.cn/hls/dnhd.m3u8
 东南卫视,https://zby.130519.xyz/PLTV/11/224/3221225745/index.m3u8
 贵州卫视,https://www.yangshipin.cn/tv/home?pid=600002490&cnlid=2024061603&defn=fhd
@@ -517,7 +517,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 贵州卫视,http://38.75.136.137:98/gslb/dsdqpub/gzwshd.m3u8?auth=testpub
 贵州卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EnqBF03rFwPucF8ODtWxLQQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 贵州卫视,rtp://239.3.1.149:8076
-贵州卫视,https://migu.yang-1989.xyz/ysp/d53b6x.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+贵州卫视,https://migu.yang-1989.xyz/ysp/24fsxr.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 贵州卫视,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
 江西卫视,https://www.yangshipin.cn/tv/home?pid=600002503&cnlid=2024061703&defn=fhd
 江西卫视,https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -527,7 +527,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 江西卫视,http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub
 江西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226956/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ei6ZIpVizXlewg-YfGvH8dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 江西卫视,rtp://239.3.1.123:8164
-江西卫视,https://migu.yang-1989.xyz/ysp/mdq3fu.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+江西卫视,https://migu.yang-1989.xyz/ysp/y6yrq8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 江西卫视,http://iptv.huuc.edu.cn/hls/jxhd.m3u8
 江西卫视,https://zby.130519.xyz/PLTV/11/224/3221225740/index.m3u8
 辽宁卫视,https://www.yangshipin.cn/tv/home?pid=600002505&cnlid=2024171303&defn=fhd
@@ -538,7 +538,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 辽宁卫视,http://38.75.136.137:98/gslb/dsdqpub/lnwshd.m3u8?auth=testpub
 辽宁卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E6qJH8Fd-zgCGx3P-Ce86cA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 辽宁卫视,rtp://239.3.1.210:8056
-辽宁卫视,https://migu.yang-1989.xyz/ysp/qakbuk.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+辽宁卫视,https://migu.yang-1989.xyz/ysp/pwam8r.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 辽宁卫视,http://iptv.huuc.edu.cn/hls/lnhd.m3u8
 辽宁卫视,https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
 安徽卫视,https://www.yangshipin.cn/tv/home?pid=600002532&cnlid=2024171403&defn=fhd
@@ -549,7 +549,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 安徽卫视,http://198.204.228.26/live/ahwshd.m3u8
 安徽卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226943/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0QmKQ_slRCwvVVUUfxPVbw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 安徽卫视,rtp://239.3.1.211:8064
-安徽卫视,https://migu.yang-1989.xyz/ysp/3skz8h.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+安徽卫视,https://migu.yang-1989.xyz/ysp/2yy378.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 安徽卫视,http://iptv.huuc.edu.cn/hls/ahhd.m3u8
 安徽卫视,https://zby.130519.xyz/PLTV/11/224/3221225739/index.m3u8
 河北卫视,https://www.yangshipin.cn/tv/home?pid=600002493&cnlid=2024171503&defn=fhd
@@ -558,7 +558,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 河北卫视,http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
 河北卫视,http://204.12.221.218:8181/3m1080p/hews.m3u8
 河北卫视,rtp://239.3.1.148:8072
-河北卫视,https://migu.yang-1989.xyz/ysp/7ngzpd.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+河北卫视,https://migu.yang-1989.xyz/ysp/sqry2a.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 河北卫视,https://event.pull.hebtv.com/live/live101.m3u8
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
@@ -572,7 +572,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 山东卫视,http://38.75.136.137:98/gslb/dsdqpub/sdwshd.m3u8?auth=testpub
 山东卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 山东卫视,rtp://239.3.1.144:3005
-山东卫视,https://migu.yang-1989.xyz/ysp/y3jdc7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+山东卫视,https://migu.yang-1989.xyz/ysp/mb7a8w.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 山东卫视,http://iptv.huuc.edu.cn/hls/sdhd.m3u8
 山东卫视,https://zby.130519.xyz/PLTV/11/224/3221225733/index.m3u8
 天津卫视,https://www.yangshipin.cn/tv/home?pid=600152137&cnlid=2019927003&defn=fhd
@@ -585,7 +585,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 天津卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226459/index.m3u8
 天津卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226459/index.m3u8
 天津卫视,rtp://239.3.1.141:1234
-天津卫视,https://migu.yang-1989.xyz/ysp/rhxh4u.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+天津卫视,https://migu.yang-1989.xyz/ysp/n9j4jh.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 吉林卫视,https://www.yangshipin.cn/tv/home?pid=600190405&cnlid=2025561503&defn=fhd
 吉林卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd
 吉林卫视,http://107.150.60.122/live/jlwshd.m3u8
@@ -593,7 +593,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 吉林卫视,http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub
 吉林卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 吉林卫视,rtp://239.3.1.240:8172
-吉林卫视,https://migu.yang-1989.xyz/ysp/g8devk.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+吉林卫视,https://migu.yang-1989.xyz/ysp/g9kuyr.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226082/index.m3u8
 陕西卫视,https://www.yangshipin.cn/tv/home?pid=600190400&cnlid=2029795103&defn=fhd
@@ -603,7 +603,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 陕西卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=snwshd
 陕西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 陕西卫视,rtp://239.3.1.203:8220
-陕西卫视,https://migu.yang-1989.xyz/ysp/y9h359.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+陕西卫视,https://migu.yang-1989.xyz/ysp/sccd2y.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 宁夏卫视,https://www.yangshipin.cn/tv/home?pid=600190737&cnlid=2025608503&defn=fhd
 宁夏卫视,https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 宁夏卫视,https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -613,7 +613,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 宁夏卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227003/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESco1zinvdUYzleEkXYhIvA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 宁夏卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/8/3221226454/index.m3u8
 宁夏卫视,rtp://239.3.1.169:8212
-宁夏卫视,https://migu.yang-1989.xyz/ysp/73ydvv.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+宁夏卫视,https://migu.yang-1989.xyz/ysp/hvj7qw.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 内蒙古卫视,https://www.yangshipin.cn/tv/home?pid=600190401&cnlid=2025561203&defn=fhd
 内蒙古卫视,https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 内蒙古卫视,https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -623,14 +623,14 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 内蒙古卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8
 内蒙古卫视,http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 内蒙古卫视,rtp://239.3.1.204:8224
-内蒙古卫视,https://migu.yang-1989.xyz/ysp/g2qh6d.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+内蒙古卫视,https://migu.yang-1989.xyz/ysp/mjb8ja.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 云南卫视,https://www.yangshipin.cn/tv/home?pid=600190402&cnlid=2025561303&defn=fhd
 云南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd
 云南卫视,http://192.151.150.154/live/ynwshd.m3u8
 云南卫视,http://107.150.60.122/live/ynwshd.m3u8
 云南卫视,http://120.76.248.139/live/bfgd/4200000482.m3u8
 云南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227028/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGfQPqRNVeBjTMsZ48qu0SA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-云南卫视,https://migu.yang-1989.xyz/ysp/b3kv4m.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+云南卫视,https://migu.yang-1989.xyz/ysp/pjgc7z.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 云南卫视,https://zby.130519.xyz/PLTV/11/224/3221226109/index.m3u8
 云南卫视,https://zby.130519.xyz/PLTV/11/224/3221226151/index.m3u8
 西藏卫视,https://www.yangshipin.cn/tv/home?pid=600190403&cnlid=2025558003&defn=fhd
@@ -641,7 +641,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 西藏卫视,http://120.76.248.139/live/bfgd/4200000121.m3u8
 西藏卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227033/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EdeTB7OZ9G_VNJk5C3t96fQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 西藏卫视,rtp://239.3.1.166:8188
-西藏卫视,https://migu.yang-1989.xyz/ysp/zdrap4.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+西藏卫视,https://migu.yang-1989.xyz/ysp/3c8mdu.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 西藏卫视,http://php.jdshipin.com:8880/xztv.php?id=zy
 新疆卫视,https://www.yangshipin.cn/tv/home?pid=600152138&cnlid=2019927403&defn=fhd
 新疆卫视,https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -655,7 +655,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 新疆卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226460/index.m3u8
 新疆卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226546/1.m3u8
 新疆卫视,rtp://239.3.1.167:8192
-新疆卫视,https://migu.yang-1989.xyz/ysp/752nvg.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+新疆卫视,https://migu.yang-1989.xyz/ysp/pm47xg.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 甘肃卫视,http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub
 甘肃卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
 甘肃卫视,http://120.76.248.139/live/bfgd/4200000119.m3u8
@@ -667,7 +667,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 青海卫视,http://120.76.248.139/live/bfgd/4200000111.m3u8
 青海卫视,https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 青海卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227017/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EacviHy_ucMT27Ymf2iLtZA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-青海卫视,https://migu.yang-1989.xyz/ysp/5485sa.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+青海卫视,https://migu.yang-1989.xyz/ysp/8vnzj9.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 青海卫视,https://zby.130519.xyz/PLTV/11/224/3221226105/index.m3u8
 山西卫视,https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 山西卫视,https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -675,7 +675,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 山西卫视,http://107.150.60.122/live/sxwshd.m3u8
 山西卫视,http://204.12.221.218:8181/3m1080p/sxws.m3u8
 山西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-山西卫视,https://migu.yang-1989.xyz/ysp/4akxs8.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+山西卫视,https://migu.yang-1989.xyz/ysp/u55qup.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 山西卫视,https://zby.130519.xyz/PLTV/11/224/3221226113/index.m3u8
 三沙卫视,http://107.150.60.122/live/ssws.m3u8
 三沙卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ssws
@@ -1584,7 +1584,6 @@ JS国飞,https://cdn.ttvb.eu.org/douyin/dy5c1ibfuzvq
 唐欲佳,https://cdn.ttvb.eu.org/douyin/Chandy5602
 布丁（三国服貂蝉）,https://cdn.ttvb.eu.org/douyin/dingzai555
 彬彬力量塑形,https://cdn.ttvb.eu.org/douyin/WZB2454321
-安妮Anne🎙（深情演绎）,https://cdn.ttvb.eu.org/douyin/54223704689
 一哥 （船长）,https://cdn.ttvb.eu.org/douyin/YG2180.
 你的梦梦ᰔᩚ,https://cdn.ttvb.eu.org/douyin/mengmeng0703_
 南嫣FM,https://cdn.ttvb.eu.org/douyin/nanyan.FM168
@@ -1695,16 +1694,13 @@ Xgg星嗝嗝,https://cdn.ttvb.eu.org/douyin/XgggXggXg
 羊羊羊羊🐑,https://cdn.ttvb.eu.org/douyin/90502096245
 你初恋老王,https://cdn.ttvb.eu.org/douyin/652792881038
 央视网超级工厂,https://cdn.ttvb.eu.org/douyin/23265780613
-一个梦,https://cdn.ttvb.eu.org/douyin/S202290888
 咩咩京剧🐏,https://cdn.ttvb.eu.org/douyin/72021626166
-甜德莉娜Mia,https://cdn.ttvb.eu.org/douyin/85401881468
 佛山发布,https://cdn.ttvb.eu.org/douyin/foshanfabu
 Miaaaa,https://cdn.ttvb.eu.org/douyin/47530736577
 ☀️铁锤爱跑调er⁹²⁷⁷,https://cdn.ttvb.eu.org/douyin/TcTc9277
 一碗粥,https://cdn.ttvb.eu.org/douyin/Y374443
 临安TV,https://cdn.ttvb.eu.org/douyin/LATV
 南通广播电视台,https://cdn.ttvb.eu.org/douyin/NMG..
-土豆雷（第五人格）,https://cdn.ttvb.eu.org/douyin/34497201663
 拼一鸡米米,https://cdn.ttvb.eu.org/douyin/525246014350
 猕猴桃🫡《文博说事》,https://cdn.ttvb.eu.org/douyin/2118141289
 百达屋看世界,https://cdn.ttvb.eu.org/douyin/34926042754
@@ -1829,22 +1825,12 @@ TEC B1ackovo,https://cdn.ttvb.eu.org/douyin/34250469322
 安生象棋,https://cdn.ttvb.eu.org/douyin/_531005659
 是可乐,https://cdn.ttvb.eu.org/douyin/KeleMuaaa
 Nani,https://cdn.ttvb.eu.org/douyin/lina17
-哏的,https://cdn.ttvb.eu.org/douyin/genjiujiu88888
 失约海（无畏契约）,https://cdn.ttvb.eu.org/douyin/ltxzsaa
 宝玉妹妹🌙（京城大师赛）,https://cdn.ttvb.eu.org/douyin/790499232560
-强哥爱录声控助眠asmr（世一虚）,https://cdn.ttvb.eu.org/douyin/69446958014
-我叫娟儿💕,https://cdn.ttvb.eu.org/douyin/440341655196
 文思💧,https://cdn.ttvb.eu.org/douyin/873891952086
-静静在夏天🍔🎤⁰³²⁰,https://cdn.ttvb.eu.org/douyin/828868968740
-Mentality桃,https://cdn.ttvb.eu.org/douyin/394260640881
-九尾（黑车第一人）,https://cdn.ttvb.eu.org/douyin/37332120041
-卡兔琳娜（佐伊妖姬神）,https://cdn.ttvb.eu.org/douyin/97535727417
 大刀哥,https://cdn.ttvb.eu.org/douyin/YY70051
 小花妹妹2,https://cdn.ttvb.eu.org/douyin/5673726
-王者荣耀王某-（白吃火舞）,https://cdn.ttvb.eu.org/douyin/dy25887814
-远辞（国服云缨）,https://cdn.ttvb.eu.org/douyin/81355354947
 麦小鼠大王,https://cdn.ttvb.eu.org/douyin/hyz030728
-黑羽（三角洲行动）,https://cdn.ttvb.eu.org/douyin/55189785458
 EGG大权（三角洲行动）,https://cdn.ttvb.eu.org/douyin/187480290
 JoJo+,https://cdn.ttvb.eu.org/douyin/44056968415
 乱斗副教授,https://cdn.ttvb.eu.org/douyin/32644766651
@@ -1871,7 +1857,6 @@ JoJo+,https://cdn.ttvb.eu.org/douyin/44056968415
 秘鹿,https://cdn.ttvb.eu.org/douyin/283384595638
 绽放点唱,https://cdn.ttvb.eu.org/douyin/zhanfangovo
 背头（三角洲行动）,https://cdn.ttvb.eu.org/douyin/625917919852
-胖胖✈️☁️,https://cdn.ttvb.eu.org/douyin/102953757
 赛比娜,https://cdn.ttvb.eu.org/douyin/1967880268
 门神soloman,https://cdn.ttvb.eu.org/douyin/Soloman08
 阿泽（新疆直播中）,https://cdn.ttvb.eu.org/douyin/HZ641221260
@@ -1890,7 +1875,6 @@ cs2凌god,https://cdn.ttvb.eu.org/douyin/725146283013
 清风亚索（最高峡谷王者韩服宗师）,https://cdn.ttvb.eu.org/douyin/978595336269
 游戏打金人:牛德华,https://cdn.ttvb.eu.org/douyin/46789799534
 演绎（巅峰肝帝）,https://cdn.ttvb.eu.org/douyin/324546102
-王者阿水,https://cdn.ttvb.eu.org/douyin/89894783396
 碳眠无郎（我在末世养小鸡）,https://cdn.ttvb.eu.org/douyin/913594635641
 老白的正经解说（白老师）,https://cdn.ttvb.eu.org/douyin/122968300347
 至尊盗王拉拉拉法姆,https://cdn.ttvb.eu.org/douyin/LaFaMuuuuu
@@ -1965,7 +1949,6 @@ q泡泡p,https://cdn.ttvb.eu.org/douyin/92804761058
 铥铥-御龙在天,https://cdn.ttvb.eu.org/douyin/747432029416
 陕西省歌舞剧院,https://cdn.ttvb.eu.org/douyin/50040079511
 齐景川,https://cdn.ttvb.eu.org/douyin/198547211275
-🍦精瘦瘦🍦,https://cdn.ttvb.eu.org/douyin/1832316360
 A胖瘦了,https://cdn.ttvb.eu.org/douyin/Apangshoule
 CF白鲨阿肯（职业选手）,https://cdn.ttvb.eu.org/douyin/1009277416
 DOTA2中单大魔王,https://cdn.ttvb.eu.org/douyin/dye203qa7ft0
@@ -2035,15 +2018,11 @@ IM智己汽车,https://cdn.ttvb.eu.org/douyin/IM_Motors
 江西新闻联播,https://cdn.ttvb.eu.org/douyin/jxxinwenlianbo
 西递,https://cdn.ttvb.eu.org/douyin/xidi1047
 长江新闻号,https://cdn.ttvb.eu.org/douyin/changjiangnews
-隔壁王教练教育,https://cdn.ttvb.eu.org/douyin/wangjiaolian996
-小海锤石,https://cdn.ttvb.eu.org/douyin/xiaohaichuishi
-帅兄盖伦（大招流寒冰）,https://cdn.ttvb.eu.org/douyin/22719830516
 -Zz,https://cdn.ttvb.eu.org/douyin/52463389890
 00·,https://cdn.ttvb.eu.org/douyin/108084203
 77u,https://cdn.ttvb.eu.org/douyin/861499026067
 GXG男装旗舰店,https://cdn.ttvb.eu.org/douyin/71433089613
 MD1999,https://cdn.ttvb.eu.org/douyin/37029384065
-Since_ow,https://cdn.ttvb.eu.org/douyin/since_ow
 ally,https://cdn.ttvb.eu.org/douyin/a11y222
 ☀️Lusa,https://cdn.ttvb.eu.org/douyin/Lusa17781
 一休不是光头(9277),https://cdn.ttvb.eu.org/douyin/yixiu2001
@@ -2054,7 +2033,6 @@ ally,https://cdn.ttvb.eu.org/douyin/a11y222
 亚总,https://cdn.ttvb.eu.org/douyin/y2776784609
 佳佳૮₍◜ෆ◝.₎ა,https://cdn.ttvb.eu.org/douyin/405696608860
 保琳球有点胖,https://cdn.ttvb.eu.org/douyin/665506271362
-关怀,https://cdn.ttvb.eu.org/douyin/86092814967
 十年尘墨•书法,https://cdn.ttvb.eu.org/douyin/166546112
 南宴笙,https://cdn.ttvb.eu.org/douyin/xiaomo222
 又又不乖了,https://cdn.ttvb.eu.org/douyin/128851795
@@ -2066,8 +2044,6 @@ ally,https://cdn.ttvb.eu.org/douyin/a11y222
 姚求雨（街霸6带新圣手）,https://cdn.ttvb.eu.org/douyin/908823576
 姜儿🔆,https://cdn.ttvb.eu.org/douyin/52321340836
 安久电台🍀,https://cdn.ttvb.eu.org/douyin/37532256839
-小央视频,https://cdn.ttvb.eu.org/douyin/cctv_video
-小欣,https://cdn.ttvb.eu.org/douyin/61691464016
 小深深儿,https://cdn.ttvb.eu.org/douyin/5233.
 小满,https://cdn.ttvb.eu.org/douyin/Yoe_wj0328
 小米官方旗舰店,https://cdn.ttvb.eu.org/douyin/xiaomizhibojian
@@ -2084,19 +2060,15 @@ ally,https://cdn.ttvb.eu.org/douyin/a11y222
 昊天（三角洲行动）,https://cdn.ttvb.eu.org/douyin/32707556121qu
 曲岑兮,https://cdn.ttvb.eu.org/douyin/243879030341
 杜小歪⁴¹⁷,https://cdn.ttvb.eu.org/douyin/1564612553
-极光新闻,https://cdn.ttvb.eu.org/douyin/jiguangxinwen
 毕家瑶🍀⁷⁶⁸,https://cdn.ttvb.eu.org/douyin/bijiayao0807
 沐沅er🩵,https://cdn.ttvb.eu.org/douyin/16163816816833y.
 沛沛🐰,https://cdn.ttvb.eu.org/douyin/LPM980108
 泡芙（ASMR助眠）,https://cdn.ttvb.eu.org/douyin/paofufu2333
 洋芋,https://cdn.ttvb.eu.org/douyin/laoyang828
-浙有正能量,https://cdn.ttvb.eu.org/douyin/sir000115
 混北守望先锋,https://cdn.ttvb.eu.org/douyin/8466172
 王sir（守望先锋）,https://cdn.ttvb.eu.org/douyin/570910488335
 王者荣耀白瑞,https://cdn.ttvb.eu.org/douyin/bairui611666
-电影频道云影院,https://cdn.ttvb.eu.org/douyin/cctv6cinema
 石锅鱼,https://cdn.ttvb.eu.org/douyin/yx1357934468
-第一现场,https://cdn.ttvb.eu.org/douyin/881575999
 筱卉,https://cdn.ttvb.eu.org/douyin/44267886721
 耳边蓝心,https://cdn.ttvb.eu.org/douyin/32242836814
 聚光,https://cdn.ttvb.eu.org/douyin/96179016392
@@ -2108,13 +2080,10 @@ ally,https://cdn.ttvb.eu.org/douyin/a11y222
 萌粒萌🎀,https://cdn.ttvb.eu.org/douyin/30569099
 蒋一帆🐵,https://cdn.ttvb.eu.org/douyin/173956876
 虫虫,https://cdn.ttvb.eu.org/douyin/515537642425
-西安发布,https://cdn.ttvb.eu.org/douyin/xianfabu029
-豫见文化,https://cdn.ttvb.eu.org/douyin/1041199203
 赫拉,https://cdn.ttvb.eu.org/douyin/6394882
 迅猛龙 特蕾莎,https://cdn.ttvb.eu.org/douyin/Yoursisterrp
 邻家小小欢,https://cdn.ttvb.eu.org/douyin/94181502605
 野马Guts,https://cdn.ttvb.eu.org/douyin/Zic666
-锦一电台,https://cdn.ttvb.eu.org/douyin/Jinyi.15
 锦绣长歌01,https://cdn.ttvb.eu.org/douyin/85864865902
 阿安（巅峰第一）,https://cdn.ttvb.eu.org/douyin/aagb0215
 阿酱猪,https://cdn.ttvb.eu.org/douyin/hippiejammm07
@@ -2136,7 +2105,6 @@ Vie,https://cdn.ttvb.eu.org/douyin/kaixinX1
 dota乖,https://cdn.ttvb.eu.org/douyin/ggod1112
 jjking(剑姬教父),https://cdn.ttvb.eu.org/douyin/57894179290
 silent,https://cdn.ttvb.eu.org/douyin/stay0712.
-vx30,https://cdn.ttvb.eu.org/douyin/543221183540
 xppp(金铲铲之战),https://cdn.ttvb.eu.org/douyin/xppppppppppp
 一夜黑雨守望先锋,https://cdn.ttvb.eu.org/douyin/gx50362088
 七待（三角洲行动）,https://cdn.ttvb.eu.org/douyin/394497217759
@@ -2154,13 +2122,11 @@ xppp(金铲铲之战),https://cdn.ttvb.eu.org/douyin/xppppppppppp
 小哈呀,https://cdn.ttvb.eu.org/douyin/xiaoha_ovo
 小柒0. o⁷,https://cdn.ttvb.eu.org/douyin/53072873496
 小柴（s16韩服第一剑魔克烈）,https://cdn.ttvb.eu.org/douyin/xiaochai1126
-小猪仔(墨镜仙人),https://cdn.ttvb.eu.org/douyin/25924328956
 小蓝（CODM）,https://cdn.ttvb.eu.org/douyin/39100358605
 峡谷时光王(东东电竞),https://cdn.ttvb.eu.org/douyin/187772791280
 帝国时代2肥龙大师,https://cdn.ttvb.eu.org/douyin/feilongdashi
 张不才,https://cdn.ttvb.eu.org/douyin/zbcll0715
 影子人,https://cdn.ttvb.eu.org/douyin/54072455584
-数码不是光头（9277）,https://cdn.ttvb.eu.org/douyin/shumajiang73
 某不知名网友小傅,https://cdn.ttvb.eu.org/douyin/bjxiaofu
 柔风亚索（峡谷韩服双千分王者）,https://cdn.ttvb.eu.org/douyin/YasuoGod
 格局OoO,https://cdn.ttvb.eu.org/douyin/douyingeju
@@ -2176,7 +2142,6 @@ xppp(金铲铲之战),https://cdn.ttvb.eu.org/douyin/xppppppppppp
 神戟,https://cdn.ttvb.eu.org/douyin/65518160435
 花麻麻,https://cdn.ttvb.eu.org/douyin/HMM438
 苏晗（王者荣耀）,https://cdn.ttvb.eu.org/douyin/suhanxiaohao
-蓝汐（2W1老虎暃）,https://cdn.ttvb.eu.org/douyin/63962334778
 薛晓,https://cdn.ttvb.eu.org/douyin/xxakl3
 言崎（三角洲行动）,https://cdn.ttvb.eu.org/douyin/L04198888
 错觉老中医（PUBG）,https://cdn.ttvb.eu.org/douyin/CuoJue1990
@@ -2188,17 +2153,52 @@ xppp(金铲铲之战),https://cdn.ttvb.eu.org/douyin/xppppppppppp
 Bingo教英语,https://cdn.ttvb.eu.org/douyin/74804585465
 PUMA官方旗舰店,https://cdn.ttvb.eu.org/douyin/87524611523
 交个朋友直播间,https://cdn.ttvb.eu.org/douyin/JGPYZBJ
-劳动报,https://cdn.ttvb.eu.org/douyin/laodongbao
 千益体育,https://cdn.ttvb.eu.org/douyin/TYW804728
-四国军棋·神一般的糟老头子,https://cdn.ttvb.eu.org/douyin/ve788777
-央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
-央视网快看,https://cdn.ttvb.eu.org/douyin/kuaikancctv
 央视网科技,https://cdn.ttvb.eu.org/douyin/66415451233.
-央视网财经,https://cdn.ttvb.eu.org/douyin/nuanxinnengl
-新闻110,https://cdn.ttvb.eu.org/douyin/yuanyangluNO.1
 泉水叮咚粤讲故,https://cdn.ttvb.eu.org/douyin/yuegushi
 海蒂的花园官方旗舰店,https://cdn.ttvb.eu.org/douyin/hddhy20202
 🏐排球主播女排YuKi🏐（直播排球）,https://cdn.ttvb.eu.org/douyin/YuKipaiqiu
+小海锤石,https://cdn.ttvb.eu.org/douyin/xiaohaichuishi
+帅兄盖伦（大招流寒冰）,https://cdn.ttvb.eu.org/douyin/22719830516
+Since_ow,https://cdn.ttvb.eu.org/douyin/since_ow
+一个梦,https://cdn.ttvb.eu.org/douyin/S202290888
+关怀,https://cdn.ttvb.eu.org/douyin/86092814967
+哏的,https://cdn.ttvb.eu.org/douyin/genjiujiu88888
+土豆雷（第五人格）,https://cdn.ttvb.eu.org/douyin/34497201663
+安妮Anne🎙（深情演绎）,https://cdn.ttvb.eu.org/douyin/54223704689
+小央视频,https://cdn.ttvb.eu.org/douyin/cctv_video
+小欣,https://cdn.ttvb.eu.org/douyin/61691464016
+强哥爱录声控助眠asmr（世一虚）,https://cdn.ttvb.eu.org/douyin/69446958014
+我叫娟儿💕,https://cdn.ttvb.eu.org/douyin/440341655196
+极光新闻,https://cdn.ttvb.eu.org/douyin/jiguangxinwen
+浙有正能量,https://cdn.ttvb.eu.org/douyin/sir000115
+甜德莉娜Mia,https://cdn.ttvb.eu.org/douyin/85401881468
+电影频道云影院,https://cdn.ttvb.eu.org/douyin/cctv6cinema
+第一现场,https://cdn.ttvb.eu.org/douyin/881575999
+胖胖✈️☁️,https://cdn.ttvb.eu.org/douyin/102953757
+西安发布,https://cdn.ttvb.eu.org/douyin/xianfabu029
+豫见文化,https://cdn.ttvb.eu.org/douyin/1041199203
+锦一电台,https://cdn.ttvb.eu.org/douyin/Jinyi.15
+静静在夏天🍔🎤⁰³²⁰,https://cdn.ttvb.eu.org/douyin/828868968740
+🍦精瘦瘦🍦,https://cdn.ttvb.eu.org/douyin/1832316360
+Mentality桃,https://cdn.ttvb.eu.org/douyin/394260640881
+vx30,https://cdn.ttvb.eu.org/douyin/543221183540
+九尾（黑车第一人）,https://cdn.ttvb.eu.org/douyin/37332120041
+卡兔琳娜（佐伊妖姬神）,https://cdn.ttvb.eu.org/douyin/97535727417
+小猪仔(墨镜仙人),https://cdn.ttvb.eu.org/douyin/25924328956
+数码不是光头（9277）,https://cdn.ttvb.eu.org/douyin/shumajiang73
+王者荣耀王某-（白吃火舞）,https://cdn.ttvb.eu.org/douyin/dy25887814
+王者阿水,https://cdn.ttvb.eu.org/douyin/89894783396
+蓝汐（2W1老虎暃）,https://cdn.ttvb.eu.org/douyin/63962334778
+远辞（国服云缨）,https://cdn.ttvb.eu.org/douyin/81355354947
+黑羽（三角洲行动）,https://cdn.ttvb.eu.org/douyin/55189785458
+劳动报,https://cdn.ttvb.eu.org/douyin/laodongbao
+四国军棋·神一般的糟老头子,https://cdn.ttvb.eu.org/douyin/ve788777
+央视文艺,https://cdn.ttvb.eu.org/douyin/1027321223
+央视网快看,https://cdn.ttvb.eu.org/douyin/kuaikancctv
+央视网财经,https://cdn.ttvb.eu.org/douyin/nuanxinnengl
+新闻110,https://cdn.ttvb.eu.org/douyin/yuanyangluNO.1
+隔壁王教练教育,https://cdn.ttvb.eu.org/douyin/wangjiaolian996
 虎牙,#genre#
 满创-苏棠,https://cdn.ttvb.eu.org/huya/31292435
 集美温柔【ZKL】白,https://cdn.ttvb.eu.org/huya/51988
@@ -2248,12 +2248,9 @@ MT丶季多鱼,https://cdn.ttvb.eu.org/huya/531309
 avoidless阿伟,https://cdn.ttvb.eu.org/huya/139628
 瞳夕,https://cdn.ttvb.eu.org/huya/814814
 暖洋羊洋,https://cdn.ttvb.eu.org/huya/31295293
-温舒蕾,https://cdn.ttvb.eu.org/huya/691349
-狂鸟丶小玥,https://cdn.ttvb.eu.org/huya/26798562
 结尾超人,https://cdn.ttvb.eu.org/huya/127981
 迷你世界之神丶丶,https://cdn.ttvb.eu.org/huya/152754
 阿稀稀ovo,https://cdn.ttvb.eu.org/huya/52719
-虎牙键盘逗,https://cdn.ttvb.eu.org/huya/513723
 魔创-雅一儿【许仙】,https://cdn.ttvb.eu.org/huya/52033
 Miu-林薇薇,https://cdn.ttvb.eu.org/huya/298039
 书香、uu呀【娜徒】,https://cdn.ttvb.eu.org/huya/154984
@@ -2325,6 +2322,88 @@ YX丶浮光,https://cdn.ttvb.eu.org/huya/721954
 韩涵-TuT,https://cdn.ttvb.eu.org/huya/18123
 台球教练王小鹏【斯诺克】,https://cdn.ttvb.eu.org/huya/149671
 女子世界冠军石春侠,https://cdn.ttvb.eu.org/huya/564185
+-胡椒-,https://cdn.ttvb.eu.org/huya/157395
+Baby蛋儿,https://cdn.ttvb.eu.org/huya/31132388
+CX-梦艺,https://cdn.ttvb.eu.org/huya/128369
+Ck-晚心,https://cdn.ttvb.eu.org/huya/145362
+HR-玉米大王,https://cdn.ttvb.eu.org/huya/158369
+L--梦瑶,https://cdn.ttvb.eu.org/huya/154921
+Letme严君泽,https://cdn.ttvb.eu.org/huya/518518
+cc、柚子【财迷】-锦鲤,https://cdn.ttvb.eu.org/huya/61829
+cxy0714,https://cdn.ttvb.eu.org/huya/770714
+一起看我爱看剧,https://cdn.ttvb.eu.org/huya/30867383
+乐听丶若若,https://cdn.ttvb.eu.org/huya/145920
+书香、夏晚月,https://cdn.ttvb.eu.org/huya/153742
+书香、幼一【261】,https://cdn.ttvb.eu.org/huya/148571
+垫底辣妹QvQ,https://cdn.ttvb.eu.org/huya/143573
+小桃猪猪,https://cdn.ttvb.eu.org/huya/30527430
+小羊YwY,https://cdn.ttvb.eu.org/huya/138698
+我叫小凤仙,https://cdn.ttvb.eu.org/huya/31189469
+正恒-顾九卿,https://cdn.ttvb.eu.org/huya/137483
+深情默指导,https://cdn.ttvb.eu.org/huya/415355
+满创-欧欧,https://cdn.ttvb.eu.org/huya/31128133
+狂鸟丶天天-90327,https://cdn.ttvb.eu.org/huya/924593
+瓦莉拉,https://cdn.ttvb.eu.org/huya/100270
+童锦程【798】,https://cdn.ttvb.eu.org/huya/527988
+轩子巨2猪,https://cdn.ttvb.eu.org/huya/520819
+集梦张开朗【233】,https://cdn.ttvb.eu.org/huya/233
+集美丢丢【ZKL】,https://cdn.ttvb.eu.org/huya/125487
+集美嘉宜【ZKL】,https://cdn.ttvb.eu.org/huya/31363009
+集美太守【ZKL】601,https://cdn.ttvb.eu.org/huya/520047
+集美小呆【ZKL】,https://cdn.ttvb.eu.org/huya/31365924
+集美小怡【ZKL】,https://cdn.ttvb.eu.org/huya/52233
+集美小柔【ZKL】大,https://cdn.ttvb.eu.org/huya/9256
+集美小玲【ZKL】白白白,https://cdn.ttvb.eu.org/huya/92170
+集美小雪【ZKL】,https://cdn.ttvb.eu.org/huya/233997
+集美林语【ZKL】白白白,https://cdn.ttvb.eu.org/huya/158394
+集美欠条【ZKL】白,https://cdn.ttvb.eu.org/huya/30960580
+集美鱼儿【ZKL】无敌白,https://cdn.ttvb.eu.org/huya/77233
+黄口咸阳树,https://cdn.ttvb.eu.org/huya/30692708
+AzZ丶半个橙子,https://cdn.ttvb.eu.org/huya/769178
+CSBOY,https://cdn.ttvb.eu.org/huya/123321
+CSBOY-Mo,https://cdn.ttvb.eu.org/huya/321123
+DANK1NG,https://cdn.ttvb.eu.org/huya/10188
+FF大聪明,https://cdn.ttvb.eu.org/huya/166261
+LING露雪【世1老六】,https://cdn.ttvb.eu.org/huya/326513
+Maybeee111,https://cdn.ttvb.eu.org/huya/211888
+RDZ-Jiale嘉乐,https://cdn.ttvb.eu.org/huya/459804
+War3魔尊重楼,https://cdn.ttvb.eu.org/huya/18958992
+Yumiko0414,https://cdn.ttvb.eu.org/huya/829922
+Zz1tai姿态,https://cdn.ttvb.eu.org/huya/333003
+loveyouq,https://cdn.ttvb.eu.org/huya/148651
+北枫CC,https://cdn.ttvb.eu.org/huya/572329
+半个菜鸟,https://cdn.ttvb.eu.org/huya/15916883
+哲易直胡说,https://cdn.ttvb.eu.org/huya/640056
+安德罗妮丶,https://cdn.ttvb.eu.org/huya/528300
+寒千落丶,https://cdn.ttvb.eu.org/huya/211202
+小孩无敌,https://cdn.ttvb.eu.org/huya/24572223
+巨星-绿绿【最细木兰】,https://cdn.ttvb.eu.org/huya/547825
+张嘉文,https://cdn.ttvb.eu.org/huya/181469
+微竞-呆呆,https://cdn.ttvb.eu.org/huya/616702
+微竞-浪D,https://cdn.ttvb.eu.org/huya/196645
+木槿软辅,https://cdn.ttvb.eu.org/huya/527397
+灵石丶小锦儿,https://cdn.ttvb.eu.org/huya/813749
+狂魔哥解说,https://cdn.ttvb.eu.org/huya/919191
+狂鸟丶小宇热游-90098,https://cdn.ttvb.eu.org/huya/10098
+狂鸟丶楚河-90327,https://cdn.ttvb.eu.org/huya/998
+疯奶丶大硕,https://cdn.ttvb.eu.org/huya/100011
+盛世-苏晓,https://cdn.ttvb.eu.org/huya/427152
+盛世-莱昂凯SHYEARKMIU,https://cdn.ttvb.eu.org/huya/314957
+老中医,https://cdn.ttvb.eu.org/huya/599934
+老实人sask,https://cdn.ttvb.eu.org/huya/579236
+老鬼-MG,https://cdn.ttvb.eu.org/huya/705112
+酸奶困了,https://cdn.ttvb.eu.org/huya/148237
+陈子豪,https://cdn.ttvb.eu.org/huya/199300
+风影【国1三指李信】,https://cdn.ttvb.eu.org/huya/351794
+龙小喵喵喵,https://cdn.ttvb.eu.org/huya/25045889
+一诺台球解说,https://cdn.ttvb.eu.org/huya/10147
+乐一解说,https://cdn.ttvb.eu.org/huya/29385237
+光头阿强球理解说,https://cdn.ttvb.eu.org/huya/28962587
+划线王-马惠明斯诺克,https://cdn.ttvb.eu.org/huya/153793
+划线百嘉,https://cdn.ttvb.eu.org/huya/32588
+虎牙斯诺克1号桌,https://cdn.ttvb.eu.org/huya/20072620
+虎牙斯诺克2号桌,https://cdn.ttvb.eu.org/huya/20072621
+鹿儿影视,https://cdn.ttvb.eu.org/huya/30986994
 V1ncent丶文森特,https://cdn.ttvb.eu.org/huya/949527
 七龙珠,https://live.ottiptv.cc/huya/11601966
 七龙珠,https://live.metshop.top/huya/11601966
@@ -2369,27 +2448,14 @@ V1ncent丶文森特,https://cdn.ttvb.eu.org/huya/949527
 「虎牙」无畏契约,https://cdn.ttvb.eu.org/huya/660679
 「斗鱼」梦幻西游·手游,https://cdn.ttvb.eu.org/huya/9163712
 「斗鱼」街霸,https://cdn.ttvb.eu.org/huya/11437
--胡椒-,https://cdn.ttvb.eu.org/huya/157395
 7喜先生,https://cdn.ttvb.eu.org/huya/11342421
-Baby蛋儿,https://cdn.ttvb.eu.org/huya/31132388
-CX-梦艺,https://cdn.ttvb.eu.org/huya/128369
 Cc,https://cdn.ttvb.eu.org/huya/11601966
-Ck-晚心,https://cdn.ttvb.eu.org/huya/145362
-HR-玉米大王,https://cdn.ttvb.eu.org/huya/158369
 HelloKitty,https://cdn.ttvb.eu.org/huya/11352879
 JJ斗地主,https://cdn.ttvb.eu.org/huya/152698
-L--梦瑶,https://cdn.ttvb.eu.org/huya/154921
-Letme严君泽,https://cdn.ttvb.eu.org/huya/518518
 Navi丶S1mple小电视,https://cdn.ttvb.eu.org/huya/24252134
 TI2026舞台一,https://cdn.ttvb.eu.org/huya/660118
 barry观世界,https://cdn.ttvb.eu.org/huya/20985835
-cc、柚子【财迷】-锦鲤,https://cdn.ttvb.eu.org/huya/61829
-cxy0714,https://cdn.ttvb.eu.org/huya/770714
-一起看我爱看剧,https://cdn.ttvb.eu.org/huya/30867383
-乐听丶若若,https://cdn.ttvb.eu.org/huya/145920
 乔鹿鹿baby【1995】,https://cdn.ttvb.eu.org/huya/9766
-书香、夏晚月,https://cdn.ttvb.eu.org/huya/153742
-书香、幼一【261】,https://cdn.ttvb.eu.org/huya/148571
 偷心大盗ヽ龙宝,https://cdn.ttvb.eu.org/huya/11342386
 傍晚猴,https://cdn.ttvb.eu.org/huya/30080236
 兄台明鉴,https://cdn.ttvb.eu.org/huya/23482266
@@ -2403,44 +2469,36 @@ cxy0714,https://cdn.ttvb.eu.org/huya/770714
 周星星,https://cdn.ttvb.eu.org/huya/11342412
 四大裁子之首,https://cdn.ttvb.eu.org/huya/11602058
 坦克世界,https://cdn.ttvb.eu.org/huya/22417545
-垫底辣妹QvQ,https://cdn.ttvb.eu.org/huya/143573
 夏夜小妖咪,https://cdn.ttvb.eu.org/huya/31312768
 对君白蜥蜴,https://cdn.ttvb.eu.org/huya/26355776
 小小小酷哥-组织,https://cdn.ttvb.eu.org/huya/1995
 小木子先生丶,https://cdn.ttvb.eu.org/huya/11342396
-小桃猪猪,https://cdn.ttvb.eu.org/huya/30527430
 小琦琪,https://cdn.ttvb.eu.org/huya/21241819
-小羊YwY,https://cdn.ttvb.eu.org/huya/138698
 小虎牙-9zUJscDWkH,https://cdn.ttvb.eu.org/huya/30080146
 小雅陪你看,https://cdn.ttvb.eu.org/huya/30080225
 张伟丽MMA,https://cdn.ttvb.eu.org/huya/134769
 悠悠爱电影,https://cdn.ttvb.eu.org/huya/30611864
-我叫小凤仙,https://cdn.ttvb.eu.org/huya/31189469
 我很忙,https://cdn.ttvb.eu.org/huya/11352950
 我爱黑科技,https://cdn.ttvb.eu.org/huya/11602068
 新奇好玩喵,https://cdn.ttvb.eu.org/huya/21059610
 星河信箱,https://cdn.ttvb.eu.org/huya/20969101
 杀猪饲料,https://cdn.ttvb.eu.org/huya/661204
 柯冉冉,https://cdn.ttvb.eu.org/huya/11352874
-正恒-顾九卿,https://cdn.ttvb.eu.org/huya/137483
 武林萌主唐小姐,https://cdn.ttvb.eu.org/huya/11336726
 永艳金铭,https://cdn.ttvb.eu.org/huya/26355839
 海绵宝宝宝,https://cdn.ttvb.eu.org/huya/11352919
-深情默指导,https://cdn.ttvb.eu.org/huya/415355
+温舒蕾,https://cdn.ttvb.eu.org/huya/691349
 港剧慢品汇,https://cdn.ttvb.eu.org/huya/23865142
 港片剧情真好,https://cdn.ttvb.eu.org/huya/29465859
-满创-欧欧,https://cdn.ttvb.eu.org/huya/31128133
 火箭赛事专场,https://cdn.ttvb.eu.org/huya/880237
 无尾鱼°,https://cdn.ttvb.eu.org/huya/11601961
 特大王天一直播轮播,https://cdn.ttvb.eu.org/huya/19096040
-狂鸟丶天天-90327,https://cdn.ttvb.eu.org/huya/924593
+狂鸟丶小玥,https://cdn.ttvb.eu.org/huya/26798562
 狂鸟丶飞机文,https://cdn.ttvb.eu.org/huya/155525
 王者荣耀赛事,https://cdn.ttvb.eu.org/huya/660002
-瓦莉拉,https://cdn.ttvb.eu.org/huya/100270
 电视剧痴迷者,https://cdn.ttvb.eu.org/huya/29465856
 电视迷痴迷港剧,https://cdn.ttvb.eu.org/huya/29465851
 神秘小希哟,https://cdn.ttvb.eu.org/huya/20985843
-童锦程【798】,https://cdn.ttvb.eu.org/huya/527988
 粤语电影放映厅,https://cdn.ttvb.eu.org/huya/21059572
 绮夏【刘绮夏】,https://cdn.ttvb.eu.org/huya/291326
 美少女咸儿,https://cdn.ttvb.eu.org/huya/11336572
@@ -2455,86 +2513,31 @@ cxy0714,https://cdn.ttvb.eu.org/huya/770714
 虎牙英雄联盟赛事,https://cdn.ttvb.eu.org/huya/660000
 赛文777,https://cdn.ttvb.eu.org/huya/21059607
 超能力是放pi,https://cdn.ttvb.eu.org/huya/11352906
-轩子巨2猪,https://cdn.ttvb.eu.org/huya/520819
 重口味爱好者,https://cdn.ttvb.eu.org/huya/11352889
 陈懒懒a,https://cdn.ttvb.eu.org/huya/30614371
 陈翔六点半,https://cdn.ttvb.eu.org/huya/11274154
 雅雅想吃芝士,https://cdn.ttvb.eu.org/huya/22484908
-集梦张开朗【233】,https://cdn.ttvb.eu.org/huya/233
-集美丢丢【ZKL】,https://cdn.ttvb.eu.org/huya/125487
-集美嘉宜【ZKL】,https://cdn.ttvb.eu.org/huya/31363009
-集美太守【ZKL】601,https://cdn.ttvb.eu.org/huya/520047
-集美小呆【ZKL】,https://cdn.ttvb.eu.org/huya/31365924
-集美小怡【ZKL】,https://cdn.ttvb.eu.org/huya/52233
-集美小柔【ZKL】大,https://cdn.ttvb.eu.org/huya/9256
-集美小玲【ZKL】白白白,https://cdn.ttvb.eu.org/huya/92170
-集美小雪【ZKL】,https://cdn.ttvb.eu.org/huya/233997
-集美林语【ZKL】白白白,https://cdn.ttvb.eu.org/huya/158394
-集美欠条【ZKL】白,https://cdn.ttvb.eu.org/huya/30960580
-集美鱼儿【ZKL】无敌白,https://cdn.ttvb.eu.org/huya/77233
 音乐小石榴,https://cdn.ttvb.eu.org/huya/17091681
 领带哥,https://cdn.ttvb.eu.org/huya/11342430
-黄口咸阳树,https://cdn.ttvb.eu.org/huya/30692708
 AG绝迹,https://cdn.ttvb.eu.org/huya/115959
-AzZ丶半个橙子,https://cdn.ttvb.eu.org/huya/769178
-CSBOY,https://cdn.ttvb.eu.org/huya/123321
-CSBOY-Mo,https://cdn.ttvb.eu.org/huya/321123
-DANK1NG,https://cdn.ttvb.eu.org/huya/10188
-FF大聪明,https://cdn.ttvb.eu.org/huya/166261
-LING露雪【世1老六】,https://cdn.ttvb.eu.org/huya/326513
-Maybeee111,https://cdn.ttvb.eu.org/huya/211888
-RDZ-Jiale嘉乐,https://cdn.ttvb.eu.org/huya/459804
 TG-左耳老熊,https://cdn.ttvb.eu.org/huya/834622
-War3魔尊重楼,https://cdn.ttvb.eu.org/huya/18958992
-Yumiko0414,https://cdn.ttvb.eu.org/huya/829922
-Zz1tai姿态,https://cdn.ttvb.eu.org/huya/333003
 baicaiovo,https://cdn.ttvb.eu.org/huya/691406
 huya丶寒星,https://cdn.ttvb.eu.org/huya/172392
-loveyouq,https://cdn.ttvb.eu.org/huya/148651
 保镖-大镖客DBKiLL,https://cdn.ttvb.eu.org/huya/816515
-北枫CC,https://cdn.ttvb.eu.org/huya/572329
-半个菜鸟,https://cdn.ttvb.eu.org/huya/15916883
 华创-达文西,https://cdn.ttvb.eu.org/huya/584260
-哲易直胡说,https://cdn.ttvb.eu.org/huya/640056
 唐轩宇-,https://cdn.ttvb.eu.org/huya/610829
-安德罗妮丶,https://cdn.ttvb.eu.org/huya/528300
-寒千落丶,https://cdn.ttvb.eu.org/huya/211202
-小孩无敌,https://cdn.ttvb.eu.org/huya/24572223
 小飒电竞丶董小飒,https://cdn.ttvb.eu.org/huya/13579
-巨星-绿绿【最细木兰】,https://cdn.ttvb.eu.org/huya/547825
-张嘉文,https://cdn.ttvb.eu.org/huya/181469
-微竞-呆呆,https://cdn.ttvb.eu.org/huya/616702
-微竞-浪D,https://cdn.ttvb.eu.org/huya/196645
 忆玖-一晨【狙神】,https://cdn.ttvb.eu.org/huya/607911
-木槿软辅,https://cdn.ttvb.eu.org/huya/527397
 杨齐家丶,https://cdn.ttvb.eu.org/huya/60066
-灵石丶小锦儿,https://cdn.ttvb.eu.org/huya/813749
 炉石春哥,https://cdn.ttvb.eu.org/huya/312410
-狂魔哥解说,https://cdn.ttvb.eu.org/huya/919191
 狂鸟丶单身狗-90327,https://cdn.ttvb.eu.org/huya/482
-狂鸟丶小宇热游-90098,https://cdn.ttvb.eu.org/huya/10098
-狂鸟丶楚河-90327,https://cdn.ttvb.eu.org/huya/998
-疯奶丶大硕,https://cdn.ttvb.eu.org/huya/100011
 盛世-十四剑姬,https://cdn.ttvb.eu.org/huya/12214
-盛世-苏晓,https://cdn.ttvb.eu.org/huya/427152
-盛世-莱昂凯SHYEARKMIU,https://cdn.ttvb.eu.org/huya/314957
-老中医,https://cdn.ttvb.eu.org/huya/599934
-老实人sask,https://cdn.ttvb.eu.org/huya/579236
-老鬼-MG,https://cdn.ttvb.eu.org/huya/705112
+虎牙键盘逗,https://cdn.ttvb.eu.org/huya/513723
 超维视界邀请赛主舞台,https://cdn.ttvb.eu.org/huya/473271
-酸奶困了,https://cdn.ttvb.eu.org/huya/148237
-陈子豪,https://cdn.ttvb.eu.org/huya/199300
 随风蛮王ovo,https://cdn.ttvb.eu.org/huya/387067
 非凡-迪安,https://cdn.ttvb.eu.org/huya/940213
-风影【国1三指李信】,https://cdn.ttvb.eu.org/huya/351794
-龙小喵喵喵,https://cdn.ttvb.eu.org/huya/25045889
 JJ麻将,https://cdn.ttvb.eu.org/huya/28511836
 【炊烟大壮】,https://cdn.ttvb.eu.org/huya/24782284
-一诺台球解说,https://cdn.ttvb.eu.org/huya/10147
-乐一解说,https://cdn.ttvb.eu.org/huya/29385237
-光头阿强球理解说,https://cdn.ttvb.eu.org/huya/28962587
-划线王-马惠明斯诺克,https://cdn.ttvb.eu.org/huya/153793
-划线百嘉,https://cdn.ttvb.eu.org/huya/32588
 原始美食与生活,https://cdn.ttvb.eu.org/huya/21356214
 去疼片,https://cdn.ttvb.eu.org/huya/15373958
 大蒙乡味,https://cdn.ttvb.eu.org/huya/21288462
@@ -2545,11 +2548,8 @@ JJ麻将,https://cdn.ttvb.eu.org/huya/28511836
 李子柒,https://cdn.ttvb.eu.org/huya/21969336
 梨涡少女mini,https://cdn.ttvb.eu.org/huya/18958242
 虎牙斯诺克,https://cdn.ttvb.eu.org/huya/880214
-虎牙斯诺克1号桌,https://cdn.ttvb.eu.org/huya/20072620
-虎牙斯诺克2号桌,https://cdn.ttvb.eu.org/huya/20072621
 虎牙斯诺克副舞台,https://cdn.ttvb.eu.org/huya/880625
 野原的一家,https://cdn.ttvb.eu.org/huya/11352970
-鹿儿影视,https://cdn.ttvb.eu.org/huya/30986994
 B站,#genre#
 HiiroVTuber,https://cdn.ttvb.eu.org/bilibili/21919321
 取个名真的好麻烦啊,https://cdn.ttvb.eu.org/bilibili/1882761732
@@ -2560,7 +2560,6 @@ HiiroVTuber,https://cdn.ttvb.eu.org/bilibili/21919321
 真红莉爱Official,https://cdn.ttvb.eu.org/bilibili/23611306
 籽岷,https://cdn.ttvb.eu.org/bilibili/544853
 雫るる_Official,https://cdn.ttvb.eu.org/bilibili/21013446
-lovelive,https://cdn.ttvb.eu.org/bilibili/261955
 心中的阿良,https://cdn.ttvb.eu.org/bilibili/26297837
 快乐lalaB,https://cdn.ttvb.eu.org/bilibili/1134638
 撸sir兰陵君,https://cdn.ttvb.eu.org/bilibili/13233348
@@ -2580,7 +2579,6 @@ Liyuu_,https://cdn.ttvb.eu.org/bilibili/5265
 小鬼卡比,https://cdn.ttvb.eu.org/bilibili/22301805
 柴吸,https://cdn.ttvb.eu.org/bilibili/372454
 欣乃ちゃん,https://cdn.ttvb.eu.org/bilibili/2828294
-炉石mmf,https://cdn.ttvb.eu.org/bilibili/26312812
 禅月5,https://cdn.ttvb.eu.org/bilibili/24355417
 雨纪_Ameki,https://cdn.ttvb.eu.org/bilibili/27628019
 雨里尘歌,https://cdn.ttvb.eu.org/bilibili/1944499462
@@ -2610,7 +2608,6 @@ OA-SHY,https://cdn.ttvb.eu.org/bilibili/6524090
 Vedal和Neuro-sama,https://cdn.ttvb.eu.org/bilibili/1852504554
 姬酱dayo,https://cdn.ttvb.eu.org/bilibili/1972731391
 婉婉Neko,https://cdn.ttvb.eu.org/bilibili/32201309
-幽铃夜,https://cdn.ttvb.eu.org/bilibili/25515797
 库库_sama,https://cdn.ttvb.eu.org/bilibili/5194110
 红色幻想乡B号机形态,https://cdn.ttvb.eu.org/bilibili/9042354
 乃琳Queen,https://cdn.ttvb.eu.org/bilibili/22625027
@@ -2649,10 +2646,8 @@ MCG_12Tap,https://cdn.ttvb.eu.org/bilibili/23225863
 辉耀计划,https://cdn.ttvb.eu.org/bilibili/24158116
 远古时代装机猿,https://cdn.ttvb.eu.org/bilibili/1361615
 18k体育,https://cdn.ttvb.eu.org/bilibili/1921304247
-Experiment陆贰陆,https://cdn.ttvb.eu.org/bilibili/22973029
 KL_qiqi_,https://cdn.ttvb.eu.org/bilibili/407149
 Tsubaki___,https://cdn.ttvb.eu.org/bilibili/647540
-一条小糖糖,https://cdn.ttvb.eu.org/bilibili/52032
 乖乖丸-16号生日版,https://cdn.ttvb.eu.org/bilibili/1995463447
 兔毛脑袋,https://cdn.ttvb.eu.org/bilibili/7609755
 军龙神威,https://cdn.ttvb.eu.org/bilibili/1881590699
@@ -2660,7 +2655,6 @@ Tsubaki___,https://cdn.ttvb.eu.org/bilibili/647540
 嘉然今天吃什么,https://cdn.ttvb.eu.org/bilibili/22637261
 大都会的车西Pen,https://cdn.ttvb.eu.org/bilibili/22028775
 奶油-cream-,https://cdn.ttvb.eu.org/bilibili/26960792
-小五丫-超级幸运版,https://cdn.ttvb.eu.org/bilibili/1890512682
 小思_22号生日版,https://cdn.ttvb.eu.org/bilibili/1740578928
 捏馒馒滴,https://cdn.ttvb.eu.org/bilibili/26807332
 梦仔Lark,https://cdn.ttvb.eu.org/bilibili/1829732151
@@ -2687,18 +2681,15 @@ Liz老师教英语,https://cdn.ttvb.eu.org/bilibili/1921305354
 早椰恋恋,https://cdn.ttvb.eu.org/bilibili/26774400
 王楚淇,https://cdn.ttvb.eu.org/bilibili/24078537
 真栗,https://cdn.ttvb.eu.org/bilibili/883263
-CSGO官方赛事,https://cdn.ttvb.eu.org/bilibili/35
 星空君说宇宙,https://cdn.ttvb.eu.org/bilibili/2065673
 河南民生频道大参考,https://cdn.ttvb.eu.org/bilibili/22715263
 随手保存SE,https://cdn.ttvb.eu.org/bilibili/173218
 丶我爱洗澡,https://cdn.ttvb.eu.org/bilibili/25919092
-孤单到黎明,https://cdn.ttvb.eu.org/bilibili/14365632
 青铜树海,https://cdn.ttvb.eu.org/bilibili/1774678
 694-27,https://cdn.ttvb.eu.org/bilibili/1726550092
 JIPA_,https://cdn.ttvb.eu.org/bilibili/6669818
 三天两觉是也,https://cdn.ttvb.eu.org/bilibili/47721
 事实即真理,https://cdn.ttvb.eu.org/bilibili/30897517
-云墨染s,https://cdn.ttvb.eu.org/bilibili/9193634
 亦春华,https://cdn.ttvb.eu.org/bilibili/3331561
 凤凰传奇,https://cdn.ttvb.eu.org/bilibili/27404696
 千初_fiitu,https://cdn.ttvb.eu.org/bilibili/1123395
@@ -2749,7 +2740,6 @@ yy没有_Official,https://cdn.ttvb.eu.org/bilibili/11935852
 原味侃球005,https://cdn.ttvb.eu.org/bilibili/1941169487
 又甜又丧的肥宅,https://cdn.ttvb.eu.org/bilibili/22860104
 吴师傅水晶科普书作者,https://cdn.ttvb.eu.org/bilibili/22771541
-复活的MELT39,https://cdn.ttvb.eu.org/bilibili/69013
 天気预报_Euc,https://cdn.ttvb.eu.org/bilibili/1890955729
 奇遇叶良,https://cdn.ttvb.eu.org/bilibili/8099142
 妖妖天瑜,https://cdn.ttvb.eu.org/bilibili/541501
@@ -2770,13 +2760,11 @@ yy没有_Official,https://cdn.ttvb.eu.org/bilibili/11935852
 琳琳囡囡爱追剧,https://cdn.ttvb.eu.org/bilibili/14546227
 盐无Shio,https://cdn.ttvb.eu.org/bilibili/1869218005
 老子名叫小冬瓜,https://cdn.ttvb.eu.org/bilibili/8382563
-萌萌哒老陈,https://cdn.ttvb.eu.org/bilibili/719085
 蔓柠er,https://cdn.ttvb.eu.org/bilibili/1786565278
 虾虾mizu,https://cdn.ttvb.eu.org/bilibili/30147725
 诺子哥SNF,https://cdn.ttvb.eu.org/bilibili/24314927
 赵俊日,https://cdn.ttvb.eu.org/bilibili/22174141
 趁早qr,https://cdn.ttvb.eu.org/bilibili/1730468146
-迷影社,https://cdn.ttvb.eu.org/bilibili/545007
 邪王MAX,https://cdn.ttvb.eu.org/bilibili/11203085
 阿凡提农场场主,https://cdn.ttvb.eu.org/bilibili/1740574405
 马登福叔,https://cdn.ttvb.eu.org/bilibili/25710458
@@ -2796,100 +2784,52 @@ LIGhtYgo,https://cdn.ttvb.eu.org/bilibili/527206
 独醉Ve,https://cdn.ttvb.eu.org/bilibili/22810803
 南柯十七梦,https://cdn.ttvb.eu.org/bilibili/4734353
 悲怆先知,https://cdn.ttvb.eu.org/bilibili/22604707
-梦境up主,https://cdn.ttvb.eu.org/bilibili/2957705
-蜡笔小新,https://live.ottiptv.cc/bilibili/30837590
-「B站」热门赛事,https://cdn.ttvb.eu.org/bilibili/10
-「B站」CS 2,https://cdn.ttvb.eu.org/bilibili/21622811
-「B站」英雄联盟,https://cdn.ttvb.eu.org/bilibili/6
-「B站」英雄联盟•手游,https://cdn.ttvb.eu.org/bilibili/23138275
-「B站」王者荣耀 𝟙,https://cdn.ttvb.eu.org/bilibili/55
-「B站」王者荣耀 𝟚,https://cdn.ttvb.eu.org/bilibili/21654762
-「B站」绝地求生,https://cdn.ttvb.eu.org/bilibili/98
-「B站」使命召唤•手游,https://cdn.ttvb.eu.org/bilibili/22741849
-「B站」第五人格,https://cdn.ttvb.eu.org/bilibili/5555
-「B站」无畏契约,https://cdn.ttvb.eu.org/bilibili/22908869
-「B站」QQ飞车•手游,https://cdn.ttvb.eu.org/bilibili/21743919
-「B站」JJ斗地主,https://cdn.ttvb.eu.org/bilibili/22021983
 -鹤米-,https://cdn.ttvb.eu.org/bilibili/1917442758
 178的珞老师S,https://cdn.ttvb.eu.org/bilibili/1963656673
-1xRelax,https://cdn.ttvb.eu.org/bilibili/27536309
 Asaki大人,https://cdn.ttvb.eu.org/bilibili/732
-CS2-德云两鬼,https://cdn.ttvb.eu.org/bilibili/22889518
-Mr迷瞪,https://cdn.ttvb.eu.org/bilibili/22491717
-N只猫做主播,https://cdn.ttvb.eu.org/bilibili/21156724
 OA-Sunzo,https://cdn.ttvb.eu.org/bilibili/30040584
-OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
 UCYU,https://cdn.ttvb.eu.org/bilibili/10265
-rainasleep,https://cdn.ttvb.eu.org/bilibili/25559603
 yy好犯困,https://cdn.ttvb.eu.org/bilibili/1992699795
-チルノヽ,https://cdn.ttvb.eu.org/bilibili/22863790
-三面的硬币,https://cdn.ttvb.eu.org/bilibili/1026846
 上汽大众,https://cdn.ttvb.eu.org/bilibili/22595201
-两米高的猫哥和36只猫,https://cdn.ttvb.eu.org/bilibili/21473355
 中中中Chun,https://cdn.ttvb.eu.org/bilibili/31061301
-丿丶夜曦,https://cdn.ttvb.eu.org/bilibili/4421957
 二老师原创,https://cdn.ttvb.eu.org/bilibili/6103516
-余生的客栈,https://cdn.ttvb.eu.org/bilibili/14495324
-全心全意小天鹅,https://cdn.ttvb.eu.org/bilibili/1852503030
 凌十四丶,https://cdn.ttvb.eu.org/bilibili/21589042
 凯芒KeMon,https://cdn.ttvb.eu.org/bilibili/31518457
 友利Mori,https://cdn.ttvb.eu.org/bilibili/8915924
 叶绘花莲_Karen,https://cdn.ttvb.eu.org/bilibili/1880057560
 君君-国学四柱八字,https://cdn.ttvb.eu.org/bilibili/1726012075
 咲花なる,https://cdn.ttvb.eu.org/bilibili/23720185
-哔哩哔哩王者荣耀赛事,https://cdn.ttvb.eu.org/bilibili/55
 哔哩哔哩电影,https://cdn.ttvb.eu.org/bilibili/544957
 喵猫哩哩,https://cdn.ttvb.eu.org/bilibili/7060103
 回国种地的老陈,https://cdn.ttvb.eu.org/bilibili/1779358997
 在这千年的尽头,https://cdn.ttvb.eu.org/bilibili/1225820
 墨千秋动画,https://cdn.ttvb.eu.org/bilibili/32016303
-天国的小伙伴,https://cdn.ttvb.eu.org/bilibili/13131453
 天才少年卜天才,https://cdn.ttvb.eu.org/bilibili/14466268
-奉旨娶老婆,https://cdn.ttvb.eu.org/bilibili/1896525489
-小张陪你考研上岸,https://cdn.ttvb.eu.org/bilibili/21782709
 小松绿Viridis,https://cdn.ttvb.eu.org/bilibili/1727071052
 小鹿耶y,https://cdn.ttvb.eu.org/bilibili/24320482
 崽崽不吃青菜yy,https://cdn.ttvb.eu.org/bilibili/1844846826
-幸运的LANCERRR,https://cdn.ttvb.eu.org/bilibili/13563
 广州视界CANTONOW,https://cdn.ttvb.eu.org/bilibili/4775711
 归园风物-快乐猫播,https://cdn.ttvb.eu.org/bilibili/26296537
 心羽萝妮Official,https://cdn.ttvb.eu.org/bilibili/2853663
 成都朵拉雀庄,https://cdn.ttvb.eu.org/bilibili/26476278
-我叫杨坤,https://cdn.ttvb.eu.org/bilibili/25306496
 拜见小怡大王z,https://cdn.ttvb.eu.org/bilibili/1913416006
-插画师青柠,https://cdn.ttvb.eu.org/bilibili/1831478664
 月夕颜_Yuki07,https://cdn.ttvb.eu.org/bilibili/725688
-机器工具人,https://cdn.ttvb.eu.org/bilibili/164725
 梦回乒乓,https://cdn.ttvb.eu.org/bilibili/1982181049
-梦想成真芳,https://cdn.ttvb.eu.org/bilibili/1878514367
-漫传递小南,https://cdn.ttvb.eu.org/bilibili/13423933
 烛灵儿Hikari,https://cdn.ttvb.eu.org/bilibili/21728563
 牛筋哥,https://cdn.ttvb.eu.org/bilibili/32631117
-画画的柯南,https://cdn.ttvb.eu.org/bilibili/1861371393
-白噪音助眠,https://cdn.ttvb.eu.org/bilibili/25248835
 白夕Seal,https://cdn.ttvb.eu.org/bilibili/23336970
 章章今天在干嘛,https://cdn.ttvb.eu.org/bilibili/25324873
-第五人格赛事,https://cdn.ttvb.eu.org/bilibili/6650029
-第五人格赛事,https://cdn.ttvb.eu.org/bilibili/5555
-粘玉米好甜,https://cdn.ttvb.eu.org/bilibili/26145297
 老佳OLP,https://cdn.ttvb.eu.org/bilibili/701979
 老王Games,https://cdn.ttvb.eu.org/bilibili/3671923
-花猫冬冬,https://cdn.ttvb.eu.org/bilibili/22421617
 茶馆小二_,https://cdn.ttvb.eu.org/bilibili/1933931399
-莫非Cs,https://cdn.ttvb.eu.org/bilibili/22781595
 蛋仔派对啦,https://cdn.ttvb.eu.org/bilibili/1755259364
 言叶kun,https://cdn.ttvb.eu.org/bilibili/7743967
-进击的睿哥哥,https://cdn.ttvb.eu.org/bilibili/1876319803
 逢秋陌玖,https://cdn.ttvb.eu.org/bilibili/1909962045
 阿梓从小就很可爱,https://cdn.ttvb.eu.org/bilibili/80397
-音疗冥想369,https://cdn.ttvb.eu.org/bilibili/21810935
 高老师爱足球,https://cdn.ttvb.eu.org/bilibili/23923452
-魅魔之恋,https://cdn.ttvb.eu.org/bilibili/1805598741
 鲁铎尔象征,https://cdn.ttvb.eu.org/bilibili/23244528
 狂暴台球,https://cdn.ttvb.eu.org/huya/27052956
 BestNaomi,https://cdn.ttvb.eu.org/bilibili/4017751
-CS-advent,https://cdn.ttvb.eu.org/bilibili/1883358196
-JJ斗地主官方,https://cdn.ttvb.eu.org/bilibili/22021983
 Kyo_ow,https://cdn.ttvb.eu.org/bilibili/7395955
 Nanka南,https://cdn.ttvb.eu.org/bilibili/2011110
 OA-LEAVE7,https://cdn.ttvb.eu.org/bilibili/31294374
@@ -2903,19 +2843,14 @@ OA-LEAVE7,https://cdn.ttvb.eu.org/bilibili/31294374
 凉哈皮,https://cdn.ttvb.eu.org/bilibili/1695
 半支烟sama,https://cdn.ttvb.eu.org/bilibili/1327236
 半角数字君,https://cdn.ttvb.eu.org/bilibili/2712683
-哔哩哔哩英雄联盟赛事,https://cdn.ttvb.eu.org/bilibili/6
-哔哩哔哩英雄联盟赛事,https://cdn.ttvb.eu.org/bilibili/7734200
 小柳梢z,https://cdn.ttvb.eu.org/bilibili/22889482
 少年Pi,https://cdn.ttvb.eu.org/bilibili/92613
 意识DT,https://cdn.ttvb.eu.org/bilibili/22957791
-无畏契约赛事,https://cdn.ttvb.eu.org/bilibili/22908869
 时间只玩辅,https://cdn.ttvb.eu.org/bilibili/11058609
-时雨ioo,https://cdn.ttvb.eu.org/bilibili/7401280
 是橘长呀,https://cdn.ttvb.eu.org/bilibili/4888267
 燃の歌,https://cdn.ttvb.eu.org/bilibili/5538307
 狗狗元气满满,https://cdn.ttvb.eu.org/bilibili/22581883
 狗狗狗雨,https://cdn.ttvb.eu.org/bilibili/102
-王者荣耀甲级职业联赛,https://cdn.ttvb.eu.org/bilibili/21654762
 甜药Jamren,https://cdn.ttvb.eu.org/bilibili/13308358
 石大壮zz,https://cdn.ttvb.eu.org/bilibili/22789574
 破碎的星光brkstar,https://cdn.ttvb.eu.org/bilibili/9576151
@@ -2924,7 +2859,6 @@ OA-LEAVE7,https://cdn.ttvb.eu.org/bilibili/31294374
 罗太又破防了,https://cdn.ttvb.eu.org/bilibili/23929781
 翼侯大人,https://cdn.ttvb.eu.org/bilibili/60989
 老King呀老King,https://cdn.ttvb.eu.org/bilibili/5166132
-老实憨厚的笑笑,https://cdn.ttvb.eu.org/bilibili/7777
 老李和老于,https://cdn.ttvb.eu.org/bilibili/1874917070
 老飞宇66,https://cdn.ttvb.eu.org/bilibili/7878
 老骚豆腐,https://cdn.ttvb.eu.org/bilibili/462
@@ -2932,29 +2866,96 @@ OA-LEAVE7,https://cdn.ttvb.eu.org/bilibili/31294374
 若雷国一钟馗,https://cdn.ttvb.eu.org/bilibili/23098187
 菜农来辣,https://cdn.ttvb.eu.org/bilibili/11192805
 裕刺Fy,https://cdn.ttvb.eu.org/bilibili/447
-请支持诺希,https://cdn.ttvb.eu.org/bilibili/1870881249
 赵小天咯,https://cdn.ttvb.eu.org/bilibili/21640394
 这里是BO叔叔,https://cdn.ttvb.eu.org/bilibili/12413170
 迷茫小树叶,https://cdn.ttvb.eu.org/bilibili/814
 风行云,https://cdn.ttvb.eu.org/bilibili/1829181560
-飞天狙想要努力变胖,https://cdn.ttvb.eu.org/bilibili/23197314
 高寒时薪十块,https://cdn.ttvb.eu.org/bilibili/440006
 鱼音允胤,https://cdn.ttvb.eu.org/bilibili/1819190435
 鱼鹅来了,https://cdn.ttvb.eu.org/bilibili/22722289
 黄庭RVC,https://cdn.ttvb.eu.org/bilibili/5633518
+城市街景321,https://cdn.ttvb.eu.org/bilibili/23120489
+点点柏,https://cdn.ttvb.eu.org/bilibili/1812807508
+绝命笋干,https://cdn.ttvb.eu.org/bilibili/23776378
+蜡笔小新,https://live.ottiptv.cc/bilibili/30837590
+「B站」热门赛事,https://cdn.ttvb.eu.org/bilibili/10
+「B站」CS 2,https://cdn.ttvb.eu.org/bilibili/21622811
+「B站」英雄联盟,https://cdn.ttvb.eu.org/bilibili/6
+「B站」英雄联盟•手游,https://cdn.ttvb.eu.org/bilibili/23138275
+「B站」王者荣耀 𝟙,https://cdn.ttvb.eu.org/bilibili/55
+「B站」王者荣耀 𝟚,https://cdn.ttvb.eu.org/bilibili/21654762
+「B站」绝地求生,https://cdn.ttvb.eu.org/bilibili/98
+「B站」使命召唤•手游,https://cdn.ttvb.eu.org/bilibili/22741849
+「B站」第五人格,https://cdn.ttvb.eu.org/bilibili/5555
+「B站」无畏契约,https://cdn.ttvb.eu.org/bilibili/22908869
+「B站」QQ飞车•手游,https://cdn.ttvb.eu.org/bilibili/21743919
+「B站」JJ斗地主,https://cdn.ttvb.eu.org/bilibili/22021983
+1xRelax,https://cdn.ttvb.eu.org/bilibili/27536309
+CS2-德云两鬼,https://cdn.ttvb.eu.org/bilibili/22889518
+CSGO官方赛事,https://cdn.ttvb.eu.org/bilibili/35
+Experiment陆贰陆,https://cdn.ttvb.eu.org/bilibili/22973029
+Mr迷瞪,https://cdn.ttvb.eu.org/bilibili/22491717
+N只猫做主播,https://cdn.ttvb.eu.org/bilibili/21156724
+OneMicroSpace,https://cdn.ttvb.eu.org/bilibili/390508
+rainasleep,https://cdn.ttvb.eu.org/bilibili/25559603
+チルノヽ,https://cdn.ttvb.eu.org/bilibili/22863790
+一条小糖糖,https://cdn.ttvb.eu.org/bilibili/52032
+三面的硬币,https://cdn.ttvb.eu.org/bilibili/1026846
+两米高的猫哥和36只猫,https://cdn.ttvb.eu.org/bilibili/21473355
+丿丶夜曦,https://cdn.ttvb.eu.org/bilibili/4421957
+云墨染s,https://cdn.ttvb.eu.org/bilibili/9193634
+余生的客栈,https://cdn.ttvb.eu.org/bilibili/14495324
+全心全意小天鹅,https://cdn.ttvb.eu.org/bilibili/1852503030
+哔哩哔哩王者荣耀赛事,https://cdn.ttvb.eu.org/bilibili/55
+复活的MELT39,https://cdn.ttvb.eu.org/bilibili/69013
+天国的小伙伴,https://cdn.ttvb.eu.org/bilibili/13131453
+奉旨娶老婆,https://cdn.ttvb.eu.org/bilibili/1896525489
+小五丫-超级幸运版,https://cdn.ttvb.eu.org/bilibili/1890512682
+小张陪你考研上岸,https://cdn.ttvb.eu.org/bilibili/21782709
+幸运的LANCERRR,https://cdn.ttvb.eu.org/bilibili/13563
+幽铃夜,https://cdn.ttvb.eu.org/bilibili/25515797
+我叫杨坤,https://cdn.ttvb.eu.org/bilibili/25306496
+插画师青柠,https://cdn.ttvb.eu.org/bilibili/1831478664
+机器工具人,https://cdn.ttvb.eu.org/bilibili/164725
+梦想成真芳,https://cdn.ttvb.eu.org/bilibili/1878514367
+漫传递小南,https://cdn.ttvb.eu.org/bilibili/13423933
+炉石mmf,https://cdn.ttvb.eu.org/bilibili/26312812
+画画的柯南,https://cdn.ttvb.eu.org/bilibili/1861371393
+白噪音助眠,https://cdn.ttvb.eu.org/bilibili/25248835
+第五人格赛事,https://cdn.ttvb.eu.org/bilibili/6650029
+第五人格赛事,https://cdn.ttvb.eu.org/bilibili/5555
+粘玉米好甜,https://cdn.ttvb.eu.org/bilibili/26145297
+花猫冬冬,https://cdn.ttvb.eu.org/bilibili/22421617
+莫非Cs,https://cdn.ttvb.eu.org/bilibili/22781595
+萌萌哒老陈,https://cdn.ttvb.eu.org/bilibili/719085
+进击的睿哥哥,https://cdn.ttvb.eu.org/bilibili/1876319803
+迷影社,https://cdn.ttvb.eu.org/bilibili/545007
+音疗冥想369,https://cdn.ttvb.eu.org/bilibili/21810935
+魅魔之恋,https://cdn.ttvb.eu.org/bilibili/1805598741
+CS-advent,https://cdn.ttvb.eu.org/bilibili/1883358196
+JJ斗地主官方,https://cdn.ttvb.eu.org/bilibili/22021983
+OA-Guxue8,https://cdn.ttvb.eu.org/bilibili/4792266
+lovelive,https://cdn.ttvb.eu.org/bilibili/261955
+哔哩哔哩英雄联盟赛事,https://cdn.ttvb.eu.org/bilibili/6
+哔哩哔哩英雄联盟赛事,https://cdn.ttvb.eu.org/bilibili/7734200
+孤单到黎明,https://cdn.ttvb.eu.org/bilibili/14365632
+无畏契约赛事,https://cdn.ttvb.eu.org/bilibili/22908869
+时雨ioo,https://cdn.ttvb.eu.org/bilibili/7401280
+王者荣耀甲级职业联赛,https://cdn.ttvb.eu.org/bilibili/21654762
+老实憨厚的笑笑,https://cdn.ttvb.eu.org/bilibili/7777
+请支持诺希,https://cdn.ttvb.eu.org/bilibili/1870881249
+飞天狙想要努力变胖,https://cdn.ttvb.eu.org/bilibili/23197314
 LofiGirl,https://cdn.ttvb.eu.org/bilibili/27519423
 Space频道,https://cdn.ttvb.eu.org/bilibili/26312855
 _冰影oO,https://cdn.ttvb.eu.org/bilibili/439304
 东方明珠东方朔,https://cdn.ttvb.eu.org/bilibili/26351451
 冷月BOSS,https://cdn.ttvb.eu.org/bilibili/21586546
-城市街景321,https://cdn.ttvb.eu.org/bilibili/23120489
 央视网,https://cdn.ttvb.eu.org/bilibili/8178490
 央视频,https://cdn.ttvb.eu.org/bilibili/21623527
 新华网,https://cdn.ttvb.eu.org/bilibili/22102223
+梦境up主,https://cdn.ttvb.eu.org/bilibili/2957705
 火车环球旅行,https://cdn.ttvb.eu.org/bilibili/27841685
-点点柏,https://cdn.ttvb.eu.org/bilibili/1812807508
 索松村大空里民宿,https://cdn.ttvb.eu.org/bilibili/23046729
-绝命笋干,https://cdn.ttvb.eu.org/bilibili/23776378
 蓝原延珠_,https://cdn.ttvb.eu.org/bilibili/10112
 音彡,https://cdn.ttvb.eu.org/bilibili/1815226932
 斗鱼,#genre#
@@ -2977,7 +2978,6 @@ impOUO,https://cdn.ttvb.eu.org/douyu/522387
 百变姑姑肖淑洁,https://cdn.ttvb.eu.org/douyu/594613
 小渔火ya,https://cdn.ttvb.eu.org/douyu/6562251
 腐团儿,https://cdn.ttvb.eu.org/douyu/4624967
-祈风1v9,https://cdn.ttvb.eu.org/douyu/8302
 一本正经的稻哥,https://cdn.ttvb.eu.org/douyu/300358
 甜心战士,https://cdn.ttvb.eu.org/douyu/242045
 17shou丷,https://cdn.ttvb.eu.org/douyu/2267291
@@ -2989,9 +2989,6 @@ impOUO,https://cdn.ttvb.eu.org/douyu/522387
 雷欧其,https://cdn.ttvb.eu.org/douyu/128489
 ICEKING,https://cdn.ttvb.eu.org/douyu/3567521
 周柒柒o,https://cdn.ttvb.eu.org/douyu/12244293
-崔杋圭五颜一,https://cdn.ttvb.eu.org/douyu/8189873
-橙记Orange丶,https://cdn.ttvb.eu.org/douyu/4549169
-贾贵队长真男神,https://cdn.ttvb.eu.org/douyu/299854
 轰轰仔,https://cdn.ttvb.eu.org/douyu/6925114
 野蛮女友菡菡,https://cdn.ttvb.eu.org/douyu/801429
 MrGemini,https://cdn.ttvb.eu.org/douyu/36252
@@ -3003,16 +3000,45 @@ ok林仔,https://cdn.ttvb.eu.org/douyu/500269
 丨ABang阿帮丨,https://cdn.ttvb.eu.org/douyu/11437
 余小C真的很强,https://cdn.ttvb.eu.org/douyu/1126960
 刘嘉俊Sylar1,https://cdn.ttvb.eu.org/douyu/762484
-叫我老陈就好了,https://cdn.ttvb.eu.org/douyu/74960
 吃货小飞飞,https://cdn.ttvb.eu.org/douyu/12659982
 墨岩彧丶Sumiya,https://cdn.ttvb.eu.org/douyu/6567483
 李好好吗吗,https://cdn.ttvb.eu.org/douyu/6385489
 爱丝艾芙,https://cdn.ttvb.eu.org/douyu/12408207
 老皮历险记,https://cdn.ttvb.eu.org/douyu/2140934
 谢彬DD,https://cdn.ttvb.eu.org/douyu/110
-邦Sa,https://cdn.ttvb.eu.org/douyu/5720533
 大嘴love,https://cdn.ttvb.eu.org/douyu/6561377
-火龙果说电影,https://cdn.ttvb.eu.org/douyu/9559158
+Minimumsea最小的海,https://cdn.ttvb.eu.org/douyu/3691980
+余想的room,https://cdn.ttvb.eu.org/douyu/7183329
+孙悟空丨兰林汉,https://cdn.ttvb.eu.org/douyu/475252
+小鱼籽丫,https://cdn.ttvb.eu.org/douyu/11285255
+尐表哥,https://cdn.ttvb.eu.org/douyu/217331
+朴雨彬,https://cdn.ttvb.eu.org/douyu/7930707
+李李超欧,https://cdn.ttvb.eu.org/douyu/12485490
+火力堂主,https://cdn.ttvb.eu.org/douyu/241123
+猫叔灬灬,https://cdn.ttvb.eu.org/douyu/47378
+酷炫你你你,https://cdn.ttvb.eu.org/douyu/454867
+驴酱的冯雨大王,https://cdn.ttvb.eu.org/douyu/317422
+17xwudd丷,https://cdn.ttvb.eu.org/douyu/8584220
+Chalice,https://cdn.ttvb.eu.org/douyu/5135383
+DL丶拖米,https://cdn.ttvb.eu.org/douyu/793400
+GA丶,https://cdn.ttvb.eu.org/douyu/7018202
+Nostalie,https://cdn.ttvb.eu.org/douyu/142488
+PeRo明明,https://cdn.ttvb.eu.org/douyu/6822146
+Zhou陈尧,https://cdn.ttvb.eu.org/douyu/88660
+scboy,https://cdn.ttvb.eu.org/douyu/3484
+一口三明治3Mz,https://cdn.ttvb.eu.org/douyu/1667826
+主播阿飞,https://cdn.ttvb.eu.org/douyu/84452
+哈尼她姐,https://cdn.ttvb.eu.org/douyu/5132174
+墨衣moyi,https://cdn.ttvb.eu.org/douyu/8834570
+异灵术老师,https://cdn.ttvb.eu.org/douyu/93589
+火星包,https://cdn.ttvb.eu.org/douyu/52
+白鲨AyoM,https://cdn.ttvb.eu.org/douyu/12821
+神棍老师麦迪文,https://cdn.ttvb.eu.org/douyu/4767111
+网友张顺飞,https://cdn.ttvb.eu.org/douyu/2561707
+金咕咕金咕咕doinb,https://cdn.ttvb.eu.org/douyu/252140
+阳光男孩Aq,https://cdn.ttvb.eu.org/douyu/7718843
+陶可可coco,https://cdn.ttvb.eu.org/douyu/2501233
+小鱼小鱼吃虾米,https://cdn.ttvb.eu.org/douyu/2158798
 经典电影,https://goodiptv.club/douyu/6091425
 海绵宝宝,https://live.metshop.top/douyu/3949681
 漫画解说,https://www.goodiptv.club/douyu/5907076
@@ -3041,29 +3067,22 @@ ok林仔,https://cdn.ttvb.eu.org/douyu/500269
 「斗鱼」跑跑卡丁车•手游,https://cdn.ttvb.eu.org/douyu/6672862
 JJ斗地主官方,https://cdn.ttvb.eu.org/douyu/488743
 LR1245,https://cdn.ttvb.eu.org/douyu/12534632
-Minimumsea最小的海,https://cdn.ttvb.eu.org/douyu/3691980
 二呆啾,https://cdn.ttvb.eu.org/douyu/5092355
 伊太刀刀,https://cdn.ttvb.eu.org/douyu/747764
 何二抛zZ,https://cdn.ttvb.eu.org/douyu/4452132
-余想的room,https://cdn.ttvb.eu.org/douyu/7183329
 傲娇的超级赛亚人,https://cdn.ttvb.eu.org/douyu/4373285
 叶子户外,https://cdn.ttvb.eu.org/douyu/244548
 奇光主播Blaze,https://cdn.ttvb.eu.org/douyu/12817608
 奇光主播q,https://cdn.ttvb.eu.org/douyu/12560807
-孙悟空丨兰林汉,https://cdn.ttvb.eu.org/douyu/475252
-小鱼籽丫,https://cdn.ttvb.eu.org/douyu/11285255
-尐表哥,https://cdn.ttvb.eu.org/douyu/217331
 尤优Baby,https://cdn.ttvb.eu.org/douyu/1769784
+崔杋圭五颜一,https://cdn.ttvb.eu.org/douyu/8189873
 当幽兰剑遇上链子刀,https://cdn.ttvb.eu.org/douyu/6027991
 当燕双鹰遇见李元芳,https://cdn.ttvb.eu.org/douyu/3439096
 当铁手团遇到光复社,https://cdn.ttvb.eu.org/douyu/5875025
 我砸晕了牛顿奥,https://cdn.ttvb.eu.org/douyu/1218414
 是初辞阿,https://cdn.ttvb.eu.org/douyu/8893763
-朴雨彬,https://cdn.ttvb.eu.org/douyu/7930707
-李李超欧,https://cdn.ttvb.eu.org/douyu/12485490
-火力堂主,https://cdn.ttvb.eu.org/douyu/241123
+橙记Orange丶,https://cdn.ttvb.eu.org/douyu/4549169
 狄胖胖与李乖乖,https://cdn.ttvb.eu.org/douyu/12183882
-猫叔灬灬,https://cdn.ttvb.eu.org/douyu/47378
 白了个痴,https://cdn.ttvb.eu.org/douyu/319576
 纪录片之家字幕组,https://cdn.ttvb.eu.org/douyu/8834003
 聚聚聚一个月,https://cdn.ttvb.eu.org/douyu/4105989
@@ -3073,59 +3092,65 @@ Minimumsea最小的海,https://cdn.ttvb.eu.org/douyu/3691980
 苹果Zei甜,https://cdn.ttvb.eu.org/douyu/1174353
 蓝翔新三国,https://cdn.ttvb.eu.org/douyu/5908256
 请给我画一只羊,https://cdn.ttvb.eu.org/douyu/6720032
-酷炫你你你,https://cdn.ttvb.eu.org/douyu/454867
-驴酱的冯雨大王,https://cdn.ttvb.eu.org/douyu/317422
-17xwudd丷,https://cdn.ttvb.eu.org/douyu/8584220
-Chalice,https://cdn.ttvb.eu.org/douyu/5135383
-DL丶拖米,https://cdn.ttvb.eu.org/douyu/793400
+贾贵队长真男神,https://cdn.ttvb.eu.org/douyu/299854
 Evelinas,https://cdn.ttvb.eu.org/douyu/10197652
-GA丶,https://cdn.ttvb.eu.org/douyu/7018202
-Nostalie,https://cdn.ttvb.eu.org/douyu/142488
-PeRo明明,https://cdn.ttvb.eu.org/douyu/6822146
 QuQu非常规大师,https://cdn.ttvb.eu.org/douyu/178432
 Xleft小叮当,https://cdn.ttvb.eu.org/douyu/3168536
-Zhou陈尧,https://cdn.ttvb.eu.org/douyu/88660
 pigff,https://cdn.ttvb.eu.org/douyu/24422
-scboy,https://cdn.ttvb.eu.org/douyu/3484
 yyfyyf,https://cdn.ttvb.eu.org/douyu/9999
 zard1991,https://cdn.ttvb.eu.org/douyu/60937
 zzc啊哦额,https://cdn.ttvb.eu.org/douyu/666743
-一口三明治3Mz,https://cdn.ttvb.eu.org/douyu/1667826
 三酒OuO,https://cdn.ttvb.eu.org/douyu/2421040
 中年人拳师七号,https://cdn.ttvb.eu.org/douyu/1476712
-主播阿飞,https://cdn.ttvb.eu.org/douyu/84452
 十月船长丶,https://cdn.ttvb.eu.org/douyu/718133
+叫我老陈就好了,https://cdn.ttvb.eu.org/douyu/74960
 叶音符,https://cdn.ttvb.eu.org/douyu/12313
-哈尼她姐,https://cdn.ttvb.eu.org/douyu/5132174
 四国军棋欠你幸福,https://cdn.ttvb.eu.org/douyu/280087
-墨衣moyi,https://cdn.ttvb.eu.org/douyu/8834570
 帽子戏法Chess,https://cdn.ttvb.eu.org/douyu/4487219
-异灵术老师,https://cdn.ttvb.eu.org/douyu/93589
 斗鱼CSGO赛事主频道,https://cdn.ttvb.eu.org/douyu/601514
 椰汁糕冬瓜强,https://cdn.ttvb.eu.org/douyu/63136
 洞主丨歌神洞庭湖,https://cdn.ttvb.eu.org/douyu/138243
 流星丶Meteor丶丶,https://cdn.ttvb.eu.org/douyu/11969011
-火星包,https://cdn.ttvb.eu.org/douyu/52
 王纪超666,https://cdn.ttvb.eu.org/douyu/3567314
 玩机器丶Machine,https://cdn.ttvb.eu.org/douyu/6979222
 电棍,https://cdn.ttvb.eu.org/douyu/12306
-白鲨AyoM,https://cdn.ttvb.eu.org/douyu/12821
+祈风1v9,https://cdn.ttvb.eu.org/douyu/8302
 神奇的维C,https://cdn.ttvb.eu.org/douyu/9830066
-神棍老师麦迪文,https://cdn.ttvb.eu.org/douyu/4767111
-网友张顺飞,https://cdn.ttvb.eu.org/douyu/2561707
 艾琳bigbaby,https://cdn.ttvb.eu.org/douyu/10639765
 解说HasFin,https://cdn.ttvb.eu.org/douyu/190448
 解说老陈,https://cdn.ttvb.eu.org/douyu/8527241
-金咕咕金咕咕doinb,https://cdn.ttvb.eu.org/douyu/252140
-阳光男孩Aq,https://cdn.ttvb.eu.org/douyu/7718843
-陶可可coco,https://cdn.ttvb.eu.org/douyu/2501233
+邦Sa,https://cdn.ttvb.eu.org/douyu/5720533
 龙四爷攻略组,https://cdn.ttvb.eu.org/douyu/479079
 龚建ZSMJ,https://cdn.ttvb.eu.org/douyu/52876
 八卦象棋大师,https://cdn.ttvb.eu.org/douyu/851040
-小鱼小鱼吃虾米,https://cdn.ttvb.eu.org/douyu/2158798
+火龙果说电影,https://cdn.ttvb.eu.org/douyu/9559158
 神机小诸葛,https://cdn.ttvb.eu.org/douyu/259676
 雷疯小叔,https://cdn.ttvb.eu.org/douyu/291514
 港澳台,#genre#
+HOY 国际财经台「官方」,https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
+HOY TV「官方」,https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
+HOY 资讯台「官方」,https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
+RTHK 31「官方」,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/streamPlaylist.m3u8
+RTHK 33「官方」,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
+澳门卫星「官方」,https://live5.tdm.com.mo/ch3/ch3.live/playlist.m3u8
+澳视澳门「官方」,https://live5.tdm.com.mo/ch1/ch1.live/playlist.m3u8
+澳门体育「官方」,https://live5.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
+澳门综艺「官方」,https://live5.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
+HOY TV,https://cdn.qd.je/163189/hoy
+HOY TV,https://cdn.qd.je/163189/hoy2
+HOY 资讯台,https://cdn.qd.je/163189/hoy78
+HOY 国际财经台,https://cdn.qd.je/163189/hoy76
+RTHK31,https://cdn.qd.je/163189/rthk31
+RTHK32,https://cdn.qd.je/163189/rthk32
+RTHK33,https://cdn.qd.je/163189/rthk33
+华丽翡翠台,https://cdn.qd.je/163189/hlt
+华丽翡翠台「硬字幕」,https://cdn.qd.je/163189/jade
+华丽翡翠台「新加坡」,https://cdn.qd.je/163189/hlfct
+华丽翡翠台「新加坡」,https://cdn.qd.je/163189/jade2
+澳视澳门,https://cdn.qd.je/163189/asam
+澳门卫星,https://cdn.qd.je/163189/as
+澳门体育,https://cdn.qd.je/163189/amty
+澳门综艺,https://cdn.qd.je/163189/amzy
 凤凰资讯,http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
 凤凰资讯,http://r.jdshipin.com/0Rp07
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
@@ -3160,79 +3185,70 @@ TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 龙祥电影,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34825
 东森洋片,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34904
 东森洋片,https://hls-gateway.vpstv.net/streams/476997.m3u8
-凤凰卫视·中文「72小时回看」,https://iptv.yang-1989.xyz/phoenix/ze498k.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-凤凰卫视·资讯「72小时回看」,https://iptv.yang-1989.xyz/phoenix/etjeum.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-凤凰卫视·香港「72小时回看」,https://iptv.yang-1989.xyz/phoenix/pwpwe2.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Love Nature 4K「Relay」,https://iptv.yang-1989.xyz/hk/tk58gk.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-翡翠台「24小时回看」,https://iptv.yang-1989.xyz/hk/msc2qa.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-无线新闻台「3小时回看」,https://iptv.yang-1989.xyz/hk/6uq36k.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-明珠台「Relay」,https://iptv.yang-1989.xyz/hk/cdmxa5.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-TVB Plus「Relay」,https://iptv.yang-1989.xyz/hk/uvyd7g.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-美亚电影台「Relay」,https://iptv.yang-1989.xyz/hk/r6z956.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-PopC「Relay」,https://iptv.yang-1989.xyz/hk/ygbv3g.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-ViuTV「Relay」,https://iptv.yang-1989.xyz/hk/3g2spg.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-ViuTVsix「Relay」,https://iptv.yang-1989.xyz/hk/53wa6p.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Now直播台「Relay」,https://iptv.yang-1989.xyz/hk/cxesnn.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Now新闻台「Relay」,https://iptv.yang-1989.xyz/hk/fjs56m.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Now财经台「Relay」,https://iptv.yang-1989.xyz/hk/du4fgq.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Now Sports 精选「Relay」,https://iptv.yang-1989.xyz/hk/674ff3.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-雷霆881「电台」,https://iptv.yang-1989.xyz/hkg/s94yz7.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-叱咤903「电台」,https://iptv.yang-1989.xyz/hkg/sfx4eh.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-AM864「电台」,https://iptv.yang-1989.xyz/hkg/qff9w6.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-HOY 国际财经台「官方」,https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
-HOY TV「官方」,https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
-HOY 资讯台「官方」,https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
-RTHK 31「官方」,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/streamPlaylist.m3u8
-RTHK 32「官方」,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
-RTHK 33「官方」,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
-澳门卫星「官方」,https://live5.tdm.com.mo/ch3/ch3.live/playlist.m3u8
-澳门葡文「官方」,https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8
-澳视澳门「官方」,https://live5.tdm.com.mo/ch1/ch1.live/playlist.m3u8
-澳门资讯「官方」,https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
-澳门体育「官方」,https://live5.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-澳门综艺「官方」,https://live5.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
-纬来日本「Relay」,https://iptv.yang-1989.xyz/tw/tvy22t.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-纬来体育「Relay」,https://iptv.yang-1989.xyz/tw/pzt8qc.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-纬来电影「Relay」,https://iptv.yang-1989.xyz/tw/bc9cb7.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-纬来综合「Relay」,https://iptv.yang-1989.xyz/tw/je858j.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-纬来戏剧「Relay」,https://iptv.yang-1989.xyz/tw/sr7dyb.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-纬来育乐「Relay」,https://iptv.yang-1989.xyz/tw/cxf6pm.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-爱尔达体育 一,https://iptv.yang-1989.xyz/tw/2xxrum.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-爱尔达体育 二,https://iptv.yang-1989.xyz/tw/f73r9h.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-爱尔达体育 三,https://iptv.yang-1989.xyz/tw/uw86cg.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-爱尔达体育 四,https://iptv.yang-1989.xyz/tw/djejm3.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-DAZN 1,https://iptv.yang-1989.xyz/tw/3zrzbv.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-DAZN 2,https://iptv.yang-1989.xyz/tw/nak5hn.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-年代新闻「Relay」,https://iptv.yang-1989.xyz/tw/yyx8v9.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中天新闻「Relay」,https://iptv.yang-1989.xyz/tw/wxrefc.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中天综合「Relay」,https://iptv.yang-1989.xyz/tw/wv8ucz.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中天娱乐「Relay」,https://iptv.yang-1989.xyz/tw/j6mtc7.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-东森电影「Relay」,https://iptv.yang-1989.xyz/tw/5rt4xe.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-东森洋片「Relay」,https://iptv.yang-1989.xyz/tw/aygpa2.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-东森综合「Relay」,https://iptv.yang-1989.xyz/tw/4d57r6.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-东森戏剧「Relay」,https://iptv.yang-1989.xyz/tw/sf8hmx.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-东森幼幼「Relay」,https://iptv.yang-1989.xyz/tw/7rrws2.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-台视「Relay」,https://iptv.yang-1989.xyz/tw/84rtux.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-MTV综合台「Relay」,https://iptv.yang-1989.xyz/tw/x3tag8.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-动物星球「Relay」,https://iptv.yang-1989.xyz/tw/t6qm5p.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-CATCHPLAY 电影「Relay」,https://iptv.yang-1989.xyz/tw/4xtjyv.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙祥时代「Relay」,https://iptv.yang-1989.xyz/tw/bvgjwp.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-好莱坞电影「Relay」,https://iptv.yang-1989.xyz/tw/7yrgwc.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-CINEMAX「Relay」,https://iptv.yang-1989.xyz/tw/d7zted.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙华偶像「ofiii」,https://iptv.yang-1989.xyz/ofiii/e5np4a.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙华卡通「ofiii」,https://iptv.yang-1989.xyz/ofiii/k73b2c.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙华戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/zd6xqk.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙华日韩「ofiii」,https://iptv.yang-1989.xyz/ofiii/hms8v9.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙华洋片「ofiii」,https://iptv.yang-1989.xyz/ofiii/q95v2n.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙华经典「ofiii」,https://iptv.yang-1989.xyz/ofiii/47dpre.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-龙华电影「ofiii」,https://iptv.yang-1989.xyz/ofiii/5uzvqd.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中天新闻「ofiii」,https://iptv.yang-1989.xyz/ofiii/gd5s75.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-台湾戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/gnub2k.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-DayStar「ofiii」,https://iptv.yang-1989.xyz/ofiii/mgjskt.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-第1商业「ofiii」,https://iptv.yang-1989.xyz/ofiii/jk5jzv.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Smart知识「ofiii」,https://iptv.yang-1989.xyz/ofiii/jycvuy.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+雷霆881「电台」,https://iptv.yang-1989.xyz/hkg/tvvnk9.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+叱咤903「电台」,https://iptv.yang-1989.xyz/hkg/t2ajsw.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+AM864「电台」,https://iptv.yang-1989.xyz/hkg/qxekpn.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+凤凰卫视·中文「72小时回看」,https://iptv.yang-1989.xyz/phoenix/y7s9hj.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+凤凰卫视·资讯「72小时回看」,https://iptv.yang-1989.xyz/phoenix/gvvhtk.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+凤凰卫视·香港「72小时回看」,https://iptv.yang-1989.xyz/phoenix/bzqq4t.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+翡翠台「24小时回看」,https://iptv.yang-1989.xyz/hk/h3zzc7.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+无线新闻台「3小时回看」,https://iptv.yang-1989.xyz/hk/d4uz69.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+明珠台「Relay」,https://iptv.yang-1989.xyz/hk/4t7nja.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+TVB Plus「Relay」,https://iptv.yang-1989.xyz/hk/mt3c6x.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Love Nature 4K「Relay」,https://iptv.yang-1989.xyz/hk/mv5bhp.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+美亚电影台「Relay」,https://iptv.yang-1989.xyz/hk/4fs6h8.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+PopC「Relay」,https://iptv.yang-1989.xyz/hk/edscme.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+ViuTV「Relay」,https://iptv.yang-1989.xyz/hk/4s82r7.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+ViuTVsix「Relay」,https://iptv.yang-1989.xyz/hk/6pyky4.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Now直播台「Relay」,https://iptv.yang-1989.xyz/hk/mzmq47.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Now新闻台「Relay」,https://iptv.yang-1989.xyz/hk/hn5rj4.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Now财经台「Relay」,https://iptv.yang-1989.xyz/hk/6w9528.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Now Sports 精选「Relay」,https://iptv.yang-1989.xyz/hk/p5bdsf.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+RTHK 32「官方」,https://iptv.yang-1989.xyz/hkgf/z6fyjw.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+澳门葡文「官方」,https://iptv.yang-1989.xyz/hkgf/ssmyn3.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+澳门资讯「官方」,https://iptv.yang-1989.xyz/hkgf/uk8pgx.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+纬来日本「Relay」,https://iptv.yang-1989.xyz/tw/xpakkg.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+纬来体育「Relay」,https://iptv.yang-1989.xyz/tw/j4f3se.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+纬来电影「Relay」,https://iptv.yang-1989.xyz/tw/3w42sh.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+纬来综合「Relay」,https://iptv.yang-1989.xyz/tw/xfu9k4.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+纬来戏剧「Relay」,https://iptv.yang-1989.xyz/tw/j6bt6b.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+纬来育乐「Relay」,https://iptv.yang-1989.xyz/tw/7ppxgq.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+爱尔达体育 一,https://iptv.yang-1989.xyz/tw/z28gnq.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+爱尔达体育 二,https://iptv.yang-1989.xyz/tw/dhf9xr.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+爱尔达体育 三,https://iptv.yang-1989.xyz/tw/hbdqzs.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+爱尔达体育 四,https://iptv.yang-1989.xyz/tw/5d3x8u.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+DAZN 1,https://iptv.yang-1989.xyz/tw/542d7r.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+DAZN 2,https://iptv.yang-1989.xyz/tw/fpe76b.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+年代新闻「Relay」,https://iptv.yang-1989.xyz/tw/nhq9yn.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中天新闻「Relay」,https://iptv.yang-1989.xyz/tw/wqx8x3.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中天综合「Relay」,https://iptv.yang-1989.xyz/tw/4gtfzg.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中天娱乐「Relay」,https://iptv.yang-1989.xyz/tw/2vdmnq.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+东森电影「Relay」,https://iptv.yang-1989.xyz/tw/97534t.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+东森洋片「Relay」,https://iptv.yang-1989.xyz/tw/q7pzw2.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+东森综合「Relay」,https://iptv.yang-1989.xyz/tw/navquj.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+东森戏剧「Relay」,https://iptv.yang-1989.xyz/tw/f8p959.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+东森幼幼「Relay」,https://iptv.yang-1989.xyz/tw/k5mynw.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+台视「Relay」,https://iptv.yang-1989.xyz/tw/h83kqb.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+MTV综合台「Relay」,https://iptv.yang-1989.xyz/tw/e96pwt.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+动物星球「Relay」,https://iptv.yang-1989.xyz/tw/ehuktg.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+CATCHPLAY 电影「Relay」,https://iptv.yang-1989.xyz/tw/adshde.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙祥时代「Relay」,https://iptv.yang-1989.xyz/tw/54vupn.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+好莱坞电影「Relay」,https://iptv.yang-1989.xyz/tw/p7zxb8.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+CINEMAX「Relay」,https://iptv.yang-1989.xyz/tw/mp4mcp.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙华偶像「ofiii」,https://iptv.yang-1989.xyz/ofiii/6w8gb5.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙华卡通「ofiii」,https://iptv.yang-1989.xyz/ofiii/wbwefe.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙华戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/h86qnh.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙华日韩「ofiii」,https://iptv.yang-1989.xyz/ofiii/ax4erc.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙华洋片「ofiii」,https://iptv.yang-1989.xyz/ofiii/fvvw4b.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙华经典「ofiii」,https://iptv.yang-1989.xyz/ofiii/4dwa6v.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+龙华电影「ofiii」,https://iptv.yang-1989.xyz/ofiii/436t8d.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中天新闻「ofiii」,https://iptv.yang-1989.xyz/ofiii/fe337r.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+台湾戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/tkt9r5.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+DayStar「ofiii」,https://iptv.yang-1989.xyz/ofiii/y2c9ms.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+第1商业「ofiii」,https://iptv.yang-1989.xyz/ofiii/wvenkb.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Smart知识「ofiii」,https://iptv.yang-1989.xyz/ofiii/fart5k.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 翡翠台,https://cdn.qd.je/163189/fct
-翡翠台,https://iptv.yang-1989.xyz/myTV/msc2qa.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+翡翠台,https://iptv.yang-1989.xyz/myTV/h3zzc7.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://r.jdshipin.com/qrfbg
 翡翠台,http://r.jdshipin.com/62WM7
@@ -3243,11 +3259,11 @@ Smart知识「ofiii」,https://iptv.yang-1989.xyz/ofiii/jycvuy.m3u8?token=ade236
 翡翠台「WebVTT字幕」,https://cdn.qd.je/163189/fctvtt
 无线新闻台,https://cdn.qd.je/163189/wxxw
 无线新闻台,https://cdn.qd.je/163189/wxxwt
-无线新闻台,https://iptv.yang-1989.xyz/myTV/6uq36k.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+无线新闻台,https://iptv.yang-1989.xyz/myTV/d4uz69.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 明珠台「字幕」,https://cdn.qd.je/163189/mzt
 明珠台「WebVTT字幕」,https://cdn.qd.je/163189/mztvtt
 TVB Plus,https://cdn.qd.je/163189/tvbp2
-TVB Plus,https://iptv.yang-1989.xyz/myTV/uvyd7g.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+TVB Plus,https://iptv.yang-1989.xyz/myTV/mt3c6x.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 TVB Plus「字幕」,https://cdn.qd.je/163189/tvbp
 TVB Plus「WebVTT字幕」,https://cdn.qd.je/163189/tvbpvtt
 黄金华剧台「WebVTT字幕」,https://cdn.qd.je/163189/hjhjt
@@ -3255,23 +3271,12 @@ Now新闻台,https://cdn.qd.je/163189/now
 凤凰中文台,https://cdn.qd.je/163189/fhzw
 凤凰资讯台,https://cdn.qd.je/163189/fhzx
 凤凰香港台,https://cdn.qd.je/163189/fhhk
-HOY TV,https://cdn.qd.je/163189/hoy
-HOY TV,https://cdn.qd.je/163189/hoy2
-HOY 资讯台,https://cdn.qd.je/163189/hoy78
-HOY 国际财经台,https://cdn.qd.je/163189/hoy76
 ViuTV,https://cdn.qd.je/163189/viu
 ViuTVsix,https://cdn.qd.je/163189/viu6
-RTHK31,https://cdn.qd.je/163189/rthk31
-RTHK32,https://cdn.qd.je/163189/rthk32
-RTHK33,https://cdn.qd.je/163189/rthk33
 千禧经典台,https://cdn.qd.je/163189/tvbc
-千禧经典台,https://iptv.yang-1989.xyz/myTV/2amshx.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+千禧经典台,https://iptv.yang-1989.xyz/myTV/4a3j5q.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 娱乐新闻台,https://cdn.qd.je/163189/ylxw
-娱乐新闻台,https://iptv.yang-1989.xyz/myTV/y8bmks.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-华丽翡翠台,https://cdn.qd.je/163189/hlt
-华丽翡翠台「硬字幕」,https://cdn.qd.je/163189/jade
-华丽翡翠台「新加坡」,https://cdn.qd.je/163189/hlfct
-华丽翡翠台「新加坡」,https://cdn.qd.je/163189/jade2
+娱乐新闻台,https://iptv.yang-1989.xyz/myTV/c9bzt8.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 TVB1,https://cdn.qd.je/163189/tvb1
 TVBJ1,https://cdn.qd.je/163189/j1
 TVB Drama,https://cdn.qd.je/163189/tvbd
@@ -3279,10 +3284,6 @@ TVB 功夫台,https://cdn.qd.je/163189/yzwx
 TVB 星河台,https://cdn.qd.je/163189/tvbxh
 TVB 星河台,https://cdn.qd.je/163189/xinghe
 TVB 星河台,https://cdn.qd.je/163189/tvbxh2
-澳视澳门,https://cdn.qd.je/163189/asam
-澳门卫星,https://cdn.qd.je/163189/as
-澳门体育,https://cdn.qd.je/163189/amty
-澳门综艺,https://cdn.qd.je/163189/amzy
 澳门莲花,https://cdn.qd.je/163189/amlh
 天映频道「新加坡」,https://cdn.qd.je/163189/typd
 天映经典「新加坡」,https://cdn.qd.je/163189/ccm
@@ -3335,92 +3336,92 @@ DreamWorks 梦工厂动画,https://cdn.qd.je/163189/dreamworks
 东森电影台,https://cdn.qd.je/163189/dsdy
 东森戏剧台,https://cdn.qd.je/163189/dsxj
 东森洋片台,https://cdn.qd.je/163189/dsyp
-中天亚洲,https://migu.yang-1989.xyz/comp/at69xa.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-翡翠台 4K,https://iptv.yang-1989.xyz/myTV/bkstcz.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-明珠台,https://iptv.yang-1989.xyz/myTV/cdmxa5.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+中天亚洲,https://migu.yang-1989.xyz/comp/x3qku8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+翡翠台 4K,https://iptv.yang-1989.xyz/myTV/4nmnta.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+明珠台,https://iptv.yang-1989.xyz/myTV/4t7nja.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 明珠台,https://hls-gateway.vpstv.net/streams/476936.m3u8
-亚洲剧台,https://iptv.yang-1989.xyz/myTV/m2wube.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-华语剧台,https://iptv.yang-1989.xyz/myTV/smxe6f.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-黄金翡翠台,https://iptv.yang-1989.xyz/myTV/x2hbp7.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-黄金华剧台,https://iptv.yang-1989.xyz/myTV/yyvp29.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-戏曲台,https://iptv.yang-1989.xyz/myTV/s7depr.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER奖门人,https://iptv.yang-1989.xyz/myTV/djrxmp.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER识食,https://iptv.yang-1989.xyz/myTV/tvfqpn.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER惊,https://iptv.yang-1989.xyz/myTV/agxv6x.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER煲剧,https://iptv.yang-1989.xyz/myTV/63c6gw.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER亚视剧,https://iptv.yang-1989.xyz/myTV/ugegmu.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-真情SUPER煲,https://iptv.yang-1989.xyz/myTV/mpc723.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-爱．回家SUPER煲,https://iptv.yang-1989.xyz/myTV/e45gw7.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER Sports,https://iptv.yang-1989.xyz/myTV/zm3j7e.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER Music,https://iptv.yang-1989.xyz/myTV/494rmr.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER FREE,https://iptv.yang-1989.xyz/myTV/jvctkx.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER FUN,https://iptv.yang-1989.xyz/myTV/ex776j.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-myTV SUPER 18台,https://iptv.yang-1989.xyz/myTV/bkajcp.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-SUPER Kids Channel,https://iptv.yang-1989.xyz/myTV/q4w6sa.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-ZooMoo,https://iptv.yang-1989.xyz/myTV/x2cbh6.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Nickelodeon,https://iptv.yang-1989.xyz/myTV/ywxvpq.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Nick Jr,https://iptv.yang-1989.xyz/myTV/feda39.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-粤语片台,https://iptv.yang-1989.xyz/myTV/fmaxf8.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-美亚电影台,https://iptv.yang-1989.xyz/myTV/r6z956.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Thrill,https://iptv.yang-1989.xyz/myTV/u6ynej.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-天映经典频道,https://iptv.yang-1989.xyz/myTV/skbw3w.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中国电影频道,https://iptv.yang-1989.xyz/myTV/h2j32x.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-ROCK Action,https://iptv.yang-1989.xyz/myTV/2eumw2.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-PopC,https://iptv.yang-1989.xyz/myTV/ygbv3g.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Action Hollywood Movies,https://iptv.yang-1989.xyz/myTV/pg3d8h.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Rialto Classic Movies,https://iptv.yang-1989.xyz/myTV/dmeu4c.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-KIX,https://iptv.yang-1989.xyz/myTV/99yahu.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-TRACE Sport Stars,https://iptv.yang-1989.xyz/myTV/pckh99.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Love Nature 4K,https://iptv.yang-1989.xyz/myTV/tk58gk.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Global Trekker,https://iptv.yang-1989.xyz/myTV/jpgpuz.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Pet Club TV,https://iptv.yang-1989.xyz/myTV/789zhr.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Globetrotter,https://iptv.yang-1989.xyz/myTV/ggu954.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Docsville,https://iptv.yang-1989.xyz/myTV/kurkup.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Wild Stuff,https://iptv.yang-1989.xyz/myTV/vxy4pa.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-ROCK 综艺娱乐,https://iptv.yang-1989.xyz/myTV/geskwb.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-ROCK X Stream,https://iptv.yang-1989.xyz/myTV/42qchg.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-tvN,https://iptv.yang-1989.xyz/myTV/tn2bkg.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-无线卫星亚洲台,https://iptv.yang-1989.xyz/myTV/966se4.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-创世电视,https://iptv.yang-1989.xyz/myTV/dxhgvf.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中央电视台综合频道,https://iptv.yang-1989.xyz/myTV/h6uern.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中国中央电视台中文国际频道,https://iptv.yang-1989.xyz/myTV/td8yj9.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中国中央电视台娱乐频道,https://iptv.yang-1989.xyz/myTV/q37zyu.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-中国中央电视台戏曲频道,https://iptv.yang-1989.xyz/myTV/rz4qva.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-东方卫视国际频道,https://iptv.yang-1989.xyz/myTV/248wg8.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-云南澜湄国际卫视,https://iptv.yang-1989.xyz/myTV/mu2kzg.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-安徽广播电视台国际频道,https://iptv.yang-1989.xyz/myTV/zkyxev.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-北京电视台国际频道,https://iptv.yang-1989.xyz/myTV/ehzedn.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-福建海峡卫视国际频道,https://iptv.yang-1989.xyz/myTV/xkxurx.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-湖南电视台国际频道,https://iptv.yang-1989.xyz/myTV/2a2ruu.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-江苏电视台国际频道,https://iptv.yang-1989.xyz/myTV/8mef2s.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-广东广播电视台大湾区卫视频道,https://iptv.yang-1989.xyz/myTV/9uxpax.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-浙江电视台国际频道,https://iptv.yang-1989.xyz/myTV/wfyyrv.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-深圳卫视国际频道,https://iptv.yang-1989.xyz/myTV/un2e9s.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-that's 70s,https://iptv.yang-1989.xyz/myTV/jz4ae3.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-that's 80s,https://iptv.yang-1989.xyz/myTV/2ygz6d.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-that's Rock,https://iptv.yang-1989.xyz/myTV/sx6hv4.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-that's 90s00s,https://iptv.yang-1989.xyz/myTV/x98953.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Concerto,https://iptv.yang-1989.xyz/myTV/pyvwjy.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-TRACE Urban,https://iptv.yang-1989.xyz/myTV/vqwgsy.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-NewTV 古装剧场,https://iptv.yang-1989.xyz/myTV/55kcqy.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-NewTV 科教,https://iptv.yang-1989.xyz/myTV/webc3x.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-NewTV 养生,https://iptv.yang-1989.xyz/myTV/7mrqca.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-NewTV 功夫,https://iptv.yang-1989.xyz/myTV/k69pqc.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-无线卫星新闻台,https://iptv.yang-1989.xyz/myTV/nawc2p.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-亚洲新闻台,https://iptv.yang-1989.xyz/myTV/p6ypjn.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-半岛电视台英语频道,https://iptv.yang-1989.xyz/myTV/kpq5ab.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-France 24,https://iptv.yang-1989.xyz/myTV/uye77a.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-DW,https://iptv.yang-1989.xyz/myTV/cy69r3.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-NHK World Japan,https://iptv.yang-1989.xyz/myTV/kann5d.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-Arirang TV,https://iptv.yang-1989.xyz/myTV/qt29uw.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-NewsWorld,https://iptv.yang-1989.xyz/myTV/m6batf.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-The Indonesia Channel,https://iptv.yang-1989.xyz/myTV/kkgzjb.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-myTV SUPER直播足球2台,https://iptv.yang-1989.xyz/myTV/mms37j.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-myTV SUPER直播足球3台,https://iptv.yang-1989.xyz/myTV/9vpr6s.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-myTV SUPER直播足球4台,https://iptv.yang-1989.xyz/myTV/f98rtq.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-myTV SUPER直播足球5台,https://iptv.yang-1989.xyz/myTV/wq73en.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-myTV SUPER直播足球6台,https://iptv.yang-1989.xyz/myTV/6g7rnq.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-myTV SUPER直播足球7台,https://iptv.yang-1989.xyz/myTV/85bpnk.mpd?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
+亚洲剧台,https://iptv.yang-1989.xyz/myTV/hg3u82.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+华语剧台,https://iptv.yang-1989.xyz/myTV/2br8qe.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+黄金翡翠台,https://iptv.yang-1989.xyz/myTV/x2q8rq.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+黄金华剧台,https://iptv.yang-1989.xyz/myTV/5zus63.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+戏曲台,https://iptv.yang-1989.xyz/myTV/hsxg24.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER奖门人,https://iptv.yang-1989.xyz/myTV/4xt5px.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER识食,https://iptv.yang-1989.xyz/myTV/53m8qd.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER惊,https://iptv.yang-1989.xyz/myTV/u2zers.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER煲剧,https://iptv.yang-1989.xyz/myTV/4p3y4w.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER亚视剧,https://iptv.yang-1989.xyz/myTV/nc6hks.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+真情SUPER煲,https://iptv.yang-1989.xyz/myTV/zwrrhk.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+爱．回家SUPER煲,https://iptv.yang-1989.xyz/myTV/j2s85h.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER Sports,https://iptv.yang-1989.xyz/myTV/abz7b7.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER Music,https://iptv.yang-1989.xyz/myTV/ch3csp.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER FREE,https://iptv.yang-1989.xyz/myTV/tbvgad.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER FUN,https://iptv.yang-1989.xyz/myTV/bdk8bm.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+myTV SUPER 18台,https://iptv.yang-1989.xyz/myTV/w85c7c.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+SUPER Kids Channel,https://iptv.yang-1989.xyz/myTV/nnd4ft.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+ZooMoo,https://iptv.yang-1989.xyz/myTV/cva852.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Nickelodeon,https://iptv.yang-1989.xyz/myTV/n83hc3.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Nick Jr,https://iptv.yang-1989.xyz/myTV/ugsjsb.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+粤语片台,https://iptv.yang-1989.xyz/myTV/b28dnx.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+美亚电影台,https://iptv.yang-1989.xyz/myTV/4fs6h8.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Thrill,https://iptv.yang-1989.xyz/myTV/zcfrjn.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+天映经典频道,https://iptv.yang-1989.xyz/myTV/g9wdw7.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中国电影频道,https://iptv.yang-1989.xyz/myTV/az5u88.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+ROCK Action,https://iptv.yang-1989.xyz/myTV/q9vqwx.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+PopC,https://iptv.yang-1989.xyz/myTV/edscme.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Action Hollywood Movies,https://iptv.yang-1989.xyz/myTV/wsu86w.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Rialto Classic Movies,https://iptv.yang-1989.xyz/myTV/znnh3u.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+KIX,https://iptv.yang-1989.xyz/myTV/gd2sxh.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+TRACE Sport Stars,https://iptv.yang-1989.xyz/myTV/nqbxgx.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Love Nature 4K,https://iptv.yang-1989.xyz/myTV/mv5bhp.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Global Trekker,https://iptv.yang-1989.xyz/myTV/5bpcme.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Pet Club TV,https://iptv.yang-1989.xyz/myTV/j4jsdt.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Globetrotter,https://iptv.yang-1989.xyz/myTV/6e99up.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Docsville,https://iptv.yang-1989.xyz/myTV/8x9d9c.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Wild Stuff,https://iptv.yang-1989.xyz/myTV/ehj66m.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+ROCK 综艺娱乐,https://iptv.yang-1989.xyz/myTV/7kftb6.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+ROCK X Stream,https://iptv.yang-1989.xyz/myTV/6zf2zk.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+tvN,https://iptv.yang-1989.xyz/myTV/6rtnkf.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+无线卫星亚洲台,https://iptv.yang-1989.xyz/myTV/fv4wuf.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+创世电视,https://iptv.yang-1989.xyz/myTV/qenwtn.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中央电视台综合频道,https://iptv.yang-1989.xyz/myTV/28252p.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中国中央电视台中文国际频道,https://iptv.yang-1989.xyz/myTV/kubx5m.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中国中央电视台娱乐频道,https://iptv.yang-1989.xyz/myTV/7rpcdf.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+中国中央电视台戏曲频道,https://iptv.yang-1989.xyz/myTV/wmgc75.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+东方卫视国际频道,https://iptv.yang-1989.xyz/myTV/fuh52k.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+云南澜湄国际卫视,https://iptv.yang-1989.xyz/myTV/sx4k3v.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+安徽广播电视台国际频道,https://iptv.yang-1989.xyz/myTV/gjhye8.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+北京电视台国际频道,https://iptv.yang-1989.xyz/myTV/f3upyj.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+福建海峡卫视国际频道,https://iptv.yang-1989.xyz/myTV/quej46.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+湖南电视台国际频道,https://iptv.yang-1989.xyz/myTV/8rxga2.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+江苏电视台国际频道,https://iptv.yang-1989.xyz/myTV/6t3ep6.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+广东广播电视台大湾区卫视频道,https://iptv.yang-1989.xyz/myTV/r79ryz.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+浙江电视台国际频道,https://iptv.yang-1989.xyz/myTV/e2z8en.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+深圳卫视国际频道,https://iptv.yang-1989.xyz/myTV/7vwkfr.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+that's 70s,https://iptv.yang-1989.xyz/myTV/bfru7h.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+that's 80s,https://iptv.yang-1989.xyz/myTV/67ksyd.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+that's Rock,https://iptv.yang-1989.xyz/myTV/26mhdj.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+that's 90s00s,https://iptv.yang-1989.xyz/myTV/zexp8a.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Concerto,https://iptv.yang-1989.xyz/myTV/ctkv8c.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+TRACE Urban,https://iptv.yang-1989.xyz/myTV/3rsxay.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+NewTV 古装剧场,https://iptv.yang-1989.xyz/myTV/g4mfyk.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+NewTV 科教,https://iptv.yang-1989.xyz/myTV/jjmubj.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+NewTV 养生,https://iptv.yang-1989.xyz/myTV/m554eq.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+NewTV 功夫,https://iptv.yang-1989.xyz/myTV/2yz6vt.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+无线卫星新闻台,https://iptv.yang-1989.xyz/myTV/jxamkp.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+亚洲新闻台,https://iptv.yang-1989.xyz/myTV/xtdxy7.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+半岛电视台英语频道,https://iptv.yang-1989.xyz/myTV/8nbw8g.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+France 24,https://iptv.yang-1989.xyz/myTV/wabbw2.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+DW,https://iptv.yang-1989.xyz/myTV/q3fpzn.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+NHK World Japan,https://iptv.yang-1989.xyz/myTV/c99y6b.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+Arirang TV,https://iptv.yang-1989.xyz/myTV/z6b2rq.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+NewsWorld,https://iptv.yang-1989.xyz/myTV/vv9q6g.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+The Indonesia Channel,https://iptv.yang-1989.xyz/myTV/bjwduh.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+myTV SUPER直播足球2台,https://iptv.yang-1989.xyz/myTV/ryefbu.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+myTV SUPER直播足球3台,https://iptv.yang-1989.xyz/myTV/u6hsjw.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+myTV SUPER直播足球4台,https://iptv.yang-1989.xyz/myTV/dazvmz.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+myTV SUPER直播足球5台,https://iptv.yang-1989.xyz/myTV/rstguh.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+myTV SUPER直播足球6台,https://iptv.yang-1989.xyz/myTV/4muxw4.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+myTV SUPER直播足球7台,https://iptv.yang-1989.xyz/myTV/4c8zk7.mpd?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
 香港卫视,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
 香港卫视,https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
 香港卫视,https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
@@ -3492,79 +3493,79 @@ Sky Sports Racing,https://migu.yang-1989.xyz/sprts/ar7ugr.m3u8?token=73e0c1f7ea1
 睛彩篮球,rtp://239.3.1.126:8001
 睛彩篮球,https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8
 睛彩篮球,http://[2409:8087:1a01:df::4055]:80/TVOD/88888888/224/3221225901/main.m3u8
-咪视界 𝟜𝕂-𝟙「Relay」,https://iptv.yang-1989.xyz/migu/scxg47.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-咪视界 𝟜𝕂-𝟚「Relay」,https://iptv.yang-1989.xyz/migu/7w54a5.m3u8?token=ade236a2636a57adacdfc204d51ff80f67889ba970ee261c
-睛彩竞技「Relay」,https://migu.yang-1989.xyz/migu/3s4uye.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-睛彩篮球「Relay」,https://migu.yang-1989.xyz/migu/r365yv.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙「Relay」,https://migu.yang-1989.xyz/migu/yhbrmt.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚「Relay」,https://migu.yang-1989.xyz/migu/jk78rd.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛「Relay」,https://migu.yang-1989.xyz/migu/49af4e.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟜「Relay」,https://migu.yang-1989.xyz/migu/rbpg4a.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟝「Relay」,https://migu.yang-1989.xyz/migu/mcqspf.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟞「Relay」,https://migu.yang-1989.xyz/migu/fstmq2.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟟「Relay」,https://migu.yang-1989.xyz/migu/23mq5j.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟠「Relay」,https://migu.yang-1989.xyz/migu/c5q54p.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟡「Relay」,https://migu.yang-1989.xyz/migu/5c6ayk.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟘「Relay」,https://migu.yang-1989.xyz/migu/b8yhhx.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟙「Relay」,https://migu.yang-1989.xyz/migu/rag4rb.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟚「Relay」,https://migu.yang-1989.xyz/migu/zmqv88.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟛「Relay」,https://migu.yang-1989.xyz/migu/uzqhjr.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟜「Relay」,https://migu.yang-1989.xyz/migu/qcjjvr.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟝「Relay」,https://migu.yang-1989.xyz/migu/93ngf8.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟞「Relay」,https://migu.yang-1989.xyz/migu/9zrfw4.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟟「Relay」,https://migu.yang-1989.xyz/migu/pjnn6g.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟠「Relay」,https://migu.yang-1989.xyz/migu/dby99m.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟙𝟡「Relay」,https://migu.yang-1989.xyz/migu/54mpsx.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟘「Relay」,https://migu.yang-1989.xyz/migu/fbnxgd.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟙「Relay」,https://migu.yang-1989.xyz/migu/ex6p72.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟚「Relay」,https://migu.yang-1989.xyz/migu/kk965d.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟛「Relay」,https://migu.yang-1989.xyz/migu/yq9rrr.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟜「Relay」,https://migu.yang-1989.xyz/migu/sjj8jp.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟝「Relay」,https://migu.yang-1989.xyz/migu/5g7cjn.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟞「Relay」,https://migu.yang-1989.xyz/migu/7ah3zg.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟟「Relay」,https://migu.yang-1989.xyz/migu/pvkn9n.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟠「Relay」,https://migu.yang-1989.xyz/migu/mv4q8n.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟚𝟡「Relay」,https://migu.yang-1989.xyz/migu/ssr833.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛𝟘「Relay」,https://migu.yang-1989.xyz/migu/46f6a8.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛𝟙「Relay」,https://migu.yang-1989.xyz/migu/nctyrn.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛𝟚「Relay」,https://migu.yang-1989.xyz/migu/zx9ptu.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛𝟛「Relay」,https://migu.yang-1989.xyz/migu/e2hfk3.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛𝟜「Relay」,https://migu.yang-1989.xyz/migu/b8zm7b.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛𝟝「Relay」,https://migu.yang-1989.xyz/migu/quvwv8.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-咪视界 𝟛𝟞「Relay」,https://migu.yang-1989.xyz/migu/4bew7p.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-FIGHT SPORTS,https://migu.yang-1989.xyz/sprt/f77mku.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-SPOTV,https://migu.yang-1989.xyz/sprt/uwpucb.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-SPOTV 2,https://migu.yang-1989.xyz/sprt/j5jg6t.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Eurosport 1,https://migu.yang-1989.xyz/sprt/kzp5je.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Eurosport 2,https://migu.yang-1989.xyz/sprt/xzgj9j.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TNT Sport 1,https://migu.yang-1989.xyz/sprt/q4z3zx.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TNT Sport 2,https://migu.yang-1989.xyz/sprt/348aw9.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TNT Sport 3,https://migu.yang-1989.xyz/sprt/9n3prj.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TNT Sport 4,https://migu.yang-1989.xyz/sprt/dkueek.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-beIN Sports 1,https://migu.yang-1989.xyz/sprt/ffqpqw.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-beIN Sports 2,https://migu.yang-1989.xyz/sprt/fvpynk.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-beIN Sports 3,https://migu.yang-1989.xyz/sprt/e8k7nq.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-beIN Sports 4,https://migu.yang-1989.xyz/sprt/g9rvq7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-beIN Sports 5,https://migu.yang-1989.xyz/sprt/5pnqkc.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Premier 1,https://migu.yang-1989.xyz/sprt/rftvpq.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Premier 2 UHD,https://migu.yang-1989.xyz/sprt/jt99xd.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Premier 3,https://migu.yang-1989.xyz/sprt/rcwpk7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Premier 4,https://migu.yang-1989.xyz/sprt/hjadn2.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Premier 5,https://migu.yang-1989.xyz/sprt/yx6pbj.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Premier 6,https://migu.yang-1989.xyz/sprt/6exwem.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 1,https://migu.yang-1989.xyz/sprt/57b82q.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 2,https://migu.yang-1989.xyz/sprt/8663by.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 3,https://migu.yang-1989.xyz/sprt/cd6ns3.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 4,https://migu.yang-1989.xyz/sprt/szdgfj.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 5,https://migu.yang-1989.xyz/sprt/89q7x7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 6,https://migu.yang-1989.xyz/sprt/dsungy.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 7,https://migu.yang-1989.xyz/sprt/jtcqb5.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Hub Sports 8,https://migu.yang-1989.xyz/sprt/nrngx2.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TSN 1,https://migu.yang-1989.xyz/sprt/wet5sf.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TSN 2,https://migu.yang-1989.xyz/sprt/wye9fr.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TSN 3,https://migu.yang-1989.xyz/sprt/94v92g.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TSN 4,https://migu.yang-1989.xyz/sprt/jz6zj9.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-TSN 5,https://migu.yang-1989.xyz/sprt/y3cscb.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+咪视界 𝟜𝕂-𝟙「Relay」,https://iptv.yang-1989.xyz/migu/crdyeg.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+咪视界 𝟜𝕂-𝟚「Relay」,https://iptv.yang-1989.xyz/migu/zq35r4.m3u8?token=a08f7b04470cd2cc3f17d0baaac9b65dcff0cb697252db9b
+睛彩竞技「Relay」,https://migu.yang-1989.xyz/migu/tf3rqy.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+睛彩篮球「Relay」,https://migu.yang-1989.xyz/migu/cxnk48.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙「Relay」,https://migu.yang-1989.xyz/migu/b8uvqn.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚「Relay」,https://migu.yang-1989.xyz/migu/f5an4e.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛「Relay」,https://migu.yang-1989.xyz/migu/x5wpgb.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟜「Relay」,https://migu.yang-1989.xyz/migu/uxmgeb.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟝「Relay」,https://migu.yang-1989.xyz/migu/fr5eu5.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟞「Relay」,https://migu.yang-1989.xyz/migu/3cp5sy.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟟「Relay」,https://migu.yang-1989.xyz/migu/35bmr4.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟠「Relay」,https://migu.yang-1989.xyz/migu/m45a6p.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟡「Relay」,https://migu.yang-1989.xyz/migu/jtv5t4.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟘「Relay」,https://migu.yang-1989.xyz/migu/ethxaz.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟙「Relay」,https://migu.yang-1989.xyz/migu/be5mqm.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟚「Relay」,https://migu.yang-1989.xyz/migu/838hz7.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟛「Relay」,https://migu.yang-1989.xyz/migu/wjskbt.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟜「Relay」,https://migu.yang-1989.xyz/migu/ckv2ae.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟝「Relay」,https://migu.yang-1989.xyz/migu/g3pjbd.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟞「Relay」,https://migu.yang-1989.xyz/migu/xwx8pb.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟟「Relay」,https://migu.yang-1989.xyz/migu/ue46ru.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟠「Relay」,https://migu.yang-1989.xyz/migu/dj44sx.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟙𝟡「Relay」,https://migu.yang-1989.xyz/migu/xznncx.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟘「Relay」,https://migu.yang-1989.xyz/migu/sjfzu3.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟙「Relay」,https://migu.yang-1989.xyz/migu/qw9bp4.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟚「Relay」,https://migu.yang-1989.xyz/migu/5p58vk.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟛「Relay」,https://migu.yang-1989.xyz/migu/346vtw.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟜「Relay」,https://migu.yang-1989.xyz/migu/6tahrv.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟝「Relay」,https://migu.yang-1989.xyz/migu/5ndjh7.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟞「Relay」,https://migu.yang-1989.xyz/migu/eykqvw.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟟「Relay」,https://migu.yang-1989.xyz/migu/75gqpc.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟠「Relay」,https://migu.yang-1989.xyz/migu/rbz69x.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟚𝟡「Relay」,https://migu.yang-1989.xyz/migu/5sef5b.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛𝟘「Relay」,https://migu.yang-1989.xyz/migu/qb8gs5.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛𝟙「Relay」,https://migu.yang-1989.xyz/migu/qtpvjr.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛𝟚「Relay」,https://migu.yang-1989.xyz/migu/rg8ng8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛𝟛「Relay」,https://migu.yang-1989.xyz/migu/wu7jcf.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛𝟜「Relay」,https://migu.yang-1989.xyz/migu/u8hmg7.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛𝟝「Relay」,https://migu.yang-1989.xyz/migu/gpubw8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+咪视界 𝟛𝟞「Relay」,https://migu.yang-1989.xyz/migu/udgxwa.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+FIGHT SPORTS,https://migu.yang-1989.xyz/sprt/53ctv6.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+SPOTV,https://migu.yang-1989.xyz/sprt/vsjmdt.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+SPOTV 2,https://migu.yang-1989.xyz/sprt/zmn98t.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Eurosport 1,https://migu.yang-1989.xyz/sprt/66mp3w.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Eurosport 2,https://migu.yang-1989.xyz/sprt/ckcjzn.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TNT Sport 1,https://migu.yang-1989.xyz/sprt/dgnvzw.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TNT Sport 2,https://migu.yang-1989.xyz/sprt/b9ppyp.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TNT Sport 3,https://migu.yang-1989.xyz/sprt/kkb9mv.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TNT Sport 4,https://migu.yang-1989.xyz/sprt/xm6h9w.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+beIN Sports 1,https://migu.yang-1989.xyz/sprt/v3dtud.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+beIN Sports 2,https://migu.yang-1989.xyz/sprt/ah9x82.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+beIN Sports 3,https://migu.yang-1989.xyz/sprt/y5qgjj.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+beIN Sports 4,https://migu.yang-1989.xyz/sprt/czjk75.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+beIN Sports 5,https://migu.yang-1989.xyz/sprt/h5xm7x.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Premier 1,https://migu.yang-1989.xyz/sprt/7cuzy6.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Premier 2 UHD,https://migu.yang-1989.xyz/sprt/k8c7mm.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Premier 3,https://migu.yang-1989.xyz/sprt/cz2xj9.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Premier 4,https://migu.yang-1989.xyz/sprt/tvqm6f.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Premier 5,https://migu.yang-1989.xyz/sprt/fv2e3p.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Premier 6,https://migu.yang-1989.xyz/sprt/52snkn.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 1,https://migu.yang-1989.xyz/sprt/rpt3mk.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 2,https://migu.yang-1989.xyz/sprt/22sgva.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 3,https://migu.yang-1989.xyz/sprt/f75dkm.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 4,https://migu.yang-1989.xyz/sprt/r4ydtx.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 5,https://migu.yang-1989.xyz/sprt/yezmy4.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 6,https://migu.yang-1989.xyz/sprt/2h5krp.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 7,https://migu.yang-1989.xyz/sprt/9by7se.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Hub Sports 8,https://migu.yang-1989.xyz/sprt/t9ux9v.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TSN 1,https://migu.yang-1989.xyz/sprt/qa6ehw.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TSN 2,https://migu.yang-1989.xyz/sprt/9e4hpg.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TSN 3,https://migu.yang-1989.xyz/sprt/zmjsmc.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TSN 4,https://migu.yang-1989.xyz/sprt/tcdry9.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TSN 5,https://migu.yang-1989.xyz/sprt/qr95j5.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 江苏体育,https://stream1.freetv.fun/af1087a1c24fff7af556ac8e6c5c623303d52966f67a998cefb52c17811b09a2.ctv
 江苏体育,https://live.chinacert.cftest5.cn/cnmg/live/626064707
 陕西体育休闲,https://mgtv.ottiptv.cc/migu/956909356.m3u8?migutoken=2cd1b3120e6a6d3cec136ca61cb23c24512860d4956d391b8c7d8a1fce58c3fa549930217eede8887c05f73eb24ac9692be10bdd06557f58130ff6717e37e1b6ba38adfacf8e74298fe1d4f48c
@@ -3661,10 +3662,10 @@ CHC动作电影,rtp://239.3.1.106:8001
 光影高清,rtp://239.3.1.84:4120
 重温经典,rtp://239.3.1.25:8001
 热播剧场,rtp://239.3.1.194:9020
-HBO,https://migu.yang-1989.xyz/comp/4cx3t2.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-HBO Hits,https://migu.yang-1989.xyz/comp/eae7s5.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-HBO Family,https://migu.yang-1989.xyz/comp/u5ef88.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-HBO Signature,https://migu.yang-1989.xyz/comp/kpmq2f.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+HBO,https://migu.yang-1989.xyz/comp/58snq8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+HBO Hits,https://migu.yang-1989.xyz/comp/gnjt4z.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+HBO Family,https://migu.yang-1989.xyz/comp/xg8xz8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+HBO Signature,https://migu.yang-1989.xyz/comp/ff3ynb.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-6.ctv
 广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-15.ctv
 广州影视,https://stream1.freetv.fun/yan-zhou-ying-shi-7.ctv
@@ -3757,7 +3758,7 @@ NewTV动作电影,https://iptv.catvod.com/live.php?id=NewTV%E5%8A%A8%E4%BD%9C%E7
 睛彩青少,rtp://239.3.1.127:8001
 少儿动画,rtp://239.3.1.199:9000
 动画高清,rtp://239.3.1.80:4120
-睛彩青少「Relay」,https://migu.yang-1989.xyz/migu/j6pyk5.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+睛彩青少「Relay」,https://migu.yang-1989.xyz/migu/pewhx8.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 北京卡酷少儿,https://zby.130519.xyz/PLTV/11/224/3221226019/index.m3u8
 北京卡酷少儿,http://[2409:8087:1a15:10d1::33]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
 北京卡酷少儿,http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010081/1.m3u8
@@ -3821,7 +3822,7 @@ CN卡通,https://stream1.freetv.fun/cnqia-tong-3.ctv
 音乐,#genre#
 音乐现场,https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8
 睛彩广场舞,rtp://239.3.1.128:8001
-睛彩广场舞「Relay」,https://migu.yang-1989.xyz/migu/68dgc3.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+睛彩广场舞「Relay」,https://migu.yang-1989.xyz/migu/5bgssp.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 风云音乐,https://hls-gateway.vpstv.net/streams/708858.m3u8
 风云音乐,http://iptv.666230.xyz/iptv/jsyd.php/G_FENGYUNYY-CQ
 风云音乐,http://www.qfly9236.cn:8888/rtp/239.253.92.111:8060
@@ -3846,12 +3847,13 @@ CN卡通,https://stream1.freetv.fun/cnqia-tong-3.ctv
 4K超清,rtp://239.3.1.249:8001
 精选高清,rtp://239.3.1.74:4120
 魅力时尚,rtp://239.3.1.196:9012
-BBC Earth,https://migu.yang-1989.xyz/comp/at6ku3.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-BBC Lifestyle,https://migu.yang-1989.xyz/comp/hvr2dn.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Discovery,https://migu.yang-1989.xyz/comp/tkgjbx.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Channel 5,https://migu.yang-1989.xyz/comp/psm2gr.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Channel 8,https://migu.yang-1989.xyz/comp/d865q7.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
-Channel U,https://migu.yang-1989.xyz/comp/ymnysx.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
+BBC Earth,https://migu.yang-1989.xyz/comp/swn99q.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+BBC Lifestyle,https://migu.yang-1989.xyz/comp/4rd6xr.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Discovery,https://migu.yang-1989.xyz/comp/7z6jaa.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Channel 5,https://migu.yang-1989.xyz/comp/s8nq45.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Channel 8,https://migu.yang-1989.xyz/comp/2rghxk.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+Channel U,https://migu.yang-1989.xyz/comp/gawfvb.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
+TVB Jade「Relay」,https://migu.yang-1989.xyz/comp/ffer3s.m3u8?token=5f8a529f5b4006ed0e178642ad89f2de1dee5e741ecf9110
 Twitch,#genre#
 HeartlandTruckingUSA,https://cdn.ttvb.eu.org/twitch/heartlandtruckingusa
 Suburbbaby,https://cdn.ttvb.eu.org/twitch/suburbbaby
@@ -3864,23 +3866,16 @@ Mews,https://cdn.ttvb.eu.org/twitch/mews
 rynenzo,https://cdn.ttvb.eu.org/twitch/rynenzo
 sickEmoAngel,https://cdn.ttvb.eu.org/twitch/sickemoangel
 vedal987,https://cdn.ttvb.eu.org/twitch/vedal987
-shroud,https://cdn.ttvb.eu.org/twitch/shroud
 BayesiaNash,https://cdn.ttvb.eu.org/twitch/bayesianash
-xQc,https://cdn.ttvb.eu.org/twitch/xqc
 세계__,https://cdn.ttvb.eu.org/twitch/world1104
-cerberVT,https://cdn.ttvb.eu.org/twitch/cerberVT
 dancetempt,https://cdn.ttvb.eu.org/twitch/dancetempt
 nahyunworld,https://cdn.ttvb.eu.org/twitch/nahyunworld
 小舞,https://cdn.ttvb.eu.org/twitch/Nein1203
 QuickyBaby,https://cdn.ttvb.eu.org/twitch/quickybaby
 赤鬼伯伯,https://cdn.ttvb.eu.org/twitch/akaonikou1207
 陈一发儿放映室,https://cdn.ttvb.eu.org/twitch/thebs_chen
-AnanasAsmr,https://cdn.ttvb.eu.org/twitch/ananasasmr
 Emiru,https://cdn.ttvb.eu.org/twitch/emiru
-Shylily,https://cdn.ttvb.eu.org/twitch/shylily
 mia_ivus,https://cdn.ttvb.eu.org/twitch/mia_ivus
-zackrawrr,https://cdn.ttvb.eu.org/twitch/zackrawrr
-乐优,https://cdn.ttvb.eu.org/twitch/iloveuu0408
 AMOURANTH,https://cdn.ttvb.eu.org/twitch/AMOURANTH
 娇兔,https://cdn.ttvb.eu.org/twitch/zrush
 Jinnytty,https://cdn.ttvb.eu.org/twitch/jinnytty
@@ -3888,21 +3883,33 @@ Zumi,https://cdn.ttvb.eu.org/twitch/zumi
 정서이_,https://cdn.ttvb.eu.org/twitch/seoi1016
 Dmitry_Lixxx,https://cdn.ttvb.eu.org/twitch/Dmitry_Lixxx
 Naowh,https://cdn.ttvb.eu.org/twitch/naowh
-ToadAmarillo,https://cdn.ttvb.eu.org/twitch/ToadAmarillo
 久慈くじあ,https://cdn.ttvb.eu.org/twitch/kuji_kujia
 news5live,https://cdn.ttvb.eu.org/twitch/news5live
 林芙芙,https://cdn.ttvb.eu.org/twitch/linfufu
 肉乙,https://cdn.ttvb.eu.org/twitch/zoe_0601
+spicyuuu,https://cdn.ttvb.eu.org/twitch/spicyuuu
+乔希啊,https://cdn.ttvb.eu.org/twitch/josie5297
+Dendi,https://cdn.ttvb.eu.org/twitch/dendi
+GingiTV,https://cdn.ttvb.eu.org/twitch/gingitv
+MissMikkaa,https://cdn.ttvb.eu.org/twitch/missmikkaa
+RachtaZ,https://cdn.ttvb.eu.org/twitch/RachtaZ
+西南69,https://cdn.ttvb.eu.org/twitch/Kr1stw
+imafiaorg,https://cdn.ttvb.eu.org/twitch/imafiaorg
 AI_Modeler,https://cdn.ttvb.eu.org/twitch/ai_modeler
 ASIANDANCERS,https://cdn.ttvb.eu.org/twitch/ASIANDANCERS
 ASMR_Arale,https://cdn.ttvb.eu.org/twitch/asmr_arale
+AnanasAsmr,https://cdn.ttvb.eu.org/twitch/ananasasmr
+Arielle,https://cdn.ttvb.eu.org/twitch/Arielle
 BobRoss,https://cdn.ttvb.eu.org/twitch/Bobross
 ChinaSlime,https://cdn.ttvb.eu.org/twitch/ChinaSlime
 ColawayTV,https://cdn.ttvb.eu.org/twitch/colawaytv
+Ellie_Minibot,https://cdn.ttvb.eu.org/twitch/Ellie_Minibot
 KBJDanceTV,https://cdn.ttvb.eu.org/twitch/kbjdancetv
 Mellooow_,https://cdn.ttvb.eu.org/twitch/Mellooow_
 NonStopFashion,https://cdn.ttvb.eu.org/twitch/nonstopfashion
 QBunnyTV,https://cdn.ttvb.eu.org/twitch/QBunnyTV
+Shylily,https://cdn.ttvb.eu.org/twitch/shylily
+cerberVT,https://cdn.ttvb.eu.org/twitch/cerberVT
 koreandancers,https://cdn.ttvb.eu.org/twitch/koreandancers
 lilianasana,https://cdn.ttvb.eu.org/twitch/lilianasana
 mira,https://cdn.ttvb.eu.org/twitch/mira
@@ -3910,16 +3917,14 @@ mirayogax,https://cdn.ttvb.eu.org/twitch/mirayogax
 rasleeela,https://cdn.ttvb.eu.org/twitch/rasleeela
 sickemoangel24,https://cdn.ttvb.eu.org/twitch/sickemoangel24
 soywini_,https://cdn.ttvb.eu.org/twitch/soywini_
-spicyuuu,https://cdn.ttvb.eu.org/twitch/spicyuuu
-乔希啊,https://cdn.ttvb.eu.org/twitch/josie5297
+xQc,https://cdn.ttvb.eu.org/twitch/xqc
+zackrawrr,https://cdn.ttvb.eu.org/twitch/zackrawrr
+艾怡,https://cdn.ttvb.eu.org/twitch/irissiri129
 우정우정우정우정,https://cdn.ttvb.eu.org/twitch/woojungx4
-Dendi,https://cdn.ttvb.eu.org/twitch/dendi
 ESLCS,https://cdn.ttvb.eu.org/twitch/ESLCS
-GingiTV,https://cdn.ttvb.eu.org/twitch/gingitv
-MissMikkaa,https://cdn.ttvb.eu.org/twitch/missmikkaa
-RachtaZ,https://cdn.ttvb.eu.org/twitch/RachtaZ
+ToadAmarillo,https://cdn.ttvb.eu.org/twitch/ToadAmarillo
+shroud,https://cdn.ttvb.eu.org/twitch/shroud
 虾爱橘子,https://cdn.ttvb.eu.org/twitch/shuteye_orange
-西南69,https://cdn.ttvb.eu.org/twitch/Kr1stw
 农夫小蹦仔,https://cdn.ttvb.eu.org/twitch/informalmiku_
 ADanaLife_,https://cdn.ttvb.eu.org/twitch/adanalife_
 RawReporting,https://cdn.ttvb.eu.org/twitch/rawreporting
@@ -3933,9 +3938,9 @@ TheWindowSeat,https://cdn.ttvb.eu.org/twitch/TheWindowSeat
 TopMedia_TopNews,https://cdn.ttvb.eu.org/twitch/topmedia_topnews
 airportambiance,https://cdn.ttvb.eu.org/twitch/airportambiance
 europesinoinstitute,https://cdn.ttvb.eu.org/twitch/europesinoinstitute
-imafiaorg,https://cdn.ttvb.eu.org/twitch/imafiaorg
 issaboveyou,https://cdn.ttvb.eu.org/twitch/issaboveyou
 keepmunseeweird,https://cdn.ttvb.eu.org/twitch/keepmunseeweird
+乐优,https://cdn.ttvb.eu.org/twitch/iloveuu0408
 SOOP,#genre#
 ε연두з,https://cdn.ttvb.eu.org/soop/myby1221
 겨우디_,https://cdn.ttvb.eu.org/soop/rlrlvkvk123
@@ -3987,8 +3992,6 @@ Uˇ하온♪,https://cdn.ttvb.eu.org/soop/1101momoda
 차이은♡,https://cdn.ttvb.eu.org/soop/sobar97
 goblin2001,https://cdn.ttvb.eu.org/soop/goblin2001
 BJ햄찡,https://cdn.ttvb.eu.org/soop/gusdk2362
-bj찐♥,https://cdn.ttvb.eu.org/soop/jieun8890
-금이♥,https://cdn.ttvb.eu.org/soop/fpajs77
 한갱,https://cdn.ttvb.eu.org/soop/rud9281
 강지아,https://cdn.ttvb.eu.org/soop/rkdfksdud98
 맹이.zip,https://cdn.ttvb.eu.org/soop/hellparty1
@@ -4025,7 +4028,6 @@ bj찐♥,https://cdn.ttvb.eu.org/soop/jieun8890
 효둥,https://cdn.ttvb.eu.org/soop/hyojoo74
 『도아』,https://cdn.ttvb.eu.org/soop/lyl9095
 가을님♥,https://cdn.ttvb.eu.org/soop/fall0715
-경옥GO,https://cdn.ttvb.eu.org/soop/oktube
 고라니율.,https://cdn.ttvb.eu.org/soop/golaniyule0
 그릴래영,https://cdn.ttvb.eu.org/soop/eunyoung1238
 나?도홍련,https://cdn.ttvb.eu.org/soop/eun7888
@@ -4033,25 +4035,28 @@ bj찐♥,https://cdn.ttvb.eu.org/soop/jieun8890
 둘기얏,https://cdn.ttvb.eu.org/soop/1004ysus
 루나별피아노,https://cdn.ttvb.eu.org/soop/asq1177
 류하♡,https://cdn.ttvb.eu.org/soop/rrrr4719
-미지수♥,https://cdn.ttvb.eu.org/soop/zxll6721
 박세라,https://cdn.ttvb.eu.org/soop/nj8893
-박우주,https://cdn.ttvb.eu.org/soop/soclato
 백진미._.,https://cdn.ttvb.eu.org/soop/juhyoung04
-사나이♥,https://cdn.ttvb.eu.org/soop/sanaekcy
 성은,https://cdn.ttvb.eu.org/soop/ahahah1123
-소다♥,https://cdn.ttvb.eu.org/soop/zbxlzzz
 스타걸서연지,https://cdn.ttvb.eu.org/soop/seraa
-으니♥,https://cdn.ttvb.eu.org/soop/tmzk1
 이린,https://cdn.ttvb.eu.org/soop/ksoim9411
 이지각,https://cdn.ttvb.eu.org/soop/leelate
 차밍챠,https://cdn.ttvb.eu.org/soop/chamingcha
-츠보미♥,https://cdn.ttvb.eu.org/soop/flowerbud1
 쿠빈,https://cdn.ttvb.eu.org/soop/kubin970515
-편집왕하나옵,https://cdn.ttvb.eu.org/soop/hancoma
 하리미★ミ,https://cdn.ttvb.eu.org/soop/hl6260
-해리〃민경,https://cdn.ttvb.eu.org/soop/dkdleliii
 토스걸서지수,https://cdn.ttvb.eu.org/soop/lovelove7777
 민민2,https://cdn.ttvb.eu.org/soop/kleezzz
+bj찐♥,https://cdn.ttvb.eu.org/soop/jieun8890
+경옥GO,https://cdn.ttvb.eu.org/soop/oktube
+금이♥,https://cdn.ttvb.eu.org/soop/fpajs77
+미지수♥,https://cdn.ttvb.eu.org/soop/zxll6721
+박우주,https://cdn.ttvb.eu.org/soop/soclato
+사나이♥,https://cdn.ttvb.eu.org/soop/sanaekcy
+소다♥,https://cdn.ttvb.eu.org/soop/zbxlzzz
+으니♥,https://cdn.ttvb.eu.org/soop/tmzk1
+츠보미♥,https://cdn.ttvb.eu.org/soop/flowerbud1
+편집왕하나옵,https://cdn.ttvb.eu.org/soop/hancoma
+해리〃민경,https://cdn.ttvb.eu.org/soop/dkdleliii
 YY,#genre#
 天晓-Kk遇见即是上上签,https://cdn.ttvb.eu.org/yy/1745
 歪歪「游戏」暂无主播在线,https://live.yang-1989.eu.org/Live.m3u
@@ -4060,11 +4065,17 @@ YY,#genre#
 小宁宁,https://cdn.ttvb.eu.org/yy/81821
 凉小呆,https://cdn.ttvb.eu.org/yy/1462155211
 燃舞蹈-小艺,https://cdn.ttvb.eu.org/yy/1349422196
-舞喵,https://cdn.ttvb.eu.org/yy/1659
 星灿白微,https://cdn.ttvb.eu.org/yy/9490
 小青柠,https://cdn.ttvb.eu.org/yy/5893
 燃舞蹈-喜儿,https://cdn.ttvb.eu.org/yy/1353619608
 御山玖玥,https://cdn.ttvb.eu.org/yy/1382862318
+初夏-有事休两天,https://cdn.ttvb.eu.org/yy/4759
+天晓大白兔-心如所院,https://cdn.ttvb.eu.org/yy/1669
+天晓迎迎,https://cdn.ttvb.eu.org/yy/1670
+好声音♪ 潮流前线-MOMO,https://cdn.ttvb.eu.org/yy/58074
+小小 好运版,https://cdn.ttvb.eu.org/yy/61986
+燃舞蹈-大坵坵（中中中帝王套来咯,https://cdn.ttvb.eu.org/yy/9419
+珊瑚,https://cdn.ttvb.eu.org/yy/9235
 IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
 漫画解说,https://yylunbo.ottiptv.cc/yy/1382735568
 天龙八部,https://live.ottiptv.cc/yy/1351814644
@@ -4075,15 +4086,9 @@ IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
 314星妹妹m,https://cdn.ttvb.eu.org/yy/10287387
 YY用户,https://cdn.ttvb.eu.org/yy/1354930976
 【卓越】,https://cdn.ttvb.eu.org/yy/34025318
-初夏-有事休两天,https://cdn.ttvb.eu.org/yy/4759
-天晓大白兔-心如所院,https://cdn.ttvb.eu.org/yy/1669
-天晓迎迎,https://cdn.ttvb.eu.org/yy/1670
-好声音♪ 潮流前线-MOMO,https://cdn.ttvb.eu.org/yy/58074
-小小 好运版,https://cdn.ttvb.eu.org/yy/61986
 少寒Shine,https://cdn.ttvb.eu.org/yy/1357
 燃舞993,https://cdn.ttvb.eu.org/yy/993
-燃舞蹈-大坵坵（中中中帝王套来咯,https://cdn.ttvb.eu.org/yy/9419
-珊瑚,https://cdn.ttvb.eu.org/yy/9235
+舞喵,https://cdn.ttvb.eu.org/yy/1659
 萌萌,https://cdn.ttvb.eu.org/yy/166389
 萱萱,https://cdn.ttvb.eu.org/yy/634132
 音乐991,https://cdn.ttvb.eu.org/yy/991
