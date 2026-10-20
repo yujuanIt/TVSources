@@ -22351,6 +22351,125 @@
       "tvgId": "",
       "logo": "https://epg.yang-1989.xyz/logo/斗鱼.png",
       "enabled": "true"
+    },
+    "c_126afafb73b4ed8b33f8a9b1": {
+      "name": "SUPER灵异",
+      "group": "港澳台",
+      "tvgId": "SUPER靈異",
+      "logo": "https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp",
+      "enabled": "true"
+    },
+    "c_f52a03de6f6be6cc91d81aa3": {
+      "name": "SUPER处境剧",
+      "group": "港澳台",
+      "tvgId": "SUPER處境劇",
+      "logo": "https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp",
+      "enabled": "true"
+    },
+    "c_7fe9d51efa880fdd4f3633ea": {
+      "name": "SUPER资讯娱乐",
+      "group": "港澳台",
+      "tvgId": "SUPER資訊娛樂",
+      "logo": "https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp",
+      "enabled": "true"
+    },
+    "c_a93d33e7c01f9dd6525567f7": {
+      "name": "SUPER Game Show",
+      "group": "港澳台",
+      "tvgId": "SUPER Game Show",
+      "logo": "https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp",
+      "enabled": "true"
+    },
+    "c_299358a1f044c0152d94443b": {
+      "name": "咬人小小兔-",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1858807059",
+      "enabled": "true"
+    },
+    "c_dc02c1855e92eaf63b89b8bf": {
+      "name": "Katie小仙女",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/43955338",
+      "enabled": "true"
+    },
+    "c_2ce184a1974e80487f08830d": {
+      "name": "ck小青蛙",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/xiaoqingwa0305",
+      "enabled": "true"
+    },
+    "c_4dff24c0b18ca3f75b62b84f": {
+      "name": "奶橘尢很橘🍊（助眠）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/940031487128",
+      "enabled": "true"
+    },
+    "c_c7891298f340ecda0242cfe2": {
+      "name": "鹅大王OvO",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/37212127940",
+      "enabled": "true"
+    },
+    "c_42731219dcf0f663d91da586": {
+      "name": "설링♥",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/2wjdanls",
+      "enabled": "true"
+    },
+    "c_22a2fa39f1d22161d2038b10": {
+      "name": "하이희야♡",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/jkmjkm1236",
+      "enabled": "true"
+    },
+    "c_f933988082bb17c70890f70e": {
+      "name": "햄잉♥",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/big541",
+      "enabled": "true"
+    },
+    "c_346c5821300c8d7143701f70": {
+      "name": "PineappleHoops",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/pineapplehoops",
+      "enabled": "true"
+    },
+    "c_be677e5afb53d1b733c34617": {
+      "name": "951-丁丁好运来呀好运来",
+      "group": "YY",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/yy/8248",
+      "enabled": "true"
+    },
+    "c_1999aeac68a75a6e4d9d9b51": {
+      "name": "坦克世界-中队",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/86275289503",
+      "enabled": "true"
+    },
+    "c_97461eab48c6b8586f17e1f9": {
+      "name": "天霸Yolo（三角洲行动）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1947678137",
+      "enabled": "true"
+    },
+    "c_cb7b153a928f8940ca7e8bc6": {
+      "name": "CoyoteExpress",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/coyoteexpress",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -24353,7 +24472,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "7b174d06cc021b68e6363f26823a9ebac735be66730c31690ac08a4979813093",
+      "sha256": "d9292cf69c0fa6ecf64a01acc7038421008655050b9da30d9908889527539a71",
       "routes": 334,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -26663,7 +26782,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "8609ac96b34c53ba025fd8c3b1fcf60b93778bb6651d8c14d1ebe4f011ebb4c2",
+      "sha256": "3f99442cc87920bf36bbfa4f498db927300af7f9fbef6c954bfdcc0d9130e9a7",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -27223,11 +27342,35 @@
           "name": "myTV SUPER直播足球7台",
           "tvgId": "myTV SUPER直播足球7台",
           "group": "•myTV「DASH」"
+        },
+        "10780973aebb59d4bc382771d6aead5c98d2c92cb8f991065bb6e54df67052b2": {
+          "channel": "c_126afafb73b4ed8b33f8a9b1",
+          "name": "SUPER靈異",
+          "tvgId": "SUPER靈異",
+          "group": "•myTV「DASH」"
+        },
+        "a97af74079a1438d40c74fb1852544084908510bcb7efdb67d01c42f3f2aa6da": {
+          "channel": "c_f52a03de6f6be6cc91d81aa3",
+          "name": "SUPER處境劇",
+          "tvgId": "SUPER處境劇",
+          "group": "•myTV「DASH」"
+        },
+        "2bda2f3cb9d25d915c1c4eff2ee43f405e9b574bead236162f4c65c46e5c52ee": {
+          "channel": "c_7fe9d51efa880fdd4f3633ea",
+          "name": "SUPER資訊娛樂",
+          "tvgId": "SUPER資訊娛樂",
+          "group": "•myTV「DASH」"
+        },
+        "5775340eb63898dc3b026cc644dd941b11bd673fdb99f7ba0d57a793faa1593e": {
+          "channel": "c_a93d33e7c01f9dd6525567f7",
+          "name": "SUPER Game Show",
+          "tvgId": "SUPER Game Show",
+          "group": "•myTV「DASH」"
         }
       }
     },
     "yang-sports": {
-      "sha256": "17551450a95136328fa94469846d8cadaf8fe541bf0037e9d2ee87f240fdc681",
+      "sha256": "d3cf3232e597220b4b9ddb8ce76b9be9e32be4849f6927917ad4c47f4e1036f2",
       "routes": 144,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31775,8 +31918,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f5f52066c5e0ab56cccde973eec9b7345db600b21a541dfc9764df6a50d7f73c",
-      "routes": 799,
+      "sha256": "4ce3f7e2a135de45bb6216248753cfb44259450b6f111857b151dac19366b6f5",
+      "routes": 606,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -43519,6 +43662,90 @@
           "name": "往事vs随风1",
           "tvgId": "",
           "group": "•斗鱼「其他」"
+        },
+        "64b3ebaacd039f4859d801225837c6a7280713bca074bf4094947812e5fe8814": {
+          "channel": "c_299358a1f044c0152d94443b",
+          "name": "咬人小小兔-",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "a5a0174d0c8b523c3e69ed3042f4e20608432c9b3c6d627bc03a18238c4d05c8": {
+          "channel": "c_dc02c1855e92eaf63b89b8bf",
+          "name": "Katie小仙女",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f12ea23bad3723793e2e769bca4b717232d5ca90e7d0658e203939ffbb104a69": {
+          "channel": "c_2ce184a1974e80487f08830d",
+          "name": "ck小青蛙",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "2d1ee8a60ba0146fa6153482cad3f10cad1f22cfb1b13200231b0f8d60bf1deb": {
+          "channel": "c_4dff24c0b18ca3f75b62b84f",
+          "name": "奶橘尢很橘🍊（助眠）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7c48e5512f5a6d2035a06b31b953dc9cbeceb46bbe168e4cbd11c10227f75145": {
+          "channel": "c_45cbb9176a40617a4ed0e9ff",
+          "name": "妮倪尼（熙子是我爱播）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "cf8557bde9598f4827ca6e51af8d0dc9ec90b9ddfaac012240e0e305db68613d": {
+          "channel": "c_c7891298f340ecda0242cfe2",
+          "name": "鹅大王OvO",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "79a4c54f2eab54cd01e7c033f6bbbc576e1591edad2c938e54104c922722f7c8": {
+          "channel": "c_42731219dcf0f663d91da586",
+          "name": "설링♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "9846505979872ca04e8b7fb5bcef22d877cb94574eb3bc546b04c8aee5412cca": {
+          "channel": "c_22a2fa39f1d22161d2038b10",
+          "name": "하이희야♡",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "9f4fa3a2a407b74792b149a218bd79c332e29e19503c63dd84fe0d9cd30d4a72": {
+          "channel": "c_f933988082bb17c70890f70e",
+          "name": "햄잉♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "0a88c76c6a5189adef6cf04021ec4bd9c7e8b87f6679fafeefd6b5060ad7aec7": {
+          "channel": "c_346c5821300c8d7143701f70",
+          "name": "PineappleHoops",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "32540c62fe5a84d6141b7b44a7170f1cfbff63f9f4d3d28711f4c0b74650538a": {
+          "channel": "c_be677e5afb53d1b733c34617",
+          "name": "951-丁丁好运来呀好运来",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "e397fc4045201d97ad13ce2c62e1787c16843d0f6b2eed53f2c563e92a06b3cf": {
+          "channel": "c_1999aeac68a75a6e4d9d9b51",
+          "name": "坦克世界-中队",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "89ab4e34b93aad16940f849655ae2cf9b52ca5e09274f800a313c0363304e720": {
+          "channel": "c_97461eab48c6b8586f17e1f9",
+          "name": "天霸Yolo（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "16731e2b9a1ec3a344a274ed5010aea582e13bc9db2bee058f3337f009f26c7a": {
+          "channel": "c_cb7b153a928f8940ca7e8bc6",
+          "name": "CoyoteExpress",
+          "tvgId": "",
+          "group": "•Twitch「其他」"
         }
       }
     },

@@ -17,7 +17,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <修复漫剧、海绵>",
+      "name": "豆豆┃片单",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -8642,13 +8642,35 @@
         "key": "py_yinhuaone"
       },
       "_syncId": "23fd1f05a5620f606f48e55870522caf"
+    },
+    {
+      "key": "风云",
+      "name": "☁️风云┃多线",
+      "type": 3,
+      "api": "csp_FyGuard",
+      "ext": {
+        "type": "video",
+        "name": "Fy"
+      },
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 1,
+      "enabled": true,
+      "context": "fantaiying",
+      "origin": {
+        "source": "fantaiying",
+        "name": "饭太硬 · 点播与直播",
+        "url": "http://www.饭太硬.net/tv",
+        "key": "风云"
+      },
+      "_syncId": "c8ef71914ddf13bc0c41bb3c525e5655"
     }
   ],
   "contexts": {
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/3c60a3e44d582b5a74fdcab19a150ad5.jpg;md5;aa8d37525617af470b3b8dfc91db8669",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/6d1de81b30c4ebc594bfcbece29161ba.jpg;md5;42869e09ec9d744c7ab61b6ae27839b8",
       "rules": [
         {
           "name": "cdn.ryplay",
