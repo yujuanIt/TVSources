@@ -22470,6 +22470,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/coyoteexpress",
       "enabled": "true"
+    },
+    "c_b6783c435fac88fab6ec822b": {
+      "name": "김유월_",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/Yuwol92",
+      "enabled": "true"
+    },
+    "c_e66496882476c11912549ff6": {
+      "name": "长城老郭",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Guozhongxing",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -24472,7 +24486,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "d9292cf69c0fa6ecf64a01acc7038421008655050b9da30d9908889527539a71",
+      "sha256": "186813c13ad3f78aa62a274d5ffc698cf505444ac267926a538fc5ab3580b661",
       "routes": 334,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -26782,7 +26796,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "3f99442cc87920bf36bbfa4f498db927300af7f9fbef6c954bfdcc0d9130e9a7",
+      "sha256": "4d8914ff0c70f5740b57f5f2a11e9c5f11a7f9e0b090f00e4425a455969c050f",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -27370,7 +27384,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "d3cf3232e597220b4b9ddb8ce76b9be9e32be4849f6927917ad4c47f4e1036f2",
+      "sha256": "ce986d1aec485913cf25c90930a7c1ae9effb9b6e8e60754cc308ed979ae096a",
       "routes": 144,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31918,8 +31932,8 @@
       }
     },
     "yang-network": {
-      "sha256": "4ce3f7e2a135de45bb6216248753cfb44259450b6f111857b151dac19366b6f5",
-      "routes": 606,
+      "sha256": "c1e03a0b6796bdd462e19153a40350de69005e63a4cbda63979e274fafe322b0",
+      "routes": 354,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -43746,6 +43760,18 @@
           "name": "CoyoteExpress",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "e647becdf16870f8254ab098d7b2a642d6875cb7274e59df46d8c9fd3a2cfa41": {
+          "channel": "c_b6783c435fac88fab6ec822b",
+          "name": "김유월_",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "552129e8aebe586eaef3eeaea86f3d7f0ef5bef5c275d9bb9e44c2ab0490b113": {
+          "channel": "c_e66496882476c11912549ff6",
+          "name": "长城老郭",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
