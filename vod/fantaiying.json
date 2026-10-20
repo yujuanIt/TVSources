@@ -1,5 +1,5 @@
 {
-  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/3c60a3e44d582b5a74fdcab19a150ad5.jpg;md5;aa8d37525617af470b3b8dfc91db8669",
+  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/6d1de81b30c4ebc594bfcbece29161ba.jpg;md5;42869e09ec9d744c7ab61b6ae27839b8",
   "rules": [
     {
       "name": "cdn.ryplay",
@@ -23,7 +23,7 @@
   "sites": [
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <修复漫剧、海绵>",
+      "name": "豆豆┃片单",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -639,6 +639,19 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
+    },
+    {
+      "key": "风云",
+      "name": "☁️风云┃多线",
+      "type": 3,
+      "api": "csp_FyGuard",
+      "ext": {
+        "type": "video",
+        "name": "Fy"
+      },
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 1
     }
   ]
 }
