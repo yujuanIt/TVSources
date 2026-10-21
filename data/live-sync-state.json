@@ -22946,6 +22946,76 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/bilibili/159250",
       "enabled": "true"
+    },
+    "c_8c0f013056fe7a6cba54f300": {
+      "name": "第一财经「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "上海第一财经",
+      "logo": "https://migu.yang-1989.xyz/logo/第一财经.webp",
+      "enabled": "true"
+    },
+    "c_fe01a57ba4e3cd739ee7c590": {
+      "name": "五星体育「72小时回看」",
+      "group": "体育",
+      "tvgId": "五星体育",
+      "logo": "https://migu.yang-1989.xyz/logo/五星体育.webp",
+      "enabled": "true"
+    },
+    "c_5486ae7bc8df39eac56f5d04": {
+      "name": "上海新闻综合「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "上海新闻综合",
+      "logo": "https://migu.yang-1989.xyz/logo/上海新闻综合.webp",
+      "enabled": "true"
+    },
+    "c_4b37614e9c90b3a573e3e979": {
+      "name": "上海都市频道「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "上海都市",
+      "logo": "https://migu.yang-1989.xyz/logo/上海都市频道.webp",
+      "enabled": "true"
+    },
+    "c_e0f7a5bf08328c74558d8f68": {
+      "name": "魔都眼「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "魔都眼",
+      "logo": "https://migu.yang-1989.xyz/logo/魔都眼.webp",
+      "enabled": "true"
+    },
+    "c_4167bd4c02dc7595cf18da13": {
+      "name": "陆漫漫",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/802454043581",
+      "enabled": "true"
+    },
+    "c_61771e8c589fde5eb6ef4ebd": {
+      "name": "大朴观影",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://epg.yang-1989.xyz/logo/虎牙.png",
+      "enabled": "true"
+    },
+    "c_1a91ea72d40103ccf0fdb317": {
+      "name": "涂涂观影团",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://epg.yang-1989.xyz/logo/虎牙.png",
+      "enabled": "true"
+    },
+    "c_e7483275fe67b25f2a8ae096": {
+      "name": "爱吃蛋蛋糕",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://epg.yang-1989.xyz/logo/虎牙.png",
+      "enabled": "true"
+    },
+    "c_e110d292e2458172e3ce7482": {
+      "name": "죠물",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/berryoonna",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27882,8 +27952,8 @@
       }
     },
     "yang-sports": {
-      "sha256": "b9a698a89fe59b2e28a5a8fb33e1a1ac2c94e2f115157c23265467faa0798728",
-      "routes": 140,
+      "sha256": "0864a6adaae572281a003f2640a8e7a367b0afa700042f6737e5d360829fe551",
+      "routes": 146,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -29108,6 +29178,42 @@
           "name": "TVB Jade「Relay」",
           "tvgId": "TVB Jade",
           "group": "•綜合「Relay」"
+        },
+        "f8306418fea553e38ab15f0ef3480db25e8888b187b09029f018e0bfb354f4b0": {
+          "channel": "c_8c0f013056fe7a6cba54f300",
+          "name": "第一财经「72小时回看」",
+          "tvgId": "上海第一财经",
+          "group": "•中國「Relay」"
+        },
+        "3b7cbf881deb43a4e3f18048906c765ef09753960061473da2dabcd5e5739fe3": {
+          "channel": "c_fe01a57ba4e3cd739ee7c590",
+          "name": "五星体育「72小时回看」",
+          "tvgId": "五星体育",
+          "group": "•中國「Relay」"
+        },
+        "191f7dc3303e820a88233f94ef810848595a9c925e8811e142c29f1bf73e0fbe": {
+          "channel": "c_5a5079c29f7f62ca00bf20c2",
+          "name": "东方卫视「72小时回看」",
+          "tvgId": "东方卫视",
+          "group": "•中國「Relay」"
+        },
+        "cb4fc116a937dcf57705226e6595396133dc620e83d2b498fcf3fd0c1c05171c": {
+          "channel": "c_5486ae7bc8df39eac56f5d04",
+          "name": "上海新闻综合「72小时回看」",
+          "tvgId": "上海新闻综合",
+          "group": "•中國「Relay」"
+        },
+        "ee235a5198890c673e7b46be8ac6dfba0e639e9e3bf42daf417da52475d03d60": {
+          "channel": "c_4b37614e9c90b3a573e3e979",
+          "name": "上海都市频道「72小时回看」",
+          "tvgId": "上海都市",
+          "group": "•中國「Relay」"
+        },
+        "7a14e23371f6d6c4c37e2289855a63eb59f23d42250426d8c5667176d3220903": {
+          "channel": "c_e0f7a5bf08328c74558d8f68",
+          "name": "魔都眼「72小时回看」",
+          "tvgId": "魔都眼",
+          "group": "•中國「Relay」"
         }
       }
     },
@@ -32430,8 +32536,8 @@
       }
     },
     "yang-network": {
-      "sha256": "d8ed8aa542d6b7c3a1d2e0ded273e789ff0c5aed2a967aea0749a999eb8e5de2",
-      "routes": 560,
+      "sha256": "9e141d7118ba518c368f09cab15620a6af7653feb251f482677a17057f0cb411",
+      "routes": 366,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -44684,6 +44790,36 @@
           "name": "绯幻月",
           "tvgId": "",
           "group": "•哔哩「游戏」"
+        },
+        "22ba13417c38ede8c93b8776e58753339c2c92ca3ca2d902ede6faa72f893703": {
+          "channel": "c_4167bd4c02dc7595cf18da13",
+          "name": "陆漫漫",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "4ecbac386aa404b66f2172ad07fda67bef424ca1c24b186ef266fb2cd1d91a0c": {
+          "channel": "c_61771e8c589fde5eb6ef4ebd",
+          "name": "大朴观影",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "b671bf4986b32b36979120fb2f7251071a15cf748de13bd4480d46f77de2c986": {
+          "channel": "c_1a91ea72d40103ccf0fdb317",
+          "name": "涂涂观影团",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "ead1f9c11e450c9acbde71c5c06bf4145f89f485c8ebe5d6421887021077fd37": {
+          "channel": "c_e7483275fe67b25f2a8ae096",
+          "name": "爱吃蛋蛋糕",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "7da237e83be8d924dbbb60400a2d9d982a1997bb891331674e4fee3c182386a7": {
+          "channel": "c_e110d292e2458172e3ce7482",
+          "name": "죠물",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
         }
       }
     },
