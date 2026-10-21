@@ -10602,7 +10602,7 @@
     "feimao": {
       "name": "默认影视源 · 肥猫",
       "url": "https://www.iyouhun.com/tv/fm",
-      "spider": "https://img2.tofaka.com/autoupload/f/eja2s/20261016/MmQe/0X0/PandaQ1016.png;md5;674fa106d764077a7be5cf646ea9b564",
+      "spider": "http://肥猫.net/spider.php;md5;2d842238d97d949fef5c679cb876f81d",
       "parses": [
         {
           "name": "Json聚合",

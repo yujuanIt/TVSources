@@ -22484,6 +22484,125 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/Guozhongxing",
       "enabled": "true"
+    },
+    "c_f430dfe6807422c0a6dec579": {
+      "name": "农咖尼",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/12066944",
+      "enabled": "true"
+    },
+    "c_dec00a09b707c54668b974a5": {
+      "name": "Pang Di🔥",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/4865362",
+      "enabled": "true"
+    },
+    "c_9f0257e1fbcbbacd2445a191": {
+      "name": "SL.困困777",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/580669394513",
+      "enabled": "true"
+    },
+    "c_2ccdb1e461fe4364bb71ea3a": {
+      "name": "于二",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/20131111yyyy",
+      "enabled": "true"
+    },
+    "c_37fb0c2bd5f1d69efe1e1859": {
+      "name": "机智的羊咩咩（佛门尼姑）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://epg.yang-1989.xyz/logo/抖音.png",
+      "enabled": "true"
+    },
+    "c_aea099f0a5003ce077152b4f": {
+      "name": "皮特（三角洲行动）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/LF1210316",
+      "enabled": "true"
+    },
+    "c_92509a09a957dafd9bc97236": {
+      "name": "董路",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/donglu805",
+      "enabled": "true"
+    },
+    "c_1da89bc255338cdf499cc485": {
+      "name": "记得吃早饭",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/22136611543",
+      "enabled": "true"
+    },
+    "c_ced6f5be640d1d9764e7942b": {
+      "name": "鸽宝🕊️",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/mc2710",
+      "enabled": "true"
+    },
+    "c_fd4185ea1629ac31d8875e64": {
+      "name": "集美小兔【ZKL】",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/147948",
+      "enabled": "true"
+    },
+    "c_ab3c85fadec8671b51512bb2": {
+      "name": "Nastashon",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/nastashon",
+      "enabled": "true"
+    },
+    "c_2310eed51438198133472049": {
+      "name": "dj_halftrack_",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/dj_halftrack_",
+      "enabled": "true"
+    },
+    "c_a3b35d01c63166c7e053fc8d": {
+      "name": "Lydia",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Lydia39978",
+      "enabled": "true"
+    },
+    "c_68229d0c37dfd495289edcb6": {
+      "name": "华创-鹤止 （巅峰第一）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://epg.yang-1989.xyz/logo/抖音.png",
+      "enabled": "true"
+    },
+    "c_66985c853a5a65e1dbdfde57": {
+      "name": "炉石传说",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/147078880",
+      "enabled": "true"
+    },
+    "c_20c5d64d17a20b8152f361c3": {
+      "name": "王桁台球教学",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/806654806454",
+      "enabled": "true"
+    },
+    "c_2f94f56aef2e17a1a8b1c6d9": {
+      "name": "yuling.verna10.11纽约庆",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/_yuling.verna_",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -31932,8 +32051,8 @@
       }
     },
     "yang-network": {
-      "sha256": "c1e03a0b6796bdd462e19153a40350de69005e63a4cbda63979e274fafe322b0",
-      "routes": 354,
+      "sha256": "8ea68bc24ecba90ac35b1b24b1be33b663cbe7d1dfded99c240a012f3f97d696",
+      "routes": 513,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -43770,6 +43889,108 @@
         "552129e8aebe586eaef3eeaea86f3d7f0ef5bef5c275d9bb9e44c2ab0490b113": {
           "channel": "c_e66496882476c11912549ff6",
           "name": "长城老郭",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "5397ae50fe076b9109fded0b7084340fb0343aca58bcdb88fbf8fefafd35fca2": {
+          "channel": "c_f430dfe6807422c0a6dec579",
+          "name": "农咖尼",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "c59a68dd7c09bb3f83848ed6694db8b50cfd6781527d7df02330b5da688a0f79": {
+          "channel": "c_dec00a09b707c54668b974a5",
+          "name": "Pang Di🔥",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b2b6b6ee9bca94a1dd7bd3ab22f916c620ea88544a7cf9d7434f550297d1131e": {
+          "channel": "c_9f0257e1fbcbbacd2445a191",
+          "name": "SL.困困777",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "277c38cc01a7bcca05e259cdbdc2fbf4cf0e6d7e3c2daec640e09673de4f34f1": {
+          "channel": "c_2ccdb1e461fe4364bb71ea3a",
+          "name": "于二",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7d16b517623276601c894cef0e9725ee1e298134a92d16821e466bb9b6da41d5": {
+          "channel": "c_37fb0c2bd5f1d69efe1e1859",
+          "name": "机智的羊咩咩（佛门尼姑）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7cbd4961bc94992c0f9ae44feef8b405e337afcd8aea0c934994efd48dd7ea29": {
+          "channel": "c_aea099f0a5003ce077152b4f",
+          "name": "皮特（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c885c9b850b490fe33f692b6fcee0832999bbd64739888e74d988138053bdf86": {
+          "channel": "c_92509a09a957dafd9bc97236",
+          "name": "董路",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ed4b2fc6370905f7c3b397f18a058e226e05c67003121d1d49abbfb4fa71b241": {
+          "channel": "c_1da89bc255338cdf499cc485",
+          "name": "记得吃早饭",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a0fa1b6e16b12c93f8fa7efc39b972d1a93fa257a700b8c8c389196fc038e33e": {
+          "channel": "c_ced6f5be640d1d9764e7942b",
+          "name": "鸽宝🕊️",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "84723d3bdcd3312460590dc3d44e750c89a8282979d6b73c3b34828ba12b5803": {
+          "channel": "c_fd4185ea1629ac31d8875e64",
+          "name": "集美小兔【ZKL】",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "de9078e81d213340ec81608411f3a3691e1c6502c70c48b4ef2a426e18d50e2d": {
+          "channel": "c_ab3c85fadec8671b51512bb2",
+          "name": "Nastashon",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "3e2d34f1fa31e523753f50e5594f24390973e900b0dacc37d294a6e75a44b601": {
+          "channel": "c_2310eed51438198133472049",
+          "name": "dj_halftrack_",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "1cf0abc935b61f762c5ffa0fc13b477f21f5b209640a3a4b763840321a04ed74": {
+          "channel": "c_a3b35d01c63166c7e053fc8d",
+          "name": "Lydia",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "746f3977bc4dab32750ef404d50032c03c19b8add0128fc79d2f79023839d201": {
+          "channel": "c_68229d0c37dfd495289edcb6",
+          "name": "华创-鹤止 （巅峰第一）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "02e4aef76fa66c15ed52f08a9c60f3a3f8cacae85086e2467b1f5bdbbde4dfd7": {
+          "channel": "c_66985c853a5a65e1dbdfde57",
+          "name": "炉石传说",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "2cf817c990c074107290a5dc031e5f5f47ad56cbcf7a9f7af1c5c25b95832032": {
+          "channel": "c_20c5d64d17a20b8152f361c3",
+          "name": "王桁台球教学",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "b6ad0b415df2b51db9a05dd6e8ebf96221142530468a33df1b541d5eff69f250": {
+          "channel": "c_2f94f56aef2e17a1a8b1c6d9",
+          "name": "yuling.verna10.11紐約庆",
           "tvgId": "",
           "group": "•抖音「其他」"
         }
