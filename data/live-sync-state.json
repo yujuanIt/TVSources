@@ -22890,6 +22890,62 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/ShenJun668",
       "enabled": "true"
+    },
+    "c_f67bf4545893fd184745e3b7": {
+      "name": "不二丸叽",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/22551964",
+      "enabled": "true"
+    },
+    "c_8585ce2620ad287251be679a": {
+      "name": "修修猫ww",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/26481217",
+      "enabled": "true"
+    },
+    "c_e0c9bbdb1d712eec4b502484": {
+      "name": "奶橘尢很橘",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/3740310",
+      "enabled": "true"
+    },
+    "c_868a5ab4ce8fd7a6f08ffef5": {
+      "name": "77🥟",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/59383290914",
+      "enabled": "true"
+    },
+    "c_0e54681447fc9dc7af32619b": {
+      "name": "Susu~💞",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/68615527626",
+      "enabled": "true"
+    },
+    "c_7ffdd39f2b209f2ccc626913": {
+      "name": "婉弦🏮古筝",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/92175327136",
+      "enabled": "true"
+    },
+    "c_17eb0d2ebc8ac99a7c014627": {
+      "name": "星小tree",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/25904437",
+      "enabled": "true"
+    },
+    "c_123538086861fc62d3cddeab": {
+      "name": "绯幻月",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/159250",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -24892,8 +24948,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "97081ccf10c55391d2b8759cc3dba5976fc52c8cfb1760dd35b174f1e14e4237",
-      "routes": 323,
+      "sha256": "e7ddf15b126a3a24f9139e9fcb85f142ecbfaa26f2578c342e350eb5f099cfce",
+      "routes": 331,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -27238,7 +27294,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "4d8914ff0c70f5740b57f5f2a11e9c5f11a7f9e0b090f00e4425a455969c050f",
+      "sha256": "2b1a6ba30fd9d1796ddbeb509cfe7b95d3d868deeba8ce43e6fde77ffbc49514",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -27826,8 +27882,8 @@
       }
     },
     "yang-sports": {
-      "sha256": "b98424a26b0df7ceb1e52cd78ab9daa47235bc81b9f12f9a23925dcb1d2ca1ba",
-      "routes": 132,
+      "sha256": "b9a698a89fe59b2e28a5a8fb33e1a1ac2c94e2f115157c23265467faa0798728",
+      "routes": 140,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -32374,8 +32430,8 @@
       }
     },
     "yang-network": {
-      "sha256": "94e4df398352c4842fdba09a407595df11ef548b3a25304c1f5254ab6392f268",
-      "routes": 818,
+      "sha256": "d8ed8aa542d6b7c3a1d2e0ded273e789ff0c5aed2a967aea0749a999eb8e5de2",
+      "routes": 560,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -44556,6 +44612,78 @@
           "name": "自律哥有氧运动（减脂&塑形）",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "fe778037e209c392aec3508aebcdd065389e8c9c93b22e05ed4978fda2952652": {
+          "channel": "c_f67bf4545893fd184745e3b7",
+          "name": "不二丸叽",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "650dcc0a2644c5987b950cddf5e21d81424705cb33504569e5d0fb0b3029595d": {
+          "channel": "c_569cdd3248a9aa6383a81353",
+          "name": "乖乖丸",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "22e089768f5c68621a4dac9a95f5227f72f07c3cf4a2fd991b4677c58193544e": {
+          "channel": "c_8585ce2620ad287251be679a",
+          "name": "修修猫ww",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "d45ab09362af14eb86cbb29b4b67243e5cfc9c1b93f04c6395d015db96660871": {
+          "channel": "c_e0c9bbdb1d712eec4b502484",
+          "name": "奶橘尢很橘",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "f01c2d9532bbb316109379328af6fac45f3df16624fd8a57e15e333487949402": {
+          "channel": "c_06c5baf4ac79c1237748e423",
+          "name": "战术睡衣",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "0a48d5862b2508ce91c4240c46b657aca130e8e56690787dddffafdc3e54772e": {
+          "channel": "c_868a5ab4ce8fd7a6f08ffef5",
+          "name": "77🥟",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c38f8ba4de2294573857e3dcd9fb79fa97aafb49251ffe4c6354b6c24db4cc56": {
+          "channel": "c_0e54681447fc9dc7af32619b",
+          "name": "Susu~💞",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ab90bdd9b90e08733117fc72e0b9497a6a8badaaefa014e8134f0e6af2eec4b5": {
+          "channel": "c_7ffdd39f2b209f2ccc626913",
+          "name": "婉弦🏮古筝",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "297a2bd2166a357bf22a62a75419aefb8aac74dedb65619e6b376b4141dd8118": {
+          "channel": "c_eebeb298ae8bdff3b65cccfa",
+          "name": "砍砍💧10/21🎂",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "3fd1e1f03faffc01efb520de7f1c2cd59d9e35e82712f627f0e00091a68015a5": {
+          "channel": "c_39df00f0daf2d8bed3017854",
+          "name": "E-;이은♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "426b33c424da39f5f2455c0f3ccf96765e7a042edc489b25e11c9a2b58ffa844": {
+          "channel": "c_17eb0d2ebc8ac99a7c014627",
+          "name": "星小tree",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "a99cbb75e1ea3584eaf26ee119cb959c4a0a7a36ed4fa3b94e24a430a68bf22d": {
+          "channel": "c_123538086861fc62d3cddeab",
+          "name": "绯幻月",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
         }
       }
     },
