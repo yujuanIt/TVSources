@@ -341,6 +341,8 @@ def module_outputs(data, base_url, repository, channel_rows, source_registry=Non
             # Filter before display normalization. Platform rooms named after a TV channel
             # retain their original group, title, metadata and per-route playback options.
             selected = [row for row in channel_rows if live_channels.is_platform_group(row.get('group')) == (module == 'entertainment')]
+            if module == 'television':
+                selected = live_channels.public_channels(selected, source_registry)
             files[playlist_path] = live_outputs(selected, data['live']['name'], base_url, source_registry)['m3u']
         elif module == 'vod':
             manifest['vod'] = {'name': data['vod']['name'], 'url': data['vod']['url']}

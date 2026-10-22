@@ -98,13 +98,92 @@ https://cdn.test/off
         out = builder.build(data, 'https://example.com/', source_registry=live_sources(), channel_rows=rows)
         expected = {module: [row for row in rows if row['enabled'] and builder.live_channels.is_platform_group(row['group']) == (module == 'entertainment')]
                     for module in ['television', 'entertainment']}
+        expected['television'][1] = {**expected['television'][1], 'group': '央视', 'name': 'CCTV-5 体育'}
         for module, selected in expected.items():
             self.assertEqual(selected, builder.parse_m3u(out['data/modules/' + module + '.m3u']))
         self.assertEqual(['虎牙 · 体育', '虎牙 · 体育', '鬥魚直播間'], [row['group'] for row in expected['entertainment']])
-        self.assertEqual(['其他', '体育', 'NBA赛事'], [row['group'] for row in expected['television']])
+        self.assertEqual(['其他', '央视', 'NBA赛事'], [row['group'] for row in expected['television']])
         self.assertIn('x-source-name="来源甲"', out['data/modules/entertainment.m3u'])
         self.assertNotIn('https://cdn.test/off', out['data/modules/entertainment.m3u'])
         self.assertEqual(before, rows)
+
+    def test_television_module_and_combined_share_canonical_groups_routes_and_distinct_variants(self):
+        rows = builder.parse_m3u('''#EXTM3U
+#EXTINF:-1 tvg-id="cctv-one" tvg-logo="https://images.test/cctv.png" group-title="IPTV" x-source-id="beta",CCTV1高清
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:network-caching=1000
+#EXTHTTP:{"Cookie":"relay=a%2Fb","Referer":"https://relay.test/"}
+https://relay.test/cctv1.m3u8?sig=a%2Bb%2F
+#EXTINF:-1 tvg-id="cctv-one" tvg-logo="https://images.test/cctv.png" group-title="IPTV" x-source-id="beta",CCTV1高清
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:network-caching=1000
+#EXTHTTP:{"Cookie":"relay=a%2Fb","Referer":"https://relay.test/"}
+https://relay.test/cctv1-backup?signature=unchanged+%2F
+#EXTINF:-1 tvg-id="official-cctv" tvg-logo="https://images.test/official.png" group-title="官方" x-source-id="alpha",CCTV-1 综合
+#EXTHTTP:{"User-Agent":"Official Player"}
+https://www.yangshipin.cn/tv/home?pid=600001859&cnlid=2024078201
+#EXTINF:-1 group-title="地方" x-source-id="beta",上海卫视高清
+#EXTHTTP:{"Cookie":"satellite=relay"}
+https://relay.test/shanghai
+#EXTINF:-1 group-title="官方" x-source-id="alpha",东方卫视HD
+#EXTVLCOPT:network-caching=2000
+https://official.test/dongfang
+#EXTINF:-1 group-title="体育",CCTV5高清
+https://tv.test/five
+#EXTINF:-1 group-title="体育",CCTV5PLUS HD
+https://tv.test/five-plus
+#EXTINF:-1 group-title="超清",CCTV4K
+https://tv.test/four-k
+#EXTINF:-1 group-title="超清",CCTV8K
+https://tv.test/eight-k
+#EXTINF:-1 group-title="央视",CCTV8高清
+https://tv.test/eight
+#EXTINF:-1 group-title="央视",CCTV4亚洲
+https://tv.test/four-asia
+#EXTINF:-1 group-title="海外",CCTV4欧洲
+https://tv.test/four-europe
+#EXTINF:-1 group-title="海外",CCTV4美洲
+https://tv.test/four-america
+#EXTINF:-1 group-title="地方",湖南卫视HD
+https://tv.test/hunan
+#EXTINF:-1 group-title="海外",湖南卫视国际
+https://tv.test/hunan-international
+#EXTINF:-1 tvg-id="room-cctv" tvg-logo="https://images.test/room.png" group-title="虎牙 · 体育" x-source-id="beta",CCTV1高清
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTHTTP:{"Cookie":"room=keep","User-Agent":"Room Player"}
+https://room.test/cctv1?sign=keep%2B
+#EXTINF:-1 group-title="鬥魚直播間",上海卫视高清
+https://room.test/shanghai
+#EXTINF:-1 group-title="央视" x-enabled="false",CCTV1停用
+https://tv.test/disabled
+''')
+        data = sample(); registry = live_sources()
+        before = copy.deepcopy((data, rows, registry))
+        files = builder.build(data, 'https://example.com/', source_registry=registry, channel_rows=rows)
+        combined = builder.parse_m3u(files['data/live.m3u'])
+        television = builder.parse_m3u(files['data/modules/television.m3u'])
+        entertainment = builder.parse_m3u(files['data/modules/entertainment.m3u'])
+        self.assertEqual(television, [row for row in combined if not builder.live_channels.is_platform_group(row['group'])])
+        self.assertEqual(entertainment, [row for row in combined if builder.live_channels.is_platform_group(row['group'])])
+        self.assertEqual([row for row in rows if builder.live_channels.is_platform_group(row['group'])], entertainment)
+        expected_tv = {('央视', name) for name in ['CCTV-1 综合', 'CCTV-5 体育', 'CCTV-5+ 体育赛事',
+                         'CCTV-4K 超高清', 'CCTV-8K 超高清', 'CCTV-8 电视剧', 'CCTV-4 中文国际',
+                         'CCTV-4 中文国际 · 欧洲', 'CCTV-4 中文国际 · 美洲']}
+        expected_tv.update({('地方卫视', '东方卫视'), ('地方卫视', '湖南卫视'), ('海外', '湖南卫视国际')})
+        self.assertEqual(expected_tv, {(row['group'], row['name']) for row in television})
+        self.assertEqual(['https://www.yangshipin.cn/tv/home?pid=600001859&cnlid=2024078201',
+                          'https://relay.test/cctv1.m3u8?sig=a%2Bb%2F',
+                          'https://relay.test/cctv1-backup?signature=unchanged+%2F'],
+                         [address for row in television if row['name'] == 'CCTV-1 综合' for address in row['urls']])
+        self.assertEqual(['https://official.test/dongfang', 'https://relay.test/shanghai'],
+                         [address for row in television if row['name'] == '东方卫视' for address in row['urls']])
+        def playback_by_url(selected):
+            return {address: (row['headers'], row.get('directives', []), row.get('origins', {}).get(address, []))
+                    for row in selected for address in row['urls']}
+        active = [row for row in rows if row['enabled']]
+        self.assertEqual(playback_by_url(active), playback_by_url(combined))
+        self.assertEqual(playback_by_url(active), playback_by_url(television + entertainment))
+        self.assertEqual(before, (data, rows, registry))
 
     def test_module_files_publish_with_the_site_and_regenerate_after_maintenance_changes(self):
         content = '#EXTM3U\n#EXTINF:-1 group-title="央视",电视台\nhttps://example.com/tv\n#EXTINF:-1 group-title="B站",直播间\nhttps://example.com/room\n'

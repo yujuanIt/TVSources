@@ -63,6 +63,18 @@ class LiveChannelTests(unittest.TestCase):
         self.assertTrue(all(row['logo'] == rows[1]['logo'] for row in out[:3]))
         self.assertEqual('央视一套（我改的名）', out[3]['name'])
 
+    def test_platform_rooms_keep_their_original_group_and_title_even_when_named_after_tv_channels(self):
+        rows = [channel('CCTV1高清', 'https://room.test/cctv', group='虎牙 · 体育',
+                        logo='https://img.test/room.png', tvgId='room-1',
+                        headers={'Cookie': 'room=a%2Fb'}, directives=['#KODIPROP:room=yes']),
+                channel('上海卫视HD', 'https://room.test/satellite', group='鬥魚直播間', logo='', tvgId='room-2'),
+                channel('CCTV1高清', 'https://tv.test/cctv', group='其他')]
+        before = copy.deepcopy(rows)
+        out = live_channels.public_channels(rows)
+        self.assertEqual(before, rows)
+        self.assertEqual(rows[:2], out[:2])
+        self.assertEqual(('央视', 'CCTV-1 综合'), (out[2]['group'], out[2]['name']))
+
 
 if __name__ == '__main__':
     unittest.main()

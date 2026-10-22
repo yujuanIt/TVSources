@@ -51,7 +51,9 @@ def public_channels(rows, source_registry=None):
     """Keep route-specific headers/options while sharing channel metadata in all public outputs."""
     active = [copy.deepcopy(row) for row in rows if row.get('enabled', True)]
     for row in active:
-        canonical = title(row['name'])
+        # Platform rooms can use TV channel names without being broadcast channels.
+        # Decide from their original group before applying any display aliases.
+        canonical = None if is_platform_group(row.get('group')) else title(row['name'])
         if canonical:
             row['group'], row['name'] = canonical
     representatives = {}
