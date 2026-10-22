@@ -151,10 +151,6 @@ https://php.jdshipin.com/TVOD/iptv.php?id=cctv4
 http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 #EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4 中文国际" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-4.png" group-title="央视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",CCTV-4 中文国际
 https://zby.130519.xyz/PLTV/11/224/3221226124/index.m3u8
-#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4 中文国际" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-4.png" group-title="央视" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",CCTV-4 中文国际
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/douyin/CCTV4..
 #EXTINF:-1 tvg-id="341" tvg-name="CCTV-4 中文国际 · 欧洲" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4-EUO.png" group-title="央视" x-source-id="yuechan-ipv4" x-source-name="IPTV IPv4 · 备用",CCTV-4 中文国际 · 欧洲
 rtp://239.3.1.213:4220
 #EXTINF:-1 tvg-id="342" tvg-name="CCTV-4 中文国际 · 美洲" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4-AME.png" group-title="央视" x-source-id="yuechan-ipv4" x-source-name="IPTV IPv4 · 备用",CCTV-4 中文国际 · 美洲
@@ -928,10 +924,6 @@ https://migu.yang-1989.xyz/ysp/a5rjzv.m3u8
 http://iptv.huuc.edu.cn/hls/jshd.m3u8
 #EXTINF:-1 tvg-id="jsws" tvg-name="江苏卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/江苏卫视.png" group-title="地方卫视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",江苏卫视
 https://zby.130519.xyz/PLTV/11/224/3221225720/index.m3u8
-#EXTINF:-1 tvg-id="jsws" tvg-name="江苏卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/江苏卫视.png" group-title="地方卫视" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",江苏卫视
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/douyin/JSTVJSTV
 #EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方卫视.png" group-title="地方卫视" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",东方卫视
 #EXTVLCOPT:http-user-agent=qqlive
 #EXTVLCOPT:http-referrer=https://live.cctv.cn/
@@ -998,10 +990,6 @@ https://play-qukan.cztv.com/live/1746687519046362.m3u8
 http://iptv.huuc.edu.cn/hls/zjhd.m3u8
 #EXTINF:-1 tvg-id="zjws" tvg-name="浙江卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江卫视.png" group-title="地方卫视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",浙江卫视
 https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
-#EXTINF:-1 tvg-id="zjws" tvg-name="浙江卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江卫视.png" group-title="地方卫视" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",浙江卫视
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/douyin/zjws
 #EXTINF:-1 tvg-id="hnws" tvg-name="湖南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png" group-title="地方卫视" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",湖南卫视
 #EXTVLCOPT:http-user-agent=qqlive
 #EXTVLCOPT:http-referrer=https://live.cctv.cn/
@@ -1256,10 +1244,6 @@ rtp://239.3.1.50:8184
 https://migu.yang-1989.xyz/ysp/zesg3c.m3u8
 #EXTINF:-1 tvg-id="henanws" tvg-name="河南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/河南卫视.png" group-title="地方卫视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",河南卫视
 https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-#EXTINF:-1 tvg-id="henanws" tvg-name="河南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/河南卫视.png" group-title="地方卫视" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",河南卫视
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/douyin/1435733665
 #EXTINF:-1 tvg-id="fjdnhz" tvg-name="东南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东南卫视.png" group-title="地方卫视" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",东南卫视
 #EXTVLCOPT:http-user-agent=qqlive
 #EXTVLCOPT:http-referrer=https://live.cctv.cn/
@@ -3715,6 +3699,10 @@ https://cdn.ttvb.eu.org/douyin/60146457400
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/QY5271QY
+#EXTINF:-1 tvg-id="" tvg-name="浙江卫视" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/zjws" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",浙江卫视
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/zjws
 #EXTINF:-1 tvg-id="" tvg-name="育见新闻" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/CETVxinwen" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",育见新闻
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -3787,6 +3775,10 @@ https://cdn.ttvb.eu.org/douyin/SUNPING800317
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/41195956337
+#EXTINF:-1 tvg-id="" tvg-name="江苏卫视" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/JSTVJSTV" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",江苏卫视
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/JSTVJSTV
 #EXTINF:-1 tvg-id="" tvg-name="江苏新闻" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/jsbcnews" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",江苏新闻
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -3975,6 +3967,10 @@ https://cdn.ttvb.eu.org/douyin/KKnews
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/398094734626
+#EXTINF:-1 tvg-id="" tvg-name="CCTV4" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/CCTV4.." group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",CCTV4
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/CCTV4..
 #EXTINF:-1 tvg-id="" tvg-name="CF老四" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/788968048" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",CF老四
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4031,6 +4027,10 @@ https://cdn.ttvb.eu.org/douyin/1664884729
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/861018662750
+#EXTINF:-1 tvg-id="" tvg-name="河南卫视《梨园春》" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/1435733665" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",河南卫视《梨园春》
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/1435733665
 #EXTINF:-1 tvg-id="" tvg-name="爱吃番茄🍅" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/62347299995" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",爱吃番茄🍅
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}

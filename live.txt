@@ -54,7 +54,6 @@ CCTV-4 中文国际,https://migu.yang-1989.xyz/ysp/96bvqx.m3u8
 CCTV-4 中文国际,https://php.jdshipin.com/TVOD/iptv.php?id=cctv4
 CCTV-4 中文国际,http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 CCTV-4 中文国际,https://zby.130519.xyz/PLTV/11/224/3221226124/index.m3u8
-CCTV-4 中文国际,https://cdn.ttvb.eu.org/douyin/CCTV4..
 CCTV-4 中文国际 · 欧洲,rtp://239.3.1.213:4220
 CCTV-4 中文国际 · 美洲,rtp://239.3.1.214:4220
 CCTV-5 体育,https://www.yangshipin.cn/tv/home?pid=600001818&cnlid=2024078401&defn=fhd
@@ -367,7 +366,6 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 江苏卫视,https://migu.yang-1989.xyz/ysp/a5rjzv.m3u8
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
 江苏卫视,https://zby.130519.xyz/PLTV/11/224/3221225720/index.m3u8
-江苏卫视,https://cdn.ttvb.eu.org/douyin/JSTVJSTV
 东方卫视,https://www.yangshipin.cn/tv/home?pid=600002483&cnlid=2024054503&defn=fhd
 东方卫视,http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
 东方卫视,http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub
@@ -395,7 +393,6 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 浙江卫视,https://play-qukan.cztv.com/live/1746687519046362.m3u8
 浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
 浙江卫视,https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
-浙江卫视,https://cdn.ttvb.eu.org/douyin/zjws
 湖南卫视,https://www.yangshipin.cn/tv/home?pid=600002475&cnlid=2024054803&defn=fhd
 湖南卫视,https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 湖南卫视,http://107.150.60.122/live/hnwshd.m3u8
@@ -498,7 +495,6 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 河南卫视,rtp://239.3.1.50:8184
 河南卫视,https://migu.yang-1989.xyz/ysp/zesg3c.m3u8
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,https://cdn.ttvb.eu.org/douyin/1435733665
 东南卫视,https://www.yangshipin.cn/tv/home?pid=600002484&cnlid=2024061503&defn=fhd
 东南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dnwshd
 东南卫视,http://107.150.60.122/live/dnwshd.m3u8
@@ -1630,6 +1626,7 @@ uu大王,https://cdn.ttvb.eu.org/douyin/745395803753
 突突2ez,https://cdn.ttvb.eu.org/douyin/CharlieNash
 西柚pubg,https://cdn.ttvb.eu.org/douyin/60146457400
 小奕小奕,https://cdn.ttvb.eu.org/douyin/QY5271QY
+浙江卫视,https://cdn.ttvb.eu.org/douyin/zjws
 育见新闻,https://cdn.ttvb.eu.org/douyin/CETVxinwen
 Hyyn,https://cdn.ttvb.eu.org/douyin/Y664767447
 冯予希律师,https://cdn.ttvb.eu.org/douyin/lawyerf86
@@ -1648,6 +1645,7 @@ Hyyn,https://cdn.ttvb.eu.org/douyin/Y664767447
 未知鱼(第五人格),https://cdn.ttvb.eu.org/douyin/QwerxD81
 梦里有梦,https://cdn.ttvb.eu.org/douyin/SUNPING800317
 欢乐有氧运动,https://cdn.ttvb.eu.org/douyin/41195956337
+江苏卫视,https://cdn.ttvb.eu.org/douyin/JSTVJSTV
 江苏新闻,https://cdn.ttvb.eu.org/douyin/jsbcnews
 江萧絮（21210海诺）,https://cdn.ttvb.eu.org/douyin/jiangxiaoxu0622
 重庆城市足球超级联赛,https://cdn.ttvb.eu.org/douyin/25861939897
@@ -1695,6 +1693,7 @@ WSE田径公开赛,https://cdn.ttvb.eu.org/douyin/WSE2022
 新闻夜班,https://cdn.ttvb.eu.org/douyin/xwyb2693777
 看看新闻Knews,https://cdn.ttvb.eu.org/douyin/KKnews
 文森特,https://cdn.ttvb.eu.org/douyin/398094734626
+CCTV4,https://cdn.ttvb.eu.org/douyin/CCTV4..
 CF老四,https://cdn.ttvb.eu.org/douyin/788968048
 H一馨,https://cdn.ttvb.eu.org/douyin/29865533138
 IamGloria,https://cdn.ttvb.eu.org/douyin/61848991705
@@ -1709,6 +1708,7 @@ Qqqqqqqq,https://cdn.ttvb.eu.org/douyin/505843959641
 杨幼幼,https://cdn.ttvb.eu.org/douyin/534078156937
 林森见鹿ღ,https://cdn.ttvb.eu.org/douyin/1664884729
 沪上小师赛（奇侦妙探）,https://cdn.ttvb.eu.org/douyin/861018662750
+河南卫视《梨园春》,https://cdn.ttvb.eu.org/douyin/1435733665
 爱吃番茄🍅,https://cdn.ttvb.eu.org/douyin/62347299995
 电台夏末,https://cdn.ttvb.eu.org/douyin/xiamo1107
 竹笛🎋愉悦¹¹⁰⁹（大双二双）,https://cdn.ttvb.eu.org/douyin/zhudiyuyue

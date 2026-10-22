@@ -482,21 +482,6 @@
           }
         },
         {
-          "name": "CCTV-4 中文国际",
-          "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-4.png",
-          "urls": [
-            "https://cdn.ttvb.eu.org/douyin/CCTV4.."
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/douyin/CCTV4..": [
-              "yang-network"
-            ]
-          }
-        },
-        {
           "name": "CCTV-4 中文国际 · 欧洲",
           "logo": "https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/CCTV/CCTV-4-EUO.png",
           "urls": [
@@ -3167,21 +3152,6 @@
           }
         },
         {
-          "name": "江苏卫视",
-          "logo": "https://www.xn--rgv465a.top/tvlogo/江苏卫视.png",
-          "urls": [
-            "https://cdn.ttvb.eu.org/douyin/JSTVJSTV"
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/douyin/JSTVJSTV": [
-              "yang-network"
-            ]
-          }
-        },
-        {
           "name": "东方卫视",
           "logo": "https://www.xn--rgv465a.top/tvlogo/东方卫视.png",
           "urls": [
@@ -3399,21 +3369,6 @@
             ],
             "https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8": [
               "guovin-ipv6"
-            ]
-          }
-        },
-        {
-          "name": "浙江卫视",
-          "logo": "https://www.xn--rgv465a.top/tvlogo/浙江卫视.png",
-          "urls": [
-            "https://cdn.ttvb.eu.org/douyin/zjws"
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/douyin/zjws": [
-              "yang-network"
             ]
           }
         },
@@ -4314,21 +4269,6 @@
           "origins": {
             "https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8": [
               "guovin-ipv6"
-            ]
-          }
-        },
-        {
-          "name": "河南卫视",
-          "logo": "https://www.xn--rgv465a.top/tvlogo/河南卫视.png",
-          "urls": [
-            "https://cdn.ttvb.eu.org/douyin/1435733665"
-          ],
-          "headers": {
-            "User-Agent": "okhttp/3.8.1"
-          },
-          "origins": {
-            "https://cdn.ttvb.eu.org/douyin/1435733665": [
-              "yang-network"
             ]
           }
         },
@@ -14119,6 +14059,21 @@
           }
         },
         {
+          "name": "浙江卫视",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/zjws",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/zjws"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/zjws": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "育见新闻",
           "logo": "https://live.yang-1989.eu.org/logo/douyin/CETVxinwen",
           "urls": [
@@ -14384,6 +14339,21 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/douyin/41195956337": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "江苏卫视",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/JSTVJSTV",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/JSTVJSTV"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/JSTVJSTV": [
               "yang-network"
             ]
           }
@@ -15095,6 +15065,21 @@
           }
         },
         {
+          "name": "CCTV4",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/CCTV4..",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/CCTV4.."
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/CCTV4..": [
+              "yang-network"
+            ]
+          }
+        },
+        {
           "name": "CF老四",
           "logo": "https://live.yang-1989.eu.org/logo/douyin/788968048",
           "urls": [
@@ -15300,6 +15285,21 @@
           },
           "origins": {
             "https://cdn.ttvb.eu.org/douyin/861018662750": [
+              "yang-network"
+            ]
+          }
+        },
+        {
+          "name": "河南卫视《梨园春》",
+          "logo": "https://live.yang-1989.eu.org/logo/douyin/1435733665",
+          "urls": [
+            "https://cdn.ttvb.eu.org/douyin/1435733665"
+          ],
+          "headers": {
+            "User-Agent": "okhttp/3.8.1"
+          },
+          "origins": {
+            "https://cdn.ttvb.eu.org/douyin/1435733665": [
               "yang-network"
             ]
           }
