@@ -23345,6 +23345,48 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/al1s_cr",
       "enabled": "true"
+    },
+    "c_e735c9a6a9769a96139b0a14": {
+      "name": "一只只（第五人格）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/57995272275",
+      "enabled": "true"
+    },
+    "c_a4a8d8abf79db8c5b4c169f2": {
+      "name": "甜心辣妹i",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/52731449963",
+      "enabled": "true"
+    },
+    "c_03dcc52f11763012139afd94": {
+      "name": "牛津Kath",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/88413723135",
+      "enabled": "true"
+    },
+    "c_c9fa7c17ed42581f5da1368e": {
+      "name": "郭指导🏀👑",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/29385674296",
+      "enabled": "true"
+    },
+    "c_7d706fbd3ab288b893c93e15": {
+      "name": "虎牙斯诺克3号桌",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/18501408",
+      "enabled": "true"
+    },
+    "c_2b0cf479e723a149f7073ea1": {
+      "name": "nicknayersina",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/nicknayersina",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -25347,7 +25389,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "26cab866a759bcc715354076dd507c98040899a04b7093a85c969a9af553f509",
+      "sha256": "aa6d0c13665ad44b3ba30d6434e048537760ad9c877b63b311c6f3ccbddd39dd",
       "routes": 339,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32979,8 +33021,8 @@
       }
     },
     "yang-network": {
-      "sha256": "24f3e60a08fcc911a71fcaadb9f69fbc209ddd24406c81c18da31db15bbe73f3",
-      "routes": 625,
+      "sha256": "cd444d5cb44c1961721072763927117641bec6ce32c0a68e9425853102b0fb98",
+      "routes": 376,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -45527,6 +45569,42 @@
           "name": "才羽桃cr",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "213374fcb23f4e4e17926b8f807f0a4572b1f78470fc94926c31561f2fab50ae": {
+          "channel": "c_e735c9a6a9769a96139b0a14",
+          "name": "一只只（第五人格）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "466fb0a16d1385dfef126d54fa4b3a23851215f5303ef020fbc6e5937a473542": {
+          "channel": "c_a4a8d8abf79db8c5b4c169f2",
+          "name": "甜心辣妹i",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c01b22d4a51caee691c37fdf18fa693300a4a093c5d753ec86f21f4708ac0df2": {
+          "channel": "c_03dcc52f11763012139afd94",
+          "name": "牛津Kath",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "d6b8a2f220c0e4af2a8fbd46112e1d221231fa55df399c39359142da1d7b5b95": {
+          "channel": "c_c9fa7c17ed42581f5da1368e",
+          "name": "郭指导🏀👑",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "c1384eaf5ae00fd04adc9b3697b889655c58b366557a6ddea4a71475058e64f1": {
+          "channel": "c_7d706fbd3ab288b893c93e15",
+          "name": "虎牙斯诺克3号桌",
+          "tvgId": "",
+          "group": "•虎牙「其他」"
+        },
+        "fb94403a5e0241ee32e4b574f030f314fd797a3285700d60e5e6a49cfd3b7bc2": {
+          "channel": "c_2b0cf479e723a149f7073ea1",
+          "name": "nicknayersina",
+          "tvgId": "",
+          "group": "•Twitch「其他」"
         }
       }
     },
