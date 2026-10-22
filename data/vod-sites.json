@@ -4473,6 +4473,9 @@
       "type": 3,
       "api": "https://clun.top/py/shortfilm.py",
       "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
       "enabled": true,
       "context": "clun",
       "origin": {
