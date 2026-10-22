@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "name": "简视点播",
+  "module": "vod",
+  "vod": {
+    "name": "居安片库",
+    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/vod-sites.json"
+  },
+  "warehouses": []
+}

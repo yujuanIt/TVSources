@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "简视娱乐",
+  "module": "entertainment",
+  "live": {
+    "name": "居安直播",
+    "playlists": [
+      {
+        "name": "居安直播 · 我的 M3U",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/modules/entertainment.m3u",
+        "enabled": true
+      }
+    ]
+  }
+}
