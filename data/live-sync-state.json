@@ -23016,6 +23016,90 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/soop/berryoonna",
       "enabled": "true"
+    },
+    "c_ba09314c54bf163818e934ac": {
+      "name": "第一财经「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "上海第一财经",
+      "logo": "https://iptv.yang-1989.xyz/logo/第一财经.webp",
+      "enabled": "true"
+    },
+    "c_8cd1993abb55c57620a769be": {
+      "name": "上海新闻综合「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "上海新闻综合",
+      "logo": "https://iptv.yang-1989.xyz/logo/上海新闻综合.webp",
+      "enabled": "true"
+    },
+    "c_349ba0e71840417723c50141": {
+      "name": "上海都市频道「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "上海都市",
+      "logo": "https://iptv.yang-1989.xyz/logo/上海都市频道.webp",
+      "enabled": "true"
+    },
+    "c_4219aba1ed12d0c3344282ea": {
+      "name": "魔都眼「72小时回看」",
+      "group": "地方卫视",
+      "tvgId": "魔都眼",
+      "logo": "https://iptv.yang-1989.xyz/logo/魔都眼.webp",
+      "enabled": "true"
+    },
+    "c_7e9306ff08f8c7769145abd4": {
+      "name": "姓费就不穿秋裤",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1043000",
+      "enabled": "true"
+    },
+    "c_46595c1b57a2be538dfc7699": {
+      "name": "文妍",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/585380037",
+      "enabled": "true"
+    },
+    "c_6e0460bc31170d6b150405c0": {
+      "name": "小索(无畏契约)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/34376141118",
+      "enabled": "true"
+    },
+    "c_6d0695b5ca65b0911a2b34e3": {
+      "name": "辰天",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/CT.6660",
+      "enabled": "true"
+    },
+    "c_b376a41ab26affb28623f542": {
+      "name": "四川观察",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/18697639737",
+      "enabled": "true"
+    },
+    "c_e1ac892f4e3d102b5995b4b5": {
+      "name": "央视新闻",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/cctvnews",
+      "enabled": "true"
+    },
+    "c_9a7653409901c1fa41da6d8e": {
+      "name": "炎鹿鹿",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/20560231760",
+      "enabled": "true"
+    },
+    "c_9acb9e41f32727b10c64bb37": {
+      "name": "礼礼🪽",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/28648584382",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -25018,8 +25102,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "e7ddf15b126a3a24f9139e9fcb85f142ecbfaa26f2578c342e350eb5f099cfce",
-      "routes": 331,
+      "sha256": "dab1c70ce4704e7b721bde385a0c0922bec8c44e5d7cc1540bd8ca498197107e",
+      "routes": 337,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -27360,6 +27444,42 @@
           "name": "澳門Macau",
           "tvgId": "澳門Macau",
           "group": "•港澳台「Juli」"
+        },
+        "8873f98e45fef721d6065349e07f4162b66fe7c1232a8502b0778d01bbf7ca07": {
+          "channel": "c_ba09314c54bf163818e934ac",
+          "name": "第一财经「72小时回看」",
+          "tvgId": "上海第一财经",
+          "group": "•中國「Relay」"
+        },
+        "51b4cac85992b660ff5f4f2a573027351d59eb1bc8f4c27631f3ebcac0d73f2e": {
+          "channel": "c_e81cf5c36417f0e465232cc4",
+          "name": "五星体育「72小时回看」",
+          "tvgId": "五星体育",
+          "group": "•中國「Relay」"
+        },
+        "1048b0d8f1fc099b7b9c51e8c039728ea80894c02f6eed1bd0e14531d64c9c12": {
+          "channel": "c_5a5079c29f7f62ca00bf20c2",
+          "name": "东方卫视「72小时回看」",
+          "tvgId": "东方卫视",
+          "group": "•中國「Relay」"
+        },
+        "2efaffa726d300b08ad88774195908e6d4a22412618bc62ecbb6b799d2645fdb": {
+          "channel": "c_8cd1993abb55c57620a769be",
+          "name": "上海新闻综合「72小时回看」",
+          "tvgId": "上海新闻综合",
+          "group": "•中國「Relay」"
+        },
+        "d1c582e2d99e350a338aeb7de787b5976f3728f25f9883f433975deab4cc73e9": {
+          "channel": "c_349ba0e71840417723c50141",
+          "name": "上海都市频道「72小时回看」",
+          "tvgId": "上海都市",
+          "group": "•中國「Relay」"
+        },
+        "0eef3891cc48317cb858fce63be7e061e9d7a0a37fcc0171415e35503747949d": {
+          "channel": "c_4219aba1ed12d0c3344282ea",
+          "name": "魔都眼「72小时回看」",
+          "tvgId": "魔都眼",
+          "group": "•中國「Relay」"
         }
       }
     },
@@ -27952,7 +28072,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "0864a6adaae572281a003f2640a8e7a367b0afa700042f6737e5d360829fe551",
+      "sha256": "1e9fbbdb330ffc0e40c5234ac7459411f16d1a033aa11e380740f446ebaf98ce",
       "routes": 146,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -29210,6 +29330,42 @@
           "group": "•中國「Relay」"
         },
         "7a14e23371f6d6c4c37e2289855a63eb59f23d42250426d8c5667176d3220903": {
+          "channel": "c_e0f7a5bf08328c74558d8f68",
+          "name": "魔都眼「72小时回看」",
+          "tvgId": "魔都眼",
+          "group": "•中國「Relay」"
+        },
+        "8873f98e45fef721d6065349e07f4162b66fe7c1232a8502b0778d01bbf7ca07": {
+          "channel": "c_8c0f013056fe7a6cba54f300",
+          "name": "第一财经「72小时回看」",
+          "tvgId": "上海第一财经",
+          "group": "•中國「Relay」"
+        },
+        "51b4cac85992b660ff5f4f2a573027351d59eb1bc8f4c27631f3ebcac0d73f2e": {
+          "channel": "c_fe01a57ba4e3cd739ee7c590",
+          "name": "五星体育「72小时回看」",
+          "tvgId": "五星体育",
+          "group": "•中國「Relay」"
+        },
+        "1048b0d8f1fc099b7b9c51e8c039728ea80894c02f6eed1bd0e14531d64c9c12": {
+          "channel": "c_5a5079c29f7f62ca00bf20c2",
+          "name": "东方卫视「72小时回看」",
+          "tvgId": "东方卫视",
+          "group": "•中國「Relay」"
+        },
+        "2efaffa726d300b08ad88774195908e6d4a22412618bc62ecbb6b799d2645fdb": {
+          "channel": "c_5486ae7bc8df39eac56f5d04",
+          "name": "上海新闻综合「72小时回看」",
+          "tvgId": "上海新闻综合",
+          "group": "•中國「Relay」"
+        },
+        "d1c582e2d99e350a338aeb7de787b5976f3728f25f9883f433975deab4cc73e9": {
+          "channel": "c_4b37614e9c90b3a573e3e979",
+          "name": "上海都市频道「72小时回看」",
+          "tvgId": "上海都市",
+          "group": "•中國「Relay」"
+        },
+        "0eef3891cc48317cb858fce63be7e061e9d7a0a37fcc0171415e35503747949d": {
           "channel": "c_e0f7a5bf08328c74558d8f68",
           "name": "魔都眼「72小时回看」",
           "tvgId": "魔都眼",
@@ -32536,8 +32692,8 @@
       }
     },
     "yang-network": {
-      "sha256": "9e141d7118ba518c368f09cab15620a6af7653feb251f482677a17057f0cb411",
-      "routes": 366,
+      "sha256": "506a4a6fa593cbd72e154e0e7a2661ded789c70a87a49b1038ee06bb9f586e84",
+      "routes": 508,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -44820,6 +44976,66 @@
           "name": "죠물",
           "tvgId": "",
           "group": "•SOOP「娱乐」"
+        },
+        "c0875210e9d77ecffdbd972aa9bca554989b17398c691b15156a7236c2608a23": {
+          "channel": "c_7e9306ff08f8c7769145abd4",
+          "name": "姓费就不穿秋裤",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "3c76de8ff8e5cdf489a19b96a763be143778f68e521afe8143a0b1d887d2f587": {
+          "channel": "c_eeb1bfe5b826e3c1a4f6f580",
+          "name": "栩栩皆予温柔",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "3f73ca10fd71c00b305dfe135f28b93d07d608d9bb145f67cb7e27949f596f83": {
+          "channel": "c_46595c1b57a2be538dfc7699",
+          "name": "文妍",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d7c7722e60920c7dcde9ef77cc4ea235b9a7d84200d0a2ebd975d97db594f435": {
+          "channel": "c_f1cac7f9a5e2b59d5ab7be42",
+          "name": "白微",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "aa42c5346f39d30b51da438ba1a0d3ea3292a0b7a55fee361aac7134c5b2fbd5": {
+          "channel": "c_6e0460bc31170d6b150405c0",
+          "name": "小索(无畏契约)",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "a8ef0f4c668928b4b41cb1fdf0d0f1b3c503a12da93bb3f5108b2db794dcfb6f": {
+          "channel": "c_6d0695b5ca65b0911a2b34e3",
+          "name": "辰天",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "8ec1ebb311ae6d61f315a072e556ed543aacc7b5ac8e8ecb3f9f967127517815": {
+          "channel": "c_b376a41ab26affb28623f542",
+          "name": "四川观察",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "83a8d3f46f253a20993e30e80d8062649d5bea0473ff4933dde6a1206560a7ea": {
+          "channel": "c_e1ac892f4e3d102b5995b4b5",
+          "name": "央视新闻",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "660074355a82859e81382fd1ac800db5e4e8a7c5be8b108d936442c74b4ba6d1": {
+          "channel": "c_9a7653409901c1fa41da6d8e",
+          "name": "炎鹿鹿",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "6b5d5181784c27ae9a78843df4fc6e34092db2bdb9ec693e69a094e3ca17abfb": {
+          "channel": "c_9acb9e41f32727b10c64bb37",
+          "name": "礼礼🪽",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
