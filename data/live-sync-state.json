@@ -23296,6 +23296,55 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/855833316224",
       "enabled": "true"
+    },
+    "c_1ffe3f66996514f7cfebd6af": {
+      "name": "灌注大白菜",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/32232237",
+      "enabled": "true"
+    },
+    "c_0f23429578fd9ee350d20faf": {
+      "name": "芝恩㱏",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/21752762",
+      "enabled": "true"
+    },
+    "c_f359aa0b4a5dd4784b28010c": {
+      "name": "孟令辉",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/247176962731",
+      "enabled": "true"
+    },
+    "c_f37f526a2eb77af75f61cd91": {
+      "name": "安安的",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/30449639108",
+      "enabled": "true"
+    },
+    "c_d3eea1f42dfb3a419e2b5f7f": {
+      "name": "蛋卷（微醺）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/danjuan411",
+      "enabled": "true"
+    },
+    "c_10343649cf40438a87447476": {
+      "name": "起司Chris🧀️",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/40506227332",
+      "enabled": "true"
+    },
+    "c_527cf5d1653922c9b814a00c": {
+      "name": "才羽桃cr",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/al1s_cr",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -25298,7 +25347,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "4bfabc12cdf698c53788ea380b93136273bde5fd7da89f0334954927f2fed487",
+      "sha256": "26cab866a759bcc715354076dd507c98040899a04b7093a85c969a9af553f509",
       "routes": 339,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -27694,11 +27743,17 @@
           "name": "魔都眼「官方」",
           "tvgId": "魔都眼",
           "group": "•中國「Relay」"
+        },
+        "9c426216a7d0113c30b1fbf369b85b357681812ca285cd9feba40f36a1cf7f87": {
+          "channel": "c_4219aba1ed12d0c3344282ea",
+          "name": "魔都眼「Relay」",
+          "tvgId": "魔都眼",
+          "group": "•中國「Relay」"
         }
       }
     },
     "yang-mytv": {
-      "sha256": "2b1a6ba30fd9d1796ddbeb509cfe7b95d3d868deeba8ce43e6fde77ffbc49514",
+      "sha256": "36839e67a8fad6c1bf5913ad5b772244f3e150ca5bbd979657d703034246a3d0",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -28286,7 +28341,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "d28c53f3fb5309d56d6641c1e3430898b94e0f0d6bc5602a0cc141cc888882fc",
+      "sha256": "a7477d96b036068f58c647b2aa7d9dd8acb98c3df5448ab0b4d31a8278aa187f",
       "routes": 148,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32924,8 +32979,8 @@
       }
     },
     "yang-network": {
-      "sha256": "dcdd9c39c8d504e5edfcff1dda37f8cbfc3601cb25539a42a5ea1f453d92a23e",
-      "routes": 840,
+      "sha256": "24f3e60a08fcc911a71fcaadb9f69fbc209ddd24406c81c18da31db15bbe73f3",
+      "routes": 625,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -45430,6 +45485,48 @@
           "name": "米奇沃克斯",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "e01b5036bc3929d3a52b0b6255b49dd6cb8d7352bad6bd5334dde7d0f17ef1be": {
+          "channel": "c_1ffe3f66996514f7cfebd6af",
+          "name": "灌注大白菜",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "6b51c09881095a158773ee2f2d5b5654ecaf433a02492f7a29387b3352926f0e": {
+          "channel": "c_0f23429578fd9ee350d20faf",
+          "name": "芝恩㱏",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "342726ae348d00218f2f48856d940b8ac299528097b8f152a82792f55c92bea4": {
+          "channel": "c_f359aa0b4a5dd4784b28010c",
+          "name": "孟令辉",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ca9901faf2fe6e084363a23bd0c4cb3d813d93cd28cd3be766ced90017f83e4a": {
+          "channel": "c_f37f526a2eb77af75f61cd91",
+          "name": "安安的",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "cec90c31fe81cbcb7f4f618f7283204083bb5a4967b983877e968ff767a8a3dc": {
+          "channel": "c_d3eea1f42dfb3a419e2b5f7f",
+          "name": "蛋卷（微醺）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "2155fe51b26155421913bb4b2c3de7e867267b308696ecb6669364ac4e46dbe9": {
+          "channel": "c_10343649cf40438a87447476",
+          "name": "起司Chris🧀️",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "438259f08fde8320e051e9c471ed68778ccee530ebf183e366e78dcd9d19c02d": {
+          "channel": "c_527cf5d1653922c9b814a00c",
+          "name": "才羽桃cr",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
