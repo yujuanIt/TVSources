@@ -949,14 +949,10 @@ rtp://239.3.1.119:3006
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/ysp/amxpgz.m3u8
-#EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方卫视.png" group-title="地方卫视" x-source-id="yang-tv" x-source-name="电视 · IPTV",东方卫视
+#EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方卫视.png" group-title="地方卫视" x-source-id="yang-tv,yang-sports" x-source-name="电视 · IPTV / 体育 · 赛事",东方卫视
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://migu.yang-1989.xyz/Cn/ahe5u9.m3u8
-#EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方卫视.png" group-title="地方卫视" x-source-id="yang-sports" x-source-name="体育 · 赛事",东方卫视
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36"}
-https://migu.yang-1989.xyz/Cn/ahe5u9.m3u8
+https://migu.yang-1989.xyz/sh/ahe5u9.m3u8
 #EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方卫视.png" group-title="地方卫视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",东方卫视
 http://iptv.huuc.edu.cn/hls/dfhd.m3u8
 #EXTINF:-1 tvg-id="dfws" tvg-name="东方卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方卫视.png" group-title="地方卫视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",东方卫视
@@ -2082,35 +2078,43 @@ rtp://239.3.1.115:8000
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="第一财经「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/第一财经.webp" group-title="地方卫视" x-source-id="yang-tv" x-source-name="电视 · IPTV",第一财经「72小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://migu.yang-1989.xyz/Cn/a52gmt.m3u8
+https://migu.yang-1989.xyz/sh/a52gmt.m3u8
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="第一财经「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/第一财经.webp" group-title="地方卫视" x-source-id="yang-sports" x-source-name="体育 · 赛事",第一财经「72小时回看」
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36"}
-https://migu.yang-1989.xyz/Cn/a52gmt.m3u8
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/sh/a52gmt.m3u8
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/哈哈炫动.webp" group-title="地方卫视" x-source-id="yang-tv,yang-sports" x-source-name="电视 · IPTV / 体育 · 赛事",哈哈炫动「72小时回看」
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/sh/kfdd56.m3u8
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/上海新闻综合.webp" group-title="地方卫视" x-source-id="yang-tv" x-source-name="电视 · IPTV",上海新闻综合「72小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://migu.yang-1989.xyz/Cn/ktbhsk.m3u8
+https://migu.yang-1989.xyz/sh/ktbhsk.m3u8
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/上海新闻综合.webp" group-title="地方卫视" x-source-id="yang-sports" x-source-name="体育 · 赛事",上海新闻综合「72小时回看」
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36"}
-https://migu.yang-1989.xyz/Cn/ktbhsk.m3u8
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/sh/ktbhsk.m3u8
 #EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市频道「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/上海都市频道.webp" group-title="地方卫视" x-source-id="yang-tv" x-source-name="电视 · IPTV",上海都市频道「72小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://migu.yang-1989.xyz/Cn/u9rxa4.m3u8
+https://migu.yang-1989.xyz/sh/u9rxa4.m3u8
 #EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市频道「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/上海都市频道.webp" group-title="地方卫视" x-source-id="yang-sports" x-source-name="体育 · 赛事",上海都市频道「72小时回看」
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36"}
-https://migu.yang-1989.xyz/Cn/u9rxa4.m3u8
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/sh/u9rxa4.m3u8
+#EXTINF:-1 tvg-id="上海新纪实" tvg-name="上海新纪实「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/上海新纪实.webp" group-title="地方卫视" x-source-id="yang-tv,yang-sports" x-source-name="电视 · IPTV / 体育 · 赛事",上海新纪实「72小时回看」
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/sh/82998s.m3u8
 #EXTINF:-1 tvg-id="魔都眼" tvg-name="魔都眼「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/魔都眼.webp" group-title="地方卫视" x-source-id="yang-tv" x-source-name="电视 · IPTV",魔都眼「72小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://migu.yang-1989.xyz/Cn/xtd4nj.m3u8
+https://migu.yang-1989.xyz/sh/xtd4nj.m3u8
 #EXTINF:-1 tvg-id="魔都眼" tvg-name="魔都眼「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/魔都眼.webp" group-title="地方卫视" x-source-id="yang-sports" x-source-name="体育 · 赛事",魔都眼「72小时回看」
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36"}
-https://migu.yang-1989.xyz/Cn/xtd4nj.m3u8
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/sh/xtd4nj.m3u8
 #EXTINF:-1 tvg-id="广州竞赛" tvg-name="广州竞赛" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州竞赛.png" group-title="地方卫视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",广州竞赛
 https://stream1.freetv.fun/yan-zhou-jing-sai-34.ctv
 #EXTINF:-1 tvg-id="广州竞赛" tvg-name="广州竞赛" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州竞赛.png" group-title="地方卫视" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",广州竞赛
@@ -3680,7 +3684,7 @@ https://hls-gateway.vpstv.net/streams/476997.m3u8
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://iptv.yang-1989.xyz/logo/五星体育.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",五星体育
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://migu.yang-1989.xyz/Cn/m4w4x7.m3u8
+https://migu.yang-1989.xyz/sh/m4w4x7.m3u8
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://iptv.yang-1989.xyz/logo/五星体育.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",五星体育
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -5339,9 +5343,9 @@ https://migu.yang-1989.xyz/sprt/jaqr2x.m3u8
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/sprt/jxg5d7.m3u8
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育「72小时回看」" tvg-logo="https://migu.yang-1989.xyz/logo/五星体育.webp" group-title="体育" x-source-id="yang-sports" x-source-name="体育 · 赛事",五星体育「72小时回看」
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36"}
-https://migu.yang-1989.xyz/Cn/m4w4x7.m3u8
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/sh/m4w4x7.m3u8
 #EXTINF:-1 tvg-id="江苏体育休闲" tvg-name="江苏体育" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Jiangsu5.png" group-title="体育" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",江苏体育
 https://stream1.freetv.fun/af1087a1c24fff7af556ac8e6c5c623303d52966f67a998cefb52c17811b09a2.ctv
 #EXTINF:-1 tvg-id="江苏体育休闲" tvg-name="江苏体育" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Jiangsu5.png" group-title="体育" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",江苏体育
