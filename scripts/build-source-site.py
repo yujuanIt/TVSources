@@ -20,6 +20,7 @@ SOURCE = ROOT
 ID = re.compile(r'^[A-Za-z0-9_-]+$')
 BAD_CONTROL = re.compile(r'[\x00-\x1f\x7f]')
 LIVE_SCHEMES = {'http', 'https', 'rtsp', 'rtmp', 'udp', 'rtp'}
+MODULE_NAMES = {'television': '简视直播', 'entertainment': '简视娱乐', 'vod': '简视点播', 'sports': '简视体育'}
 
 
 def require(condition, message):
@@ -280,23 +281,8 @@ def read_project_channels(data, base_url, repository):
     return address, validate_channels(parse_m3u(path.read_text(encoding='utf-8-sig')))
 
 
-def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None, channel_rows=None, channel_url=None):
-    validate(data); url(base_url, '站点地址'); base_url = base_url.rstrip('/') + '/'
-    require(not urlsplit(base_url).query and not urlsplit(base_url).fragment, '站点地址不能包含查询参数或片段')
-    live, vod = data['live'], data['vod']
-    channel_rows = live_channels.public_channels(validate_channels([] if channel_rows is None else channel_rows), source_registry)
-    require(bool(re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_][A-Za-z0-9_.-]*', repository)), '仓库名称格式需要 owner/repo')
-    # Relative links keep Pages, Raw, and accelerator endpoints on the selected route.
-    sites = []
-    for item in active(vod['sites']):
-        if not item.get('context'):
-            sites.append(vod_config.public_site(item, base_url))
-    vod_bundles = vod_config.bundles(vod)
-    bundled_files = {'vod/' + key + '.json': value for key, value in vod_bundles.items()}
-    lives = [{'name': item['name'], 'type': 0, 'url': item['url'], 'headers': item.get('headers', {})} for item in active(live['playlists'])]
-    box = {'sites': sites, 'lives': lives, 'parses': []}
-    if vod.get('spider'):
-        box['spider'] = vod['spider']
+def live_outputs(channel_rows, live_name, base_url, source_registry=None):
+    """Serialize rows once, preserving per-route playback metadata for every subscription."""
     source_names = {}
     groups = {}; m3u = ['#EXTM3U']
     if source_registry is not None:
@@ -328,13 +314,64 @@ def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None,
             if channel.get('headers'):
                 m3u.append('#EXTHTTP:' + json.dumps(channel['headers'], ensure_ascii=False, separators=(',', ':')))
             m3u.append(address)
-    live_json = {'name': live['name'], 'groups': [{'name': group, 'channels': channels} for group, channels in groups.items()]}
+    live_json = {'name': live_name, 'groups': [{'name': group, 'channels': channels} for group, channels in groups.items()]}
     txt = []
     for group, channels in groups.items():
         txt.append(group + ',#genre#')
         for channel in channels:
             # Repeated names in the same group become fallback routes in TVBox.
             txt.extend(channel['name'] + ',' + address for address in channel['urls'])
+    return {'json': live_json, 'm3u': '\n'.join(m3u) + '\n', 'txt': '\n'.join(txt) + ('\n' if txt else '')}
+
+
+def module_outputs(data, base_url, repository, channel_rows, source_registry=None):
+    """Derive module subscriptions from the same maintained library and original M3U rows."""
+    files, links = {}, []
+    own_urls = project_m3u_urls(base_url, repository)
+    for module, name in MODULE_NAMES.items():
+        path = 'data/modules/' + module + '.json'
+        manifest = {'version': 1, 'name': name, 'module': module}
+        if module in {'television', 'entertainment'}:
+            playlist_path = 'data/modules/' + module + '.m3u'
+            playlists = copy.deepcopy(data['live']['playlists'])
+            for playlist in playlists:
+                if playlist['url'] in own_urls:
+                    playlist['url'] = playlist['url'][:-len('data/live.m3u')] + playlist_path
+            manifest['live'] = {'name': data['live']['name'], 'playlists': playlists}
+            # Filter before display normalization. Platform rooms named after a TV channel
+            # retain their original group, title, metadata and per-route playback options.
+            selected = [row for row in channel_rows if live_channels.is_platform_group(row.get('group')) == (module == 'entertainment')]
+            files[playlist_path] = live_outputs(selected, data['live']['name'], base_url, source_registry)['m3u']
+        elif module == 'vod':
+            manifest['vod'] = {'name': data['vod']['name'], 'url': data['vod']['url']}
+            manifest['warehouses'] = copy.deepcopy(data['warehouses'])
+        # Sports rooms and schedules use the client's independent public-page backend.
+        # This manifest intentionally adds no dependency on VOD or the general M3U.
+        files[path] = manifest
+        links.append({'module': module, 'name': name, 'path': path})
+    return files, links
+
+
+def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None, channel_rows=None, channel_url=None):
+    validate(data); url(base_url, '站点地址'); base_url = base_url.rstrip('/') + '/'
+    require(not urlsplit(base_url).query and not urlsplit(base_url).fragment, '站点地址不能包含查询参数或片段')
+    live, vod = data['live'], data['vod']
+    original_rows = validate_channels([] if channel_rows is None else channel_rows)
+    channel_rows = live_channels.public_channels(original_rows, source_registry)
+    require(bool(re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9_][A-Za-z0-9_.-]*', repository)), '仓库名称格式需要 owner/repo')
+    module_files, module_links = module_outputs(data, base_url, repository, original_rows, source_registry)
+    # Relative links keep Pages, Raw, and accelerator endpoints on the selected route.
+    sites = []
+    for item in active(vod['sites']):
+        if not item.get('context'):
+            sites.append(vod_config.public_site(item, base_url))
+    vod_bundles = vod_config.bundles(vod)
+    bundled_files = {'vod/' + key + '.json': value for key, value in vod_bundles.items()}
+    lives = [{'name': item['name'], 'type': 0, 'url': item['url'], 'headers': item.get('headers', {})} for item in active(live['playlists'])]
+    box = {'sites': sites, 'lives': lives, 'parses': []}
+    if vod.get('spider'):
+        box['spider'] = vod['spider']
+    live_files = live_outputs(channel_rows, live['name'], base_url, source_registry)
     warehouse = {'urls': [{'name': data['name'], 'url': './box.json'}] +
                  [{'name': vod['contexts'][key]['name'], 'url': './vod/' + key + '.json'} for key in vod_bundles] +
                  [{'name': item['name'], 'url': item['url']} for item in active(data['warehouses'])]}
@@ -352,7 +389,7 @@ def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None,
              'sites': len(active(vod['sites'])), 'warehouses': len(active(data['warehouses']))}
     hosting = {'repository': repository, 'editUrl': 'https://github.com/' + repository + '/edit/main/data/library.json',
                'endpoints': source_endpoints(base_url, repository),
-               'warehouseGroups': group_links}
+               'warehouseGroups': group_links, 'modules': module_links}
     hosting.update(vodSiteFile=vod_config.SITE_FILE, vodSiteUrl=vod['url'],
                    vodSiteEditUrl='https://github.com/' + repository + '/edit/main/' + vod_config.SITE_FILE)
     if channel_url is not None:
@@ -363,11 +400,11 @@ def build(data, base_url, repository='yujuanIt/TVSources', source_registry=None,
     hosting['vodContexts'] = [{'name': vod['contexts'][key]['name'], 'path': 'vod/' + key + '.json', 'count': len(value['sites'])}
                               for key, value in vod_bundles.items()]
     vod_output = {key: value for key, value in box.items() if key != 'lives'}
-    return {'box.json': box, 'vod.json': vod_output, 'live.json': live_json,
-            'warehouse.json': warehouse, 'manifest.json': stamp, 'hosting.json': hosting, 'live.m3u': '\n'.join(m3u) + '\n',
-            'data/live.m3u': '\n'.join(m3u) + '\n', 'live.txt': '\n'.join(txt) + ('\n' if txt else ''),
+    return {'box.json': box, 'vod.json': vod_output, 'live.json': live_files['json'],
+            'warehouse.json': warehouse, 'manifest.json': stamp, 'hosting.json': hosting, 'live.m3u': live_files['m3u'],
+            'data/live.m3u': live_files['m3u'], 'live.txt': live_files['txt'],
             vod_config.SITE_FILE: vod_config.site_list(data),
-            **warehouse_groups, **bundled_files, **({'data/live-sources.json': source_registry} if source_registry is not None else {})}
+            **module_files, **warehouse_groups, **bundled_files, **({'data/live-sources.json': source_registry} if source_registry is not None else {})}
 
 
 def publish_files(data, base_url, output, repository='yujuanIt/TVSources'):

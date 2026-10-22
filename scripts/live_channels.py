@@ -7,6 +7,20 @@ SATELLITES = ['北京', '东方', '天津', '重庆', '黑龙江', '吉林', '�
               '山东', '湖北', '湖南', '江西', '浙江', '江苏', '安徽', '东南', '广东', '深圳', '广西', '贵州', '云南', '四川', '西藏', '新疆', '兵团', '海南', '三沙']
 CCTV_NAMES = {1: '综合', 2: '财经', 3: '综艺', 4: '中文国际', 5: '体育', 6: '电影', 7: '国防军事', 8: '电视剧', 9: '纪录', 10: '科教',
               11: '戏曲', 12: '社会与法', 13: '新闻', 14: '少儿', 15: '音乐', 16: '奥林匹克', 17: '农业农村'}
+ROOM_GROUPS = {'抖音', 'DOUYIN', '快手', 'KUAISHOU', '虎牙', 'HUYA', '斗鱼', 'DOUYU',
+               'B站', '哔哩哔哩', 'BILIBILI', 'TWITCH', 'SOOP', 'YY', 'TIKTOK', 'YOUTUBE'}
+ROOM_GROUP_SUFFIXES = ('直播', '直播间', '平台', '直播平台', '频道', '直播频道', '直播源')
+ROOM_GROUP_SEPARATORS = '·•:/|-_—–'
+
+
+def is_platform_group(raw):
+    """Match Android LiveModule using the original group, never a title or playback URL."""
+    normalized = unicodedata.normalize('NFKC', raw or '').upper()
+    normalized = ''.join(character for character in normalized if not character.isspace())
+    normalized = normalized.translate(str.maketrans('鬥魚嗶頻間臺', '斗鱼哔频间台'))
+    boundary = next((index for index, character in enumerate(normalized) if character in ROOM_GROUP_SEPARATORS), len(normalized))
+    platform = normalized[:boundary]
+    return platform in ROOM_GROUPS or any(platform.endswith(suffix) and platform[:-len(suffix)] in ROOM_GROUPS for suffix in ROOM_GROUP_SUFFIXES)
 
 
 def title(name):

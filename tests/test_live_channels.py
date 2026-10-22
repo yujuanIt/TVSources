@@ -13,6 +13,17 @@ def channel(name, address, origin='old', group='央视', **extra):
 
 
 class LiveChannelTests(unittest.TestCase):
+    def test_module_classifier_matches_explicit_platform_groups_without_title_or_domain_guesses(self):
+        for group in ['抖音', ' Douyin ', '快手直播', '虎牙 · 游戏', 'Huya/户外', '鬥魚直播間',
+                      'Ｂ站', '嗶哩嗶哩頻道', 'bilibili_音乐', 'Twitch-游戏', 'SOOP直播平台',
+                      'YY直播源', 'TikTok', 'YouTube | 音乐']:
+            with self.subTest(group=group):
+                self.assertTrue(live_channels.is_platform_group(group))
+        for group in [None, '', '未分组', '央视', '卫视', '港澳台', '地方', '体育', 'NBA赛事',
+                      'CBA赛事', '影视', '游戏', '其他', 'YYDS', '虎牙新闻台', 'B站精选影视', '我的Twitch频道']:
+            with self.subTest(group=group):
+                self.assertFalse(live_channels.is_platform_group(group))
+
     def test_aliases_and_quality_names_form_one_channel_but_distinct_programs_stay_separate(self):
         for name in ['CCTV1', 'CCTV-1 综合 HD', 'ＣＣＴＶ１高清', '央视1套 Relay', '中央1台']:
             self.assertEqual(('央视', 'CCTV-1 综合'), live_channels.title(name))

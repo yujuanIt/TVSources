@@ -13,6 +13,20 @@ function editor(input = maintained) {
   return context;
 }
 
+test('overview shows the combined and four module subscriptions on the selected route', () => {
+  const node = tag => ({ tag, children: [], append(...items) { this.children.push(...items); }, replaceChildren(...items) { this.children = items; } });
+  const subscriptions = node('div'), endpoint = { value: '1' };
+  const context = editor();
+  context.document = { createElement: node, getElementById: id => ({ subscriptions, endpoint })[id] };
+  context.metadata = { endpoints: [{ base: 'https://first.test/' }, { base: 'https://selected.test/source/' }],
+    modules: ['television', 'entertainment', 'vod', 'sports'].map(module => ({ module, name: module, path: `data/modules/${module}.json` })) };
+  vm.runInContext('hosting = metadata; renderSubscriptions()', context);
+  const addresses = subscriptions.children.map(card => card.children.find(child => child.tag === 'code').textContent);
+  assert.deepEqual(addresses.slice(0, 5), ['data/library.json', ...context.metadata.modules.map(module => module.path)].map(path => 'https://selected.test/source/' + path));
+  const sports = subscriptions.children[4].children.find(child => child.tag === 'p').textContent;
+  assert.match(sports, /赛事直播间与赛程/);
+});
+
 test('manifest and site file export separately with all owner decisions and dependencies intact', () => {
   const context = editor(); vm.runInContext('data = validate(input)', context);
   assert.deepEqual(JSON.parse(vm.runInContext('exportConfig()', context)), manifest);

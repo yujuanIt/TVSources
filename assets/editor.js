@@ -110,11 +110,14 @@ function renderSubscriptions() {
   const base = hosting.endpoints[Number($('endpoint').value) || 0].base;
   const groups = hosting.warehouseGroups || [];
   const warehouses = groups.length ? groups.map((group, index) => ['多仓分组 ' + (index + 1) + ' / ' + groups.length + ' · ' + group.count + ' 份配置', group.path]) : [['多仓订阅 · 包含外部配置', 'warehouse.json']];
-  $('subscriptions').replaceChildren(...[['综合源 · 直播 + 点播', 'box.json'], ['点播站点维护清单 · 居安影院', 'data/vod-sites.json'], ['点播专用配置', 'vod.json'], ...warehouses, ['自建频道 · TXT', 'live.txt'], ['自建频道 · M3U', hosting.channelFile || 'live.m3u'], ['自建频道 · JSON / 完整请求头', 'live.json']].map(([title, path]) => {
+  const modules = hosting.modules || [];
+  $('subscriptions').replaceChildren(...[['简视TV · 综合订阅', 'data/library.json'], ...modules.map(module => [module.name + ' · 独立应用订阅', module.path]), ['TVBox 综合源 · 直播 + 点播', 'box.json'], ['点播站点维护清单 · 简视TV', 'data/vod-sites.json'], ['点播专用配置', 'vod.json'], ...warehouses, ['自建频道 · TXT', 'live.txt'], ['自建频道 · M3U', hosting.channelFile || 'live.m3u'], ['自建频道 · JSON / 完整请求头', 'live.json']].map(([title, path]) => {
     const address = base + path, card = element('article', undefined, 'subscription'), head = element('div', undefined, 'subscription-head');
     head.append(element('h3', title), button('复制地址', () => copyText(address).then(() => notice('订阅地址已复制')).catch(error => notice(error.message))));
     const code = element('code', address); code.title = address; card.append(head, code);
     if (groups.some(group => group.path === path)) card.append(element('p', '依次添加所有分组即可完整接入；每组最多 6 份。', 'hint'));
+    const module = modules.find(module => module.path === path);
+    if (module) card.append(element('p', module.module === 'sports' ? '赛事直播间与赛程由应用读取公开页面，此订阅不依赖电视频道或点播清单。' : '从统一维护文件自动生成；仅供对应的简视独立应用读取。', 'hint'));
     return card;
   }));
 }

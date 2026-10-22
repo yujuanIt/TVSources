@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Publish only validated generated files to source-data, without touching the real index."""
 import argparse
+import copy
 import json
 import os
 import re
@@ -30,6 +31,31 @@ def main():
         library = json.loads((directory / 'data/library.json').read_text(encoding='utf-8'))
         if hosting.get('vodSiteFile') != 'data/vod-sites.json' or sites.get('version') != 1 or not isinstance(sites.get('sites'), list) or set(library.get('vod', {})) != {'name', 'url'}:
             raise ValueError('Invalid standalone VOD site list')
+        modules = hosting.get('modules')
+        module_names = {'television': '简视直播', 'entertainment': '简视娱乐', 'vod': '简视点播', 'sports': '简视体育'}
+        if not isinstance(modules, list) or len(modules) != len(module_names):
+            raise ValueError('Missing module subscriptions')
+        own_urls = {endpoint['base'] + 'data/live.m3u' for endpoint in hosting['endpoints']}
+        for link, (module, name) in zip(modules, module_names.items()):
+            path = 'data/modules/' + module + '.json'
+            if link != {'module': module, 'name': name, 'path': path}:
+                raise ValueError('Invalid module subscription path or identity')
+            document = {'version': 1, 'name': name, 'module': module}
+            if module in {'television', 'entertainment'}:
+                playlist_path = 'data/modules/' + module + '.m3u'
+                document['live'] = copy.deepcopy(library['live'])
+                for playlist in document['live']['playlists']:
+                    if playlist['url'] in own_urls:
+                        playlist['url'] = playlist['url'][:-len('data/live.m3u')] + playlist_path
+                if not (directory / playlist_path).read_text(encoding='utf-8').startswith('#EXTM3U\n'):
+                    raise ValueError('Invalid module live playlist')
+                expected.add(playlist_path)
+            elif module == 'vod':
+                document['vod'] = library['vod']
+                document['warehouses'] = library['warehouses']
+            if json.loads((directory / path).read_text(encoding='utf-8')) != document:
+                raise ValueError('Module subscription differs from the maintained library')
+            expected.add(path)
         for item in hosting.get('vodContexts', []):
             path = item.get('path', '')
             if not re.fullmatch(r'vod/[A-Za-z0-9_-]+\.json', path):

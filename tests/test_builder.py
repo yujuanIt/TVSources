@@ -48,6 +48,81 @@ def live_sources():
 
 
 class BuilderTests(unittest.TestCase):
+    def test_module_manifests_share_maintenance_and_only_reference_their_function(self):
+        data = sample()
+        for endpoint in builder.source_endpoints('https://example.com/source/', 'owner/Sources'):
+            own = dict(name='我的 M3U', url=endpoint['base'] + 'data/live.m3u', enabled=False,
+                       headers={'User-Agent': 'List Player', 'Referer': 'https://example.com/'})
+            data['live']['playlists'] = [own, dict(name='远程列表', url='https://elsewhere.test/live?sig=a%2Bb',
+                                                 enabled=True, headers={'Cookie': 'public-fixture=keep'})]
+            before = copy.deepcopy(data)
+            out = builder.build(data, 'https://example.com/source/', repository='owner/Sources')
+            with self.subTest(route=endpoint['name']):
+                for module in ['television', 'entertainment']:
+                    document = out['data/modules/' + module + '.json']
+                    self.assertEqual({'version', 'name', 'module', 'live'}, set(document))
+                    self.assertEqual(module, document['module'])
+                    self.assertEqual(data['live']['name'], document['live']['name'])
+                    expected = {**own, 'url': endpoint['base'] + 'data/modules/' + module + '.m3u'}
+                    self.assertEqual([expected, data['live']['playlists'][1]], document['live']['playlists'])
+                self.assertEqual({'version': 1, 'name': '简视点播', 'module': 'vod',
+                                  'vod': {'name': data['vod']['name'], 'url': data['vod']['url']},
+                                  'warehouses': data['warehouses']}, out['data/modules/vod.json'])
+                self.assertEqual({'version': 1, 'name': '简视体育', 'module': 'sports'}, out['data/modules/sports.json'])
+                self.assertEqual(data['live']['playlists'][1]['url'], out['box.json']['lives'][0]['url'])
+                self.assertEqual(['television', 'entertainment', 'vod', 'sports'], [item['module'] for item in out['hosting.json']['modules']])
+                self.assertEqual(before, data)
+
+    def test_module_playlists_partition_original_groups_and_keep_every_route_playback_attribute(self):
+        rows = builder.parse_m3u('''#EXTM3U
+#EXTINF:-1 tvg-id="room-1" tvg-logo="https://images.test/one.png" group-title="虎牙 · 体育" x-source-id="alpha",CCTV5高清
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:network-caching=1000
+#EXTHTTP:{"Cookie":"fixture=a%2Fb","User-Agent":"Room Player","Referer":"https://huya.test/"}
+https://cdn.test/room.m3u8?sig=a%2Bb%2F&keep=1
+#EXTINF:-1 tvg-id="room-1" tvg-logo="https://images.test/one.png" group-title="虎牙 · 体育" x-source-id="beta",CCTV5高清
+#EXTHTTP:{"Cookie":"backup=keep"}
+https://cdn.test/backup?signature=unchanged+%2F
+#EXTINF:-1 group-title="鬥魚直播間",地方卫视
+https://cdn.test/douyu
+#EXTINF:-1 group-title="其他",虎牙直播
+https://huya.test/tv
+#EXTINF:-1 group-title="体育",CCTV5高清
+https://cdn.test/sport
+#EXTINF:-1 group-title="NBA赛事",比赛入口
+https://www.88zhibo.tv/live/123/play
+#EXTINF:-1 group-title="虎牙" x-enabled="false",停用房间
+https://cdn.test/off
+''')
+        data = sample(); before = copy.deepcopy(rows)
+        out = builder.build(data, 'https://example.com/', source_registry=live_sources(), channel_rows=rows)
+        expected = {module: [row for row in rows if row['enabled'] and builder.live_channels.is_platform_group(row['group']) == (module == 'entertainment')]
+                    for module in ['television', 'entertainment']}
+        for module, selected in expected.items():
+            self.assertEqual(selected, builder.parse_m3u(out['data/modules/' + module + '.m3u']))
+        self.assertEqual(['虎牙 · 体育', '虎牙 · 体育', '鬥魚直播間'], [row['group'] for row in expected['entertainment']])
+        self.assertEqual(['其他', '体育', 'NBA赛事'], [row['group'] for row in expected['television']])
+        self.assertIn('x-source-name="来源甲"', out['data/modules/entertainment.m3u'])
+        self.assertNotIn('https://cdn.test/off', out['data/modules/entertainment.m3u'])
+        self.assertEqual(before, rows)
+
+    def test_module_files_publish_with_the_site_and_regenerate_after_maintenance_changes(self):
+        content = '#EXTM3U\n#EXTINF:-1 group-title="央视",电视台\nhttps://example.com/tv\n#EXTINF:-1 group-title="B站",直播间\nhttps://example.com/room\n'
+        with tempfile.TemporaryDirectory() as temporary:
+            source = source_tree(temporary, content); output = Path(temporary) / 'site'
+            data = sample(); data['live']['playlists'] = [{'name': '维护文件', 'url': 'https://example.com/data/live.m3u'}]
+            with patch.object(builder, 'SOURCE', source):
+                builder.publish_files(data, 'https://example.com/', output)
+                self.assertIn('https://example.com/tv', (output / 'data/modules/television.m3u').read_text())
+                self.assertNotIn('https://example.com/room', (output / 'data/modules/television.m3u').read_text())
+                self.assertIn('https://example.com/room', (output / 'data/modules/entertainment.m3u').read_text())
+                (source / 'data/live.m3u').write_text('#EXTM3U\n#EXTINF:-1 group-title="影视",新频道\nhttps://example.com/new\n')
+                builder.publish_files(data, 'https://example.com/', output)
+                self.assertIn('https://example.com/new', (output / 'data/modules/television.m3u').read_text())
+                self.assertEqual('#EXTM3U\n', (output / 'data/modules/entertainment.m3u').read_text())
+                self.assertEqual({'version': 1, 'name': '简视体育', 'module': 'sports'}, json.loads((output / 'data/modules/sports.json').read_text()))
+                self.assertEqual(builder.vod_config.manifest(data), json.loads((output / 'data/library.json').read_text()))
+
     def test_standalone_sites_are_the_only_published_copy_and_direct_tvbox_stays_separate(self):
         data = sample(); before = copy.deepcopy(data); files = builder.build(data, 'https://example.com/')
         self.assertEqual(builder.vod_config.site_list(data), files['data/vod-sites.json'])
@@ -424,6 +499,9 @@ class PublisherTests(unittest.TestCase):
             self.assertIn('box.json', published); self.assertNotIn('app.txt', published)
             self.assertIn('live.txt', published)
             self.assertIn('data/live.m3u', published)
+            self.assertTrue({'data/modules/' + module + '.json' for module in ['television', 'entertainment', 'vod', 'sports']} <= set(published))
+            self.assertIn('data/modules/television.m3u', published)
+            self.assertIn('data/modules/entertainment.m3u', published)
             self.assertIn('data/live-sources.json', published)
             self.assertIn('vod/owner.json', published)
             self.assertEqual('https://up.example/path/engine.jar', json.loads(subprocess.check_output(['git', 'show', 'FETCH_HEAD:vod/owner.json'], cwd=repo, text=True))['spider'])
@@ -443,6 +521,16 @@ class PublisherTests(unittest.TestCase):
             (output / 'hosting.json').write_text(json.dumps(hosting))
             rejected = subprocess.run(['python3', str(ROOT / 'scripts/publish-source-data.py'), '--directory', str(output)], cwd=repo, capture_output=True)
             self.assertNotEqual(0, rejected.returncode); self.assertEqual(before, git('diff', '--cached', '--binary'))
+            hosting['liveSources'] = 'data/live-sources.json'; hosting['modules'][0]['path'] = '../private.json'
+            (output / 'hosting.json').write_text(json.dumps(hosting))
+            rejected = subprocess.run(['python3', str(ROOT / 'scripts/publish-source-data.py'), '--directory', str(output)], cwd=repo, capture_output=True)
+            self.assertNotEqual(0, rejected.returncode); self.assertIn(b'Invalid module', rejected.stderr)
+            hosting['modules'][0]['path'] = 'data/modules/television.json'; (output / 'hosting.json').write_text(json.dumps(hosting))
+            module_file = output / 'data/modules/sports.json'
+            module = json.loads(module_file.read_text()); module['vod'] = data['vod']; module_file.write_text(json.dumps(module))
+            rejected = subprocess.run(['python3', str(ROOT / 'scripts/publish-source-data.py'), '--directory', str(output)], cwd=repo, capture_output=True)
+            self.assertNotEqual(0, rejected.returncode); self.assertIn(b'Module subscription differs', rejected.stderr)
+            self.assertEqual(before, git('diff', '--cached', '--binary'))
 
 
 if __name__ == '__main__': unittest.main()

@@ -25,6 +25,24 @@
 
 主配置的 `vod.url` 指向独立的 [点播站点清单](https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/vod-sites.json)。App 读取两份文件后按站点列表聚合搜索；只修改站点文件也会触发更新。任一文件读取失败时保留本机配置，并按现有镜像顺序重试。该维护格式由居安影院读取，通用 TVBox 客户端继续使用下面的标准配置与多仓输出。
 
+### 简视独立应用订阅
+
+简视TV 保留完整功能；简视直播、简视娱乐、简视点播、简视体育分别读取以下订阅。每款应用可构建电视与手机横屏版，共十种安装包。源站只发布公开配置，安装包由私有客户端仓库在本机交付。
+
+| 应用 | Pages 订阅 | 内容 |
+| --- | --- | --- |
+| 简视TV | [data/library.json](https://yujuanit.github.io/TVSources/data/library.json) | 综合主配置 |
+| 简视直播 | [data/modules/television.json](https://yujuanit.github.io/TVSources/data/modules/television.json) | 电视直播，含央视、卫视、港澳台、地方、体育及所有非平台频道 |
+| 简视娱乐 | [data/modules/entertainment.json](https://yujuanit.github.io/TVSources/data/modules/entertainment.json) | 原分组明确标记为抖音、快手、虎牙、斗鱼、B站、Twitch、SOOP、YY 等平台的直播间 |
+| 简视点播 | [data/modules/vod.json](https://yujuanit.github.io/TVSources/data/modules/vod.json) | 同一份点播站点清单及完整 TVBox 配置 |
+| 简视体育 | [data/modules/sports.json](https://yujuanit.github.io/TVSources/data/modules/sports.json) | 体育模块元数据；直播间与赛程由应用现有的斗球公开页面、CBA 官方赛历能力读取 |
+
+这些文件由构建器生成在 `.tools/site/data/modules/`，随 Pages 与 `source-data` 发布，不在 `main` 手工维护第二份配置。继续只编辑 `data/library.json`、`data/live.m3u`、`data/vod-sites.json`。网页总览同时提供各模块的 GH-Proxy、GHFast、Pages、Raw 地址。
+
+模块 JSON 使用 `version: 1`、`name`、`module`，再只携带对应来源：电视 / 娱乐为 `live`，点播为 `vod` 与 `warehouses`，体育只有元数据。电视 / 娱乐不依赖点播清单或完整 TVBox 配置；体育不依赖通用 M3U 或点播清单。体育 M3U 频道仍属于简视直播；简视体育面向赛事房间和赛程，两者不会按名称猜测合并。
+
+本站 M3U 自动派生 `data/modules/television.m3u` 与 `data/modules/entertainment.m3u`。分流只看原始分组，不看频道标题或播放域名；未识别组归电视。频道原分组、名称、台标、EPG、逐线路请求头、播放选项、签名参数与来源备注保留。手工添加的外部直播订阅原样出现在两份直播模块配置中，由对应客户端按同一规则过滤；构建不会联网抓取或静默丢弃外部列表。完整 TVBox 配置继续只在综合 / 点播默认订阅中引用。
+
 其他支持 TVBox 的客户端可使用以下订阅地址：
 
 | 内容 | GH-Proxy 加速入口 | Pages 原址 |
