@@ -33252,8 +33252,8 @@
       }
     },
     "yang-network": {
-      "sha256": "c288f4090ce53000bcac4e248363e705e06d7bc99c580cd36e24522c0999fcc8",
-      "routes": 617,
+      "sha256": "f9914770aa995f57b51ba134a36861f681bacc7e4643ec74a45f9a982eeeedab",
+      "routes": 376,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
