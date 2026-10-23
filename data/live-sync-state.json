@@ -23527,6 +23527,97 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/28223408891",
       "enabled": "true"
+    },
+    "c_6e30a48c6d2a21e57d24ab19": {
+      "name": "英雄联盟4K赛事",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/24",
+      "enabled": "true"
+    },
+    "c_cc9bed9567b33f373e435e2b": {
+      "name": "LCK-Carry",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/carrylck",
+      "enabled": "true"
+    },
+    "c_c830ff15b886c98efe61f4cf": {
+      "name": "Riot Games",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/RiotGames",
+      "enabled": "true"
+    },
+    "c_e47d1727945f6479adc21edd": {
+      "name": "8895",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/57131195653",
+      "enabled": "true"
+    },
+    "c_4f2da06a9b6a894dd1868df3": {
+      "name": "小酥肉💕",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Xiaosurou0802",
+      "enabled": "true"
+    },
+    "c_1512b157125f751dab4fe602": {
+      "name": "超哥超车",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/cgcc666",
+      "enabled": "true"
+    },
+    "c_489aca6e512d720fd817fded": {
+      "name": "서실♡",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/seosils2",
+      "enabled": "true"
+    },
+    "c_d047f4737c674ea4ad0b1418": {
+      "name": "태양이겨빨기",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/cofls3562",
+      "enabled": "true"
+    },
+    "c_d35f46c41ae8b08f1057fe8e": {
+      "name": "SteamySnuggler",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/SteamySnuggler",
+      "enabled": "true"
+    },
+    "c_38967e921646378fa41bab32": {
+      "name": "APEX-On711",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1786565042",
+      "enabled": "true"
+    },
+    "c_bf4283b10378f7f7005bb918": {
+      "name": "北川PUBG",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/646268856760",
+      "enabled": "true"
+    },
+    "c_86ccfe3e893b1b446594dd15": {
+      "name": "王者荣耀有痕（露娜世一秀）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Youhen....",
+      "enabled": "true"
+    },
+    "c_4ce6bd913e5cea6098d9bbe0": {
+      "name": "Caedrel",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/Caedrel",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -33161,8 +33252,8 @@
       }
     },
     "yang-network": {
-      "sha256": "949d4ee7665b2a1d6fb33ab1422538a9a2fba4e72d5f675eb6693c16908783eb",
-      "routes": 784,
+      "sha256": "c288f4090ce53000bcac4e248363e705e06d7bc99c580cd36e24522c0999fcc8",
+      "routes": 617,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -45877,6 +45968,102 @@
           "name": "花江峡谷大桥桥旅融合服务区官方号",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "84ab795a7aae3dd67afb624b666f9ff711b0c7113938e8b865be387c98c3edf6": {
+          "channel": "c_722e44755a800b2353c24195",
+          "name": "哔哩哔哩-英雄联盟赛事",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "e3e5379fe8a70eeeb7e9de516ba6f73ff759fdb707b59c39c88720355e1e578d": {
+          "channel": "c_6e30a48c6d2a21e57d24ab19",
+          "name": "英雄联盟4K赛事",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "ddfb5f9e32fbe4bdf80ee60ce9d790cb4804748c730e2a6ee41b445b08e172eb": {
+          "channel": "c_cc9bed9567b33f373e435e2b",
+          "name": "LCK-Carry",
+          "tvgId": "",
+          "group": "•SOOP「游戏」"
+        },
+        "42930de0338efe7b5a6086790fe8c365a9170b870875a86810271cc1eefc0199": {
+          "channel": "c_c830ff15b886c98efe61f4cf",
+          "name": "Riot Games",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "54dfd428eb3ea3f04073a4940e14a37192977ecc4eb8f176dd54b592458cea05": {
+          "channel": "c_e47d1727945f6479adc21edd",
+          "name": "8895",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "202eb842376352432ba1b6606a45c54dbbef39ac8d1afa75dec04659a5a37d08": {
+          "channel": "c_4f2da06a9b6a894dd1868df3",
+          "name": "小酥肉💕",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "577479bcc4c0081784e0c02fd0f7f59c42846baa71e465859f96ab18aedf3f9d": {
+          "channel": "c_1f848046e5dffd7a4e4dc49d",
+          "name": "苏念（晚上11.00直播）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a1128eb4f98a1174bbd3de8a3385af02c803d005ffebe93ba7d22fcf5e529d54": {
+          "channel": "c_1512b157125f751dab4fe602",
+          "name": "超哥超车",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "bea0d5990c905cffd574cd0580c99e501e08d3b3dd56e5bf16b09b2fbaae8194": {
+          "channel": "c_489aca6e512d720fd817fded",
+          "name": "서실♡",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "e3cc9aecdefe6a5ad728c4e6d88400aaf60fb78d30937072f3791c404373aab6": {
+          "channel": "c_d047f4737c674ea4ad0b1418",
+          "name": "태양이겨빨기",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "c6b372f1b99bc941e2bfc4e6621b03b2ac399a349d3eea9cf955ef8d98bc3817": {
+          "channel": "c_d35f46c41ae8b08f1057fe8e",
+          "name": "SteamySnuggler",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "ac17a07da9be1393b257632270499fc7a737cd92c5e55cbcd839185c96cd320f": {
+          "channel": "c_38967e921646378fa41bab32",
+          "name": "APEX-On711",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "972a7395669fa4b4ed9d61d6326b2d39f77b6dd8f204f1e8eabe0b3efc16f3b7": {
+          "channel": "c_bf4283b10378f7f7005bb918",
+          "name": "北川PUBG",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "a233b368e2c1d762f7c44adb9becabff17ff2047be15a5512c1e5765fdf533f7": {
+          "channel": "c_42714c2011387d30d5955be4",
+          "name": "小古子🍺 古德音乐",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "c5c22ca766c9ba55c896bcd2892879ebbc661fe16918616299e3ae4ba6340848": {
+          "channel": "c_86ccfe3e893b1b446594dd15",
+          "name": "王者荣耀有痕（露娜世一秀）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "b0daa9e6bf682448729c52802c0f34a8a1bfa522b571f1e0578425606af3e2f7": {
+          "channel": "c_4ce6bd913e5cea6098d9bbe0",
+          "name": "Caedrel",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
         }
       }
     },
