@@ -23387,6 +23387,48 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/nicknayersina",
       "enabled": "true"
+    },
+    "c_96061c28bae3098418ca6241": {
+      "name": "Anxlqy_灰羽墙",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1868642897",
+      "enabled": "true"
+    },
+    "c_7645ea754cc111af0c249372": {
+      "name": "一条小团团OvO",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/tuantuanxhchibb",
+      "enabled": "true"
+    },
+    "c_f8f6d79ace0bbf9e60a70c0b": {
+      "name": "枫樱花海",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/23047382",
+      "enabled": "true"
+    },
+    "c_bf3c865bf300418fe616cfe8": {
+      "name": "王者荣耀恨意【国一野猪】",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/21215925160",
+      "enabled": "true"
+    },
+    "c_7b145100f36c5eee866ac874": {
+      "name": "拆卡酱酱",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/49253641881",
+      "enabled": "true"
+    },
+    "c_c5c67e7d10e868c2836a8312": {
+      "name": "绿色青浦",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/332907765",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -33021,8 +33063,8 @@
       }
     },
     "yang-network": {
-      "sha256": "cd444d5cb44c1961721072763927117641bec6ce32c0a68e9425853102b0fb98",
-      "routes": 376,
+      "sha256": "d51ae0b19177021e9518f470d4fdea15f2487e54611372958e559fc33a5cef26",
+      "routes": 505,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -45605,6 +45647,48 @@
           "name": "nicknayersina",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "8232eed025386f2c0588ededc65105ace083af906fdd806111eeecd5a8896ff0": {
+          "channel": "c_96061c28bae3098418ca6241",
+          "name": "Anxlqy_灰羽墙",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "7b1fe7e0e9e1e3ee48b48010370c95d06fdebb3d9a6842c6df6884ba02153d55": {
+          "channel": "c_7645ea754cc111af0c249372",
+          "name": "一条小团团OvO",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d19b6340d8db6b7602ba494ee2c5e89719cc210e03d61a7192a2bb2da3b9c655": {
+          "channel": "c_a0db0df4971d540bbcfa8ed9",
+          "name": "敏敏¹¹⁹｜早上9点",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b9065d23711ed2e246ecd3ae8c42267ecdfe9fc39fdb6c526a0d5a1aaf6b4cca": {
+          "channel": "c_f8f6d79ace0bbf9e60a70c0b",
+          "name": "枫樱花海",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "46bfdc4b2a1db6b29675a5a2c25c19fe0bb39c961d0dd544527b792fba9d6d7b": {
+          "channel": "c_bf3c865bf300418fe616cfe8",
+          "name": "王者荣耀恨意【国一野猪】",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "0879009095922103e1c89f82988959cb92d5076ab0942f1b3c766432218f7977": {
+          "channel": "c_7b145100f36c5eee866ac874",
+          "name": "拆卡酱酱",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "468db8074a9a3bd1e8ec5a1f250904490253f613c7b08db468bb99e258e9cbfa": {
+          "channel": "c_c5c67e7d10e868c2836a8312",
+          "name": "绿色青浦",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
