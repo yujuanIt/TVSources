@@ -23695,6 +23695,111 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/670151962833",
       "enabled": "true"
+    },
+    "c_170465de33ed732e3be8c47c": {
+      "name": "Mythend",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/12378258",
+      "enabled": "true"
+    },
+    "c_afc6410d057224dd2bc09e8f": {
+      "name": "天蓝色罗夏",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/21455010",
+      "enabled": "true"
+    },
+    "c_9d27f33a05cc62d7cf18b7ff": {
+      "name": "PEL和平精英职业联赛",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/89428938508",
+      "enabled": "true"
+    },
+    "c_42985721532c74ac918aeb3b": {
+      "name": "南通支云足球俱乐部",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/ntzyfc",
+      "enabled": "true"
+    },
+    "c_5db7098096880f87f3865422": {
+      "name": "国家大剧院",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/953500247",
+      "enabled": "true"
+    },
+    "c_a87a0ce5f43c0ccd0a92d619": {
+      "name": "明栀明（东东电竞）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/442192637799",
+      "enabled": "true"
+    },
+    "c_f97b3dc7082955071c2bb2cc": {
+      "name": "酷酷Coolboy",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/KuKu0607",
+      "enabled": "true"
+    },
+    "c_5d538c6dbc09c5df3a83d4d8": {
+      "name": "顾居居",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/93104070",
+      "enabled": "true"
+    },
+    "c_37fdb10993aa7eab1fd6e216": {
+      "name": "유지민♡",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/youji5luv",
+      "enabled": "true"
+    },
+    "c_54a772031750c039556d0248": {
+      "name": "咩瓜_sxbjzd",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/4586625",
+      "enabled": "true"
+    },
+    "c_ea09fcbb3d8255ae31700dca": {
+      "name": "酷酷Coolboy",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/kuku0607",
+      "enabled": "true"
+    },
+    "c_028f92eb6d511d8ebddc69b1": {
+      "name": "合肥聚车堂二手车",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/23124793",
+      "enabled": "true"
+    },
+    "c_38c8a5908f02f0dfb4ea2ca8": {
+      "name": "新民晚报",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/2008824773",
+      "enabled": "true"
+    },
+    "c_905d05d1058d9a6a7a3971b9": {
+      "name": "科目一轻松学",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/879948923",
+      "enabled": "true"
+    },
+    "c_c293b95b870f60f8b058120c": {
+      "name": "讲驾考的侯教练",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1927131317",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -25697,8 +25802,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "aa6d0c13665ad44b3ba30d6434e048537760ad9c877b63b311c6f3ccbddd39dd",
-      "routes": 339,
+      "sha256": "758fd93e31b6d2545eac3ae3596fa032f5cb5627a0587aa4a8dd77e3ce39950c",
+      "routes": 338,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -28691,8 +28796,8 @@
       }
     },
     "yang-sports": {
-      "sha256": "a7477d96b036068f58c647b2aa7d9dd8acb98c3df5448ab0b4d31a8278aa187f",
-      "routes": 148,
+      "sha256": "aedbeb660584f12d6e40ec908dc2a051ffa1e4e33148164c43c47a6138cb1582",
+      "routes": 147,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -33329,8 +33434,8 @@
       }
     },
     "yang-network": {
-      "sha256": "40bd2b7a20fb5366a9a4457880ee30e1cf6ef055525475e35be0533b431e1080",
-      "routes": 526,
+      "sha256": "2dc6d1ab965c6a27d83f6338c187042a5a87f4d28139dcfffb634f70c817ba98",
+      "routes": 754,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -46217,6 +46322,96 @@
         "bab7680ea0c30bb53b1bd7d887346391513e10e5299af182353be583645128e0": {
           "channel": "c_82b520e4ca5157e7c06a842c",
           "name": "UFC终极格斗冠军赛",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "bef7f7b0824ae39b4712c15da19a8b42b0083069c8187d63b6dec48d2be88d4f": {
+          "channel": "c_170465de33ed732e3be8c47c",
+          "name": "Mythend",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "0a060081e3e9a0f035881384ede7dd59c8cdb1fa3aca6a00821825084bd0cbd4": {
+          "channel": "c_afc6410d057224dd2bc09e8f",
+          "name": "天蓝色罗夏",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "590612834e7fdfa03e7513f1e8ec250e7d8be305126923d6ffe980f0f9884dc8": {
+          "channel": "c_9d27f33a05cc62d7cf18b7ff",
+          "name": "PEL和平精英职业联赛",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "1ca7a00de44ce3f3552684fc7839501c80671026869252ea3258920bc942f9fa": {
+          "channel": "c_42985721532c74ac918aeb3b",
+          "name": "南通支云足球俱乐部",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "56836e84362d5fdd9c4f17cca746f32ab6cd858dbdcefd991d96aafb28a756ce": {
+          "channel": "c_5db7098096880f87f3865422",
+          "name": "国家大剧院",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "334f0c1adbd649700805052ad7b9dd22be48b1d6739776732eeb2c9f86d6783e": {
+          "channel": "c_a87a0ce5f43c0ccd0a92d619",
+          "name": "明栀明（东东电竞）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d16ada87504ca305a1d0b055aefb487834584b89f3abeaac060f7401776243b3": {
+          "channel": "c_f97b3dc7082955071c2bb2cc",
+          "name": "酷酷Coolboy",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a42638a7c2f80238c2dcf62e443fae96ac231bce210eba00bdbcac7ad077d00a": {
+          "channel": "c_5d538c6dbc09c5df3a83d4d8",
+          "name": "顾居居",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7aaf07d21643977d0d584bd701a7e37291b85ee5ac260605d467e52ffb821717": {
+          "channel": "c_37fdb10993aa7eab1fd6e216",
+          "name": "유지민♡",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "edf91861a9d1fdb66bc11f2808d06bf1704ef186af2f088adbf28a6eed6dacc3": {
+          "channel": "c_54a772031750c039556d0248",
+          "name": "咩瓜_sxbjzd",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "739d8e76f28cd067fe071d4437a6e1e455b713c8902dcdeca4ae8a583c31e0bd": {
+          "channel": "c_ea09fcbb3d8255ae31700dca",
+          "name": "酷酷Coolboy",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "b32a78fc7173bab933e4bcce180bfeef9be74fdcb22309c637a76e255ac802ab": {
+          "channel": "c_028f92eb6d511d8ebddc69b1",
+          "name": "合肥聚车堂二手车",
+          "tvgId": "",
+          "group": "•哔哩「其他」"
+        },
+        "2e8d47db417fda3917793de7681a99976e86ce62655b96b32fb51e764fb14431": {
+          "channel": "c_38c8a5908f02f0dfb4ea2ca8",
+          "name": "新民晚报",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "4210de13ed719481539f05c3184922f17d075d0ede494457afe9d29a836ebab1": {
+          "channel": "c_905d05d1058d9a6a7a3971b9",
+          "name": "科目一轻松学",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "20d2044510bc06f87e7e926a6c75d17b96965f58c47daba774f4824982c37e00": {
+          "channel": "c_c293b95b870f60f8b058120c",
+          "name": "讲驾考的侯教练",
           "tvgId": "",
           "group": "•抖音「其他」"
         }
