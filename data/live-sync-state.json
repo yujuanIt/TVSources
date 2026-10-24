@@ -23618,6 +23618,83 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/Caedrel",
       "enabled": "true"
+    },
+    "c_a388e9dd7b33166c03d0070a": {
+      "name": "广州立直麻将俱乐部",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/21671902",
+      "enabled": "true"
+    },
+    "c_e3607b97d38c6e2bd07f704a": {
+      "name": "卷卷卷上头（身体不适 休息3天喔）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/81620314583",
+      "enabled": "true"
+    },
+    "c_862e2aac486127dab5113748": {
+      "name": "恶霸小桃",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/qianqian0216qq",
+      "enabled": "true"
+    },
+    "c_8ac95f0187a4578a6595e662": {
+      "name": "杭雾龙门赛",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/hcxss111",
+      "enabled": "true"
+    },
+    "c_f6de230696e78ea3eee205ea": {
+      "name": "老飘讲故事",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/woshilaopiao",
+      "enabled": "true"
+    },
+    "c_5c3c8e1618ea888538ad2da2": {
+      "name": "酒馆不喝酒（国一露娜）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/jiuguan0027",
+      "enabled": "true"
+    },
+    "c_e79ef5ab0220321817b8a827": {
+      "name": "dw151295068",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/12655359",
+      "enabled": "true"
+    },
+    "c_1d558c33b19a08960278a935": {
+      "name": "师落",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/6911044",
+      "enabled": "true"
+    },
+    "c_cb1e10c40afb6ccda244a331": {
+      "name": "채은인데용♥",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/zz3506",
+      "enabled": "true"
+    },
+    "c_0edeab6e40396afcaf214615": {
+      "name": "玩祭司的屑鱼w",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/27781393",
+      "enabled": "true"
+    },
+    "c_82b520e4ca5157e7c06a842c": {
+      "name": "UFC终极格斗冠军赛",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/670151962833",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -33252,8 +33329,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f9914770aa995f57b51ba134a36861f681bacc7e4643ec74a45f9a982eeeedab",
-      "routes": 376,
+      "sha256": "40bd2b7a20fb5366a9a4457880ee30e1cf6ef055525475e35be0533b431e1080",
+      "routes": 526,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -46064,6 +46141,84 @@
           "name": "Caedrel",
           "tvgId": "",
           "group": "•Twitch「游戏」"
+        },
+        "e42949a805369335ee52aeac8cadd0048948f1da65653f1e419528a0894206d7": {
+          "channel": "c_a388e9dd7b33166c03d0070a",
+          "name": "广州立直麻将俱乐部",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "84fe71767c4d6bb2397e0f6ad0cb6e4c5d2747971634ed4da9b3dad6f3102d59": {
+          "channel": "c_a6ad1b34a024ba960b8c83f2",
+          "name": "Cc有筐花生🥜？",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "dd4f24e4506625ecb059de5d47449745f09f308711d9efab7b5a25d3bef66bc9": {
+          "channel": "c_e3607b97d38c6e2bd07f704a",
+          "name": "卷卷卷上头（身体不适 休息3天喔）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "6bc5771c94cdf407110fa376b029ecd66939ea97d425df41e6c5554d9052bc2d": {
+          "channel": "c_862e2aac486127dab5113748",
+          "name": "恶霸小桃",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "1d57ced8943cb41bf1155fa2648c6804e2653aca49293bc8c52b59b7ea7839bb": {
+          "channel": "c_8ac95f0187a4578a6595e662",
+          "name": "杭雾龙门赛",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "eb7e210d059cdd0638adc66a935fe7a9c2bbb1e4642a23061a9ee1e1b4174f66": {
+          "channel": "c_f6de230696e78ea3eee205ea",
+          "name": "老飘讲故事",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a90df6373f0864d5bf136d9d6430590f2483425a9840c440520715254fa17482": {
+          "channel": "c_9c2be2fee099ac552985db39",
+          "name": "舒然❤",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "4bc1401eb048271e0a635099e8953006eb639d6d69cd9a3f8a728f086175b035": {
+          "channel": "c_5c3c8e1618ea888538ad2da2",
+          "name": "酒馆不喝酒（国一露娜）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "82d22a96cfd3807890e4358eee72cd23b3b1c9c6587da5aea0c1e317eead5daf": {
+          "channel": "c_e79ef5ab0220321817b8a827",
+          "name": "dw151295068",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "e1a594e5c4e8c8ed76f6a51a13180e8082e7f1ecf07107d4e6df73a9d0bf4562": {
+          "channel": "c_1d558c33b19a08960278a935",
+          "name": "师落",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "d95fe1724e55ead4c71dd3de3b59f09cc6cc67b6e90b6a183661de383a2c5d01": {
+          "channel": "c_cb1e10c40afb6ccda244a331",
+          "name": "채은인데용♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "38283e32fd632f0e2e688f991c6b19c8074dbccba6b35b3e7e239347103b698f": {
+          "channel": "c_0edeab6e40396afcaf214615",
+          "name": "玩祭司的屑鱼w",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "bab7680ea0c30bb53b1bd7d887346391513e10e5299af182353be583645128e0": {
+          "channel": "c_82b520e4ca5157e7c06a842c",
+          "name": "UFC终极格斗冠军赛",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
