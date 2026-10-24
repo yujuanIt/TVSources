@@ -23800,6 +23800,62 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/1927131317",
       "enabled": "true"
+    },
+    "c_b243cd227a690999a1f59037": {
+      "name": "花似季丶逆反",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/975209",
+      "enabled": "true"
+    },
+    "c_e4c099ba284d9ab6f3197df0": {
+      "name": "短裙",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/60590204789",
+      "enabled": "true"
+    },
+    "c_66a4440687bfd29d4f1ec832": {
+      "name": "马来西亚🇲🇾金龙装修",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/27962935418",
+      "enabled": "true"
+    },
+    "c_3421808188416f0626af1045": {
+      "name": "하루S2",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/sol3712",
+      "enabled": "true"
+    },
+    "c_fbff20d31199870f2f1520cb": {
+      "name": "宾汉玩玩具",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/sj556634",
+      "enabled": "true"
+    },
+    "c_54b2d3fe951266614886c415": {
+      "name": "CSGO反恐精英-全球攻势",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/784453168243",
+      "enabled": "true"
+    },
+    "c_f7bf21e881f9878275cd1d80": {
+      "name": "成成大王（三角洲行动）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Tikc0503",
+      "enabled": "true"
+    },
+    "c_ffaef09ecf02a0a2db887e64": {
+      "name": "阿洛（三角洲行动）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/lluoo_01",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -33434,8 +33490,8 @@
       }
     },
     "yang-network": {
-      "sha256": "2dc6d1ab965c6a27d83f6338c187042a5a87f4d28139dcfffb634f70c817ba98",
-      "routes": 754,
+      "sha256": "562f96c4bfeead65458282b9bdd0251706fe07241b773723658c530e19394e93",
+      "routes": 703,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -46414,6 +46470,60 @@
           "name": "讲驾考的侯教练",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "d20083f381005e79b2bddc30a4f5c5b44a8a354e0775375042750014591353d4": {
+          "channel": "c_b243cd227a690999a1f59037",
+          "name": "花似季丶逆反",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "2c44dd4b10901986b25b3ea89e9fdd4cb518b4811253008152a6277215c50ec5": {
+          "channel": "c_9c66da890911b2b4fd90d561",
+          "name": "佳佳ෆ",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a53bee39826519cde85b926126d908d1ef4353046033a318e527255b44182bec": {
+          "channel": "c_e4c099ba284d9ab6f3197df0",
+          "name": "短裙",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "82d45831b5fa7673ab7ae00fb9f99fdf52aba980ca75f596348a7449ac2c8b4d": {
+          "channel": "c_66a4440687bfd29d4f1ec832",
+          "name": "马来西亚🇲🇾金龙装修",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "60a9a81b2c6c0f7c0e1383aea96d9f45e416d088e0b13f55d05ee0d7252fa74d": {
+          "channel": "c_3421808188416f0626af1045",
+          "name": "하루S2",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "b0033823d05973667d97d9eb2b843e84614d172f25f5c602f723ce670fd15708": {
+          "channel": "c_fbff20d31199870f2f1520cb",
+          "name": "賓漢玩玩具",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "5811bd6094d99e05cc2d679df1b0dafb647a1e6f36b976e9df762a0eeefe043b": {
+          "channel": "c_54b2d3fe951266614886c415",
+          "name": "CSGO反恐精英-全球攻势",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "56afb9922173be8720a1af0c008cf33d6117a8c0e5cf72fee210254082dedc6e": {
+          "channel": "c_f7bf21e881f9878275cd1d80",
+          "name": "成成大王（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "d7850ba7d2e2488594ccca4a2130b6b4f38c82d1adff2b5450202b0eb463a73e": {
+          "channel": "c_ffaef09ecf02a0a2db887e64",
+          "name": "阿洛（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
