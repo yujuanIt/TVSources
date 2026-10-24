@@ -3595,22 +3595,6 @@ https://iptv.yang-1989.xyz/hkgf/btpdve.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/comp/j99nhj.m3u8
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.qd.je/163189/hlt
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台「硬字幕」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台「硬字幕」
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.qd.je/163189/jade
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台「新加坡」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台「新加坡」
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.qd.je/163189/hlfct
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台「新加坡」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台「新加坡」
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.qd.je/163189/jade2
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" group-title="港澳台" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",凤凰资讯
 http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" group-title="港澳台" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",凤凰资讯
@@ -4086,6 +4070,22 @@ https://cdn.qd.je/163189/ylxw
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://iptv.yang-1989.xyz/myTV/49rxtx.mpd
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.qd.je/163189/hlt
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台「硬字幕」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台「硬字幕」
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.qd.je/163189/jade
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台「新加坡」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台「新加坡」
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.qd.je/163189/hlfct
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台「新加坡」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台「新加坡」
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.qd.je/163189/jade2
 #EXTINF:-1 tvg-id="TVB1" tvg-name="TVB1" tvg-logo="https://iptv.yang-1989.xyz/logo/TVB.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",TVB1
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -5900,6 +5900,10 @@ https://migu.yang-1989.xyz/comp/7tqtn8.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/comp/f6q87c.m3u8
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="综合频道" x-source-id="yang-sports" x-source-name="体育 · 赛事",TVB Jade「Relay」
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/comp/wz42ak.m3u8
 #EXTINF:-1 tvg-id="76" tvg-name="中国教育" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/CETV-1.png" group-title="综合频道" x-source-id="yuechan-ipv4" x-source-name="IPTV IPv4 · 备用",中国教育
 rtp://239.3.1.57:8152
 #EXTINF:-1 tvg-id="79" tvg-name="中国交通" tvg-logo="https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/img/QiTa/ZhongGuoJiaoTong.png" group-title="综合频道" x-source-id="yuechan-ipv4" x-source-name="IPTV IPv4 · 备用",中国交通
@@ -5934,10 +5938,6 @@ https://migu.yang-1989.xyz/comp/bp5j2c.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/comp/sufvp5.m3u8
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="综合频道" x-source-id="yang-sports" x-source-name="体育 · 赛事",TVB Jade「Relay」
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://migu.yang-1989.xyz/comp/wz42ak.m3u8
 #EXTINF:-1 tvg-id="免費訂閲" tvg-name="维护时间：2026-8-21 #佛系维护..." tvg-logo="https://epg.yang-1989.xyz/logo/温馨提示.png" group-title="公告" x-source-id="yang-tv,yang-mytv,yang-sports,yang-network" x-source-name="电视 · IPTV / myTV · 港澳 / 体育 · 赛事 / 居安直播 · 全部频道",维护时间：2026-8-21 #佛系维护...
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
