@@ -23877,6 +23877,76 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/76355026291",
       "enabled": "true"
+    },
+    "c_ae7b3403a38049e1f844acd2": {
+      "name": "kennyS",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/kennyscs",
+      "enabled": "true"
+    },
+    "c_64f968d4e4104cbdf3d39e3b": {
+      "name": "彬彬有氧运动",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/shoujidabin5580",
+      "enabled": "true"
+    },
+    "c_b6eea7274cdfb8b02f4aa88f": {
+      "name": "悍匪（逆水寒手游）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/35523007818",
+      "enabled": "true"
+    },
+    "c_b5d584b3f570a8642f212429": {
+      "name": "森与知己",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/MS1407",
+      "enabled": "true"
+    },
+    "c_6d7f058409cfdc76855d9d0e": {
+      "name": "만소♡",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/dahye27",
+      "enabled": "true"
+    },
+    "c_8f04419364558fe5fe91f475": {
+      "name": "雪猫_",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/yukineko0975",
+      "enabled": "true"
+    },
+    "c_86a9ab7b461150a29df162df": {
+      "name": "linxl",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/391810831315",
+      "enabled": "true"
+    },
+    "c_cbd3674bd4870997af589d4d": {
+      "name": "中国舆论场",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/cctv4_zgylc",
+      "enabled": "true"
+    },
+    "c_af04b51d0a549a3c4c01b5a4": {
+      "name": "苏州日报",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/57862329394",
+      "enabled": "true"
+    },
+    "c_ddcb3d34d085cb875482c468": {
+      "name": "KaiCenat",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/kaicenat",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -25879,7 +25949,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "758fd93e31b6d2545eac3ae3596fa032f5cb5627a0587aa4a8dd77e3ce39950c",
+      "sha256": "55f1cc13f380e2ea74142806a9725fcc56b7b048cfe1fc2fafb64a477accd436",
       "routes": 338,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -28281,6 +28351,12 @@
           "name": "魔都眼「Relay」",
           "tvgId": "魔都眼",
           "group": "•中國「Relay」"
+        },
+        "4b15c3d886869860030175f559917e842102c81d2e7d4209a02581775abfaedb": {
+          "channel": "c_2caf0e17b028b7457daa6964",
+          "name": "上海新纪实「官方」",
+          "tvgId": "上海新纪实",
+          "group": "•中國「Relay」"
         }
       }
     },
@@ -28873,7 +28949,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "aedbeb660584f12d6e40ec908dc2a051ffa1e4e33148164c43c47a6138cb1582",
+      "sha256": "aea144e77e078dc145611042e9b5758d9b4657baf1ec87faefa4acb04f18b067",
       "routes": 147,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -30188,6 +30264,12 @@
           "channel": "c_e0f7a5bf08328c74558d8f68",
           "name": "魔都眼「官方」",
           "tvgId": "魔都眼",
+          "group": "•中國「Relay」"
+        },
+        "4b15c3d886869860030175f559917e842102c81d2e7d4209a02581775abfaedb": {
+          "channel": "c_2caf0e17b028b7457daa6964",
+          "name": "上海新纪实「官方」",
+          "tvgId": "上海新纪实",
           "group": "•中國「Relay」"
         }
       }
@@ -33511,8 +33593,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f540c060cb278970e9036b259d9484c725f4bbcedd38db21760334fb7178c1d8",
-      "routes": 510,
+      "sha256": "6a77d751792bf083389e3be8e79036aefc6013d42b802b0664094b19fd46286a",
+      "routes": 727,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -46563,6 +46645,66 @@
           "name": "清河",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "988e3335541379fa8cc2616de74dcc3a7640eeeec003dd9ee4eb6e3c5bdaba6f": {
+          "channel": "c_ae7b3403a38049e1f844acd2",
+          "name": "kennyS",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "375618b6a4bffa17972730ea2fc4ad9c5145091946e95aa38623e6cbf03fb6bf": {
+          "channel": "c_64f968d4e4104cbdf3d39e3b",
+          "name": "彬彬有氧运动",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a4e1a150c71507ed7b36324de6492747ed3d0feaf57c34bd6f7cf7b29ffa068e": {
+          "channel": "c_b6eea7274cdfb8b02f4aa88f",
+          "name": "悍匪（逆水寒手游）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "9a1ff7042688328913620185f0d10182b6368ac6e9f387988f2fc45811c443fb": {
+          "channel": "c_b5d584b3f570a8642f212429",
+          "name": "森与知己",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7db6775511a18d33404b077d74c11a525244ec3f50df485abc5d3b004de40be9": {
+          "channel": "c_6d7f058409cfdc76855d9d0e",
+          "name": "만소♡",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "3e56ee0ad355399b996b5a5fa648043a1e9395416222809cf81b10600a815476": {
+          "channel": "c_8f04419364558fe5fe91f475",
+          "name": "雪貓_",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "fcb834a907249732d7d9deff8c198f8ebf171384cb037234a5e6b7d9046d4f9e": {
+          "channel": "c_86a9ab7b461150a29df162df",
+          "name": "linxl",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "dca63d7fcb374547e43623874a8ff4395ad0d0249c4f7372933cb0edb065b0f4": {
+          "channel": "c_cbd3674bd4870997af589d4d",
+          "name": "中国舆论场",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "a7836c862d1851b632c204396b2cac98408c12ca340959bb1b5ec28ebbb83fb1": {
+          "channel": "c_af04b51d0a549a3c4c01b5a4",
+          "name": "苏州日报",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "d8d3c4e8da509071677e044b1cb28a7254c4ce4165c200fa752e3cd50b82bc08": {
+          "channel": "c_ddcb3d34d085cb875482c468",
+          "name": "KaiCenat",
+          "tvgId": "",
+          "group": "•Twitch「其他」"
         }
       }
     },
