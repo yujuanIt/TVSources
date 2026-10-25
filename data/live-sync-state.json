@@ -23856,6 +23856,27 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/lluoo_01",
       "enabled": "true"
+    },
+    "c_01a09f2bfcca05fac74f545f": {
+      "name": "憨堡堡o",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/27780144",
+      "enabled": "true"
+    },
+    "c_63f9e8e6c8f0bf810728d801": {
+      "name": "有毒的粽子",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/540136",
+      "enabled": "true"
+    },
+    "c_abe7b87b2e6cc3a51091a51e": {
+      "name": "清河",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/76355026291",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -33490,8 +33511,8 @@
       }
     },
     "yang-network": {
-      "sha256": "b2cdb277d2c8fc2ef2e1ea5af9b4917867eea84d8b8cca5246fdcf424ce74ac7",
-      "routes": 419,
+      "sha256": "f540c060cb278970e9036b259d9484c725f4bbcedd38db21760334fb7178c1d8",
+      "routes": 510,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -46522,6 +46543,24 @@
         "d7850ba7d2e2488594ccca4a2130b6b4f38c82d1adff2b5450202b0eb463a73e": {
           "channel": "c_ffaef09ecf02a0a2db887e64",
           "name": "阿洛（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "bd3d47d5c1557eb5aa1d42ff094d819bfbf95a5dbd82a6d651fb88bcf2cc7d43": {
+          "channel": "c_01a09f2bfcca05fac74f545f",
+          "name": "憨堡堡o",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "b0dcba95b0c4e0dc79cbac46ef7b33970c6474172b77bacb67849281ef7fe52d": {
+          "channel": "c_63f9e8e6c8f0bf810728d801",
+          "name": "有毒的粽子",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "fda71b98288441663e94f7c4a281d9798df9566c85392ffd73a82dec0954292a": {
+          "channel": "c_abe7b87b2e6cc3a51091a51e",
+          "name": "清河",
           "tvgId": "",
           "group": "•抖音「游戏」"
         }
