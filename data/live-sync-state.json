@@ -23947,6 +23947,90 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/kaicenat",
       "enabled": "true"
+    },
+    "c_e7a66ad617b08ebdd1295307": {
+      "name": "Fmsg",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/639592246271",
+      "enabled": "true"
+    },
+    "c_469a4c54555e177c48c3df22": {
+      "name": "反骨葡萄",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/367289928576",
+      "enabled": "true"
+    },
+    "c_5ee25f25a50ccb80df2405f7": {
+      "name": "大晴晴儿",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1103878520",
+      "enabled": "true"
+    },
+    "c_d7f2fec1a7281419fa44e0e1": {
+      "name": "[G]지삐♥",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/jeehyeoun",
+      "enabled": "true"
+    },
+    "c_adf40beab570dd92d9d99137": {
+      "name": "효카*♥*",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/purelove2",
+      "enabled": "true"
+    },
+    "c_ca3a178d0e0fc0897198568f": {
+      "name": "PGL",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/pgl",
+      "enabled": "true"
+    },
+    "c_b9986aa1d4229d6566d06aa9": {
+      "name": "Yoon_Froggy",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/yoon_froggy",
+      "enabled": "true"
+    },
+    "c_34b5065b2b0c184f62f9494d": {
+      "name": "宫崎英高_",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/9272461",
+      "enabled": "true"
+    },
+    "c_395391863e001e6657ef6772": {
+      "name": "莫师傅Merciful",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/9345786",
+      "enabled": "true"
+    },
+    "c_79745b3ef0f85e5af6c71def": {
+      "name": "Ryukichi_",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/Ryukichi_",
+      "enabled": "true"
+    },
+    "c_91856a1f5f537f1a957e0023": {
+      "name": "咖撒",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/karsalol",
+      "enabled": "true"
+    },
+    "c_b372a1543d57787cdba5ba4f": {
+      "name": "峰哥亡命天涯",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/22230707",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -33593,8 +33677,8 @@
       }
     },
     "yang-network": {
-      "sha256": "6a77d751792bf083389e3be8e79036aefc6013d42b802b0664094b19fd46286a",
-      "routes": 727,
+      "sha256": "9f05a53664ea85267233d0b5beeaa7fe1fa5fc45a129f8b411d449fcb1954b75",
+      "routes": 665,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -46705,6 +46789,90 @@
           "name": "KaiCenat",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "70b966c455932ca316939b926f9b1895517fa0130f4002d22e6f5206d48147de": {
+          "channel": "c_37c1469e252e79410d715d1e",
+          "name": "小思又饿啦",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "f096a5fc8dcdfccb0a0a634d2e0716869450068048592ae66c274aa5894ff316": {
+          "channel": "c_e7a66ad617b08ebdd1295307",
+          "name": "Fmsg",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c8483a11a08cfa865a5dbdae2c94101c94e3c2c951e138be46b61530b57b2a96": {
+          "channel": "c_469a4c54555e177c48c3df22",
+          "name": "反骨葡萄",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7cd7ce8346274591b8eaec745f6cd4a378e826466ceec494d0be1be41f43d430": {
+          "channel": "c_5ee25f25a50ccb80df2405f7",
+          "name": "大晴晴儿",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "dca8a4ddac0841c9f9ef1a24e31d942bf12ec3f7e02ca43d523853ad3abcee8f": {
+          "channel": "c_d7f2fec1a7281419fa44e0e1",
+          "name": "[G]지삐♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "2556f2e5c437336d0b1a95583479fd8161995a355e0b50d711233c282dba2164": {
+          "channel": "c_adf40beab570dd92d9d99137",
+          "name": "효카*♥*",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "6170a9e595c33cfbb739fbfb532982f6adfcbc5e7e3c3aa623448c7e1033b5cb": {
+          "channel": "c_ca3a178d0e0fc0897198568f",
+          "name": "PGL",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "0fa38967a4cb7bf73f164d944c8f4956232b9a8310ffb74df31c77b235302b19": {
+          "channel": "c_b9986aa1d4229d6566d06aa9",
+          "name": "Yoon_Froggy",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "13b24993915cf53e590c36df4ed0ee5b992659fb74afe125b53fda7abe21096c": {
+          "channel": "c_761e9b25beee3f92a1c666f7",
+          "name": "星妹妹m",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "d5c7f862421bbbb249c8aa146119d4a64e89dd98689fda182742cbb2b5d0d6d6": {
+          "channel": "c_34b5065b2b0c184f62f9494d",
+          "name": "宫崎英高_",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "6450131456932e11ddc5d7d1defcc53bb4a7ec60d3ea2ce51c219f8edc7dba20": {
+          "channel": "c_395391863e001e6657ef6772",
+          "name": "莫师傅Merciful",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "318ca38885bd7a13d90f0c11c1963bfce0ed35230b6ef85c4ed76e0138cf1786": {
+          "channel": "c_79745b3ef0f85e5af6c71def",
+          "name": "Ryukichi_",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "8b171e12ae8bb2188903e77efda2002361a1f665a9f44f5c5d35e006cdffc3d7": {
+          "channel": "c_91856a1f5f537f1a957e0023",
+          "name": "咖撒",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "ec75fd06db9019678021a1a823c28015b87a90b1be40c311e8ccc4863457759e": {
+          "channel": "c_b372a1543d57787cdba5ba4f",
+          "name": "峰哥亡命天涯",
+          "tvgId": "",
+          "group": "•哔哩「其他」"
         }
       }
     },
