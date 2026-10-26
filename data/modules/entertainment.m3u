@@ -2617,16 +2617,10 @@ https://cdn.ttvb.eu.org/douyin/269875672114
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/xzgdxmt
-#EXTINF:-1 tvg-id="" tvg-name="小海锤石" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xiaohaichuishi" group-title="抖音" x-source-id="yang-favorites" x-source-name="居安直播 · 常看",小海锤石
-#EXTVLCOPT:http-user-agent=okhttp/3.8.1
-#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://cdn.ttvb.eu.org/douyin/xiaohaichuishi
 #EXTINF:-1 tvg-id="" tvg-name="帅兄盖伦（大招流寒冰）" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/22719830516" group-title="抖音" x-source-id="yang-favorites,yang-network" x-source-name="居安直播 · 常看 / 居安直播 · 全部频道",帅兄盖伦（大招流寒冰）
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/22719830516
-#EXTINF:-1 tvg-id="JJ斗地主" tvg-name="JJ斗地主" tvg-logo="https://www.xn--rgv465a.top/tvlogo/JJ斗地主.png" group-title="抖音" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",JJ斗地主
-https://live.iill.top/douyin/685317364746
 #EXTINF:-1 tvg-id="" tvg-name="-馨怡🌾" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/25109229188" group-title="抖音" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",-馨怡🌾
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -3527,6 +3521,12 @@ https://cdn.ttvb.eu.org/douyin/1927131317
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyin/297206618xu
+#EXTINF:-1 tvg-id="" tvg-name="小海锤石" tvg-logo="https://live.yang-1989.eu.org/logo/douyin/xiaohaichuishi" group-title="抖音" x-source-id="yang-favorites" x-source-name="居安直播 · 常看",小海锤石
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://cdn.ttvb.eu.org/douyin/xiaohaichuishi
+#EXTINF:-1 tvg-id="JJ斗地主" tvg-name="JJ斗地主" tvg-logo="https://www.xn--rgv465a.top/tvlogo/JJ斗地主.png" group-title="抖音" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",JJ斗地主
+https://live.iill.top/douyin/685317364746
 #EXTINF:-1 tvg-id="" tvg-name="满创-苏棠" tvg-logo="https://live.yang-1989.eu.org/logo/huya/31292435" group-title="虎牙" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",满创-苏棠
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4059,52 +4059,6 @@ https://cdn.ttvb.eu.org/huya/148237
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/949527
-#EXTINF:-1 tvg-id="七龙珠" tvg-name="七龙珠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/七龙珠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",七龙珠
-https://live.ottiptv.cc/huya/11601966
-#EXTINF:-1 tvg-id="七龙珠" tvg-name="七龙珠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/七龙珠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",七龙珠
-https://live.metshop.top/huya/11601966
-#EXTINF:-1 tvg-id="中华小当家" tvg-name="中华小当家" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中华小当家.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",中华小当家
-https://live.metshop.top/huya/11342413
-#EXTINF:-1 tvg-id="中华小当家" tvg-name="中华小当家" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中华小当家.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",中华小当家
-https://live.iill.top/huya/11342413
-#EXTINF:-1 tvg-id="中华小当家" tvg-name="中华小当家" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中华小当家.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",中华小当家
-https://live.ottiptv.cc/huya/11342413
-#EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/猫和老鼠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",猫和老鼠
-https://live.iill.top/huya/11352879
-#EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/猫和老鼠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",猫和老鼠
-https://live.metshop.top/huya/11352879
-#EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/猫和老鼠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",猫和老鼠
-https://live.ottiptv.cc/huya/11352879
-#EXTINF:-1 tvg-id="笑傲江湖" tvg-name="笑傲江湖" tvg-logo="https://www.xn--rgv465a.top/tvlogo/笑傲江湖.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",笑傲江湖
-https://live.iill.top/huya/23865142
-#EXTINF:-1 tvg-id="笑傲江湖" tvg-name="笑傲江湖" tvg-logo="https://www.xn--rgv465a.top/tvlogo/笑傲江湖.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",笑傲江湖
-https://live.metshop.top/huya/26355790
-#EXTINF:-1 tvg-id="笑傲江湖" tvg-name="笑傲江湖" tvg-logo="https://www.xn--rgv465a.top/tvlogo/笑傲江湖.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",笑傲江湖
-https://live.metshop.top/huya/23865142
-#EXTINF:-1 tvg-id="天龙八部" tvg-name="天龙八部" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天龙八部.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",天龙八部
-https://live.metshop.top/huya/20985816
-#EXTINF:-1 tvg-id="天龙八部" tvg-name="天龙八部" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天龙八部.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",天龙八部
-https://live.ottiptv.cc/huya/20985816
-#EXTINF:-1 tvg-id="西游记" tvg-name="西游记" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",西游记
-https://live.ottiptv.cc/huya/26355861
-#EXTINF:-1 tvg-id="西游记" tvg-name="西游记" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西游记.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",西游记
-http://live.ottiptv.cc/huya/20985836
-#EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三国演义.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",三国演义
-https://live.iill.top/huya/11602081
-#EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三国演义.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",三国演义
-https://live.metshop.top/huya/11602081
-#EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三国演义.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",三国演义
-https://live.ottiptv.cc/huya/11602081
-#EXTINF:-1 tvg-id="水浒传" tvg-name="水浒传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/水浒传.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",水浒传
-http://live.ottiptv.cc/huya/26355860
-#EXTINF:-1 tvg-id="封神榜" tvg-name="封神榜" tvg-logo="https://www.xn--rgv465a.top/tvlogo/封神榜.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",封神榜
-https://live.metshop.top/huya/29465849
-#EXTINF:-1 tvg-id="封神榜" tvg-name="封神榜" tvg-logo="https://www.xn--rgv465a.top/tvlogo/封神榜.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",封神榜
-https://live.ottiptv.cc/huya/29465849
-#EXTINF:-1 tvg-id="射雕英雄传" tvg-name="射雕英雄传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/射雕英雄传.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",射雕英雄传
-https://live.metshop.top/huya/23824164
-#EXTINF:-1 tvg-id="射雕英雄传" tvg-name="射雕英雄传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/射雕英雄传.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",射雕英雄传
-https://live.ottiptv.cc/huya/23824164
 #EXTINF:-1 tvg-id="" tvg-name="「虎牙」CS 2" tvg-logo="https://epg.yang-1989.xyz/logo/虎牙.png" group-title="虎牙" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",「虎牙」CS 2
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4957,6 +4911,52 @@ https://cdn.ttvb.eu.org/huya/11352970
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/huya/30986994
+#EXTINF:-1 tvg-id="七龙珠" tvg-name="七龙珠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/七龙珠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",七龙珠
+https://live.ottiptv.cc/huya/11601966
+#EXTINF:-1 tvg-id="七龙珠" tvg-name="七龙珠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/七龙珠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",七龙珠
+https://live.metshop.top/huya/11601966
+#EXTINF:-1 tvg-id="中华小当家" tvg-name="中华小当家" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中华小当家.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",中华小当家
+https://live.metshop.top/huya/11342413
+#EXTINF:-1 tvg-id="中华小当家" tvg-name="中华小当家" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中华小当家.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",中华小当家
+https://live.iill.top/huya/11342413
+#EXTINF:-1 tvg-id="中华小当家" tvg-name="中华小当家" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中华小当家.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",中华小当家
+https://live.ottiptv.cc/huya/11342413
+#EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/猫和老鼠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",猫和老鼠
+https://live.iill.top/huya/11352879
+#EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/猫和老鼠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",猫和老鼠
+https://live.metshop.top/huya/11352879
+#EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://www.xn--rgv465a.top/tvlogo/猫和老鼠.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",猫和老鼠
+https://live.ottiptv.cc/huya/11352879
+#EXTINF:-1 tvg-id="笑傲江湖" tvg-name="笑傲江湖" tvg-logo="https://www.xn--rgv465a.top/tvlogo/笑傲江湖.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",笑傲江湖
+https://live.iill.top/huya/23865142
+#EXTINF:-1 tvg-id="笑傲江湖" tvg-name="笑傲江湖" tvg-logo="https://www.xn--rgv465a.top/tvlogo/笑傲江湖.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",笑傲江湖
+https://live.metshop.top/huya/26355790
+#EXTINF:-1 tvg-id="笑傲江湖" tvg-name="笑傲江湖" tvg-logo="https://www.xn--rgv465a.top/tvlogo/笑傲江湖.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",笑傲江湖
+https://live.metshop.top/huya/23865142
+#EXTINF:-1 tvg-id="天龙八部" tvg-name="天龙八部" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天龙八部.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",天龙八部
+https://live.metshop.top/huya/20985816
+#EXTINF:-1 tvg-id="天龙八部" tvg-name="天龙八部" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天龙八部.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",天龙八部
+https://live.ottiptv.cc/huya/20985816
+#EXTINF:-1 tvg-id="西游记" tvg-name="西游记" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",西游记
+https://live.ottiptv.cc/huya/26355861
+#EXTINF:-1 tvg-id="西游记" tvg-name="西游记" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西游记.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",西游记
+http://live.ottiptv.cc/huya/20985836
+#EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三国演义.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",三国演义
+https://live.iill.top/huya/11602081
+#EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三国演义.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",三国演义
+https://live.metshop.top/huya/11602081
+#EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三国演义.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",三国演义
+https://live.ottiptv.cc/huya/11602081
+#EXTINF:-1 tvg-id="水浒传" tvg-name="水浒传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/水浒传.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",水浒传
+http://live.ottiptv.cc/huya/26355860
+#EXTINF:-1 tvg-id="封神榜" tvg-name="封神榜" tvg-logo="https://www.xn--rgv465a.top/tvlogo/封神榜.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",封神榜
+https://live.metshop.top/huya/29465849
+#EXTINF:-1 tvg-id="封神榜" tvg-name="封神榜" tvg-logo="https://www.xn--rgv465a.top/tvlogo/封神榜.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",封神榜
+https://live.ottiptv.cc/huya/29465849
+#EXTINF:-1 tvg-id="射雕英雄传" tvg-name="射雕英雄传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/射雕英雄传.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",射雕英雄传
+https://live.metshop.top/huya/23824164
+#EXTINF:-1 tvg-id="射雕英雄传" tvg-name="射雕英雄传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/射雕英雄传.png" group-title="虎牙" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",射雕英雄传
+https://live.ottiptv.cc/huya/23824164
 #EXTINF:-1 tvg-id="" tvg-name="哔哩哔哩直播" tvg-logo="https://live.yang-1989.eu.org/logo/bilibili/1" group-title="B站" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",哔哩哔哩直播
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -6205,8 +6205,6 @@ https://cdn.ttvb.eu.org/bilibili/26351451
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/bilibili/1815226932
-#EXTINF:-1 tvg-id="蜡笔小新" tvg-name="蜡笔小新" tvg-logo="https://www.xn--rgv465a.top/tvlogo/蜡笔小新.png" group-title="B站" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",蜡笔小新
-https://live.ottiptv.cc/bilibili/30837590
 #EXTINF:-1 tvg-id="" tvg-name="「B站」热门赛事" tvg-logo="https://epg.yang-1989.xyz/logo/哔哩哔哩.png" group-title="B站" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",「B站」热门赛事
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -6939,6 +6937,8 @@ https://cdn.ttvb.eu.org/bilibili/23776378
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/bilibili/10112
+#EXTINF:-1 tvg-id="蜡笔小新" tvg-name="蜡笔小新" tvg-logo="https://www.xn--rgv465a.top/tvlogo/蜡笔小新.png" group-title="B站" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",蜡笔小新
+https://live.ottiptv.cc/bilibili/30837590
 #EXTINF:-1 tvg-id="" tvg-name="KZ石头丶" tvg-logo="https://live.yang-1989.eu.org/logo/douyu/255287" group-title="斗鱼" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",KZ石头丶
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -7195,12 +7195,6 @@ https://cdn.ttvb.eu.org/douyu/52876
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyu/851040
-#EXTINF:-1 tvg-id="经典电影台" tvg-name="经典电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/经典电影.png" group-title="斗鱼" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",经典电影
-https://goodiptv.club/douyu/6091425
-#EXTINF:-1 tvg-id="海绵宝宝" tvg-name="海绵宝宝" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海绵宝宝.png" group-title="斗鱼" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",海绵宝宝
-https://live.metshop.top/douyu/3949681
-#EXTINF:-1 tvg-id="漫画解说" tvg-name="漫画解说" tvg-logo="https://www.xn--rgv465a.top/tvlogo/漫画解说.png" group-title="斗鱼" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",漫画解说
-https://www.goodiptv.club/douyu/5907076
 #EXTINF:-1 tvg-id="" tvg-name="「斗鱼」英雄联盟 𝟙" tvg-logo="https://epg.yang-1989.xyz/logo/斗鱼.png" group-title="斗鱼" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",「斗鱼」英雄联盟 𝟙
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -7637,6 +7631,12 @@ https://cdn.ttvb.eu.org/douyu/259676
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/douyu/291514
+#EXTINF:-1 tvg-id="经典电影台" tvg-name="经典电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/经典电影.png" group-title="斗鱼" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",经典电影
+https://goodiptv.club/douyu/6091425
+#EXTINF:-1 tvg-id="海绵宝宝" tvg-name="海绵宝宝" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海绵宝宝.png" group-title="斗鱼" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",海绵宝宝
+https://live.metshop.top/douyu/3949681
+#EXTINF:-1 tvg-id="漫画解说" tvg-name="漫画解说" tvg-logo="https://www.xn--rgv465a.top/tvlogo/漫画解说.png" group-title="斗鱼" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",漫画解说
+https://www.goodiptv.club/douyu/5907076
 #EXTINF:-1 tvg-id="" tvg-name="Mews" tvg-logo="https://live.yang-1989.eu.org/logo/twitch/mews" group-title="Twitch" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",Mews
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -8749,20 +8749,6 @@ https://cdn.ttvb.eu.org/yy/61986
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://live.yang-1989.eu.org/Live.m3u
-#EXTINF:-1 tvg-id="IPTV经典电影" tvg-name="IPTV经典电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/IPTV经典电影.png" group-title="YY" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",IPTV经典电影
-http://43.138.0.72:35455/yy/1382754187
-#EXTINF:-1 tvg-id="漫画解说" tvg-name="漫画解说" tvg-logo="https://www.xn--rgv465a.top/tvlogo/漫画解说.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",漫画解说
-https://yylunbo.ottiptv.cc/yy/1382735568
-#EXTINF:-1 tvg-id="天龙八部" tvg-name="天龙八部" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天龙八部.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",天龙八部
-https://live.ottiptv.cc/yy/1351814644
-#EXTINF:-1 tvg-id="鹿鼎记" tvg-name="鹿鼎记" tvg-logo="https://www.xn--rgv465a.top/tvlogo/鹿鼎记.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",鹿鼎记
-https://live.ottiptv.cc/yy/28265277
-#EXTINF:-1 tvg-id="仙剑奇侠传" tvg-name="仙剑奇侠传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/仙剑奇侠传.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",仙剑奇侠传
-https://live.ottiptv.cc/yy/1382749903
-#EXTINF:-1 tvg-id="水浒传" tvg-name="水浒传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/水浒传.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",水浒传
-https://live.ottiptv.cc/yy/1353873252
-#EXTINF:-1 tvg-id="新白娘子传奇" tvg-name="新白娘子传奇" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新白娘子传奇.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",新白娘子传奇
-https://live.ottiptv.cc/yy/1354490667
 #EXTINF:-1 tvg-id="" tvg-name="YY用户" tvg-logo="https://live.yang-1989.eu.org/logo/yy/1354930976" group-title="YY" x-source-id="yang-network" x-source-name="居安直播 · 全部频道",YY用户
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -8823,3 +8809,17 @@ https://cdn.ttvb.eu.org/yy/1453915435
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://cdn.ttvb.eu.org/yy/22490906
+#EXTINF:-1 tvg-id="IPTV经典电影" tvg-name="IPTV经典电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/IPTV经典电影.png" group-title="YY" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",IPTV经典电影
+http://43.138.0.72:35455/yy/1382754187
+#EXTINF:-1 tvg-id="漫画解说" tvg-name="漫画解说" tvg-logo="https://www.xn--rgv465a.top/tvlogo/漫画解说.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",漫画解说
+https://yylunbo.ottiptv.cc/yy/1382735568
+#EXTINF:-1 tvg-id="天龙八部" tvg-name="天龙八部" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天龙八部.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",天龙八部
+https://live.ottiptv.cc/yy/1351814644
+#EXTINF:-1 tvg-id="鹿鼎记" tvg-name="鹿鼎记" tvg-logo="https://www.xn--rgv465a.top/tvlogo/鹿鼎记.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",鹿鼎记
+https://live.ottiptv.cc/yy/28265277
+#EXTINF:-1 tvg-id="仙剑奇侠传" tvg-name="仙剑奇侠传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/仙剑奇侠传.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",仙剑奇侠传
+https://live.ottiptv.cc/yy/1382749903
+#EXTINF:-1 tvg-id="水浒传" tvg-name="水浒传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/水浒传.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",水浒传
+https://live.ottiptv.cc/yy/1353873252
+#EXTINF:-1 tvg-id="新白娘子传奇" tvg-name="新白娘子传奇" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新白娘子传奇.png" group-title="YY" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",新白娘子传奇
+https://live.ottiptv.cc/yy/1354490667
