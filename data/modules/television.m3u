@@ -3589,18 +3589,6 @@ https://iptv.yang-1989.xyz/hkgf/btpdve.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://migu.yang-1989.xyz/comp/j99nhj.m3u8
-#EXTINF:-1 tvg-id="凤凰中文台" tvg-name="凤凰卫视·中文「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰中文台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·中文「72小时回看」
-#EXTVLCOPT:http-user-agent=okhttp/3.8
-#EXTHTTP:{"User-Agent":"okhttp/3.8"}
-https://iptv.yang-1989.xyz/phoenix/ftn36c.m3u8
-#EXTINF:-1 tvg-id="凤凰资讯台" tvg-name="凤凰卫视·资讯「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰资讯台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·资讯「72小时回看」
-#EXTVLCOPT:http-user-agent=okhttp/3.8
-#EXTHTTP:{"User-Agent":"okhttp/3.8"}
-https://iptv.yang-1989.xyz/phoenix/vf87hw.m3u8
-#EXTINF:-1 tvg-id="凤凰香港台" tvg-name="凤凰卫视·香港「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰香港台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·香港「72小时回看」
-#EXTVLCOPT:http-user-agent=okhttp/3.8
-#EXTHTTP:{"User-Agent":"okhttp/3.8"}
-https://iptv.yang-1989.xyz/phoenix/gx92ex.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" group-title="港澳台" x-source-id="guovin-ipv4" x-source-name="IPTV IPv4 · 综合",凤凰资讯
 http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视资讯台.png" group-title="港澳台" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",凤凰资讯
@@ -3691,6 +3679,18 @@ https://iptv.yang-1989.xyz/hkg/863m56.m3u8
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
 https://iptv.yang-1989.xyz/hkg/aqdhyb.m3u8
+#EXTINF:-1 tvg-id="凤凰中文台" tvg-name="凤凰卫视·中文「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰中文台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·中文「72小时回看」
+#EXTVLCOPT:http-user-agent=okhttp/3.8
+#EXTHTTP:{"User-Agent":"okhttp/3.8"}
+https://iptv.yang-1989.xyz/phoenix/nzdzf6.m3u8
+#EXTINF:-1 tvg-id="凤凰资讯台" tvg-name="凤凰卫视·资讯「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰资讯台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·资讯「72小时回看」
+#EXTVLCOPT:http-user-agent=okhttp/3.8
+#EXTHTTP:{"User-Agent":"okhttp/3.8"}
+https://iptv.yang-1989.xyz/phoenix/6qf35p.m3u8
+#EXTINF:-1 tvg-id="凤凰香港台" tvg-name="凤凰卫视·香港「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰香港台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·香港「72小时回看」
+#EXTVLCOPT:http-user-agent=okhttp/3.8
+#EXTHTTP:{"User-Agent":"okhttp/3.8"}
+https://iptv.yang-1989.xyz/phoenix/vn7z4j.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台「24小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",翡翠台「24小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
