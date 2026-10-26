@@ -24031,6 +24031,34 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/bilibili/22230707",
       "enabled": "true"
+    },
+    "c_4e69d12763421c869ecc6007": {
+      "name": "思小思儿",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/98716378",
+      "enabled": "true"
+    },
+    "c_2c6e2da3baa85651778b3b44": {
+      "name": "洛米",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/36173073203",
+      "enabled": "true"
+    },
+    "c_3e2a1e3136f0a9fb05f2e228": {
+      "name": "斗鱼暴雪游戏",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/1024",
+      "enabled": "true"
+    },
+    "c_55623aa1d33d1a1102c67a30": {
+      "name": "山西省交通运输厅",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/sxsjtyst",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -26033,8 +26061,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "f9bcaed4aaf4a8f4dc4f90e4d73be0a217b4f07a1914b7a026ba5ac6be1ef61a",
-      "routes": 335,
+      "sha256": "b9d4db635da2c9ccde77be13fc71a7808db8c38d367041676b11d55def9c2300",
+      "routes": 338,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -33677,8 +33705,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f6784263df8bf85bac01730036842e32af80ffb433418ef921ba4a024673979d",
-      "routes": 401,
+      "sha256": "df954d1ca5ad55ed7654f3d8e61df607834dbf1a1eb9e966fc7b2c3d48486de5",
+      "routes": 474,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -46885,6 +46913,36 @@
           "name": "燃舞蹈-福星",
           "tvgId": "",
           "group": "•歪歪「其他」"
+        },
+        "50f52b6fe85417cac6485863754d50a07cdf29d27b7036fe6aac7b7c7c314a3c": {
+          "channel": "c_24d066c94ad805fc5ae1eea5",
+          "name": "半勺泡泡糖",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "76f4b726d14bb4683c2e39eca235e8642bc4ad59f83c52c54f4e427a21a857c9": {
+          "channel": "c_4e69d12763421c869ecc6007",
+          "name": "思小思儿",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "95b117948e598a2f6d84a3eee241a3eea6e087aa8ecbccefb584e7e1dc3f8406": {
+          "channel": "c_2c6e2da3baa85651778b3b44",
+          "name": "洛米",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "2153273e545da7a0a09bd4cf9fd4f0dd467125bd131100122e40d705ba3153c0": {
+          "channel": "c_3e2a1e3136f0a9fb05f2e228",
+          "name": "斗鱼暴雪游戏",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "67c420210464d2299e3fc1aa18d1e4905557d0330af5c17c4d03847f31faa547": {
+          "channel": "c_55623aa1d33d1a1102c67a30",
+          "name": "山西省交通运输厅",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
