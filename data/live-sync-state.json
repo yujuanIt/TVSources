@@ -24262,6 +24262,139 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/616953251208",
       "enabled": "true"
+    },
+    "c_ef1a5d793957cd2c1939ea97": {
+      "name": "CNN「AI字幕」",
+      "group": "综合频道",
+      "tvgId": "CNN",
+      "logo": "https://iptv.yang-1989.xyz/logo/CNN.webp",
+      "enabled": "true"
+    },
+    "c_c180089cc178702b626d37b3": {
+      "name": "新加坡xian贤师傅",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1844049968",
+      "enabled": "true"
+    },
+    "c_b40413d3e7eb6c4f913a2369": {
+      "name": "壹丝幻享Ken",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/10042472847",
+      "enabled": "true"
+    },
+    "c_77b512d283c1dab900fc7613": {
+      "name": "小铭探江湖",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/23248121505",
+      "enabled": "true"
+    },
+    "c_5b541b0cde5ef6796f47ac75": {
+      "name": "我只需要一只狗",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/28446376927",
+      "enabled": "true"
+    },
+    "c_75e222133f774ff444fcac8e": {
+      "name": "杨娃🎤(每晚8:20开播)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/47575978539",
+      "enabled": "true"
+    },
+    "c_e850a07724282ca883955f00": {
+      "name": "梁野书苑",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Lysr97136",
+      "enabled": "true"
+    },
+    "c_d55c7fde648d172d9c051335": {
+      "name": "牛牛茉莉环游记（手搓房车版）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/40076672682",
+      "enabled": "true"
+    },
+    "c_4224a495e49d2d78d67f0c04": {
+      "name": "鱼蛋 音乐人",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/yudan0901",
+      "enabled": "true"
+    },
+    "c_0e86e64ccf5e727ce3acad1a": {
+      "name": "채시아♥",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/namuh0926",
+      "enabled": "true"
+    },
+    "c_4a2e0925b1066db8c10a916b": {
+      "name": "JDG_Farway远芳芳",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/925378",
+      "enabled": "true"
+    },
+    "c_ccde8e826c77bb59956d2fa2": {
+      "name": "翱翔的小辣椒fp",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/25602272",
+      "enabled": "true"
+    },
+    "c_49b3a24769f6de0bbca0d448": {
+      "name": "六晓",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/liuxiaobiubiubiu",
+      "enabled": "true"
+    },
+    "c_a37599217ddbc44544068052": {
+      "name": "老佳",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/959242",
+      "enabled": "true"
+    },
+    "c_1bc2bc5068bf218200253546": {
+      "name": "chopperinho",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/chopperinho",
+      "enabled": "true"
+    },
+    "c_292c3773acb8cd691acd14dd": {
+      "name": "Q熊Q熊Q",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1769475507",
+      "enabled": "true"
+    },
+    "c_4bdc99e5ca2eb58aae5acec5": {
+      "name": "和静公安",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/hejinggongan",
+      "enabled": "true"
+    },
+    "c_e0eb45f5c8cfad104d292273": {
+      "name": "浙江华数广电网络股份有限公司",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/dyi8v5w3z11e",
+      "enabled": "true"
+    },
+    "c_f02cb7108146e364bade075f": {
+      "name": "海峡新干线",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1923117633",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -26264,8 +26397,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "e2dc384e5ef466461a9b124c7a863f73696b699729980de67a8147f7426a6ef4",
-      "routes": 337,
+      "sha256": "ff2e3299753aa34a51de42b0a3d9056e9013d6b78cbbc94ef48b003f25f631b4",
+      "routes": 338,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -28672,6 +28805,12 @@
           "name": "上海新纪实「官方」",
           "tvgId": "上海新纪实",
           "group": "•中國「Relay」"
+        },
+        "2ed44306b7d31e94d31951f12c494258228d00e18030dbb133c19783f7dbd9f6": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN「AI字幕」",
+          "tvgId": "CNN",
+          "group": "•測試「Relay」"
         }
       }
     },
@@ -29264,8 +29403,8 @@
       }
     },
     "yang-sports": {
-      "sha256": "4bed5f5b0695b4d7aa9d3bed9382d8d3bbabf8753a6ceffa84e062d9c252bcee",
-      "routes": 147,
+      "sha256": "5f616a458812161b36ee29c92c0f2dd7c3dd9892a994ecc0768df6289448cbba",
+      "routes": 148,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -30586,6 +30725,12 @@
           "name": "上海新纪实「官方」",
           "tvgId": "上海新纪实",
           "group": "•中國「Relay」"
+        },
+        "2ed44306b7d31e94d31951f12c494258228d00e18030dbb133c19783f7dbd9f6": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN「AI字幕」",
+          "tvgId": "CNN",
+          "group": "•測試「Relay」"
         }
       }
     },
@@ -33908,8 +34053,8 @@
       }
     },
     "yang-network": {
-      "sha256": "dd912d9e76b8e9d1d30e58c0dcee9b6954cffce8f61a4c8a97ad38c12b4588b0",
-      "routes": 554,
+      "sha256": "263e50150c4f3a06ecaf02f0699ba7e959503545b276cb2c0b54fcb68f9b5ae3",
+      "routes": 874,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -47356,6 +47501,144 @@
           "name": "果宝宝",
           "tvgId": "",
           "group": "•抖音「娱乐」"
+        },
+        "b5e66157c908ea182aacdcc1d0d121ec2b02ca9207a4d1c8a2031189c784cc0f": {
+          "channel": "c_c180089cc178702b626d37b3",
+          "name": "新加坡xian贤师傅",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "62c710c265c743e87b5849620c5bc95fd7bd040fddd23e00a17918c18d0587d0": {
+          "channel": "c_0eabdfeb1a08e192699b7fe6",
+          "name": "双胞胎芊语芊寻",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "00fbb68154af919fe39ff112c2b98ab5c50a2ea68d0c2950a5a301253a3f384b": {
+          "channel": "c_b40413d3e7eb6c4f913a2369",
+          "name": "壹丝幻享Ken",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "fd38d37f62a78ec5d0780dec379f7bf5430322c515ca96def007d1130ab67042": {
+          "channel": "c_77b512d283c1dab900fc7613",
+          "name": "小銘探江湖",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "538b9e524ebdf349a60d23de3e2795094df86f7a41691f2d80237a7bc119ff23": {
+          "channel": "c_3f192370e10e684127caab48",
+          "name": "小黄飞27号晚7点董事长三亚生日会",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "870059fcc8bedb5f233377d7d366e135e9d36ed19ecbb4114ecaa292f365c0da": {
+          "channel": "c_5b541b0cde5ef6796f47ac75",
+          "name": "我只需要一只狗",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a6095941971db2a825345e134811ef32da36c587e43ddc185e7675943376623c": {
+          "channel": "c_75e222133f774ff444fcac8e",
+          "name": "杨娃🎤(每晚8:20开播)",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a81899dc965ca6c170e7ad24891f3dfa755de3b95dc57f7589ffa638770dcff5": {
+          "channel": "c_e850a07724282ca883955f00",
+          "name": "梁野书苑",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "46504184114d3421e19de6e5fcb1fa6e651e2e26264d60f79aea4363e57cbff2": {
+          "channel": "c_d55c7fde648d172d9c051335",
+          "name": "牛牛茉莉环游记（手搓房车版）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "6b5e0a5ac060cad481cb3183042487227d52e734ba8e9a54d5849a3d59829e3a": {
+          "channel": "c_06b4dcffe1164d934cac98cf",
+          "name": "王思雨☔️⁴¹",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b1631941671bc4aee43dda239aa302f23fe4745752be2219072dad8ee7834b49": {
+          "channel": "c_4224a495e49d2d78d67f0c04",
+          "name": "鱼蛋 音乐人",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "309e645c87a0ec0773fb77ee6929a2d90503bf003ef090cc627a82b807abfe28": {
+          "channel": "c_2d94120c56fafdcfcad75b63",
+          "name": "𝐁𝐨𝐮𝐲𝐢宝儿🤍",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c47a02131215fd080a907835006ffd0d8b68fe4d273ac21bb3d39224cb424397": {
+          "channel": "c_0e86e64ccf5e727ce3acad1a",
+          "name": "채시아♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "85e246985dba360598fd4f45e1d5bb17965de1c03dd0e86d1f39eed9b7925a25": {
+          "channel": "c_ce35723e8e23d883df166540",
+          "name": "天晓Kk",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "602986baf3f06b654218554f4be10df7427773129f6ba8e3de0666f4c17d9577": {
+          "channel": "c_4a2e0925b1066db8c10a916b",
+          "name": "JDG_Farway远芳芳",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "c145fbc29e0b92f5986634c57bf7a458fe081b36735439bfe1d0bbaca487f00b": {
+          "channel": "c_ccde8e826c77bb59956d2fa2",
+          "name": "翱翔的小辣椒fp",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "2641a452b7a47d54dbeb658d83167f9faf71de27858749bf6fc213f30922f59e": {
+          "channel": "c_49b3a24769f6de0bbca0d448",
+          "name": "六晓",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "3de70639a9dc8269b1b6d7ef1356a9cbb6bb10fb36807b611b7ce6ad120081ac": {
+          "channel": "c_a37599217ddbc44544068052",
+          "name": "老佳",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
+        },
+        "5f0952944cd4435a64b6b92ce31a36278a5e9f37e9129125a2f016efc1b64915": {
+          "channel": "c_1bc2bc5068bf218200253546",
+          "name": "chopperinho",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "9b3e6a4f4544a1e669253a82454ea085b0adc62dfe6663fbcafe69cb4b3898bb": {
+          "channel": "c_292c3773acb8cd691acd14dd",
+          "name": "Q熊Q熊Q",
+          "tvgId": "",
+          "group": "•哔哩「其他」"
+        },
+        "98aacd5ce428d371598a5e551121de2877945e72763917a4095c33b2b4c086b5": {
+          "channel": "c_4bdc99e5ca2eb58aae5acec5",
+          "name": "和静公安",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "56c06f14f8d331285578228a9dc4b4f3a691587afd9e87d45129f16ed25b85ab": {
+          "channel": "c_e0eb45f5c8cfad104d292273",
+          "name": "浙江华数广电网络股份有限公司",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "dde9d2ce50c894245ab327b8b94012f0f5942ec87d2733ad0763d18fcf4505d7": {
+          "channel": "c_f02cb7108146e364bade075f",
+          "name": "海峡新干线",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
