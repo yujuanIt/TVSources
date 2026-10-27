@@ -5912,6 +5912,10 @@ rtp://239.3.1.249:8001
 rtp://239.3.1.74:4120
 #EXTINF:-1 tvg-id="204" tvg-name="魅力时尚" tvg-logo="" group-title="综合频道" x-source-id="yuechan-ipv4" x-source-name="IPTV IPv4 · 备用",魅力时尚
 rtp://239.3.1.196:9012
+#EXTINF:-1 tvg-id="CNN" tvg-name="CNN「AI字幕」" tvg-logo="https://iptv.yang-1989.xyz/logo/CNN.webp" group-title="综合频道" x-source-id="yang-tv,yang-sports" x-source-name="电视 · IPTV / 体育 · 赛事",CNN「AI字幕」
+#EXTVLCOPT:http-user-agent=okhttp/3.8.1
+#EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
+https://migu.yang-1989.xyz/test/ycpb4j.m3u8
 #EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://iptv.yang-1989.xyz/logo/BBC%20Earth.webp" group-title="综合频道" x-source-id="yang-tv,yang-sports" x-source-name="电视 · IPTV / 体育 · 赛事",BBC Earth
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
