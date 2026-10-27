@@ -26397,7 +26397,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "ff2e3299753aa34a51de42b0a3d9056e9013d6b78cbbc94ef48b003f25f631b4",
+      "sha256": "3afbea68aa8276c3c61543d976ecd8d4d3509350c5fa2075a2eb48820966ff42",
       "routes": 338,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -28815,7 +28815,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "170dc237f124e5535d42b0f9eb4cded77f8485b106fb31b27b56baf72250c6d7",
+      "sha256": "e3a295b57ae72f8f426193a6171cf90e1862181263ae061125c7fd039de60ee0",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -29403,7 +29403,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "5f616a458812161b36ee29c92c0f2dd7c3dd9892a994ecc0768df6289448cbba",
+      "sha256": "3645060061bec4fad5c522ccecc2090445694eae2dca32228e662ecb4bac05e9",
       "routes": 148,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
