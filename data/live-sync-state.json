@@ -24241,6 +24241,27 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/79659212312",
       "enabled": "true"
+    },
+    "c_ef19106e1cb2b58e56112554": {
+      "name": "LayZard",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/6216087",
+      "enabled": "true"
+    },
+    "c_70c731930145d4549cceb40b": {
+      "name": "华龙豫剧院",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/138334573",
+      "enabled": "true"
+    },
+    "c_6462e540d549e7ddf9609250": {
+      "name": "果宝宝",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/616953251208",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -26243,8 +26264,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "2edec0dd5179058ca2180c27327d5953f972d4366a3039f037fd7c4cc49dfe16",
-      "routes": 338,
+      "sha256": "e2dc384e5ef466461a9b124c7a863f73696b699729980de67a8147f7426a6ef4",
+      "routes": 337,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -33887,8 +33908,8 @@
       }
     },
     "yang-network": {
-      "sha256": "e41a826a3dfb2ae3a496136674b77bfb0418405a9b366c2c57e2f976f81e1be3",
-      "routes": 836,
+      "sha256": "dd912d9e76b8e9d1d30e58c0dcee9b6954cffce8f61a4c8a97ad38c12b4588b0",
+      "routes": 554,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -47317,6 +47338,24 @@
           "name": "林夏🎙️",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "4172ba7a0d3fc00ec9cc5fa95bae8adbc926225abc01237c413c99fe9c8271b1": {
+          "channel": "c_ef19106e1cb2b58e56112554",
+          "name": "LayZard",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "485dcdaf225690f9502f64a222df097ebad2dc61f230aab79f5e362849494d92": {
+          "channel": "c_70c731930145d4549cceb40b",
+          "name": "华龙豫剧院",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "5bd0bfe1f399b1dae5feef021963909656017023f9fda3d2d0c456d8c9aaf561": {
+          "channel": "c_6462e540d549e7ddf9609250",
+          "name": "果宝宝",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
         }
       }
     },
