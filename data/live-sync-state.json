@@ -24493,6 +24493,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/CMALLargs",
       "enabled": "true"
+    },
+    "c_9fd9c518bd10d7e20620df52": {
+      "name": "有诡Yogvia",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/10443621",
+      "enabled": "true"
+    },
+    "c_d7b58cd2c9fc99447b804ab9": {
+      "name": "八家子六妈",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/liuma6687",
+      "enabled": "true"
+    },
+    "c_fb36ff141ef15c5f0a7f30e9": {
+      "name": "嫣儿💃🏻",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/wyx3334445",
+      "enabled": "true"
+    },
+    "c_7cd798fcc072ba1fba7e0746": {
+      "name": "才羽桃cr（两个19-3版）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/al1s_cr",
+      "enabled": "true"
+    },
+    "c_48e1250fd77a81b3ec8deb22": {
+      "name": "pattanaaaa",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/pattanaaaa",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -26495,7 +26530,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "15a8f8ad120badca0894c6ea9dca63970053b708a394bab864ff9e7ce351e853",
+      "sha256": "18c45b2fd86b173181011f7feea02e530b949faf29cebb4653d23b380e439954",
       "routes": 325,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -28913,7 +28948,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "e3a295b57ae72f8f426193a6171cf90e1862181263ae061125c7fd039de60ee0",
+      "sha256": "b3463e28d527316ee4b6ba4758885625ff433bb3068b8af13f343c8471163d61",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -29501,7 +29536,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "3645060061bec4fad5c522ccecc2090445694eae2dca32228e662ecb4bac05e9",
+      "sha256": "d8b4d8c40834a72074dd19f2be5885f15e2cb1b74de0f0c0f014cea04239d2e0",
       "routes": 148,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -34151,8 +34186,8 @@
       }
     },
     "yang-network": {
-      "sha256": "329e4e8dc1d1b9d0bbae6b25f66888f8305b951030b9e87ab99bb63688e59df6",
-      "routes": 453,
+      "sha256": "416b8be5a65612c0fb3d7c15e1a8f67adf3361df22066d592b6ae37360b95074",
+      "routes": 384,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -47959,6 +47994,258 @@
           "name": "CMALLargs",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "1b619962df1e6494182584a2c1bee83ad73258cdd79e23a39d09977092f3f46d": {
+          "channel": "c_4260e6a5a5c7146fdf4a532b",
+          "name": "「B站」CSGO",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "ffea1ee9bc0109c5815e7620a9f5e51758d03314035a3e9e5be30bd0099f7ac7": {
+          "channel": "c_4ce0e9a1b4ae826507387c87",
+          "name": "「B站」无畏契约",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "b43b963210c75f98ca2f33bbc76c5e9a434a907b86679ec83e16b430008a8d12": {
+          "channel": "c_064483c5bdf222fd0d5a7aad",
+          "name": "「B站」永劫无间",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "a7f98d3ccdcc005cb69e516b13416a1234da0acf92bd69d98e9565b9ed54f21a": {
+          "channel": "c_db52cd2760649f426c676a66",
+          "name": "「B站」王者荣耀 𝟙",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "8436b41e1c0d978103ad3b9c58cf07eb1ed94c75cafb0ff93469c14760d6be33": {
+          "channel": "c_41ef5e294fd245b93ec11004",
+          "name": "「B站」王者荣耀 𝟚",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "d8e15e39cf088a8c2b3d95443651fb9738c919de2ff1b6a690ba625029bbd621": {
+          "channel": "c_b391d51471b2dc45e5affdbf",
+          "name": "「B站」第五人格",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "e8b46c22ca8296e84acae792bd603b683386a71959e4cf8991d47f904ef18cd2": {
+          "channel": "c_0835b59b98f3e47642fa57a5",
+          "name": "「B站」绝地求生",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "aa8985e8dae09125466a006b10aecca52a6d54e97478368fc5dc311aa5ebf74c": {
+          "channel": "c_151ca9282159114c74ec5ece",
+          "name": "「B站」英雄联盟",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "8191cbf2cba05fda5bb01d4e5139d6814aabdb853c58b1bc0f1ce0c9243c2305": {
+          "channel": "c_b1b605e26497978705a56d71",
+          "name": "「B站」英雄联盟 4K",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "882f1f65324f35112037915a085fba5c1f2a88bd8ad79e44af7b501debec861f": {
+          "channel": "c_6688e2251ef8e06280472c88",
+          "name": "「B站」金铲铲之战",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "9a30454bcbc9eabbd6052a104b89ba9e848dce08026c2aa79f706eb8feb4b4c2": {
+          "channel": "c_f0a9bb4ffe321904506a2832",
+          "name": "「斗鱼」CSGO",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "15b05caafe5cc3fe098e96ebb75741194d1467c5163b12e1c15b59486bbc45f2": {
+          "channel": "c_35b47e7516d51748e8c2a589",
+          "name": "「斗鱼」DOTA2 𝟙",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "2289cfd7ecb9ee3593e01386e905843dce916610d8460f72c3437d870786d44c": {
+          "channel": "c_eb02bff3eacef15ee12f9f29",
+          "name": "「斗鱼」和平精英",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "8a70f1c7b5ec2431ca94170bf51a6208b3577a67d277239dc844d00fc2fc5376": {
+          "channel": "c_b55ef1f6493d73a74ea37607",
+          "name": "「斗鱼」无畏契约",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "c98f7a6dcdd97911392811aef51f8eb9d0e9092e1af715f45b83c81145bf8d4a": {
+          "channel": "c_9ec08486d7d63296cd3bf9f1",
+          "name": "「斗鱼」王者荣耀 𝟙",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "3579153a54793d83f41e8680392392a19ecf2206ffab1ba1a6fa7abfe6bd688a": {
+          "channel": "c_0ad3802b597de98b704cecfb",
+          "name": "「斗鱼」王者荣耀 𝟚",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "55af9aacbbe06379c13e2700f4d42342c837d3d1a83feac0068ad6ee3a942e78": {
+          "channel": "c_beef743208303d07cd11282f",
+          "name": "「斗鱼」第五人格",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "c5604ed0c162ac2e850286d0574c8d8e41efbc7e803aff86388ef80efc8772ab": {
+          "channel": "c_7a38d8ce6958fa2a3a8a82ca",
+          "name": "「斗鱼」绝地求生",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "0b0a4bf12f58a7aee26726e88f0cb210fc9492e4d17c2628cbc172c2231d0fa8": {
+          "channel": "c_9127deab4ef40404a418c41a",
+          "name": "「斗鱼」英雄联盟 𝟙",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "9729d003bcce968d73c04a13b214deab272d2a82569179774bc9b4249a22b7a1": {
+          "channel": "c_70de1aa25ba7dbbbc85a70eb",
+          "name": "「斗鱼」金铲铲之战",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "d124a33d3e8a34dfe9a26066329569be0b12fe2521c85dcabd3dc2c49156dc07": {
+          "channel": "c_8597e616777cfb08038c8d83",
+          "name": "「虎牙」CSGO",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "0df3668b22cc55dc7d636a6590b5fcc418a339a0fc18969ab2255c7b0d5a8664": {
+          "channel": "c_48f5f746a931c6a7fbe15f5e",
+          "name": "「虎牙」和平精英",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "1c8ca321f556be982a390af157aeb4abdd0dda1e5f4e3202b6cd5ac43d2baabd": {
+          "channel": "c_ce3653bfb3e5a42cd8ebf55d",
+          "name": "「虎牙」无畏契约",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "bfebc5cf3df7650efd2041983f2f726965e101b2e68f8e55df6599832afb4bac": {
+          "channel": "c_edd75a73e00dc2abfd45935c",
+          "name": "「虎牙」永劫无间",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "ae757c87ded2627ca59b6e4db8dd17515583c4eb1abf07a1b3fd40c7499b2811": {
+          "channel": "c_6b52ae80ea18e4d99b15930c",
+          "name": "「虎牙」王者荣耀 𝟙",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "530bbada28b735f4cdd32db2882972bf40df34649af7cbfa0cf69662dc0d3a4c": {
+          "channel": "c_f58418528cab844656f649f7",
+          "name": "「虎牙」王者荣耀 𝟚",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "d1842f40311346542c9433e7c8ce5edb4223f8c9bf3b1dce55556056014bc62d": {
+          "channel": "c_82816b6bf475c779a3972b6e",
+          "name": "「虎牙」第五人格",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "c5f055c6ccd1733515a5b586a940c24f38d1ac6945dff1492bb26bb426b0b329": {
+          "channel": "c_f9e7913ef02a856c3f36387e",
+          "name": "「虎牙」绝地求生 𝟙",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "796ed96d4b26ee8529fbbedfffeccbf33483e32c2881a6af5aed1284b4901d69": {
+          "channel": "c_b6c60463f614b1b564dddac2",
+          "name": "「虎牙」英雄联盟 𝟙",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "f0ac98818c64352809ad797b9cd3147b6dcb346e4e2ca02ae28957bd88b4c0dc": {
+          "channel": "c_9278315b03ae695f986b3a51",
+          "name": "「虎牙」金铲铲之战",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "48563f862e1351c22a9630afd766fd5c4cdc3678af2eaa88be70436786e285fd": {
+          "channel": "c_9fd9c518bd10d7e20620df52",
+          "name": "有诡Yogvia",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "e31dd66ea8cf4b8a5077f9c7a77785ca79e0ef70f3d4ceb7fd5f028b00b49e44": {
+          "channel": "c_d7b58cd2c9fc99447b804ab9",
+          "name": "八家子六妈",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f4ee15e2fb06e3f42d1997945da404dcc24b2cbe19699db6d7fc7d276ebe0675": {
+          "channel": "c_fb36ff141ef15c5f0a7f30e9",
+          "name": "嫣儿💃🏻",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "22b9951bfae84d24337db754ab0af0437029b57be0a39ac192843e9c3f3b9d0f": {
+          "channel": "c_61771e8c589fde5eb6ef4ebd",
+          "name": "大朴观影",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "0d2fb32cfae2dd120f61b75aef83d468ba3c1ac04b603b9190d5df14db31179f": {
+          "channel": "c_3b710d837dfb17df82f7652d",
+          "name": "小木子先生丶",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "bc17b45912bfb3d059bc53e1df786168712682d64f0969d554cea75cb47aaa6d": {
+          "channel": "c_1a91ea72d40103ccf0fdb317",
+          "name": "涂涂观影团",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "56aac834166b42af1c15e14f507bf4e93d0667f7ae4ee8cb215f9c0590c04d33": {
+          "channel": "c_e7483275fe67b25f2a8ae096",
+          "name": "爱吃蛋蛋糕",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "08e767346dd0c562b6ed29684d165fc9cb96ed2f6d62f0f12ba2a7e15faaa449": {
+          "channel": "c_7cd798fcc072ba1fba7e0746",
+          "name": "才羽桃cr（两个19-3版）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "6337ea8fa10ed7d55472c6351996d0e600569e77fd88818f6fbf4f79eeb13183": {
+          "channel": "c_48e1250fd77a81b3ec8deb22",
+          "name": "pattanaaaa",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "1640dce5deaabbede00ce30acca415d10749c9c0057eb81f9a136a2d8daac69f": {
+          "channel": "c_d264052c862b5a602a31edd3",
+          "name": "往事vs随风1",
+          "tvgId": "",
+          "group": "•斗鱼「其他」"
+        },
+        "2ce472c6d51c484a7521874834814fffe6296d85288062c3328415faaaad595d": {
+          "channel": "c_586f825b83039c12551308e7",
+          "name": "SOOP「其他」暂无主播在线",
+          "tvgId": "",
+          "group": "•SOOP「其他」"
+        },
+        "f2664f71d3d1015e421d2e0774260c474514ff014c796f795ae1b122ee769750": {
+          "channel": "c_342a27814bdec9c93a10b309",
+          "name": "歪歪「游戏」暂无主播在线",
+          "tvgId": "",
+          "group": "•歪歪「游戏」"
         }
       }
     },
