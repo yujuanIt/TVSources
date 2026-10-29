@@ -24675,6 +24675,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyu/10084875",
       "enabled": "true"
+    },
+    "c_d1bf72de7b69a9a87ab7314b": {
+      "name": "757户外",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/757122",
+      "enabled": "true"
+    },
+    "c_6768fd6c9b6e89b8726cb93d": {
+      "name": "APEX-文轩WenXx",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/744948120380",
+      "enabled": "true"
+    },
+    "c_bcd6e08a40b8e0101bb72a26": {
+      "name": "凉心（国一怀真）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/11Lx26",
+      "enabled": "true"
+    },
+    "c_f13c074ced0a4b69c7ff56cc": {
+      "name": "魔王羽(三角洲005)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/PerfectYu",
+      "enabled": "true"
+    },
+    "c_be19401eff69665a8f359232": {
+      "name": "NASA",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/nasa",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -26677,8 +26712,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "18c45b2fd86b173181011f7feea02e530b949faf29cebb4653d23b380e439954",
-      "routes": 325,
+      "sha256": "6592e35d7e2473f094661411536b7fb6cb591a17e992fca2492107a64aa170a1",
+      "routes": 338,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -29095,7 +29130,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "b3463e28d527316ee4b6ba4758885625ff433bb3068b8af13f343c8471163d61",
+      "sha256": "9373d93c26d05a6032c68aaffa1171c33471e6278705115aad50ceb1c3c87fab",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -29679,12 +29714,18 @@
           "name": "SUPER Game Show",
           "tvgId": "SUPER Game Show",
           "group": "•myTV「DASH」"
+        },
+        "5e4fbe3ac90c680bad9766b417001d84e5911d910065cca37c11cca25d489901": {
+          "channel": "c_6a5d15ab78a82426fa1734d1",
+          "name": "CGTN 記錄頻道",
+          "tvgId": "CGTN 記錄頻道",
+          "group": "•myTV「DASH」"
         }
       }
     },
     "yang-sports": {
-      "sha256": "d8b4d8c40834a72074dd19f2be5885f15e2cb1b74de0f0c0f014cea04239d2e0",
-      "routes": 148,
+      "sha256": "16cd0124f82e31742b0a7a1ecbea5fe8794bbfdcd3db07a43b4352e5f006d206",
+      "routes": 150,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -34333,8 +34374,8 @@
       }
     },
     "yang-network": {
-      "sha256": "280cb971c05cd39b04c5048c60a4b3facc111f11a926cc72be5cae0cf3c0d9f1",
-      "routes": 616,
+      "sha256": "53865795573539227dbce1905678692b5ce4e5c9a0d09a6b9814cff3ce6eed4d",
+      "routes": 510,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -48525,6 +48566,60 @@
           "name": "单纯的顺才少爷",
           "tvgId": "",
           "group": "•斗鱼「其他」"
+        },
+        "494615d2974b6ce3f61d74477d6c88c0e9142bf8e11b5f954cee0cb891660deb": {
+          "channel": "c_d1bf72de7b69a9a87ab7314b",
+          "name": "757户外",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "9a3263295fddc25230102a7e801c888bfa6a80696023c9299c288948014246a2": {
+          "channel": "c_f6cfa72e0b9b979dafb4228f",
+          "name": "结尾超人",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "105b5006697485131d1ecc45fb9c3b00de9d43cebb656eed42f3e0f8610ce5d4": {
+          "channel": "c_2e8ec0e16ad0034531f7866c",
+          "name": "燃の歌",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "902046853e1386cf086b409144582317938b3321491d1dd22978f54b6997f94e": {
+          "channel": "c_6768fd6c9b6e89b8726cb93d",
+          "name": "APEX-文轩WenXx",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "859b9afb544ea182fe1362f1066ddf509024b57f4b67e7d8bf04b0bdd5a32b1c": {
+          "channel": "c_2c064425d971b1d4409ff3e2",
+          "name": "jjking（剑姬教父）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "85492be1fb7a4e1de1d07a9983a0af504da58d446c84b8a25ddf176abf09065f": {
+          "channel": "c_bcd6e08a40b8e0101bb72a26",
+          "name": "凉心（国一怀真）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "4e226d6b33959414dd87a9ca086afab532d9d975b6718859fb64f3aa147dc53b": {
+          "channel": "c_68229d0c37dfd495289edcb6",
+          "name": "华创-鹤止 （巅峰第一）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "7931556b463adfac1bc88bd80478d0fb3ba3e49e64135f12cb12cc6f9e52acfc": {
+          "channel": "c_f13c074ced0a4b69c7ff56cc",
+          "name": "魔王羽(三角洲005)",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "d937d6200ef188d97a7d2431945d154045d6494bd7020c567001d92371753f04": {
+          "channel": "c_be19401eff69665a8f359232",
+          "name": "NASA",
+          "tvgId": "",
+          "group": "•Twitch「其他」"
         }
       }
     },
