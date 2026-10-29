@@ -24528,6 +24528,153 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/pattanaaaa",
       "enabled": "true"
+    },
+    "c_ad9e814a4cc91989d6e06476": {
+      "name": "八位堂8BitDo",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1742805060",
+      "enabled": "true"
+    },
+    "c_08c336141bf2452285ce58ea": {
+      "name": "别管我就随便看看",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1848767767",
+      "enabled": "true"
+    },
+    "c_ae4269521cd247a95c420a4d": {
+      "name": "连接线丶",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/4046619",
+      "enabled": "true"
+    },
+    "c_31b04f41b86bb39a32426b40": {
+      "name": "小丸子🍡",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/68460685486",
+      "enabled": "true"
+    },
+    "c_417c8e681342c160add75b2c": {
+      "name": "小晴🎹",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/178063390426",
+      "enabled": "true"
+    },
+    "c_392a87f953e0b1d359efb14f": {
+      "name": "敏敏中国舞｜11🈷️9生日庆",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/438216957477",
+      "enabled": "true"
+    },
+    "c_72d3691b6cd577067fd483dc": {
+      "name": "福州快乐规划(辰晖文化)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/571316214781",
+      "enabled": "true"
+    },
+    "c_6c75b3d94bd4a8817e86ffe6": {
+      "name": "第五人格迈当",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Maidang_1018",
+      "enabled": "true"
+    },
+    "c_8056ac6aebe6f8d230834a2c": {
+      "name": "鬼帝（三角洲行动）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/335152705332",
+      "enabled": "true"
+    },
+    "c_2757f9808952d4dbaabddf51": {
+      "name": "即刻-娜宝宝",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/124378",
+      "enabled": "true"
+    },
+    "c_d265650a49d1b0ad51a404ae": {
+      "name": "박가린님[♥]",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/janjju",
+      "enabled": "true"
+    },
+    "c_164b8867949bad93166d7bb3": {
+      "name": "ZP-",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/3322312",
+      "enabled": "true"
+    },
+    "c_f24c444df7712f3aba321038": {
+      "name": "小野酱ww",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/30757976",
+      "enabled": "true"
+    },
+    "c_5170420aa5377b1ba6abadaa": {
+      "name": "不会捏蓝(东东电竞)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/90492165361",
+      "enabled": "true"
+    },
+    "c_98d7a0b06fd2d8c10d33e2bb": {
+      "name": "君洛泪（三角洲KOF战队）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/ly231016",
+      "enabled": "true"
+    },
+    "c_213d540c4f4b1e54d55caddb": {
+      "name": "齐鹏鹏（返厂皮肤在橱窗）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Qpp22520",
+      "enabled": "true"
+    },
+    "c_5ffb766f5f519583aa93759c": {
+      "name": "ShaunaVayne丨琦",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/796833",
+      "enabled": "true"
+    },
+    "c_696ed63a9e96ec699e3d8eef": {
+      "name": "Cyberpunk-马冬梅DIY电脑",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/725884198",
+      "enabled": "true"
+    },
+    "c_aad830c9bc69d373c10e6229": {
+      "name": "江西交通监控中心",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/62852264024",
+      "enabled": "true"
+    },
+    "c_941c3bf1f349eff2f4c37eef": {
+      "name": "汽车人一零",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/124395502",
+      "enabled": "true"
+    },
+    "c_de6a6f2975f8a42b872b83b4": {
+      "name": "单纯的顺才少爷",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/10084875",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -34186,8 +34333,8 @@
       }
     },
     "yang-network": {
-      "sha256": "416b8be5a65612c0fb3d7c15e1a8f67adf3361df22066d592b6ae37360b95074",
-      "routes": 384,
+      "sha256": "280cb971c05cd39b04c5048c60a4b3facc111f11a926cc72be5cae0cf3c0d9f1",
+      "routes": 616,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -48246,6 +48393,138 @@
           "name": "歪歪「游戏」暂无主播在线",
           "tvgId": "",
           "group": "•歪歪「游戏」"
+        },
+        "d932c1d4dfa74d3fb01e8292f3aaf408257b3eb3de8e320ac2b2edc3cd7570d8": {
+          "channel": "c_c80200cb583ced371f34a9e7",
+          "name": "「斗鱼」DOTA2  𝟚",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "3088b1b8577d9dd5fc8deb0f88010995a606c2b2d22e6c8b3bb2ad076f90bf30": {
+          "channel": "c_ad9e814a4cc91989d6e06476",
+          "name": "八位堂8BitDo",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "0cb5edc177c480bc94981cfea64f5bfd61a459c5166ea484af15af6dbf731b57": {
+          "channel": "c_08c336141bf2452285ce58ea",
+          "name": "别管我就随便看看",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "22b90c6569e844c13f036f52a6835659a6608c1a1ffc953a0bb200bb37fe3715": {
+          "channel": "c_ae4269521cd247a95c420a4d",
+          "name": "连接线丶",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "a31b67e307697d3e4a65fbaa7431b95ae90000e6af042fae216c7d2a43285e23": {
+          "channel": "c_31b04f41b86bb39a32426b40",
+          "name": "小丸子🍡",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d31c1d43f05d9ce0a19ee73d806c25ad26be16f917001cc3c72befd2cf745a8b": {
+          "channel": "c_417c8e681342c160add75b2c",
+          "name": "小晴🎹",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7e1b04b2c64d302b37bf982a66e24ee085854b862ea075bc549a80ead0ba9c64": {
+          "channel": "c_392a87f953e0b1d359efb14f",
+          "name": "敏敏中国舞｜11🈷️9生日庆",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "0d7cb8cd0a870bea68cc2f2c040deb1b5b28abd52421aee01e36e6e885432d0a": {
+          "channel": "c_72d3691b6cd577067fd483dc",
+          "name": "福州快乐规划(辰晖文化)",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b1e27bbab02fc75c48f1c15ddd9db2bdb1e77fc3c1781822398ffcc343fe3335": {
+          "channel": "c_6c75b3d94bd4a8817e86ffe6",
+          "name": "第五人格迈当",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "bdddb7effd8c48dc3d8b261cd865b286fd139782ab6775f9e8bfe5095bd7bc82": {
+          "channel": "c_8056ac6aebe6f8d230834a2c",
+          "name": "鬼帝（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b648a24d2d1917a7251831b3c7c80ff4a90ee4e893126e95be272a580b2bffec": {
+          "channel": "c_2757f9808952d4dbaabddf51",
+          "name": "即刻-娜宝宝",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "a53671ee252a262618f6dd07b8190d7710b618c005698ed1555c75d0da44b1e5": {
+          "channel": "c_d265650a49d1b0ad51a404ae",
+          "name": "박가린님[♥]",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "6df0bf699e3105a3e649a15b0d1ea58abbed0f2d3ca52e6bdcf5ae3e16c58452": {
+          "channel": "c_164b8867949bad93166d7bb3",
+          "name": "ZP-",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "7e45409265f0a8b0ce8583e26dcb60ade17709362f4f06233a6f70684880026b": {
+          "channel": "c_f24c444df7712f3aba321038",
+          "name": "小野酱ww",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "c129d4418798f9bf358dfad205621d3216165159663ee38aa61a2614d6776bd0": {
+          "channel": "c_5170420aa5377b1ba6abadaa",
+          "name": "不会捏蓝(东东电竞)",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "3a1ca064c6f004722bad13c5183c179e53e9491f69d5d9b3b70b10ba1399f5bb": {
+          "channel": "c_98d7a0b06fd2d8c10d33e2bb",
+          "name": "君洛泪（三角洲KOF战队）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "80b4541ee860ba654de23e5c13b6df07c8ec4dfbeea0069dd49e9da4dfde84f3": {
+          "channel": "c_213d540c4f4b1e54d55caddb",
+          "name": "齐鹏鹏（返厂皮肤在橱窗）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "02fe11d23ef754f62ef98e53d3276b8a9a18f333e2723c9a5280281b699faea8": {
+          "channel": "c_5ffb766f5f519583aa93759c",
+          "name": "ShaunaVayne丨琦",
+          "tvgId": "",
+          "group": "•斗鱼「游戏」"
+        },
+        "ff447fa0012ac7d5146612c38a08273241ffbc11efe6cbbd98facfa978fbae4b": {
+          "channel": "c_696ed63a9e96ec699e3d8eef",
+          "name": "Cyberpunk-马冬梅DIY电脑",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "db06af6fb4f2cc938c2d30dd7d6d0fc1d3f25be98f9362da4512f6e6bb948c19": {
+          "channel": "c_aad830c9bc69d373c10e6229",
+          "name": "江西交通监控中心",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "18b1692ed378803512ca022ddd1a6db82f6922896690c0ecf91de6e792ebde3c": {
+          "channel": "c_941c3bf1f349eff2f4c37eef",
+          "name": "汽车人一零",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "b0926cbe3a95fa8dcd225aefd5916d2bdadb2364744a9f65e213d5193aea082f": {
+          "channel": "c_de6a6f2975f8a42b872b83b4",
+          "name": "单纯的顺才少爷",
+          "tvgId": "",
+          "group": "•斗鱼「其他」"
         }
       }
     },
