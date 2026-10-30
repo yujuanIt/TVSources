@@ -24710,6 +24710,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/nasa",
       "enabled": "true"
+    },
+    "c_383ecd145462a12989b2eb73": {
+      "name": "民歌思思⁵²⁷⁷🎙️",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/ss2771008",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -34374,8 +34381,8 @@
       }
     },
     "yang-network": {
-      "sha256": "53865795573539227dbce1905678692b5ce4e5c9a0d09a6b9814cff3ce6eed4d",
-      "routes": 510,
+      "sha256": "ec57a14281c54bda7760e745f5bbbbc948a0ede806ad1f4dae9f15cc3f71ec75",
+      "routes": 370,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -48620,6 +48627,12 @@
           "name": "NASA",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "38186f185ed755cde86cd78a6fbd69b2225a77112bce8078bd9ca52e0d2a19fb": {
+          "channel": "c_383ecd145462a12989b2eb73",
+          "name": "民歌思思⁵²⁷⁷🎙️",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
         }
       }
     },
