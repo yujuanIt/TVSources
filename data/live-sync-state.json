@@ -24759,6 +24759,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/bilibili/1225820",
       "enabled": "true"
+    },
+    "c_0877f34e04e229bf65799fc6": {
+      "name": "Lorna原著精读《乔布斯传》",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/MrsLorna",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -34435,8 +34442,8 @@
       }
     },
     "yang-network": {
-      "sha256": "4278fbf0661d562bfdecc15442d9aa7a87663e78f53889af97050e9e787add25",
-      "routes": 548,
+      "sha256": "6498b348c7898bd887166385b6c02dba5b85a3fb5fe0c5edfec89ea7e5cf9dc6",
+      "routes": 392,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -48741,6 +48748,12 @@
           "name": "暧昧灬查无此人っ",
           "tvgId": "",
           "group": "•哔哩「娱乐」"
+        },
+        "1789026e306d75f301f65fac4904f759d7ddf83abf3011ddb41bf474aec20cf9": {
+          "channel": "c_0877f34e04e229bf65799fc6",
+          "name": "Lorna原著精读《乔布斯传》",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
