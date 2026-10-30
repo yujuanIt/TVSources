@@ -58,7 +58,7 @@
   "vodSiteEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/vod-sites.json",
   "channelFile": "data/live.m3u",
   "channelUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u",
-  "channelCount": 3255,
+  "channelCount": 3260,
   "channelEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/live.m3u",
   "liveSources": "data/live-sources.json",
   "vodContexts": [
@@ -90,7 +90,7 @@
     {
       "name": "默认影视源 · 肥猫",
       "path": "vod/feimao.json",
-      "count": 42
+      "count": 43
     }
   ]
 }
