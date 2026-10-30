@@ -24717,6 +24717,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/ss2771008",
       "enabled": "true"
+    },
+    "c_ac94e8ddbc861f97f346758d": {
+      "name": "浪子断",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/langziduan",
+      "enabled": "true"
+    },
+    "c_93e584226b467a30d97fd74b": {
+      "name": "可达鸽psydove",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/11185587",
+      "enabled": "true"
+    },
+    "c_8d4dc37efb9ba214e0fd7699": {
+      "name": "小甜椒单排日记",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/3863752",
+      "enabled": "true"
+    },
+    "c_d4bd353ef9ebbf261ac0d9fb": {
+      "name": "澎湃新闻",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/ppxw_thepaper",
+      "enabled": "true"
+    },
+    "c_2053b11f53fdc8626ae50c12": {
+      "name": "粤通行",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/28226552947",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -34381,8 +34416,8 @@
       }
     },
     "yang-network": {
-      "sha256": "ec57a14281c54bda7760e745f5bbbbc948a0ede806ad1f4dae9f15cc3f71ec75",
-      "routes": 370,
+      "sha256": "e7de0b81e70c36e57fef2309b310153ca3f1bce6cb2ecda4b4568733659b4b6b",
+      "routes": 573,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -48633,6 +48668,54 @@
           "name": "民歌思思⁵²⁷⁷🎙️",
           "tvgId": "",
           "group": "•抖音「娱乐」"
+        },
+        "f899eeede50212755c3c0cb9869db2824fc42685261c97dd7db102a6d6af4485": {
+          "channel": "c_c72afe6810196dc9280af27a",
+          "name": "佟丽吖（29—30公会赛）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ec4bcea0ecae8a677fec54925afd025563a6645406ebf59c23222c98b262f3a2": {
+          "channel": "c_ac94e8ddbc861f97f346758d",
+          "name": "浪子断",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "5bd9b55f4d98838198ca3105a6c9e200cde412b8e61efdaa1439dd2f18d3aac8": {
+          "channel": "c_163d7b84c61c9f1e61957b1e",
+          "name": "菠萝赛东(10.29🎂生日版)",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "1a1ff7ba3561982b741f456457c9872fb04e63d742de8da2283fc2fdb404a796": {
+          "channel": "c_bc471ebe562926acea5e92d1",
+          "name": "Jinnytty",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "6e7e2ef678b683bd480a6028a58136aec3da30e7c4b619da6b26ff9e6c07efd7": {
+          "channel": "c_93e584226b467a30d97fd74b",
+          "name": "可达鸽psydove",
+          "tvgId": "",
+          "group": "•斗鱼「游戏」"
+        },
+        "82405b23cf801358051272897c41bb61c6ee4160c5363beac2c9ed8de1592801": {
+          "channel": "c_8d4dc37efb9ba214e0fd7699",
+          "name": "小甜椒单排日记",
+          "tvgId": "",
+          "group": "•斗鱼「游戏」"
+        },
+        "36448924eac3699c1891495af2bbf62786ec224ea16a37da8b702bcee5a1b1b3": {
+          "channel": "c_d4bd353ef9ebbf261ac0d9fb",
+          "name": "澎湃新闻",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "fe85606611c58c9ed92011b482e77dc64bea390c7835841583c1a17db26b8599": {
+          "channel": "c_2053b11f53fdc8626ae50c12",
+          "name": "粤通行",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
