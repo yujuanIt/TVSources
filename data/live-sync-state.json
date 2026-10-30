@@ -24752,6 +24752,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/28226552947",
       "enabled": "true"
+    },
+    "c_48f0540a77fdc46a266788ce": {
+      "name": "暧昧灬查无此人っ",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1225820",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -26754,7 +26761,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "6592e35d7e2473f094661411536b7fb6cb591a17e992fca2492107a64aa170a1",
+      "sha256": "fe3f42e00f7c71b7061ea61ebdefd1817ec121f6f74798d2ec9453625326589d",
       "routes": 338,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -29168,11 +29175,17 @@
           "name": "CNN「AI字幕」",
           "tvgId": "CNN",
           "group": "•測試「Relay」"
+        },
+        "13ec5e2c54d541d0ffb0da0c0bb02c029b8a89bcd9f710187857efa169b68659": {
+          "channel": "c_6c0c1307d9bc2cd78bc8986c",
+          "name": "Hub Premier 1「AI字幕」",
+          "tvgId": "Hub Premier 1",
+          "group": "•體育「Relay」"
         }
       }
     },
     "yang-mytv": {
-      "sha256": "9373d93c26d05a6032c68aaffa1171c33471e6278705115aad50ceb1c3c87fab",
+      "sha256": "e9e52fb89e7335f941b3a6da0a0da65a62ed4fdd760e0f21eda8199d1c64ba4c",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -29766,7 +29779,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "16cd0124f82e31742b0a7a1ecbea5fe8794bbfdcd3db07a43b4352e5f006d206",
+      "sha256": "877a0a574c53ec0226583bef076e9f91d9f57db9b213e011f0a04c68f3577588",
       "routes": 150,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31094,6 +31107,12 @@
           "name": "CNN「AI字幕」",
           "tvgId": "CNN",
           "group": "•測試「Relay」"
+        },
+        "13ec5e2c54d541d0ffb0da0c0bb02c029b8a89bcd9f710187857efa169b68659": {
+          "channel": "c_6c0c1307d9bc2cd78bc8986c",
+          "name": "Hub Premier 1「AI字幕」",
+          "tvgId": "Hub Premier 1",
+          "group": "•體育「Relay」"
         }
       }
     },
@@ -34416,8 +34435,8 @@
       }
     },
     "yang-network": {
-      "sha256": "e7de0b81e70c36e57fef2309b310153ca3f1bce6cb2ecda4b4568733659b4b6b",
-      "routes": 573,
+      "sha256": "4278fbf0661d562bfdecc15442d9aa7a87663e78f53889af97050e9e787add25",
+      "routes": 548,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -48716,6 +48735,12 @@
           "name": "粤通行",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "8213ed97cfe48d3bc330295ef036c78932ac6372fae7b49c09d6e4d95b92a02a": {
+          "channel": "c_48f0540a77fdc46a266788ce",
+          "name": "暧昧灬查无此人っ",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
         }
       }
     },
