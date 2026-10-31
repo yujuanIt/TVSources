@@ -24766,6 +24766,83 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/MrsLorna",
       "enabled": "true"
+    },
+    "c_ed2bf2393455880a83cf4a68": {
+      "name": "izuminya",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/264003",
+      "enabled": "true"
+    },
+    "c_06ad21e88694ff661d580619": {
+      "name": "惜君君君君",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/24158125",
+      "enabled": "true"
+    },
+    "c_547f10b629b0e6dedd021c65": {
+      "name": "一只喵玖丶",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/MiaoJiu233",
+      "enabled": "true"
+    },
+    "c_4616c17e5731b4a6dc3eed28": {
+      "name": "小阿典ardia（29上午九点半影之刃零",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Dddllinardia",
+      "enabled": "true"
+    },
+    "c_989cf81550398a37dc185592": {
+      "name": "秋秋（好运版）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/63937703963",
+      "enabled": "true"
+    },
+    "c_fd6ea90a18f2b4cc67566645": {
+      "name": "馨馨☁️²²³民族女高音",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/98615709237",
+      "enabled": "true"
+    },
+    "c_a390f1f1b5aa25579a5076c2": {
+      "name": "鱿鱼圈",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/48836596642",
+      "enabled": "true"
+    },
+    "c_bd51e87590ff6dfbb0143f46": {
+      "name": "暴走的银剑君丶",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/251783",
+      "enabled": "true"
+    },
+    "c_c54121ae50d8ab3b8aa668ac": {
+      "name": "斯诺克007",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/31151395",
+      "enabled": "true"
+    },
+    "c_e66f2788c449c7bbfe3253f9": {
+      "name": "chase",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/aklll",
+      "enabled": "true"
+    },
+    "c_aac1b9e014b89cbb8d290123": {
+      "name": "kim老大",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/kimlaoda",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -34442,8 +34519,8 @@
       }
     },
     "yang-network": {
-      "sha256": "6498b348c7898bd887166385b6c02dba5b85a3fb5fe0c5edfec89ea7e5cf9dc6",
-      "routes": 392,
+      "sha256": "32acbe3353dc1c5f26373cb3f39d656f0c95dd110b387d7bab819b2d273b68b6",
+      "routes": 576,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -48752,6 +48829,72 @@
         "1789026e306d75f301f65fac4904f759d7ddf83abf3011ddb41bf474aec20cf9": {
           "channel": "c_0877f34e04e229bf65799fc6",
           "name": "Lorna原著精读《乔布斯传》",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "23b803d7c40633912586179e52a209626df1e2009c5606e00af26c81335cee10": {
+          "channel": "c_ed2bf2393455880a83cf4a68",
+          "name": "izuminya",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "dc055c692201e8dc7023411f191d48ffba59c4a6a17b8f82b9c160a3a149fc88": {
+          "channel": "c_06ad21e88694ff661d580619",
+          "name": "惜君君君君",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "c43f9cc63c8a92b1edcfdd8be32b9ad7fff75abeee7e75cf39f8f3765bfb7349": {
+          "channel": "c_547f10b629b0e6dedd021c65",
+          "name": "一只喵玖丶",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7d3012a9c12bf8999e8d044ffde69430ebe90f9ccadf510f11ac2b726be27b1e": {
+          "channel": "c_4616c17e5731b4a6dc3eed28",
+          "name": "小阿典ardia（29上午九点半影之刃零",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "6f7da43ba0a9e4fa5d5787e6e4f2f1de1074f50841b64add6e3680d26a5ef9b2": {
+          "channel": "c_989cf81550398a37dc185592",
+          "name": "秋秋（好运版）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "bb62b3c94f01fb5412b5b74b2281cfab882f12660835c34f036bf98b9fd719db": {
+          "channel": "c_fd6ea90a18f2b4cc67566645",
+          "name": "馨馨☁️²²³民族女高音",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "8129defc2d6dc3a8157f837db715f52bc537575ab911d1ea5750418782cc0b69": {
+          "channel": "c_a390f1f1b5aa25579a5076c2",
+          "name": "鱿鱼圈",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "73cd3a5983d3309f92bb3ccd4f890dc7ab87f591fd89566468efa693c1b9b396": {
+          "channel": "c_bd51e87590ff6dfbb0143f46",
+          "name": "暴走的银剑君丶",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "8e989cbb39f63a1c3ccb33132c560839ba3fc589420c54cb1b9937fdd8e83daa": {
+          "channel": "c_c54121ae50d8ab3b8aa668ac",
+          "name": "斯诺克007",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "93a303d1dcb916a208940b5d606fcd8b5f29725250865937b4c8bc45ee3519a9": {
+          "channel": "c_e66f2788c449c7bbfe3253f9",
+          "name": "chase",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "1623c532167dd3b11220cc3ca858beedf1a3bfc7a1171d1c897d395372175511": {
+          "channel": "c_aac1b9e014b89cbb8d290123",
+          "name": "kim老大",
           "tvgId": "",
           "group": "•抖音「其他」"
         }
