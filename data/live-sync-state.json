@@ -25585,6 +25585,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/bilibili/544843",
       "enabled": "true"
+    },
+    "c_6aa1182cb4a7e1e43f28d0ea": {
+      "name": "7038娅儿",
+      "group": "YY",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/yy/1251",
+      "enabled": "true"
+    },
+    "c_b845f1770900a4f30cff6fff": {
+      "name": "bigcloydxoug",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/bigcloydxoug",
+      "enabled": "true"
+    },
+    "c_ccb20f5c63e13810f7f8b2a3": {
+      "name": "凤凰网",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Ifengdy",
+      "enabled": "true"
+    },
+    "c_b3d2466d3867c39da34e53a5": {
+      "name": "IShowSpeed",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/ishowspeed",
+      "enabled": "true"
+    },
+    "c_7efb8f67f6565cf37b28e49e": {
+      "name": "IShowSpeed",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/IShowSpeed",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27587,7 +27622,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "5e2e248de77287e3a782145b44e36065b3e3fc7ce3e8b13bb34fbedf7bc22155",
+      "sha256": "405a9e201e616382730bedb68f7ca7b8b4b89dc76632313d611d83415faa2a9d",
       "routes": 450,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -30679,11 +30714,41 @@
           "name": "大愛電視 2「Relay」",
           "tvgId": "大愛二台",
           "group": "•台灣「Relay」"
+        },
+        "d3424d6f7e8eccbcf70f89fdbe5271997aa00ed607e16b2f3f2e5c87d610abed": {
+          "channel": "c_201edbaed1d752c48a4f85b7",
+          "name": "NHK 新聞資訊「Relay」",
+          "tvgId": "NHK World-Japan",
+          "group": "•台灣「Relay」"
+        },
+        "f269f87d8d2a12d95ea2c90a97e061f1960d60c58717fbc5325a7e27d0b259eb": {
+          "channel": "c_e1ccdafb25b45dd8f8368104",
+          "name": "TNT Sport 1「AI字幕」",
+          "tvgId": "TNT Sports 1",
+          "group": "•體育「Relay」"
+        },
+        "1291190fcca6b7fb1bfe02dc3454014dae7d26bc6c40e330849392769f3f5c0f": {
+          "channel": "c_65cb58da2a8a8f4e01b1b786",
+          "name": "TNT Sport 2「AI字幕」",
+          "tvgId": "TNT Sports 2",
+          "group": "•體育「Relay」"
+        },
+        "e1cddf2e8361ae2e584ad5c1a7e941d99bd8a04d87dcdc9c891d8490cce5418c": {
+          "channel": "c_df8b7f20fefad36e185aeaa1",
+          "name": "TNT Sport 3「AI字幕」",
+          "tvgId": "TNT Sports 3",
+          "group": "•體育「Relay」"
+        },
+        "2628309ba99e5e50cb6a3b06481b4e5f0462399f9e34257d43f41b707d96e8bc": {
+          "channel": "c_a40ce74657eef55502d52fef",
+          "name": "TNT Sport 4「AI字幕」",
+          "tvgId": "TNT Sports 4",
+          "group": "•體育「Relay」"
         }
       }
     },
     "yang-mytv": {
-      "sha256": "bac3d7a0f25607c3b46e4baa4eedca81ee0728cfa31d456e51e99fca1b7ca39a",
+      "sha256": "2eaa8da0ce7dade49b0d816cd5d81b8bf236c4dc0592ce7a39e72da4c60ef688",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31273,11 +31338,17 @@
           "name": "CGTN 記錄頻道",
           "tvgId": "CGTN 記錄頻道",
           "group": "•myTV「DASH」"
+        },
+        "55ae95cb7f3ae29f011bcd02763c0bacbf1a6795cb7343c5719a6ac86bcdee8e": {
+          "channel": "c_0800bf86acf5c8a073d4b72e",
+          "name": "NHK World Japan",
+          "tvgId": "NHK World-Japan",
+          "group": "•myTV「DASH」"
         }
       }
     },
     "yang-sports": {
-      "sha256": "415697f65afad39e4d23f4d1e97ae9062cad9e6264aedecf6e4ba1cd2253a918",
+      "sha256": "dfbb8e48fe86dbe11abea5dfbfb034044fb7c2e5c970e466b94fd1fc5c068032",
       "routes": 150,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32610,6 +32681,30 @@
           "channel": "c_6c0c1307d9bc2cd78bc8986c",
           "name": "Hub Premier 1「AI字幕」",
           "tvgId": "Hub Premier 1",
+          "group": "•體育「Relay」"
+        },
+        "f269f87d8d2a12d95ea2c90a97e061f1960d60c58717fbc5325a7e27d0b259eb": {
+          "channel": "c_e1ccdafb25b45dd8f8368104",
+          "name": "TNT Sport 1「AI字幕」",
+          "tvgId": "TNT Sports 1",
+          "group": "•體育「Relay」"
+        },
+        "1291190fcca6b7fb1bfe02dc3454014dae7d26bc6c40e330849392769f3f5c0f": {
+          "channel": "c_65cb58da2a8a8f4e01b1b786",
+          "name": "TNT Sport 2「AI字幕」",
+          "tvgId": "TNT Sports 2",
+          "group": "•體育「Relay」"
+        },
+        "e1cddf2e8361ae2e584ad5c1a7e941d99bd8a04d87dcdc9c891d8490cce5418c": {
+          "channel": "c_df8b7f20fefad36e185aeaa1",
+          "name": "TNT Sport 3「AI字幕」",
+          "tvgId": "TNT Sports 3",
+          "group": "•體育「Relay」"
+        },
+        "2628309ba99e5e50cb6a3b06481b4e5f0462399f9e34257d43f41b707d96e8bc": {
+          "channel": "c_a40ce74657eef55502d52fef",
+          "name": "TNT Sport 4「AI字幕」",
+          "tvgId": "TNT Sports 4",
           "group": "•體育「Relay」"
         }
       }
@@ -35933,8 +36028,8 @@
       }
     },
     "yang-network": {
-      "sha256": "8dd8d06c8e8a8fed1c9e0cbc2f9730998f7e3139009eb692343baee7f4987b20",
-      "routes": 607,
+      "sha256": "cfa2da4f8b9d8c8625039ff592bcb048c657ccb6d89a776d39549342a4829991",
+      "routes": 394,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -50377,6 +50472,36 @@
           "name": "极客湾Geekerwan",
           "tvgId": "",
           "group": "•哔哩「其他」"
+        },
+        "27994b39b7e169f237ce20718b0c04465d8d7127fa2a01909dfecd59264d98f2": {
+          "channel": "c_6aa1182cb4a7e1e43f28d0ea",
+          "name": "7038娅儿",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "b749a636b27548b44343ff2f2a45522be2bec8f60f1a50b64f0c5e0639cd2477": {
+          "channel": "c_b845f1770900a4f30cff6fff",
+          "name": "bigcloydxoug",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "d1df41b67d0178c94673c91c64ae9d19bb1478b7956c6c459784762dd6e95370": {
+          "channel": "c_ccb20f5c63e13810f7f8b2a3",
+          "name": "凤凰网",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "85fb32ad4ea0c5fe591478d14af13d719fe6866f715179137d5a07f2e79f0b7a": {
+          "channel": "c_b3d2466d3867c39da34e53a5",
+          "name": "IShowSpeed",
+          "tvgId": "",
+          "group": "•Twitch「其他」"
+        },
+        "fa3eec082960ee50802d94a248eedd83ad87904e74e315c651cfba9ce6135edc": {
+          "channel": "c_7efb8f67f6565cf37b28e49e",
+          "name": "IShowSpeed",
+          "tvgId": "",
+          "group": "•Twitch「其他」"
         }
       }
     },
