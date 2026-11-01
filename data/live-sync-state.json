@@ -25732,6 +25732,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/zhubingxue215",
       "enabled": "true"
+    },
+    "c_a65f1ce137ebe1011084d417": {
+      "name": "江苏高速96777",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/60892806386",
+      "enabled": "true"
+    },
+    "c_e14ed5b4f5028c99dcc966d2": {
+      "name": "oYue",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/779699301851",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -36152,8 +36166,8 @@
       }
     },
     "yang-network": {
-      "sha256": "fa144fd509de47e8d97f88b8ec3d8d8926a30739a7b8322bdb01f0292887d1ac",
-      "routes": 557,
+      "sha256": "e0a855951de11050f78401a898a77f422bc1213f4a76eeaf40b40c265f5283f4",
+      "routes": 354,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -50722,6 +50736,18 @@
           "name": "蛋卷微醺（盼之电竞）",
           "tvgId": "",
           "group": "•抖音「娱乐」"
+        },
+        "2738ed4aaa6342c2dd29c90b6c4c4498388a62e4074fd775f6c16a5fd6ee1d41": {
+          "channel": "c_a65f1ce137ebe1011084d417",
+          "name": "江苏高速96777",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "23affc34f66550d32bb52c36a78ebe43b22ccd0b399c3f1a1883619ce6ec1bec": {
+          "channel": "c_e14ed5b4f5028c99dcc966d2",
+          "name": "oYue",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
