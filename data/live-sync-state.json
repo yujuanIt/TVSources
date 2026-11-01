@@ -25620,6 +25620,83 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/IShowSpeed",
       "enabled": "true"
+    },
+    "c_6e522fb67dde60115b3008a4": {
+      "name": "OLDnannan",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/11899478",
+      "enabled": "true"
+    },
+    "c_1f78f1b6b911d6351696a943": {
+      "name": "Noe🐹（英文版）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/21741211126",
+      "enabled": "true"
+    },
+    "c_0abd4de3436da7e4ec6cba62": {
+      "name": "晓筱",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/77706669514",
+      "enabled": "true"
+    },
+    "c_2e285e09e61bb6410e67e2ba": {
+      "name": "歌手郑艳  2258",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/zhengyan2021",
+      "enabled": "true"
+    },
+    "c_0c67fb8b1291e4e96cd4c3b1": {
+      "name": "귀여니",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/cofls3562",
+      "enabled": "true"
+    },
+    "c_f5e40ae4e8df632b2d4d0620": {
+      "name": "24小时赛车-奇点智播",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/22544672",
+      "enabled": "true"
+    },
+    "c_df9e74373db45ba844aeda22": {
+      "name": "_Thanatos",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/21622428",
+      "enabled": "true"
+    },
+    "c_3e8e519338bd303b6e89c10b": {
+      "name": "逍遥散人",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1017",
+      "enabled": "true"
+    },
+    "c_948a7a0fbe093782532c5e92": {
+      "name": "大司马",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/39719844720",
+      "enabled": "true"
+    },
+    "c_6ce6d2465384513749c43d0c": {
+      "name": "梨涡圆圆的",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Kittyliioodud",
+      "enabled": "true"
+    },
+    "c_370984c95dda0fc45d20ae28": {
+      "name": "赞爷v5（蛋仔派对）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/200515882",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27622,7 +27699,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "405a9e201e616382730bedb68f7ca7b8b4b89dc76632313d611d83415faa2a9d",
+      "sha256": "9c0526c110016c74d287c9b4a3a9e0c60cfc20fbc1d983d4f63bb545d12676a1",
       "routes": 450,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31348,7 +31425,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "dfbb8e48fe86dbe11abea5dfbfb034044fb7c2e5c970e466b94fd1fc5c068032",
+      "sha256": "9f9a6a2fb262cc0a67364c7d3bfc1582c5bc03c82f7b94fceced846736b49d17",
       "routes": 150,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36028,8 +36105,8 @@
       }
     },
     "yang-network": {
-      "sha256": "cfa2da4f8b9d8c8625039ff592bcb048c657ccb6d89a776d39549342a4829991",
-      "routes": 394,
+      "sha256": "6b893348e05cc449fe65986327e88058f9097e14a8944d75af2068d40fbbf970",
+      "routes": 581,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -50502,6 +50579,78 @@
           "name": "IShowSpeed",
           "tvgId": "",
           "group": "•Twitch「其他」"
+        },
+        "9074a888c72c42dd95e87b9ceec5ae7b05ec8415a9e248cc2c900edc4361b478": {
+          "channel": "c_8bfba5ff86370a7fe77c0259",
+          "name": "「斗鱼」永劫无间",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "256743743ab25dad107c824bf17833dec5511a7c812591577dd455460786526a": {
+          "channel": "c_6e522fb67dde60115b3008a4",
+          "name": "OLDnannan",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "472eb61abef756882c10f4d552e14b8eeda55a2548ebdd04259ea37bc05494bf": {
+          "channel": "c_1f78f1b6b911d6351696a943",
+          "name": "Noe🐹（英文版）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "529112a009fe26875a2b6c46e908686ed642266d64e3b46afef313797c9dc7bf": {
+          "channel": "c_0abd4de3436da7e4ec6cba62",
+          "name": "晓筱",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f7b854b73260f815a6b4b2c40004c1c90774676ab7a78124544fe19ad33ada4a": {
+          "channel": "c_2e285e09e61bb6410e67e2ba",
+          "name": "歌手郑艳  2258",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7bb9df8995800af9cbf796a886b7e99b128541e3f7da61743d2ad0a7feb70c19": {
+          "channel": "c_0c67fb8b1291e4e96cd4c3b1",
+          "name": "귀여니",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "40e19330b62d3db94329f08d32715d86a9181277ee9c50b55ff416f82ae061a5": {
+          "channel": "c_f5e40ae4e8df632b2d4d0620",
+          "name": "24小时赛车-奇点智播",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "0886468407b2e12c8e94e4be769a677b5cf70b31ad0bbb2c8d7b798f3e5133e8": {
+          "channel": "c_df9e74373db45ba844aeda22",
+          "name": "_Thanatos",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "9fd8c2407fe6a3bede583a86478f39fb22a3158948fdb4c6c5985de3ff756fd9": {
+          "channel": "c_3e8e519338bd303b6e89c10b",
+          "name": "逍遥散人",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "6eca7f6bbbf840ed9a638b6f4a7f598ce04936f270094af0df88717210f45ba3": {
+          "channel": "c_948a7a0fbe093782532c5e92",
+          "name": "大司马",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "ffde39f6129ea16fd715b4b5f7dfbb4c2a6ede24cb645780d0682ac7a7bf89fa": {
+          "channel": "c_6ce6d2465384513749c43d0c",
+          "name": "梨涡圆圆的",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "420700f6fe2d0a4be2d497d57dcc08b3f53b725e60bbae1e14d83c06d485e406": {
+          "channel": "c_370984c95dda0fc45d20ae28",
+          "name": "赞爷v5（蛋仔派对）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
