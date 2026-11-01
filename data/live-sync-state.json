@@ -25697,6 +25697,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/200515882",
       "enabled": "true"
+    },
+    "c_299ef35a3d7b6854fdfd3367": {
+      "name": "MCE 我的欧洲电影「Relay」",
+      "group": "港澳台",
+      "tvgId": "My Cinema Europe HD 我的歐洲電影",
+      "logo": "https://iptv.yang-1989.xyz/logo/My%20Cinema%20Europe%20我的歐洲電影.webp",
+      "enabled": "true"
+    },
+    "c_0c47f637cc87ccd6b4454ca3": {
+      "name": "TV5MONDE STYLE 生活时尚「Relay」",
+      "group": "港澳台",
+      "tvgId": "TV5MONDE STYLE HD 生活時尚",
+      "logo": "https://iptv.yang-1989.xyz/logo/TV5MONDE%20STYLE%20生活時尚.webp",
+      "enabled": "true"
+    },
+    "c_411ebea04b9462bde25501de": {
+      "name": "芋圆有点甜-",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/23356199",
+      "enabled": "true"
+    },
+    "c_155d782f53aa51e54df296c9": {
+      "name": "洋芋妹妹",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/YX0505YY",
+      "enabled": "true"
+    },
+    "c_6487836e3d4cb0efd4bb2bf2": {
+      "name": "海外野叟王猿",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/zhubingxue215",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27699,7 +27734,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "9c0526c110016c74d287c9b4a3a9e0c60cfc20fbc1d983d4f63bb545d12676a1",
+      "sha256": "2a504eadfe847943c990847ad15e8203c04800f6b30bf54f8d668ddd1a04a5b0",
       "routes": 450,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -30821,11 +30856,23 @@
           "name": "TNT Sport 4「AI字幕」",
           "tvgId": "TNT Sports 4",
           "group": "•體育「Relay」"
+        },
+        "cf12ca3fee69ae3495a76c956cb863d8bf85aab08bf9fead4da17e1faff53803": {
+          "channel": "c_299ef35a3d7b6854fdfd3367",
+          "name": "MCE 我的歐洲電影「Relay」",
+          "tvgId": "My Cinema Europe HD 我的歐洲電影",
+          "group": "•台灣「Relay」"
+        },
+        "7eed97b95e3086754a8fa6226238d3904e52fdacd707a5bd941bfca831490c14": {
+          "channel": "c_0c47f637cc87ccd6b4454ca3",
+          "name": "TV5MONDE STYLE 生活時尚「Relay」",
+          "tvgId": "TV5MONDE STYLE HD 生活時尚",
+          "group": "•台灣「Relay」"
         }
       }
     },
     "yang-mytv": {
-      "sha256": "2eaa8da0ce7dade49b0d816cd5d81b8bf236c4dc0592ce7a39e72da4c60ef688",
+      "sha256": "4fba484ca3bb57cc2bc4b9529fb3b0913aa264d622106e412180261cec31c32f",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36105,8 +36152,8 @@
       }
     },
     "yang-network": {
-      "sha256": "6b893348e05cc449fe65986327e88058f9097e14a8944d75af2068d40fbbf970",
-      "routes": 581,
+      "sha256": "fa144fd509de47e8d97f88b8ec3d8d8926a30739a7b8322bdb01f0292887d1ac",
+      "routes": 557,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -50651,6 +50698,30 @@
           "name": "赞爷v5（蛋仔派对）",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "b213ee0516828fe75b5cc1e575575b5c62c57b29d2ded35cc4081d0bdb0c5734": {
+          "channel": "c_411ebea04b9462bde25501de",
+          "name": "芋圆有点甜-",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "1b832b5e771687ff9e8c7743efbc1e769e95d37a0855d4588d8106eb002306ff": {
+          "channel": "c_155d782f53aa51e54df296c9",
+          "name": "洋芋妹妹",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d2323918826a1a06f17b1834fa39c11d26aa93c38bb7cb4149a9c9293ee97a31": {
+          "channel": "c_6487836e3d4cb0efd4bb2bf2",
+          "name": "海外野叟王猿",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7b2eebb5b47397f5cbbf5578f08bfda1b7d65f96e2ef5b16e2e52e18c4456356": {
+          "channel": "c_d3eea1f42dfb3a419e2b5f7f",
+          "name": "蛋卷微醺（盼之电竞）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
         }
       }
     },
