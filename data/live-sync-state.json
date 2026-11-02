@@ -25746,6 +25746,34 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/779699301851",
       "enabled": "true"
+    },
+    "c_fe15f4b4471c12b2132e05e7": {
+      "name": "酶切酶切",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/3380537",
+      "enabled": "true"
+    },
+    "c_ddd112fbf2c76b5e84ffba36": {
+      "name": "♡태리츄♡",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/taeri0806",
+      "enabled": "true"
+    },
+    "c_c923d9c8753f8c2a9c0445a3": {
+      "name": "老毕  战为YY，战为燃点",
+      "group": "YY",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/yy/3594",
+      "enabled": "true"
+    },
+    "c_31201723d80ddae3ef89cc09": {
+      "name": "极目新闻",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/ctdsbdy",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27748,7 +27776,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "2a504eadfe847943c990847ad15e8203c04800f6b30bf54f8d668ddd1a04a5b0",
+      "sha256": "15b735d1e94a62ef1cf6bf2d78b18385279b7ad8a8807dc2bcd182df3d96803a",
       "routes": 450,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -30882,6 +30910,42 @@
           "name": "TV5MONDE STYLE 生活時尚「Relay」",
           "tvgId": "TV5MONDE STYLE HD 生活時尚",
           "group": "•台灣「Relay」"
+        },
+        "de864031dd3178ed21cfaf497a45e1c83f8914468b9db230dfc35b4fee7e4ac5": {
+          "channel": "c_5542c307eaaf2f3c2485fe92",
+          "name": "愛爾達體育 一「Relay」",
+          "tvgId": "愛爾達體育1台",
+          "group": "•台灣「Relay」"
+        },
+        "84241ac5bf8288ba571f45a213fc3e11c1e3f2af940a205949b1b2f980cc833d": {
+          "channel": "c_24b221bddefac6f9d1fcd7e0",
+          "name": "愛爾達體育 二「Relay」",
+          "tvgId": "愛爾達體育2台",
+          "group": "•台灣「Relay」"
+        },
+        "58a558bdf73b7896419f62b3c8fafdb78ebfbc8112424a1444fec82393de1501": {
+          "channel": "c_f9fab93b8b9617067cea6681",
+          "name": "愛爾達體育 三「Relay」",
+          "tvgId": "愛爾達體育3台",
+          "group": "•台灣「Relay」"
+        },
+        "17b377e2022ee586ed1a5b2ae293a7511af017b0f5034fbc645dd6dd1daf3bbd": {
+          "channel": "c_b7536caa564867a91b764177",
+          "name": "愛爾達體育 四「Relay」",
+          "tvgId": "愛爾達體育4台",
+          "group": "•台灣「Relay」"
+        },
+        "181d07c13b3562416ec7e7fce71cf34d685efc07af9eccc12f0efac190e97f8c": {
+          "channel": "c_a94328fa5ab7e102b40cbcad",
+          "name": "DAZN 1「Relay」",
+          "tvgId": "DAZN 1",
+          "group": "•台灣「Relay」"
+        },
+        "b96b397c5813eb0733fda0a7de897e8d9eed44022fa19397c8edd504e84dad37": {
+          "channel": "c_7d411147e26dbaac8d1d101a",
+          "name": "DAZN 2「Relay」",
+          "tvgId": "DAZN 2",
+          "group": "•台灣「Relay」"
         }
       }
     },
@@ -31486,7 +31550,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "9f9a6a2fb262cc0a67364c7d3bfc1582c5bc03c82f7b94fceced846736b49d17",
+      "sha256": "ba252f5e0a5cc4731ed4c9e885193a8f54502527f1eaaed0237655ffa212c066",
       "routes": 150,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36166,8 +36230,8 @@
       }
     },
     "yang-network": {
-      "sha256": "e0a855951de11050f78401a898a77f422bc1213f4a76eeaf40b40c265f5283f4",
-      "routes": 354,
+      "sha256": "4fcb77518cc7c41e233a9d39d1c41a5fe9a8fc48481d639482a6e57b34952146",
+      "routes": 545,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -50748,6 +50812,30 @@
           "name": "oYue",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "fd5fe09fb64a51228ba88a07ba0ce1e86c1f9879f198527860b4c75ac77981a0": {
+          "channel": "c_fe15f4b4471c12b2132e05e7",
+          "name": "酶切酶切",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "f5284872317edaa516baf2f8d067317f34e42f8393616ce51a1930dd3b9f2795": {
+          "channel": "c_ddd112fbf2c76b5e84ffba36",
+          "name": "♡태리츄♡",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "f7cfe185ade589926d3c637809bb3771933dcc97eda4a1e1e2cdd82dd45707b4": {
+          "channel": "c_c923d9c8753f8c2a9c0445a3",
+          "name": "老毕  战为YY，战为燃点",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "2dda5970cce19800f71a11b90336eabbb62ca195c87a616d2f22a69655d14b42": {
+          "channel": "c_31201723d80ddae3ef89cc09",
+          "name": "极目新闻",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
