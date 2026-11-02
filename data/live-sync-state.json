@@ -25774,6 +25774,27 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/ctdsbdy",
       "enabled": "true"
+    },
+    "c_8e67820f52b0fea31e19033b": {
+      "name": "minaravel",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/minaravel",
+      "enabled": "true"
+    },
+    "c_0c5542f2ccb9a32d30bade8b": {
+      "name": "灰色麻雀",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/2459926",
+      "enabled": "true"
+    },
+    "c_9d8ef7b0fc735fbade06b458": {
+      "name": "小约翰可汗",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/9738854",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27776,8 +27797,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "15b735d1e94a62ef1cf6bf2d78b18385279b7ad8a8807dc2bcd182df3d96803a",
-      "routes": 450,
+      "sha256": "d0e7fa7435bd5e1b45dff58916c7f9d566a29ab4dd492f0f8e0fa64e7a2d9d2d",
+      "routes": 451,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -30946,11 +30967,23 @@
           "name": "DAZN 2「Relay」",
           "tvgId": "DAZN 2",
           "group": "•台灣「Relay」"
+        },
+        "7d06d17e8e64332242bdae6e6553598eafebc7a5ef1ae1ddd53cb4060c49b605": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN「待修复」",
+          "tvgId": "CNN",
+          "group": "•測試「Relay」"
+        },
+        "8fcf34826e340bde9c221b4bc4f16b7649afe37f396dc49fd2a7eadc8abe8775": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN International「AI字幕」",
+          "tvgId": "CNN International",
+          "group": "•測試「Relay」"
         }
       }
     },
     "yang-mytv": {
-      "sha256": "4fba484ca3bb57cc2bc4b9529fb3b0913aa264d622106e412180261cec31c32f",
+      "sha256": "84b19583b2f4a9f89e5be58021193d344440d1ef3fabdf6b4a351865baefb5ac",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31550,8 +31583,8 @@
       }
     },
     "yang-sports": {
-      "sha256": "ba252f5e0a5cc4731ed4c9e885193a8f54502527f1eaaed0237655ffa212c066",
-      "routes": 150,
+      "sha256": "310cd8ee3ef86fef95011dbcb19e19afc973abc96dd8ad0dc2c20df6ee6e1a65",
+      "routes": 151,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -32908,6 +32941,18 @@
           "name": "TNT Sport 4「AI字幕」",
           "tvgId": "TNT Sports 4",
           "group": "•體育「Relay」"
+        },
+        "7d06d17e8e64332242bdae6e6553598eafebc7a5ef1ae1ddd53cb4060c49b605": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN「待修复」",
+          "tvgId": "CNN",
+          "group": "•測試「Relay」"
+        },
+        "8fcf34826e340bde9c221b4bc4f16b7649afe37f396dc49fd2a7eadc8abe8775": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN International「AI字幕」",
+          "tvgId": "CNN International",
+          "group": "•測試「Relay」"
         }
       }
     },
@@ -36230,8 +36275,8 @@
       }
     },
     "yang-network": {
-      "sha256": "4fcb77518cc7c41e233a9d39d1c41a5fe9a8fc48481d639482a6e57b34952146",
-      "routes": 545,
+      "sha256": "427cba24b9aadbde192727a7ec082dcecfecc8b0417cece73af259d2073f87e6",
+      "routes": 355,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -50836,6 +50881,24 @@
           "name": "极目新闻",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "d4eeb3d977606e7f1103f6b5299ff6c234dd7ec838b471417e899b52b5f5417c": {
+          "channel": "c_8e67820f52b0fea31e19033b",
+          "name": "minaravel",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "80269148101ffcfe0a41c667c4f2e78fd088b44c2fbbfd981ea8425d1671ff98": {
+          "channel": "c_0c5542f2ccb9a32d30bade8b",
+          "name": "灰色麻雀",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "d58808b29ef6a880632984a780585b33283b56fb986beacee4c2504f20dd1c22": {
+          "channel": "c_9d8ef7b0fc735fbade06b458",
+          "name": "小约翰可汗",
+          "tvgId": "",
+          "group": "•斗鱼「其他」"
         }
       }
     },
