@@ -8037,7 +8037,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.4kcz.com/",
+      "ext": "https://cz01.vip",
       "enabled": true,
       "context": "feimao",
       "origin": {
@@ -8692,6 +8692,41 @@
         "key": "alllive"
       },
       "_syncId": "3994990db53768754dac931bd7ed946b"
+    },
+    {
+      "key": "PanMarket",
+      "name": "🐼┃网盘┃应用",
+      "type": 3,
+      "api": "csp_PanMarket",
+      "searchable": 0,
+      "style": {
+        "type": "list"
+      },
+      "ext": {
+        "categories": [
+          {
+            "name": "Fongmi影视",
+            "url": "https://pan.quark.cn/s/7129866d8655"
+          },
+          {
+            "name": "OK影视",
+            "url": "https://pan.quark.cn/s/cc286c991136"
+          },
+          {
+            "name": "Kazumi",
+            "url": "https://pan.quark.cn/s/e77ca870e15e"
+          }
+        ]
+      },
+      "enabled": true,
+      "context": "feimao",
+      "origin": {
+        "source": "feimao",
+        "name": "默认影视源 · 肥猫",
+        "url": "https://www.iyouhun.com/tv/fm",
+        "key": "PanMarket"
+      },
+      "_syncId": "d3d0a868743c7e265ca62322dccaa572"
     }
   ],
   "contexts": {
@@ -10644,7 +10679,7 @@
     "feimao": {
       "name": "默认影视源 · 肥猫",
       "url": "https://www.iyouhun.com/tv/fm",
-      "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261029/56AM/0X0/ash54.png;md5;cd1e8ad50504d324a55a9187b95cd3de",
+      "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e",
       "parses": [
         {
           "name": "Json聚合",
