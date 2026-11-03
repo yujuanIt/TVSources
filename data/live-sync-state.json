@@ -25795,6 +25795,76 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyu/9738854",
       "enabled": "true"
+    },
+    "c_02dd34580af2db9c1bf6e5ba": {
+      "name": "BBC World News「AI字幕」",
+      "group": "综合频道",
+      "tvgId": "BBC World News",
+      "logo": "https://iptv.yang-1989.xyz/logo/BBC%20News.webp",
+      "enabled": "true"
+    },
+    "c_ec0425595e1aaad2249c2019": {
+      "name": "Fox News Channel「AI字幕」",
+      "group": "综合频道",
+      "tvgId": "Fox News Channel",
+      "logo": "https://iptv.yang-1989.xyz/logo/Fox%20News%20Channel.webp",
+      "enabled": "true"
+    },
+    "c_74f00934b5a51f2da794f7cd": {
+      "name": "Sky News「AI字幕」",
+      "group": "综合频道",
+      "tvgId": "Sky News",
+      "logo": "https://iptv.yang-1989.xyz/logo/Sky%20News.webp",
+      "enabled": "true"
+    },
+    "c_effadaf0c178996cd18cb2eb": {
+      "name": "Channel News Asia「AI字幕」",
+      "group": "综合频道",
+      "tvgId": "CNA",
+      "logo": "https://iptv.yang-1989.xyz/logo/CNA.webp",
+      "enabled": "true"
+    },
+    "c_0f36c3d03f675b471068d911": {
+      "name": "不问深冬CS2",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/7450133",
+      "enabled": "true"
+    },
+    "c_4b8eca9483efff6ec7981dbb": {
+      "name": "是Winter喵",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/27887575",
+      "enabled": "true"
+    },
+    "c_133b5a3ffa2f1a7c5ce6537c": {
+      "name": "几木木",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/yy76239464926",
+      "enabled": "true"
+    },
+    "c_795aea6788b27b5b71d785ba": {
+      "name": "星聚会2.0版",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/56211083461",
+      "enabled": "true"
+    },
+    "c_ac4deade997f51ad6dc3875c": {
+      "name": "过渡人夜猫",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/icons/bilibili",
+      "enabled": "true"
+    },
+    "c_8245e747fc1d650298137a20": {
+      "name": "小草包QAQ",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/139258",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27797,8 +27867,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "d0e7fa7435bd5e1b45dff58916c7f9d566a29ab4dd492f0f8e0fa64e7a2d9d2d",
-      "routes": 451,
+      "sha256": "ee52f5afc26c62f15ea3abe654cd5021f0e05d88c46b02722e8060c54c711ab0",
+      "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -30979,6 +31049,30 @@
           "name": "CNN International「AI字幕」",
           "tvgId": "CNN International",
           "group": "•測試「Relay」"
+        },
+        "b8c0b4b9c8f61dd3bed52ba15d99a4d58527bb4812b2dc731dc3b212586b58c9": {
+          "channel": "c_02dd34580af2db9c1bf6e5ba",
+          "name": "BBC World News「AI字幕」",
+          "tvgId": "BBC World News",
+          "group": "•測試「Relay」"
+        },
+        "c632baa0cb052e0614fa88d4f54cd4fa0a4dac310020fa553a7f071634989539": {
+          "channel": "c_ec0425595e1aaad2249c2019",
+          "name": "Fox News Channel「AI字幕」",
+          "tvgId": "Fox News Channel",
+          "group": "•測試「Relay」"
+        },
+        "45bb18e9fa384e4f01b5aac0413ac0e5835528d4cac6157f2c0a0b2717829faa": {
+          "channel": "c_74f00934b5a51f2da794f7cd",
+          "name": "Sky News「AI字幕」",
+          "tvgId": "Sky News",
+          "group": "•測試「Relay」"
+        },
+        "72d48e8879520d2cd23fb8218bf4962f832bad521d08599a1241318c80f09daf": {
+          "channel": "c_effadaf0c178996cd18cb2eb",
+          "name": "Channel News Asia「AI字幕」",
+          "tvgId": "CNA",
+          "group": "•測試「Relay」"
         }
       }
     },
@@ -31583,8 +31677,8 @@
       }
     },
     "yang-sports": {
-      "sha256": "310cd8ee3ef86fef95011dbcb19e19afc973abc96dd8ad0dc2c20df6ee6e1a65",
-      "routes": 151,
+      "sha256": "fb194db708bb3f48a142fbd7d9306f2d2e459d71107d5e84ffcb532819f1e2ef",
+      "routes": 155,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -32952,6 +33046,30 @@
           "channel": "c_ef1a5d793957cd2c1939ea97",
           "name": "CNN International「AI字幕」",
           "tvgId": "CNN International",
+          "group": "•測試「Relay」"
+        },
+        "b8c0b4b9c8f61dd3bed52ba15d99a4d58527bb4812b2dc731dc3b212586b58c9": {
+          "channel": "c_02dd34580af2db9c1bf6e5ba",
+          "name": "BBC World News「AI字幕」",
+          "tvgId": "BBC World News",
+          "group": "•測試「Relay」"
+        },
+        "c632baa0cb052e0614fa88d4f54cd4fa0a4dac310020fa553a7f071634989539": {
+          "channel": "c_ec0425595e1aaad2249c2019",
+          "name": "Fox News Channel「AI字幕」",
+          "tvgId": "Fox News Channel",
+          "group": "•測試「Relay」"
+        },
+        "45bb18e9fa384e4f01b5aac0413ac0e5835528d4cac6157f2c0a0b2717829faa": {
+          "channel": "c_74f00934b5a51f2da794f7cd",
+          "name": "Sky News「AI字幕」",
+          "tvgId": "Sky News",
+          "group": "•測試「Relay」"
+        },
+        "72d48e8879520d2cd23fb8218bf4962f832bad521d08599a1241318c80f09daf": {
+          "channel": "c_effadaf0c178996cd18cb2eb",
+          "name": "Channel News Asia「AI字幕」",
+          "tvgId": "CNA",
           "group": "•測試「Relay」"
         }
       }
@@ -36275,8 +36393,8 @@
       }
     },
     "yang-network": {
-      "sha256": "427cba24b9aadbde192727a7ec082dcecfecc8b0417cece73af259d2073f87e6",
-      "routes": 355,
+      "sha256": "8cd91005efae766133acd3aecad591ef95983238fa428c9bea79b66b52902407",
+      "routes": 547,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -50899,6 +51017,54 @@
           "name": "小约翰可汗",
           "tvgId": "",
           "group": "•斗鱼「其他」"
+        },
+        "a369e3946979332a1853919941da63eceeab2300f5b8a7b81bfbd0cd2bb4a995": {
+          "channel": "c_0f36c3d03f675b471068d911",
+          "name": "不问深冬CS2",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "a4e562ae0b63d38479503837a04ab84b1b891f134c0d5bd352b152f029ee148e": {
+          "channel": "c_4b8eca9483efff6ec7981dbb",
+          "name": "是Winter喵",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "e4415c8505fedcf991e33f324e8758640eba8948ee59e9856f4d66c2670b51b6": {
+          "channel": "c_32681f6d17fbebf08510c229",
+          "name": "冰块小圈🧊（11.3🎂）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b0795624d2b2c0076dffab2cf791b20d3f215cbedf76115de5741780deb59f76": {
+          "channel": "c_133b5a3ffa2f1a7c5ce6537c",
+          "name": "几木木",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "5c82749229bcf8f8c514f90ce2cf112b3014cbe852d33f724e5952f0f85006d2": {
+          "channel": "c_795aea6788b27b5b71d785ba",
+          "name": "星聚会2.0版",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ce3533c2077354e7a8ad5c1338443cb456d0395828aedfd9941d797c3e9aee04": {
+          "channel": "c_ac4deade997f51ad6dc3875c",
+          "name": "过渡人夜猫",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "c1abc340aabc7a0cad19a70f1be0d19bbc63e63e38ee350b67bef15759a2bd06": {
+          "channel": "c_f55947850a85408b55baf5b3",
+          "name": "童画",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "9959db8b360b33a1b416f0c294b09dca7f70ff27300875ca46ed6df7c04721cd": {
+          "channel": "c_8245e747fc1d650298137a20",
+          "name": "小草包QAQ",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
         }
       }
     },
