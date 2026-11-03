@@ -58,7 +58,7 @@
   "vodSiteEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/vod-sites.json",
   "channelFile": "data/live.m3u",
   "channelUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/yujuanIt/TVSources/source-data/data/live.m3u",
-  "channelCount": 3417,
+  "channelCount": 3418,
   "channelEditUrl": "https://github.com/yujuanIt/TVSources/edit/main/data/live.m3u",
   "liveSources": "data/live-sources.json",
   "vodContexts": [
@@ -75,7 +75,7 @@
     {
       "name": "Clun在线",
       "path": "vod/clun.json",
-      "count": 98
+      "count": 99
     },
     {
       "name": "FongMI线路",
