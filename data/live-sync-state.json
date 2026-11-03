@@ -25865,6 +25865,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/huya/139258",
       "enabled": "true"
+    },
+    "c_17a1969f4c900aeadc151f98": {
+      "name": "羊阳君",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/23415815",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -27867,7 +27874,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "ee52f5afc26c62f15ea3abe654cd5021f0e05d88c46b02722e8060c54c711ab0",
+      "sha256": "1eb7a571325154f07b58bb824054c35bc8590a7b9126ced474bb26f510056f74",
       "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31073,11 +31080,47 @@
           "name": "Channel News Asia「AI字幕」",
           "tvgId": "CNA",
           "group": "•測試「Relay」"
+        },
+        "946709329ee6ae3aa7cd8697cf76353d437f065d55ba45116e0aabea3d68ef3f": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN「AI字幕」",
+          "tvgId": "CNN",
+          "group": "•新聞「Relay」"
+        },
+        "08e88d42bd8b6e5907be240b158663cc54babd287c12ba553a0ac235cf75e81b": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN International「AI字幕」",
+          "tvgId": "CNN International",
+          "group": "•新聞「Relay」"
+        },
+        "3d7616d0cf16228bf872be57661d705b12c68e9c42c09f7659e108ba28fa2ff4": {
+          "channel": "c_02dd34580af2db9c1bf6e5ba",
+          "name": "BBC World News「AI字幕」",
+          "tvgId": "BBC World News",
+          "group": "•新聞「Relay」"
+        },
+        "e7afcb28d2e04622d12c4cb07d16bb75a3e203735d466233aedd0b8b3b5bbd94": {
+          "channel": "c_ec0425595e1aaad2249c2019",
+          "name": "Fox News Channel「AI字幕」",
+          "tvgId": "Fox News Channel",
+          "group": "•新聞「Relay」"
+        },
+        "0d20f39df229ef2baf528096bc8fe70b9b8c3f54e12d39abe49ac01cb5539dcf": {
+          "channel": "c_74f00934b5a51f2da794f7cd",
+          "name": "Sky News「AI字幕」",
+          "tvgId": "Sky News",
+          "group": "•新聞「Relay」"
+        },
+        "55b3dd4dd5b8a77e366fa17db8e645ec913051a37e231f18241d9880adb93a86": {
+          "channel": "c_effadaf0c178996cd18cb2eb",
+          "name": "Channel News Asia「AI字幕」",
+          "tvgId": "CNA",
+          "group": "•新聞「Relay」"
         }
       }
     },
     "yang-mytv": {
-      "sha256": "84b19583b2f4a9f89e5be58021193d344440d1ef3fabdf6b4a351865baefb5ac",
+      "sha256": "24e89810815ed2cded9744b218e6771f9db16b99ff5de9c66485ab0904225c79",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31677,7 +31720,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "fb194db708bb3f48a142fbd7d9306f2d2e459d71107d5e84ffcb532819f1e2ef",
+      "sha256": "1a14dff2ab9b321db0fd53ef0c23fd447b0014b8f75327a7fca35075690dfcda",
       "routes": 155,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -33071,6 +33114,42 @@
           "name": "Channel News Asia「AI字幕」",
           "tvgId": "CNA",
           "group": "•測試「Relay」"
+        },
+        "946709329ee6ae3aa7cd8697cf76353d437f065d55ba45116e0aabea3d68ef3f": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN「AI字幕」",
+          "tvgId": "CNN",
+          "group": "•新聞「Relay」"
+        },
+        "08e88d42bd8b6e5907be240b158663cc54babd287c12ba553a0ac235cf75e81b": {
+          "channel": "c_ef1a5d793957cd2c1939ea97",
+          "name": "CNN International「AI字幕」",
+          "tvgId": "CNN International",
+          "group": "•新聞「Relay」"
+        },
+        "e7afcb28d2e04622d12c4cb07d16bb75a3e203735d466233aedd0b8b3b5bbd94": {
+          "channel": "c_ec0425595e1aaad2249c2019",
+          "name": "Fox News Channel「AI字幕」",
+          "tvgId": "Fox News Channel",
+          "group": "•新聞「Relay」"
+        },
+        "55b3dd4dd5b8a77e366fa17db8e645ec913051a37e231f18241d9880adb93a86": {
+          "channel": "c_effadaf0c178996cd18cb2eb",
+          "name": "Channel News Asia「AI字幕」",
+          "tvgId": "CNA",
+          "group": "•新聞「Relay」"
+        },
+        "3d7616d0cf16228bf872be57661d705b12c68e9c42c09f7659e108ba28fa2ff4": {
+          "channel": "c_02dd34580af2db9c1bf6e5ba",
+          "name": "BBC World News「AI字幕」",
+          "tvgId": "BBC World News",
+          "group": "•新聞「Relay」"
+        },
+        "0d20f39df229ef2baf528096bc8fe70b9b8c3f54e12d39abe49ac01cb5539dcf": {
+          "channel": "c_74f00934b5a51f2da794f7cd",
+          "name": "Sky News「AI字幕」",
+          "tvgId": "Sky News",
+          "group": "•新聞「Relay」"
         }
       }
     },
@@ -36393,8 +36472,8 @@
       }
     },
     "yang-network": {
-      "sha256": "8cd91005efae766133acd3aecad591ef95983238fa428c9bea79b66b52902407",
-      "routes": 547,
+      "sha256": "5a91e7ada66dd7e10f0db0533b53067a728376e4178262c1bfd63b24e0d51db2",
+      "routes": 425,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51065,6 +51144,18 @@
           "name": "小草包QAQ",
           "tvgId": "",
           "group": "•虎牙「游戏」"
+        },
+        "9c91d2cdb2cf9c9be87f1b435906b02a0903d30ed4757a451bd8b1a193dd5138": {
+          "channel": "c_17a1969f4c900aeadc151f98",
+          "name": "羊阳君",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "5d41289df4fc2141fb0e7ec6d74bdea05ff88e889161a30a553c9031c68e9ab8": {
+          "channel": "c_b9fbed47e50225e2f8eb4d32",
+          "name": "塔塔🐽(暖心电台)",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
         }
       }
     },

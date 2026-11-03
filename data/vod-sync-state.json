@@ -8713,6 +8713,22 @@
         "key": "PanMarket"
       },
       "_syncId": "d3d0a868743c7e265ca62322dccaa572"
+    },
+    "b6897134d8d37f16e63a82ee44a26a39": {
+      "key": "py_yangshipin",
+      "name": "直播[py]",
+      "type": 3,
+      "api": "https://clun.top/py/yangshipin.py",
+      "searchable": 1,
+      "enabled": true,
+      "context": "clun",
+      "origin": {
+        "source": "clun",
+        "name": "Clun在线",
+        "url": "https://clun.top/box.json",
+        "key": "py_yangshipin"
+      },
+      "_syncId": "b6897134d8d37f16e63a82ee44a26a39"
     }
   },
   "contexts": {
