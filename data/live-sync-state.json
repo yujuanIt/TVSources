@@ -26054,6 +26054,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/huya/441195",
       "enabled": "true"
+    },
+    "c_c861a51c5c7d1bc094c231a2": {
+      "name": "papaya31_",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/papaya31_",
+      "enabled": "true"
+    },
+    "c_6d30b91aff3a50be67146b51": {
+      "name": "林树很贪玩",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/62854043171",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28056,7 +28070,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "24a75366f32671f0a04593cd8676c3392e8406f8cffde5d2c6bc432949eb3a1d",
+      "sha256": "f8115fb3ae65ebec49adf181e19ee965bbe838fcd4d7d7bbfe3750b457a9a4b6",
       "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31302,7 +31316,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "24e89810815ed2cded9744b218e6771f9db16b99ff5de9c66485ab0904225c79",
+      "sha256": "08146286cd049f826d77ac5b0ffc31e4dd218ac812fc337fdf8264c7629d9391",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36654,8 +36668,8 @@
       }
     },
     "yang-network": {
-      "sha256": "1b1c67df993ac09959075e5c559b7dd95fc6a426d6190f7aff3ff8722582d13a",
-      "routes": 495,
+      "sha256": "65651fa14a43c90f88d438dcadf680c661206eb06e16935aecf056472b29c30f",
+      "routes": 419,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51506,6 +51520,24 @@
           "name": "胖炸",
           "tvgId": "",
           "group": "•虎牙「游戏」"
+        },
+        "4ac040293ab1f9c21ed732de6c629035ce0d187555eb7860edc939e1fa572357": {
+          "channel": "c_897040a53e74326b96e8436e",
+          "name": "宝玉妹妹🌙 （京城大师赛）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c25051943b1e91480ebc706a15e1d587dc1215d08ceba47e5931214819905820": {
+          "channel": "c_c861a51c5c7d1bc094c231a2",
+          "name": "papaya31_",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "def3b132c1cecf8a903f0b79965cb36444634afc5c303ca3b651d9e27045396e": {
+          "channel": "c_6d30b91aff3a50be67146b51",
+          "name": "林树很贪玩",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
