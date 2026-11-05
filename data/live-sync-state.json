@@ -26068,6 +26068,76 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/62854043171",
       "enabled": "true"
+    },
+    "c_0b6841ec0d451ad9898c39f9": {
+      "name": "中正评测",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/10617862",
+      "enabled": "true"
+    },
+    "c_63ad7a0ed062ceefc7814a6a": {
+      "name": "爱吃猪油的包浆哥",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/25878061",
+      "enabled": "true"
+    },
+    "c_99c07fe2ccf8a90a741b76db": {
+      "name": "南方小豆干",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/69561584138",
+      "enabled": "true"
+    },
+    "c_b5307a031f7e9bd4a91068c7": {
+      "name": "哈密瓜的秘密🍈",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/29313686479",
+      "enabled": "true"
+    },
+    "c_2caf3370967f7877ce7b4a8d": {
+      "name": "王铁柱（雪饼猴🐒）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/63225999108",
+      "enabled": "true"
+    },
+    "c_69b7f49f417ac2afa64e48cc": {
+      "name": "宸艺艺",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/31194377",
+      "enabled": "true"
+    },
+    "c_78695314e3c7041ca3784870": {
+      "name": "御所田南通",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/26355773",
+      "enabled": "true"
+    },
+    "c_35716781ebf19c12ad584582": {
+      "name": "梦境幻影雪8",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/31109333",
+      "enabled": "true"
+    },
+    "c_bdb94ec8a9a0c894f2e35a79": {
+      "name": "沐希兔子",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/29835225",
+      "enabled": "true"
+    },
+    "c_942a59c81bfe4c1de1db1a8e": {
+      "name": "忧郁的千神",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/24326872",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28070,7 +28140,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "f8115fb3ae65ebec49adf181e19ee965bbe838fcd4d7d7bbfe3750b457a9a4b6",
+      "sha256": "61347b82bbfbacce3cd2abbe05110be0bb4ca51f7caa1f18df81cda3fb288a5d",
       "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31916,7 +31986,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "4f4d6657820240605449e548dea5e931678d11bb91756f2a467da175d32627a0",
+      "sha256": "04fa045f2be91d55fc98d3274b766f12f392403b1310cbbc17917a0ef41fb3ee",
       "routes": 155,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36668,8 +36738,8 @@
       }
     },
     "yang-network": {
-      "sha256": "65651fa14a43c90f88d438dcadf680c661206eb06e16935aecf056472b29c30f",
-      "routes": 419,
+      "sha256": "f252a783834bbf8a4c9d5a2e25b5d3bd9e53104defe3cc4895d0908b4732b16c",
+      "routes": 553,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51536,6 +51606,72 @@
         "def3b132c1cecf8a903f0b79965cb36444634afc5c303ca3b651d9e27045396e": {
           "channel": "c_6d30b91aff3a50be67146b51",
           "name": "林树很贪玩",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "a8aab99c76adc4c25be409abad46a482b6b9cea8cbba3503a363f50c2b14534b": {
+          "channel": "c_0b6841ec0d451ad9898c39f9",
+          "name": "中正评测",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "673229014816936ad3cef7cd5fbf0dfc8d1f2c1806fcb8a8ec09b99014d50fb0": {
+          "channel": "c_63ad7a0ed062ceefc7814a6a",
+          "name": "爱吃猪油的包浆哥",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "5ac74c3d77928605308dfdd7c805e687c42f1dbf35f13ce1acfafa5367b1e4e0": {
+          "channel": "c_99c07fe2ccf8a90a741b76db",
+          "name": "南方小豆干",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "22b63ea86e01cb173a9bd8e399497f606e86642246c88f648c132b16d68cde11": {
+          "channel": "c_b5307a031f7e9bd4a91068c7",
+          "name": "哈密瓜的秘密🍈",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ad8df2c0769dc8e024f810666cd11c6865b418f55bd5607473a743f362ce1f58": {
+          "channel": "c_2caf3370967f7877ce7b4a8d",
+          "name": "王铁柱（雪饼猴🐒）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "0bc887738ae330709671287ca5ccafc281f54014fb385111e8761683bcfe6b6b": {
+          "channel": "c_69b7f49f417ac2afa64e48cc",
+          "name": "宸艺艺",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "7e8aee56a37fb7a220a7fd8321e34d8a70251d320ece29567b9f4a194118df36": {
+          "channel": "c_78695314e3c7041ca3784870",
+          "name": "御所田南通",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "0221b9936c5d4d88f51f8fa6b364d3e0e2ad8a4bce5c95fc3fea2a6078f3eec9": {
+          "channel": "c_35716781ebf19c12ad584582",
+          "name": "梦境幻影雪8",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "1aa83991d6161208addc071c840988e72310ad090458006cb5d30ca78763d378": {
+          "channel": "c_bdb94ec8a9a0c894f2e35a79",
+          "name": "沐希兔子",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "86f840c3d741d0d9a5eacaa92b4c1f31bf3d0cb1e45ce5e6d401ea24a30ec8c6": {
+          "channel": "c_942a59c81bfe4c1de1db1a8e",
+          "name": "忧郁的千神",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "43ed8d4bed47879835b36f594de2d1d698b283ff94009f6f94b16019ad6d7810": {
+          "channel": "c_2a25d45361411a2c649af188",
+          "name": "白柯（三角洲行动）",
           "tvgId": "",
           "group": "•抖音「游戏」"
         }
