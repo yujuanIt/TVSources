@@ -699,14 +699,14 @@ https://migu.yang-1989.xyz/ysp/x86ng3.m3u8
 #KODIPROP:inputstream.adaptive.license_key=b570ae67cb063428b158eb2f91c6d77c:c573dabca79a17f81755c0d4b33384bc
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/mb3tvh.mpd
+https://iptv.yang-1989.xyz/myTV/snyqgy.mpd
 #EXTINF:-1 tvg-id="CGTN 英語頻道" tvg-name="CGTN 英语频道" tvg-logo="https://iptv.yang-1989.xyz/logo/CGTN.webp" group-title="央视" x-source-id="yang-mytv" x-source-name="myTV · 港澳",CGTN 英语频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4331903278b673916cc6940a8b8d9e7e:02a409115819de9acd9e907b053e3aa8
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/cmpmpg.mpd
+https://iptv.yang-1989.xyz/myTV/a6xk8j.mpd
 #EXTINF:-1 tvg-id="cctvfyjc" tvg-name="CCTV · 风云剧场" tvg-logo="https://www.xn--rgv465a.top/tvlogo/风云剧场.png" group-title="央视" x-source-id="official-ysp" x-source-name="官方直播 · 央视与卫视",CCTV · 风云剧场
 #EXTVLCOPT:http-user-agent=qqlive
 #EXTVLCOPT:http-referrer=https://live.cctv.cn/
@@ -3565,7 +3565,7 @@ https://cdn.qd.je/163189/fct
 #KODIPROP:inputstream.adaptive.license_key=0958b9c657622c465a6205eb2252b8ed:2d2fd7b1661b1e28de38268872b48480
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/ym8hxz.mpd
+https://iptv.yang-1989.xyz/myTV/mf8r7e.mpd
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",翡翠台
 http://r.jdshipin.com/qClQf
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",翡翠台
@@ -3602,7 +3602,7 @@ https://cdn.qd.je/163189/wxxwt
 #KODIPROP:inputstream.adaptive.license_key=90a0bd01d9f6cbb39839cd9b68fc26bc:51546d1f2af0547f0e961995b60a32a1
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/jhad9p.mpd
+https://iptv.yang-1989.xyz/myTV/zsyydx.mpd
 #EXTINF:-1 tvg-id="TV5MONDE STYLE 生活時尚" tvg-name="TV5MONDE STYLE 生活时尚「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/TV5MONDE%20STYLE%20生活時尚.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",TV5MONDE STYLE 生活时尚「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4076,71 +4076,71 @@ https://cdn.qd.je/163189/wxty
 #EXTINF:-1 tvg-id="凤凰中文台" tvg-name="凤凰卫视·中文「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰中文台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·中文「72小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8
 #EXTHTTP:{"User-Agent":"okhttp/3.8"}
-https://iptv.yang-1989.xyz/hk/6aasuk.m3u8
+https://iptv.yang-1989.xyz/hk/mj67bh.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯台" tvg-name="凤凰卫视·资讯「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰资讯台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·资讯「72小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8
 #EXTHTTP:{"User-Agent":"okhttp/3.8"}
-https://iptv.yang-1989.xyz/hk/ktjc3r.m3u8
+https://iptv.yang-1989.xyz/hk/v2shhu.m3u8
 #EXTINF:-1 tvg-id="凤凰香港台" tvg-name="凤凰卫视·香港「72小时回看」" tvg-logo="https://iptv.yang-1989.xyz/logo/凤凰香港台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",凤凰卫视·香港「72小时回看」
 #EXTVLCOPT:http-user-agent=okhttp/3.8
 #EXTHTTP:{"User-Agent":"okhttp/3.8"}
-https://iptv.yang-1989.xyz/hk/way8au.m3u8
+https://iptv.yang-1989.xyz/hk/rbmhfs.m3u8
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/明珠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",明珠台「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/2bfeah.m3u8
+https://iptv.yang-1989.xyz/hk/jzfw8s.m3u8
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/TVB%20Plus.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",TVB Plus「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/rcpa54.m3u8
+https://iptv.yang-1989.xyz/hk/jd8htz.m3u8
 #EXTINF:-1 tvg-id="Love Nature 4K" tvg-name="Love Nature 4K「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/Love%20Nature%204K.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",Love Nature 4K「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/u2u97t.m3u8
+https://iptv.yang-1989.xyz/hk/8u8ahh.m3u8
 #EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亚电影台「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/美亞電影台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",美亚电影台「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/rrmzxj.m3u8
+https://iptv.yang-1989.xyz/hk/5va86m.m3u8
 #EXTINF:-1 tvg-id="PopC" tvg-name="PopC「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/PopC.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",PopC「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/dqy9qd.m3u8
+https://iptv.yang-1989.xyz/hk/mjxer9.m3u8
 #EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/ViuTV.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",ViuTV「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/xycgh9.m3u8
+https://iptv.yang-1989.xyz/hk/xgehnc.m3u8
 #EXTINF:-1 tvg-id="ViuTVsix" tvg-name="ViuTVsix「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/ViuTVsix.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",ViuTVsix「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/mzcb97.m3u8
+https://iptv.yang-1989.xyz/hk/qp364f.m3u8
 #EXTINF:-1 tvg-id="Now直播台" tvg-name="Now直播台「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/Now直播台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",Now直播台「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/dmjgje.m3u8
+https://iptv.yang-1989.xyz/hk/wxxbjz.m3u8
 #EXTINF:-1 tvg-id="Now新聞台" tvg-name="Now新闻台「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/Now新聞台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",Now新闻台「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/h27p8d.m3u8
+https://iptv.yang-1989.xyz/hk/fsjrt6.m3u8
 #EXTINF:-1 tvg-id="Now財經台" tvg-name="Now财经台「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/Now財經台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",Now财经台「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/4jg7cz.m3u8
+https://iptv.yang-1989.xyz/hk/jjspd8.m3u8
 #EXTINF:-1 tvg-id="Now Sports 精選" tvg-name="Now Sports 精选「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/Now%20Sports%20精選.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",Now Sports 精选「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/5gjzaf.m3u8
+https://iptv.yang-1989.xyz/hk/4f2svf.m3u8
 #EXTINF:-1 tvg-id="雷霆881" tvg-name="雷霆881「电台」" tvg-logo="https://iptv.yang-1989.xyz/logo/雷霆881.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",雷霆881「电台」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/vhwy3q.m3u8
+https://iptv.yang-1989.xyz/hk/rjbdm7.m3u8
 #EXTINF:-1 tvg-id="叱咤903" tvg-name="叱咤903「电台」" tvg-logo="https://iptv.yang-1989.xyz/logo/叱咤903.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",叱咤903「电台」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/uam7mz.m3u8
+https://iptv.yang-1989.xyz/hk/uvm5cp.m3u8
 #EXTINF:-1 tvg-id="AM864" tvg-name="AM864「电台」" tvg-logo="https://iptv.yang-1989.xyz/logo/AM864.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",AM864「电台」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/6cb5d4.m3u8
+https://iptv.yang-1989.xyz/hk/sghb4c.m3u8
 #EXTINF:-1 tvg-id="HOY 國際財經台" tvg-name="HOY 国际财经台「官方」" tvg-logo="https://iptv.yang-1989.xyz/logo/HOY%20國際財經台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",HOY 国际财经台「官方」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4168,7 +4168,7 @@ https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPla
 #EXTINF:-1 tvg-id="澳門蓮花衛視" tvg-name="澳门莲花" tvg-logo="https://iptv.yang-1989.xyz/logo/澳門蓮花衛視.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳门莲花
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/sdennu.m3u8
+https://iptv.yang-1989.xyz/hk/rgtarp.m3u8
 #EXTINF:-1 tvg-id="澳門蓮花衛視" tvg-name="澳门莲花" tvg-logo="https://iptv.yang-1989.xyz/logo/澳門蓮花衛視.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳门莲花
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4176,187 +4176,187 @@ https://cdn.qd.je/163189/amlh
 #EXTINF:-1 tvg-id="澳門Macau" tvg-name="澳门Macau「官方」" tvg-logo="https://iptv.yang-1989.xyz/logo/澳門Macau.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳门Macau「官方」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/q2qmbk.m3u8
+https://iptv.yang-1989.xyz/hk/dvs4rh.m3u8
 #EXTINF:-1 tvg-id="澳視澳門" tvg-name="澳视澳门「官方」" tvg-logo="https://iptv.yang-1989.xyz/logo/澳視澳門.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳视澳门「官方」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/3bhpdr.m3u8
+https://iptv.yang-1989.xyz/hk/2gvwwc.m3u8
 #EXTINF:-1 tvg-id="澳視葡文" tvg-name="澳视葡文「官方」" tvg-logo="https://iptv.yang-1989.xyz/logo/澳視葡文.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳视葡文「官方」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/hszd3j.m3u8
+https://iptv.yang-1989.xyz/hk/de44fd.m3u8
 #EXTINF:-1 tvg-id="澳門資訊" tvg-name="澳门资讯「官方」" tvg-logo="https://iptv.yang-1989.xyz/logo/澳門資訊.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳门资讯「官方」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/uqbzay.m3u8
+https://iptv.yang-1989.xyz/hk/732tjh.m3u8
 #EXTINF:-1 tvg-id="澳門綜藝" tvg-name="澳门综艺「官方」" tvg-logo="https://iptv.yang-1989.xyz/logo/澳門綜藝.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳门综艺「官方」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/48gmws.m3u8
+https://iptv.yang-1989.xyz/hk/ydc2c5.m3u8
 #EXTINF:-1 tvg-id="澳門體育" tvg-name="澳门体育「官方」" tvg-logo="https://iptv.yang-1989.xyz/logo/澳門體育.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",澳门体育「官方」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/hk/ddtkqh.m3u8
+https://iptv.yang-1989.xyz/hk/dkerpu.m3u8
 #EXTINF:-1 tvg-id="緯來體育台" tvg-name="纬来体育「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/緯來體育台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",纬来体育「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/hp8dgb.m3u8
+https://iptv.yang-1989.xyz/tw/e92rdz.m3u8
 #EXTINF:-1 tvg-id="緯來日本台" tvg-name="纬来日本「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/緯來日本台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",纬来日本「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/7tqmqm.m3u8
+https://iptv.yang-1989.xyz/tw/ywhvyu.m3u8
 #EXTINF:-1 tvg-id="緯來電影台" tvg-name="纬来电影「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/緯來電影台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",纬来电影「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/jp6trn.m3u8
+https://iptv.yang-1989.xyz/tw/kkegkg.m3u8
 #EXTINF:-1 tvg-id="緯來綜合台" tvg-name="纬来综合「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/緯來綜合台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",纬来综合「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/k6tb2p.m3u8
+https://iptv.yang-1989.xyz/tw/qyjmr7.m3u8
 #EXTINF:-1 tvg-id="緯來戲劇台" tvg-name="纬来戏剧「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/緯來戲劇台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",纬来戏剧「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/977tm8.m3u8
+https://iptv.yang-1989.xyz/tw/4vkyuv.m3u8
 #EXTINF:-1 tvg-id="緯來育樂台" tvg-name="纬来育乐「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/緯來育樂台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",纬来育乐「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/zctn8q.m3u8
+https://iptv.yang-1989.xyz/tw/24875j.m3u8
 #EXTINF:-1 tvg-id="愛爾達體育1台" tvg-name="爱尔达体育 一" tvg-logo="https://iptv.yang-1989.xyz/logo/愛爾達體育1台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",爱尔达体育 一
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/635yay.m3u8
+https://iptv.yang-1989.xyz/tw/ynqbp8.m3u8
 #EXTINF:-1 tvg-id="愛爾達體育2台" tvg-name="爱尔达体育 二" tvg-logo="https://iptv.yang-1989.xyz/logo/愛爾達體育2台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",爱尔达体育 二
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/drx357.m3u8
+https://iptv.yang-1989.xyz/tw/6bf4uy.m3u8
 #EXTINF:-1 tvg-id="愛爾達體育3台" tvg-name="爱尔达体育 三" tvg-logo="https://iptv.yang-1989.xyz/logo/愛爾達體育3台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",爱尔达体育 三
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/ynkmyd.m3u8
+https://iptv.yang-1989.xyz/tw/gv2e6e.m3u8
 #EXTINF:-1 tvg-id="愛爾達體育4台" tvg-name="爱尔达体育 四" tvg-logo="https://iptv.yang-1989.xyz/logo/愛爾達體育4台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",爱尔达体育 四
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/ebyn2a.m3u8
+https://iptv.yang-1989.xyz/tw/24jh38.m3u8
 #EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://iptv.yang-1989.xyz/logo/DAZN%201.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",DAZN 1
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/a4jyyh.m3u8
+https://iptv.yang-1989.xyz/tw/zg4rg3.m3u8
 #EXTINF:-1 tvg-id="DAZN 2" tvg-name="DAZN 2" tvg-logo="https://iptv.yang-1989.xyz/logo/DAZN%202.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",DAZN 2
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/6y56qb.m3u8
+https://iptv.yang-1989.xyz/tw/8hzwkm.m3u8
 #EXTINF:-1 tvg-id="年代新聞台" tvg-name="年代新闻「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/年代新聞台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",年代新闻「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/qa2u4b.m3u8
+https://iptv.yang-1989.xyz/tw/2pnqhq.m3u8
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新闻「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/中天新聞台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",中天新闻「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/b2q3cy.m3u8
+https://iptv.yang-1989.xyz/tw/w89pg4.m3u8
 #EXTINF:-1 tvg-id="中天綜合台" tvg-name="中天综合「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/中天綜合台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",中天综合「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/wdanyt.m3u8
+https://iptv.yang-1989.xyz/tw/fs6ksx.m3u8
 #EXTINF:-1 tvg-id="中天娛樂台" tvg-name="中天娱乐「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/中天娛樂台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",中天娱乐「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/9vncm8.m3u8
+https://iptv.yang-1989.xyz/tw/e3brsk.m3u8
 #EXTINF:-1 tvg-id="東森電影台" tvg-name="东森电影「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/東森電影台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",东森电影「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/kefgx2.m3u8
+https://iptv.yang-1989.xyz/tw/hu7zcz.m3u8
 #EXTINF:-1 tvg-id="東森洋片台" tvg-name="东森洋片「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/東森洋片台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",东森洋片「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/47jkbd.m3u8
+https://iptv.yang-1989.xyz/tw/jd9pas.m3u8
 #EXTINF:-1 tvg-id="東森綜合台" tvg-name="东森综合「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/東森綜合台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",东森综合「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/8qsx7g.m3u8
+https://iptv.yang-1989.xyz/tw/mc874a.m3u8
 #EXTINF:-1 tvg-id="東森戲劇台" tvg-name="东森戏剧「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/東森戲劇台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",东森戏剧「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/zvtw72.m3u8
+https://iptv.yang-1989.xyz/tw/vwuyzp.m3u8
 #EXTINF:-1 tvg-id="東森幼幼台" tvg-name="东森幼幼「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/東森幼幼台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",东森幼幼「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/85x3tw.m3u8
+https://iptv.yang-1989.xyz/tw/pku5u9.m3u8
 #EXTINF:-1 tvg-id="台視" tvg-name="台视「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/台視.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",台视「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/f7bsan.m3u8
+https://iptv.yang-1989.xyz/tw/zdbf7t.m3u8
 #EXTINF:-1 tvg-id="MTV綜合台" tvg-name="MTV综合台「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/MTV綜合台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",MTV综合台「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/v273x6.m3u8
+https://iptv.yang-1989.xyz/tw/7qhepn.m3u8
 #EXTINF:-1 tvg-id="動物星球" tvg-name="动物星球「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/動物星球.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",动物星球「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/myc527.m3u8
+https://iptv.yang-1989.xyz/tw/8h6wkm.m3u8
 #EXTINF:-1 tvg-id="CATCHPLAY電影台" tvg-name="CATCHPLAY 电影「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CATCHPLAY電影台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",CATCHPLAY 电影「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/wmusvc.m3u8
+https://iptv.yang-1989.xyz/tw/g9rpzb.m3u8
 #EXTINF:-1 tvg-id="龍祥時代" tvg-name="龙祥时代「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍祥時代.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙祥时代「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/7bhgxj.m3u8
+https://iptv.yang-1989.xyz/tw/efwhp3.m3u8
 #EXTINF:-1 tvg-id="好萊塢電影台" tvg-name="好莱坞电影「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/好萊塢電影台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",好莱坞电影「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/fy3cq2.m3u8
+https://iptv.yang-1989.xyz/tw/gwx8pk.m3u8
 #EXTINF:-1 tvg-id="CINEMAX" tvg-name="CINEMAX「Relay」" tvg-logo="https://iptv.yang-1989.xyz/logo/CINEMAX.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",CINEMAX「Relay」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/tw/cm7nd4.m3u8
+https://iptv.yang-1989.xyz/tw/xupx5q.m3u8
 #EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龙华偶像「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華偶像台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙华偶像「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/zw4evw.m3u8
+https://iptv.yang-1989.xyz/ofiii/xdjuzd.m3u8
 #EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龙华卡通「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華卡通台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙华卡通「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/s6jy5g.m3u8
+https://iptv.yang-1989.xyz/ofiii/sgdk3e.m3u8
 #EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龙华戏剧「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華戲劇台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙华戏剧「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/22sfdk.m3u8
+https://iptv.yang-1989.xyz/ofiii/k6ne63.m3u8
 #EXTINF:-1 tvg-id="龍華日韓台" tvg-name="龙华日韩「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華日韓台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙华日韩「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/b5ayck.m3u8
+https://iptv.yang-1989.xyz/ofiii/nvpwan.m3u8
 #EXTINF:-1 tvg-id="龍華洋片台" tvg-name="龙华洋片「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華洋片台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙华洋片「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/7qb9xz.m3u8
+https://iptv.yang-1989.xyz/ofiii/6w2wkq.m3u8
 #EXTINF:-1 tvg-id="龍華經典台" tvg-name="龙华经典「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華經典台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙华经典「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/y9k386.m3u8
+https://iptv.yang-1989.xyz/ofiii/caxkmu.m3u8
 #EXTINF:-1 tvg-id="龍華電影台" tvg-name="龙华电影「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華電影台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",龙华电影「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/zpc8wc.m3u8
+https://iptv.yang-1989.xyz/ofiii/xty67w.m3u8
 #EXTINF:-1 tvg-id="中天新聞台" tvg-name="中天新闻「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/中天新聞台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",中天新闻「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/3srdbx.m3u8
+https://iptv.yang-1989.xyz/ofiii/4nh48w.m3u8
 #EXTINF:-1 tvg-id="台灣戲劇台" tvg-name="台湾戏剧「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/台灣戲劇台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",台湾戏剧「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/xbx32j.m3u8
+https://iptv.yang-1989.xyz/ofiii/xg6wrr.m3u8
 #EXTINF:-1 tvg-id="DayStar" tvg-name="DayStar「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/DayStar.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",DayStar「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/ztw2rh.m3u8
+https://iptv.yang-1989.xyz/ofiii/tfnu5g.m3u8
 #EXTINF:-1 tvg-id="第1商業" tvg-name="第1商业「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/第1商業.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",第1商业「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/rfs2aw.m3u8
+https://iptv.yang-1989.xyz/ofiii/sexnb5.m3u8
 #EXTINF:-1 tvg-id="Smart知識台" tvg-name="Smart知识「ofiii」" tvg-logo="https://iptv.yang-1989.xyz/logo/Smart知識台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",Smart知识「ofiii」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/ofiii/akkw8c.m3u8
+https://iptv.yang-1989.xyz/ofiii/8nw7qc.m3u8
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台「字幕」" tvg-logo="https://iptv.yang-1989.xyz/logo/明珠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",明珠台「字幕」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4375,7 +4375,7 @@ https://cdn.qd.je/163189/tvbp2
 #KODIPROP:inputstream.adaptive.license_key=56603b65fa1d7383b6ef0e73b9ae69fa:5d9d8e957d2e45d8189a56fe8665aaaa
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/rcpa54.mpd
+https://iptv.yang-1989.xyz/myTV/jd8htz.mpd
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus「字幕」" tvg-logo="https://iptv.yang-1989.xyz/logo/TVB%20Plus.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",TVB Plus「字幕」
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4446,7 +4446,7 @@ https://cdn.qd.je/163189/tvbc
 #KODIPROP:inputstream.adaptive.license_key=6c308490b3198b62a988917253653692:660578b8966fe8012ad51b9aae7a5d78
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/pea248.mpd
+https://iptv.yang-1989.xyz/myTV/tjcjv3.mpd
 #EXTINF:-1 tvg-id="娛樂新聞台" tvg-name="娱乐新闻台" tvg-logo="https://iptv.yang-1989.xyz/logo/娛樂新聞台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",娱乐新闻台
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4457,7 +4457,7 @@ https://cdn.qd.je/163189/ylxw
 #KODIPROP:inputstream.adaptive.license_key=6fa0e47750b5e2fb6adf9b9a0ac431a3:a256220e6c2beaa82f4ca5fba4ec1f95
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/2nk2vy.mpd
+https://iptv.yang-1989.xyz/myTV/w6m6h5.mpd
 #EXTINF:-1 tvg-id="TVB Jade" tvg-name="华丽翡翠台" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="港澳台" x-source-id="yang-tv" x-source-name="电视 · IPTV",华丽翡翠台
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
@@ -4724,14 +4724,14 @@ https://cdn.qd.je/163189/dsyp
 #KODIPROP:inputstream.adaptive.license_key=2c045f5adb26d391cc41cd01f00416fa:fc146771a9b096fc4cb57ffe769861be
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/pz6x3a.mpd
+https://iptv.yang-1989.xyz/myTV/8yqe7x.mpd
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://iptv.yang-1989.xyz/logo/明珠台.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",明珠台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e04facdd91354deee318c674993b74c1:8f97a629de680af93a652c3102b65898
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/2bfeah.mpd
+https://iptv.yang-1989.xyz/myTV/jzfw8s.mpd
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://iptv.yang-1989.xyz/logo/明珠台.webp" group-title="港澳台" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",明珠台
 https://hls-gateway.vpstv.net/streams/476936.m3u8
 #EXTINF:-1 tvg-id="亞洲劇台" tvg-name="亚洲剧台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",亚洲剧台
@@ -4740,532 +4740,532 @@ https://hls-gateway.vpstv.net/streams/476936.m3u8
 #KODIPROP:inputstream.adaptive.license_key=df5c0e617dffc3e3c44cb733dccb33c0:7d00ec9cd4f54d5baf94c03edc8cfe25
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/yykjcp.mpd
+https://iptv.yang-1989.xyz/myTV/t2qpt6.mpd
 #EXTINF:-1 tvg-id="華語劇台" tvg-name="华语剧台" tvg-logo="https://iptv.yang-1989.xyz/logo/華語劇台.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",华语剧台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=baae227b5fc06e2545868d4a1c9ced14:8cd460458b0bdecca5c12791b6409278
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/3rm7zn.mpd
+https://iptv.yang-1989.xyz/myTV/68xrxc.mpd
 #EXTINF:-1 tvg-id="黃金翡翠台" tvg-name="黄金翡翠台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",黄金翡翠台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8fe3db1a24969694ae3447f26473eb9f:5cce95833568b9e322f17c61387b306f
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/s22nrb.mpd
+https://iptv.yang-1989.xyz/myTV/w7caa3.mpd
 #EXTINF:-1 tvg-id="黃金華劇台" tvg-name="黄金华剧台" tvg-logo="https://iptv.yang-1989.xyz/logo/黃金華劇台.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",黄金华剧台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=acd93a5f665efd4feadb26f5ed48fd96:c6ce58ef9cce30638e0c2e9fc45a6dbd
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/xjrn4y.mpd
+https://iptv.yang-1989.xyz/myTV/8mdqfc.mpd
 #EXTINF:-1 tvg-id="戲曲台" tvg-name="戏曲台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",戏曲台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c91c296ef6c46b3f2af1da257553bd17:d6e92d5e594f6f8e494a6e1c9df75298
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/j6syhc.mpd
+https://iptv.yang-1989.xyz/myTV/gpnye2.mpd
 #EXTINF:-1 tvg-id="SUPER識食" tvg-name="SUPER识食" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER识食
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2370118ce3d6fafe17502b0176abf9ae:357c7b5a9d01c25d8e30e46cc396de08
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/zyunas.mpd
+https://iptv.yang-1989.xyz/myTV/9wfeg4.mpd
 #EXTINF:-1 tvg-id="SUPER靈異" tvg-name="SUPER灵异" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER灵异
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d841bf650caca3bf4441a536ae8580d5:c401a71b63dfa7bab1be378605973c2c
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/btuhr6.mpd
+https://iptv.yang-1989.xyz/myTV/52w3xf.mpd
 #EXTINF:-1 tvg-id="SUPER處境劇" tvg-name="SUPER处境剧" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER处境剧
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=203638a2e2fd4786190a58393640de54:97e1ec12dda5ee64561e072d9825e3b0
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/mwfnxr.mpd
+https://iptv.yang-1989.xyz/myTV/gkf8xv.mpd
 #EXTINF:-1 tvg-id="SUPER亞視劇" tvg-name="SUPER亚视剧" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER亚视剧
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6c020768505fa6c7910726b8ca302f0:4b5cba6d27559e6f28a232791f068824
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/fmjvkv.mpd
+https://iptv.yang-1989.xyz/myTV/h4w9rn.mpd
 #EXTINF:-1 tvg-id="SUPER資訊娛樂" tvg-name="SUPER资讯娱乐" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER资讯娱乐
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=206a559933b51efbba226fe939040d68:c671ac5afccd7f2d26839e6d9b91d130
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/ntqwab.mpd
+https://iptv.yang-1989.xyz/myTV/burgu6.mpd
 #EXTINF:-1 tvg-id="真情SUPER煲" tvg-name="真情SUPER煲" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",真情SUPER煲
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=248ed59a4671da39b3bb71f860760b91:b0bd7d1495e3df963ae21790551094e1
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/zewcen.mpd
+https://iptv.yang-1989.xyz/myTV/5f36j4.mpd
 #EXTINF:-1 tvg-id="愛．回家SUPER煲" tvg-name="爱．回家SUPER煲" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",爱．回家SUPER煲
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c83f061a8685a0071fc62c65b6ab7af3:b8cf98951b940dca9174230430faf10d
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/r65stv.mpd
+https://iptv.yang-1989.xyz/myTV/9bse9e.mpd
 #EXTINF:-1 tvg-id="SUPER Game Show" tvg-name="SUPER Game Show" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER Game Show
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=977869c9cd6aa804921a2e20724b9e6c:16f76fa19ae5199c920de5cfc1a6ca1e
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/nzdbjq.mpd
+https://iptv.yang-1989.xyz/myTV/j2brt2.mpd
 #EXTINF:-1 tvg-id="SUPER Sports" tvg-name="SUPER Sports" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER Sports
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0d57dc882191c22a9f8185ab7e9a629b:0d2b2edbea04dde8ff880d20e20261ad
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/885wxg.mpd
+https://iptv.yang-1989.xyz/myTV/xs65d5.mpd
 #EXTINF:-1 tvg-id="SUPER Music" tvg-name="SUPER Music" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER Music
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0d321fc47b49372df79500c8b7a5e9fc:0c4be4e8f7ccedced7de0b7434493be4
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/rxtrhy.mpd
+https://iptv.yang-1989.xyz/myTV/tubux9.mpd
 #EXTINF:-1 tvg-id="SUPER FREE" tvg-name="SUPER FREE" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER FREE
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0737b75ee8906c00bb7bb8f666da72a0:15f515458cdb5107452f943a111cbe89
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/eza7j6.mpd
+https://iptv.yang-1989.xyz/myTV/bkp4y8.mpd
 #EXTINF:-1 tvg-id="myTV SUPER 18台" tvg-name="myTV SUPER 18台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",myTV SUPER 18台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=72de7d0a1850c8d40c5bdf9747a4ca7c:4967537ff0bc8209277160759de4adef
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/kkp2yv.mpd
+https://iptv.yang-1989.xyz/myTV/bpv9tr.mpd
 #EXTINF:-1 tvg-id="SUPER Kids Channel" tvg-name="SUPER Kids Channel" tvg-logo="https://iptv.yang-1989.xyz/logo/SUPER%20Kids%20Channel.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",SUPER Kids Channel
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=42527ca90ad525ba2eac9979c93d3bca:b730006ad1da48b412ceb1f9e36a833d
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/8xjqfs.mpd
+https://iptv.yang-1989.xyz/myTV/dmgtjh.mpd
 #EXTINF:-1 tvg-id="ZooMoo" tvg-name="ZooMoo" tvg-logo="https://iptv.yang-1989.xyz/logo/ZooMoo.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",ZooMoo
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9c302eb50bef5a9589d97cb90982b05e:2603e646caafe22bc4e8a17b5a2dd55b
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/6vyknk.mpd
+https://iptv.yang-1989.xyz/myTV/ze5r57.mpd
 #EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://iptv.yang-1989.xyz/logo/Nickelodeon.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Nickelodeon
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0e69430290ed7b00af4db78419dcad8b:e4769b57a66e8e9737d6d86f317600c0
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/xgqpns.mpd
+https://iptv.yang-1989.xyz/myTV/sne8m4.mpd
 #EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" tvg-logo="https://iptv.yang-1989.xyz/logo/Nick%20Jr.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Nick Jr
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9f1385d2a12a67b572b9d968eb850337:3086bcd49a909606a8686858c05c7e33
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/gk5nzd.mpd
+https://iptv.yang-1989.xyz/myTV/666q7e.mpd
 #EXTINF:-1 tvg-id="粵語片台" tvg-name="粤语片台" tvg-logo="https://iptv.yang-1989.xyz/logo/粵語片台.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",粤语片台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5b90da7fd2f018bf85a757241075626f:75c0897b4cf5ce154ddae86eddb79cd3
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/wusj8e.mpd
+https://iptv.yang-1989.xyz/myTV/dksavx.mpd
 #EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亚电影台" tvg-logo="https://iptv.yang-1989.xyz/logo/美亞電影台.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",美亚电影台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c5d6f2afbd6b276312b0471a653828e1:ecbbb4a3ffa2200ae69058e20e71e91b
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/rrmzxj.mpd
+https://iptv.yang-1989.xyz/myTV/5va86m.mpd
 #EXTINF:-1 tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://iptv.yang-1989.xyz/logo/Thrill.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Thrill
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b22355363ab2b09a6def54be0c89b9f2:4b196c2bf24b37e82a81031246de6efe
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/z7xahf.mpd
+https://iptv.yang-1989.xyz/myTV/u77bvk.mpd
 #EXTINF:-1 tvg-id="天映經典頻道" tvg-name="天映经典频道" tvg-logo="https://iptv.yang-1989.xyz/logo/天映經典頻道.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",天映经典频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=627b6ca150887912bec47ae4a9b85269:2bf49b2105d20544a6db89c0577b9802
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/66c57b.mpd
+https://iptv.yang-1989.xyz/myTV/ab539d.mpd
 #EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中国电影频道" tvg-logo="https://iptv.yang-1989.xyz/logo/中國電影頻道.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",中国电影频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cabb16d20e71b512f24e9ece0cb09396:2d43505980a22014ee1a476880982308
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/xtzbb9.mpd
+https://iptv.yang-1989.xyz/myTV/stym3w.mpd
 #EXTINF:-1 tvg-id="ROCK Action" tvg-name="ROCK Action" tvg-logo="https://iptv.yang-1989.xyz/logo/ROCK%20Action.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",ROCK Action
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=358eacad1f06e8e375493dabee96d865:461a02b2eb1232c6c100b95bd0bf40f8
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/baww4r.mpd
+https://iptv.yang-1989.xyz/myTV/jwjjc4.mpd
 #EXTINF:-1 tvg-id="PopC" tvg-name="PopC" tvg-logo="https://iptv.yang-1989.xyz/logo/PopC.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",PopC
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=221591babff135a71961d09399d2c922:c80ca4c7b801a76a07179dfb7debb57d
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/dqy9qd.mpd
+https://iptv.yang-1989.xyz/myTV/mjxer9.mpd
 #EXTINF:-1 tvg-id="Action Hollywood Movies" tvg-name="Action Hollywood Movies" tvg-logo="https://iptv.yang-1989.xyz/logo/Action%20Hollywood%20Movies.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Action Hollywood Movies
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/uw3eqg.m3u8
+https://iptv.yang-1989.xyz/myTV/z4xcma.m3u8
 #EXTINF:-1 tvg-id="Rialto Classic Movies" tvg-name="Rialto Classic Movies" tvg-logo="https://iptv.yang-1989.xyz/logo/Rialto%20Classic%20Movies.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Rialto Classic Movies
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/arkk64.m3u8
+https://iptv.yang-1989.xyz/myTV/gse6y2.m3u8
 #EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://iptv.yang-1989.xyz/logo/KIX.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",KIX
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3b4a44c5ef3217c55a357ad976d328b2:f3355e5a30722e631031b851642c27f1
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/fzdh7a.mpd
+https://iptv.yang-1989.xyz/myTV/7gm38n.mpd
 #EXTINF:-1 tvg-id="TRACE Sport Stars" tvg-name="TRACE Sport Stars" tvg-logo="https://iptv.yang-1989.xyz/logo/TRACE%20Sport%20Stars.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",TRACE Sport Stars
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/hsa2gp.m3u8
+https://iptv.yang-1989.xyz/myTV/5uj9jy.m3u8
 #EXTINF:-1 tvg-id="Love Nature 4K" tvg-name="Love Nature 4K" tvg-logo="https://iptv.yang-1989.xyz/logo/Love%20Nature%204K.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Love Nature 4K
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=037c644cb92137ac5c8d653e952e4c8f:b3b2fcbe576a63cf3bbb9425da3de4cf
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/u2u97t.mpd
+https://iptv.yang-1989.xyz/myTV/8u8ahh.mpd
 #EXTINF:-1 tvg-id="Global Trekker" tvg-name="Global Trekker" tvg-logo="https://iptv.yang-1989.xyz/logo/Global%20Trekker.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Global Trekker
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a8f381c2a3114cc6c55f50b6ff0c78f3:86922e5993788488e1eca857c00d4fab
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/bxc9u6.mpd
+https://iptv.yang-1989.xyz/myTV/4hjfjr.mpd
 #EXTINF:-1 tvg-id="Pet Club TV" tvg-name="Pet Club TV" tvg-logo="https://iptv.yang-1989.xyz/logo/Pet%20Club%20TV.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Pet Club TV
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/qpvmxs.m3u8
+https://iptv.yang-1989.xyz/myTV/vh4x7q.m3u8
 #EXTINF:-1 tvg-id="Globetrotter" tvg-name="Globetrotter" tvg-logo="https://iptv.yang-1989.xyz/logo/Globetrotter.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Globetrotter
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/qeqdk3.m3u8
+https://iptv.yang-1989.xyz/myTV/qq3pma.m3u8
 #EXTINF:-1 tvg-id="Docsville" tvg-name="Docsville" tvg-logo="https://iptv.yang-1989.xyz/logo/Docsville.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Docsville
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/mq853s.m3u8
+https://iptv.yang-1989.xyz/myTV/qbpwjv.m3u8
 #EXTINF:-1 tvg-id="Wild Stuff" tvg-name="Wild Stuff" tvg-logo="https://iptv.yang-1989.xyz/logo/Wild%20Stuff.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Wild Stuff
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/ycreh5.m3u8
+https://iptv.yang-1989.xyz/myTV/ug4kh3.m3u8
 #EXTINF:-1 tvg-id="ROCK綜藝娛樂" tvg-name="ROCK 综艺娱乐" tvg-logo="https://iptv.yang-1989.xyz/logo/ROCK%20Entertainment.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",ROCK 综艺娱乐
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=002d034731b6ac938ea7ba85bc3dc759:6694258c023d73492a10acb860bc6161
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/jctasu.mpd
+https://iptv.yang-1989.xyz/myTV/juyevf.mpd
 #EXTINF:-1 tvg-id="ROCK X Stream" tvg-name="ROCK X Stream" tvg-logo="https://iptv.yang-1989.xyz/logo/ROCK%20X%20Stream.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",ROCK X Stream
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=56e7f3bf6e1f142a3ac51b2ca83e7919:ba733df582f18b4b9c990a52d61d2fc6
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/p3eks3.mpd
+https://iptv.yang-1989.xyz/myTV/bs26e9.mpd
 #EXTINF:-1 tvg-id="tvN" tvg-name="tvN" tvg-logo="https://iptv.yang-1989.xyz/logo/tvN.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",tvN
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=adcab9e8e5644ff35f04e4035cc6ad3b:d8e879e108a96fde6537c1b679c369b5
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/674tbg.mpd
+https://iptv.yang-1989.xyz/myTV/d8mttn.mpd
 #EXTINF:-1 tvg-id="無線衛星亞洲台" tvg-name="无线卫星亚洲台" tvg-logo="https://iptv.yang-1989.xyz/logo/無線衛星亞洲台.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",无线卫星亚洲台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ad7b06658e8a36a06def6b3550bde35c:b672f89570a630abb1d2abb5030e6303
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/gsqfpe.mpd
+https://iptv.yang-1989.xyz/myTV/26h4wz.mpd
 #EXTINF:-1 tvg-id="創世電視" tvg-name="创世电视" tvg-logo="https://iptv.yang-1989.xyz/logo/創世電視.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",创世电视
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=adef00c5ba927d01642b1e6f3cedc9fb:b45d912fec43b5bbd418ea7ea1fbcb60
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/qamdas.mpd
+https://iptv.yang-1989.xyz/myTV/g5mfv4.mpd
 #EXTINF:-1 tvg-id="中央電視台綜合頻道" tvg-name="中央电视台综合频道" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV1.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",中央电视台综合频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e50b18fee7cab76b9f2822e2ade8773a:2e2e8602b6d835ccf10ee56a9a7d91a2
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/bkmrk2.mpd
+https://iptv.yang-1989.xyz/myTV/s7fc6c.mpd
 #EXTINF:-1 tvg-id="中國中央電視台中文國際頻道" tvg-name="中国中央电视台中文国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV4.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",中国中央电视台中文国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9b2762e6912e2f37a1cad1df9af6dc6e:f4edc1240a3e852661c0607db463a6dd
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/65z24a.mpd
+https://iptv.yang-1989.xyz/myTV/v6746h.mpd
 #EXTINF:-1 tvg-id="中國中央電視台娛樂頻道" tvg-name="中国中央电视台娱乐频道" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV娱乐.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",中国中央电视台娱乐频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e173591f7ab25dbc47f6c05abcbb92c7:21c5e4987d1e255d0e171280ad13d815
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/b99jn8.mpd
+https://iptv.yang-1989.xyz/myTV/s42n88.mpd
 #EXTINF:-1 tvg-id="中國中央電視台戲曲頻道" tvg-name="中国中央电视台戏曲频道" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV戏曲.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",中国中央电视台戏曲频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=310ee76e894b8361fefdedf5c7b50983:f113fcca4a982e53ba2fc31e7fbf6e2c
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/2h22gr.mpd
+https://iptv.yang-1989.xyz/myTV/j7fkr3.mpd
 #EXTINF:-1 tvg-id="東方衛視國際頻道" tvg-name="东方卫视国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/东方卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",东方卫视国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9d6a139158dd1fcd807d1cfc8667e965:f643ba9204ebba7a5ffd3970cfbc794c
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/5678rw.mpd
+https://iptv.yang-1989.xyz/myTV/rgsqfa.mpd
 #EXTINF:-1 tvg-id="雲南瀾湄國際衛視" tvg-name="云南澜湄国际卫视" tvg-logo="https://iptv.yang-1989.xyz/logo/雲南瀾湄國際衛視.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",云南澜湄国际卫视
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7ec2be4ec767b0a7b23bb9d665c39dab:738f330e2e319ee51ebcb8f2d0614f0a
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/26ydc4.mpd
+https://iptv.yang-1989.xyz/myTV/3sk5cy.mpd
 #EXTINF:-1 tvg-id="安徽廣播電視台國際頻道" tvg-name="安徽广播电视台国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/安徽卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",安徽广播电视台国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=460151d2b91a7504c6e7fcdc2e5b3ccc:a2900973ab6de674a8535fd1627f8cce
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/5ftfve.mpd
+https://iptv.yang-1989.xyz/myTV/tqzt27.mpd
 #EXTINF:-1 tvg-id="北京電視台國際頻道" tvg-name="北京电视台国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/北京卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",北京电视台国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a8965a188153cee562c067ba66b0f0fb:c373bfab2e75b979beefbb6b370bcdc2
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/62kwr6.mpd
+https://iptv.yang-1989.xyz/myTV/d9qzcw.mpd
 #EXTINF:-1 tvg-id="福建海峽衛視國際頻道" tvg-name="福建海峡卫视国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/海峡卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",福建海峡卫视国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3d5e3a2fd144c5f196cbcb9d037b417d:7be2fcb0ee5efe52ff95b0866f183abb
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/vamk5k.mpd
+https://iptv.yang-1989.xyz/myTV/htzahz.mpd
 #EXTINF:-1 tvg-id="湖南電視台國際頻道" tvg-name="湖南电视台国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/湖南卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",湖南电视台国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a43885f5c495e3ce5b1162ecb5c35c03:e506caf7a71025850e8823c07a1b29dc
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/vsz3fq.mpd
+https://iptv.yang-1989.xyz/myTV/3gqe3t.mpd
 #EXTINF:-1 tvg-id="江蘇電視台國際頻道" tvg-name="江苏电视台国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/江苏卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",江苏电视台国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5287fd241995f7b097597c4349bea5b5:23398eb21eee12ddb9a9df1dd6373687
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/89qd62.mpd
+https://iptv.yang-1989.xyz/myTV/sthqby.mpd
 #EXTINF:-1 tvg-id="廣東廣播電視台大灣區衛視頻道" tvg-name="广东广播电视台大湾区卫视频道" tvg-logo="https://iptv.yang-1989.xyz/logo/广东卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",广东广播电视台大湾区卫视频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=25049a9d742e24329e009d2a8a02b4bd:914a1b9442ba239aaa5a8f63c6e10f83
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/yw2vmf.mpd
+https://iptv.yang-1989.xyz/myTV/ame448.mpd
 #EXTINF:-1 tvg-id="浙江電視台國際頻道" tvg-name="浙江电视台国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/浙江卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",浙江电视台国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8799940a2a97f5eb997753983be48fe5:53c4b68330f10e5507d3c0647703031e
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/buzgtc.mpd
+https://iptv.yang-1989.xyz/myTV/tez9u3.mpd
 #EXTINF:-1 tvg-id="深圳衛視國際頻道" tvg-name="深圳卫视国际频道" tvg-logo="https://iptv.yang-1989.xyz/logo/深圳卫视.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",深圳卫视国际频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a265a47191734322dc32596c771887cc:5d19d055e814b3fcc521afe772ecf110
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/7sq2np.mpd
+https://iptv.yang-1989.xyz/myTV/94dvur.mpd
 #EXTINF:-1 tvg-id="that's 70s" tvg-name="that's 70s" tvg-logo="https://iptv.yang-1989.xyz/logo/that's%2070s.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",that's 70s
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/2g2rag.m3u8
+https://iptv.yang-1989.xyz/myTV/kng4s5.m3u8
 #EXTINF:-1 tvg-id="that's 80s" tvg-name="that's 80s" tvg-logo="https://iptv.yang-1989.xyz/logo/that's%2080s.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",that's 80s
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/yj9zvq.m3u8
+https://iptv.yang-1989.xyz/myTV/8794qm.m3u8
 #EXTINF:-1 tvg-id="that's Rock" tvg-name="that's Rock" tvg-logo="https://iptv.yang-1989.xyz/logo/that's%20Rock.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",that's Rock
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/w3sn3e.m3u8
+https://iptv.yang-1989.xyz/myTV/jhjd96.m3u8
 #EXTINF:-1 tvg-id="that's 90s00s" tvg-name="that's 90s00s" tvg-logo="https://iptv.yang-1989.xyz/logo/that's%2090s00s.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",that's 90s00s
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/n3xcsw.m3u8
+https://iptv.yang-1989.xyz/myTV/sw5abx.m3u8
 #EXTINF:-1 tvg-id="Concerto" tvg-name="Concerto" tvg-logo="https://iptv.yang-1989.xyz/logo/Concerto.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Concerto
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/sn2drr.m3u8
+https://iptv.yang-1989.xyz/myTV/atkb6m.m3u8
 #EXTINF:-1 tvg-id="TRACE Urban" tvg-name="TRACE Urban" tvg-logo="https://iptv.yang-1989.xyz/logo/TRACE%20Urban.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",TRACE Urban
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/tkkrme.m3u8
+https://iptv.yang-1989.xyz/myTV/xrdzrk.m3u8
 #EXTINF:-1 tvg-id="NewTV古裝劇場" tvg-name="NewTV 古装剧场" tvg-logo="https://iptv.yang-1989.xyz/logo/NewTV古装.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",NewTV 古装剧场
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8413d081b89c30a154190546aa9a3aae:7e671fe8f58adde998bd598402f99141
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/42t3hg.mpd
+https://iptv.yang-1989.xyz/myTV/d8qc75.mpd
 #EXTINF:-1 tvg-id="NewTV科教" tvg-name="NewTV 科教" tvg-logo="https://iptv.yang-1989.xyz/logo/NewTV科教.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",NewTV 科教
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=98e2cc4a310b3efb731b935f351364db:de1a0f214080baca0a3f63ee384e17b7
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/c6ejvj.mpd
+https://iptv.yang-1989.xyz/myTV/n4659y.mpd
 #EXTINF:-1 tvg-id="NewTV養生" tvg-name="NewTV 养生" tvg-logo="https://iptv.yang-1989.xyz/logo/NewTV養生.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",NewTV 养生
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ecfeb1656c27c777daa840a3f95bae4c:7579f8a86d20687f13a09174d0278f2b
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/a3jga8.mpd
+https://iptv.yang-1989.xyz/myTV/rpfn7j.mpd
 #EXTINF:-1 tvg-id="NewTV功夫" tvg-name="NewTV 功夫" tvg-logo="https://iptv.yang-1989.xyz/logo/NewTV功夫.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",NewTV 功夫
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d3bc816e5f79917c667c3cf3ab29d74f:64ea95796ef6fbb90050854a694b72fd
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/a4nusj.mpd
+https://iptv.yang-1989.xyz/myTV/gz6tax.mpd
 #EXTINF:-1 tvg-id="無線衛星新聞台" tvg-name="无线卫星新闻台" tvg-logo="https://iptv.yang-1989.xyz/logo/TVBS新聞.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",无线卫星新闻台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=73aaeb9e84db423627018017059e0f9d:34148a56250459383f7ef7369073bf39
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/s4mtpd.mpd
+https://iptv.yang-1989.xyz/myTV/6nc5mf.mpd
 #EXTINF:-1 tvg-id="亞洲新聞台" tvg-name="亚洲新闻台" tvg-logo="https://iptv.yang-1989.xyz/logo/CNA.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",亚洲新闻台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ddc7bb2603628134334919a0d7327d1d:a5fcd8bb852371faedd13b684f5adede
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/7wcgsm.mpd
+https://iptv.yang-1989.xyz/myTV/nwuh5n.mpd
 #EXTINF:-1 tvg-id="半島電視台英語頻道" tvg-name="半岛电视台英语频道" tvg-logo="https://iptv.yang-1989.xyz/logo/半島國際新聞台.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",半岛电视台英语频道
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=80c76105d3ae35dfe25f939d1fb83383:6d76e7ba039773bced47d78e6de4fcf0
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/yt7hn2.mpd
+https://iptv.yang-1989.xyz/myTV/u8jta4.mpd
 #EXTINF:-1 tvg-id="France 24" tvg-name="France 24" tvg-logo="https://iptv.yang-1989.xyz/logo/France%2024.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",France 24
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2d4f6b8755a918d2126a2ee78791cf0b:c392acc1a1a070d2bcdf518d99d88406
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/y4trdj.mpd
+https://iptv.yang-1989.xyz/myTV/3cvzx6.mpd
 #EXTINF:-1 tvg-id="DW" tvg-name="DW" tvg-logo="https://iptv.yang-1989.xyz/logo/DW.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",DW
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2bb557c09dfc01a27ab81778913f2a10:d00ca6eb9a83ffde846324109fb445ba
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/hmghzf.mpd
+https://iptv.yang-1989.xyz/myTV/7h9yur.mpd
 #EXTINF:-1 tvg-id="NHK World Japan" tvg-name="NHK World Japan" tvg-logo="https://iptv.yang-1989.xyz/logo/NHK%20World-Japan.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",NHK World Japan
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9c2ecde1c31185ab61ed4689b87ae332:54895a656e053a73b39882e7a56d642b
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/h8swqp.mpd
+https://iptv.yang-1989.xyz/myTV/7w7jau.mpd
 #EXTINF:-1 tvg-id="Arirang TV" tvg-name="Arirang TV" tvg-logo="https://iptv.yang-1989.xyz/logo/Arirang%20TV.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",Arirang TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3ae14e72f585eaf14b18d8d9515d43f:ce0e375c3966263877078aadd815742e
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/ae4rvq.mpd
+https://iptv.yang-1989.xyz/myTV/2trk8b.mpd
 #EXTINF:-1 tvg-id="NewsWorld" tvg-name="NewsWorld" tvg-logo="https://iptv.yang-1989.xyz/logo/NewsWorld.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",NewsWorld
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/r4bxgj.m3u8
+https://iptv.yang-1989.xyz/myTV/42zywg.m3u8
 #EXTINF:-1 tvg-id="The Indonesia Channel" tvg-name="The Indonesia Channel" tvg-logo="https://iptv.yang-1989.xyz/logo/The%20Indonesia%20Channel.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",The Indonesia Channel
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5423a982f9b417dad069478d71ea68c1:2e455eab6685c37ef443b1414c7332a5
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/24p2g3.mpd
+https://iptv.yang-1989.xyz/myTV/37j7he.mpd
 #EXTINF:-1 tvg-id="myTV SUPER直播足球2台" tvg-name="myTV SUPER直播足球2台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",myTV SUPER直播足球2台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=024f2733fb9afad23490149c601ce47c:034db34d56263c79c7f41448f2a6cfc1
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/qkzk3k.mpd
+https://iptv.yang-1989.xyz/myTV/be9hj4.mpd
 #EXTINF:-1 tvg-id="myTV SUPER直播足球3台" tvg-name="myTV SUPER直播足球3台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",myTV SUPER直播足球3台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=84f456002b780253dab5534e9713323c:65aeb769264f41037cec607813e91bae
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/jgphy7.mpd
+https://iptv.yang-1989.xyz/myTV/89zajj.mpd
 #EXTINF:-1 tvg-id="myTV SUPER直播足球4台" tvg-name="myTV SUPER直播足球4台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",myTV SUPER直播足球4台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=848d6d82c14ffd12adf4a7b49afdc978:3221125831a2f980139c34b35def3b0d
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/c4sx9v.mpd
+https://iptv.yang-1989.xyz/myTV/2ugg2p.mpd
 #EXTINF:-1 tvg-id="myTV SUPER直播足球5台" tvg-name="myTV SUPER直播足球5台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",myTV SUPER直播足球5台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=54700d7a381b80ae395a312e03a9abeb:7c68d289628867bf691b42e90a50d349
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/c5uutr.mpd
+https://iptv.yang-1989.xyz/myTV/tn7hjt.mpd
 #EXTINF:-1 tvg-id="myTV SUPER直播足球6台" tvg-name="myTV SUPER直播足球6台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",myTV SUPER直播足球6台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e069fc056280e4caa7d0ffb99024c05a:d3693103f232f28b4781bbc7e499c43a
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/6r85vd.mpd
+https://iptv.yang-1989.xyz/myTV/2a6dm9.mpd
 #EXTINF:-1 tvg-id="myTV SUPER直播足球7台" tvg-name="myTV SUPER直播足球7台" tvg-logo="https://iptv.yang-1989.xyz/logo/myTV%20SUPER.webp" group-title="港澳台" x-source-id="yang-mytv" x-source-name="myTV · 港澳",myTV SUPER直播足球7台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69a81a757b16a3d431d4365d81f07f07:292f2fdc2002e8346cd2c18af4a3a4bc
 #EXTVLCOPT:http-user-agent=okhttp/3.8.1
 #EXTHTTP:{"User-Agent":"okhttp/3.8.1"}
-https://iptv.yang-1989.xyz/myTV/kgv8hf.mpd
+https://iptv.yang-1989.xyz/myTV/c5q2nw.mpd
 #EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/香港卫视.png" group-title="港澳台" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",香港卫视
 http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
 #EXTINF:-1 tvg-id="香港卫视" tvg-name="香港卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/香港卫视.png" group-title="港澳台" x-source-id="guovin-ipv6" x-source-name="IPTV IPv6 · 需要 IPv6 网络",香港卫视
