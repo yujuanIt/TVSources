@@ -26138,6 +26138,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/bilibili/24326872",
       "enabled": "true"
+    },
+    "c_ce79bb10e871bedf9943a4ff": {
+      "name": "小辞炒糍粑",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1601605",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28140,7 +28147,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "61347b82bbfbacce3cd2abbe05110be0bb4ca51f7caa1f18df81cda3fb288a5d",
+      "sha256": "774541ca2b310be0f9efca9956c6b84b67312eec3cbce0c3e6571dce12779d4c",
       "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31386,7 +31393,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "08146286cd049f826d77ac5b0ffc31e4dd218ac812fc337fdf8264c7629d9391",
+      "sha256": "5a7ab4837182846ceffdf49819d9287396d635cc5ba545461503ec7d1e906b69",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36738,8 +36745,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f252a783834bbf8a4c9d5a2e25b5d3bd9e53104defe3cc4895d0908b4732b16c",
-      "routes": 553,
+      "sha256": "3262e7c6439e191208d66960f179e65839b1242a9d78009dba62c7f89aa8b2dc",
+      "routes": 424,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51674,6 +51681,12 @@
           "name": "白柯（三角洲行动）",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "c65c0153fb8bc7799d035d35bc45ff56f423a9239391472e39425afaf6da0aed": {
+          "channel": "c_ce79bb10e871bedf9943a4ff",
+          "name": "小辞炒糍粑",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
         }
       }
     },
