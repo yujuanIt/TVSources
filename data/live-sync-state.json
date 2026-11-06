@@ -26187,6 +26187,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/323879770",
       "enabled": "true"
+    },
+    "c_a34a8509be83c2f87a172673": {
+      "name": "九儿📿～",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/56974099543",
+      "enabled": "true"
+    },
+    "c_831d0d449af0526ee6a06deb": {
+      "name": "탱탱혠이",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/hopedddd",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28189,7 +28203,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "bd61438558d320f4d9e82a74cfc2abcc790755f9a4cc1f769061b6e66a89ddcb",
+      "sha256": "04499d65071b7fe7620a0ab10ad2a8e25df669edd6f15bdd69c66279bd51f966",
       "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31435,7 +31449,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "5a7ab4837182846ceffdf49819d9287396d635cc5ba545461503ec7d1e906b69",
+      "sha256": "2e686d7110e4cbb9384dc8cf6ee936e03ae4818d5603b65e02bc113476f06d23",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36787,8 +36801,8 @@
       }
     },
     "yang-network": {
-      "sha256": "d88ad08dab2107734c2be8cec132e518f94b505f1154f98f58b57d0f72e4fbdc",
-      "routes": 562,
+      "sha256": "f854a3f932c8d83a47f7034664e9bbd2e3bac2c5f4b998df4d09806389c4871b",
+      "routes": 438,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51777,6 +51791,24 @@
           "name": "苏州大洋哥赣榆人（大润房产）",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "8dcf2df7fea05c77b135a7446e61205eae0865d98a04c3af937ec25eaf7aa0b2": {
+          "channel": "c_a34a8509be83c2f87a172673",
+          "name": "九儿📿～",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d926ab6e68acb8817c3838aff385a07b36dd35c5955e52f3c27efb796b778d16": {
+          "channel": "c_2f48f9951f111dcb9d31f2b7",
+          "name": "南南（梦想舞团）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f4fac35c2552bbc0545fa262576783afc1b113622027352826f25541f2a6ab88": {
+          "channel": "c_831d0d449af0526ee6a06deb",
+          "name": "탱탱혠이",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
         }
       }
     },
