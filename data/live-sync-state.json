@@ -26201,6 +26201,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/soop/hopedddd",
       "enabled": "true"
+    },
+    "c_03a5c222cb5362ef5dd60771": {
+      "name": "天元邓刚 11.7早9点伯希和双11大场",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/TYDG2019",
+      "enabled": "true"
+    },
+    "c_15f8898ed9e1616cf155e2e2": {
+      "name": "小菜",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/51460888935",
+      "enabled": "true"
+    },
+    "c_031a7ca84f078dffff24a481": {
+      "name": "牛牛茉莉环游记（浪迹天涯版）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/40076672682",
+      "enabled": "true"
+    },
+    "c_06742b479873b57694561528": {
+      "name": "yulingverna10.23洛杉矶庆",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/_yuling.verna_",
+      "enabled": "true"
+    },
+    "c_c258a3b32a005a5b0c85e8c2": {
+      "name": "泰山晚报",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/146799565997",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -32049,7 +32084,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "508bf1810a80444051725afbc4e2c612ec393f50e0615ddbc5dd38aa2792dabb",
+      "sha256": "02fcfb34487600f2a1c4a4a680e4113e0dca52abe4f52a74a5fac8347353f567",
       "routes": 155,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36801,8 +36836,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f854a3f932c8d83a47f7034664e9bbd2e3bac2c5f4b998df4d09806389c4871b",
-      "routes": 438,
+      "sha256": "10925faaaf02606b3d37449dd936f67a8f128a3d6206f4f050400c511e094cc8",
+      "routes": 559,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51809,6 +51844,54 @@
           "name": "탱탱혠이",
           "tvgId": "",
           "group": "•SOOP「娱乐」"
+        },
+        "c4b08513ee681f5ff32492c647a5ed6364a060948e69d6dfc338f864ccab285e": {
+          "channel": "c_dec00a09b707c54668b974a5",
+          "name": "Pang Di⛰️",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "1f95d664516027849d2cf37aaa3accebb589f130319738f28e4777fda7fee695": {
+          "channel": "c_03a5c222cb5362ef5dd60771",
+          "name": "天元邓刚 11.7早9点伯希和双11大场",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f84fc0a8944186eddbb8cc60caf4838384915edb24b9d950754034da98efa9eb": {
+          "channel": "c_15f8898ed9e1616cf155e2e2",
+          "name": "小菜",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "bae9ecd7cafb4a78c505d40ba1832710edfcb515d21e637bae1aee153df2a2cf": {
+          "channel": "c_4616c17e5731b4a6dc3eed28",
+          "name": "小阿典ardia",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c9ea5823c1887f22685f35d56e1bfdf2f40614e0b9b6989f1938b8c7a188405d": {
+          "channel": "c_031a7ca84f078dffff24a481",
+          "name": "牛牛茉莉环游记（浪迹天涯版）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ac50baad1149b2ccc86a9e160627c05457f9c58eef8f165a285686d773f465c1": {
+          "channel": "c_06742b479873b57694561528",
+          "name": "yulingverna10.23洛杉矶庆",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "86ae575d1ae05001ea9f73fea347988bd631448b1cc3cf321a2cb7543fcdf497": {
+          "channel": "c_c258a3b32a005a5b0c85e8c2",
+          "name": "泰山晚报",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "beb13c78ec843c5da4ebdda38360a565aed2e2358c8613f73700baadeac0dc5d": {
+          "channel": "c_04f2e9ba3197e49cec94c5fd",
+          "name": "燃舞蹈-Replay🥟",
+          "tvgId": "",
+          "group": "•歪歪「其他」"
         }
       }
     },
