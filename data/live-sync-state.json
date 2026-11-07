@@ -26278,6 +26278,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/huya/881735",
       "enabled": "true"
+    },
+    "c_e8174b45560664719ec497fb": {
+      "name": "LoL Esports Taiwan",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/lolesportstw",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -36878,8 +36885,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f1c83cfb0d8d667ad2c4bf8194776a4b0ca3a047aa764e6ff32faa6a508532f0",
-      "routes": 586,
+      "sha256": "54fa5b57bbda6145374a291358ae4c1a142dfa4e2b1c1b77e6258d16f1dd9030",
+      "routes": 376,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51994,6 +52001,12 @@
           "name": "Ame111",
           "tvgId": "",
           "group": "•虎牙「游戏」"
+        },
+        "f6ff7cef7cc9959b21bae8880236830d97c552b153af87e3376a12382cd9649d": {
+          "channel": "c_e8174b45560664719ec497fb",
+          "name": "LoL Esports Taiwan",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
         }
       }
     },
