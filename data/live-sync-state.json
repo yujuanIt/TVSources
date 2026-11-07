@@ -26236,6 +26236,48 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/146799565997",
       "enabled": "true"
+    },
+    "c_4f58a4a9f781d60db3ea00cc": {
+      "name": "一个blibli账号",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1734608488",
+      "enabled": "true"
+    },
+    "c_24b4f84654ee3773b09ef926": {
+      "name": "卢阿英",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1477488318",
+      "enabled": "true"
+    },
+    "c_149ded061718e1eae78f9c71": {
+      "name": "婷婷唱不停",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/51999252746",
+      "enabled": "true"
+    },
+    "c_8e0cad164b66f7c52df86a08": {
+      "name": "绮梦",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/41357423365",
+      "enabled": "true"
+    },
+    "c_8cd9f328c7994fa8a141e82d": {
+      "name": "露露姐",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/11601964",
+      "enabled": "true"
+    },
+    "c_4405052fbb282e492704d1a9": {
+      "name": "Ame111",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/881735",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28238,7 +28280,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "04499d65071b7fe7620a0ab10ad2a8e25df669edd6f15bdd69c66279bd51f966",
+      "sha256": "c96bbecef55537ef171828e96cecaf53da43eb664c3bebc8feb49a74419d0c56",
       "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31484,7 +31526,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "2e686d7110e4cbb9384dc8cf6ee936e03ae4818d5603b65e02bc113476f06d23",
+      "sha256": "1ae5912ce9f63dcffca587bb5d7aba7fb96004f8043efdd155722bc1c8c609b6",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36836,8 +36878,8 @@
       }
     },
     "yang-network": {
-      "sha256": "10925faaaf02606b3d37449dd936f67a8f128a3d6206f4f050400c511e094cc8",
-      "routes": 559,
+      "sha256": "f1c83cfb0d8d667ad2c4bf8194776a4b0ca3a047aa764e6ff32faa6a508532f0",
+      "routes": 586,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -51892,6 +51934,66 @@
           "name": "燃舞蹈-Replay🥟",
           "tvgId": "",
           "group": "•歪歪「其他」"
+        },
+        "23973ee017e94180285361a73e039a936e7283cb14465e8da3ef06dce5b35fa8": {
+          "channel": "c_4f58a4a9f781d60db3ea00cc",
+          "name": "一个blibli账号",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "259581384f4126f62069cd1e39b14f429211f2f4b058df94745e359c20cd58ee": {
+          "channel": "c_7978d2c6317af01e87e99f3f",
+          "name": "奶油-cream-",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "6c3aab3dadaf8cbadac6c895d8f428438a0faec0d9c73e89eb64abdd08b36f2c": {
+          "channel": "c_24b4f84654ee3773b09ef926",
+          "name": "卢阿英",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ab3c70e19d37f305d6ca5aaf8bd4c88d6432621cba339f2dffa05ba7f9359528": {
+          "channel": "c_149ded061718e1eae78f9c71",
+          "name": "婷婷唱不停",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "4bf6786dcbd70ec165f96567914b03483b45e0d6c51c4b457e69fea203a6e325": {
+          "channel": "c_8e0cad164b66f7c52df86a08",
+          "name": "绮梦",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "4aa4fa7a2dfa165766d3797015dc546d939c76ade7fdd8b20d1325897b6db9e2": {
+          "channel": "c_c7891298f340ecda0242cfe2",
+          "name": "鹅大王OvO11.17生日版🪿",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d3651f4ada9e019f2c7979bf711b39620624b3d66d9934acb94c88e3dec809fe": {
+          "channel": "c_8cd9f328c7994fa8a141e82d",
+          "name": "露露姐",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "4a3ce3ce25afbb9bb87b6cee59fc6c654a2d8062d698b94a738740d361626de8": {
+          "channel": "c_761e9b25beee3f92a1c666f7",
+          "name": "314星妹妹m【21-01播】",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "38978aa07d9eaae1bc98a89d34fc0ca8dc49d92c36be83ad89cfe053d36af4a9": {
+          "channel": "c_d793f3afa92b22ffe6ae8790",
+          "name": "江东（区一项羽）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "affdfa1d89ef4642bb3b4c348e11dce5cd456fc1aacd3c15e5f5f493a8f40d24": {
+          "channel": "c_4405052fbb282e492704d1a9",
+          "name": "Ame111",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
         }
       }
     },

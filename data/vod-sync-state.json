@@ -196,10 +196,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": {
-        "v2": "1",
-        "deviceId": "6dc66339e1314f88"
-      },
       "enabled": true,
       "context": "fantaiying",
       "origin": {
@@ -452,7 +448,7 @@
     },
     "8b15ed31634e6532d93c24fac97152d7": {
       "key": "AiDj",
-      "name": "❤️AI┃短漫剧",
+      "name": "❤️AI剧┃弹幕",
       "type": 3,
       "api": "csp_AiDjGuard",
       "ext": {
@@ -8739,7 +8735,7 @@
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/8057468f8f30ba79c6dbbeb7fc1a052e.jpg;md5;b3fb6f369726e9c688dd5a7ad017d0dd",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/465261b2a8e5940658201e5029b7b4e4.jpg;md5;5efc6505e4e2b151e1610012dd757506",
       "rules": [
         {
           "name": "cdn.ryplay",
