@@ -26327,6 +26327,62 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/Kiaraakitty",
       "enabled": "true"
+    },
+    "c_5d0a966859204af4fb3888e3": {
+      "name": "土豆（承方持正网络）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/bdm1774203313",
+      "enabled": "true"
+    },
+    "c_96fce9b61d1628b51d723e56": {
+      "name": "观赏（盼之app）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/S01101y",
+      "enabled": "true"
+    },
+    "c_cd42ccbd3eacd8734b862517": {
+      "name": "하니니",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/bumzi98",
+      "enabled": "true"
+    },
+    "c_0955a1002056af33a9d9777f": {
+      "name": "후잉,,",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/jaeha010",
+      "enabled": "true"
+    },
+    "c_e613ce22f9d951a0c2f6a88f": {
+      "name": "雪羽娅露露",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/isyourlulu",
+      "enabled": "true"
+    },
+    "c_89d539ae632ac720759cf2d6": {
+      "name": "waywardzz",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1919216529",
+      "enabled": "true"
+    },
+    "c_36c7338ed11feefa47bae1ac": {
+      "name": "AY（国服芈月）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/My763519799",
+      "enabled": "true"
+    },
+    "c_c213b802c58107c5fdeba020": {
+      "name": "彡彡九户外",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/485503",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28329,7 +28385,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "c96bbecef55537ef171828e96cecaf53da43eb664c3bebc8feb49a74419d0c56",
+      "sha256": "5350851fbee280e1fa6454929ca868fe452d250224b1660761b5880e51fcaa81",
       "routes": 343,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31575,7 +31631,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "1ae5912ce9f63dcffca587bb5d7aba7fb96004f8043efdd155722bc1c8c609b6",
+      "sha256": "442636f1d6326d53c3135bb9244ad436be5f40bbc20678df169fd7402e68e589",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36927,8 +36983,8 @@
       }
     },
     "yang-network": {
-      "sha256": "e110123a45fca684a84a6189ade8b68be281ae030c567caa275b9ef608f46628",
-      "routes": 554,
+      "sha256": "1f36e902fa6815bb620c67804359d34d0e6c428ce33b47718b8670106609aa07",
+      "routes": 590,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52103,6 +52159,54 @@
           "name": "Kiaraakitty",
           "tvgId": "",
           "group": "•Twitch「游戏」"
+        },
+        "2a280cb53a1594bb5bde92bfc71d1544805d7d7f4778aa60765aa58555b9663e": {
+          "channel": "c_5d0a966859204af4fb3888e3",
+          "name": "土豆（承方持正网络）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f28fe8ea6ccebe400cf4062b5f10fad23b1d18ab73bdfe4c561a97a352e9eac0": {
+          "channel": "c_96fce9b61d1628b51d723e56",
+          "name": "观赏（盼之app）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "809a42decb23eecb1c640ba0b63f42d2432806354646e3aff200e05e2cdf1854": {
+          "channel": "c_cd42ccbd3eacd8734b862517",
+          "name": "하니니",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "8686b89b4418dd17a95cb30d0a2dca923d707152cc23946703843c8ead9e1692": {
+          "channel": "c_0955a1002056af33a9d9777f",
+          "name": "후잉,,",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "371d2d8c8f12b9e92fa8733fe9b88c4fd5178bd37072b9c25adcb4ec50263966": {
+          "channel": "c_e613ce22f9d951a0c2f6a88f",
+          "name": "雪羽婭露露",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "d35289dd393b224c6f245264cfe4cb9b9fd77f2e459bf8221016c22232ba8430": {
+          "channel": "c_89d539ae632ac720759cf2d6",
+          "name": "waywardzz",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "5e4a165b1b2a6beb82c15c7e7be773c36382a737764e9e0284fa37271798ef69": {
+          "channel": "c_36c7338ed11feefa47bae1ac",
+          "name": "AY（国服芈月）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "3e845c7306cdb88099b4eab459d99b2d314cecc7d584fb936e4ac0a27a597ee0": {
+          "channel": "c_c213b802c58107c5fdeba020",
+          "name": "彡彡九户外",
+          "tvgId": "",
+          "group": "•虎牙「其他」"
         }
       }
     },
