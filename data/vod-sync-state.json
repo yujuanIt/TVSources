@@ -3,7 +3,7 @@
   "sites": {
     "2e7b5924e3c0575448e7251ab7dccf54": {
       "key": "点我切源",
-      "name": "豆豆┃片单<兼容安卓4>",
+      "name": "豆豆┃片单 <兼容安卓4>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -8732,7 +8732,7 @@
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/e110f041d25706786d0ce3f8a16fff60.jpg;md5;4b4a449e69b2d10943d3930cc8c3c9a4",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/937f5abf1c7c4ff2f170d835c5c46c21.jpg;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a",
       "rules": [
         {
           "name": "cdn.ryplay",

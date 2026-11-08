@@ -26285,6 +26285,48 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/lolesportstw",
       "enabled": "true"
+    },
+    "c_8ec31ae1155f1b12e2875d2e": {
+      "name": "刘俊朗",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/2652387",
+      "enabled": "true"
+    },
+    "c_af31d9da02165cd052ef4a2f": {
+      "name": "起个名字难死了T_T",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1893016012",
+      "enabled": "true"
+    },
+    "c_a7804283067e8dc007cc7791": {
+      "name": "晋哥讲象棋",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/xiangqixiehu",
+      "enabled": "true"
+    },
+    "c_7a31fe57dbeb8e28539a4b70": {
+      "name": "李振（11.25生日版）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/183201860355",
+      "enabled": "true"
+    },
+    "c_19842696b7fa5511ca22e78c": {
+      "name": "高子巷（Michael首席义子）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Gzx20010822",
+      "enabled": "true"
+    },
+    "c_4bb70f4529f170eeeccf2f14": {
+      "name": "Kiaraakitty",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/Kiaraakitty",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -32133,7 +32175,7 @@
       }
     },
     "yang-sports": {
-      "sha256": "02fcfb34487600f2a1c4a4a680e4113e0dca52abe4f52a74a5fac8347353f567",
+      "sha256": "b3a3a01b94c2ffed9d3845e71deffb139d70310bffb012b19060eeb8687626dc",
       "routes": 155,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -36885,8 +36927,8 @@
       }
     },
     "yang-network": {
-      "sha256": "54fa5b57bbda6145374a291358ae4c1a142dfa4e2b1c1b77e6258d16f1dd9030",
-      "routes": 376,
+      "sha256": "e110123a45fca684a84a6189ade8b68be281ae030c567caa275b9ef608f46628",
+      "routes": 554,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52007,6 +52049,60 @@
           "name": "LoL Esports Taiwan",
           "tvgId": "",
           "group": "•Twitch「娱乐」"
+        },
+        "92edfb795f6cbb845a591b941acb44742117cfa6b9a848ebf06373d9bcca0692": {
+          "channel": "c_8ec31ae1155f1b12e2875d2e",
+          "name": "劉俊朗",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "0651cf31f6f20abe650432d996a0dfded4d85766faa6649c3c21775691e798b6": {
+          "channel": "c_af31d9da02165cd052ef4a2f",
+          "name": "起个名字难死了T_T",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "f4221fbbe488c38d0954aa12557f5f041b0c3ae9023c01b4bd78512c48fb5396": {
+          "channel": "c_924e6c8107753b9ae687e0ce",
+          "name": "SK云江277",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "6c52dd10df07dedaa33d1b3772a952dfdd125e6cb91a67568b030642d2b846ea": {
+          "channel": "c_a7804283067e8dc007cc7791",
+          "name": "晋哥讲象棋",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "cf8c2a0aa18a7a893ff84221b563430d61eed1744070d623cd5c6937815be5e0": {
+          "channel": "c_f0e368104ddcb0a590069339",
+          "name": "到期版-泡泡",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "1a0a06a72a9e52cfd8ec8c80ec8e079f6a2d506e4db65e2496dba398675f6f4a": {
+          "channel": "c_185a6e6c89c0fdf0c666f692",
+          "name": "忘忧风草",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "0e82449c5bafbf9d21b8913912ab9e5e90330b08d1f62d5d67fbd7f41d42f988": {
+          "channel": "c_7a31fe57dbeb8e28539a4b70",
+          "name": "李振（11.25生日版）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "e2ef354f2fd3d11662cb5a8ac64ff7658dbbf440c26e805f01e325ece7e86f21": {
+          "channel": "c_19842696b7fa5511ca22e78c",
+          "name": "高子巷（Michael首席义子）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "93e8766fce5e731ee0fe605247167b77ea43fecc95362047d2d4e0363db78a1c": {
+          "channel": "c_4bb70f4529f170eeeccf2f14",
+          "name": "Kiaraakitty",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
         }
       }
     },
