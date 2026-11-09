@@ -26418,6 +26418,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/52147204",
       "enabled": "true"
+    },
+    "c_2fc4a61442166f7633926eda": {
+      "name": "红茶妹妹",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/11336592",
+      "enabled": "true"
+    },
+    "c_0211d591e47cd088322b40ea": {
+      "name": "Adapt",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/adapt",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28420,8 +28434,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "5350851fbee280e1fa6454929ca868fe452d250224b1660761b5880e51fcaa81",
-      "routes": 343,
+      "sha256": "d7df9ba41049fa0bafc31cb3562d875f3d17d8f2a0de67678cfd5c8b3f07a2a7",
+      "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -31666,7 +31680,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "442636f1d6326d53c3135bb9244ad436be5f40bbc20678df169fd7402e68e589",
+      "sha256": "e12eea8d120d685045223315288da7d2fb6a8db2fa55a48d765b26049050c888",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37018,8 +37032,8 @@
       }
     },
     "yang-network": {
-      "sha256": "53b4f4099e8ee4b49208195f2d161d2f8d792548615da3115b2e2bb44cdac6f4",
-      "routes": 535,
+      "sha256": "cdf6535bcd49ffc7ed1f998970df87f304eb9b984af94433c8ba902a322670c7",
+      "routes": 350,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52278,6 +52292,18 @@
           "name": "简心（国服婉儿）",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "311510a4ad7be67dab7119156b613d1816afb96083bfdf87efa9c6372a4f2940": {
+          "channel": "c_2fc4a61442166f7633926eda",
+          "name": "红茶妹妹",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "fa15c77278948ee1a682293cddd3b8a1c07e63059e89af5595c3d9740868be5c": {
+          "channel": "c_0211d591e47cd088322b40ea",
+          "name": "Adapt",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
         }
       }
     },

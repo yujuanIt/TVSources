@@ -8730,6 +8730,40 @@
         "key": "py_yangshipin"
       },
       "_syncId": "b6897134d8d37f16e63a82ee44a26a39"
+    },
+    "15b128c9162ee5ff357c124c60bb78d0": {
+      "key": "py_Asyouwish",
+      "name": "如意[py]",
+      "type": 3,
+      "api": "https://clun.top/py/ruyishipin.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "enabled": true,
+      "context": "clun",
+      "origin": {
+        "source": "clun",
+        "name": "Clun在线",
+        "url": "https://clun.top/box.json",
+        "key": "py_Asyouwish"
+      },
+      "_syncId": "15b128c9162ee5ff357c124c60bb78d0"
+    },
+    "bb4ed16ae3dc16b94b296d02c8f32709": {
+      "key": "py_pufferfish",
+      "name": "河豚[py]",
+      "type": 3,
+      "api": "https://clun.top/py/pufferfish.py",
+      "searchable": 1,
+      "enabled": true,
+      "context": "clun",
+      "origin": {
+        "source": "clun",
+        "name": "Clun在线",
+        "url": "https://clun.top/box.json",
+        "key": "py_pufferfish"
+      },
+      "_syncId": "bb4ed16ae3dc16b94b296d02c8f32709"
     }
   },
   "contexts": {
