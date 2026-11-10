@@ -26467,6 +26467,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/soop/loltw",
       "enabled": "true"
+    },
+    "c_1ea8aa6adb47e00ef1aec1ff": {
+      "name": "Zeus",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/zeus",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28469,7 +28476,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "d7df9ba41049fa0bafc31cb3562d875f3d17d8f2a0de67678cfd5c8b3f07a2a7",
+      "sha256": "a36d89837754df71991ef62a40777d29fabadd4c619359c709f0172e4f99fa72",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31715,7 +31722,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "e12eea8d120d685045223315288da7d2fb6a8db2fa55a48d765b26049050c888",
+      "sha256": "aeeff5d9c270d392c869d469dbec4af9bef13d0df821407bfe4f6de16effbb3e",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37067,8 +37074,8 @@
       }
     },
     "yang-network": {
-      "sha256": "1c209fcf0a644a8317f57bfed36a7377a8edecff4b75142b7064d261b4e9c33f",
-      "routes": 554,
+      "sha256": "1b98ae8a34be04c383992530dbc5521a45df243116a4e367040556d76ba9e1b2",
+      "routes": 404,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52381,6 +52388,18 @@
           "name": "loltw",
           "tvgId": "",
           "group": "•SOOP「娱乐」"
+        },
+        "fe6003552e300c630ea1544d00b423c41b444821acaee40cfdb98a56fbd0e879": {
+          "channel": "c_7cd798fcc072ba1fba7e0746",
+          "name": "才羽桃cr（连弩20-0）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "4de86b6fe110dd3f88797c2561815d2f486fb255c24f0fc003bdea503206e06b": {
+          "channel": "c_1ea8aa6adb47e00ef1aec1ff",
+          "name": "Zeus",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
         }
       }
     },
