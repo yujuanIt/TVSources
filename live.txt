@@ -7,7 +7,7 @@ CCTV-1 综合,http://198.204.228.26/live/cctv1hd.m3u8
 CCTV-1 综合,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV-1 综合,rtp://239.3.1.129:8008
 CCTV-1 综合,https://migu.yang-1989.xyz/ysp/whbejd.m3u8
-CCTV-1 综合,https://iptv.yang-1989.xyz/cn/ny8nxw.m3u8
+CCTV-1 综合,https://iptv.yang-1989.xyz/cn/m5dcu4.m3u8
 CCTV-1 综合,https://php.jdshipin.com/TVOD/iptv.php?id=cctv1
 CCTV-1 综合,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 CCTV-1 综合,https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
@@ -25,7 +25,7 @@ CCTV-2 财经,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88
 CCTV-2 财经,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226540/index.m3u8
 CCTV-2 财经,rtp://239.3.1.60:8084
 CCTV-2 财经,https://migu.yang-1989.xyz/ysp/yh7g5a.m3u8
-CCTV-2 财经,https://iptv.yang-1989.xyz/cn/ja7b8z.m3u8
+CCTV-2 财经,https://iptv.yang-1989.xyz/cn/hhnsk7.m3u8
 CCTV-2 财经,https://php.jdshipin.com/TVOD/iptv.php?id=cctv2
 CCTV-2 财经,http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
 CCTV-2 财经,https://zby.130519.xyz/PLTV/11/224/3221226122/index.m3u8
@@ -39,7 +39,7 @@ CCTV-3 综艺,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/888
 CCTV-3 综艺,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
 CCTV-3 综艺,rtp://239.3.1.172:8001
 CCTV-3 综艺,https://migu.yang-1989.xyz/ysp/jscxqa.m3u8
-CCTV-3 综艺,https://iptv.yang-1989.xyz/cn/ywrazz.m3u8
+CCTV-3 综艺,https://iptv.yang-1989.xyz/cn/m4uzzt.m3u8
 CCTV-3 综艺,https://php.jdshipin.com/TVOD/iptv.php?id=cctv3
 CCTV-3 综艺,http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
 CCTV-3 综艺,https://zby.130519.xyz/PLTV/11/224/3221225766/index.m3u8
@@ -54,7 +54,7 @@ CCTV-4 中文国际,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PL
 CCTV-4 中文国际,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226007/index.m3u8
 CCTV-4 中文国际,rtp://239.3.1.105:8092
 CCTV-4 中文国际,https://migu.yang-1989.xyz/ysp/8xz4fj.m3u8
-CCTV-4 中文国际,https://iptv.yang-1989.xyz/cn/mm6zkb.m3u8
+CCTV-4 中文国际,https://iptv.yang-1989.xyz/cn/fjkbj8.m3u8
 CCTV-4 中文国际,https://php.jdshipin.com/TVOD/iptv.php?id=cctv4
 CCTV-4 中文国际,http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 CCTV-4 中文国际,https://zby.130519.xyz/PLTV/11/224/3221226124/index.m3u8
@@ -73,7 +73,7 @@ CCTV-5 体育,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88
 CCTV-5 体育,https://migu.188766.xyz/?migutoken=3803480da7c3ee6e07115f4bb5827c0d&id=CCTV5&type=yy
 CCTV-5 体育,rtp://239.3.1.173:8001
 CCTV-5 体育,https://migu.yang-1989.xyz/ysp/re7hf3.m3u8
-CCTV-5 体育,https://iptv.yang-1989.xyz/cn/ghmrfx.m3u8
+CCTV-5 体育,https://iptv.yang-1989.xyz/cn/cjamz6.m3u8
 CCTV-5 体育,https://cdn.qd.je/163189/cctv5
 CCTV-5 体育,https://cdn.qd.je/163189/cctv5-2
 CCTV-5+ 体育赛事,https://www.yangshipin.cn/tv/home?pid=600001817&cnlid=2024078001&defn=fhd
@@ -88,7 +88,7 @@ CCTV-5+ 体育赛事,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/
 CCTV-5+ 体育赛事,https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 CCTV-5+ 体育赛事,rtp://239.3.1.130:8004
 CCTV-5+ 体育赛事,https://migu.yang-1989.xyz/ysp/4837ak.m3u8
-CCTV-5+ 体育赛事,https://iptv.yang-1989.xyz/cn/nk4v6e.m3u8
+CCTV-5+ 体育赛事,https://iptv.yang-1989.xyz/cn/tpb4mn.m3u8
 CCTV-5+ 体育赛事,https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
 CCTV-5+ 体育赛事,https://cdn.qd.je/163189/cctv5p-2
 CCTV-6 电影,https://www.yangshipin.cn/tv/home?pid=600108442&cnlid=2013693901&defn=fhd
@@ -101,7 +101,7 @@ CCTV-6 电影,https://hls-gateway.vpstv.net/streams/709554.m3u8
 CCTV-6 电影,https://hls-gateway.vpstv.net/streams/476890.m3u8
 CCTV-6 电影,rtp://239.3.1.174:8001
 CCTV-6 电影,https://migu.yang-1989.xyz/ysp/c3ayzu.m3u8
-CCTV-6 电影,https://iptv.yang-1989.xyz/cn/7ezh48.m3u8
+CCTV-6 电影,https://iptv.yang-1989.xyz/cn/w2xckt.m3u8
 CCTV-6 电影,https://php.jdshipin.com/TVOD/iptv.php?id=cctv6
 CCTV-6 电影,http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
 CCTV-6 电影,https://zby.130519.xyz/PLTV/11/224/3221225741/index.m3u8
@@ -115,7 +115,7 @@ CCTV-7 国防军事,http://107.150.60.122/live/cctv7hd.m3u8
 CCTV-7 国防军事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?
 CCTV-7 国防军事,rtp://239.3.1.61:8104
 CCTV-7 国防军事,https://migu.yang-1989.xyz/ysp/wvh45v.m3u8
-CCTV-7 国防军事,https://iptv.yang-1989.xyz/cn/82eqpk.m3u8
+CCTV-7 国防军事,https://iptv.yang-1989.xyz/cn/gqdjf2.m3u8
 CCTV-7 国防军事,https://php.jdshipin.com/TVOD/iptv.php?id=cctv7
 CCTV-7 国防军事,http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
 CCTV-7 国防军事,https://zby.130519.xyz/PLTV/11/224/3221225701/index.m3u8
@@ -131,7 +131,7 @@ CCTV-8 电视剧,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/
 CCTV-8 电视剧,http://74.91.26.218:82/live/cctv8hd.m3u8
 CCTV-8 电视剧,rtp://239.3.1.175:8001
 CCTV-8 电视剧,https://migu.yang-1989.xyz/ysp/rmptnd.m3u8
-CCTV-8 电视剧,https://iptv.yang-1989.xyz/cn/djkcxz.m3u8
+CCTV-8 电视剧,https://iptv.yang-1989.xyz/cn/jc6y27.m3u8
 CCTV-8 电视剧,https://php.jdshipin.com/TVOD/iptv.php?id=cctv8
 CCTV-8 电视剧,http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
 CCTV-8 电视剧,https://zby.130519.xyz/PLTV/11/224/3221225736/index.m3u8
@@ -147,7 +147,7 @@ CCTV-9 纪录,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/888
 CCTV-9 纪录,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
 CCTV-9 纪录,rtp://239.3.1.62:8112
 CCTV-9 纪录,https://migu.yang-1989.xyz/ysp/q9xcr6.m3u8
-CCTV-9 纪录,https://iptv.yang-1989.xyz/cn/77u3ku.m3u8
+CCTV-9 纪录,https://iptv.yang-1989.xyz/cn/st7kmm.m3u8
 CCTV-9 纪录,https://php.jdshipin.com/TVOD/iptv.php?id=cctv9
 CCTV-9 纪录,https://xykt-fix.github.io/Y77.m3u8
 CCTV-9 纪录,http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
@@ -161,7 +161,7 @@ CCTV-10 科教,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/8
 CCTV-10 科教,http://74.91.26.218:82/live/cctv10hd.m3u8
 CCTV-10 科教,rtp://239.3.1.63:8116
 CCTV-10 科教,https://migu.yang-1989.xyz/ysp/uemrgw.m3u8
-CCTV-10 科教,https://iptv.yang-1989.xyz/cn/vh6xz5.m3u8
+CCTV-10 科教,https://iptv.yang-1989.xyz/cn/xyd234.m3u8
 CCTV-10 科教,https://php.jdshipin.com/TVOD/iptv.php?id=cctv10
 CCTV-10 科教,http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
 CCTV-10 科教,https://zby.130519.xyz/PLTV/11/224/3221225743/index.m3u8
@@ -176,7 +176,7 @@ CCTV-11 戏曲,https://xykt-fix.github.io/play/a02b/index.m3u8
 CCTV-11 戏曲,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8?
 CCTV-11 戏曲,rtp://239.3.1.152:8120
 CCTV-11 戏曲,https://migu.yang-1989.xyz/ysp/cz2za3.m3u8
-CCTV-11 戏曲,https://iptv.yang-1989.xyz/cn/3n4wd5.m3u8
+CCTV-11 戏曲,https://iptv.yang-1989.xyz/cn/cv3k3g.m3u8
 CCTV-11 戏曲,https://php.jdshipin.com/TVOD/iptv.php?id=cctv11
 CCTV-11 戏曲,http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
 CCTV-11 戏曲,https://zby.130519.xyz/PLTV/11/224/3221226101/index.m3u8
@@ -191,7 +191,7 @@ CCTV-12 社会与法,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 CCTV-12 社会与法,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
 CCTV-12 社会与法,rtp://239.3.1.64:8124
 CCTV-12 社会与法,https://migu.yang-1989.xyz/ysp/vc59fw.m3u8
-CCTV-12 社会与法,https://iptv.yang-1989.xyz/cn/f7wt2j.m3u8
+CCTV-12 社会与法,https://iptv.yang-1989.xyz/cn/6m3bqv.m3u8
 CCTV-12 社会与法,https://php.jdshipin.com/TVOD/iptv.php?id=cctv12
 CCTV-12 社会与法,http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
 CCTV-12 社会与法,https://zby.130519.xyz/PLTV/11/224/3221226103/index.m3u8
@@ -207,7 +207,7 @@ CCTV-13 新闻,https://hls-gateway.vpstv.net/streams/476899.m3u8
 CCTV-13 新闻,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?
 CCTV-13 新闻,rtp://239.3.1.124:8128
 CCTV-13 新闻,https://migu.yang-1989.xyz/ysp/fa2cux.m3u8
-CCTV-13 新闻,https://iptv.yang-1989.xyz/cn/kkctud.m3u8
+CCTV-13 新闻,https://iptv.yang-1989.xyz/cn/bsyysk.m3u8
 CCTV-13 新闻,https://php.jdshipin.com/TVOD/iptv.php?id=cctv13
 CCTV-13 新闻,https://cdn.qd.je/163189/cctv13-2
 CCTV-13 新闻,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
@@ -222,7 +222,7 @@ CCTV-14 少儿,https://hls-gateway.vpstv.net/streams/476900.m3u8
 CCTV-14 少儿,http://74.91.26.218:82/live/cctv14hd.m3u8
 CCTV-14 少儿,rtp://239.3.1.65:8132
 CCTV-14 少儿,https://migu.yang-1989.xyz/ysp/aecrze.m3u8
-CCTV-14 少儿,https://iptv.yang-1989.xyz/cn/ejj9k7.m3u8
+CCTV-14 少儿,https://iptv.yang-1989.xyz/cn/ws4nnw.m3u8
 CCTV-14 少儿,https://php.jdshipin.com/TVOD/iptv.php?id=cctv14
 CCTV-14 少儿,http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
 CCTV-14 少儿,https://zby.130519.xyz/PLTV/11/224/3221225738/index.m3u8
@@ -240,7 +240,7 @@ CCTV-15 音乐,http://[2409:8087:1a01:df::4033]:80/TVOD/88888888/224/3221226127/
 CCTV-15 音乐,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225601/index.m3u8
 CCTV-15 音乐,rtp://239.3.1.153:8136
 CCTV-15 音乐,https://migu.yang-1989.xyz/ysp/w8xbp9.m3u8
-CCTV-15 音乐,https://iptv.yang-1989.xyz/cn/jvjt6d.m3u8
+CCTV-15 音乐,https://iptv.yang-1989.xyz/cn/tnb8p4.m3u8
 CCTV-15 音乐,https://php.jdshipin.com/TVOD/iptv.php?id=cctv15
 CCTV-16 奥林匹克,https://www.yangshipin.cn/tv/home?pid=600098637&cnlid=2027249101&defn=fhd
 CCTV-16 奥林匹克,http://207.56.13.146:81/cdnlive/cctv16.m3u8
@@ -251,7 +251,7 @@ CCTV-16 奥林匹克,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 CCTV-16 奥林匹克,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 CCTV-16 奥林匹克,rtp://239.3.1.184:8001
 CCTV-16 奥林匹克,https://migu.yang-1989.xyz/ysp/7tn6n9.m3u8
-CCTV-16 奥林匹克,https://iptv.yang-1989.xyz/cn/pj6tcq.m3u8
+CCTV-16 奥林匹克,https://iptv.yang-1989.xyz/cn/uswezk.m3u8
 CCTV-16 奥林匹克,https://php.jdshipin.com/TVOD/iptv.php?id=cctv16
 CCTV-16 奥林匹克,https://cdn.qd.je/163189/cctv16-2
 CCTV-16 奥林匹克,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
@@ -265,33 +265,33 @@ CCTV-17 农业农村,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/
 CCTV-17 农业农村,http://74.91.26.218:82/live/cctv17hd.m3u8
 CCTV-17 农业农村,rtp://239.3.1.151:8144
 CCTV-17 农业农村,https://migu.yang-1989.xyz/ysp/d3z2fz.m3u8
-CCTV-17 农业农村,https://iptv.yang-1989.xyz/cn/3xfs6z.m3u8
+CCTV-17 农业农村,https://iptv.yang-1989.xyz/cn/pj2h24.m3u8
 CCTV-17 农业农村,https://php.jdshipin.com/TVOD/iptv.php?id=cctv17
 CCTV-4K 超高清,rtp://239.3.1.245:2000
 CCTV-4K 超高清,https://migu.yang-1989.xyz/ysp/hgten6.m3u8
-CCTV-4K 超高清,https://iptv.yang-1989.xyz/cn/npcy3v.m3u8
+CCTV-4K 超高清,https://iptv.yang-1989.xyz/cn/vx8365.m3u8
 CCTV-8K 超高清,https://migu.yang-1989.xyz/ysp/cu284e.m3u8
-CCTV-8K 超高清,https://iptv.yang-1989.xyz/cn/h3avnh.m3u8
+CCTV-8K 超高清,https://iptv.yang-1989.xyz/cn/un5nkd.m3u8
 CGTN 英语「Relay」,https://migu.yang-1989.xyz/ysp/zay4u5.m3u8
-CGTN 英语「Relay」,https://iptv.yang-1989.xyz/cn/eb63sk.m3u8
+CGTN 英语「Relay」,https://iptv.yang-1989.xyz/cn/r4gtcw.m3u8
 CGTN 法语「Relay」,https://migu.yang-1989.xyz/ysp/7g64qr.m3u8
-CGTN 法语「Relay」,https://iptv.yang-1989.xyz/cn/vpe6r4.m3u8
+CGTN 法语「Relay」,https://iptv.yang-1989.xyz/cn/q6vaex.m3u8
 CGTN 俄语「Relay」,https://migu.yang-1989.xyz/ysp/q2hmgb.m3u8
-CGTN 俄语「Relay」,https://iptv.yang-1989.xyz/cn/5hyhgj.m3u8
+CGTN 俄语「Relay」,https://iptv.yang-1989.xyz/cn/hg9ax4.m3u8
 CGTN 阿拉伯语「Relay」,https://migu.yang-1989.xyz/ysp/u5c7pz.m3u8
-CGTN 阿拉伯语「Relay」,https://iptv.yang-1989.xyz/cn/r72ztq.m3u8
+CGTN 阿拉伯语「Relay」,https://iptv.yang-1989.xyz/cn/kxa3y4.m3u8
 CGTN 西班牙语「Relay」,https://migu.yang-1989.xyz/ysp/tyd64b.m3u8
-CGTN 西班牙语「Relay」,https://iptv.yang-1989.xyz/cn/mwgmsu.m3u8
+CGTN 西班牙语「Relay」,https://iptv.yang-1989.xyz/cn/tpukgb.m3u8
 CGTN 纪录「Relay」,https://migu.yang-1989.xyz/ysp/pbykc5.m3u8
-CGTN 纪录「Relay」,https://iptv.yang-1989.xyz/cn/2skwrv.m3u8
+CGTN 纪录「Relay」,https://iptv.yang-1989.xyz/cn/4kehgj.m3u8
 CGTN英语,rtp://239.3.1.215:4220
 CGTN纪录,rtp://239.3.1.216:4220
 CGTN西语,rtp://239.3.1.217:4220
 CGTN法语,rtp://239.3.1.218:4220
 CGTN阿语,rtp://239.3.1.219:4220
 CGTN俄语,rtp://239.3.1.220:4220
-CGTN 记录频道,https://iptv.yang-1989.xyz/myTV/dcr5zd.mpd
-CGTN 英语频道,https://iptv.yang-1989.xyz/myTV/594gjy.mpd
+CGTN 记录频道,https://iptv.yang-1989.xyz/myTV/gh4jyy.mpd
+CGTN 英语频道,https://iptv.yang-1989.xyz/myTV/zehenk.mpd
 CCTV · 风云剧场,https://www.yangshipin.cn/tv/home?pid=600099658&cnlid=2025637103&defn=shd
 CCTV · 风云剧场,https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 CCTV · 风云剧场,http://173.208.212.130:8181/720p/fyjc.m3u8
@@ -379,7 +379,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 北京卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 北京卫视,rtp://239.3.1.22:8001
 北京卫视,https://migu.yang-1989.xyz/ysp/zvzrkx.m3u8
-北京卫视,https://iptv.yang-1989.xyz/cn/698dzt.m3u8
+北京卫视,https://iptv.yang-1989.xyz/cn/gq3w74.m3u8
 北京卫视,http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 北京卫视,https://zby.130519.xyz/PLTV/11/224/3221225724/index.m3u8
 江苏卫视,https://www.yangshipin.cn/tv/home?pid=600002521&cnlid=2024171103&defn=fhd
@@ -391,7 +391,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 江苏卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 江苏卫视,rtp://239.3.1.113:3003
 江苏卫视,https://migu.yang-1989.xyz/ysp/t55y4w.m3u8
-江苏卫视,https://iptv.yang-1989.xyz/cn/pubnwc.m3u8
+江苏卫视,https://iptv.yang-1989.xyz/cn/zebrva.m3u8
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
 江苏卫视,https://zby.130519.xyz/PLTV/11/224/3221225720/index.m3u8
 东方卫视,https://www.yangshipin.cn/tv/home?pid=600002483&cnlid=2024054503&defn=fhd
@@ -405,7 +405,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 东方卫视,rtp://239.3.1.119:3006
 东方卫视,https://migu.yang-1989.xyz/ysp/y9vj9n.m3u8
 东方卫视,https://migu.yang-1989.xyz/sh/zuwbbt.m3u8
-东方卫视,https://iptv.yang-1989.xyz/cn/d3cdu3.m3u8
+东方卫视,https://iptv.yang-1989.xyz/cn/dm3vgw.m3u8
 东方卫视,http://iptv.huuc.edu.cn/hls/dfhd.m3u8
 东方卫视,https://zby.130519.xyz/PLTV/11/224/3221225725/index.m3u8
 东方卫视,https://zby.130519.xyz/PLTV/11/224/3221226106/index.m3u8
@@ -419,7 +419,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 浙江卫视,rtp://239.3.1.114:3004
 浙江卫视,https://migu.yang-1989.xyz/ysp/zjqx66.m3u8
-浙江卫视,https://iptv.yang-1989.xyz/cn/mdjskk.m3u8
+浙江卫视,https://iptv.yang-1989.xyz/cn/ccj9w2.m3u8
 浙江卫视,https://play-qukan.cztv.com/live/1746687519046362.m3u8
 浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
 浙江卫视,https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
@@ -433,7 +433,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 湖南卫视,rtp://239.3.1.112:3002
 湖南卫视,https://migu.yang-1989.xyz/ysp/w8wqeb.m3u8
-湖南卫视,https://iptv.yang-1989.xyz/cn/2vvdj6.m3u8
+湖南卫视,https://iptv.yang-1989.xyz/cn/2a2eex.m3u8
 湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
 湖南卫视,https://zby.130519.xyz/PLTV/11/224/3221225726/index.m3u8
 湖北卫视,https://www.yangshipin.cn/tv/home?pid=600002508&cnlid=2024171203&defn=fhd
@@ -443,7 +443,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 湖北卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EREB40lnZnCEwjRy7LZuhIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 湖北卫视,rtp://239.3.1.138:8044
 湖北卫视,https://migu.yang-1989.xyz/ysp/p4gmtu.m3u8
-湖北卫视,https://iptv.yang-1989.xyz/cn/rj6dua.m3u8
+湖北卫视,https://iptv.yang-1989.xyz/cn/pkfp4r.m3u8
 湖北卫视,http://iptv.huuc.edu.cn/hls/hbhd.m3u8
 湖北卫视,https://zby.130519.xyz/PLTV/11/224/3221225729/index.m3u8
 广东卫视,https://www.yangshipin.cn/tv/home?pid=600002485&cnlid=2024060903&defn=fhd
@@ -455,7 +455,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 广东卫视,https://hls-gateway.vpstv.net/streams/476943.m3u8
 广东卫视,rtp://239.3.1.27:2000
 广东卫视,https://migu.yang-1989.xyz/ysp/6y4yud.m3u8
-广东卫视,https://iptv.yang-1989.xyz/cn/d8kqau.m3u8
+广东卫视,https://iptv.yang-1989.xyz/cn/xxazhr.m3u8
 广西卫视,https://www.yangshipin.cn/tv/home?pid=600002509&cnlid=2024060703&defn=fhd
 广西卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxwshd
 广西卫视,http://107.150.60.122/live/gxwshd.m3u8
@@ -466,7 +466,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 广西卫视,https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8
 广西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227010/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkAhb-89sxdm9fz6-heXCuw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 广西卫视,https://migu.yang-1989.xyz/ysp/5b9yfz.m3u8
-广西卫视,https://iptv.yang-1989.xyz/cn/u4mj4s.m3u8
+广西卫视,https://iptv.yang-1989.xyz/cn/sxs5yy.m3u8
 广西卫视,https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
 广西卫视,https://zby.130519.xyz/PLTV/11/224/3221226130/index.m3u8
 黑龙江卫视,https://www.yangshipin.cn/tv/home?pid=600002498&cnlid=2029797003&defn=fhd
@@ -480,7 +480,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 黑龙江卫视,https://epg.pw/stream/c6c1262d0b35e59eac22bf513395f00f8b60cc5eab41f598412cdf8269312f32.m3u8
 黑龙江卫视,rtp://239.3.1.133:8016
 黑龙江卫视,https://migu.yang-1989.xyz/ysp/cf2erc.m3u8
-黑龙江卫视,https://iptv.yang-1989.xyz/cn/u2wv4x.m3u8
+黑龙江卫视,https://iptv.yang-1989.xyz/cn/6abwab.m3u8
 黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 黑龙江卫视,http://iptv.huuc.edu.cn/hls/hljhd.m3u8
 海南卫视,https://www.yangshipin.cn/tv/home?pid=600002506&cnlid=2024055603&defn=fhd
@@ -488,7 +488,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 海南卫视,https://zby.130519.xyz/PLTV/11/224/3221226154/index.m3u8
 海南卫视,rtp://239.3.1.205:8228
 海南卫视,https://migu.yang-1989.xyz/ysp/mtumzq.m3u8
-海南卫视,https://iptv.yang-1989.xyz/cn/96swz2.m3u8
+海南卫视,https://iptv.yang-1989.xyz/cn/8m2ugw.m3u8
 海南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 重庆卫视,https://www.yangshipin.cn/tv/home?pid=600002531&cnlid=2024061103&defn=fhd
 重庆卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd
@@ -496,7 +496,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 重庆卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 重庆卫视,rtp://239.3.1.122:8160
 重庆卫视,https://migu.yang-1989.xyz/ysp/5v4ahq.m3u8
-重庆卫视,https://iptv.yang-1989.xyz/cn/wgfuu7.m3u8
+重庆卫视,https://iptv.yang-1989.xyz/cn/zzbh62.m3u8
 重庆卫视,http://iptv.huuc.edu.cn/hls/cqhd.m3u8
 重庆卫视,https://zby.130519.xyz/PLTV/11/224/3221226171/index.m3u8
 深圳卫视,https://www.yangshipin.cn/tv/home?pid=600002481&cnlid=2024061303&defn=fhd
@@ -512,7 +512,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 深圳卫视,http://z.b.bkpcp.top/m.php?id=szws
 深圳卫视,rtp://239.3.1.28:2000
 深圳卫视,https://migu.yang-1989.xyz/ysp/6378n3.m3u8
-深圳卫视,https://iptv.yang-1989.xyz/cn/nav7an.m3u8
+深圳卫视,https://iptv.yang-1989.xyz/cn/wmasev.m3u8
 四川卫视,https://www.yangshipin.cn/tv/home?pid=600002516&cnlid=2024061403&defn=fhd
 四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 四川卫视,https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -522,7 +522,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 四川卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 四川卫视,rtp://239.3.1.131:3001
 四川卫视,https://migu.yang-1989.xyz/ysp/h44t8b.m3u8
-四川卫视,https://iptv.yang-1989.xyz/cn/ud82sd.m3u8
+四川卫视,https://iptv.yang-1989.xyz/cn/7jeubp.m3u8
 四川卫视,http://iptv.huuc.edu.cn/hls/schd.m3u8
 四川卫视,https://zby.130519.xyz/PLTV/11/224/3221226152/index.m3u8
 河南卫视,https://www.yangshipin.cn/tv/home?pid=600002525&cnlid=2029797303&defn=fhd
@@ -533,7 +533,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 河南卫视,http://38.75.136.137:98/gslb/dsdqpub/hawshd.m3u8?auth=testpub
 河南卫视,rtp://239.3.1.50:8184
 河南卫视,https://migu.yang-1989.xyz/ysp/2khmku.m3u8
-河南卫视,https://iptv.yang-1989.xyz/cn/wyw53k.m3u8
+河南卫视,https://iptv.yang-1989.xyz/cn/vp2udw.m3u8
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
 东南卫视,https://www.yangshipin.cn/tv/home?pid=600002484&cnlid=2024061503&defn=fhd
 东南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dnwshd
@@ -544,7 +544,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 东南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226991/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQ6F5Mjgs0tJyEArWFL3vQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 东南卫视,rtp://239.3.1.156:8148
 东南卫视,https://migu.yang-1989.xyz/ysp/9fkpg9.m3u8
-东南卫视,https://iptv.yang-1989.xyz/cn/8qeysw.m3u8
+东南卫视,https://iptv.yang-1989.xyz/cn/ncrs5y.m3u8
 东南卫视,http://iptv.huuc.edu.cn/hls/dnhd.m3u8
 东南卫视,https://zby.130519.xyz/PLTV/11/224/3221225745/index.m3u8
 贵州卫视,https://www.yangshipin.cn/tv/home?pid=600002490&cnlid=2024061603&defn=fhd
@@ -556,7 +556,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 贵州卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EnqBF03rFwPucF8ODtWxLQQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 贵州卫视,rtp://239.3.1.149:8076
 贵州卫视,https://migu.yang-1989.xyz/ysp/2tu294.m3u8
-贵州卫视,https://iptv.yang-1989.xyz/cn/5sht3g.m3u8
+贵州卫视,https://iptv.yang-1989.xyz/cn/eeqq95.m3u8
 贵州卫视,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
 江西卫视,https://www.yangshipin.cn/tv/home?pid=600002503&cnlid=2024061703&defn=fhd
 江西卫视,https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -567,7 +567,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 江西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226956/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ei6ZIpVizXlewg-YfGvH8dA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 江西卫视,rtp://239.3.1.123:8164
 江西卫视,https://migu.yang-1989.xyz/ysp/gvtc5a.m3u8
-江西卫视,https://iptv.yang-1989.xyz/cn/92k8ve.m3u8
+江西卫视,https://iptv.yang-1989.xyz/cn/tthdv5.m3u8
 江西卫视,http://iptv.huuc.edu.cn/hls/jxhd.m3u8
 江西卫视,https://zby.130519.xyz/PLTV/11/224/3221225740/index.m3u8
 辽宁卫视,https://www.yangshipin.cn/tv/home?pid=600002505&cnlid=2024171303&defn=fhd
@@ -579,7 +579,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 辽宁卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E6qJH8Fd-zgCGx3P-Ce86cA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 辽宁卫视,rtp://239.3.1.210:8056
 辽宁卫视,https://migu.yang-1989.xyz/ysp/sszcs3.m3u8
-辽宁卫视,https://iptv.yang-1989.xyz/cn/eda9vb.m3u8
+辽宁卫视,https://iptv.yang-1989.xyz/cn/ez4rej.m3u8
 辽宁卫视,http://iptv.huuc.edu.cn/hls/lnhd.m3u8
 辽宁卫视,https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
 安徽卫视,https://www.yangshipin.cn/tv/home?pid=600002532&cnlid=2024171403&defn=fhd
@@ -591,7 +591,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 安徽卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226943/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0QmKQ_slRCwvVVUUfxPVbw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 安徽卫视,rtp://239.3.1.211:8064
 安徽卫视,https://migu.yang-1989.xyz/ysp/qpedxg.m3u8
-安徽卫视,https://iptv.yang-1989.xyz/cn/fj86aw.m3u8
+安徽卫视,https://iptv.yang-1989.xyz/cn/rxnah6.m3u8
 安徽卫视,http://iptv.huuc.edu.cn/hls/ahhd.m3u8
 安徽卫视,https://zby.130519.xyz/PLTV/11/224/3221225739/index.m3u8
 河北卫视,https://www.yangshipin.cn/tv/home?pid=600002493&cnlid=2024171503&defn=fhd
@@ -601,7 +601,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 河北卫视,http://204.12.221.218:8181/3m1080p/hews.m3u8
 河北卫视,rtp://239.3.1.148:8072
 河北卫视,https://migu.yang-1989.xyz/ysp/az3xa9.m3u8
-河北卫视,https://iptv.yang-1989.xyz/cn/63jnwt.m3u8
+河北卫视,https://iptv.yang-1989.xyz/cn/cm28zq.m3u8
 河北卫视,https://event.pull.hebtv.com/live/live101.m3u8
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
@@ -616,7 +616,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 山东卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 山东卫视,rtp://239.3.1.144:3005
 山东卫视,https://migu.yang-1989.xyz/ysp/3qec5d.m3u8
-山东卫视,https://iptv.yang-1989.xyz/cn/b7zbkd.m3u8
+山东卫视,https://iptv.yang-1989.xyz/cn/vn2xvr.m3u8
 山东卫视,http://iptv.huuc.edu.cn/hls/sdhd.m3u8
 山东卫视,https://zby.130519.xyz/PLTV/11/224/3221225733/index.m3u8
 天津卫视,https://www.yangshipin.cn/tv/home?pid=600152137&cnlid=2019927003&defn=fhd
@@ -630,7 +630,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 天津卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226459/index.m3u8
 天津卫视,rtp://239.3.1.141:1234
 天津卫视,https://migu.yang-1989.xyz/ysp/cs2x29.m3u8
-天津卫视,https://iptv.yang-1989.xyz/cn/cpqh5u.m3u8
+天津卫视,https://iptv.yang-1989.xyz/cn/qsmvju.m3u8
 吉林卫视,https://www.yangshipin.cn/tv/home?pid=600190405&cnlid=2025561503&defn=fhd
 吉林卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd
 吉林卫视,http://107.150.60.122/live/jlwshd.m3u8
@@ -639,7 +639,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 吉林卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 吉林卫视,rtp://239.3.1.240:8172
 吉林卫视,https://migu.yang-1989.xyz/ysp/uj9p56.m3u8
-吉林卫视,https://iptv.yang-1989.xyz/cn/j69wz8.m3u8
+吉林卫视,https://iptv.yang-1989.xyz/cn/qnxy7v.m3u8
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226082/index.m3u8
 陕西卫视,https://www.yangshipin.cn/tv/home?pid=600190400&cnlid=2029795103&defn=fhd
@@ -650,7 +650,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 陕西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 陕西卫视,rtp://239.3.1.203:8220
 陕西卫视,https://migu.yang-1989.xyz/ysp/8kzr7m.m3u8
-陕西卫视,https://iptv.yang-1989.xyz/cn/47dhtm.m3u8
+陕西卫视,https://iptv.yang-1989.xyz/cn/wpbc2h.m3u8
 宁夏卫视,https://www.yangshipin.cn/tv/home?pid=600190737&cnlid=2025608503&defn=fhd
 宁夏卫视,https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 宁夏卫视,https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -661,7 +661,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 宁夏卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/8/3221226454/index.m3u8
 宁夏卫视,rtp://239.3.1.169:8212
 宁夏卫视,https://migu.yang-1989.xyz/ysp/dfffzc.m3u8
-宁夏卫视,https://iptv.yang-1989.xyz/cn/rewtee.m3u8
+宁夏卫视,https://iptv.yang-1989.xyz/cn/9kpypu.m3u8
 内蒙古卫视,https://www.yangshipin.cn/tv/home?pid=600190401&cnlid=2025561203&defn=fhd
 内蒙古卫视,https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 内蒙古卫视,https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -672,7 +672,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 内蒙古卫视,http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 内蒙古卫视,rtp://239.3.1.204:8224
 内蒙古卫视,https://migu.yang-1989.xyz/ysp/d4k4uh.m3u8
-内蒙古卫视,https://iptv.yang-1989.xyz/cn/pgtmz9.m3u8
+内蒙古卫视,https://iptv.yang-1989.xyz/cn/3h5qnp.m3u8
 云南卫视,https://www.yangshipin.cn/tv/home?pid=600190402&cnlid=2025561303&defn=fhd
 云南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd
 云南卫视,http://192.151.150.154/live/ynwshd.m3u8
@@ -680,7 +680,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 云南卫视,http://120.76.248.139/live/bfgd/4200000482.m3u8
 云南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227028/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGfQPqRNVeBjTMsZ48qu0SA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 云南卫视,https://migu.yang-1989.xyz/ysp/q9qtb2.m3u8
-云南卫视,https://iptv.yang-1989.xyz/cn/bmgbpe.m3u8
+云南卫视,https://iptv.yang-1989.xyz/cn/h62pm8.m3u8
 云南卫视,https://zby.130519.xyz/PLTV/11/224/3221226109/index.m3u8
 云南卫视,https://zby.130519.xyz/PLTV/11/224/3221226151/index.m3u8
 山西卫视,https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -690,7 +690,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 山西卫视,http://204.12.221.218:8181/3m1080p/sxws.m3u8
 山西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 山西卫视,https://migu.yang-1989.xyz/ysp/qdf5m7.m3u8
-山西卫视,https://iptv.yang-1989.xyz/cn/saqym6.m3u8
+山西卫视,https://iptv.yang-1989.xyz/cn/w565de.m3u8
 山西卫视,https://zby.130519.xyz/PLTV/11/224/3221226113/index.m3u8
 青海卫视,http://107.150.60.122/live/qhws.m3u8
 青海卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=qhws
@@ -698,7 +698,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 青海卫视,https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 青海卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227017/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EacviHy_ucMT27Ymf2iLtZA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 青海卫视,https://migu.yang-1989.xyz/ysp/699z7h.m3u8
-青海卫视,https://iptv.yang-1989.xyz/cn/7k9cnk.m3u8
+青海卫视,https://iptv.yang-1989.xyz/cn/z2bpjz.m3u8
 青海卫视,https://zby.130519.xyz/PLTV/11/224/3221226105/index.m3u8
 西藏卫视,https://www.yangshipin.cn/tv/home?pid=600190403&cnlid=2025558003&defn=fhd
 西藏卫视,https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -709,7 +709,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 西藏卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227033/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EdeTB7OZ9G_VNJk5C3t96fQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 西藏卫视,rtp://239.3.1.166:8188
 西藏卫视,https://migu.yang-1989.xyz/ysp/fnw3ed.m3u8
-西藏卫视,https://iptv.yang-1989.xyz/cn/sc8d3t.m3u8
+西藏卫视,https://iptv.yang-1989.xyz/cn/rjjbcw.m3u8
 西藏卫视,http://php.jdshipin.com:8880/xztv.php?id=zy
 新疆卫视,https://www.yangshipin.cn/tv/home?pid=600152138&cnlid=2019927403&defn=fhd
 新疆卫视,https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -724,7 +724,7 @@ CETV-4,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 新疆卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226546/1.m3u8
 新疆卫视,rtp://239.3.1.167:8192
 新疆卫视,https://migu.yang-1989.xyz/ysp/7xjxfy.m3u8
-新疆卫视,https://iptv.yang-1989.xyz/cn/k3mpfm.m3u8
+新疆卫视,https://iptv.yang-1989.xyz/cn/yv4etp.m3u8
 甘肃卫视,http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub
 甘肃卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
 甘肃卫视,http://120.76.248.139/live/bfgd/4200000119.m3u8
@@ -2013,7 +2013,6 @@ ZIPPO良利打火机专卖店,https://cdn.ttvb.eu.org/douyin/ZIPPOLIANGLI
 迅猛龙 特蕾莎,https://live.yang-1989.eu.org/douyin/Yoursisterrp
 Xmm!!!（dota2）,https://live.yang-1989.eu.org/douyin/Xmm.jr
 酸豆角仙人,https://live.yang-1989.eu.org/douyin/91250070504
-才羽桃cr（两个19-3版）,https://live.yang-1989.eu.org/douyin/al1s_cr
 帅兄盖伦（大招流寒冰）,https://live.yang-1989.eu.org/douyin/22719830516
 基尼钓鱼,https://live.yang-1989.eu.org/douyin/68904773809
 奥特丽,https://live.yang-1989.eu.org/douyin/70156123412
@@ -2215,7 +2214,6 @@ yjjimpaopao,https://live.yang-1989.eu.org/douyin/YJJ687423
 知里不理智了（第五人格）,https://live.yang-1989.eu.org/douyin/68444151609
 新民晚报,https://live.yang-1989.eu.org/douyin/2008824773
 星聚会2.0版,https://live.yang-1989.eu.org/douyin/56211083461
-甜德莉娜Mia,https://live.yang-1989.eu.org/douyin/85401881468
 Dota孤城大神,https://live.yang-1989.eu.org/douyin/80012109634
 Xgg星嗝嗝,https://live.yang-1989.eu.org/douyin/XgggXggXg
 奇迹小暖☀️,https://live.yang-1989.eu.org/douyin/41880142119
@@ -2246,7 +2244,6 @@ Nani,https://live.yang-1989.eu.org/douyin/lina17
 沐沅er🩵,https://live.yang-1989.eu.org/douyin/16163816816833y.
 dota乖,https://live.yang-1989.eu.org/douyin/ggod1112
 xppp(金铲铲之战),https://live.yang-1989.eu.org/douyin/xppppppppppp
-麦小鼠大王,https://live.yang-1989.eu.org/douyin/hyz030728
 一休不是光头(9277),https://live.yang-1989.eu.org/douyin/yixiu2001
 七喜¹²⁷⁷,https://live.yang-1989.eu.org/douyin/23754157189
 关怀,https://live.yang-1989.eu.org/douyin/86092814967
@@ -2265,14 +2262,12 @@ xd777（三角洲行动）,https://live.yang-1989.eu.org/douyin/vvvv07
 今晚不练腿（三角洲行动）,https://live.yang-1989.eu.org/douyin/jwblt
 凡小生,https://live.yang-1989.eu.org/douyin/fxs0928
 柯柯是个老六,https://live.yang-1989.eu.org/douyin/632274742
-洗剪吹（德华公会）,https://live.yang-1989.eu.org/douyin/57140356199
 清风亚索（最高峡谷王者韩服宗师）,https://live.yang-1989.eu.org/douyin/978595336269
 演绎（巅峰肝帝）,https://live.yang-1989.eu.org/douyin/324546102
 王者荣耀-莫云（国服赵怀真）,https://live.yang-1989.eu.org/douyin/63797478008
 WSE田径公开赛,https://live.yang-1989.eu.org/douyin/WSE2022
 yulingverna10.23洛杉矶庆,https://live.yang-1989.eu.org/douyin/_yuling.verna_
 泰山晚报,https://live.yang-1989.eu.org/douyin/146799565997
-讲驾考的侯教练,https://live.yang-1989.eu.org/douyin/1927131317
 GF-晚星港,https://live.yang-1989.eu.org/douyin/46084299581
 Miaaaa,https://live.yang-1989.eu.org/douyin/47530736577
 Try导师,https://live.yang-1989.eu.org/douyin/608456626
@@ -2288,7 +2283,6 @@ Try导师,https://live.yang-1989.eu.org/douyin/608456626
 CS2⚡AI⚡,https://live.yang-1989.eu.org/douyin/AI_01927
 兔子爱吃香菜,https://live.yang-1989.eu.org/douyin/KOF19981029
 小五（守约老祖）,https://live.yang-1989.eu.org/douyin/858212806
-小鸥（代码xiaoou）,https://live.yang-1989.eu.org/douyin/10605841863
 晕头小玖（温柔鼠鼠）,https://live.yang-1989.eu.org/douyin/34792471
 某不知名网友小傅,https://live.yang-1989.eu.org/douyin/bjxiaofu
 江东（区一项羽）12号播,https://live.yang-1989.eu.org/douyin/jdxy0045
@@ -2331,7 +2325,6 @@ TEC B1ackovo,https://live.yang-1989.eu.org/douyin/34250469322
 吕德华（生活号）,https://live.yang-1989.eu.org/douyin/83720965753
 李振（11.25生日版）,https://live.yang-1989.eu.org/douyin/183201860355
 炉石汤姆（福州冠军）,https://live.yang-1989.eu.org/douyin/46593224159
-祈,https://live.yang-1989.eu.org/douyin/Qi_i7ovo
 突突2ez,https://live.yang-1989.eu.org/douyin/CharlieNash
 至尊盗王拉拉拉法姆,https://live.yang-1989.eu.org/douyin/LaFaMuuuuu
 蜉蝣(国一赵云),https://live.yang-1989.eu.org/douyin/758148578047
@@ -2346,7 +2339,6 @@ i上浙高速（浙江沪杭甬）,https://live.yang-1989.eu.org/douyin/57477244
 17小鬼PUBG,https://live.yang-1989.eu.org/douyin/922375951379
 700,https://live.yang-1989.eu.org/douyin/MCS361643051
 77🥟,https://live.yang-1989.eu.org/douyin/59383290914
-CS2梅樱大王666,https://live.yang-1989.eu.org/douyin/136739657957
 Fmsg,https://live.yang-1989.eu.org/douyin/639592246271
 Katie小仙女,https://live.yang-1989.eu.org/douyin/43955338
 Mahone13,https://live.yang-1989.eu.org/douyin/973026190437
@@ -2360,17 +2352,12 @@ yuan🐱,https://live.yang-1989.eu.org/douyin/20377502
 九儿📿～,https://live.yang-1989.eu.org/douyin/56974099543
 保琳球有点胖,https://live.yang-1989.eu.org/douyin/665506271362
 又又不乖了,https://live.yang-1989.eu.org/douyin/128851795
-哏的,https://live.yang-1989.eu.org/douyin/genjiujiu88888
 土豆（承方持正网络）,https://live.yang-1989.eu.org/douyin/bdm1774203313
-塔塔🐽,https://live.yang-1989.eu.org/douyin/465914647873
 婷婷唱不停,https://live.yang-1989.eu.org/douyin/51999252746
-安久电台🍀,https://live.yang-1989.eu.org/douyin/37532256839
-安安安～,https://live.yang-1989.eu.org/douyin/1693076055
 寒宝宝,https://live.yang-1989.eu.org/douyin/xggd_1
 小乔 象上🕊️💃,https://live.yang-1989.eu.org/douyin/xq1236688
 小团团一条OvO,https://live.yang-1989.eu.org/douyin/xiaotuan2222
 小软日记,https://live.yang-1989.eu.org/douyin/xiaoruanriji
-张coco,https://live.yang-1989.eu.org/douyin/1105660541z
 我不叫龙虾🦞,https://live.yang-1989.eu.org/douyin/xxs_longxia
 月子（无畏契约解说）,https://live.yang-1989.eu.org/douyin/59475730286
 泡泡学姐⁹²⁸⁸,https://live.yang-1989.eu.org/douyin/2231817936
@@ -2380,8 +2367,6 @@ yuan🐱,https://live.yang-1989.eu.org/douyin/20377502
 王楚淇,https://live.yang-1989.eu.org/douyin/49156972376
 知琪意🐾,https://live.yang-1989.eu.org/douyin/50854462030
 绮梦,https://live.yang-1989.eu.org/douyin/41357423365
-聚光,https://live.yang-1989.eu.org/douyin/96179016392
-芒果小布丁ASMR,https://live.yang-1989.eu.org/douyin/JMangoOvO
 苏北北Sammy,https://live.yang-1989.eu.org/douyin/553175243533
 苏念（周五晚上11.00直播）,https://live.yang-1989.eu.org/douyin/396649957730
 若琳Pepper,https://live.yang-1989.eu.org/douyin/466220628294
@@ -2389,16 +2374,11 @@ yuan🐱,https://live.yang-1989.eu.org/douyin/20377502
 赫拉,https://live.yang-1989.eu.org/douyin/6394882
 郑薇🔥,https://live.yang-1989.eu.org/douyin/zhengwei_77777
 阿酱猪,https://live.yang-1989.eu.org/douyin/hippiejammm07
-陈与良猪猪夫妇,https://live.yang-1989.eu.org/douyin/yuliang233
 雪儿丶（王者少女adc）,https://live.yang-1989.eu.org/douyin/338844222947
-静静在夏天🍔🎤⁰³²⁰,https://live.yang-1989.eu.org/douyin/828868968740
 饭书书,https://live.yang-1989.eu.org/douyin/809488737033
 鹅大王OvO,https://live.yang-1989.eu.org/douyin/37212127940
-🍦精瘦瘦🍦,https://live.yang-1989.eu.org/douyin/1832316360
 AY（国服芈月）,https://live.yang-1989.eu.org/douyin/My763519799
-CS2卡莎,https://live.yang-1989.eu.org/douyin/35566245
 JS湮灭,https://live.yang-1989.eu.org/douyin/YM910814
-Mentality桃,https://live.yang-1989.eu.org/douyin/394260640881
 NN47,https://live.yang-1989.eu.org/douyin/NN4747
 Tmh柠七,https://live.yang-1989.eu.org/douyin/189776140339
 linxl,https://live.yang-1989.eu.org/douyin/391810831315
@@ -2407,14 +2387,9 @@ linxl,https://live.yang-1989.eu.org/douyin/391810831315
 君洛泪（三角洲KOF战队）,https://live.yang-1989.eu.org/douyin/ly231016
 困倦 （国服姬小满）,https://live.yang-1989.eu.org/douyin/kunjuan004
 声闻,https://live.yang-1989.eu.org/douyin/93276041656
-大刀哥,https://live.yang-1989.eu.org/douyin/YY70051
 天霸Yolo（三角洲行动）,https://live.yang-1989.eu.org/douyin/1947678137
 安德罗妮的学妹,https://live.yang-1989.eu.org/douyin/DDDDIC8
-小凯pubg,https://live.yang-1989.eu.org/douyin/31798779262
 小柒0. o⁷,https://live.yang-1989.eu.org/douyin/53072873496
-小柴（s16韩服第一剑魔克烈）,https://live.yang-1989.eu.org/douyin/xiaochai1126
-小猪仔(墨镜仙人),https://live.yang-1989.eu.org/douyin/25924328956
-小花妹妹2,https://live.yang-1989.eu.org/douyin/5673726
 小蓝（CODM）,https://live.yang-1989.eu.org/douyin/39100358605
 影子人,https://live.yang-1989.eu.org/douyin/54072455584
 数码不是光头（9277）,https://live.yang-1989.eu.org/douyin/shumajiang73
@@ -2426,13 +2401,10 @@ linxl,https://live.yang-1989.eu.org/douyin/391810831315
 澄海3c小风,https://live.yang-1989.eu.org/douyin/ch3c_add
 狂暴提提莫,https://live.yang-1989.eu.org/douyin/titimo1234
 王纪超666(世一泽拉斯),https://live.yang-1989.eu.org/douyin/295265406
-王者荣耀王某-（白吃火舞）,https://live.yang-1989.eu.org/douyin/dy25887814
 破绽（国1运气上单),https://live.yang-1989.eu.org/douyin/Flaws777
 花麻麻,https://live.yang-1989.eu.org/douyin/HMM438
-远辞（国服云缨）,https://live.yang-1989.eu.org/douyin/81355354947
 阿泽u稻草人（韩服2008）,https://live.yang-1989.eu.org/douyin/Bzhan10353655
 阿鲁少爷,https://live.yang-1989.eu.org/douyin/20037300380
-魔帝Dota2,https://live.yang-1989.eu.org/douyin/GodOfDota2
 千益体育,https://live.yang-1989.eu.org/douyin/TYW804728
 安生象棋,https://live.yang-1989.eu.org/douyin/_531005659
 战术睡衣,https://live.yang-1989.eu.org/douyin/60057224788
@@ -2445,9 +2417,6 @@ Nobb,https://live.yang-1989.eu.org/douyin/007Nobb
 观赏（盼之app）,https://live.yang-1989.eu.org/douyin/S01101y
 豚豚大魔王🐬 ⁸⁰⁸,https://live.yang-1989.eu.org/douyin/6739527
 80霸凌(三角洲行动),https://live.yang-1989.eu.org/douyin/2046075067
-KazeLink,https://live.yang-1989.eu.org/douyin/BuBuLine
-jjking(剑姬教父),https://live.yang-1989.eu.org/douyin/57894179290
-峡谷时光王(东东电竞),https://live.yang-1989.eu.org/douyin/187772791280
 央视一套,https://live.yang-1989.eu.org/douyin/CCTV1
 山西省交通运输厅,https://live.yang-1989.eu.org/douyin/sxsjtyst
 H一馨,https://live.yang-1989.eu.org/douyin/29865533138
@@ -2493,26 +2462,17 @@ SGR考官小年（三角洲行动）,https://live.yang-1989.eu.org/douyin/330690
 赞爷v5（蛋仔派对）,https://live.yang-1989.eu.org/douyin/200515882
 零碎,https://live.yang-1989.eu.org/douyin/ao3255387576
 央视新闻,https://live.yang-1989.eu.org/douyin/cctvnews
-看看新闻Knews,https://live.yang-1989.eu.org/douyin/KKnews
-Since_ow,https://live.yang-1989.eu.org/douyin/since_ow
 健哥有氧健身（减脂 塑形 运动）,https://live.yang-1989.eu.org/douyin/j272812
-土豆雷（第五人格）,https://live.yang-1989.eu.org/douyin/34497201663
-央视网美学,https://live.yang-1989.eu.org/douyin/48025733893
-小欣,https://live.yang-1989.eu.org/douyin/61691464016
 强哥爱录声控助眠asmr（世一虚）,https://live.yang-1989.eu.org/douyin/69446958014
-胖胖✈️☁️,https://live.yang-1989.eu.org/douyin/102953757
-锦一电台,https://live.yang-1989.eu.org/douyin/Jinyi.15
 威某人-（接pw打号）,https://live.yang-1989.eu.org/douyin/239886599033
 杰米GEmini,https://live.yang-1989.eu.org/douyin/Jiemi0529
 王者阿水,https://live.yang-1989.eu.org/douyin/89894783396
 黑羽（三角洲行动）,https://live.yang-1989.eu.org/douyin/55189785458
 YUAN¹¹²¹,https://live.yang-1989.eu.org/douyin/29796443468
-四国军棋·神一般的糟老头子,https://live.yang-1989.eu.org/douyin/ve788777
 小宇有氧减脂塑形（早7：00晚7：00）,https://live.yang-1989.eu.org/douyin/383966157621
 牛津Kath,https://live.yang-1989.eu.org/douyin/88413723135
 长城老郭,https://live.yang-1989.eu.org/douyin/Guozhongxing
 隔壁王教练教育,https://live.yang-1989.eu.org/douyin/wangjiaolian996
-小海锤石,https://live.yang-1989.eu.org/douyin/xiaohaichuishi
 CCTV4,https://live.yang-1989.eu.org/douyin/CCTV4..
 【PUBG】Cc༠࿐,https://live.yang-1989.eu.org/douyin/757430167196
 GXG男装旗舰店,https://live.yang-1989.eu.org/douyin/71433089613
@@ -2523,23 +2483,18 @@ csgo茄子,https://live.yang-1989.eu.org/douyin/472143576107
 一碗粥,https://live.yang-1989.eu.org/douyin/Y374443
 万达影城福利官,https://live.yang-1989.eu.org/douyin/WandaFilms
 上海小杨摄影工作室📸（上海约拍跟拍版）,https://live.yang-1989.eu.org/douyin/Rocky1922812160
-临安TV,https://live.yang-1989.eu.org/douyin/LATV
 乐享程·逛南昌,https://live.yang-1989.eu.org/douyin/851107014
 二饼胡拉,https://live.yang-1989.eu.org/douyin/myf430
 亚男🇨🇳⁵²⁶⁷,https://live.yang-1989.eu.org/douyin/yanan5267
 卑劣的凡,https://live.yang-1989.eu.org/douyin/f9930322
 大芃¹¹—11.10号庆生重归版,https://live.yang-1989.eu.org/douyin/Linhe666520
 奥奥妈,https://live.yang-1989.eu.org/douyin/dyzdvq8mdb32
-宝玉妹妹🌙（京城大师赛）,https://live.yang-1989.eu.org/douyin/790499232560
 小九九peri,https://live.yang-1989.eu.org/douyin/28976923501
-小央视频,https://live.yang-1989.eu.org/douyin/cctv_video
 小妖姬🩰 【10月8号生日庆】,https://live.yang-1989.eu.org/douyin/284972045391
 小姨妈🦊,https://live.yang-1989.eu.org/douyin/LSY926629
 小晴🎹,https://live.yang-1989.eu.org/douyin/178063390426
 小浣熊,https://live.yang-1989.eu.org/douyin/829156698852
 小满,https://live.yang-1989.eu.org/douyin/Yoe_wj0328
-小米官方旗舰店,https://live.yang-1989.eu.org/douyin/xiaomizhibojian
-屿风解说足球,https://live.yang-1989.eu.org/douyin/Lt.Firstchoice
 徐同学🧸,https://live.yang-1989.eu.org/douyin/81530784267
 思小思儿,https://live.yang-1989.eu.org/douyin/98716378
 星际争霸小帅,https://live.yang-1989.eu.org/douyin/776959647646
@@ -2547,27 +2502,21 @@ csgo茄子,https://live.yang-1989.eu.org/douyin/472143576107
 有看投app,https://live.yang-1989.eu.org/douyin/103928414151
 来点兔子吗🐰,https://live.yang-1989.eu.org/douyin/958510368692
 杨知玥,https://live.yang-1989.eu.org/douyin/YL666666i
-极光新闻,https://live.yang-1989.eu.org/douyin/jiguangxinwen
 民歌思思⁵²⁷⁷🎙️,https://live.yang-1989.eu.org/douyin/ss2771008
 江苏高速96777,https://live.yang-1989.eu.org/douyin/60892806386
 洛凡💞pubg,https://live.yang-1989.eu.org/douyin/12714584010
 浅浅细语,https://live.yang-1989.eu.org/douyin/63541265837
-浙有正能量,https://live.yang-1989.eu.org/douyin/sir000115
 港叔国服镜,https://live.yang-1989.eu.org/douyin/Zygdad
 煊瑶,https://live.yang-1989.eu.org/douyin/80213789033
 猕猴桃🫡《文博说事》,https://live.yang-1989.eu.org/douyin/2118141289
 猫猫头,https://live.yang-1989.eu.org/douyin/36891639030
 王者荣耀童话,https://live.yang-1989.eu.org/douyin/73771118040
 王铁柱（雪饼猴🐒）,https://live.yang-1989.eu.org/douyin/63225999108
-电影频道云影院,https://live.yang-1989.eu.org/douyin/cctv6cinema
-电影频道央影传媒,https://live.yang-1989.eu.org/douyin/cctv6media.
 短裙,https://live.yang-1989.eu.org/douyin/60590204789
 竹笛山山²³³（11月6日生日周年庆）,https://live.yang-1989.eu.org/douyin/zhudi33
-第一现场,https://live.yang-1989.eu.org/douyin/881575999
 绽放点唱,https://live.yang-1989.eu.org/douyin/zhanfangovo
 荔枝新闻,https://live.yang-1989.eu.org/douyin/lizhinews
 董路,https://live.yang-1989.eu.org/douyin/donglu805
-西安发布,https://live.yang-1989.eu.org/douyin/xianfabu029
 豫见文化,https://live.yang-1989.eu.org/douyin/1041199203
 迈克连🎤（重生版）,https://live.yang-1989.eu.org/douyin/65438986040
 鬼帝（三角洲行动）,https://live.yang-1989.eu.org/douyin/335152705332
@@ -2605,24 +2554,18 @@ IM智己汽车,https://live.yang-1989.eu.org/douyin/IM_Motors
 PUMA官方旗舰店,https://live.yang-1989.eu.org/douyin/87524611523
 万岁山武侠城,https://live.yang-1989.eu.org/douyin/Wansuishan
 与辉同行,https://live.yang-1989.eu.org/douyin/56697889278
-中国电影报道,https://live.yang-1989.eu.org/douyin/zgdybd
 交个朋友直播间,https://live.yang-1989.eu.org/douyin/JGPYZBJ
-佛山发布,https://live.yang-1989.eu.org/douyin/foshanfabu
 北京日报,https://live.yang-1989.eu.org/douyin/bjrb
 华少体育解说,https://live.yang-1989.eu.org/douyin/75604127264
 同程北海度假专场,https://live.yang-1989.eu.org/douyin/BeiHai.Travel
 哈尔滨冰雪大世界,https://live.yang-1989.eu.org/douyin/1646735015
 四季沐歌智能花洒,https://live.yang-1989.eu.org/douyin/Micoe777
 外教英语口语课（研葎）,https://live.yang-1989.eu.org/douyin/62380161795
-央视文艺,https://live.yang-1989.eu.org/douyin/1027321223
-央视网快看,https://live.yang-1989.eu.org/douyin/kuaikancctv
 央视网科技,https://live.yang-1989.eu.org/douyin/66415451233.
-央视网财经,https://live.yang-1989.eu.org/douyin/nuanxinnengl
 央视网超级工厂,https://live.yang-1989.eu.org/douyin/23265780613
 山取,https://live.yang-1989.eu.org/douyin/454821649298
 快看,https://live.yang-1989.eu.org/douyin/832345075447
 拆卡酱酱,https://live.yang-1989.eu.org/douyin/49253641881
-新闻110,https://live.yang-1989.eu.org/douyin/yuanyangluNO.1
 李晨nic,https://live.yang-1989.eu.org/douyin/15971668
 极目新闻,https://live.yang-1989.eu.org/douyin/ctdsbdy
 江西交通监控中心,https://live.yang-1989.eu.org/douyin/62852264024
@@ -2630,6 +2573,63 @@ PUMA官方旗舰店,https://live.yang-1989.eu.org/douyin/87524611523
 海蒂的花园官方旗舰店,https://live.yang-1989.eu.org/douyin/hddhy20202
 科目一轻松学,https://live.yang-1989.eu.org/douyin/879948923
 第一财团,https://live.yang-1989.eu.org/douyin/269875672114
+小海锤石,https://live.yang-1989.eu.org/douyin/xiaohaichuishi
+CS2梅樱大王666,https://live.yang-1989.eu.org/douyin/136739657957
+Since_ow,https://live.yang-1989.eu.org/douyin/since_ow
+临安TV,https://live.yang-1989.eu.org/douyin/LATV
+哏的,https://live.yang-1989.eu.org/douyin/genjiujiu88888
+土豆雷（第五人格）,https://live.yang-1989.eu.org/douyin/34497201663
+塔塔🐽,https://live.yang-1989.eu.org/douyin/465914647873
+央视网美学,https://live.yang-1989.eu.org/douyin/48025733893
+安久电台🍀,https://live.yang-1989.eu.org/douyin/37532256839
+安安安～,https://live.yang-1989.eu.org/douyin/1693076055
+宝玉妹妹🌙（京城大师赛）,https://live.yang-1989.eu.org/douyin/790499232560
+小央视频,https://live.yang-1989.eu.org/douyin/cctv_video
+小欣,https://live.yang-1989.eu.org/douyin/61691464016
+小米官方旗舰店,https://live.yang-1989.eu.org/douyin/xiaomizhibojian
+屿风解说足球,https://live.yang-1989.eu.org/douyin/Lt.Firstchoice
+张coco,https://live.yang-1989.eu.org/douyin/1105660541z
+极光新闻,https://live.yang-1989.eu.org/douyin/jiguangxinwen
+浙有正能量,https://live.yang-1989.eu.org/douyin/sir000115
+甜德莉娜Mia,https://live.yang-1989.eu.org/douyin/85401881468
+电影频道云影院,https://live.yang-1989.eu.org/douyin/cctv6cinema
+电影频道央影传媒,https://live.yang-1989.eu.org/douyin/cctv6media.
+第一现场,https://live.yang-1989.eu.org/douyin/881575999
+聚光,https://live.yang-1989.eu.org/douyin/96179016392
+胖胖✈️☁️,https://live.yang-1989.eu.org/douyin/102953757
+芒果小布丁ASMR,https://live.yang-1989.eu.org/douyin/JMangoOvO
+西安发布,https://live.yang-1989.eu.org/douyin/xianfabu029
+锦一电台,https://live.yang-1989.eu.org/douyin/Jinyi.15
+陈与良猪猪夫妇,https://live.yang-1989.eu.org/douyin/yuliang233
+静静在夏天🍔🎤⁰³²⁰,https://live.yang-1989.eu.org/douyin/828868968740
+🍦精瘦瘦🍦,https://live.yang-1989.eu.org/douyin/1832316360
+CS2卡莎,https://live.yang-1989.eu.org/douyin/35566245
+KazeLink,https://live.yang-1989.eu.org/douyin/BuBuLine
+Mentality桃,https://live.yang-1989.eu.org/douyin/394260640881
+jjking(剑姬教父),https://live.yang-1989.eu.org/douyin/57894179290
+大刀哥,https://live.yang-1989.eu.org/douyin/YY70051
+小凯pubg,https://live.yang-1989.eu.org/douyin/31798779262
+小柴（s16韩服第一剑魔克烈）,https://live.yang-1989.eu.org/douyin/xiaochai1126
+小猪仔(墨镜仙人),https://live.yang-1989.eu.org/douyin/25924328956
+小花妹妹2,https://live.yang-1989.eu.org/douyin/5673726
+小鸥（代码xiaoou）,https://live.yang-1989.eu.org/douyin/10605841863
+峡谷时光王(东东电竞),https://live.yang-1989.eu.org/douyin/187772791280
+才羽桃cr（两个19-3版）,https://live.yang-1989.eu.org/douyin/al1s_cr
+洗剪吹（德华公会）,https://live.yang-1989.eu.org/douyin/57140356199
+王者荣耀王某-（白吃火舞）,https://live.yang-1989.eu.org/douyin/dy25887814
+祈,https://live.yang-1989.eu.org/douyin/Qi_i7ovo
+远辞（国服云缨）,https://live.yang-1989.eu.org/douyin/81355354947
+魔帝Dota2,https://live.yang-1989.eu.org/douyin/GodOfDota2
+麦小鼠大王,https://live.yang-1989.eu.org/douyin/hyz030728
+看看新闻Knews,https://live.yang-1989.eu.org/bilibili/18
+中国电影报道,https://live.yang-1989.eu.org/douyin/zgdybd
+佛山发布,https://live.yang-1989.eu.org/douyin/foshanfabu
+四国军棋·神一般的糟老头子,https://live.yang-1989.eu.org/douyin/ve788777
+央视文艺,https://live.yang-1989.eu.org/douyin/1027321223
+央视网快看,https://live.yang-1989.eu.org/douyin/kuaikancctv
+央视网财经,https://live.yang-1989.eu.org/douyin/nuanxinnengl
+新闻110,https://live.yang-1989.eu.org/douyin/yuanyangluNO.1
+讲驾考的侯教练,https://live.yang-1989.eu.org/douyin/1927131317
 虎牙,#genre#
 满创-苏棠,https://cdn.ttvb.eu.org/huya/31292435
 集美桃子【ZKL】,https://cdn.ttvb.eu.org/huya/31315445
@@ -2744,7 +2744,6 @@ CK-林玖儿,https://live.yang-1989.eu.org/huya/148594
 深情默指导,https://live.yang-1989.eu.org/huya/415355
 集美嘉宜【ZKL】,https://live.yang-1989.eu.org/huya/31363009
 集美林语【ZKL】白白白,https://live.yang-1989.eu.org/huya/158394
-集美温柔【ZKL】白,https://live.yang-1989.eu.org/huya/51988
 Ame111,https://live.yang-1989.eu.org/huya/881735
 MT丶季多鱼,https://live.yang-1989.eu.org/huya/531309
 Yumiko0414,https://live.yang-1989.eu.org/huya/829922
@@ -2769,12 +2768,7 @@ FF大聪明,https://live.yang-1989.eu.org/huya/166261
 Ck-晚心,https://live.yang-1989.eu.org/huya/145362
 HR-玉米大王,https://live.yang-1989.eu.org/huya/158369
 cxy0714,https://live.yang-1989.eu.org/huya/770714
-乐听丶若若,https://live.yang-1989.eu.org/huya/145920
 小龙女【1995】,https://live.yang-1989.eu.org/huya/95920
-我叫小凤仙,https://live.yang-1989.eu.org/huya/31189469
-沐希兔子,https://live.yang-1989.eu.org/huya/29835225
-狂鸟丶天天-90327,https://live.yang-1989.eu.org/huya/924593
-狂鸟丶飞机文,https://live.yang-1989.eu.org/huya/155525
 瓦莉拉,https://live.yang-1989.eu.org/huya/100270
 艺涵【1995】,https://live.yang-1989.eu.org/huya/95311
 茶酱c,https://live.yang-1989.eu.org/huya/291402
@@ -2783,29 +2777,23 @@ cxy0714,https://live.yang-1989.eu.org/huya/770714
 集美小雪【ZKL】,https://live.yang-1989.eu.org/huya/233997
 集美章鱼【ZKL】,https://live.yang-1989.eu.org/huya/146341
 4AM小海xx,https://live.yang-1989.eu.org/huya/791185
-AG绝迹,https://live.yang-1989.eu.org/huya/115959
 DANK1NG,https://live.yang-1989.eu.org/huya/10188
 War3魔尊重楼,https://live.yang-1989.eu.org/huya/18958992
 三千丶新娘-53511,https://live.yang-1989.eu.org/huya/209801
 半个菜鸟,https://live.yang-1989.eu.org/huya/15916883
-华创-达文西,https://live.yang-1989.eu.org/huya/584260
 小孩无敌,https://live.yang-1989.eu.org/huya/24572223
 巨星-绿绿【最细木兰】,https://live.yang-1989.eu.org/huya/547825
 张嘉文,https://live.yang-1989.eu.org/huya/181469
 微竞-呆呆,https://live.yang-1989.eu.org/huya/616702
 微竞-浪D,https://live.yang-1989.eu.org/huya/196645
-狂鸟丶单身狗-90327,https://live.yang-1989.eu.org/huya/482
-疯奶丶大硕,https://live.yang-1989.eu.org/huya/100011
 郭枫荷,https://live.yang-1989.eu.org/huya/139473
 金豆-开鑫【国服云缨】,https://live.yang-1989.eu.org/huya/135934
-鹿儿影视,https://live.yang-1989.eu.org/huya/30986994
 HR-林十七,https://live.yang-1989.eu.org/huya/125319
 Ning,https://live.yang-1989.eu.org/huya/980312
 神枪小子,https://live.yang-1989.eu.org/huya/149721
 解说硕硕,https://live.yang-1989.eu.org/huya/323444
 WE957,https://live.yang-1989.eu.org/huya/890001
 kRYST4L,https://live.yang-1989.eu.org/huya/222523
-北枫CC,https://live.yang-1989.eu.org/huya/572329
 杨齐家丶,https://live.yang-1989.eu.org/huya/60066
 狂魔哥解说,https://live.yang-1989.eu.org/huya/919191
 CX-梦艺,https://live.yang-1989.eu.org/huya/128369
@@ -2826,20 +2814,63 @@ YX丶浮光,https://live.yang-1989.eu.org/huya/721954
 解说海威,https://live.yang-1989.eu.org/huya/262985
 龙小喵喵喵,https://live.yang-1989.eu.org/huya/25045889
 台球教练王小鹏【斯诺克】,https://live.yang-1989.eu.org/huya/149671
-可爱的埋埋,https://live.yang-1989.eu.org/huya/222624
-大朴观影,https://live.yang-1989.eu.org/huya/31007237
-悠悠爱电影,https://live.yang-1989.eu.org/huya/30611864
-涂涂观影团,https://live.yang-1989.eu.org/huya/30513350
-狂鸟丶小玥,https://live.yang-1989.eu.org/huya/26798562
-结尾超人,https://live.yang-1989.eu.org/huya/127981
 LING露雪【世1老六】,https://live.yang-1989.eu.org/huya/326513
-RDZ-Jiale嘉乐,https://live.yang-1989.eu.org/huya/459804
-唐轩宇-,https://live.yang-1989.eu.org/huya/610829
 小飒电竞丶董小飒,https://live.yang-1989.eu.org/huya/13579
-炉石春哥,https://live.yang-1989.eu.org/huya/312410
-盛世-十四剑姬,https://live.yang-1989.eu.org/huya/12214
-虎牙键盘逗,https://live.yang-1989.eu.org/huya/513723
-【炊烟大壮】,https://live.yang-1989.eu.org/huya/24782284
+MH、小辛也,https://live.yang-1989.eu.org/huya/134761
+万象-小甜茶,https://live.yang-1989.eu.org/huya/691311
+万象、一只慧,https://live.yang-1989.eu.org/huya/531230
+书香、夏晚月,https://live.yang-1989.eu.org/huya/153742
+书香、雪雪,https://live.yang-1989.eu.org/huya/147518
+嗨Koi,https://live.yang-1989.eu.org/huya/148927
+垫底辣妹QvQ,https://live.yang-1989.eu.org/huya/143573
+夏日幽泉鼠,https://live.yang-1989.eu.org/huya/31283988
+宋伊一Ya,https://live.yang-1989.eu.org/huya/21263955
+小小小酷哥-组织,https://live.yang-1989.eu.org/huya/1995
+小小米粒儿ya【国服白】,https://live.yang-1989.eu.org/huya/5213
+小桃猪猪,https://live.yang-1989.eu.org/huya/30527430
+快乐de小猫,https://live.yang-1989.eu.org/huya/31308716
+散步霜华,https://live.yang-1989.eu.org/huya/31371700
+新橙记Orange丶,https://live.yang-1989.eu.org/huya/30590779
+时一【努力版、】,https://live.yang-1989.eu.org/huya/124816
+梦境幻影雪8,https://live.yang-1989.eu.org/huya/31109333
+正恒YJ-泽亚【云弟】,https://live.yang-1989.eu.org/huya/88968
+正恒丶酥芙蕾【发财】,https://live.yang-1989.eu.org/huya/499213
+瑶一瑶【钱女友】,https://live.yang-1989.eu.org/huya/157148
+红莲8888,https://live.yang-1989.eu.org/huya/229085
+耗子Haozi,https://live.yang-1989.eu.org/huya/154176
+营帐微星尘,https://live.yang-1989.eu.org/huya/31403008
+迷你世界之神丶丶,https://live.yang-1989.eu.org/huya/152754
+阳宝宝、,https://live.yang-1989.eu.org/huya/16188
+正恒丶一雾,https://live.yang-1989.eu.org/huya/154265
+集美东东【ZKL】,https://live.yang-1989.eu.org/huya/25233
+集美丢丢【ZKL】,https://live.yang-1989.eu.org/huya/125487
+集美太守【ZKL】601,https://live.yang-1989.eu.org/huya/520047
+集美小李子【ZKL】超白,https://live.yang-1989.eu.org/huya/233116
+集美小柔【ZKL】大,https://live.yang-1989.eu.org/huya/9256
+集美小龙【ZKL】233,https://live.yang-1989.eu.org/huya/30624787
+集美欠条【ZKL】白,https://live.yang-1989.eu.org/huya/30960580
+集美鱼儿【ZKL】无敌白,https://live.yang-1989.eu.org/huya/77233
+黄口咸阳树,https://live.yang-1989.eu.org/huya/30692708
+龙城、小潞潞,https://live.yang-1989.eu.org/huya/128726
+90121西厢,https://live.yang-1989.eu.org/huya/472269
+AzZ丶半个橙子,https://live.yang-1989.eu.org/huya/769178
+DK丶微凉,https://live.yang-1989.eu.org/huya/591756
+Karsamzing苏弟,https://live.yang-1989.eu.org/huya/116864
+Kimmy,https://live.yang-1989.eu.org/huya/109810
+Maybeee111,https://live.yang-1989.eu.org/huya/211888
+Mint万坤,https://live.yang-1989.eu.org/huya/775178
+Plu三炮,https://live.yang-1989.eu.org/huya/617694
+avoidless阿伟,https://live.yang-1989.eu.org/huya/139628
+baicaiovo,https://live.yang-1989.eu.org/huya/691406
+单走一张六,https://live.yang-1989.eu.org/huya/610525
+小草包QAQ,https://live.yang-1989.eu.org/huya/139258
+杨齐家丶随便掏,https://live.yang-1989.eu.org/huya/152694
+老鬼-MG,https://live.yang-1989.eu.org/huya/705112
+酸奶困了,https://live.yang-1989.eu.org/huya/148237
+随风蛮王ovo,https://live.yang-1989.eu.org/huya/387067
+魔创-雅一儿【许仙】,https://live.yang-1989.eu.org/huya/52033
+虎牙斯诺克,https://live.yang-1989.eu.org/huya/880214
+虎牙斯诺克副舞台,https://live.yang-1989.eu.org/huya/880625
 V1ncent丶文森特,https://live.yang-1989.eu.org/huya/949527
 七龙珠,https://live.ottiptv.cc/huya/11601966
 七龙珠,https://live.metshop.top/huya/11601966
@@ -2878,16 +2909,12 @@ V1ncent丶文森特,https://live.yang-1989.eu.org/huya/949527
 Cc,https://live.yang-1989.eu.org/huya/11601966
 HelloKitty,https://live.yang-1989.eu.org/huya/11352879
 JJ斗地主,https://live.yang-1989.eu.org/huya/152698
-MH、小辛也,https://live.yang-1989.eu.org/huya/134761
 Navi丶S1mple小电视,https://live.yang-1989.eu.org/huya/24252134
 TI2026舞台一,https://live.yang-1989.eu.org/huya/660118
 XuanXuanPi【XXP】,https://live.yang-1989.eu.org/huya/317946
 barry观世界,https://live.yang-1989.eu.org/huya/20985835
 一起看我爱看剧,https://live.yang-1989.eu.org/huya/30867383
-万象-小甜茶,https://live.yang-1989.eu.org/huya/691311
-万象、一只慧,https://live.yang-1989.eu.org/huya/531230
-书香、夏晚月,https://live.yang-1989.eu.org/huya/153742
-书香、雪雪,https://live.yang-1989.eu.org/huya/147518
+乐听丶若若,https://live.yang-1989.eu.org/huya/145920
 云顶之弈赛事,https://live.yang-1989.eu.org/huya/660133
 偷心大盗ヽ龙宝,https://live.yang-1989.eu.org/huya/11342386
 傍晚猴,https://live.yang-1989.eu.org/huya/30080236
@@ -2898,60 +2925,52 @@ barry观世界,https://live.yang-1989.eu.org/huya/20985835
 十八里铺大当家,https://live.yang-1989.eu.org/huya/21059562
 南西视频,https://live.yang-1989.eu.org/huya/16913382
 古咕咕,https://live.yang-1989.eu.org/huya/29465875
+可爱的埋埋,https://live.yang-1989.eu.org/huya/222624
 君临剧开心,https://live.yang-1989.eu.org/huya/24879365
 周星星,https://live.yang-1989.eu.org/huya/11342412
-嗨Koi,https://live.yang-1989.eu.org/huya/148927
 四大裁子之首,https://live.yang-1989.eu.org/huya/11602058
-垫底辣妹QvQ,https://live.yang-1989.eu.org/huya/143573
 夏夜小妖咪,https://live.yang-1989.eu.org/huya/31312768
-夏日幽泉鼠,https://live.yang-1989.eu.org/huya/31283988
+大朴观影,https://live.yang-1989.eu.org/huya/31007237
 安逗和黑仔,https://live.yang-1989.eu.org/huya/11342424
-宋伊一Ya,https://live.yang-1989.eu.org/huya/21263955
 宸艺艺,https://live.yang-1989.eu.org/huya/31194377
 对君白蜥蜴,https://live.yang-1989.eu.org/huya/26355776
-小小小酷哥-组织,https://live.yang-1989.eu.org/huya/1995
-小小米粒儿ya【国服白】,https://live.yang-1989.eu.org/huya/5213
 小木子先生丶,https://live.yang-1989.eu.org/huya/11342396
-小桃猪猪,https://live.yang-1989.eu.org/huya/30527430
 小琦琪,https://live.yang-1989.eu.org/huya/21241819
 小虎牙-9zUJscDWkH,https://live.yang-1989.eu.org/huya/30080146
 小雅陪你看,https://live.yang-1989.eu.org/huya/30080225
 开船老湿基,https://live.yang-1989.eu.org/huya/11342387
 张伟丽MMA,https://live.yang-1989.eu.org/huya/134769
 御所田南通,https://live.yang-1989.eu.org/huya/26355773
-快乐de小猫,https://live.yang-1989.eu.org/huya/31308716
+悠悠爱电影,https://live.yang-1989.eu.org/huya/30611864
+我叫小凤仙,https://live.yang-1989.eu.org/huya/31189469
 我很忙,https://live.yang-1989.eu.org/huya/11352950
-散步霜华,https://live.yang-1989.eu.org/huya/31371700
 新奇好玩喵,https://live.yang-1989.eu.org/huya/21059610
-新橙记Orange丶,https://live.yang-1989.eu.org/huya/30590779
-时一【努力版、】,https://live.yang-1989.eu.org/huya/124816
 星河信箱,https://live.yang-1989.eu.org/huya/20969101
 暖洋羊洋,https://live.yang-1989.eu.org/huya/31295293
 杀猪饲料,https://live.yang-1989.eu.org/huya/661204
 柯冉冉,https://live.yang-1989.eu.org/huya/11352874
-梦境幻影雪8,https://live.yang-1989.eu.org/huya/31109333
-正恒YJ-泽亚【云弟】,https://live.yang-1989.eu.org/huya/88968
-正恒丶酥芙蕾【发财】,https://live.yang-1989.eu.org/huya/499213
 武林萌主唐小姐,https://live.yang-1989.eu.org/huya/11336726
 永艳金铭,https://live.yang-1989.eu.org/huya/26355839
+沐希兔子,https://live.yang-1989.eu.org/huya/29835225
 海绵宝宝宝,https://live.yang-1989.eu.org/huya/11352919
+涂涂观影团,https://live.yang-1989.eu.org/huya/30513350
 港剧慢品汇,https://live.yang-1989.eu.org/huya/23865142
 港片剧情真好,https://live.yang-1989.eu.org/huya/29465859
 火箭赛事专场,https://live.yang-1989.eu.org/huya/880237
 无尾鱼°,https://live.yang-1989.eu.org/huya/11601961
 爱吃蛋蛋糕,https://live.yang-1989.eu.org/huya/30995188
 特大王天一直播轮播,https://live.yang-1989.eu.org/huya/19096040
-瑶一瑶【钱女友】,https://live.yang-1989.eu.org/huya/157148
+狂鸟丶天天-90327,https://live.yang-1989.eu.org/huya/924593
+狂鸟丶小玥,https://live.yang-1989.eu.org/huya/26798562
+狂鸟丶飞机文,https://live.yang-1989.eu.org/huya/155525
 电视剧痴迷者,https://live.yang-1989.eu.org/huya/29465856
 电视迷痴迷港剧,https://live.yang-1989.eu.org/huya/29465851
 神秘小希哟,https://live.yang-1989.eu.org/huya/20985843
 粤语电影放映厅,https://live.yang-1989.eu.org/huya/21059572
 红茶妹妹,https://live.yang-1989.eu.org/huya/11336592
-红莲8888,https://live.yang-1989.eu.org/huya/229085
+结尾超人,https://live.yang-1989.eu.org/huya/127981
 美少女咸儿,https://live.yang-1989.eu.org/huya/11336572
 老司机,https://live.yang-1989.eu.org/huya/11352946
-耗子Haozi,https://live.yang-1989.eu.org/huya/154176
-营帐微星尘,https://live.yang-1989.eu.org/huya/31403008
 虎牙八点档,https://live.yang-1989.eu.org/huya/880261
 虎牙影院,https://live.yang-1989.eu.org/huya/11601968
 虎牙放映厅,https://live.yang-1989.eu.org/huya/11602077
@@ -2959,51 +2978,33 @@ barry观世界,https://live.yang-1989.eu.org/huya/20985835
 谁能管管我,https://live.yang-1989.eu.org/huya/31298889
 赛文777,https://live.yang-1989.eu.org/huya/21059607
 超能力是放pi,https://live.yang-1989.eu.org/huya/11352906
-迷你世界之神丶丶,https://live.yang-1989.eu.org/huya/152754
 重口味爱好者,https://live.yang-1989.eu.org/huya/11352889
-阳宝宝、,https://live.yang-1989.eu.org/huya/16188
-正恒丶一雾,https://live.yang-1989.eu.org/huya/154265
 陈翔六点半,https://live.yang-1989.eu.org/huya/11274154
 雅雅想吃芝士,https://live.yang-1989.eu.org/huya/22484908
-集美东东【ZKL】,https://live.yang-1989.eu.org/huya/25233
-集美丢丢【ZKL】,https://live.yang-1989.eu.org/huya/125487
-集美太守【ZKL】601,https://live.yang-1989.eu.org/huya/520047
-集美小李子【ZKL】超白,https://live.yang-1989.eu.org/huya/233116
-集美小柔【ZKL】大,https://live.yang-1989.eu.org/huya/9256
-集美小龙【ZKL】233,https://live.yang-1989.eu.org/huya/30624787
-集美欠条【ZKL】白,https://live.yang-1989.eu.org/huya/30960580
-集美鱼儿【ZKL】无敌白,https://live.yang-1989.eu.org/huya/77233
+集美温柔【ZKL】白,https://live.yang-1989.eu.org/huya/51988
 露露姐,https://live.yang-1989.eu.org/huya/11601964
 音乐小石榴,https://live.yang-1989.eu.org/huya/17091681
 领带哥,https://live.yang-1989.eu.org/huya/11342430
-黄口咸阳树,https://live.yang-1989.eu.org/huya/30692708
-龙城、小潞潞,https://live.yang-1989.eu.org/huya/128726
-90121西厢,https://live.yang-1989.eu.org/huya/472269
-AzZ丶半个橙子,https://live.yang-1989.eu.org/huya/769178
-DK丶微凉,https://live.yang-1989.eu.org/huya/591756
-Karsamzing苏弟,https://live.yang-1989.eu.org/huya/116864
-Kimmy,https://live.yang-1989.eu.org/huya/109810
-Maybeee111,https://live.yang-1989.eu.org/huya/211888
-Mint万坤,https://live.yang-1989.eu.org/huya/775178
-Plu三炮,https://live.yang-1989.eu.org/huya/617694
+AG绝迹,https://live.yang-1989.eu.org/huya/115959
+RDZ-Jiale嘉乐,https://live.yang-1989.eu.org/huya/459804
 TG-左耳老熊,https://live.yang-1989.eu.org/huya/834622
-avoidless阿伟,https://live.yang-1989.eu.org/huya/139628
-baicaiovo,https://live.yang-1989.eu.org/huya/691406
 huya丶寒星,https://live.yang-1989.eu.org/huya/172392
 保镖-大镖客DBKiLL,https://live.yang-1989.eu.org/huya/816515
-单走一张六,https://live.yang-1989.eu.org/huya/610525
+北枫CC,https://live.yang-1989.eu.org/huya/572329
+华创-达文西,https://live.yang-1989.eu.org/huya/584260
+唐轩宇-,https://live.yang-1989.eu.org/huya/610829
 安德罗妮丶,https://live.yang-1989.eu.org/huya/528300
-小草包QAQ,https://live.yang-1989.eu.org/huya/139258
 忆玖-一晨【狙神】,https://live.yang-1989.eu.org/huya/607911
-杨齐家丶随便掏,https://live.yang-1989.eu.org/huya/152694
+炉石春哥,https://live.yang-1989.eu.org/huya/312410
+狂鸟丶单身狗-90327,https://live.yang-1989.eu.org/huya/482
 狂鸟丶楚河-90327,https://live.yang-1989.eu.org/huya/998
-老鬼-MG,https://live.yang-1989.eu.org/huya/705112
+疯奶丶大硕,https://live.yang-1989.eu.org/huya/100011
+盛世-十四剑姬,https://live.yang-1989.eu.org/huya/12214
+虎牙键盘逗,https://live.yang-1989.eu.org/huya/513723
 超维视界邀请赛主舞台,https://live.yang-1989.eu.org/huya/473271
-酸奶困了,https://live.yang-1989.eu.org/huya/148237
-随风蛮王ovo,https://live.yang-1989.eu.org/huya/387067
 非凡-迪安,https://live.yang-1989.eu.org/huya/940213
-魔创-雅一儿【许仙】,https://live.yang-1989.eu.org/huya/52033
 JJ麻将,https://live.yang-1989.eu.org/huya/28511836
+【炊烟大壮】,https://live.yang-1989.eu.org/huya/24782284
 原始美食与生活,https://live.yang-1989.eu.org/huya/21356214
 去疼片,https://live.yang-1989.eu.org/huya/15373958
 大蒙乡味,https://live.yang-1989.eu.org/huya/21288462
@@ -3014,9 +3015,8 @@ JJ麻将,https://live.yang-1989.eu.org/huya/28511836
 会唱歌的小野猫,https://live.yang-1989.eu.org/huya/11352871
 李子柒,https://live.yang-1989.eu.org/huya/21969336
 梨涡少女mini,https://live.yang-1989.eu.org/huya/18958242
-虎牙斯诺克,https://live.yang-1989.eu.org/huya/880214
-虎牙斯诺克副舞台,https://live.yang-1989.eu.org/huya/880625
 野原的一家,https://live.yang-1989.eu.org/huya/11352970
+鹿儿影视,https://live.yang-1989.eu.org/huya/30986994
 B站,#genre#
 哔哩哔哩直播,https://cdn.ttvb.eu.org/bilibili/1
 哔哩哔哩直播,https://live.yang-1989.eu.org/bilibili/1obidr4y12a
@@ -3123,7 +3123,6 @@ CSGO官方赛事,https://cdn.ttvb.eu.org/bilibili/35
 杂技路线,https://cdn.ttvb.eu.org/bilibili/2623182
 板栗烧鱼,https://cdn.ttvb.eu.org/bilibili/263129
 梦回乒乓,https://cdn.ttvb.eu.org/bilibili/1982181049
-琥崎,https://cdn.ttvb.eu.org/bilibili/6640613
 瓶子君152,https://cdn.ttvb.eu.org/bilibili/42062
 甜心纯儿-,https://cdn.ttvb.eu.org/bilibili/30902572
 第五人格赛事,https://cdn.ttvb.eu.org/bilibili/6650029
@@ -3191,12 +3190,10 @@ EdmundDZhang,https://live.yang-1989.eu.org/bilibili/5050
 天蓝色罗夏,https://live.yang-1989.eu.org/bilibili/21455010
 奶橘尢很橘,https://live.yang-1989.eu.org/bilibili/3740310
 小鸟冷线,https://live.yang-1989.eu.org/bilibili/31923138
-幽铃夜,https://live.yang-1989.eu.org/bilibili/25515797
 恩骨,https://live.yang-1989.eu.org/bilibili/173586
 灌注大白菜,https://live.yang-1989.eu.org/bilibili/32232237
 独夫之心,https://live.yang-1989.eu.org/bilibili/59907
 艾雨露,https://live.yang-1989.eu.org/bilibili/10183
-这个七七真的馋,https://live.yang-1989.eu.org/bilibili/31374611
 化圆直,https://live.yang-1989.eu.org/bilibili/21200604
 画狐Yauo,https://live.yang-1989.eu.org/bilibili/15005551
 老王dota2,https://live.yang-1989.eu.org/bilibili/8139918
@@ -3214,7 +3211,6 @@ yy没有_Official,https://live.yang-1989.eu.org/bilibili/11935852
 茜奈live,https://live.yang-1989.eu.org/bilibili/1749930238
 过万重舟,https://live.yang-1989.eu.org/bilibili/3669001
 24小时赛车-奇点智播,https://live.yang-1989.eu.org/bilibili/22544672
-KL_qiqi_,https://live.yang-1989.eu.org/bilibili/407149
 OA-Sunzo,https://live.yang-1989.eu.org/bilibili/30040584
 乖乖丸-16号生日版,https://live.yang-1989.eu.org/bilibili/1995463447
 哔哩哔哩电影,https://live.yang-1989.eu.org/bilibili/544957
@@ -3225,7 +3221,6 @@ real真吾,https://live.yang-1989.eu.org/bilibili/13648376
 墨瞳电竞,https://live.yang-1989.eu.org/bilibili/1883019057
 心中的阿良,https://live.yang-1989.eu.org/bilibili/26297837
 菜农来辣,https://live.yang-1989.eu.org/bilibili/11192805
-早椰恋恋,https://live.yang-1989.eu.org/bilibili/26774400
 1xRelax,https://live.yang-1989.eu.org/bilibili/27536309
 Tsubaki___,https://live.yang-1989.eu.org/bilibili/647540
 进击的睿哥哥,https://live.yang-1989.eu.org/bilibili/1876319803
@@ -3261,7 +3256,6 @@ J8-CAT,https://live.yang-1989.eu.org/bilibili/1576075
 翼侯大人,https://live.yang-1989.eu.org/bilibili/60989
 裕刺Fy,https://live.yang-1989.eu.org/bilibili/447
 不问深冬CS2,https://live.yang-1989.eu.org/bilibili/7450133
-军龙神威,https://live.yang-1989.eu.org/bilibili/1881590699
 原味侃球005,https://live.yang-1989.eu.org/bilibili/1941169487
 奇遇叶良,https://live.yang-1989.eu.org/bilibili/8099142
 就是安安安安呀,https://live.yang-1989.eu.org/bilibili/24253811
@@ -3294,10 +3288,8 @@ Kyo_ow,https://live.yang-1989.eu.org/bilibili/7395955
 yy好犯困,https://live.yang-1989.eu.org/bilibili/1992699795
 一个blibli账号,https://live.yang-1989.eu.org/bilibili/1734608488
 三一律Midori,https://live.yang-1989.eu.org/bilibili/22491211
-君君-国学四柱八字,https://live.yang-1989.eu.org/bilibili/1726012075
 奶油-cream-,https://live.yang-1989.eu.org/bilibili/26960792
 小洛洛oo-好运版,https://live.yang-1989.eu.org/bilibili/1756262992
-憨堡堡o,https://live.yang-1989.eu.org/bilibili/27780144
 栖梧Niko,https://live.yang-1989.eu.org/bilibili/1735752263
 甜夕sweet,https://live.yang-1989.eu.org/bilibili/26103248
 白马繁华,https://live.yang-1989.eu.org/bilibili/24001542
@@ -3306,7 +3298,6 @@ yy好犯困,https://live.yang-1989.eu.org/bilibili/1992699795
 你是Nana的小可爱吗,https://live.yang-1989.eu.org/bilibili/3580061
 傲南south,https://live.yang-1989.eu.org/bilibili/30423928
 燃の歌,https://live.yang-1989.eu.org/bilibili/5538307
-破碎的星光brkstar,https://live.yang-1989.eu.org/bilibili/9576151
 神奇陆夫人,https://live.yang-1989.eu.org/bilibili/115
 空灵LML,https://live.yang-1989.eu.org/bilibili/6535302
 老李和老于,https://live.yang-1989.eu.org/bilibili/1874917070
@@ -3317,7 +3308,6 @@ yy好犯困,https://live.yang-1989.eu.org/bilibili/1992699795
 Liz老师教英语,https://live.yang-1989.eu.org/bilibili/1921305354
 悲怆先知,https://live.yang-1989.eu.org/bilibili/22604707
 王楚淇,https://live.yang-1989.eu.org/bilibili/24078537
-大鹅炖蘑菇吗,https://live.yang-1989.eu.org/bilibili/22683055
 婉婉Neko,https://live.yang-1989.eu.org/bilibili/32201309
 楚钧艾克,https://live.yang-1989.eu.org/bilibili/24678311
 真实球迷汇,https://live.yang-1989.eu.org/bilibili/12289362
@@ -3344,7 +3334,6 @@ OneMoreChanceTXM,https://live.yang-1989.eu.org/bilibili/1615371
 时间只玩辅,https://live.yang-1989.eu.org/bilibili/11058609
 神撸传说,https://live.yang-1989.eu.org/bilibili/8729119
 米狗狗Official,https://live.yang-1989.eu.org/bilibili/4393208
-老骚豆腐,https://live.yang-1989.eu.org/bilibili/462
 雪糕cheese,https://live.yang-1989.eu.org/bilibili/27183290
 二次元的中科院物理所,https://live.yang-1989.eu.org/bilibili/1928
 悠一wakareno,https://live.yang-1989.eu.org/bilibili/24957887
@@ -3352,10 +3341,8 @@ OneMoreChanceTXM,https://live.yang-1989.eu.org/bilibili/1615371
 iHateTheWorld,https://live.yang-1989.eu.org/bilibili/1773507572
 佐仓•M•沙耶加,https://live.yang-1989.eu.org/bilibili/104
 兰兰小苍Freesia,https://live.yang-1989.eu.org/bilibili/1896165591
-凯芒KeMon,https://live.yang-1989.eu.org/bilibili/31518457
 友利Mori,https://live.yang-1989.eu.org/bilibili/8915924
 取个名真的好麻烦啊,https://live.yang-1989.eu.org/bilibili/1882761732
-咬人小小兔-,https://live.yang-1989.eu.org/bilibili/1858807059
 咲花なる,https://live.yang-1989.eu.org/bilibili/23720185
 嘉然今天吃什么,https://live.yang-1989.eu.org/bilibili/22637261
 宅QAQ晓笑,https://live.yang-1989.eu.org/bilibili/3708289
@@ -3367,10 +3354,8 @@ iHateTheWorld,https://live.yang-1989.eu.org/bilibili/1773507572
 拜见小怡大王z,https://live.yang-1989.eu.org/bilibili/1913416006
 暖阳今天吃饭了吗,https://live.yang-1989.eu.org/bilibili/4731750
 永雏塔菲,https://live.yang-1989.eu.org/bilibili/22603245
-爱吃猪油的包浆哥,https://live.yang-1989.eu.org/bilibili/25878061
 爱足球的谢宇宁,https://live.yang-1989.eu.org/bilibili/13937450
 白金告阑_镧镧,https://live.yang-1989.eu.org/bilibili/3721770
-羊阳君,https://live.yang-1989.eu.org/bilibili/23415815
 老佳OLP,https://live.yang-1989.eu.org/bilibili/701979
 马莎拉车,https://live.yang-1989.eu.org/bilibili/23954427
 高老师爱足球,https://live.yang-1989.eu.org/bilibili/23923452
@@ -3382,25 +3367,20 @@ lovelive,https://live.yang-1989.eu.org/bilibili/261955
 傲慢的小肉包,https://live.yang-1989.eu.org/bilibili/213
 堆雪人OvO,https://live.yang-1989.eu.org/bilibili/7853599
 夜莲Annbbers,https://live.yang-1989.eu.org/bilibili/24160384
-大炒面制造者Cen,https://live.yang-1989.eu.org/bilibili/426667
 守护茶茶,https://live.yang-1989.eu.org/bilibili/697
 小柳梢z,https://live.yang-1989.eu.org/bilibili/22889482
 少年Pi,https://live.yang-1989.eu.org/bilibili/92613
 年轻的九老师,https://live.yang-1989.eu.org/bilibili/22501671
-意识DT,https://live.yang-1989.eu.org/bilibili/22957791
 撸sir兰陵君,https://live.yang-1989.eu.org/bilibili/13233348
 绯幻月,https://live.yang-1989.eu.org/bilibili/159250
 罗太又破防了,https://live.yang-1989.eu.org/bilibili/23929781
 老King呀老King,https://live.yang-1989.eu.org/bilibili/5166132
 若雷国一钟馗,https://live.yang-1989.eu.org/bilibili/23098187
-青铜树海,https://live.yang-1989.eu.org/bilibili/1774678
-鱼音允胤,https://live.yang-1989.eu.org/bilibili/1819190435
 黄庭RVC,https://live.yang-1989.eu.org/bilibili/5633518
 五月织姬ctsu,https://live.yang-1989.eu.org/bilibili/22014628
 红色幻想乡B号机形态,https://live.yang-1989.eu.org/bilibili/9042354
 绝命笋干,https://live.yang-1989.eu.org/bilibili/23776378
 「B站」金铲铲之战,https://live.yang-1989.eu.org/bilibili/24088107
-178的珞老师S,https://live.yang-1989.eu.org/bilibili/1963656673
 CS2-德云两鬼,https://live.yang-1989.eu.org/bilibili/22889518
 Rabbit兔_,https://live.yang-1989.eu.org/bilibili/13210134
 Vedal和Neuro-sama,https://live.yang-1989.eu.org/bilibili/1852504554
@@ -3409,7 +3389,6 @@ Vedal和Neuro-sama,https://live.yang-1989.eu.org/bilibili/1852504554
 联华供销社,https://live.yang-1989.eu.org/bilibili/31097163
 鲤原子,https://live.yang-1989.eu.org/bilibili/30529796
 waywardzz,https://live.yang-1989.eu.org/bilibili/1919216529
-不死斩剑圣,https://live.yang-1989.eu.org/bilibili/25820260
 时雨ioo,https://live.yang-1989.eu.org/bilibili/7401280
 高寒时薪十块,https://live.yang-1989.eu.org/bilibili/440006
 「B站」绝地求生,https://live.yang-1989.eu.org/bilibili/98
@@ -3439,77 +3418,43 @@ Kebol_死灵,https://live.yang-1989.eu.org/bilibili/1098958
 0verthink1NG,https://live.yang-1989.eu.org/bilibili/26571233
 墨喵星突突母舰Official,https://live.yang-1989.eu.org/bilibili/10525
 战术级子轩,https://live.yang-1989.eu.org/bilibili/13355
-挖机牧魂人,https://live.yang-1989.eu.org/bilibili/6963590
 熊人族嗷非秀,https://live.yang-1989.eu.org/bilibili/5017134
 猪晓皮,https://live.yang-1989.eu.org/bilibili/2041672
 请支持诺希,https://live.yang-1989.eu.org/bilibili/1870881249
 事实即真理,https://live.yang-1989.eu.org/bilibili/30897517
 哈基奈小鲨鱼,https://live.yang-1989.eu.org/bilibili/1635669
 花似季丶逆反,https://live.yang-1989.eu.org/bilibili/975209
-半角数字君,https://live.yang-1989.eu.org/bilibili/2712683
-孤单到黎明,https://live.yang-1989.eu.org/bilibili/14365632
 中国新闻网,https://live.yang-1989.eu.org/bilibili/30527224
-蜡笔小新,https://live.ottiptv.cc/bilibili/30837590
 「B站」CSGO,https://live.yang-1989.eu.org/bilibili/35
-「B站」无畏契约,https://live.yang-1989.eu.org/bilibili/22908869
-「B站」王者荣耀 𝟙,https://live.yang-1989.eu.org/bilibili/55
-「B站」王者荣耀 𝟚,https://live.yang-1989.eu.org/bilibili/21654762
-「B站」第五人格,https://live.yang-1989.eu.org/bilibili/5555
-「B站」英雄联盟,https://live.yang-1989.eu.org/bilibili/6
 -污云-,https://live.yang-1989.eu.org/bilibili/4569245
 -鹤米-,https://live.yang-1989.eu.org/bilibili/1917442758
 360电玩博士,https://live.yang-1989.eu.org/bilibili/21094185
 Asaki大人,https://live.yang-1989.eu.org/bilibili/732
 Bero小萨,https://live.yang-1989.eu.org/bilibili/6517737
-Experiment陆贰陆,https://live.yang-1989.eu.org/bilibili/22973029
 Freddey,https://live.yang-1989.eu.org/bilibili/735629
 Hunk227,https://live.yang-1989.eu.org/bilibili/1728619632
 Mr迷瞪,https://live.yang-1989.eu.org/bilibili/22491717
-N只猫做主播,https://live.yang-1989.eu.org/bilibili/21156724
-OneMicroSpace,https://live.yang-1989.eu.org/bilibili/390508
 Tina不打烊呀,https://live.yang-1989.eu.org/bilibili/1931168593
-rainasleep,https://live.yang-1989.eu.org/bilibili/25559603
 v猫诺v,https://live.yang-1989.eu.org/bilibili/308543
-チルノヽ,https://live.yang-1989.eu.org/bilibili/22863790
 一川水彩,https://live.yang-1989.eu.org/bilibili/24543889
-三角洲行动赛事,https://live.yang-1989.eu.org/bilibili/1921272912
-三面的硬币,https://live.yang-1989.eu.org/bilibili/1026846
 上汽大众,https://live.yang-1989.eu.org/bilibili/22595201
-两米高的猫哥和36只猫,https://live.yang-1989.eu.org/bilibili/21473355
 中正评测,https://live.yang-1989.eu.org/bilibili/10617862
-丿丶夜曦,https://live.yang-1989.eu.org/bilibili/4421957
 乃琳Queen,https://live.yang-1989.eu.org/bilibili/22625027
-余生的客栈,https://live.yang-1989.eu.org/bilibili/14495324
-全心全意小天鹅,https://live.yang-1989.eu.org/bilibili/1852503030
 凌十四丶,https://live.yang-1989.eu.org/bilibili/21589042
-凤凰传奇,https://live.yang-1989.eu.org/bilibili/27404696
 勤奋的yoke,https://live.yang-1989.eu.org/bilibili/23755987
 喵猫哩哩,https://live.yang-1989.eu.org/bilibili/7060103
 回国种地的老陈,https://live.yang-1989.eu.org/bilibili/1779358997
 复活的MELT39,https://live.yang-1989.eu.org/bilibili/69013
-天国的小伙伴,https://live.yang-1989.eu.org/bilibili/13131453
 小熊迷糊糊-,https://live.yang-1989.eu.org/bilibili/1890212004
 广州视界CANTONOW,https://live.yang-1989.eu.org/bilibili/4775711
-归园风物-快乐猫播,https://live.yang-1989.eu.org/bilibili/26296537
 惜君君君君,https://live.yang-1989.eu.org/bilibili/24158125
-慢熟野莓,https://live.yang-1989.eu.org/bilibili/1878513946
-我叫杨坤,https://live.yang-1989.eu.org/bilibili/25306496
-插画师青柠,https://live.yang-1989.eu.org/bilibili/1831478664
-星空君说宇宙,https://live.yang-1989.eu.org/bilibili/2065673
 普通BQ,https://live.yang-1989.eu.org/bilibili/935094
 有毒的粽子,https://live.yang-1989.eu.org/bilibili/540136
-机器工具人,https://live.yang-1989.eu.org/bilibili/164725
 栀芭多铲屎官,https://live.yang-1989.eu.org/bilibili/1944495153
-梦想成真芳,https://live.yang-1989.eu.org/bilibili/1878514367
-河南民生频道大参考,https://live.yang-1989.eu.org/bilibili/22715263
 泰泰柯尔鸭,https://live.yang-1989.eu.org/bilibili/26599442
-画画的柯南,https://live.yang-1989.eu.org/bilibili/1861371393
-白噪音助眠,https://live.yang-1989.eu.org/bilibili/25248835
 禅月5,https://live.yang-1989.eu.org/bilibili/24355417
-粘玉米好甜,https://live.yang-1989.eu.org/bilibili/26145297
 艾尔莎_Channel,https://live.yang-1989.eu.org/bilibili/81004
 芝士爪爪,https://live.yang-1989.eu.org/bilibili/1867582941
-花猫冬冬,https://live.yang-1989.eu.org/bilibili/22421617
 茶馆小二_,https://live.yang-1989.eu.org/bilibili/1933931399
 莫非Cs,https://live.yang-1989.eu.org/bilibili/22781595
 虾仁爱眨眼0w0,https://live.yang-1989.eu.org/bilibili/32775580
@@ -3517,24 +3462,19 @@ v猫诺v,https://live.yang-1989.eu.org/bilibili/308543
 蛋仔派对啦,https://live.yang-1989.eu.org/bilibili/1755259364
 赵俊日,https://live.yang-1989.eu.org/bilibili/22174141
 趁早qr,https://live.yang-1989.eu.org/bilibili/1730468146
-迷影社,https://live.yang-1989.eu.org/bilibili/545007
 邪王MAX,https://live.yang-1989.eu.org/bilibili/11203085
 阿凡提农场场主,https://live.yang-1989.eu.org/bilibili/1740574405
 雨说体育徐静雨,https://live.yang-1989.eu.org/bilibili/21669525
 雫るる_Official,https://live.yang-1989.eu.org/bilibili/21013446
-音疗冥想369,https://live.yang-1989.eu.org/bilibili/21810935
 马登福叔,https://live.yang-1989.eu.org/bilibili/25710458
-魅魔之恋,https://live.yang-1989.eu.org/bilibili/1805598741
 龙哥哥今天又鸽了,https://live.yang-1989.eu.org/bilibili/4283606
 BestNaomi,https://live.yang-1989.eu.org/bilibili/4017751
-JJ斗地主官方,https://live.yang-1989.eu.org/bilibili/22021983
 NinjaJam,https://live.yang-1989.eu.org/bilibili/4472878
 _Thanatos,https://live.yang-1989.eu.org/bilibili/21622428
 两仪滚,https://live.yang-1989.eu.org/bilibili/388
 咩瓜_sxbjzd,https://live.yang-1989.eu.org/bilibili/4586625
 哈鸡蛋大王,https://live.yang-1989.eu.org/bilibili/1894641658
 妮蔻Neekoko,https://live.yang-1989.eu.org/bilibili/30024455
-宇宙大福,https://live.yang-1989.eu.org/bilibili/27791712
 忧郁的千神,https://live.yang-1989.eu.org/bilibili/24326872
 憨疯SaramandE,https://live.yang-1989.eu.org/bilibili/3272215
 日本职业麻将联盟,https://live.yang-1989.eu.org/bilibili/30841267
@@ -3542,17 +3482,76 @@ _Thanatos,https://live.yang-1989.eu.org/bilibili/21622428
 清水未萌_Minamo,https://live.yang-1989.eu.org/bilibili/23026285
 狗狗狗雨,https://live.yang-1989.eu.org/bilibili/102
 甜药Jamren,https://live.yang-1989.eu.org/bilibili/13308358
-老实憨厚的笑笑,https://live.yang-1989.eu.org/bilibili/7777
 风行云,https://live.yang-1989.eu.org/bilibili/1829181560
 Fly何,https://live.yang-1989.eu.org/bilibili/15080846
+冷月BOSS,https://live.yang-1989.eu.org/bilibili/21586546
+蜡笔小新,https://live.ottiptv.cc/bilibili/30837590
+「B站」无畏契约,https://live.yang-1989.eu.org/bilibili/22908869
+「B站」王者荣耀 𝟙,https://live.yang-1989.eu.org/bilibili/55
+「B站」王者荣耀 𝟚,https://live.yang-1989.eu.org/bilibili/21654762
+「B站」第五人格,https://live.yang-1989.eu.org/bilibili/5555
+「B站」英雄联盟,https://live.yang-1989.eu.org/bilibili/6
+178的珞老师S,https://live.yang-1989.eu.org/bilibili/1963656673
+Experiment陆贰陆,https://live.yang-1989.eu.org/bilibili/22973029
+KL_qiqi_,https://live.yang-1989.eu.org/bilibili/407149
+N只猫做主播,https://live.yang-1989.eu.org/bilibili/21156724
+OneMicroSpace,https://live.yang-1989.eu.org/bilibili/390508
+rainasleep,https://live.yang-1989.eu.org/bilibili/25559603
+チルノヽ,https://live.yang-1989.eu.org/bilibili/22863790
+三角洲行动赛事,https://live.yang-1989.eu.org/bilibili/1921272912
+三面的硬币,https://live.yang-1989.eu.org/bilibili/1026846
+两米高的猫哥和36只猫,https://live.yang-1989.eu.org/bilibili/21473355
+丿丶夜曦,https://live.yang-1989.eu.org/bilibili/4421957
+余生的客栈,https://live.yang-1989.eu.org/bilibili/14495324
+全心全意小天鹅,https://live.yang-1989.eu.org/bilibili/1852503030
+军龙神威,https://live.yang-1989.eu.org/bilibili/1881590699
+凤凰传奇,https://live.yang-1989.eu.org/bilibili/27404696
+凯芒KeMon,https://live.yang-1989.eu.org/bilibili/31518457
+君君-国学四柱八字,https://live.yang-1989.eu.org/bilibili/1726012075
+咬人小小兔-,https://live.yang-1989.eu.org/bilibili/1858807059
+大鹅炖蘑菇吗,https://live.yang-1989.eu.org/bilibili/22683055
+天国的小伙伴,https://live.yang-1989.eu.org/bilibili/13131453
+幽铃夜,https://live.yang-1989.eu.org/bilibili/25515797
+归园风物-快乐猫播,https://live.yang-1989.eu.org/bilibili/26296537
+慢熟野莓,https://live.yang-1989.eu.org/bilibili/1878513946
+憨堡堡o,https://live.yang-1989.eu.org/bilibili/27780144
+我叫杨坤,https://live.yang-1989.eu.org/bilibili/25306496
+插画师青柠,https://live.yang-1989.eu.org/bilibili/1831478664
+星空君说宇宙,https://live.yang-1989.eu.org/bilibili/2065673
+机器工具人,https://live.yang-1989.eu.org/bilibili/164725
+梦想成真芳,https://live.yang-1989.eu.org/bilibili/1878514367
+河南民生频道大参考,https://live.yang-1989.eu.org/bilibili/22715263
+爱吃猪油的包浆哥,https://live.yang-1989.eu.org/bilibili/25878061
+琥崎,https://live.yang-1989.eu.org/bilibili/6640613
+画画的柯南,https://live.yang-1989.eu.org/bilibili/1861371393
+白噪音助眠,https://live.yang-1989.eu.org/bilibili/25248835
+粘玉米好甜,https://live.yang-1989.eu.org/bilibili/26145297
+羊阳君,https://live.yang-1989.eu.org/bilibili/23415815
+花猫冬冬,https://live.yang-1989.eu.org/bilibili/22421617
+这个七七真的馋,https://live.yang-1989.eu.org/bilibili/31374611
+迷影社,https://live.yang-1989.eu.org/bilibili/545007
+音疗冥想369,https://live.yang-1989.eu.org/bilibili/21810935
+魅魔之恋,https://live.yang-1989.eu.org/bilibili/1805598741
+JJ斗地主官方,https://live.yang-1989.eu.org/bilibili/22021983
+不死斩剑圣,https://live.yang-1989.eu.org/bilibili/25820260
+半角数字君,https://live.yang-1989.eu.org/bilibili/2712683
+大炒面制造者Cen,https://live.yang-1989.eu.org/bilibili/426667
+孤单到黎明,https://live.yang-1989.eu.org/bilibili/14365632
+宇宙大福,https://live.yang-1989.eu.org/bilibili/27791712
+意识DT,https://live.yang-1989.eu.org/bilibili/22957791
+挖机牧魂人,https://live.yang-1989.eu.org/bilibili/6963590
+破碎的星光brkstar,https://live.yang-1989.eu.org/bilibili/9576151
+老实憨厚的笑笑,https://live.yang-1989.eu.org/bilibili/7777
+老骚豆腐,https://live.yang-1989.eu.org/bilibili/462
+青铜树海,https://live.yang-1989.eu.org/bilibili/1774678
+鱼音允胤,https://live.yang-1989.eu.org/bilibili/1819190435
 LofiGirl,https://live.yang-1989.eu.org/bilibili/27519423
 东方明珠东方朔,https://live.yang-1989.eu.org/bilibili/26351451
-冷月BOSS,https://live.yang-1989.eu.org/bilibili/21586546
 城市街景321,https://live.yang-1989.eu.org/bilibili/23120489
 央视网,https://live.yang-1989.eu.org/bilibili/8178490
-央视网,https://live.yang-1989.eu.org/douyin/cctv.com
 央视频,https://live.yang-1989.eu.org/bilibili/21623527
 新华网,https://live.yang-1989.eu.org/bilibili/22102223
+早椰恋恋,https://live.yang-1989.eu.org/bilibili/26774400
 梦境up主,https://live.yang-1989.eu.org/bilibili/2957705
 火车环球旅行,https://live.yang-1989.eu.org/bilibili/27841685
 索松村大空里民宿,https://live.yang-1989.eu.org/bilibili/23046729
@@ -3585,7 +3584,6 @@ PeRo明明,https://cdn.ttvb.eu.org/douyu/6822146
 斗鱼CSGO赛事主频道,https://cdn.ttvb.eu.org/douyu/601514
 陶可可coco,https://cdn.ttvb.eu.org/douyu/2501233
 「斗鱼」英雄联盟 𝟙,https://live.yang-1989.eu.org/douyu/288016
-腐团儿,https://live.yang-1989.eu.org/douyu/4624967
 ICEKING,https://live.yang-1989.eu.org/douyu/3567521
 Tony托公子,https://live.yang-1989.eu.org/douyu/6442973
 Novaa,https://live.yang-1989.eu.org/douyu/9500
@@ -3605,14 +3603,11 @@ LR1245,https://live.yang-1989.eu.org/douyu/12534632
 斗鱼暴雪游戏,https://live.yang-1989.eu.org/douyu/1024
 757户外,https://live.yang-1989.eu.org/douyu/757122
 甜心战士,https://live.yang-1989.eu.org/douyu/242045
-野蛮女友菡菡,https://live.yang-1989.eu.org/douyu/801429
 一本正经的稻哥,https://live.yang-1989.eu.org/douyu/300358
-贾贵队长真男神,https://live.yang-1989.eu.org/douyu/299854
 丨ABang阿帮丨,https://live.yang-1989.eu.org/douyu/11437
 子敬ad,https://live.yang-1989.eu.org/douyu/8256300
 爱丝艾芙,https://live.yang-1989.eu.org/douyu/12408207
 可达鸽psydove,https://live.yang-1989.eu.org/douyu/11185587
-祈风1v9,https://live.yang-1989.eu.org/douyu/8302
 神棍老师麦迪文,https://live.yang-1989.eu.org/douyu/4767111
 驴酱的冯雨大王,https://live.yang-1989.eu.org/douyu/317422
 寅子,https://live.yang-1989.eu.org/douyu/71415
@@ -3620,13 +3615,11 @@ LR1245,https://live.yang-1989.eu.org/douyu/12534632
 老皮历险记,https://live.yang-1989.eu.org/douyu/2140934
 解说老陈,https://live.yang-1989.eu.org/douyu/8527241
 何二抛zZ,https://live.yang-1989.eu.org/douyu/4452132
-是初辞阿,https://live.yang-1989.eu.org/douyu/8893763
 朴雨彬,https://live.yang-1989.eu.org/douyu/7930707
 李李超欧,https://live.yang-1989.eu.org/douyu/12485490
 艺瑟妃,https://live.yang-1989.eu.org/douyu/6999879
 贝拉小姐姐,https://live.yang-1989.eu.org/douyu/3276456
 Chalice,https://live.yang-1989.eu.org/douyu/5135383
-Nostalie,https://live.yang-1989.eu.org/douyu/142488
 Tyloo骄阳,https://live.yang-1989.eu.org/douyu/6049122
 scboy,https://live.yang-1989.eu.org/douyu/3484
 主播阿飞,https://live.yang-1989.eu.org/douyu/84452
@@ -3634,25 +3627,41 @@ scboy,https://live.yang-1989.eu.org/douyu/3484
 哎呀朝朝,https://live.yang-1989.eu.org/douyu/9105451
 墨衣moyi,https://live.yang-1989.eu.org/douyu/8834570
 杨正Zola,https://live.yang-1989.eu.org/douyu/1597956
-解说HasFin,https://live.yang-1989.eu.org/douyu/190448
 金咕咕金咕咕doinb,https://live.yang-1989.eu.org/douyu/252140
-阳光男孩Aq,https://live.yang-1989.eu.org/douyu/7718843
 小鱼小鱼吃虾米,https://live.yang-1989.eu.org/douyu/2158798
 百变姑姑肖淑洁,https://live.yang-1989.eu.org/douyu/594613
 夕尘残枫,https://live.yang-1989.eu.org/douyu/248695
-尤优Baby,https://live.yang-1989.eu.org/douyu/1769784
-火星包,https://live.yang-1989.eu.org/douyu/52
 宝贝薇阿,https://live.yang-1989.eu.org/douyu/71825
 一口三明治3Mz,https://live.yang-1989.eu.org/douyu/1667826
 果小果是个弟弟,https://live.yang-1989.eu.org/douyu/6558897
 「斗鱼」金铲铲之战,https://live.yang-1989.eu.org/douyu/9715241
 小渔火ya,https://live.yang-1989.eu.org/douyu/6562251
 尐表哥,https://live.yang-1989.eu.org/douyu/217331
-wtybill,https://live.yang-1989.eu.org/douyu/57321
-十月船长丶,https://live.yang-1989.eu.org/douyu/718133
-椰汁糕冬瓜强,https://live.yang-1989.eu.org/douyu/63136
-王纪超666,https://live.yang-1989.eu.org/douyu/3567314
-龚建ZSMJ,https://live.yang-1989.eu.org/douyu/52876
+十三三三,https://live.yang-1989.eu.org/douyu/69752
+叶子户外,https://live.yang-1989.eu.org/douyu/244548
+孙悟空丨兰林汉,https://live.yang-1989.eu.org/douyu/475252
+暴走的银剑君丶,https://live.yang-1989.eu.org/douyu/251783
+猫叔灬灬,https://live.yang-1989.eu.org/douyu/47378
+GA丶,https://live.yang-1989.eu.org/douyu/7018202
+Jackyar,https://live.yang-1989.eu.org/douyu/6490082
+XROCK年鹏Enpi,https://live.yang-1989.eu.org/douyu/5389181
+lqscrisp,https://live.yang-1989.eu.org/douyu/2739447
+ok林仔,https://live.yang-1989.eu.org/douyu/500269
+丶不喜欢喝水水,https://live.yang-1989.eu.org/douyu/11239476
+余小C真的很强,https://live.yang-1989.eu.org/douyu/1126960
+刘嘉俊Sylar1,https://live.yang-1989.eu.org/douyu/762484
+啦啦啦不是狗狗狗,https://live.yang-1989.eu.org/douyu/633019
+墨岩彧丶Sumiya,https://live.yang-1989.eu.org/douyu/6567483
+小甜椒单排日记,https://live.yang-1989.eu.org/douyu/3863752
+异灵术老师,https://live.yang-1989.eu.org/douyu/93589
+李好好吗吗,https://live.yang-1989.eu.org/douyu/6385489
+电棍,https://live.yang-1989.eu.org/douyu/12306
+白鲨AyoM,https://live.yang-1989.eu.org/douyu/12821
+立直喵急便,https://live.yang-1989.eu.org/douyu/8876271
+谢彬DD,https://live.yang-1989.eu.org/douyu/110
+超级小桀,https://live.yang-1989.eu.org/douyu/74751
+雷欧其,https://live.yang-1989.eu.org/douyu/128489
+神机小诸葛,https://live.yang-1989.eu.org/douyu/259676
 经典电影,https://goodiptv.club/douyu/6091425
 海绵宝宝,https://live.metshop.top/douyu/3949681
 漫画解说,https://www.goodiptv.club/douyu/5907076
@@ -3671,80 +3680,70 @@ dw151295068,https://live.yang-1989.eu.org/douyu/12655359
 二呆啾,https://live.yang-1989.eu.org/douyu/5092355
 伊太刀刀,https://live.yang-1989.eu.org/douyu/747764
 傲娇的超级赛亚人,https://live.yang-1989.eu.org/douyu/4373285
-十三三三,https://live.yang-1989.eu.org/douyu/69752
-叶子户外,https://live.yang-1989.eu.org/douyu/244548
 奇光主播Blaze,https://live.yang-1989.eu.org/douyu/12817608
 奇光主播q,https://live.yang-1989.eu.org/douyu/12560807
-孙悟空丨兰林汉,https://live.yang-1989.eu.org/douyu/475252
+尤优Baby,https://live.yang-1989.eu.org/douyu/1769784
 崔杋圭五颜一,https://live.yang-1989.eu.org/douyu/8189873
 师落,https://live.yang-1989.eu.org/douyu/6911044
 当幽兰剑遇上链子刀,https://live.yang-1989.eu.org/douyu/6027991
 当燕双鹰遇见李元芳,https://live.yang-1989.eu.org/douyu/3439096
 当铁手团遇到光复社,https://live.yang-1989.eu.org/douyu/5875025
 我砸晕了牛顿奥,https://live.yang-1989.eu.org/douyu/1218414
-暴走的银剑君丶,https://live.yang-1989.eu.org/douyu/251783
+是初辞阿,https://live.yang-1989.eu.org/douyu/8893763
 橙记Orange丶,https://live.yang-1989.eu.org/douyu/4549169
 牛奶味的梦猪猪,https://live.yang-1989.eu.org/douyu/5261342
 狄胖胖与李乖乖,https://live.yang-1989.eu.org/douyu/12183882
-猫叔灬灬,https://live.yang-1989.eu.org/douyu/47378
 疯狂尛潴潴,https://live.yang-1989.eu.org/douyu/4290711
 白了个痴,https://live.yang-1989.eu.org/douyu/319576
 纪录片之家字幕组,https://live.yang-1989.eu.org/douyu/8834003
 聚聚聚一个月,https://live.yang-1989.eu.org/douyu/4105989
+腐团儿,https://live.yang-1989.eu.org/douyu/4624967
 若若跑的贼快,https://live.yang-1989.eu.org/douyu/9263298
 苹果Zei妖,https://live.yang-1989.eu.org/douyu/2793084
 苹果Zei甜,https://live.yang-1989.eu.org/douyu/1174353
 蓝翔新三国,https://live.yang-1989.eu.org/douyu/5908256
 请给我画一只羊,https://live.yang-1989.eu.org/douyu/6720032
+贾贵队长真男神,https://live.yang-1989.eu.org/douyu/299854
 轰轰仔,https://live.yang-1989.eu.org/douyu/6925114
 酷炫你你你,https://live.yang-1989.eu.org/douyu/454867
+野蛮女友菡菡,https://live.yang-1989.eu.org/douyu/801429
 Evelinas,https://live.yang-1989.eu.org/douyu/10197652
-GA丶,https://live.yang-1989.eu.org/douyu/7018202
-Jackyar,https://live.yang-1989.eu.org/douyu/6490082
+Nostalie,https://live.yang-1989.eu.org/douyu/142488
 QuQu非常规大师,https://live.yang-1989.eu.org/douyu/178432
 ShaunaVayne丨琦,https://live.yang-1989.eu.org/douyu/796833
-XROCK年鹏Enpi,https://live.yang-1989.eu.org/douyu/5389181
 Xleft小叮当,https://live.yang-1989.eu.org/douyu/3168536
 Zhou陈尧,https://live.yang-1989.eu.org/douyu/88660
-lqscrisp,https://live.yang-1989.eu.org/douyu/2739447
-ok林仔,https://live.yang-1989.eu.org/douyu/500269
 pigff,https://live.yang-1989.eu.org/douyu/24422
+wtybill,https://live.yang-1989.eu.org/douyu/57321
 yyfyyf,https://live.yang-1989.eu.org/douyu/9999
 zzc啊哦额,https://live.yang-1989.eu.org/douyu/666743
 三酒OuO,https://live.yang-1989.eu.org/douyu/2421040
 中年人拳师七号,https://live.yang-1989.eu.org/douyu/1476712
-丶不喜欢喝水水,https://live.yang-1989.eu.org/douyu/11239476
-余小C真的很强,https://live.yang-1989.eu.org/douyu/1126960
 冷少icon,https://live.yang-1989.eu.org/douyu/8682569
-刘嘉俊Sylar1,https://live.yang-1989.eu.org/douyu/762484
+十月船长丶,https://live.yang-1989.eu.org/douyu/718133
 叫我老陈就好了,https://live.yang-1989.eu.org/douyu/74960
-啦啦啦不是狗狗狗,https://live.yang-1989.eu.org/douyu/633019
 四国军棋欠你幸福,https://live.yang-1989.eu.org/douyu/280087
-墨岩彧丶Sumiya,https://live.yang-1989.eu.org/douyu/6567483
-小甜椒单排日记,https://live.yang-1989.eu.org/douyu/3863752
 帽子戏法Chess,https://live.yang-1989.eu.org/douyu/4487219
-异灵术老师,https://live.yang-1989.eu.org/douyu/93589
-李好好吗吗,https://live.yang-1989.eu.org/douyu/6385489
+椰汁糕冬瓜强,https://live.yang-1989.eu.org/douyu/63136
 洞主丨歌神洞庭湖,https://live.yang-1989.eu.org/douyu/138243
 流星丶Meteor丶丶,https://live.yang-1989.eu.org/douyu/11969011
+火星包,https://live.yang-1989.eu.org/douyu/52
+王纪超666,https://live.yang-1989.eu.org/douyu/3567314
 玩机器丶Machine,https://live.yang-1989.eu.org/douyu/6979222
-电棍,https://live.yang-1989.eu.org/douyu/12306
-白鲨AyoM,https://live.yang-1989.eu.org/douyu/12821
+祈风1v9,https://live.yang-1989.eu.org/douyu/8302
 神奇的维C,https://live.yang-1989.eu.org/douyu/9830066
-立直喵急便,https://live.yang-1989.eu.org/douyu/8876271
 网友张顺飞,https://live.yang-1989.eu.org/douyu/2561707
 艾琳bigbaby,https://live.yang-1989.eu.org/douyu/10639765
-谢彬DD,https://live.yang-1989.eu.org/douyu/110
-超级小桀,https://live.yang-1989.eu.org/douyu/74751
+解说HasFin,https://live.yang-1989.eu.org/douyu/190448
 邦Sa,https://live.yang-1989.eu.org/douyu/5720533
-雷欧其,https://live.yang-1989.eu.org/douyu/128489
+阳光男孩Aq,https://live.yang-1989.eu.org/douyu/7718843
 龙四爷攻略组,https://live.yang-1989.eu.org/douyu/479079
+龚建ZSMJ,https://live.yang-1989.eu.org/douyu/52876
 八卦象棋大师,https://live.yang-1989.eu.org/douyu/851040
 单纯的顺才少爷,https://live.yang-1989.eu.org/douyu/10084875
 小约翰可汗,https://live.yang-1989.eu.org/douyu/9738854
 往事vs随风1,https://live.yang-1989.eu.org/douyu/3113309
 火龙果说电影,https://live.yang-1989.eu.org/douyu/9559158
-神机小诸葛,https://live.yang-1989.eu.org/douyu/259676
 雷疯小叔,https://live.yang-1989.eu.org/douyu/291514
 港澳台,#genre#
 澳门卫星「官方」,https://live5.tdm.com.mo/ch3/ch3.live/playlist.m3u8
@@ -3757,7 +3756,7 @@ SUPER FUN,https://iptv.yang-1989.xyz/myTV/5w8d4c.mpd?token=82238cd0b2c2c5d072781
 翡翠台「24小时回看」,https://iptv.yang-1989.xyz/hk/t57tz5.m3u8
 无线新闻台「3小时回看」,https://iptv.yang-1989.xyz/hk/kxc7sj.m3u8
 翡翠台,https://cdn.qd.je/163189/fct
-翡翠台,https://iptv.yang-1989.xyz/myTV/895dhu.mpd
+翡翠台,https://iptv.yang-1989.xyz/myTV/kud9ms.mpd
 翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://r.jdshipin.com/qrfbg
 翡翠台,http://r.jdshipin.com/62WM7
@@ -3768,7 +3767,7 @@ SUPER FUN,https://iptv.yang-1989.xyz/myTV/5w8d4c.mpd?token=82238cd0b2c2c5d072781
 翡翠台「WebVTT字幕」,https://cdn.qd.je/163189/fctvtt
 无线新闻台,https://cdn.qd.je/163189/wxxw
 无线新闻台,https://cdn.qd.je/163189/wxxwt
-无线新闻台,https://iptv.yang-1989.xyz/myTV/97pyhk.mpd
+无线新闻台,https://iptv.yang-1989.xyz/myTV/b49emb.mpd
 TV5MONDE STYLE 生活时尚「Relay」,https://iptv.yang-1989.xyz/4g/tndj8h.m3u8
 TV5MONDE STYLE 生活时尚「Relay」,https://iptv.yang-1989.xyz/4g/c252rr.m3u8
 博斯运动 一「Relay」,https://iptv.yang-1989.xyz/4g/dyefcu.m3u8
@@ -3901,81 +3900,81 @@ TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
 龙祥电影,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34825
 东森洋片,http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34904
 东森洋片,https://hls-gateway.vpstv.net/streams/476997.m3u8
-凤凰卫视·中文「72小时回看」,https://iptv.yang-1989.xyz/hk/pj989p.m3u8
-凤凰卫视·资讯「72小时回看」,https://iptv.yang-1989.xyz/hk/5k2a88.m3u8
-凤凰卫视·香港「72小时回看」,https://iptv.yang-1989.xyz/hk/ph7ky6.m3u8
-明珠台「Relay」,https://iptv.yang-1989.xyz/hk/h7vvtj.m3u8
-TVB Plus「Relay」,https://iptv.yang-1989.xyz/hk/554yye.m3u8
-Love Nature 4K「Relay」,https://iptv.yang-1989.xyz/hk/3ztqgd.m3u8
-美亚电影台「Relay」,https://iptv.yang-1989.xyz/hk/ge75zg.m3u8
-PopC「Relay」,https://iptv.yang-1989.xyz/hk/7zbk6r.m3u8
-ViuTV「Relay」,https://iptv.yang-1989.xyz/hk/df3t5z.m3u8
-ViuTVsix「Relay」,https://iptv.yang-1989.xyz/hk/526n4g.m3u8
-Now直播台「Relay」,https://iptv.yang-1989.xyz/hk/a5fvj8.m3u8
-Now新闻台「Relay」,https://iptv.yang-1989.xyz/hk/q8a2h5.m3u8
-Now财经台「Relay」,https://iptv.yang-1989.xyz/hk/hf9hbz.m3u8
-Now Sports 精选「Relay」,https://iptv.yang-1989.xyz/hk/fh9q6w.m3u8
-雷霆881「电台」,https://iptv.yang-1989.xyz/hk/h9n7k6.m3u8
-叱咤903「电台」,https://iptv.yang-1989.xyz/hk/buxcaf.m3u8
-AM864「电台」,https://iptv.yang-1989.xyz/hk/45xjav.m3u8
+凤凰卫视·中文「72小时回看」,https://iptv.yang-1989.xyz/hk/b836yw.m3u8
+凤凰卫视·资讯「72小时回看」,https://iptv.yang-1989.xyz/hk/wwcyww.m3u8
+凤凰卫视·香港「72小时回看」,https://iptv.yang-1989.xyz/hk/a4fv6r.m3u8
+明珠台「Relay」,https://iptv.yang-1989.xyz/hk/8wcxc6.m3u8
+TVB Plus「Relay」,https://iptv.yang-1989.xyz/hk/k67kcq.m3u8
+Love Nature 4K「Relay」,https://iptv.yang-1989.xyz/hk/yzy3sa.m3u8
+美亚电影台「Relay」,https://iptv.yang-1989.xyz/hk/xemyac.m3u8
+PopC「Relay」,https://iptv.yang-1989.xyz/hk/89f7sd.m3u8
+ViuTV「Relay」,https://iptv.yang-1989.xyz/hk/5t8uqv.m3u8
+ViuTVsix「Relay」,https://iptv.yang-1989.xyz/hk/4sbqcs.m3u8
+Now直播台「Relay」,https://iptv.yang-1989.xyz/hk/24ewqu.m3u8
+Now新闻台「Relay」,https://iptv.yang-1989.xyz/hk/kcsy28.m3u8
+Now财经台「Relay」,https://iptv.yang-1989.xyz/hk/w2zt7w.m3u8
+Now Sports 精选「Relay」,https://iptv.yang-1989.xyz/hk/b769av.m3u8
+雷霆881「电台」,https://iptv.yang-1989.xyz/hk/m7dtq4.m3u8
+叱咤903「电台」,https://iptv.yang-1989.xyz/hk/q9d7m9.m3u8
+AM864「电台」,https://iptv.yang-1989.xyz/hk/8c4pum.m3u8
 HOY 国际财经台「官方」,https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
 HOY TV「官方」,https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
 HOY 资讯台「官方」,https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 RTHK 31「官方」,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream5/streamPlaylist.m3u8
 RTHK 32「官方」,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 RTHK 33「官方」,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
-澳门莲花,https://iptv.yang-1989.xyz/hk/nqkqs5.m3u8
+澳门莲花,https://iptv.yang-1989.xyz/hk/ch3gah.m3u8
 澳门莲花,https://cdn.qd.je/163189/amlh
-澳门Macau「官方」,https://iptv.yang-1989.xyz/hk/qe7fv7.m3u8
-澳视澳门「官方」,https://iptv.yang-1989.xyz/hk/5hffgk.m3u8
-澳视葡文「官方」,https://iptv.yang-1989.xyz/hk/4r3epz.m3u8
-澳门资讯「官方」,https://iptv.yang-1989.xyz/hk/nxr8p8.m3u8
-澳门综艺「官方」,https://iptv.yang-1989.xyz/hk/x7fved.m3u8
-澳门体育「官方」,https://iptv.yang-1989.xyz/hk/shg23d.m3u8
-纬来体育「Relay」,https://iptv.yang-1989.xyz/tw/dhfsjh.m3u8
-纬来日本「Relay」,https://iptv.yang-1989.xyz/tw/jak9re.m3u8
-纬来电影「Relay」,https://iptv.yang-1989.xyz/tw/4c2f33.m3u8
-纬来综合「Relay」,https://iptv.yang-1989.xyz/tw/ddchuv.m3u8
-纬来戏剧「Relay」,https://iptv.yang-1989.xyz/tw/ck8mcy.m3u8
-纬来育乐「Relay」,https://iptv.yang-1989.xyz/tw/bar5rk.m3u8
-爱尔达体育 一,https://iptv.yang-1989.xyz/tw/6k3dtw.m3u8
-爱尔达体育 二,https://iptv.yang-1989.xyz/tw/grmdqc.m3u8
-爱尔达体育 三,https://iptv.yang-1989.xyz/tw/wk8ate.m3u8
-爱尔达体育 四,https://iptv.yang-1989.xyz/tw/ehc27s.m3u8
-DAZN 1,https://iptv.yang-1989.xyz/tw/fvejjg.m3u8
-DAZN 2,https://iptv.yang-1989.xyz/tw/5d5ksc.m3u8
-年代新闻「Relay」,https://iptv.yang-1989.xyz/tw/43xkxf.m3u8
-中天新闻「Relay」,https://iptv.yang-1989.xyz/tw/y3s96f.m3u8
-中天综合「Relay」,https://iptv.yang-1989.xyz/tw/e695ed.m3u8
-中天娱乐「Relay」,https://iptv.yang-1989.xyz/tw/32rtpv.m3u8
-东森电影「Relay」,https://iptv.yang-1989.xyz/tw/5cg4jw.m3u8
-东森洋片「Relay」,https://iptv.yang-1989.xyz/tw/fvq6bs.m3u8
-东森综合「Relay」,https://iptv.yang-1989.xyz/tw/av952b.m3u8
-东森戏剧「Relay」,https://iptv.yang-1989.xyz/tw/ryq63n.m3u8
-东森幼幼「Relay」,https://iptv.yang-1989.xyz/tw/up7r4f.m3u8
-台视「Relay」,https://iptv.yang-1989.xyz/tw/hka3an.m3u8
-MTV综合台「Relay」,https://iptv.yang-1989.xyz/tw/esag2m.m3u8
-动物星球「Relay」,https://iptv.yang-1989.xyz/tw/ssxzmm.m3u8
-CATCHPLAY 电影「Relay」,https://iptv.yang-1989.xyz/tw/g4kqpg.m3u8
-龙祥时代「Relay」,https://iptv.yang-1989.xyz/tw/2wye3p.m3u8
-好莱坞电影「Relay」,https://iptv.yang-1989.xyz/tw/f6wfey.m3u8
-CINEMAX「Relay」,https://iptv.yang-1989.xyz/tw/wja3zv.m3u8
-龙华偶像「ofiii」,https://iptv.yang-1989.xyz/ofiii/3amdet.m3u8
-龙华卡通「ofiii」,https://iptv.yang-1989.xyz/ofiii/7fa59s.m3u8
-龙华戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/jht8vp.m3u8
-龙华日韩「ofiii」,https://iptv.yang-1989.xyz/ofiii/3vugcr.m3u8
-龙华洋片「ofiii」,https://iptv.yang-1989.xyz/ofiii/34ayzk.m3u8
-龙华经典「ofiii」,https://iptv.yang-1989.xyz/ofiii/287c4c.m3u8
-龙华电影「ofiii」,https://iptv.yang-1989.xyz/ofiii/xe47gm.m3u8
-中天新闻「ofiii」,https://iptv.yang-1989.xyz/ofiii/sxtmmp.m3u8
-台湾戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/g9432m.m3u8
-DayStar「ofiii」,https://iptv.yang-1989.xyz/ofiii/sbgpb9.m3u8
-第1商业「ofiii」,https://iptv.yang-1989.xyz/ofiii/m8jrkj.m3u8
-Smart知识「ofiii」,https://iptv.yang-1989.xyz/ofiii/42qf8r.m3u8
+澳门Macau「官方」,https://iptv.yang-1989.xyz/hk/f27zrt.m3u8
+澳视澳门「官方」,https://iptv.yang-1989.xyz/hk/c9pxf2.m3u8
+澳视葡文「官方」,https://iptv.yang-1989.xyz/hk/pfvyne.m3u8
+澳门资讯「官方」,https://iptv.yang-1989.xyz/hk/xpkcnu.m3u8
+澳门综艺「官方」,https://iptv.yang-1989.xyz/hk/vwe9pm.m3u8
+澳门体育「官方」,https://iptv.yang-1989.xyz/hk/86gdqe.m3u8
+纬来体育「Relay」,https://iptv.yang-1989.xyz/tw/n37jm4.m3u8
+纬来日本「Relay」,https://iptv.yang-1989.xyz/tw/sruqxz.m3u8
+纬来电影「Relay」,https://iptv.yang-1989.xyz/tw/dgg4rh.m3u8
+纬来综合「Relay」,https://iptv.yang-1989.xyz/tw/q7uvkw.m3u8
+纬来戏剧「Relay」,https://iptv.yang-1989.xyz/tw/g7dzrh.m3u8
+纬来育乐「Relay」,https://iptv.yang-1989.xyz/tw/m3gj3j.m3u8
+爱尔达体育 一,https://iptv.yang-1989.xyz/tw/6kcdwb.m3u8
+爱尔达体育 二,https://iptv.yang-1989.xyz/tw/cnge2d.m3u8
+爱尔达体育 三,https://iptv.yang-1989.xyz/tw/tjuhgs.m3u8
+爱尔达体育 四,https://iptv.yang-1989.xyz/tw/npuehx.m3u8
+DAZN 1,https://iptv.yang-1989.xyz/tw/v6zuj2.m3u8
+DAZN 2,https://iptv.yang-1989.xyz/tw/8j8t4x.m3u8
+年代新闻「Relay」,https://iptv.yang-1989.xyz/tw/fmppqv.m3u8
+中天新闻「Relay」,https://iptv.yang-1989.xyz/tw/jc98wa.m3u8
+中天综合「Relay」,https://iptv.yang-1989.xyz/tw/3jpeau.m3u8
+中天娱乐「Relay」,https://iptv.yang-1989.xyz/tw/38fqnh.m3u8
+东森电影「Relay」,https://iptv.yang-1989.xyz/tw/ndf5kg.m3u8
+东森洋片「Relay」,https://iptv.yang-1989.xyz/tw/p4fvbn.m3u8
+东森综合「Relay」,https://iptv.yang-1989.xyz/tw/jkgns9.m3u8
+东森戏剧「Relay」,https://iptv.yang-1989.xyz/tw/pyqewg.m3u8
+东森幼幼「Relay」,https://iptv.yang-1989.xyz/tw/vw9m4s.m3u8
+台视「Relay」,https://iptv.yang-1989.xyz/tw/r8ujms.m3u8
+MTV综合台「Relay」,https://iptv.yang-1989.xyz/tw/kd5pfc.m3u8
+动物星球「Relay」,https://iptv.yang-1989.xyz/tw/57sbjv.m3u8
+CATCHPLAY 电影「Relay」,https://iptv.yang-1989.xyz/tw/f4cafp.m3u8
+龙祥时代「Relay」,https://iptv.yang-1989.xyz/tw/nmgqdj.m3u8
+好莱坞电影「Relay」,https://iptv.yang-1989.xyz/tw/9ru2a7.m3u8
+CINEMAX「Relay」,https://iptv.yang-1989.xyz/tw/q9xvwd.m3u8
+龙华偶像「ofiii」,https://iptv.yang-1989.xyz/ofiii/evmrdb.m3u8
+龙华卡通「ofiii」,https://iptv.yang-1989.xyz/ofiii/f7vw44.m3u8
+龙华戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/5dpx8j.m3u8
+龙华日韩「ofiii」,https://iptv.yang-1989.xyz/ofiii/ga98hq.m3u8
+龙华洋片「ofiii」,https://iptv.yang-1989.xyz/ofiii/t78z7g.m3u8
+龙华经典「ofiii」,https://iptv.yang-1989.xyz/ofiii/898crr.m3u8
+龙华电影「ofiii」,https://iptv.yang-1989.xyz/ofiii/t8kwhv.m3u8
+中天新闻「ofiii」,https://iptv.yang-1989.xyz/ofiii/tdcnae.m3u8
+台湾戏剧「ofiii」,https://iptv.yang-1989.xyz/ofiii/6gtnfm.m3u8
+DayStar「ofiii」,https://iptv.yang-1989.xyz/ofiii/5gd5fj.m3u8
+第1商业「ofiii」,https://iptv.yang-1989.xyz/ofiii/fqegu3.m3u8
+Smart知识「ofiii」,https://iptv.yang-1989.xyz/ofiii/ewwdyd.m3u8
 明珠台「字幕」,https://cdn.qd.je/163189/mzt
 明珠台「WebVTT字幕」,https://cdn.qd.je/163189/mztvtt
 TVB Plus,https://cdn.qd.je/163189/tvbp2
-TVB Plus,https://iptv.yang-1989.xyz/myTV/554yye.mpd
+TVB Plus,https://iptv.yang-1989.xyz/myTV/k67kcq.mpd
 TVB Plus「字幕」,https://cdn.qd.je/163189/tvbp
 TVB Plus「WebVTT字幕」,https://cdn.qd.je/163189/tvbpvtt
 黄金华剧台「WebVTT字幕」,https://cdn.qd.je/163189/hjhjt
@@ -3992,9 +3991,9 @@ RTHK31,https://cdn.qd.je/163189/rthk31
 RTHK32,https://cdn.qd.je/163189/rthk32
 RTHK33,https://cdn.qd.je/163189/rthk33
 千禧经典台,https://cdn.qd.je/163189/tvbc
-千禧经典台,https://iptv.yang-1989.xyz/myTV/9rer7t.mpd
+千禧经典台,https://iptv.yang-1989.xyz/myTV/cxp4xn.mpd
 娱乐新闻台,https://cdn.qd.je/163189/ylxw
-娱乐新闻台,https://iptv.yang-1989.xyz/myTV/zvk8yk.mpd
+娱乐新闻台,https://iptv.yang-1989.xyz/myTV/bbxtwh.mpd
 华丽翡翠台,https://cdn.qd.je/163189/hlt
 华丽翡翠台「硬字幕」,https://cdn.qd.je/163189/jade
 华丽翡翠台「新加坡」,https://cdn.qd.je/163189/hlfct
@@ -4061,91 +4060,91 @@ DreamWorks 梦工厂动画,https://cdn.qd.je/163189/dreamworks
 东森电影台,https://cdn.qd.je/163189/dsdy
 东森戏剧台,https://cdn.qd.je/163189/dsxj
 东森洋片台,https://cdn.qd.je/163189/dsyp
-翡翠台 4K,https://iptv.yang-1989.xyz/myTV/v45mj9.mpd
-明珠台,https://iptv.yang-1989.xyz/myTV/h7vvtj.mpd
+翡翠台 4K,https://iptv.yang-1989.xyz/myTV/t6a6bf.mpd
+明珠台,https://iptv.yang-1989.xyz/myTV/8wcxc6.mpd
 明珠台,https://hls-gateway.vpstv.net/streams/476936.m3u8
-亚洲剧台,https://iptv.yang-1989.xyz/myTV/qxhkuh.mpd
-华语剧台,https://iptv.yang-1989.xyz/myTV/5gjy44.mpd
-黄金翡翠台,https://iptv.yang-1989.xyz/myTV/6degxm.mpd
-黄金华剧台,https://iptv.yang-1989.xyz/myTV/9v6zk3.mpd
-戏曲台,https://iptv.yang-1989.xyz/myTV/sjpdmj.mpd
-SUPER识食,https://iptv.yang-1989.xyz/myTV/bad3de.mpd
-SUPER灵异,https://iptv.yang-1989.xyz/myTV/u6vgem.mpd
-SUPER处境剧,https://iptv.yang-1989.xyz/myTV/9tw8se.mpd
-SUPER亚视剧,https://iptv.yang-1989.xyz/myTV/b3p5sr.mpd
-SUPER资讯娱乐,https://iptv.yang-1989.xyz/myTV/hv88mx.mpd
-真情SUPER煲,https://iptv.yang-1989.xyz/myTV/xuf4ev.mpd
-爱．回家SUPER煲,https://iptv.yang-1989.xyz/myTV/ryj5yr.mpd
-SUPER Game Show,https://iptv.yang-1989.xyz/myTV/6kbsmm.mpd
-SUPER Sports,https://iptv.yang-1989.xyz/myTV/7vvmmq.mpd
-SUPER Music,https://iptv.yang-1989.xyz/myTV/k2ugyt.mpd
-SUPER FREE,https://iptv.yang-1989.xyz/myTV/mxsxvv.mpd
-myTV SUPER 18台,https://iptv.yang-1989.xyz/myTV/jjpwe4.mpd
-SUPER Kids Channel,https://iptv.yang-1989.xyz/myTV/mehewc.mpd
-ZooMoo,https://iptv.yang-1989.xyz/myTV/jpjaec.mpd
-Nickelodeon,https://iptv.yang-1989.xyz/myTV/sma79n.mpd
-Nick Jr,https://iptv.yang-1989.xyz/myTV/m9c3u4.mpd
-粤语片台,https://iptv.yang-1989.xyz/myTV/aye357.mpd
-美亚电影台,https://iptv.yang-1989.xyz/myTV/ge75zg.mpd
-Thrill,https://iptv.yang-1989.xyz/myTV/fq45yx.mpd
-天映经典频道,https://iptv.yang-1989.xyz/myTV/kcrkbk.mpd
-中国电影频道,https://iptv.yang-1989.xyz/myTV/mymmpg.mpd
-ROCK Action,https://iptv.yang-1989.xyz/myTV/m7rxmq.mpd
-PopC,https://iptv.yang-1989.xyz/myTV/7zbk6r.mpd
-Action Hollywood Movies,https://iptv.yang-1989.xyz/myTV/mpwwds.m3u8
-Rialto Classic Movies,https://iptv.yang-1989.xyz/myTV/vnbsnc.m3u8
-KIX,https://iptv.yang-1989.xyz/myTV/smp9r9.mpd
-TRACE Sport Stars,https://iptv.yang-1989.xyz/myTV/97ujtc.m3u8
-Love Nature 4K,https://iptv.yang-1989.xyz/myTV/3ztqgd.mpd
-Global Trekker,https://iptv.yang-1989.xyz/myTV/beq94k.mpd
-Pet Club TV,https://iptv.yang-1989.xyz/myTV/gqj5k8.m3u8
-Globetrotter,https://iptv.yang-1989.xyz/myTV/gd7ghu.m3u8
-Docsville,https://iptv.yang-1989.xyz/myTV/zrd3jv.m3u8
-Wild Stuff,https://iptv.yang-1989.xyz/myTV/qbn43z.m3u8
-ROCK 综艺娱乐,https://iptv.yang-1989.xyz/myTV/strqnp.mpd
-ROCK X Stream,https://iptv.yang-1989.xyz/myTV/rd8qav.mpd
-tvN,https://iptv.yang-1989.xyz/myTV/yjf5km.mpd
-无线卫星亚洲台,https://iptv.yang-1989.xyz/myTV/w3j8hd.mpd
-创世电视,https://iptv.yang-1989.xyz/myTV/t2yg2v.mpd
-中央电视台综合频道,https://iptv.yang-1989.xyz/myTV/a3apbp.mpd
-中国中央电视台中文国际频道,https://iptv.yang-1989.xyz/myTV/4zx5te.mpd
-中国中央电视台娱乐频道,https://iptv.yang-1989.xyz/myTV/ctqd5m.mpd
-中国中央电视台戏曲频道,https://iptv.yang-1989.xyz/myTV/qjsjek.mpd
-东方卫视国际频道,https://iptv.yang-1989.xyz/myTV/f7kmz6.mpd
-云南澜湄国际卫视,https://iptv.yang-1989.xyz/myTV/d3setw.mpd
-安徽广播电视台国际频道,https://iptv.yang-1989.xyz/myTV/x57m4m.mpd
-北京电视台国际频道,https://iptv.yang-1989.xyz/myTV/uwuvf7.mpd
-福建海峡卫视国际频道,https://iptv.yang-1989.xyz/myTV/kst4k6.mpd
-湖南电视台国际频道,https://iptv.yang-1989.xyz/myTV/6r9brz.mpd
-江苏电视台国际频道,https://iptv.yang-1989.xyz/myTV/gt3t47.mpd
-广东广播电视台大湾区卫视频道,https://iptv.yang-1989.xyz/myTV/z4q7ym.mpd
-浙江电视台国际频道,https://iptv.yang-1989.xyz/myTV/wv3wqq.mpd
-深圳卫视国际频道,https://iptv.yang-1989.xyz/myTV/jbsqmx.mpd
-that's 70s,https://iptv.yang-1989.xyz/myTV/b8kjdv.m3u8
-that's 80s,https://iptv.yang-1989.xyz/myTV/c3wn3w.m3u8
-that's Rock,https://iptv.yang-1989.xyz/myTV/jwvea3.m3u8
-that's 90s00s,https://iptv.yang-1989.xyz/myTV/3mbfx2.m3u8
-Concerto,https://iptv.yang-1989.xyz/myTV/9f5t3y.m3u8
-TRACE Urban,https://iptv.yang-1989.xyz/myTV/jd3ncm.m3u8
-NewTV 古装剧场,https://iptv.yang-1989.xyz/myTV/jwxnta.mpd
-NewTV 科教,https://iptv.yang-1989.xyz/myTV/3cegyf.mpd
-NewTV 养生,https://iptv.yang-1989.xyz/myTV/hdm7ms.mpd
-NewTV 功夫,https://iptv.yang-1989.xyz/myTV/g9fwnm.mpd
-无线卫星新闻台,https://iptv.yang-1989.xyz/myTV/cd5eg7.mpd
-亚洲新闻台,https://iptv.yang-1989.xyz/myTV/rhz8b3.mpd
-半岛电视台英语频道,https://iptv.yang-1989.xyz/myTV/7k2a9q.mpd
-France 24,https://iptv.yang-1989.xyz/myTV/xm7eyn.mpd
-DW,https://iptv.yang-1989.xyz/myTV/v4kzxq.mpd
-NHK World Japan,https://iptv.yang-1989.xyz/myTV/ys9dyd.mpd
-Arirang TV,https://iptv.yang-1989.xyz/myTV/rwbvmk.mpd
-NewsWorld,https://iptv.yang-1989.xyz/myTV/9bbkhu.m3u8
-The Indonesia Channel,https://iptv.yang-1989.xyz/myTV/u2pf28.mpd
-myTV SUPER直播足球2台,https://iptv.yang-1989.xyz/myTV/gy5tf5.mpd
-myTV SUPER直播足球3台,https://iptv.yang-1989.xyz/myTV/2dgutv.mpd
-myTV SUPER直播足球4台,https://iptv.yang-1989.xyz/myTV/gth38z.mpd
-myTV SUPER直播足球5台,https://iptv.yang-1989.xyz/myTV/ew4gaq.mpd
-myTV SUPER直播足球6台,https://iptv.yang-1989.xyz/myTV/vfyg3c.mpd
-myTV SUPER直播足球7台,https://iptv.yang-1989.xyz/myTV/ubxcyd.mpd
+亚洲剧台,https://iptv.yang-1989.xyz/myTV/m2e28k.mpd
+华语剧台,https://iptv.yang-1989.xyz/myTV/b68r63.mpd
+黄金翡翠台,https://iptv.yang-1989.xyz/myTV/w5nmcc.mpd
+黄金华剧台,https://iptv.yang-1989.xyz/myTV/gne4fd.mpd
+戏曲台,https://iptv.yang-1989.xyz/myTV/rvvyc9.mpd
+SUPER识食,https://iptv.yang-1989.xyz/myTV/c7epb3.mpd
+SUPER灵异,https://iptv.yang-1989.xyz/myTV/ne75eb.mpd
+SUPER处境剧,https://iptv.yang-1989.xyz/myTV/bjbr22.mpd
+SUPER亚视剧,https://iptv.yang-1989.xyz/myTV/k9pfvr.mpd
+SUPER资讯娱乐,https://iptv.yang-1989.xyz/myTV/7aw4j7.mpd
+真情SUPER煲,https://iptv.yang-1989.xyz/myTV/c8hjk8.mpd
+爱．回家SUPER煲,https://iptv.yang-1989.xyz/myTV/zrxy4e.mpd
+SUPER Game Show,https://iptv.yang-1989.xyz/myTV/px4env.mpd
+SUPER Sports,https://iptv.yang-1989.xyz/myTV/nf2syk.mpd
+SUPER Music,https://iptv.yang-1989.xyz/myTV/m7e73b.mpd
+SUPER FREE,https://iptv.yang-1989.xyz/myTV/84teh3.mpd
+myTV SUPER 18台,https://iptv.yang-1989.xyz/myTV/974ygb.mpd
+SUPER Kids Channel,https://iptv.yang-1989.xyz/myTV/zv5nff.mpd
+ZooMoo,https://iptv.yang-1989.xyz/myTV/y7z8mx.mpd
+Nickelodeon,https://iptv.yang-1989.xyz/myTV/cfsa5a.mpd
+Nick Jr,https://iptv.yang-1989.xyz/myTV/krwqnr.mpd
+粤语片台,https://iptv.yang-1989.xyz/myTV/hcm85u.mpd
+美亚电影台,https://iptv.yang-1989.xyz/myTV/xemyac.mpd
+Thrill,https://iptv.yang-1989.xyz/myTV/eefkh4.mpd
+天映经典频道,https://iptv.yang-1989.xyz/myTV/22gkqt.mpd
+中国电影频道,https://iptv.yang-1989.xyz/myTV/yf6cv8.mpd
+ROCK Action,https://iptv.yang-1989.xyz/myTV/sc3jff.mpd
+PopC,https://iptv.yang-1989.xyz/myTV/89f7sd.mpd
+Action Hollywood Movies,https://iptv.yang-1989.xyz/myTV/5d8d2g.m3u8
+Rialto Classic Movies,https://iptv.yang-1989.xyz/myTV/8n592x.m3u8
+KIX,https://iptv.yang-1989.xyz/myTV/y6knbw.mpd
+TRACE Sport Stars,https://iptv.yang-1989.xyz/myTV/u3ce5u.m3u8
+Love Nature 4K,https://iptv.yang-1989.xyz/myTV/yzy3sa.mpd
+Global Trekker,https://iptv.yang-1989.xyz/myTV/6j9agh.mpd
+Pet Club TV,https://iptv.yang-1989.xyz/myTV/68x5r8.m3u8
+Globetrotter,https://iptv.yang-1989.xyz/myTV/q4a99e.m3u8
+Docsville,https://iptv.yang-1989.xyz/myTV/ngsbh6.m3u8
+Wild Stuff,https://iptv.yang-1989.xyz/myTV/tchdcd.m3u8
+ROCK 综艺娱乐,https://iptv.yang-1989.xyz/myTV/enjjeb.mpd
+ROCK X Stream,https://iptv.yang-1989.xyz/myTV/6ehsex.mpd
+tvN,https://iptv.yang-1989.xyz/myTV/yfv465.mpd
+无线卫星亚洲台,https://iptv.yang-1989.xyz/myTV/kehtnb.mpd
+创世电视,https://iptv.yang-1989.xyz/myTV/5hcwgw.mpd
+中央电视台综合频道,https://iptv.yang-1989.xyz/myTV/ddk4yg.mpd
+中国中央电视台中文国际频道,https://iptv.yang-1989.xyz/myTV/jsv294.mpd
+中国中央电视台娱乐频道,https://iptv.yang-1989.xyz/myTV/xqv78s.mpd
+中国中央电视台戏曲频道,https://iptv.yang-1989.xyz/myTV/vnpmkc.mpd
+东方卫视国际频道,https://iptv.yang-1989.xyz/myTV/9g5v6h.mpd
+云南澜湄国际卫视,https://iptv.yang-1989.xyz/myTV/6v4mnu.mpd
+安徽广播电视台国际频道,https://iptv.yang-1989.xyz/myTV/arb5s7.mpd
+北京电视台国际频道,https://iptv.yang-1989.xyz/myTV/j5xs69.mpd
+福建海峡卫视国际频道,https://iptv.yang-1989.xyz/myTV/5we7kv.mpd
+湖南电视台国际频道,https://iptv.yang-1989.xyz/myTV/j3xbca.mpd
+江苏电视台国际频道,https://iptv.yang-1989.xyz/myTV/8ckfxr.mpd
+广东广播电视台大湾区卫视频道,https://iptv.yang-1989.xyz/myTV/2zgmwg.mpd
+浙江电视台国际频道,https://iptv.yang-1989.xyz/myTV/mfhaa9.mpd
+深圳卫视国际频道,https://iptv.yang-1989.xyz/myTV/gu44u3.mpd
+that's 70s,https://iptv.yang-1989.xyz/myTV/k8vx75.m3u8
+that's 80s,https://iptv.yang-1989.xyz/myTV/vkgbm6.m3u8
+that's Rock,https://iptv.yang-1989.xyz/myTV/xkx5zg.m3u8
+that's 90s00s,https://iptv.yang-1989.xyz/myTV/djqn57.m3u8
+Concerto,https://iptv.yang-1989.xyz/myTV/vvujrs.m3u8
+TRACE Urban,https://iptv.yang-1989.xyz/myTV/y9ayy2.m3u8
+NewTV 古装剧场,https://iptv.yang-1989.xyz/myTV/y7xx7r.mpd
+NewTV 科教,https://iptv.yang-1989.xyz/myTV/z9f7jb.mpd
+NewTV 养生,https://iptv.yang-1989.xyz/myTV/8k268b.mpd
+NewTV 功夫,https://iptv.yang-1989.xyz/myTV/qssfkz.mpd
+无线卫星新闻台,https://iptv.yang-1989.xyz/myTV/kc78zu.mpd
+亚洲新闻台,https://iptv.yang-1989.xyz/myTV/nk3bjx.mpd
+半岛电视台英语频道,https://iptv.yang-1989.xyz/myTV/xwauyt.mpd
+France 24,https://iptv.yang-1989.xyz/myTV/v6ux7b.mpd
+DW,https://iptv.yang-1989.xyz/myTV/bwdn6p.mpd
+NHK World Japan,https://iptv.yang-1989.xyz/myTV/xh2k83.mpd
+Arirang TV,https://iptv.yang-1989.xyz/myTV/w6qbje.mpd
+NewsWorld,https://iptv.yang-1989.xyz/myTV/nzuy83.m3u8
+The Indonesia Channel,https://iptv.yang-1989.xyz/myTV/ct8jx8.mpd
+myTV SUPER直播足球2台,https://iptv.yang-1989.xyz/myTV/czr9hq.mpd
+myTV SUPER直播足球3台,https://iptv.yang-1989.xyz/myTV/rr6p7j.mpd
+myTV SUPER直播足球4台,https://iptv.yang-1989.xyz/myTV/k5wt4q.mpd
+myTV SUPER直播足球5台,https://iptv.yang-1989.xyz/myTV/2p74kq.mpd
+myTV SUPER直播足球6台,https://iptv.yang-1989.xyz/myTV/4fsw9g.mpd
+myTV SUPER直播足球7台,https://iptv.yang-1989.xyz/myTV/ct9zmd.mpd
 香港卫视,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
 香港卫视,https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.ctv
 香港卫视,https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
@@ -4202,81 +4201,81 @@ Sky Sports Golf,https://migu.yang-1989.xyz/sprts/nb57cx.m3u8?token=73e0c1f7ea114
 Sky Sports Mix,https://migu.yang-1989.xyz/sprts/4yb3ef.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
 Sky Sports Racing,https://migu.yang-1989.xyz/sprts/ar7ugr.m3u8?token=73e0c1f7ea11410e14b3a8ccbbab800ff35f7127721c64b4
 咪视界 𝟙「Relay」,https://migu.yang-1989.xyz/migu/8a7sax.m3u8
-咪视界 𝟙「Relay」,https://iptv.yang-1989.xyz/migu/8vrgzs.m3u8
+咪视界 𝟙「Relay」,https://iptv.yang-1989.xyz/migu/2385a3.m3u8
 咪视界 𝟚「Relay」,https://migu.yang-1989.xyz/migu/ns5m3a.m3u8
-咪视界 𝟚「Relay」,https://iptv.yang-1989.xyz/migu/g9bw6w.m3u8
+咪视界 𝟚「Relay」,https://iptv.yang-1989.xyz/migu/ypvzj9.m3u8
 咪视界 𝟛「Relay」,https://migu.yang-1989.xyz/migu/fkzmxt.m3u8
-咪视界 𝟛「Relay」,https://iptv.yang-1989.xyz/migu/bpmmyn.m3u8
+咪视界 𝟛「Relay」,https://iptv.yang-1989.xyz/migu/6meyfd.m3u8
 咪视界 𝟜「Relay」,https://migu.yang-1989.xyz/migu/njbt4y.m3u8
-咪视界 𝟜「Relay」,https://iptv.yang-1989.xyz/migu/ygre8y.m3u8
+咪视界 𝟜「Relay」,https://iptv.yang-1989.xyz/migu/bzs4ff.m3u8
 咪视界 𝟝「Relay」,https://migu.yang-1989.xyz/migu/y3g2hs.m3u8
-咪视界 𝟝「Relay」,https://iptv.yang-1989.xyz/migu/nqvjq3.m3u8
+咪视界 𝟝「Relay」,https://iptv.yang-1989.xyz/migu/6amft7.m3u8
 咪视界 𝟞「Relay」,https://migu.yang-1989.xyz/migu/uhbj7f.m3u8
-咪视界 𝟞「Relay」,https://iptv.yang-1989.xyz/migu/hc3v9y.m3u8
+咪视界 𝟞「Relay」,https://iptv.yang-1989.xyz/migu/b4enpp.m3u8
 咪视界 𝟟「Relay」,https://migu.yang-1989.xyz/migu/2mqrg2.m3u8
-咪视界 𝟟「Relay」,https://iptv.yang-1989.xyz/migu/9ppg7m.m3u8
+咪视界 𝟟「Relay」,https://iptv.yang-1989.xyz/migu/qamx6r.m3u8
 咪视界 𝟠「Relay」,https://migu.yang-1989.xyz/migu/bg5dkc.m3u8
-咪视界 𝟠「Relay」,https://iptv.yang-1989.xyz/migu/87cjyu.m3u8
+咪视界 𝟠「Relay」,https://iptv.yang-1989.xyz/migu/pskyuq.m3u8
 咪视界 𝟡「Relay」,https://migu.yang-1989.xyz/migu/jkck34.m3u8
-咪视界 𝟡「Relay」,https://iptv.yang-1989.xyz/migu/tekxx6.m3u8
+咪视界 𝟡「Relay」,https://iptv.yang-1989.xyz/migu/n36sdy.m3u8
 咪视界 𝟙𝟘「Relay」,https://migu.yang-1989.xyz/migu/8g8sfp.m3u8
-咪视界 𝟙𝟘「Relay」,https://iptv.yang-1989.xyz/migu/fptpqu.m3u8
+咪视界 𝟙𝟘「Relay」,https://iptv.yang-1989.xyz/migu/9w77by.m3u8
 咪视界 𝟙𝟙「Relay」,https://migu.yang-1989.xyz/migu/rtr46j.m3u8
-咪视界 𝟙𝟙「Relay」,https://iptv.yang-1989.xyz/migu/tkm7rd.m3u8
+咪视界 𝟙𝟙「Relay」,https://iptv.yang-1989.xyz/migu/hqcjz7.m3u8
 咪视界 𝟙𝟚「Relay」,https://migu.yang-1989.xyz/migu/dsuakx.m3u8
-咪视界 𝟙𝟚「Relay」,https://iptv.yang-1989.xyz/migu/uyafrd.m3u8
+咪视界 𝟙𝟚「Relay」,https://iptv.yang-1989.xyz/migu/dyuqsh.m3u8
 咪视界 𝟙𝟛「Relay」,https://migu.yang-1989.xyz/migu/7tajcg.m3u8
-咪视界 𝟙𝟛「Relay」,https://iptv.yang-1989.xyz/migu/ttvvcw.m3u8
+咪视界 𝟙𝟛「Relay」,https://iptv.yang-1989.xyz/migu/sm9ep3.m3u8
 咪视界 𝟙𝟜「Relay」,https://migu.yang-1989.xyz/migu/xnjx3b.m3u8
-咪视界 𝟙𝟜「Relay」,https://iptv.yang-1989.xyz/migu/g2xbjg.m3u8
+咪视界 𝟙𝟜「Relay」,https://iptv.yang-1989.xyz/migu/8pwjpx.m3u8
 咪视界 𝟙𝟝「Relay」,https://migu.yang-1989.xyz/migu/u3tkay.m3u8
-咪视界 𝟙𝟝「Relay」,https://iptv.yang-1989.xyz/migu/93wsqe.m3u8
+咪视界 𝟙𝟝「Relay」,https://iptv.yang-1989.xyz/migu/k6xwwj.m3u8
 咪视界 𝟙𝟞「Relay」,https://migu.yang-1989.xyz/migu/j24q32.m3u8
-咪视界 𝟙𝟞「Relay」,https://iptv.yang-1989.xyz/migu/62qgve.m3u8
+咪视界 𝟙𝟞「Relay」,https://iptv.yang-1989.xyz/migu/gxmb49.m3u8
 咪视界 𝟙𝟟「Relay」,https://migu.yang-1989.xyz/migu/8efe5v.m3u8
-咪视界 𝟙𝟟「Relay」,https://iptv.yang-1989.xyz/migu/ese7hz.m3u8
+咪视界 𝟙𝟟「Relay」,https://iptv.yang-1989.xyz/migu/wpynfc.m3u8
 咪视界 𝟙𝟠「Relay」,https://migu.yang-1989.xyz/migu/pserj9.m3u8
-咪视界 𝟙𝟠「Relay」,https://iptv.yang-1989.xyz/migu/rfk4ck.m3u8
+咪视界 𝟙𝟠「Relay」,https://iptv.yang-1989.xyz/migu/tm3zz4.m3u8
 咪视界 𝟙𝟡「Relay」,https://migu.yang-1989.xyz/migu/jhwwyj.m3u8
-咪视界 𝟙𝟡「Relay」,https://iptv.yang-1989.xyz/migu/7x9d43.m3u8
+咪视界 𝟙𝟡「Relay」,https://iptv.yang-1989.xyz/migu/tgmss6.m3u8
 咪视界 𝟚𝟘「Relay」,https://migu.yang-1989.xyz/migu/97s89z.m3u8
-咪视界 𝟚𝟘「Relay」,https://iptv.yang-1989.xyz/migu/dhw4ez.m3u8
+咪视界 𝟚𝟘「Relay」,https://iptv.yang-1989.xyz/migu/rmsy3w.m3u8
 咪视界 𝟚𝟙「Relay」,https://migu.yang-1989.xyz/migu/5zpb58.m3u8
-咪视界 𝟚𝟙「Relay」,https://iptv.yang-1989.xyz/migu/khkumm.m3u8
+咪视界 𝟚𝟙「Relay」,https://iptv.yang-1989.xyz/migu/bg8u4t.m3u8
 咪视界 𝟚𝟚「Relay」,https://migu.yang-1989.xyz/migu/hg6nhy.m3u8
-咪视界 𝟚𝟚「Relay」,https://iptv.yang-1989.xyz/migu/gpdqe8.m3u8
+咪视界 𝟚𝟚「Relay」,https://iptv.yang-1989.xyz/migu/7x8q8z.m3u8
 咪视界 𝟚𝟛「Relay」,https://migu.yang-1989.xyz/migu/p4ma7q.m3u8
-咪视界 𝟚𝟛「Relay」,https://iptv.yang-1989.xyz/migu/vudky2.m3u8
+咪视界 𝟚𝟛「Relay」,https://iptv.yang-1989.xyz/migu/b3j9ss.m3u8
 咪视界 𝟚𝟜「Relay」,https://migu.yang-1989.xyz/migu/m7kuhz.m3u8
-咪视界 𝟚𝟜「Relay」,https://iptv.yang-1989.xyz/migu/ajjdg4.m3u8
+咪视界 𝟚𝟜「Relay」,https://iptv.yang-1989.xyz/migu/erheur.m3u8
 咪视界 𝟚𝟝「Relay」,https://migu.yang-1989.xyz/migu/qdsdxp.m3u8
-咪视界 𝟚𝟝「Relay」,https://iptv.yang-1989.xyz/migu/ftnbck.m3u8
+咪视界 𝟚𝟝「Relay」,https://iptv.yang-1989.xyz/migu/tfy5bs.m3u8
 咪视界 𝟚𝟞「Relay」,https://migu.yang-1989.xyz/migu/en85td.m3u8
-咪视界 𝟚𝟞「Relay」,https://iptv.yang-1989.xyz/migu/fshf2v.m3u8
+咪视界 𝟚𝟞「Relay」,https://iptv.yang-1989.xyz/migu/wmx2tn.m3u8
 咪视界 𝟚𝟟「Relay」,https://migu.yang-1989.xyz/migu/ncdyak.m3u8
-咪视界 𝟚𝟟「Relay」,https://iptv.yang-1989.xyz/migu/4bg6qj.m3u8
+咪视界 𝟚𝟟「Relay」,https://iptv.yang-1989.xyz/migu/66qdgx.m3u8
 咪视界 𝟚𝟠「Relay」,https://migu.yang-1989.xyz/migu/egajg7.m3u8
-咪视界 𝟚𝟠「Relay」,https://iptv.yang-1989.xyz/migu/kdjsbk.m3u8
+咪视界 𝟚𝟠「Relay」,https://iptv.yang-1989.xyz/migu/3hbygq.m3u8
 咪视界 𝟚𝟡「Relay」,https://migu.yang-1989.xyz/migu/33ecst.m3u8
-咪视界 𝟚𝟡「Relay」,https://iptv.yang-1989.xyz/migu/8uudq8.m3u8
+咪视界 𝟚𝟡「Relay」,https://iptv.yang-1989.xyz/migu/a43uyn.m3u8
 咪视界 𝟛𝟘「Relay」,https://migu.yang-1989.xyz/migu/ct7yss.m3u8
-咪视界 𝟛𝟘「Relay」,https://iptv.yang-1989.xyz/migu/t3qby2.m3u8
+咪视界 𝟛𝟘「Relay」,https://iptv.yang-1989.xyz/migu/bcjqdk.m3u8
 咪视界 𝟛𝟙「Relay」,https://migu.yang-1989.xyz/migu/v43frd.m3u8
-咪视界 𝟛𝟙「Relay」,https://iptv.yang-1989.xyz/migu/2226t9.m3u8
+咪视界 𝟛𝟙「Relay」,https://iptv.yang-1989.xyz/migu/kmqzd8.m3u8
 咪视界 𝟛𝟚「Relay」,https://migu.yang-1989.xyz/migu/hkbrbf.m3u8
-咪视界 𝟛𝟚「Relay」,https://iptv.yang-1989.xyz/migu/dbkakp.m3u8
+咪视界 𝟛𝟚「Relay」,https://iptv.yang-1989.xyz/migu/yr62zw.m3u8
 咪视界 𝟛𝟛「Relay」,https://migu.yang-1989.xyz/migu/yqqwwp.m3u8
-咪视界 𝟛𝟛「Relay」,https://iptv.yang-1989.xyz/migu/7m2r5p.m3u8
+咪视界 𝟛𝟛「Relay」,https://iptv.yang-1989.xyz/migu/cwfvxd.m3u8
 咪视界 𝟛𝟜「Relay」,https://migu.yang-1989.xyz/migu/xwwm7f.m3u8
-咪视界 𝟛𝟜「Relay」,https://iptv.yang-1989.xyz/migu/kcunwq.m3u8
+咪视界 𝟛𝟜「Relay」,https://iptv.yang-1989.xyz/migu/sb3njz.m3u8
 咪视界 𝟛𝟝「Relay」,https://migu.yang-1989.xyz/migu/uawnv9.m3u8
-咪视界 𝟛𝟝「Relay」,https://iptv.yang-1989.xyz/migu/v59etc.m3u8
+咪视界 𝟛𝟝「Relay」,https://iptv.yang-1989.xyz/migu/ks8bub.m3u8
 咪视界 𝟛𝟞「Relay」,https://migu.yang-1989.xyz/migu/yk29ky.m3u8
-咪视界 𝟛𝟞「Relay」,https://iptv.yang-1989.xyz/migu/z9ctm7.m3u8
+咪视界 𝟛𝟞「Relay」,https://iptv.yang-1989.xyz/migu/y3b446.m3u8
 睛彩竞技「Relay」,https://migu.yang-1989.xyz/migu/8hd3fg.m3u8
-睛彩竞技「Relay」,https://iptv.yang-1989.xyz/migu/x88hw3.m3u8
+睛彩竞技「Relay」,https://iptv.yang-1989.xyz/migu/33rs24.m3u8
 睛彩篮球「Relay」,https://migu.yang-1989.xyz/migu/qybecj.m3u8
-睛彩篮球「Relay」,https://iptv.yang-1989.xyz/migu/gm695y.m3u8
+睛彩篮球「Relay」,https://iptv.yang-1989.xyz/migu/ajkn7f.m3u8
 FIGHT SPORTS,https://migu.yang-1989.xyz/sprt/szmgs2.m3u8
 SPOTV,https://migu.yang-1989.xyz/sprt/w3efmb.m3u8
 SPOTV 2,https://migu.yang-1989.xyz/sprt/8p6zcy.m3u8
@@ -4506,7 +4505,7 @@ NewTV动作电影,https://iptv.catvod.com/live.php?id=NewTV%E5%8A%A8%E4%BD%9C%E7
 射雕英雄传,http://cdn.jdshipin.com:8880/huya.php?id=23824164
 少儿,#genre#
 睛彩青少「Relay」,https://migu.yang-1989.xyz/migu/qsvunr.m3u8
-睛彩青少「Relay」,https://iptv.yang-1989.xyz/migu/t4shq4.m3u8
+睛彩青少「Relay」,https://iptv.yang-1989.xyz/migu/gajrh9.m3u8
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?
 浙江少儿,https://stream1.freetv.fun/zhe-jiang-shao-er-4.m3u8
@@ -4585,7 +4584,7 @@ CN卡通,https://stream1.freetv.fun/cnqia-tong-3.ctv
 猫和老鼠,http://cdn.jdshipin.com:8880/huya.php?id=11352879
 音乐,#genre#
 睛彩广场舞「Relay」,https://migu.yang-1989.xyz/migu/em66te.m3u8
-睛彩广场舞「Relay」,https://iptv.yang-1989.xyz/migu/pbsjur.m3u8
+睛彩广场舞「Relay」,https://iptv.yang-1989.xyz/migu/8rnsnf.m3u8
 音乐现场,https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8
 睛彩广场舞,rtp://239.3.1.128:8001
 风云音乐,https://hls-gateway.vpstv.net/streams/708858.m3u8
@@ -4651,21 +4650,18 @@ pattanaaaa,https://live.yang-1989.eu.org/twitch/pattanaaaa
 Ellie_Minibot,https://live.yang-1989.eu.org/twitch/Ellie_Minibot
 rynenzo,https://live.yang-1989.eu.org/twitch/rynenzo
 BayesiaNash,https://live.yang-1989.eu.org/twitch/bayesianash
-mia_ivus,https://live.yang-1989.eu.org/twitch/mia_ivus
 Yoon_Froggy,https://live.yang-1989.eu.org/twitch/yoon_froggy
 갓리타,https://live.yang-1989.eu.org/twitch/god_lita
 DarkMasuoTV,https://live.yang-1989.eu.org/twitch/darkmasuotv
 bigcloydxoug,https://live.yang-1989.eu.org/twitch/bigcloydxoug
 AMOURANTH,https://live.yang-1989.eu.org/twitch/AMOURANTH
 Kong,https://live.yang-1989.eu.org/twitch/Kong
-papaya31_,https://live.yang-1989.eu.org/twitch/papaya31_
 NASA,https://live.yang-1989.eu.org/twitch/nasa
 nicknayersina,https://live.yang-1989.eu.org/twitch/nicknayersina
 FloppyLottie,https://live.yang-1989.eu.org/twitch/FloppyLottie
 SteamySnuggler,https://live.yang-1989.eu.org/twitch/SteamySnuggler
 うつぽよ,https://live.yang-1989.eu.org/twitch/mudenkyo
 Mews,https://live.yang-1989.eu.org/twitch/mews
-QuickyBaby,https://live.yang-1989.eu.org/twitch/quickybaby
 IShowSpeed,https://live.yang-1989.eu.org/twitch/ishowspeed
 IShowSpeed,https://live.yang-1989.eu.org/twitch/IShowSpeed
 中信兄弟官方频道,https://live.yang-1989.eu.org/twitch/brothers_baseball
@@ -4679,67 +4675,71 @@ Nastashon,https://live.yang-1989.eu.org/twitch/nastashon
 세계__,https://live.yang-1989.eu.org/twitch/world1104
 Kiaraakitty,https://live.yang-1989.eu.org/twitch/Kiaraakitty
 久慈くじあ,https://live.yang-1989.eu.org/twitch/kuji_kujia
-Jinnytty,https://live.yang-1989.eu.org/twitch/Jinnytty
-Jinnytty,https://live.yang-1989.eu.org/twitch/jinnytty
-StudyTme,https://live.yang-1989.eu.org/twitch/StudyTme
 spicyuuu,https://live.yang-1989.eu.org/twitch/spicyuuu
 Dmitry_Lixxx,https://live.yang-1989.eu.org/twitch/Dmitry_Lixxx
 GingiTV,https://live.yang-1989.eu.org/twitch/gingitv
-MissMikkaa,https://live.yang-1989.eu.org/twitch/missmikkaa
 Naowh,https://live.yang-1989.eu.org/twitch/naowh
 Arielle,https://live.yang-1989.eu.org/twitch/Arielle
 ChinaSlime,https://live.yang-1989.eu.org/twitch/ChinaSlime
 Emiru,https://live.yang-1989.eu.org/twitch/emiru
 emi_mge7,https://live.yang-1989.eu.org/twitch/emi_mge7
 vedal987,https://live.yang-1989.eu.org/twitch/vedal987
-Caedrel,https://live.yang-1989.eu.org/twitch/Caedrel
 咖撒,https://live.yang-1989.eu.org/twitch/karsalol
-CoyoteExpress,https://live.yang-1989.eu.org/twitch/coyoteexpress
 Suburbbaby,https://live.yang-1989.eu.org/twitch/suburbbaby
-乐优,https://live.yang-1989.eu.org/twitch/iloveuu0408
 justketh,https://live.yang-1989.eu.org/twitch/justketh
-AnanasAsmr,https://live.yang-1989.eu.org/twitch/ananasasmr
 Shylily,https://live.yang-1989.eu.org/twitch/shylily
 cerberVT,https://live.yang-1989.eu.org/twitch/cerberVT
-minaravel,https://live.yang-1989.eu.org/twitch/minaravel
 xQc,https://live.yang-1989.eu.org/twitch/xqc
-zackrawrr,https://live.yang-1989.eu.org/twitch/zackrawrr
 依渟,https://live.yang-1989.eu.org/twitch/et_1231
 Adapt,https://live.yang-1989.eu.org/twitch/adapt
-HeartlandTruckingUSA,https://live.yang-1989.eu.org/twitch/heartlandtruckingusa
-AI_Modeler,https://live.yang-1989.eu.org/twitch/ai_modeler
-ASMR_Arale,https://live.yang-1989.eu.org/twitch/asmr_arale
-BobRoss,https://live.yang-1989.eu.org/twitch/Bobross
-ColawayTV,https://live.yang-1989.eu.org/twitch/colawaytv
 KBJDanceTV,https://live.yang-1989.eu.org/twitch/kbjdancetv
 LoL Esports Taiwan,https://live.yang-1989.eu.org/twitch/lolesportstw
+PGL,https://live.yang-1989.eu.org/twitch/pgl
+Zumi,https://live.yang-1989.eu.org/twitch/zumi
+dj_halftrack_,https://live.yang-1989.eu.org/twitch/dj_halftrack_
+小舞,https://live.yang-1989.eu.org/twitch/Nein1203
+chopperinho,https://live.yang-1989.eu.org/twitch/chopperinho
+哈密7777,https://live.yang-1989.eu.org/twitch/hami18y
+娇兔,https://live.yang-1989.eu.org/twitch/zrush
+news5live,https://live.yang-1989.eu.org/twitch/news5live
+AI_Modeler,https://live.yang-1989.eu.org/twitch/ai_modeler
+ASMR_Arale,https://live.yang-1989.eu.org/twitch/asmr_arale
+AnanasAsmr,https://live.yang-1989.eu.org/twitch/ananasasmr
+BobRoss,https://live.yang-1989.eu.org/twitch/Bobross
+ColawayTV,https://live.yang-1989.eu.org/twitch/colawaytv
+Jinnytty,https://live.yang-1989.eu.org/twitch/Jinnytty
+Jinnytty,https://live.yang-1989.eu.org/twitch/jinnytty
 Mellooow_,https://live.yang-1989.eu.org/twitch/Mellooow_
 NonStopFashion,https://live.yang-1989.eu.org/twitch/nonstopfashion
-PGL,https://live.yang-1989.eu.org/twitch/pgl
 QBunnyTV,https://live.yang-1989.eu.org/twitch/QBunnyTV
-Zumi,https://live.yang-1989.eu.org/twitch/zumi
+StudyTme,https://live.yang-1989.eu.org/twitch/StudyTme
 dancetempt,https://live.yang-1989.eu.org/twitch/dancetempt
-dj_halftrack_,https://live.yang-1989.eu.org/twitch/dj_halftrack_
 koreandancers,https://live.yang-1989.eu.org/twitch/koreandancers
 lilianasana,https://live.yang-1989.eu.org/twitch/lilianasana
+mia_ivus,https://live.yang-1989.eu.org/twitch/mia_ivus
+minaravel,https://live.yang-1989.eu.org/twitch/minaravel
 mira,https://live.yang-1989.eu.org/twitch/mira
 mirayogax,https://live.yang-1989.eu.org/twitch/mirayogax
+papaya31_,https://live.yang-1989.eu.org/twitch/papaya31_
 sickemoangel24,https://live.yang-1989.eu.org/twitch/sickemoangel24
 soywini_,https://live.yang-1989.eu.org/twitch/soywini_
-小舞,https://live.yang-1989.eu.org/twitch/Nein1203
+zackrawrr,https://live.yang-1989.eu.org/twitch/zackrawrr
 雪羽娅露露,https://live.yang-1989.eu.org/twitch/isyourlulu
 우정우정우정우정,https://live.yang-1989.eu.org/twitch/woojungx4
 정서이_,https://live.yang-1989.eu.org/twitch/seoi1016
 Riot Games,https://live.yang-1989.eu.org/twitch/RiotGames
+Caedrel,https://live.yang-1989.eu.org/twitch/Caedrel
 ESLCS,https://live.yang-1989.eu.org/twitch/ESLCS
+MissMikkaa,https://live.yang-1989.eu.org/twitch/missmikkaa
+QuickyBaby,https://live.yang-1989.eu.org/twitch/quickybaby
 ToadAmarillo,https://live.yang-1989.eu.org/twitch/ToadAmarillo
-chopperinho,https://live.yang-1989.eu.org/twitch/chopperinho
-哈密7777,https://live.yang-1989.eu.org/twitch/hami18y
-娇兔,https://live.yang-1989.eu.org/twitch/zrush
+Zeus,https://live.yang-1989.eu.org/twitch/zeus
 虾爱橘子,https://live.yang-1989.eu.org/twitch/shuteye_orange
 农夫小蹦仔,https://live.yang-1989.eu.org/twitch/informalmiku_
 ADanaLife_,https://live.yang-1989.eu.org/twitch/adanalife_
 CMALLargs,https://live.yang-1989.eu.org/twitch/CMALLargs
+CoyoteExpress,https://live.yang-1989.eu.org/twitch/coyoteexpress
+HeartlandTruckingUSA,https://live.yang-1989.eu.org/twitch/heartlandtruckingusa
 KaiCenat,https://live.yang-1989.eu.org/twitch/kaicenat
 RawReporting,https://live.yang-1989.eu.org/twitch/rawreporting
 ShoutTV,https://live.yang-1989.eu.org/twitch/shouttv
@@ -4751,7 +4751,7 @@ TopMedia_TopNews,https://live.yang-1989.eu.org/twitch/topmedia_topnews
 airportambiance,https://live.yang-1989.eu.org/twitch/airportambiance
 issaboveyou,https://live.yang-1989.eu.org/twitch/issaboveyou
 keepmunseeweird,https://live.yang-1989.eu.org/twitch/keepmunseeweird
-news5live,https://live.yang-1989.eu.org/twitch/news5live
+乐优,https://live.yang-1989.eu.org/twitch/iloveuu0408
 SOOP,#genre#
 아인이♥,https://cdn.ttvb.eu.org/soop/tmtdd22
 세림잉_,https://cdn.ttvb.eu.org/soop/serimm
@@ -4764,7 +4764,6 @@ SOOP,#genre#
 Uˇ하온♪,https://cdn.ttvb.eu.org/soop/1101momoda
 김빵귤♥,https://cdn.ttvb.eu.org/soop/flower1023
 죠물,https://cdn.ttvb.eu.org/soop/berryoonna
-맹이.zip,https://cdn.ttvb.eu.org/soop/hellparty1
 바비앙♥,https://cdn.ttvb.eu.org/soop/gmlwl0202
 이로♥,https://cdn.ttvb.eu.org/soop/akikxxo
 민민2,https://cdn.ttvb.eu.org/soop/kleezzz
@@ -4811,7 +4810,6 @@ goblin2001,https://cdn.ttvb.eu.org/soop/goblin2001
 쿠라맛챠,https://live.yang-1989.eu.org/soop/tkuramatcha
 ♥메리미유♥,https://live.yang-1989.eu.org/soop/daphnerin
 서은하♡,https://live.yang-1989.eu.org/soop/alswl2208
-백나현,https://live.yang-1989.eu.org/soop/wk3220
 서현♥,https://live.yang-1989.eu.org/soop/wina703
 유은,https://live.yang-1989.eu.org/soop/dbdms139
 JD_이제동,https://live.yang-1989.eu.org/soop/jaedong23
@@ -4844,7 +4842,6 @@ Light이재호,https://live.yang-1989.eu.org/soop/scv6256
 서윤슬@,https://live.yang-1989.eu.org/soop/dbstmf3497
 ▶박삐삐,https://live.yang-1989.eu.org/soop/smpk96
 고혜지♥,https://live.yang-1989.eu.org/soop/dpqls718
-단비:D,https://live.yang-1989.eu.org/soop/mappp4
 백진미._.,https://live.yang-1989.eu.org/soop/juhyoung04
 서실♡,https://live.yang-1989.eu.org/soop/seosils2
 설링♥,https://live.yang-1989.eu.org/soop/2wjdanls
@@ -4889,15 +4886,12 @@ bj찐♥,https://live.yang-1989.eu.org/soop/jieun8890
 금보미♥,https://live.yang-1989.eu.org/soop/soonie1
 박가린님[♥],https://live.yang-1989.eu.org/soop/janjju
 소다♥,https://live.yang-1989.eu.org/soop/zbxlzzz
-[FantaJ]지유,https://live.yang-1989.eu.org/soop/chzh1chzh
 [M]메이,https://live.yang-1989.eu.org/soop/itsme1922
 loltw,https://live.yang-1989.eu.org/soop/loltw
 ♡태리츄♡,https://live.yang-1989.eu.org/soop/taeri0806
 경옥GO,https://live.yang-1989.eu.org/soop/oktube
 귀여니,https://live.yang-1989.eu.org/soop/cofls3562
 댄동단장태우,https://live.yang-1989.eu.org/soop/gkstkd14
-박우주,https://live.yang-1989.eu.org/soop/soclato
-빵지니♥,https://live.yang-1989.eu.org/soop/son4069
 사나이♥,https://live.yang-1989.eu.org/soop/sanaekcy
 새라♡,https://live.yang-1989.eu.org/soop/dbsek28
 승아++,https://live.yang-1989.eu.org/soop/seungju6544
@@ -4907,11 +4901,17 @@ loltw,https://live.yang-1989.eu.org/soop/loltw
 차밍챠,https://live.yang-1989.eu.org/soop/chamingcha
 채은인데용♥,https://live.yang-1989.eu.org/soop/zz3506
 최군형,https://live.yang-1989.eu.org/soop/ch1716
+하연잉♥,https://live.yang-1989.eu.org/soop/twinhayoung
+효둥,https://live.yang-1989.eu.org/soop/hyojoo74
+[FantaJ]지유,https://live.yang-1989.eu.org/soop/chzh1chzh
+단비:D,https://live.yang-1989.eu.org/soop/mappp4
+맹이.zip,https://live.yang-1989.eu.org/soop/hellparty1
+박우주,https://live.yang-1989.eu.org/soop/soclato
+백나현,https://live.yang-1989.eu.org/soop/wk3220
+빵지니♥,https://live.yang-1989.eu.org/soop/son4069
 츠보미♥,https://live.yang-1989.eu.org/soop/flowerbud1
 편집왕하나옵,https://live.yang-1989.eu.org/soop/hancoma
-하연잉♥,https://live.yang-1989.eu.org/soop/twinhayoung
 해리〃민경,https://live.yang-1989.eu.org/soop/dkdleliii
-효둥,https://live.yang-1989.eu.org/soop/hyojoo74
 LCK-Carry,https://live.yang-1989.eu.org/soop/carrylck
 SOOP「其他」暂无主播在线,https://live.yang-1989.eu.org/Live.m3u
 YY,#genre#
@@ -4931,14 +4931,16 @@ YY用户,https://cdn.ttvb.eu.org/yy/1354930976
 天晓迎迎,https://live.yang-1989.eu.org/yy/1670
 创艺乔宝儿,https://live.yang-1989.eu.org/yy/1453915435
 老毕  战为YY，战为燃点,https://live.yang-1989.eu.org/yy/3594
-舞喵,https://live.yang-1989.eu.org/yy/1659
 娅儿-优秀导师（小财迷）~姜子娅儿疼,https://live.yang-1989.eu.org/yy/1251
 初夏-有事休两天,https://live.yang-1989.eu.org/yy/4759
 睿廷-泡泡,https://live.yang-1989.eu.org/yy/1343872485
 小小 好运版,https://live.yang-1989.eu.org/yy/61986
-314星妹妹m,https://live.yang-1989.eu.org/yy/10287387
 燃舞蹈-喜儿,https://live.yang-1989.eu.org/yy/1353619608
 珊瑚,https://live.yang-1989.eu.org/yy/9235
+天晓大白兔-心如所院,https://live.yang-1989.eu.org/yy/1669
+小宁宁,https://live.yang-1989.eu.org/yy/81821
+燃舞蹈-大坵坵（中中中帝王套来咯,https://live.yang-1989.eu.org/yy/9419
+音乐991,https://live.yang-1989.eu.org/yy/991
 IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
 漫画解说,https://yylunbo.ottiptv.cc/yy/1382735568
 天龙八部,https://live.ottiptv.cc/yy/1351814644
@@ -4946,15 +4948,13 @@ IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
 仙剑奇侠传,https://live.ottiptv.cc/yy/1382749903
 水浒传,https://live.ottiptv.cc/yy/1353873252
 新白娘子传奇,https://live.ottiptv.cc/yy/1354490667
-天晓大白兔-心如所院,https://live.yang-1989.eu.org/yy/1669
-小宁宁,https://live.yang-1989.eu.org/yy/81821
+314星妹妹m,https://live.yang-1989.eu.org/yy/10287387
 少寒Shine,https://live.yang-1989.eu.org/yy/1357
 【卓越】,https://live.yang-1989.eu.org/yy/34025318
 燃舞993,https://live.yang-1989.eu.org/yy/993
-燃舞蹈-大坵坵（中中中帝王套来咯,https://live.yang-1989.eu.org/yy/9419
+舞喵,https://live.yang-1989.eu.org/yy/1659
 萌萌,https://live.yang-1989.eu.org/yy/166389
 萱萱,https://live.yang-1989.eu.org/yy/634132
-音乐991,https://live.yang-1989.eu.org/yy/991
 燃舞蹈-精彩回放,https://live.yang-1989.eu.org/yy/22490906
 歪歪「游戏」暂无主播在线,https://live.yang-1989.eu.org/Live.m3u
 公告,#genre#
