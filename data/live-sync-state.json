@@ -26432,6 +26432,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/adapt",
       "enabled": "true"
+    },
+    "c_2c3b76b4b9a7db9f1418b1a8": {
+      "name": "慢熟野莓",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1878513946",
+      "enabled": "true"
+    },
+    "c_c56f75cfafffef9323a38441": {
+      "name": "大芃¹¹—11.10号庆生重归版",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Linhe666520",
+      "enabled": "true"
+    },
+    "c_c54644bc2f7866beccad2441": {
+      "name": "是桃桃呀男装",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/55971693628",
+      "enabled": "true"
+    },
+    "c_4b7e1f1fa1a57a82997e43b1": {
+      "name": "竹笛山山²³³（11月6日生日周年庆）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/zhudi33",
+      "enabled": "true"
+    },
+    "c_afb73af57fb956328762d5ac": {
+      "name": "loltw",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/loltw",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37032,8 +37067,8 @@
       }
     },
     "yang-network": {
-      "sha256": "cdf6535bcd49ffc7ed1f998970df87f304eb9b984af94433c8ba902a322670c7",
-      "routes": 350,
+      "sha256": "1c209fcf0a644a8317f57bfed36a7377a8edecff4b75142b7064d261b4e9c33f",
+      "routes": 554,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52304,6 +52339,48 @@
           "name": "Adapt",
           "tvgId": "",
           "group": "•Twitch「游戏」"
+        },
+        "270c61f5e7139e94e0b6e2660f0c51aefea1f0274c6be7e5ae65d15f518ea32d": {
+          "channel": "c_2c3b76b4b9a7db9f1418b1a8",
+          "name": "慢熟野莓",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "27ed161dc31fd8df3fd7bd40adf204f2dcfee9eae77c6937f980a75367b0c6bc": {
+          "channel": "c_9f0257e1fbcbbacd2445a191",
+          "name": "SL.困困777💤⁷",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "5b78ace9bd694fbd03f24931a0b5f15fa43240c3f441ec0f94a7b3bfa49a1aa9": {
+          "channel": "c_c56f75cfafffef9323a38441",
+          "name": "大芃¹¹—11.10号庆生重归版",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "adf81799cddc76aef96b24cc1fac24580e76b11d4c45753ad68abc0fafdd7512": {
+          "channel": "c_c54644bc2f7866beccad2441",
+          "name": "是桃桃呀男装",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d285eea1ee5a7373552edd27c970c36b8eb5c9b001c7e2976227b36644e99a5f": {
+          "channel": "c_4b7e1f1fa1a57a82997e43b1",
+          "name": "竹笛山山²³³（11月6日生日周年庆）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "fd3e6805c1c2d7ecda50d2ef2ff17106e7cd64057217d8e02586ce630391e05d": {
+          "channel": "c_2cc88367dffc38a7820378f2",
+          "name": "迈克连🎤（刘连）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c76bde3e1cd5f5ad188930063f8dba558c1bc9baa28f2987063f0be8c4251f95": {
+          "channel": "c_afb73af57fb956328762d5ac",
+          "name": "loltw",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
         }
       }
     },
