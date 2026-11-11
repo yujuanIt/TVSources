@@ -26474,6 +26474,34 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/zeus",
       "enabled": "true"
+    },
+    "c_e4c611de5dfc41dc9bfadf0c": {
+      "name": "观其清也",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/7158319",
+      "enabled": "true"
+    },
+    "c_e061b3676521918565386084": {
+      "name": "玩机器CSGO",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/67876457927",
+      "enabled": "true"
+    },
+    "c_cb35ec4f559c698ca1bcbee5": {
+      "name": "舒然❤（双11遇见偏爱夜）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/H1389088",
+      "enabled": "true"
+    },
+    "c_504414e23f20992fe5361308": {
+      "name": "话匣子FM",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/huaxiaziFM30",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37074,8 +37102,8 @@
       }
     },
     "yang-network": {
-      "sha256": "1b98ae8a34be04c383992530dbc5521a45df243116a4e367040556d76ba9e1b2",
-      "routes": 404,
+      "sha256": "d8b2c1c28e429c8d5dc504f6603735453c4b4df482b21ab7326c8312546534c0",
+      "routes": 573,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52400,6 +52428,42 @@
           "name": "Zeus",
           "tvgId": "",
           "group": "•Twitch「游戏」"
+        },
+        "24108d5264f993d2e0de41d1ad9be1683bfac81524ad4bbcd0ae336dcd78ac3f": {
+          "channel": "c_e4c611de5dfc41dc9bfadf0c",
+          "name": "观其清也",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "d8f7b18d64735cec63e33faa17cb4bca6d484be8c52e5f9f6ddae66f2614a01f": {
+          "channel": "c_f37f526a2eb77af75f61cd91",
+          "name": "安安的（11.24🎂）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "19aac6d95c7398bbc85a843b72be91e7fbc0e3f0f76d460fcba35be6cf2801e3": {
+          "channel": "c_e061b3676521918565386084",
+          "name": "玩机器CSGO",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "35842e9c53493b327148f3c82049db4eb2658656f0746c880bbefd86b97137fe": {
+          "channel": "c_cb35ec4f559c698ca1bcbee5",
+          "name": "舒然❤（双11遇见偏爱夜）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "7f4097b04c76c9ea28addb43ffcb6ce23dded2ad56dc735f94c1a37b2920be5a": {
+          "channel": "c_504414e23f20992fe5361308",
+          "name": "话匣子FM",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "cb2f3507cbaec62fe991026a893d2c117a73c0177c53dcf1710780e23afce056": {
+          "channel": "c_c923d9c8753f8c2a9c0445a3",
+          "name": "老毕 燃点将至",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
         }
       }
     },
