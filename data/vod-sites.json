@@ -8784,7 +8784,7 @@
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/937f5abf1c7c4ff2f170d835c5c46c21.jpg;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/c28784a6ef0dd766a33d69837920332a.jpg;md5;164fa61b160f3119f4f21489b9dfaf56",
       "rules": [
         {
           "name": "cdn.ryplay",
@@ -8803,7 +8803,8 @@
       "hosts": [
         "img1.wsyzy.org=cmcc.vvvv.ee",
         "fiizvfck.top=cmcc.vvvv.ee",
-        "images.67c6c7a.com=cmcc.vvvv.ee"
+        "images.67c6c7a.com=cmcc.vvvv.ee",
+        "sub.ottiptv.cc=cmcc.vvvv.ee"
       ]
     },
     "xinmo": {
