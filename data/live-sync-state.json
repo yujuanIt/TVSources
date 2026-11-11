@@ -26502,6 +26502,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/huaxiaziFM30",
       "enabled": "true"
+    },
+    "c_db9eb482030475de14f06017": {
+      "name": "송채연",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/jfiary0718",
+      "enabled": "true"
+    },
+    "c_3b1c373193adc35af83a3baf": {
+      "name": "佐藤ちゆり",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/satoasmr",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28504,7 +28518,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "a36d89837754df71991ef62a40777d29fabadd4c619359c709f0172e4f99fa72",
+      "sha256": "a663e60603ece4555884fa8d1578b174e93d66dd7813ff33656c5815e8b5dc39",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31750,7 +31764,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "aeeff5d9c270d392c869d469dbec4af9bef13d0df821407bfe4f6de16effbb3e",
+      "sha256": "05923973827d81ec355379d85beceb1031362f461fa2902fff49fb340dc564f9",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37102,8 +37116,8 @@
       }
     },
     "yang-network": {
-      "sha256": "d8b2c1c28e429c8d5dc504f6603735453c4b4df482b21ab7326c8312546534c0",
-      "routes": 573,
+      "sha256": "1c8546e8f781b75b3dc70c1181e871989f6025ad5a22389702c210d599c2577b",
+      "routes": 400,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52464,6 +52478,18 @@
           "name": "老毕 燃点将至",
           "tvgId": "",
           "group": "•歪歪「娱乐」"
+        },
+        "411a4e50b17f88a229ba543bf68a70828fdfae60d9d118ff075429c0e4a5eefa": {
+          "channel": "c_db9eb482030475de14f06017",
+          "name": "송채연",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "ee89f4684f30856c8e3c18ebf3cf7b0e046f4b53d701b505a50af89eb360b109": {
+          "channel": "c_3b1c373193adc35af83a3baf",
+          "name": "佐藤ちゆり",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
         }
       }
     },
