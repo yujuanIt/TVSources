@@ -26516,6 +26516,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/satoasmr",
       "enabled": "true"
+    },
+    "c_de56129b1e3155f51411473f": {
+      "name": "CX-娜娜",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/156286",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37116,8 +37123,8 @@
       }
     },
     "yang-network": {
-      "sha256": "1c8546e8f781b75b3dc70c1181e871989f6025ad5a22389702c210d599c2577b",
-      "routes": 400,
+      "sha256": "7892c69440af3ad2914acf7d8907ca95d3b2d3a490cf6a8298a3a0a8d6e930c0",
+      "routes": 553,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52490,6 +52497,18 @@
           "name": "佐藤ちゆり",
           "tvgId": "",
           "group": "•Twitch「娱乐」"
+        },
+        "9ca7d6ad8b084402c6a330543051d7dba6a07c9d74bc59fc6be7d8f7400f8ba0": {
+          "channel": "c_de56129b1e3155f51411473f",
+          "name": "CX-娜娜",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "8a2396e1d80b3a0c16621eb36d23c916fe893cc649ef56fe1d57e8674d212b34": {
+          "channel": "c_8d93fa55755640fed5641587",
+          "name": "零碎（东东电竞）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
