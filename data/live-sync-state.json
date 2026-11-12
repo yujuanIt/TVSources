@@ -26523,6 +26523,34 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/huya/156286",
       "enabled": "true"
+    },
+    "c_0419cb41027184403d894e3b": {
+      "name": "画家孙天骄",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/tianjiao18",
+      "enabled": "true"
+    },
+    "c_4ef49914d6e353a69ea6aaf8": {
+      "name": "老亚的旅居生活",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/93372613274",
+      "enabled": "true"
+    },
+    "c_279b76ee43a23334a2f10e48": {
+      "name": "桃老师Tyii",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/136829",
+      "enabled": "true"
+    },
+    "c_ec7d4fe486cc69f14e30f11b": {
+      "name": "challengesdiversion",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/challengesdiversion",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28525,7 +28553,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "a663e60603ece4555884fa8d1578b174e93d66dd7813ff33656c5815e8b5dc39",
+      "sha256": "da22764117dc141fc63e92b451e81e70e6f28a8df0cfd86597966e2d8aaf545e",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31771,7 +31799,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "05923973827d81ec355379d85beceb1031362f461fa2902fff49fb340dc564f9",
+      "sha256": "94c8c989f560375b5833db5451d0717a77fbb37624275a3b7dce8c49b39ffd83",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37123,8 +37151,8 @@
       }
     },
     "yang-network": {
-      "sha256": "7892c69440af3ad2914acf7d8907ca95d3b2d3a490cf6a8298a3a0a8d6e930c0",
-      "routes": 553,
+      "sha256": "69c5ab176af63cca2b76c9f8fa64ed0863b025747379888b95a3380f61522d75",
+      "routes": 406,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52509,6 +52537,36 @@
           "name": "零碎（东东电竞）",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "2f02fe3907651d75059dbd2de3bb4d85628c6df1eae21b93e7f989d81acef823": {
+          "channel": "c_0419cb41027184403d894e3b",
+          "name": "画家孙天骄",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "8ee1c439543d478c5487f9b25ce4ed1b7a87fe8fa47cf12481544910bea4b9da": {
+          "channel": "c_4ef49914d6e353a69ea6aaf8",
+          "name": "老亚的旅居生活",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "28e42685d249f34ce10588dd08b4b49d8909dd1daffc742354654c4106bc3276": {
+          "channel": "c_279b76ee43a23334a2f10e48",
+          "name": "桃老师Tyii",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "93f8aecafce2d1f9043b28cbef2611fa56b545094fde10f7a0b5b958e80fef1c": {
+          "channel": "c_9604bb982275bf360ce0c63e",
+          "name": "虎牙英雄联盟赛事",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "3b9dd0e7652be480662700527cf1bedcccff72f4c37551e91fcb55fc950f0eb5": {
+          "channel": "c_ec7d4fe486cc69f14e30f11b",
+          "name": "challengesdiversion",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
         }
       }
     },
