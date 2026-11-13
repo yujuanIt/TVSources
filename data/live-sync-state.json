@@ -26551,6 +26551,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/challengesdiversion",
       "enabled": "true"
+    },
+    "c_555526bae14b7a4287945159": {
+      "name": "小阿呆婕拉",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/zhg200117",
+      "enabled": "true"
+    },
+    "c_830e9e71630497aea7a66824": {
+      "name": "CyPhoeniX",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/190552355",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37151,8 +37165,8 @@
       }
     },
     "yang-network": {
-      "sha256": "69c5ab176af63cca2b76c9f8fa64ed0863b025747379888b95a3380f61522d75",
-      "routes": 406,
+      "sha256": "ca5b11bacd8ebf74d8f21acc901eed97f8a8c8dcac5fb7ebae3eed70c2b21af8",
+      "routes": 548,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52567,6 +52581,36 @@
           "name": "challengesdiversion",
           "tvgId": "",
           "group": "•Twitch「娱乐」"
+        },
+        "233ce75a62c1f5ebf8488cd9c607b34fe1f3c98eba7d8319c7f977738f317bfb": {
+          "channel": "c_555526bae14b7a4287945159",
+          "name": "小阿呆婕拉",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ae515934b3a9676874e8eb54818d751bf4043bd4218fb3f2a7ab15e395098f70": {
+          "channel": "c_7a88a6181598152f57b8977a",
+          "name": "韩千亿11.24🎂",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "239c9c7c89320e2ba567b3037b1aabb7d4369b3fb9390d6994ab2c5ee967fcd3": {
+          "channel": "c_bc568a8e7473584e3fe96e2f",
+          "name": "碳眠无郎",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "e3359bf2473e8db3f5eea1310afeb3948511b39a26c08b0e901da8846c1c6a4f": {
+          "channel": "c_830e9e71630497aea7a66824",
+          "name": "CyPhoeniX",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "31d10af39b71a99c69279f99fd068cd1f6c30b4da9acd027559e0eb65924174c": {
+          "channel": "c_04f2e9ba3197e49cec94c5fd",
+          "name": "创艺温暖暖",
+          "tvgId": "",
+          "group": "•歪歪「其他」"
         }
       }
     },

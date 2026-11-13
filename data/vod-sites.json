@@ -17,7 +17,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <兼容安卓4>",
+      "name": "豆豆┃片单 <Fix Everything>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -186,7 +186,7 @@
       "type": 3,
       "api": "csp_NewCzGuard",
       "timeout": 10,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -306,7 +306,7 @@
       "type": 3,
       "api": "csp_JpysGuard",
       "timeout": 10,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -8778,13 +8778,74 @@
         "key": "py_pufferfish"
       },
       "_syncId": "bb4ed16ae3dc16b94b296d02c8f32709"
+    },
+    {
+      "key": "爱刷",
+      "name": "♻️爱刷┃短视",
+      "type": 3,
+      "api": "csp_SsspGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {},
+      "enabled": true,
+      "context": "fantaiying",
+      "origin": {
+        "source": "fantaiying",
+        "name": "饭太硬 · 点播与直播",
+        "url": "http://www.饭太硬.net/tv",
+        "key": "爱刷"
+      },
+      "_syncId": "139b87b12e6f408d76d11e79264b77ae"
+    },
+    {
+      "key": "粤迷",
+      "name": "🦊粤迷┃港剧",
+      "type": 3,
+      "api": "csp_MaiDuiDuiGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "enabled": true,
+      "context": "fantaiying",
+      "origin": {
+        "source": "fantaiying",
+        "name": "饭太硬 · 点播与直播",
+        "url": "http://www.饭太硬.net/tv",
+        "key": "粤迷"
+      },
+      "_syncId": "bbea5880c448813206da644a8bd22c14"
+    },
+    {
+      "key": "剧迷",
+      "name": "🍊橘猫┃多线",
+      "type": 3,
+      "api": "csp_JumiTvGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "enabled": true,
+      "context": "fantaiying",
+      "origin": {
+        "source": "fantaiying",
+        "name": "饭太硬 · 点播与直播",
+        "url": "http://www.饭太硬.net/tv",
+        "key": "剧迷"
+      },
+      "_syncId": "cbad7af3bb6c6777af992bbd5035cf6c"
     }
   ],
   "contexts": {
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/c28784a6ef0dd766a33d69837920332a.jpg;md5;164fa61b160f3119f4f21489b9dfaf56",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/8cc3c376daf1d4beeebb46012ca676a4.jpg;md5;6d10a60af6c0976836933c5f3cf9e8a7",
       "rules": [
         {
           "name": "cdn.ryplay",
@@ -8801,9 +8862,7 @@
         }
       ],
       "hosts": [
-        "img1.wsyzy.org=cmcc.vvvv.ee",
         "fiizvfck.top=cmcc.vvvv.ee",
-        "images.67c6c7a.com=cmcc.vvvv.ee",
         "sub.ottiptv.cc=cmcc.vvvv.ee"
       ]
     },
