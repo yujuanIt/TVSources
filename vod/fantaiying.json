@@ -1,5 +1,5 @@
 {
-  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/c28784a6ef0dd766a33d69837920332a.jpg;md5;164fa61b160f3119f4f21489b9dfaf56",
+  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/8cc3c376daf1d4beeebb46012ca676a4.jpg;md5;6d10a60af6c0976836933c5f3cf9e8a7",
   "rules": [
     {
       "name": "cdn.ryplay",
@@ -16,15 +16,13 @@
     }
   ],
   "hosts": [
-    "img1.wsyzy.org=cmcc.vvvv.ee",
     "fiizvfck.top=cmcc.vvvv.ee",
-    "images.67c6c7a.com=cmcc.vvvv.ee",
     "sub.ottiptv.cc=cmcc.vvvv.ee"
   ],
   "sites": [
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <兼容安卓4>",
+      "name": "豆豆┃片单 <Fix Everything>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -121,7 +119,7 @@
       "type": 3,
       "api": "csp_NewCzGuard",
       "timeout": 10,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -187,7 +185,7 @@
       "type": 3,
       "api": "csp_JpysGuard",
       "timeout": 10,
-      "playerType": 2,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -649,6 +647,40 @@
       },
       "quickSearch": 1,
       "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "爱刷",
+      "name": "♻️爱刷┃短视",
+      "type": 3,
+      "api": "csp_SsspGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {}
+    },
+    {
+      "key": "粤迷",
+      "name": "🦊粤迷┃港剧",
+      "type": 3,
+      "api": "csp_MaiDuiDuiGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "剧迷",
+      "name": "🍊橘猫┃多线",
+      "type": 3,
+      "api": "csp_JumiTvGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     }
   ]
