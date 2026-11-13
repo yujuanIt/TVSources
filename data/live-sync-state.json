@@ -28567,7 +28567,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "da22764117dc141fc63e92b451e81e70e6f28a8df0cfd86597966e2d8aaf545e",
+      "sha256": "2aa728d1aafdf8c69952d2f478e10c067aab639e212e64ab9b6a504fc55dec5b",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31813,7 +31813,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "94c8c989f560375b5833db5451d0717a77fbb37624275a3b7dce8c49b39ffd83",
+      "sha256": "76ac5bc7cf43c455787869d51e9cb6a6f57a20c66b987f603190d2700f55d884",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37165,8 +37165,8 @@
       }
     },
     "yang-network": {
-      "sha256": "ca5b11bacd8ebf74d8f21acc901eed97f8a8c8dcac5fb7ebae3eed70c2b21af8",
-      "routes": 548,
+      "sha256": "d423cb26b1d82eab8f71c405e193c3cbd60388c2a0ab18733edb2d221f4e8d3d",
+      "routes": 421,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52611,6 +52611,12 @@
           "name": "创艺温暖暖",
           "tvgId": "",
           "group": "•歪歪「其他」"
+        },
+        "a4b5092dd4478297aac555fbe3e2b42a758dfd556038e00a5132f82533902109": {
+          "channel": "c_0b82d6773835bd09bd696a9f",
+          "name": "威某人-（15号线下一起看比赛、私信我）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
