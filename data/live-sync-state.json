@@ -26593,6 +26593,69 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/659097847299",
       "enabled": "true"
+    },
+    "c_9e852d3117ca529812c70c95": {
+      "name": "哔哩哔哩LOL赛事直播",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/616",
+      "enabled": "true"
+    },
+    "c_a4e679d195c6f9ac00843e5b": {
+      "name": "龙亦瑞容易累(10.2生日",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/445622870138",
+      "enabled": "true"
+    },
+    "c_74621b349ed2f831e8eeabab": {
+      "name": "LCK_KR",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/aflol",
+      "enabled": "true"
+    },
+    "c_7db269d4ef2b37011f0bf36a": {
+      "name": "Mlxg",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/913983320367",
+      "enabled": "true"
+    },
+    "c_27f44a9d0538ad96614c8260": {
+      "name": "沫子Mozz",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Mozz36D",
+      "enabled": "true"
+    },
+    "c_5baa7971a63eb8d456b45c96": {
+      "name": "雨神（王者万象棋）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/30031585300",
+      "enabled": "true"
+    },
+    "c_801e69a6976d197cb6471ee1": {
+      "name": "南树树阿",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/9546618",
+      "enabled": "true"
+    },
+    "c_71363132da72de87aa0fd8f8": {
+      "name": "第一女野王辣辣",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/29413506",
+      "enabled": "true"
+    },
+    "c_d4247cbedd40f501566b2856": {
+      "name": "chess24",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/Chess24",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28595,7 +28658,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "2aa728d1aafdf8c69952d2f478e10c067aab639e212e64ab9b6a504fc55dec5b",
+      "sha256": "235e00d635e2b6d268efe6fe44c8a596c26503353db8c3fcae299bcd8a816118",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31841,7 +31904,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "76ac5bc7cf43c455787869d51e9cb6a6f57a20c66b987f603190d2700f55d884",
+      "sha256": "bb47d1d1d76ee50a7bf9aa4bdd36d9ffb86b04a52a1ca9709615224297bbabc6",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37193,8 +37256,8 @@
       }
     },
     "yang-network": {
-      "sha256": "e26cce57f82bccf84f17f24d7b4ffb9f8f510ccab82bed44abba2ca1fa3b531a",
-      "routes": 564,
+      "sha256": "72b22ec1be50c02ed9fb2cb4a356c6a11832d9f0c0e0b143e67bd0f88416572c",
+      "routes": 582,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52675,6 +52738,90 @@
           "name": "奚守鑫台球培训",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "067fb0cc3454a63fe8d0dd7d326ac3f8f908b9f4ad6d646b95205e847eaba4e2": {
+          "channel": "c_9e852d3117ca529812c70c95",
+          "name": "哔哩哔哩LOL赛事直播",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "3169bc3e2628f16a73b12000a9d760b54ad07f7f6e873fd0ed26f79940ebb036": {
+          "channel": "c_d05ebb98b9986fa78a931a76",
+          "name": "萨摩椰奶茶冻",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "569304f251171e3254acccc75ea326a91cd46caec4b5321de714f3f0ef941dc2": {
+          "channel": "c_a4e679d195c6f9ac00843e5b",
+          "name": "龙亦瑞容易累(10.2生日",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d1fad34e552e8dba3905ad0f97ae33673a072697f086a25953114b1d11a594f4": {
+          "channel": "c_3c3e5d2b20b9f827dd88a66c",
+          "name": "集美林语【ZKL】爆",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "2f9ef5ef2cf0aede442c35d1d9ad6b40ae5808f062c427df6206946d27722a95": {
+          "channel": "c_74621b349ed2f831e8eeabab",
+          "name": "LCK_KR",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "0c908a1f6c593f3717592fe4d5dc8af1fa688efc67e4406b748d2b42b4106129": {
+          "channel": "c_7db269d4ef2b37011f0bf36a",
+          "name": "Mlxg",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "c2331b0e2f81292c4369713f6e78f3ed3a6adfbc234c1fe8ef36740b45d52b51": {
+          "channel": "c_27f44a9d0538ad96614c8260",
+          "name": "沫子Mozz",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "4bf245d9d35b204d725e6aee19048f61e30422ffbcfc55ea0c9ebd5a3d160bc5": {
+          "channel": "c_5baa7971a63eb8d456b45c96",
+          "name": "雨神（王者万象棋）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "932925a7e909e4fcbf0b7cb9b768c0e9bb54eb35bcbc7fb23d9a24018d32d6e0": {
+          "channel": "c_f13c074ced0a4b69c7ff56cc",
+          "name": "魔王羽三角洲行动",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "5ca3b8405537494a16366af7bc67f2e62e4ff2d882f1c607214e105dd85a4f41": {
+          "channel": "c_801e69a6976d197cb6471ee1",
+          "name": "南树树阿",
+          "tvgId": "",
+          "group": "•斗鱼「游戏」"
+        },
+        "032326486f9d0a649b264b9fc5ea3226c2e49f521de3af39cad80ba0ce7bf599": {
+          "channel": "c_71363132da72de87aa0fd8f8",
+          "name": "第一女野王辣辣",
+          "tvgId": "",
+          "group": "•虎牙「游戏」"
+        },
+        "4dce78052005a7daca551e11441b67f2558995f11787882d15596732afbb2b50": {
+          "channel": "c_c830ff15b886c98efe61f4cf",
+          "name": "Riot Games",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "78899648b8ca4702a0c11293a9f7e84317b5a29a868cce5025274d9e47ae0630": {
+          "channel": "c_d4247cbedd40f501566b2856",
+          "name": "chess24",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "8297fb2faa9637509f8d0e115236a3dc3376f097bbd767798d93982c838f4794": {
+          "channel": "c_58c7ec584308c7d70747a0c0",
+          "name": "创艺 乔乔",
+          "tvgId": "",
+          "group": "•歪歪「游戏」"
         }
       }
     },
