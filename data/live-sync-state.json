@@ -26656,6 +26656,34 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/Chess24",
       "enabled": "true"
+    },
+    "c_15e0b700d9ac8d1b7607404c": {
+      "name": "呆呆不吃喵",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/27315114",
+      "enabled": "true"
+    },
+    "c_2a17f111a0a5791dcaaff104": {
+      "name": "5219Pretty girl（团队招新",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/98846729700",
+      "enabled": "true"
+    },
+    "c_b10cf5e74adc609483d90e67": {
+      "name": "虎大微(户外乡村生活每天7点30直播)",
+      "group": "YY",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/yy/31461",
+      "enabled": "true"
+    },
+    "c_093f06d9e70d3c488d1945bb": {
+      "name": "我Geebar谁啊",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/889434",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37256,8 +37284,8 @@
       }
     },
     "yang-network": {
-      "sha256": "72b22ec1be50c02ed9fb2cb4a356c6a11832d9f0c0e0b143e67bd0f88416572c",
-      "routes": 582,
+      "sha256": "e82125648ff0a87ae43189717743d467585e88f113133dfd1710b4bb9709b6da",
+      "routes": 438,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52822,6 +52850,36 @@
           "name": "创艺 乔乔",
           "tvgId": "",
           "group": "•歪歪「游戏」"
+        },
+        "444da2831c0f3967673915aa43c791954396e07fa5074e4b98ce92e7ce4961cb": {
+          "channel": "c_15e0b700d9ac8d1b7607404c",
+          "name": "呆呆不吃喵",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "2da61ad8060eb4221fe64306b3f09ae53bebfb7cd787a11f9d4d1429f6a9b223": {
+          "channel": "c_2a17f111a0a5791dcaaff104",
+          "name": "5219Pretty girl（团队招新",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "414dff17586d120c5ad582b1ed9cbea2af5b43cfd541564bd0c0478cef8dc9d9": {
+          "channel": "c_4ab8917807a6341d30966a5a",
+          "name": "天蚕土豆",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "66206df8d71f589819f84a120ff93e04d6460d4eb2d8e6326a982435cc777d81": {
+          "channel": "c_b10cf5e74adc609483d90e67",
+          "name": "虎大微(户外乡村生活每天7点30直播)",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "d14857f875f4aca9628b1439e02a703754e0535219c7f96c7987afa531d136b7": {
+          "channel": "c_093f06d9e70d3c488d1945bb",
+          "name": "我Geebar谁啊",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
         }
       }
     },

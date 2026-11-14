@@ -3,7 +3,7 @@
   "sites": {
     "2e7b5924e3c0575448e7251ab7dccf54": {
       "key": "点我切源",
-      "name": "豆豆┃片单 <Fix Everything>",
+      "name": "豆豆┃片单 <升级弹幕>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -8831,7 +8831,7 @@
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/776af3c4b61098b3573b4973f867010c.jpg;md5;76e9565340e6d28c363b914ca2d506ed",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/9970bc4b67aa7d907871548db1c31bba.jpg;md5;fa1bcd5643872834ee03be5ba2f23ac7",
       "rules": [
         {
           "name": "cdn.ryplay",
