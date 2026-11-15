@@ -26684,6 +26684,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/bilibili/889434",
       "enabled": "true"
+    },
+    "c_dbf9995d7321677c18e57a13": {
+      "name": "坏蛋🍦",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/69083602868",
+      "enabled": "true"
+    },
+    "c_dd902cb4f3a4501a6c2c5424": {
+      "name": "栩晴🎤经典老歌（11.11生日庆🍰）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/797784529130",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37284,8 +37298,8 @@
       }
     },
     "yang-network": {
-      "sha256": "e82125648ff0a87ae43189717743d467585e88f113133dfd1710b4bb9709b6da",
-      "routes": 438,
+      "sha256": "a75346d11ee76caf4b7cc19d3286547612f731afc13064498ad98157f633a5ad",
+      "routes": 536,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52880,6 +52894,18 @@
           "name": "我Geebar谁啊",
           "tvgId": "",
           "group": "•哔哩「游戏」"
+        },
+        "c33a5e15c00ff6b5d62beef95a35a7b8b83dd216f4d7918988054c9214dd83c8": {
+          "channel": "c_dbf9995d7321677c18e57a13",
+          "name": "坏蛋🍦",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "e0df3650311e372b2ff07e33e3daa1fbd1e40b06bcaed5af46c8d1b0951f0719": {
+          "channel": "c_dd902cb4f3a4501a6c2c5424",
+          "name": "栩晴🎤经典老歌（11.11生日庆🍰）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
         }
       }
     },
