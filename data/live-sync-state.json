@@ -26698,6 +26698,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/797784529130",
       "enabled": "true"
+    },
+    "c_ebd4fd8b4e9030addbbd8f2f": {
+      "name": "集美盼盼【ZKL】宝宝",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/158165",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28700,7 +28707,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "235e00d635e2b6d268efe6fe44c8a596c26503353db8c3fcae299bcd8a816118",
+      "sha256": "839b8d375864cca3b1404662b36fb55e7e8f19283e9a08beb6dc144c47c5e5cb",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31946,7 +31953,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "bb47d1d1d76ee50a7bf9aa4bdd36d9ffb86b04a52a1ca9709615224297bbabc6",
+      "sha256": "ebdf18b6dc1d41ad1368ebe9a7c21ab6c8c283a734db2543357ce86c081d89e5",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37298,8 +37305,8 @@
       }
     },
     "yang-network": {
-      "sha256": "a75346d11ee76caf4b7cc19d3286547612f731afc13064498ad98157f633a5ad",
-      "routes": 536,
+      "sha256": "3c85f9f4cfaff52c3c0a25a9efb8c27e2fb8a71f4fd0df316bd4cd91fd4d6cbf",
+      "routes": 497,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52906,6 +52913,12 @@
           "name": "栩晴🎤经典老歌（11.11生日庆🍰）",
           "tvgId": "",
           "group": "•抖音「娱乐」"
+        },
+        "4d6acb8fbf75a7f13b6973311cff31163be854768a1d36b2e0b8d6176f54f1d9": {
+          "channel": "c_ebd4fd8b4e9030addbbd8f2f",
+          "name": "集美盼盼【ZKL】宝宝",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
         }
       }
     },
