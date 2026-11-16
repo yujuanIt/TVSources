@@ -26712,6 +26712,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/soop/yohaing",
       "enabled": "true"
+    },
+    "c_6baf6133b61e3b6eecbb577f": {
+      "name": "浅浅爱电影",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/31274232",
+      "enabled": "true"
+    },
+    "c_9b72fc9ab7bf709c6cf65725": {
+      "name": "鯎爷",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/11352944",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28714,7 +28728,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "839b8d375864cca3b1404662b36fb55e7e8f19283e9a08beb6dc144c47c5e5cb",
+      "sha256": "e0e78200200835a2e42d63fb81e2a7484e769a524afbb785f1dcbf6f37124c49",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -31960,7 +31974,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "ebdf18b6dc1d41ad1368ebe9a7c21ab6c8c283a734db2543357ce86c081d89e5",
+      "sha256": "308ed80cec40d1f339a5a5c6cab7f79a801fb46d0bc7ff398da9a7881e9c947b",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37312,8 +37326,8 @@
       }
     },
     "yang-network": {
-      "sha256": "5b87b3c13475f412f547472d92b3e30dd5dacf4574768796d11474d270d48aec",
-      "routes": 551,
+      "sha256": "8bd9b12be4f5491475acf6a1b30579d8fcee431e9932d1a59f4a3cdaf43a7d8b",
+      "routes": 371,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52950,6 +52964,18 @@
           "name": "老毕 使用一张休息卡 今晚不播",
           "tvgId": "",
           "group": "•歪歪「娱乐」"
+        },
+        "dd8702bb77b5e8d912603224ff66c27aacf20bef508da75c65cc5d8453f2b683": {
+          "channel": "c_6baf6133b61e3b6eecbb577f",
+          "name": "浅浅爱电影",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "0853239153a6a702183d2fd2a9707f66b5e9347756ec2c2c87bffd82196f9ef3": {
+          "channel": "c_9b72fc9ab7bf709c6cf65725",
+          "name": "鯎爺",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
         }
       }
     },
