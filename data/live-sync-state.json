@@ -26705,6 +26705,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/huya/158165",
       "enabled": "true"
+    },
+    "c_6fe8353c53c65c8a1b9af6de": {
+      "name": "요하잉",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/yohaing",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37305,8 +37312,8 @@
       }
     },
     "yang-network": {
-      "sha256": "d462effe168a6de761b5cf2df0335c294cce70b14d8f6e03ca36e4325d5017fa",
-      "routes": 353,
+      "sha256": "5b87b3c13475f412f547472d92b3e30dd5dacf4574768796d11474d270d48aec",
+      "routes": 551,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52919,6 +52926,30 @@
           "name": "集美盼盼【ZKL】宝宝",
           "tvgId": "",
           "group": "•虎牙「娱乐」"
+        },
+        "969c87c0fdfe5c934f3613cdb718135c7bda82571d06da36190e74b00808e404": {
+          "channel": "c_294f69caac98693b3bc21736",
+          "name": "回国种地的小陈啊",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "8bfad92598c21d532919698d90d3234ac34f47cf28fe14b1c3ede9f11c99a6a4": {
+          "channel": "c_b1e8fd5bcdb173924f6e6d9b",
+          "name": "持枪战斗小猫咪",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "b38f6b61cb76de1663482d36b3ffaaf2b06f83ae3e9c7bdbd3c132d679a1445b": {
+          "channel": "c_6fe8353c53c65c8a1b9af6de",
+          "name": "요하잉",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "7b7c08964011c4a88927b61cb801c68598c4830af97a535a91808434f048c7ce": {
+          "channel": "c_c923d9c8753f8c2a9c0445a3",
+          "name": "老毕 使用一张休息卡 今晚不播",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
         }
       }
     },
