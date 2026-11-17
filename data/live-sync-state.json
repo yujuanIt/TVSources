@@ -26775,6 +26775,20 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/luke9271078",
       "enabled": "true"
+    },
+    "c_88efc422bf0350bd468944b9": {
+      "name": "太仓科技馆",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/tckjg",
+      "enabled": "true"
+    },
+    "c_f0e62a0e3a76eacf4b52439f": {
+      "name": "芝芝很酷💫",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/15208667",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28777,7 +28791,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "e0e78200200835a2e42d63fb81e2a7484e769a524afbb785f1dcbf6f37124c49",
+      "sha256": "ec6ca56f0ffe9b79e5bf5808f3f5a0e5c025a5394a2cbdc5cbe564a1e2f1e277",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32023,7 +32037,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "308ed80cec40d1f339a5a5c6cab7f79a801fb46d0bc7ff398da9a7881e9c947b",
+      "sha256": "a681c1f6e567cc7c4dde7e486f29a90b7f0256422f10e0f2ce44653bbcf16830",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37375,8 +37389,8 @@
       }
     },
     "yang-network": {
-      "sha256": "6bef50c6bee07ebccc750bab036c6b774aea61fae82417bab8454d45216792d5",
-      "routes": 572,
+      "sha256": "9015457d12ece53381febef38e349ac88480f41091a6a62ba70af7cc58635356",
+      "routes": 391,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53079,6 +53093,18 @@
           "name": "逐浪新闻",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "e067ae06db9642153ab1738d6445d4dcf129e88917de8cbefa1a4cb692cc1a22": {
+          "channel": "c_88efc422bf0350bd468944b9",
+          "name": "太仓科技馆",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "483c338f8391ac1cdb9ca25e5bef8e1c1da185a52acd7fc64d5297458a0c7dda": {
+          "channel": "c_f0e62a0e3a76eacf4b52439f",
+          "name": "芝芝很酷💫",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
         }
       }
     },
