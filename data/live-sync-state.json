@@ -26726,6 +26726,55 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/huya/11352944",
       "enabled": "true"
+    },
+    "c_9294c47bd2edd5fc3ae81e51": {
+      "name": "YiNing10",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/932634482825",
+      "enabled": "true"
+    },
+    "c_8e19126309aee8a01d515910": {
+      "name": "晕车ovo🥺",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/37975326371",
+      "enabled": "true"
+    },
+    "c_194d683c37ea99017c206501": {
+      "name": "龙龙 （DJ包子铺）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/94744242725",
+      "enabled": "true"
+    },
+    "c_4eed46b9af637ce953a2a3d7": {
+      "name": "球仔baby",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1991476869",
+      "enabled": "true"
+    },
+    "c_da5a9ddfcb55a77b2faef224": {
+      "name": "王者荣耀亚瑟王",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Yase_king",
+      "enabled": "true"
+    },
+    "c_8c45843463039780e0a71cbd": {
+      "name": "琴酒ouo",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/be20230113",
+      "enabled": "true"
+    },
+    "c_eab1a89ea5720718d9c5e69e": {
+      "name": "逐浪新闻",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/luke9271078",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37326,8 +37375,8 @@
       }
     },
     "yang-network": {
-      "sha256": "8bd9b12be4f5491475acf6a1b30579d8fcee431e9932d1a59f4a3cdaf43a7d8b",
-      "routes": 371,
+      "sha256": "6bef50c6bee07ebccc750bab036c6b774aea61fae82417bab8454d45216792d5",
+      "routes": 572,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -52976,6 +53025,60 @@
           "name": "鯎爺",
           "tvgId": "",
           "group": "•虎牙「娱乐」"
+        },
+        "4b67f8fb31452428b8c1a28eb07882f3e757ab7c475bfed079864b90c0d00ea2": {
+          "channel": "c_9294c47bd2edd5fc3ae81e51",
+          "name": "YiNing10",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "4e098eb3bb58dd9e47518c8aee5b49e8260f49239ef59ab9031fe0f086571cd4": {
+          "channel": "c_8e19126309aee8a01d515910",
+          "name": "晕车ovo🥺",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "16820dbcc8bd87917d3dcbd5726ef3917fc127af7466dd4c3bc687e1c4461cd4": {
+          "channel": "c_194d683c37ea99017c206501",
+          "name": "龙龙 （DJ包子铺）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "78adfa748a261467ccf88a22ffe5898d1caa8b9026ddd43ee75c446cd3f8fb4f": {
+          "channel": "c_d7e155e1d76c36ac8f352f90",
+          "name": "集美敢敢【ZKL】",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "2a9f5eb085ee2a315c50d4aa1df654f9596f303b6fb3522f642b72ee396ed516": {
+          "channel": "c_4eed46b9af637ce953a2a3d7",
+          "name": "球仔baby",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "cbd17baafca26b3b398ee8533095d7801b593d1f9f7f9b96b7433cc1d7213873": {
+          "channel": "c_eba5d5f26fce7b0403694a63",
+          "name": "汤姆（炉石传说）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "74d662311acbd6d7ef5eac816d808f50748fb5648665b8772b39bb66f722aaca": {
+          "channel": "c_da5a9ddfcb55a77b2faef224",
+          "name": "王者荣耀亚瑟王",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "b46d2d5f3131948bb0175aec28d79e0849acf3413e2bd431868b8ee7d6c1269b": {
+          "channel": "c_8c45843463039780e0a71cbd",
+          "name": "琴酒ouo",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "53031197ddfb57fa8686477aa51ed8f9dc35361a1a9c5f6148918b5de2b6bd55": {
+          "channel": "c_eab1a89ea5720718d9c5e69e",
+          "name": "逐浪新闻",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
