@@ -26817,6 +26817,27 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/93138961219",
       "enabled": "true"
+    },
+    "c_a4e0aa98ecd2faa619cf3496": {
+      "name": "星伊云同桌自习室",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/12618111",
+      "enabled": "true"
+    },
+    "c_51fa60d79838ceab69655ff7": {
+      "name": "游戏星GameStar",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/719260",
+      "enabled": "true"
+    },
+    "c_46c4688077aa14f37a1e7dc7": {
+      "name": "jarnoopmeer",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/jarnoopmeer",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28819,7 +28840,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "ec6ca56f0ffe9b79e5bf5808f3f5a0e5c025a5394a2cbdc5cbe564a1e2f1e277",
+      "sha256": "aef7479b85b7e1a07578220de6665eac82525e193dc04a0484ba047155f1814d",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32065,7 +32086,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "a681c1f6e567cc7c4dde7e486f29a90b7f0256422f10e0f2ce44653bbcf16830",
+      "sha256": "282818305a2162fe76aced671bcaedd45b567dc4df0bc1bc63f52d3552358914",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37417,8 +37438,8 @@
       }
     },
     "yang-network": {
-      "sha256": "e9a48a6dc99823e17418c9b3e5e38cd62fb8fdcbcf7abd6cec2371308fe33771",
-      "routes": 560,
+      "sha256": "bb157f9a601bf8252cdff27a8fc628cf144c0f4aba44d6e0c22b7f44c6872ee0",
+      "routes": 415,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53163,6 +53184,24 @@
           "name": "熊老大（三三大姐）",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "52faed30f25384acb03b99f1ab07cae90f81570bcf694e0029e9d427f97f52d3": {
+          "channel": "c_a4e0aa98ecd2faa619cf3496",
+          "name": "星伊云同桌自习室",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "6f76b98e41dd1bfb005047a0788e8a5d21744d5364b35aecb137febece00fe3b": {
+          "channel": "c_51fa60d79838ceab69655ff7",
+          "name": "游戏星GameStar",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "08de85869fa2d5d5335ed9fe376543478c6c0e312f8a288b2526d5bdcd8219cb": {
+          "channel": "c_46c4688077aa14f37a1e7dc7",
+          "name": "jarnoopmeer",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
         }
       }
     },
