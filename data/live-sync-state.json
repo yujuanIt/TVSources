@@ -26789,6 +26789,34 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/15208667",
       "enabled": "true"
+    },
+    "c_01bd4f1e752dcc2a693ecd96": {
+      "name": "你们凭什么这样对他",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1917430518",
+      "enabled": "true"
+    },
+    "c_52ac79e6fb1f86888d5e5529": {
+      "name": "知知韫-土豆版",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1777643588",
+      "enabled": "true"
+    },
+    "c_48b658b40c2a267312db8019": {
+      "name": "黑大帅",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/89392129393",
+      "enabled": "true"
+    },
+    "c_90aff56162a157cbc54c6c79": {
+      "name": "熊老大（三三大姐）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/93138961219",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37389,8 +37417,8 @@
       }
     },
     "yang-network": {
-      "sha256": "9015457d12ece53381febef38e349ac88480f41091a6a62ba70af7cc58635356",
-      "routes": 391,
+      "sha256": "e9a48a6dc99823e17418c9b3e5e38cd62fb8fdcbcf7abd6cec2371308fe33771",
+      "routes": 560,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53105,6 +53133,36 @@
           "name": "芝芝很酷💫",
           "tvgId": "",
           "group": "•抖音「娱乐」"
+        },
+        "d09e23d354f0d001bbd99d8c90fd11fc453a1df5e6cfc858b74536b3499a5b73": {
+          "channel": "c_01bd4f1e752dcc2a693ecd96",
+          "name": "你们凭什么这样对他",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "6e4e86e0647cc85047c626a13fb90d3422a91a820bafed3829709d05d7183f60": {
+          "channel": "c_52ac79e6fb1f86888d5e5529",
+          "name": "知知韫-土豆版",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "cacd0334784990953bf4248e97827744c8113d32cd595acfa85d2d68b655bd64": {
+          "channel": "c_0a7b0dc06917533213f10a12",
+          "name": "邪恶兔大王👑¹²²¹",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "47bf924e8b352fabe11075ae29f49bd80e09e2dcc77acf9bebcc00e0b1bff9c7": {
+          "channel": "c_48b658b40c2a267312db8019",
+          "name": "黑大帅",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d4895843767388bedefe082d3a88d83a837163b8fe0f6d6485193d9dfa2e1d6f": {
+          "channel": "c_90aff56162a157cbc54c6c79",
+          "name": "熊老大（三三大姐）",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
