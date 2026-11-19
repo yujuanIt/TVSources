@@ -6951,7 +6951,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://v.aikanbot.com",
+      "ext": "https://www1.ikanbot.com",
       "enabled": true,
       "context": "xyq",
       "origin": {
@@ -7605,7 +7605,7 @@
     },
     {
       "key": "豆瓣",
-      "name": "🐼┃QQ频道：游魂网┃",
+      "name": "🐼┃QQ频道：肥猫宝贝┃",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -8295,7 +8295,7 @@
       "key": "儿童",
       "name": "📚┃儿童┃启蒙",
       "type": 3,
-      "api": "https://www.iyouhun.com/tv/json/api/drpy2.min.js",
+      "api": "http://%E8%82%A5%E7%8C%AB.net/api/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
@@ -8303,7 +8303,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://www.iyouhun.com/tv/json/js/兔小贝.js",
+      "ext": "http://%E8%82%A5%E7%8C%AB.net/js/兔小贝.js",
       "enabled": true,
       "context": "feimao",
       "origin": {
@@ -8416,7 +8416,7 @@
     },
     {
       "key": "push_agent",
-      "name": "QQ频道：游魂网",
+      "name": "QQ频道：肥猫宝贝",
       "type": 3,
       "api": "csp_Push",
       "playerType": "1",
@@ -8703,11 +8703,11 @@
         "categories": [
           {
             "name": "Fongmi影视",
-            "url": "https://pan.quark.cn/s/924673c16475"
+            "url": "https://pan.quark.cn/s/7129866d8655"
           },
           {
             "name": "OK影视",
-            "url": "https://pan.quark.cn/s/3c605019c65b"
+            "url": "https://pan.quark.cn/s/cc286c991136"
           },
           {
             "name": "Kazumi",
@@ -10790,7 +10790,7 @@
     "feimao": {
       "name": "默认影视源 · 肥猫",
       "url": "https://www.iyouhun.com/tv/fm",
-      "spider": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png;md5;6a396033ae45efee57ba789f91d7123e",
+      "spider": "https://img2.gelonghui.com/library/7a619-f506660f-a1ff-421a-b43d-0e83102fa147.png;md5;7a619712f3f423a5f26dc72a892b8875",
       "parses": [
         {
           "name": "Json聚合",
