@@ -26838,6 +26838,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/jarnoopmeer",
       "enabled": "true"
+    },
+    "c_fd2a6d790024cb885862cebb": {
+      "name": "Zkaaai（巡演版",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/762128957134",
+      "enabled": "true"
+    },
+    "c_f12e3aca6ddd408eef653f9c": {
+      "name": "王者荣耀随风",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/sf02528",
+      "enabled": "true"
+    },
+    "c_5196512532e4a94b416631d7": {
+      "name": "谜一样的剪辑师",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/100044",
+      "enabled": "true"
+    },
+    "c_b44380a02d358e601e3e4b5d": {
+      "name": "爆爆猪",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/baobao66695",
+      "enabled": "true"
+    },
+    "c_44e4a92318e965d3167d473a": {
+      "name": "驾考琳教练",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/46463523033",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37438,8 +37473,8 @@
       }
     },
     "yang-network": {
-      "sha256": "bb157f9a601bf8252cdff27a8fc628cf144c0f4aba44d6e0c22b7f44c6872ee0",
-      "routes": 415,
+      "sha256": "53356c9c24de5d0d047cf31490439bb6a9d8a2ce77b235500a4435a8e7a7d731",
+      "routes": 593,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53202,6 +53237,42 @@
           "name": "jarnoopmeer",
           "tvgId": "",
           "group": "•Twitch「游戏」"
+        },
+        "97ac74fca1dbc444c8b684cf200a917015be51d6957f65f0f80284431f4fe767": {
+          "channel": "c_fd2a6d790024cb885862cebb",
+          "name": "Zkaaai（巡演版",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "23c7aed9da26f577aa742b70f5d711ba7ac86bacd5c7b0d2f6826f91729fe452": {
+          "channel": "c_f12e3aca6ddd408eef653f9c",
+          "name": "王者荣耀随风",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "29c9b7b4142a5b4b3113e873180a336a6f71fcd5e145b1a41b67fe616966ab98": {
+          "channel": "c_5196512532e4a94b416631d7",
+          "name": "谜一样的剪辑师",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "a30689f6c326519a5788feb8e0d6561b92e6d0fdb25aa6cb57ba078d48c14372": {
+          "channel": "c_b44380a02d358e601e3e4b5d",
+          "name": "爆爆猪",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "1bd9fd533b7dd769bfc69dcb2354b30c10441290022d14ab34932232abcdb92e": {
+          "channel": "c_06742b479873b57694561528",
+          "name": "yulingverna11.11多伦多庆",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "d9c061091258803a2a7f9a2c94272000653e9eaf4086344244faaaa6758558dd": {
+          "channel": "c_44e4a92318e965d3167d473a",
+          "name": "驾考琳教练",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
