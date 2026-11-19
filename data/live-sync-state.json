@@ -26873,6 +26873,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/46463523033",
       "enabled": "true"
+    },
+    "c_dd3f1b612777dc9155419967": {
+      "name": "兔耳朵",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1120_yyyyyyy",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -28875,7 +28882,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "aef7479b85b7e1a07578220de6665eac82525e193dc04a0484ba047155f1814d",
+      "sha256": "8c79c32785243963d4866a6a869f33d8bf4b487b47d59d2b0e4c71089d65bad6",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32121,7 +32128,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "282818305a2162fe76aced671bcaedd45b567dc4df0bc1bc63f52d3552358914",
+      "sha256": "e02052abc7c84da6987c1d379d18ff13fea00ab4b58d2614234a5df4e9c9ff90",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37473,8 +37480,8 @@
       }
     },
     "yang-network": {
-      "sha256": "53356c9c24de5d0d047cf31490439bb6a9d8a2ce77b235500a4435a8e7a7d731",
-      "routes": 593,
+      "sha256": "33e0d4b100d09772cc4b82d259a62d9dc2c7ea99c9cfcffd811e08e730db5346",
+      "routes": 405,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53273,6 +53280,24 @@
           "name": "驾考琳教练",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "c6c600f8d92db985d2e6a436a12e8b51144786af87b3a97c6c5874c724fc4dcf": {
+          "channel": "c_dd3f1b612777dc9155419967",
+          "name": "兔耳朵",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "3964d3ddb2657fcc103373dc820577a314718940401a554fcde3580bac9f7c7e": {
+          "channel": "c_672a6d279b20027902cb48ab",
+          "name": "睿廷舞喵",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "c7b1d019a676641c6768defaa389b71fa8e1eeda6b195c5deb508f88ba535131": {
+          "channel": "c_04f2e9ba3197e49cec94c5fd",
+          "name": "燃舞蹈-云鲤",
+          "tvgId": "",
+          "group": "•歪歪「其他」"
         }
       }
     },
