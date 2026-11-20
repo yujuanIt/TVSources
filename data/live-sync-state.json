@@ -26880,6 +26880,139 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/1120_yyyyyyy",
       "enabled": "true"
+    },
+    "c_01c2c06bddd8c54ecfe38ea3": {
+      "name": "TED官方英语",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/31753645",
+      "enabled": "true"
+    },
+    "c_fab87f3af3e53c8abee393a1": {
+      "name": "王者荣耀鸭梨（世一香）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/yall1102",
+      "enabled": "true"
+    },
+    "c_dba921fbf5b4af90a23cdeb3": {
+      "name": "Only丶邵氏",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/4246519",
+      "enabled": "true"
+    },
+    "c_b9ae888294d1a4b20ba5b154": {
+      "name": "Poison丶冰冰",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/74374",
+      "enabled": "true"
+    },
+    "c_774af925461dfd178b506da4": {
+      "name": "一把钢刀镇斗虞",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/7356023",
+      "enabled": "true"
+    },
+    "c_46264855bad2379eb64989cb": {
+      "name": "奇光主播",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/8009547",
+      "enabled": "true"
+    },
+    "c_de851d09e9519d10046e5563": {
+      "name": "小毅主播q",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/6906628",
+      "enabled": "true"
+    },
+    "c_3f6cb3edeb9fa882125c4f45": {
+      "name": "疯狂小潴潴",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/5522351",
+      "enabled": "true"
+    },
+    "c_e7ebeb78c1b4db9aa0a33fa0": {
+      "name": "脑袋大1937",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/7655471",
+      "enabled": "true"
+    },
+    "c_9a629ec57226583852c47aff": {
+      "name": "飘洋过海来",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/9548850",
+      "enabled": "true"
+    },
+    "c_40c4e971c7947e7c5b9664fe": {
+      "name": "哥哥永恒",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/21241769",
+      "enabled": "true"
+    },
+    "c_c1489eb9e9c53def93b54fcb": {
+      "name": "情节戏剧",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/29465854",
+      "enabled": "true"
+    },
+    "c_61746a3dbd9f60717db13b66": {
+      "name": "港剧热爱者",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/29465857",
+      "enabled": "true"
+    },
+    "c_00e917efbedfa222d06a0fec": {
+      "name": "港片经典回忆",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/29465849",
+      "enabled": "true"
+    },
+    "c_fe2fc46a871d585f42c8b9d9": {
+      "name": "港片迷精选剧集",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/icons/huya",
+      "enabled": "true"
+    },
+    "c_aa27b36b6a794e089135677c": {
+      "name": "港片魅力无限",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/29465852",
+      "enabled": "true"
+    },
+    "c_509b29533ae4a0061fd1d62d": {
+      "name": "观剧无限惊喜",
+      "group": "虎牙",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/huya/29465853",
+      "enabled": "true"
+    },
+    "c_0e35df93cd8ec0bdfd3c76ff": {
+      "name": "巧克力杰斯",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/31600397",
+      "enabled": "true"
+    },
+    "c_f0b72b366e53af6ffa0bf5b7": {
+      "name": "TGG_gta",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/TGG_gta",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37480,8 +37613,8 @@
       }
     },
     "yang-network": {
-      "sha256": "33e0d4b100d09772cc4b82d259a62d9dc2c7ea99c9cfcffd811e08e730db5346",
-      "routes": 405,
+      "sha256": "f3bb0b8609939b76d3863320f9df7438591a72e681c7e7cc73a132d1df09ae7e",
+      "routes": 626,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53298,6 +53431,150 @@
           "name": "燃舞蹈-云鲤",
           "tvgId": "",
           "group": "•歪歪「其他」"
+        },
+        "c279cfc90fdb8be2ed4439f1e180c227dc80d1f329380d42f1bbd8182492729b": {
+          "channel": "c_01c2c06bddd8c54ecfe38ea3",
+          "name": "TED官方英语",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "f79243555101ed66c10ac37490651efb218854a036f6849607988700ebcdd9f8": {
+          "channel": "c_9f0257e1fbcbbacd2445a191",
+          "name": "困困777💤⁷",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "a440f10b5114ec07e4f63b755b83cb26ddc9bbb1f66e8346f9fdc9e36fa81965": {
+          "channel": "c_fab87f3af3e53c8abee393a1",
+          "name": "王者荣耀鸭梨（世一香）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "fa4cdd6035e83e18d6f84af4198818a36c0f9ca36bef583320d246384204fe4d": {
+          "channel": "c_f9002128d0927d03a2787057",
+          "name": "颠颠（第五人格",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "358aa28fd7998086c02d5b8115edbecdb8961e93f3e646dd2fe01defc8780f1f": {
+          "channel": "c_dba921fbf5b4af90a23cdeb3",
+          "name": "Only丶邵氏",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "4bde717e6252480f2b3920d1375f5a27949172b6220f31f0c3c361383b45644b": {
+          "channel": "c_b9ae888294d1a4b20ba5b154",
+          "name": "Poison丶冰冰",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "8d514e3f3f6639272c719804332f835517d24532d4b5d147018af06de637a32b": {
+          "channel": "c_774af925461dfd178b506da4",
+          "name": "一把钢刀镇斗虞",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "d58d203d50dcc27a2095d2c437497227465697c8a9e52ae59ebc550cb7320f43": {
+          "channel": "c_46264855bad2379eb64989cb",
+          "name": "奇光主播",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "346421d3067a7d98276f654d4990f8232cfb6d0c2115a0c61b7a41fd01f793ad": {
+          "channel": "c_de851d09e9519d10046e5563",
+          "name": "小毅主播q",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "0990b7b027c6960991b373800fe0fab6a7893b39ec1aff292a90514eadd61c88": {
+          "channel": "c_3f6cb3edeb9fa882125c4f45",
+          "name": "疯狂小潴潴",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "2206413b4fa39b5393973525f7ff3dcfe185210b33953a88cf446ddbbe88d2f0": {
+          "channel": "c_e7ebeb78c1b4db9aa0a33fa0",
+          "name": "脑袋大1937",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "b6c187f535e21d3405a4ea9099595fc1d574a000e4e4bc297a072e3d2d132ad5": {
+          "channel": "c_9a629ec57226583852c47aff",
+          "name": "飘洋过海来",
+          "tvgId": "",
+          "group": "•斗鱼「娱乐」"
+        },
+        "8b28371cfd68bb8e8f9d09dbedf4c04358d2ca9695ddb197b57e4e0d03bd6eca": {
+          "channel": "c_40c4e971c7947e7c5b9664fe",
+          "name": "哥哥永恒",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "93101ab8c1e2bc75d51f8622cf2d3641d95bcd7493cb84c6848271d524558bb0": {
+          "channel": "c_c1489eb9e9c53def93b54fcb",
+          "name": "情节戏剧",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "5150675f30aeffc9917d07321c1db0d8ca676232969e5c5c4e361164d1e43a45": {
+          "channel": "c_61746a3dbd9f60717db13b66",
+          "name": "港剧热爱者",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "943fec5b6f77c2bdb02497f2049654747cbac5f275deac312d523764c0fa9ed9": {
+          "channel": "c_00e917efbedfa222d06a0fec",
+          "name": "港片经典回忆",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "2071baf33989e7c18ac5614a56d7de25eeea78bd4bfc45a8c34b9b37cc2f9c08": {
+          "channel": "c_fe2fc46a871d585f42c8b9d9",
+          "name": "港片迷精选剧集",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "032a02e5b45bc3f8772532bf9f9f3d4864996d0968cdc7febd9ed7142cc1038b": {
+          "channel": "c_aa27b36b6a794e089135677c",
+          "name": "港片魅力无限",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "bd4fd6313eff71ad2013d3b9af57498c580e0488a1a348df0941bd74451d1ec4": {
+          "channel": "c_509b29533ae4a0061fd1d62d",
+          "name": "观剧无限惊喜",
+          "tvgId": "",
+          "group": "•虎牙「娱乐」"
+        },
+        "3358c41159d7c408e30de6882fa6ad969e0be666cb59c75801298915adb129e7": {
+          "channel": "c_8074dec2c7d1f38a3721d1d3",
+          "name": "天晓迎迎  天刚刚破晓",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "92320f4338a8302ca4e3d14245563d527ad33fd3596ce740455035c1337c5d20": {
+          "channel": "c_c923d9c8753f8c2a9c0445a3",
+          "name": "老毕 12月扬帆起航",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "19ddd6b75a5dae61a13113c34e991aa9de700270e26cee4df7f4b9c3b7dcddc2": {
+          "channel": "c_0e35df93cd8ec0bdfd3c76ff",
+          "name": "巧克力杰斯",
+          "tvgId": "",
+          "group": "•哔哩「游戏」"
+        },
+        "cfd7855db6667076f0e5c3ea5fe881607228853ebaa6e375c28d3cb5e4d8db76": {
+          "channel": "c_7d8ee6467d78dd2ac568d745",
+          "name": "大胖猪（国一小满巅峰包时）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "ccad286485f1aff60d7b20416e45c26916280f98161690fcb5d56e6a7f803642": {
+          "channel": "c_f0b72b366e53af6ffa0bf5b7",
+          "name": "TGG_gta",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
         }
       }
     },
