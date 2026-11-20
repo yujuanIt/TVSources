@@ -29015,7 +29015,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "8c79c32785243963d4866a6a869f33d8bf4b487b47d59d2b0e4c71089d65bad6",
+      "sha256": "e606597d5b42e56944e2244eeb99de371e892991c4e8c1515fe1e81f450d0237",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32261,7 +32261,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "e02052abc7c84da6987c1d379d18ff13fea00ab4b58d2614234a5df4e9c9ff90",
+      "sha256": "d7398fbdfc79ca5d67220afb958c9314e7285cbe90a79057cb1ef69032ea8657",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37613,8 +37613,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f3bb0b8609939b76d3863320f9df7438591a72e681c7e7cc73a132d1df09ae7e",
-      "routes": 626,
+      "sha256": "7d62f2e1e59f7bdbf8a7b5143ef318312df842c59c0b14e363b855563ee600d8",
+      "routes": 430,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
