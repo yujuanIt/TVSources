@@ -17,7 +17,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <升级弹幕>",
+      "name": "豆豆┃片单 <fix+升级弹幕>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -8839,13 +8839,54 @@
         "key": "剧迷"
       },
       "_syncId": "cbad7af3bb6c6777af992bbd5035cf6c"
+    },
+    {
+      "key": "韩剧",
+      "name": "🐱韩迷┃外剧",
+      "type": 3,
+      "api": "csp_HanquanGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "enabled": true,
+      "context": "fantaiying",
+      "origin": {
+        "source": "fantaiying",
+        "name": "饭太硬 · 点播与直播",
+        "url": "http://www.饭太硬.net/tv",
+        "key": "韩剧"
+      },
+      "_syncId": "fbdbcb6d978b6d91cf14b7676e219bf1"
+    },
+    {
+      "key": "花生",
+      "name": "🥜花生┃不卡",
+      "type": 3,
+      "api": "csp_HuashuGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "enabled": true,
+      "context": "fantaiying",
+      "origin": {
+        "source": "fantaiying",
+        "name": "饭太硬 · 点播与直播",
+        "url": "http://www.饭太硬.net/tv",
+        "key": "花生"
+      },
+      "_syncId": "8da90ac7274730c05c710a9cd9edc414"
     }
   ],
   "contexts": {
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/8294c903c26c3efa4071e920a36c339e.jpg;md5;6ef2e95b434509eed5b943aa44bb3fdf",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/58e1fe36b5683e725729d0addfb5a9e3.jpg;md5;0ce2eae734b7eff47763f3f9e1d8525b",
       "rules": [
         {
           "name": "cdn.ryplay",

@@ -27013,6 +27013,55 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/TGG_gta",
       "enabled": "true"
+    },
+    "c_44eb357299996c54537bd118": {
+      "name": "企鹅带带北极熊",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/23121424",
+      "enabled": "true"
+    },
+    "c_4a3001270a6da487907ea05c": {
+      "name": "费德勒21考研已上岸",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/21782709",
+      "enabled": "true"
+    },
+    "c_3cc1c5e8e30213fac1db91b7": {
+      "name": "cc拉二胡🪿11.6生日版",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/ccerhu_",
+      "enabled": "true"
+    },
+    "c_3edca59446fa01739b5e1b14": {
+      "name": "半糖（国一云中君）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1042176264",
+      "enabled": "true"
+    },
+    "c_7b4c984dd636b4491993af9f": {
+      "name": "新华社",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/xinhuashe",
+      "enabled": "true"
+    },
+    "c_695994a83473770787c548ce": {
+      "name": "梦幻西游栗子",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/mhxylizi",
+      "enabled": "true"
+    },
+    "c_bf32367af279ad40a2445ce7": {
+      "name": "梵谷",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/94976140892",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37613,8 +37662,8 @@
       }
     },
     "yang-network": {
-      "sha256": "7d62f2e1e59f7bdbf8a7b5143ef318312df842c59c0b14e363b855563ee600d8",
-      "routes": 430,
+      "sha256": "c0076902e673499db86a366a0da2c09c58bb9b3a05f276108cb7e08026c7e7e7",
+      "routes": 622,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53575,6 +53624,60 @@
           "name": "TGG_gta",
           "tvgId": "",
           "group": "•Twitch「游戏」"
+        },
+        "7e93b99c5628c9260cb35b93a2487b891288ff34945e54d8d3ca6b56e03ff2ac": {
+          "channel": "c_4a152777205277375496d731",
+          "name": "「虎牙」绝地求生 𝟚",
+          "tvgId": "",
+          "group": "•游戏「赛事」"
+        },
+        "6bc85ec40ccbe746a54fc7f1bbebad2057946a5c98811d0275c8f8eb29175bf8": {
+          "channel": "c_44eb357299996c54537bd118",
+          "name": "企鹅带带北极熊",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "82cf8ba80da9a3753f49bed7c71d2086953dda8941e392773a0aef871ea3c7c9": {
+          "channel": "c_4a3001270a6da487907ea05c",
+          "name": "费德勒21考研已上岸",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "2154bdd13b7db4af30879af60afd54791b62de4464a17d86cb94f40540979804": {
+          "channel": "c_3cc1c5e8e30213fac1db91b7",
+          "name": "cc拉二胡🪿11.6生日版",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "550fff169f9d56b58dba2b774bfe6bdcfe39a5afe26d955b3b2f57b602dda36b": {
+          "channel": "c_3edca59446fa01739b5e1b14",
+          "name": "半糖（国一云中君）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ad7636e0485768fb0fec989c2d70acf6be19d9ec5b3833beae589c1d095ef4f2": {
+          "channel": "c_7b4c984dd636b4491993af9f",
+          "name": "新华社",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "5b4d27a24bbf9796b64f396b47795bb3290843b484ad37a63eab44d9f05ae093": {
+          "channel": "c_695994a83473770787c548ce",
+          "name": "梦幻西游栗子",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "44512015437023b1910bfc783ca4b7ce6e5499fdde09666e92b6b83a8c6df165": {
+          "channel": "c_bf32367af279ad40a2445ce7",
+          "name": "梵谷",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d95343992fe2cdda613ef2adada7c9867479a86a3066eabcbb5f51968c0920cc": {
+          "channel": "c_15b6070621f1e50f97de377f",
+          "name": "潘多拉的游戏",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
