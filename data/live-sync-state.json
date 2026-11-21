@@ -27062,6 +27062,27 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/94976140892",
       "enabled": "true"
+    },
+    "c_2c877cdf7b4c9ea56f13aa54": {
+      "name": "h46",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/183879",
+      "enabled": "true"
+    },
+    "c_69c46d63f7cef8205342208c": {
+      "name": "金狸_",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1855576918",
+      "enabled": "true"
+    },
+    "c_ad8abc46db46c09451606422": {
+      "name": "유혜디♥",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/cinnamoroll",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -29064,7 +29085,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "e606597d5b42e56944e2244eeb99de371e892991c4e8c1515fe1e81f450d0237",
+      "sha256": "fae6e6de8729e7c4ba6c8717e5948c70907f8edd20e4d927859e7f7fb574a86e",
       "routes": 287,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32310,7 +32331,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "d7398fbdfc79ca5d67220afb958c9314e7285cbe90a79057cb1ef69032ea8657",
+      "sha256": "c21f8e4d9d170d107b69cf80083baabbc05006dec9807c25f91fa79be060a27b",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37662,8 +37683,8 @@
       }
     },
     "yang-network": {
-      "sha256": "c0076902e673499db86a366a0da2c09c58bb9b3a05f276108cb7e08026c7e7e7",
-      "routes": 622,
+      "sha256": "97a8bde1f450962842077a753c83fa6ff9a7a88a7c5dcb31b2251ea3de6158e5",
+      "routes": 498,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53676,6 +53697,30 @@
         "d95343992fe2cdda613ef2adada7c9867479a86a3066eabcbb5f51968c0920cc": {
           "channel": "c_15b6070621f1e50f97de377f",
           "name": "潘多拉的游戏",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "060719e9da4ef92247ecfa3a41afb1e968a919fe65d8e893f5342db1904f4198": {
+          "channel": "c_2c877cdf7b4c9ea56f13aa54",
+          "name": "h46",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "18df211ed6cf9209df6d0d4ded1240ac8707dbd799ee36fc144a267e4967673d": {
+          "channel": "c_69c46d63f7cef8205342208c",
+          "name": "金狸_",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "ca6d06fdeb9556f5be5bdaf6b94588c33fb44b419ab5a962b11c9f39ea8deb6f": {
+          "channel": "c_ad8abc46db46c09451606422",
+          "name": "유혜디♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "5437c802bb2350082efed69d496e92bf82c75457933627e03a23907b43a5fc20": {
+          "channel": "c_13b4492630289268a1c5922a",
+          "name": "CS2影子人",
           "tvgId": "",
           "group": "•抖音「游戏」"
         }
