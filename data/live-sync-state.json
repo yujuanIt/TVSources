@@ -27083,6 +27083,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/soop/cinnamoroll",
       "enabled": "true"
+    },
+    "c_bfa49fe53d85914388c17319": {
+      "name": "吸吸小蛇",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/31698702585",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -29085,8 +29092,8 @@
       }
     },
     "yang-tv": {
-      "sha256": "fae6e6de8729e7c4ba6c8717e5948c70907f8edd20e4d927859e7f7fb574a86e",
-      "routes": 287,
+      "sha256": "d32bf5575b9342d18a4eb6b989277cb93a4c2a8386c2a278cb85f3351d2804c0",
+      "routes": 171,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -32331,7 +32338,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "c21f8e4d9d170d107b69cf80083baabbc05006dec9807c25f91fa79be060a27b",
+      "sha256": "173d5dad5285b014f6f533f47ab42a13d53958afede76fe08d206437ad8739b2",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37683,8 +37690,8 @@
       }
     },
     "yang-network": {
-      "sha256": "97a8bde1f450962842077a753c83fa6ff9a7a88a7c5dcb31b2251ea3de6158e5",
-      "routes": 498,
+      "sha256": "2ca5a3ebc8df0a2596a3da48e80828b2fc3c8ce84ce40a84b57c7341400e30d5",
+      "routes": 629,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53721,6 +53728,24 @@
         "5437c802bb2350082efed69d496e92bf82c75457933627e03a23907b43a5fc20": {
           "channel": "c_13b4492630289268a1c5922a",
           "name": "CS2影子人",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "e2fdf1898db3004dd7537931836822200128bee909416a0f332652e70529dd9a": {
+          "channel": "c_c56f75cfafffef9323a38441",
+          "name": "大芃¹¹⁶🐟",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "290495580aeb8612e90a0d70cb736bf9a3dd9640ce15566a5c6693978a328ff8": {
+          "channel": "c_bfa49fe53d85914388c17319",
+          "name": "吸吸小蛇",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "8075b9b7fe5bc7e56aab4c37109b26bb6382fed16290af9f2053ced1a2868609": {
+          "channel": "c_a3ffd7be1e0e91065acc8adc",
+          "name": "老龙女和粑粑人(11.22播)",
           "tvgId": "",
           "group": "•抖音「游戏」"
         }
