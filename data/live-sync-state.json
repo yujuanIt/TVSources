@@ -27090,6 +27090,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/31698702585",
       "enabled": "true"
+    },
+    "c_8335242cfd186a6811a8a9f7": {
+      "name": "VerstappenSimRacing",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/verstappensimracing",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -29092,7 +29099,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "d32bf5575b9342d18a4eb6b989277cb93a4c2a8386c2a278cb85f3351d2804c0",
+      "sha256": "7160cf279ab4f06b3a37e87cc1b97c33644c042fbb4fa5f2d33473e593f55a8a",
       "routes": 171,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32338,7 +32345,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "173d5dad5285b014f6f533f47ab42a13d53958afede76fe08d206437ad8739b2",
+      "sha256": "f8569d5a23260f72dce524c44a880ed92e49fdee0bf9dc902bf1b163b2d3952b",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37690,8 +37697,8 @@
       }
     },
     "yang-network": {
-      "sha256": "2ca5a3ebc8df0a2596a3da48e80828b2fc3c8ce84ce40a84b57c7341400e30d5",
-      "routes": 629,
+      "sha256": "a9faaed562c28f5b26918f03672e43b6c5c922e8f4ffa0bed050ef58dd3cae28",
+      "routes": 461,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53748,6 +53755,30 @@
           "name": "老龙女和粑粑人(11.22播)",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "c51b3760c72eaca0fa3ba54a8ccac6ec01a9fc6dbbb7d0d645f8e36e0a4dffc2": {
+          "channel": "c_ea3fd8acf8c0bf1e5f79f62c",
+          "name": "vx30",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "a74bff343d15dcf84356707bcef4fe1ea5996c5dc6a789216d3b5ba40cd66553": {
+          "channel": "c_f13c074ced0a4b69c7ff56cc",
+          "name": "魔王羽（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "02981f978cfddd9e804bc927acc9f35e526489b212aa1225b5a1bfe342ba3d45": {
+          "channel": "c_8335242cfd186a6811a8a9f7",
+          "name": "VerstappenSimRacing",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "b8247b507f12a88728c554727ae36cfdd491f8c53d7d025a5d6d9ededef26d86": {
+          "channel": "c_06742b479873b57694561528",
+          "name": "yulingverna11.16回国庆",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
