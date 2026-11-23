@@ -27097,6 +27097,41 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/verstappensimracing",
       "enabled": "true"
+    },
+    "c_77342ad5a02fe5bba1471da5": {
+      "name": "彤宝",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/mnl956893553",
+      "enabled": "true"
+    },
+    "c_da3f6dc3d3f5974088e77e02": {
+      "name": "悠米Yumi💗（23号生日🎂）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1h1h1123",
+      "enabled": "true"
+    },
+    "c_eb14dd7668cdff27edfc00c1": {
+      "name": "木子李(又细又快的棍)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/42047228800",
+      "enabled": "true"
+    },
+    "c_f241e980fe936dc151271a70": {
+      "name": "然然🎤",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/58523958617",
+      "enabled": "true"
+    },
+    "c_c213c90e386e7ff66e0bafca": {
+      "name": "代号408",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/7122559169",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37697,8 +37732,8 @@
       }
     },
     "yang-network": {
-      "sha256": "a9faaed562c28f5b26918f03672e43b6c5c922e8f4ffa0bed050ef58dd3cae28",
-      "routes": 461,
+      "sha256": "3a7c68d38642d448f08d11899311b19c384f78882adcb84bd4197dc549e3a764",
+      "routes": 560,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53779,6 +53814,42 @@
           "name": "yulingverna11.16回国庆",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "afb2a9b666956209fd5ed06bf3ff605610b97f7e9e0125dff4a572d6cb8c0c32": {
+          "channel": "c_77342ad5a02fe5bba1471da5",
+          "name": "彤宝",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "70b6fbab0014b2d5f0d122e7e9025de12315013642d7b5828b213d47f66dce52": {
+          "channel": "c_da3f6dc3d3f5974088e77e02",
+          "name": "悠米Yumi💗（23号生日🎂）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c9f1a49af09a6df477b829cb66f59438307da09ddc160c238387251fcf06a884": {
+          "channel": "c_eb14dd7668cdff27edfc00c1",
+          "name": "木子李(又细又快的棍)",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "3a774cadbb9c8ac0ac23bd25d553ae8c00e964a743b7887d7475a65568ba4d35": {
+          "channel": "c_f241e980fe936dc151271a70",
+          "name": "然然🎤",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "867b76d1530ec433fa81493af98ba19f5684aa35a590ca2d96614bf9e8e1dd39": {
+          "channel": "c_c213c90e386e7ff66e0bafca",
+          "name": "代号408",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "933caefe6b0c1393d7aa29d6df8d6dfc4f3840652aaec4d1c6282c9c7424dc99": {
+          "channel": "c_181ae615ed4eba0061b9b9ec",
+          "name": "小年（三角洲行动）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
