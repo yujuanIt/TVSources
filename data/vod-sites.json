@@ -17,7 +17,7 @@
     },
     {
       "key": "点我切源",
-      "name": "豆豆┃片单 <Fix所有>",
+      "name": "豆豆┃片单 <修复扫码Bug>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -7659,9 +7659,9 @@
       "type": 3,
       "api": "csp_Duopan",
       "filterable": 1,
+      "timeout": 30,
       "ext": {
         "site_urls": [
-          "http://shandian.blog/",
           "http://sd.sduc.site/"
         ],
         "threadinfo": {
@@ -8886,7 +8886,7 @@
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/9c6448af8eb6fb1fc59b32c0f1ade9f9.jpg;md5;33ff9fba113101e9eba7c3d6f40314b7",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/b22fd2d677a89337d8733fc1d3f2a581.jpg;md5;59a6b4afe46139a3a50d4f19b6137091",
       "rules": [
         {
           "name": "cdn.ryplay",
@@ -10831,7 +10831,7 @@
     "feimao": {
       "name": "默认影视源 · 肥猫",
       "url": "https://www.iyouhun.com/tv/fm",
-      "spider": "https://img2.gelonghui.com/library/7a619-f506660f-a1ff-421a-b43d-0e83102fa147.png;md5;7a619712f3f423a5f26dc72a892b8875",
+      "spider": "https://img2.gelonghui.com/library/73c42-e8ed973d-4e97-42d9-b486-1a55057741ed.png;md5;73c42d5c2f86efd6ddc6c85fd286069c",
       "parses": [
         {
           "name": "Json聚合",
@@ -10886,7 +10886,7 @@
       ],
       "rules": [
         {
-          "name": "♻️量非",
+          "name": "??量非",
           "hosts": [
             "lz",
             "vip.lz",
@@ -10902,7 +10902,7 @@
           ]
         },
         {
-          "name": "♻️索尼",
+          "name": "??索尼",
           "hosts": [
             "suonizy",
             "qrssv.com"
@@ -10913,7 +10913,7 @@
           ]
         },
         {
-          "name": "♻️乐视",
+          "name": "??乐视",
           "hosts": [
             "leshiyun"
           ],
@@ -10922,7 +10922,7 @@
           ]
         },
         {
-          "name": "♻️优质",
+          "name": "??优质",
           "hosts": [
             "yzzy",
             "playback"
@@ -10935,7 +10935,7 @@
           ]
         },
         {
-          "name": "♻️快看",
+          "name": "??快看",
           "hosts": [
             "kuaikan",
             "vip.kuaikan"
@@ -10947,7 +10947,7 @@
           ]
         },
         {
-          "name": "♻️360",
+          "name": "??360",
           "hosts": [
             "lyhuicheng"
           ],
@@ -10957,7 +10957,7 @@
           ]
         },
         {
-          "name": "♻️开源棋牌",
+          "name": "??开源棋牌",
           "hosts": [
             "askzycdn",
             "jkunbf",
@@ -10970,7 +10970,7 @@
           ]
         },
         {
-          "name": "♻️暴风",
+          "name": "??暴风",
           "hosts": [
             "bfengbf.com",
             "bfzy",
@@ -10982,7 +10982,7 @@
           ]
         },
         {
-          "name": "♻️农民",
+          "name": "??农民",
           "hosts": [
             "toutiaovod.com"
           ],
@@ -10991,7 +10991,7 @@
           ]
         },
         {
-          "name": "♻️火山",
+          "name": "??火山",
           "hosts": [
             "huoshan.com"
           ],
@@ -11000,7 +11000,7 @@
           ]
         },
         {
-          "name": "♻️抖音",
+          "name": "??抖音",
           "hosts": [
             "douyin.com"
           ],
@@ -11009,7 +11009,7 @@
           ]
         },
         {
-          "name": "♻️磁力",
+          "name": "??磁力",
           "hosts": [
             "magnet"
           ],
@@ -11020,7 +11020,7 @@
           ]
         },
         {
-          "name": "♻️饭团点击",
+          "name": "??饭团点击",
           "hosts": [
             "dadagui",
             "freeok",
@@ -11031,7 +11031,7 @@
           ]
         },
         {
-          "name": "♻️毛驴点击",
+          "name": "??毛驴点击",
           "hosts": [
             "www.maolvys.com"
           ],
