@@ -29267,7 +29267,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "bf2a7f2faf0fdbbc9d8d493ade0db42b5724c0fde6dbf79268f9faa716a72bb5",
+      "sha256": "58cc4bb893ae17c85ca9dc996bbd61fb104caa28fb865801c3f22deac1660aee",
       "routes": 171,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32513,7 +32513,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "19704be55ea8b30ad8a62797deca8da4c474a83a54f22b0e8b02c6e0b53de0fe",
+      "sha256": "3f3120b61703d628a88f95665dcde90dd18ad6a78fc9bbe82a1685b26333b0a1",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
