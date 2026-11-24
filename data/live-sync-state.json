@@ -27160,6 +27160,111 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/twitch/lolsaori",
       "enabled": "true"
+    },
+    "c_bbb4ec08f22d04c7786dce48": {
+      "name": "伊后大人",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/30465195",
+      "enabled": "true"
+    },
+    "c_87a33ea6168c1c8e09785fb9": {
+      "name": "哆咪",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/68960001239",
+      "enabled": "true"
+    },
+    "c_5b1bea4b139c8ec97a9ea5c0": {
+      "name": "小黄飞天天晚上八点都直播",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/924047660723",
+      "enabled": "true"
+    },
+    "c_59d628512512337688ddd55f": {
+      "name": "横江巡河炮",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/buxiangzhidao881",
+      "enabled": "true"
+    },
+    "c_66d3d2a2401fbe95875baae6": {
+      "name": "豆豆Yao舞",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/dyv544bdlihq",
+      "enabled": "true"
+    },
+    "c_b93ffeee347393750ebbf169": {
+      "name": "迈克尔杰克逊蔡军",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/jacksoncaijun",
+      "enabled": "true"
+    },
+    "c_fbcc17c278ee18b2c704b920": {
+      "name": "17小北pubg",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/Xbeio_o",
+      "enabled": "true"
+    },
+    "c_47cb6e75f0079444f99f2fe4": {
+      "name": "PeRo04NB",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/04NB",
+      "enabled": "true"
+    },
+    "c_4ec9286580a29773d8567b89": {
+      "name": "cs goodrifle",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/goodrifle",
+      "enabled": "true"
+    },
+    "c_afe69a5865f616d20690ba79": {
+      "name": "东营初九",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/chujiu1379",
+      "enabled": "true"
+    },
+    "c_6fddd431ea464755a27fb5d5": {
+      "name": "直男7",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/aaaaee",
+      "enabled": "true"
+    },
+    "c_f6d35c1615530e5fe9d0911e": {
+      "name": "解说风筝",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/593383062",
+      "enabled": "true"
+    },
+    "c_05d3bc41e6178d078c78938f": {
+      "name": "可乐不乐-20号百天版",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1842980188",
+      "enabled": "true"
+    },
+    "c_5f786ce8e391af24a6a4bbc2": {
+      "name": "DV现场",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/gdtvdvxc",
+      "enabled": "true"
+    },
+    "c_4b34536bf275ceefb2a0fe1d": {
+      "name": "北京大学",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/28084151157",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37760,8 +37865,8 @@
       }
     },
     "yang-network": {
-      "sha256": "a13c7dcd7ad75f61be97f6629c9122c96161bd26c2f8eff680358d34e182aa71",
-      "routes": 356,
+      "sha256": "fdf4492ca94eaa97c041bd60ccd99a9a2203a72d9791bfc02983a5bba0eb09e0",
+      "routes": 746,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53902,6 +54007,120 @@
           "name": "lolsaori",
           "tvgId": "",
           "group": "•Twitch「游戏」"
+        },
+        "4e8d06616cc91e371e233443d6eefec67909b46eefd41c83099855f134f12940": {
+          "channel": "c_bbb4ec08f22d04c7786dce48",
+          "name": "伊后大人",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "4ab97144bc9209f4af9e46455b9f98a848879a21f0b9395d8df4dfe4b0b08741": {
+          "channel": "c_87a33ea6168c1c8e09785fb9",
+          "name": "哆咪",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "946a8d39189c26f6c5ad27d18d2f28fa024afb5879f5b9bbeeb1720e1cc6ddf7": {
+          "channel": "c_5b1bea4b139c8ec97a9ea5c0",
+          "name": "小黄飞天天晚上八点都直播",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "839474558479630d9ddc908160269d15f674b456d796b6b942b1225e21092c27": {
+          "channel": "c_dd902cb4f3a4501a6c2c5424",
+          "name": "栩晴🎤",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "3b6a07a8661e8ba13059f6f49a4ddd8886890cf20a1da0e43f6ed5dd990f3e0f": {
+          "channel": "c_59d628512512337688ddd55f",
+          "name": "横江巡河炮",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "15cbf003071c2b8f015079d800a72cb0dd9384e0dc4d70e7d58831e492d0dcd5": {
+          "channel": "c_66d3d2a2401fbe95875baae6",
+          "name": "豆豆Yao舞",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "0cc0491dc71e16f5419c9d6ae893266f1c32032c83736913c132b0d5520fe754": {
+          "channel": "c_b93ffeee347393750ebbf169",
+          "name": "迈克尔杰克逊蔡军",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "b14cb23c68d46f8503fba47a99bfebfb7dc06fe5789421993c646bf4549dc79c": {
+          "channel": "c_fbcc17c278ee18b2c704b920",
+          "name": "17小北pubg",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "93693dfca9219c6f4e2f3669d80abcc477ebbcbbfda60c5f6686efbb708a4f08": {
+          "channel": "c_27f32df76f4e506ebd152ce5",
+          "name": "17小鬼PUBG",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "30ad8b439832de00b2bf597143fc2e5772629742cf7d9b66a8aef4ce061977cf": {
+          "channel": "c_47cb6e75f0079444f99f2fe4",
+          "name": "PeRo04NB",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "d1be6c6350ae73a6bf2cbfbec2edda1ebc256719ed40c3fa9eefec5315a02d20": {
+          "channel": "c_4ec9286580a29773d8567b89",
+          "name": "cs goodrifle",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "3d1ee39d0edb04003527319864e7c0bf37d7ae3f5d6f90183567d3414fa879aa": {
+          "channel": "c_afe69a5865f616d20690ba79",
+          "name": "东营初九",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "503918dffbceff196e12f771a5541ad32411a6c996c168c1f2850b446a95d118": {
+          "channel": "c_6fddd431ea464755a27fb5d5",
+          "name": "直男7",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "fb3ece3e773997c5f2a59106148891458bf8b93b3c0624055c748673f43aee5d": {
+          "channel": "c_8cde9da8c6c0812f825086d4",
+          "name": "第五犹太🍒（12.17🎂）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "929b9e4e14d4f0ba5a56f852130d98943b351108db2c96e79f6c683316ee2302": {
+          "channel": "c_474d85866004fd7fa15061dc",
+          "name": "苏晗11月23号直播7周年快乐",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "5783be87cf7d051ade9336f4291d741a493ece582f87b8479c9d69f33cd97b94": {
+          "channel": "c_f6d35c1615530e5fe9d0911e",
+          "name": "解说风筝",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "adcd7d101a7d5f5a86074da78c3d6f79265591ad29107b1344af6cc9c09de792": {
+          "channel": "c_05d3bc41e6178d078c78938f",
+          "name": "可乐不乐-20号百天版",
+          "tvgId": "",
+          "group": "•哔哩「其他」"
+        },
+        "83b42d5b2eca02bc88d98f27adece644b15395e75b039e056fba90f8cbe74a06": {
+          "channel": "c_5f786ce8e391af24a6a4bbc2",
+          "name": "DV现场",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "a780ed891a7e4fb1dff9bfbfd4f1adbd0c560d0f37486c7f1dd7e7c3e587ed2b": {
+          "channel": "c_4b34536bf275ceefb2a0fe1d",
+          "name": "北京大学",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
