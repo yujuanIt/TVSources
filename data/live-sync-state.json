@@ -27132,6 +27132,34 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/7122559169",
       "enabled": "true"
+    },
+    "c_db59b0165baf9ffdc777af7b": {
+      "name": "莜奈_Yuna",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1742437241",
+      "enabled": "true"
+    },
+    "c_732438f01e05475e4c621b9b": {
+      "name": "林怯愉(海斗甜妹)",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/LinQY66",
+      "enabled": "true"
+    },
+    "c_eb7b0e89cff4636b3e905a4c": {
+      "name": "抽风crazy",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/16507",
+      "enabled": "true"
+    },
+    "c_ecde73c5aefed4877a1dc0e5": {
+      "name": "lolsaori",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/lolsaori",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -29134,7 +29162,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "7160cf279ab4f06b3a37e87cc1b97c33644c042fbb4fa5f2d33473e593f55a8a",
+      "sha256": "bf2a7f2faf0fdbbc9d8d493ade0db42b5724c0fde6dbf79268f9faa716a72bb5",
       "routes": 171,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32380,7 +32408,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "f8569d5a23260f72dce524c44a880ed92e49fdee0bf9dc902bf1b163b2d3952b",
+      "sha256": "19704be55ea8b30ad8a62797deca8da4c474a83a54f22b0e8b02c6e0b53de0fe",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37732,8 +37760,8 @@
       }
     },
     "yang-network": {
-      "sha256": "3a7c68d38642d448f08d11899311b19c384f78882adcb84bd4197dc549e3a764",
-      "routes": 560,
+      "sha256": "a13c7dcd7ad75f61be97f6629c9122c96161bd26c2f8eff680358d34e182aa71",
+      "routes": 356,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -53850,6 +53878,30 @@
           "name": "小年（三角洲行动）",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "d87763f1cb928af68979cc73e72878d7fbec5f647cb94ee5bfd7db7acb3665a8": {
+          "channel": "c_db59b0165baf9ffdc777af7b",
+          "name": "莜奈_Yuna",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "6ca02f30b1e4a2c93b390f9507d888d00f96cbc55731a6c2646fc44b63c6c212": {
+          "channel": "c_732438f01e05475e4c621b9b",
+          "name": "林怯愉(海斗甜妹)",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "50dc063b88842fbb03a7750ea3b081f03a0c6a0293da873d091dc81f5842d33d": {
+          "channel": "c_eb7b0e89cff4636b3e905a4c",
+          "name": "抽风crazy",
+          "tvgId": "",
+          "group": "•斗鱼「游戏」"
+        },
+        "0c6855267be49a160fe261fba653670c8da10f38e56b8f95ffec218a52cde2f0": {
+          "channel": "c_ecde73c5aefed4877a1dc0e5",
+          "name": "lolsaori",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
         }
       }
     },
