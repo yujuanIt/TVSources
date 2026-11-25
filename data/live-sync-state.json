@@ -29316,7 +29316,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "58cc4bb893ae17c85ca9dc996bbd61fb104caa28fb865801c3f22deac1660aee",
+      "sha256": "53a9795b1162d86de2dd3610885fdc8d9311c20768506740a4a3ba50be07f2e1",
       "routes": 171,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32562,7 +32562,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "3f3120b61703d628a88f95665dcde90dd18ad6a78fc9bbe82a1685b26333b0a1",
+      "sha256": "a9ab8f70ba8c76cfb5c17ca902041c6b126a02231459319ec099521730d1b4f5",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37914,8 +37914,8 @@
       }
     },
     "yang-network": {
-      "sha256": "42f922dac25fc2af81b77a0a4565c30dbbe9cabbbdd8f066688aa864c99bacd7",
-      "routes": 623,
+      "sha256": "344d609d3bbb8ff05c3814d43869239040f1555c1d88967d2f7145e965e3cf0d",
+      "routes": 365,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -54224,6 +54224,18 @@
           "name": "柴响Jackson🎩（小柴努力跳舞）",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "e1a6c3e99690b973b33813c1974d0e10eb8be774c89322c693124cf592170874": {
+          "channel": "c_672a6d279b20027902cb48ab",
+          "name": "燃舞蹈-舞喵",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "c86bbfde4514ce427294843edc782f72cb07b6d36cd2c2ff28ba79827e73ff01": {
+          "channel": "c_04f2e9ba3197e49cec94c5fd",
+          "name": "乐恒小舒包",
+          "tvgId": "",
+          "group": "•歪歪「其他」"
         }
       }
     },
