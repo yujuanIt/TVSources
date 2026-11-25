@@ -3,7 +3,7 @@
   "sites": {
     "2e7b5924e3c0575448e7251ab7dccf54": {
       "key": "点我切源",
-      "name": "豆豆┃片单 <修复扫码BUG>",
+      "name": "片单┃ <修复AI剧>",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -8872,7 +8872,7 @@
     "fantaiying": {
       "name": "饭太硬 · 点播与直播",
       "url": "http://www.xn--sss604efuw.net/tv",
-      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/6ab5e75b83570d4213bdbbddca1b4c2a.jpg;md5;ca298c77d2c40a8268c505d7b3194e49",
+      "spider": "https://xiuxiu-pro-new.meitudata.com/posters/554e1b7b2e64ade4ffab3d1c9881890f.jpg;md5;9966f0c40f3a7f2cd351ecedf642e067",
       "hosts": [
         "fiizvfck.top=cmcc.vvvv.ee",
         "sub.ottiptv.cc=cmcc.vvvv.ee"

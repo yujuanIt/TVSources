@@ -27265,6 +27265,55 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/28084151157",
       "enabled": "true"
+    },
+    "c_e00a42489139eaded6976a09": {
+      "name": "水晶科普书作者吴师傅",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/22771541",
+      "enabled": "true"
+    },
+    "c_adc625656ae0377b153defad": {
+      "name": "上海户外. 闫野哥",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/ysj99616",
+      "enabled": "true"
+    },
+    "c_5e9b6fc1e5556e8f60e05ab8": {
+      "name": "妙妙ʚɞ",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/424031593416",
+      "enabled": "true"
+    },
+    "c_01fbae14011889f1cef63788": {
+      "name": "熙柚cc～",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/4390084",
+      "enabled": "true"
+    },
+    "c_48c7424979a3bd3014cf8b16": {
+      "name": "王思雨☔️⁴¹11.25号生日庆新歌发布",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/wsy005200",
+      "enabled": "true"
+    },
+    "c_dd45c84c4eac2e5a0cdf4f16": {
+      "name": "nikki_pattaya",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/nikki_pattaya",
+      "enabled": "true"
+    },
+    "c_4440e9da73a8e9a8b0dee943": {
+      "name": "高宇航『九方骏』",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/20596590931",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37865,8 +37914,8 @@
       }
     },
     "yang-network": {
-      "sha256": "fdf4492ca94eaa97c041bd60ccd99a9a2203a72d9791bfc02983a5bba0eb09e0",
-      "routes": 746,
+      "sha256": "42f922dac25fc2af81b77a0a4565c30dbbe9cabbbdd8f066688aa864c99bacd7",
+      "routes": 623,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -54119,6 +54168,60 @@
         "a780ed891a7e4fb1dff9bfbfd4f1adbd0c560d0f37486c7f1dd7e7c3e587ed2b": {
           "channel": "c_4b34536bf275ceefb2a0fe1d",
           "name": "北京大学",
+          "tvgId": "",
+          "group": "•抖音「其他」"
+        },
+        "fdd09551ed054335f054407eb6b18bfa6973619e882acffb5926c81f7aa24cf5": {
+          "channel": "c_e00a42489139eaded6976a09",
+          "name": "水晶科普书作者吴师傅",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "4808f898c8418504b3519f43814ec5ce6834ec3b60ec0f7c21302cd442f15031": {
+          "channel": "c_adc625656ae0377b153defad",
+          "name": "上海户外. 闫野哥",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d563c142628bcc6d353a54f3dcc920adc0ac3a8e66eb1253ae75efd40367b175": {
+          "channel": "c_5e9b6fc1e5556e8f60e05ab8",
+          "name": "妙妙ʚɞ",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "ac410dea2d616e8e46cb2ae5f2a95f82b664bd5cb7917bb87f0a292de1a29f45": {
+          "channel": "c_01fbae14011889f1cef63788",
+          "name": "熙柚cc～",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "accce52c65374b8be445ae2102b90eca94fa63c7179d18372dc6beda5fd0f283": {
+          "channel": "c_48c7424979a3bd3014cf8b16",
+          "name": "王思雨☔️⁴¹11.25号生日庆新歌发布",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "484abad417f08a56c2e88791824618f068757d274b34041950fdd752e603ae8a": {
+          "channel": "c_dd45c84c4eac2e5a0cdf4f16",
+          "name": "nikki_pattaya",
+          "tvgId": "",
+          "group": "•Twitch「娱乐」"
+        },
+        "1be876fc8857f76b67f14107c6eb843281c1534e00dc0f2a6ca9553d868b75db": {
+          "channel": "c_eed5c837230d600f8a9fba8f",
+          "name": "卡兔琳娜（生病版)",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "dc3cc47119982bf2937a8d2bea2d1059cdb851df41159bf830b1169fbcaaee0d": {
+          "channel": "c_4440e9da73a8e9a8b0dee943",
+          "name": "高宇航『九方骏』",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "f781aad29df563efcd64edc153e326cc49ee24c1910aa4868b3afffa5f21e2d0": {
+          "channel": "c_1efc96d70948aa9742c0ffdb",
+          "name": "柴响Jackson🎩（小柴努力跳舞）",
           "tvgId": "",
           "group": "•抖音「其他」"
         }
