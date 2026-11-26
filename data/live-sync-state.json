@@ -27377,6 +27377,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyu/9317739",
       "enabled": "true"
+    },
+    "c_2c5a46c620162988d322c069": {
+      "name": "JJ斗地主冠军杯精选",
+      "group": "YY",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/yy/1355501191",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -29379,7 +29386,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "53a9795b1162d86de2dd3610885fdc8d9311c20768506740a4a3ba50be07f2e1",
+      "sha256": "00cac6b6c2d77afae2bba18e1cdd29d59c69b4c54f84b3d5c6b17ff790e9e97d",
       "routes": 171,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32625,7 +32632,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "a9ab8f70ba8c76cfb5c17ca902041c6b126a02231459319ec099521730d1b4f5",
+      "sha256": "4c4080eb6c1001a491ac4f1252b2692d005da68daa4f9515ed8fc4608c450a3b",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -37977,8 +37984,8 @@
       }
     },
     "yang-network": {
-      "sha256": "8eabd6c122618b134a824deb620e83eea45d19e00293e1b1aca4c46d1b38892b",
-      "routes": 576,
+      "sha256": "f5cba04e6427912794b5ff029e5eaa06f4dd6fa26564aa465381ed64dcdd6700",
+      "routes": 357,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -54383,6 +54390,30 @@
           "name": "自说自话的总裁",
           "tvgId": "",
           "group": "•斗鱼「其他」"
+        },
+        "cd4f909f22d94474b21cf4497563ddb77b6f7773e028b12de5d0cd0d7526b1c5": {
+          "channel": "c_536272b4278d8d4f3b4e3185",
+          "name": "强哥爱录声控助眠asmr（世一导）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "e24b628b59ae877c34e11afae2c45707c1755f4e490a55708f3f879eb10640b5": {
+          "channel": "c_95916a287a032e4b4232065a",
+          "name": "YY用户",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "6867b0970190d8f549feabf0da6439e6b8b11b4aa468659cf61e7b1a27b08081": {
+          "channel": "c_2c5a46c620162988d322c069",
+          "name": "JJ斗地主冠军杯精选",
+          "tvgId": "",
+          "group": "•歪歪「游戏」"
+        },
+        "7bc88f9482d4fe7aae43eeae3d3f8aec37ce25f922490984fa05f771c207c7a5": {
+          "channel": "c_c13d76a1926a9f9fe43f464d",
+          "name": "YUAN¹¹²¹（11.21生日版）",
+          "tvgId": "",
+          "group": "•抖音「其他」"
         }
       }
     },
