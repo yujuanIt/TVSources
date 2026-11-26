@@ -27314,6 +27314,69 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/20596590931",
       "enabled": "true"
+    },
+    "c_ae50169f36df256fa39d3f80": {
+      "name": "JIBGOD",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/32005805",
+      "enabled": "true"
+    },
+    "c_c8e52d1a8d205aea4193d90c": {
+      "name": "宇晨-天花板马可",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1946291015",
+      "enabled": "true"
+    },
+    "c_43c163af2bcb0d30a41ea44b": {
+      "name": "沈姐笔记本",
+      "group": "B站",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/bilibili/1917291798",
+      "enabled": "true"
+    },
+    "c_45212619bd3e963ae39f946d": {
+      "name": "美食三三",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/San520025",
+      "enabled": "true"
+    },
+    "c_10dd5fbcb19bd7666440ab29": {
+      "name": "随心吖",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/1962suixin",
+      "enabled": "true"
+    },
+    "c_5500846d1e2779b2ff740709": {
+      "name": "백하♥",
+      "group": "SOOP",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/soop/mj0128",
+      "enabled": "true"
+    },
+    "c_1ac3b6bb98ec5bfb47550498": {
+      "name": "林舒心（垚鑫来财版）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/45638553933",
+      "enabled": "true"
+    },
+    "c_c95af539acaf9fed15a607c6": {
+      "name": "威ゝ小宝",
+      "group": "Twitch",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/twitch/wingod555",
+      "enabled": "true"
+    },
+    "c_664f37026f1dcb7cd1beaa9e": {
+      "name": "自说自话的总裁",
+      "group": "斗鱼",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyu/9317739",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37914,8 +37977,8 @@
       }
     },
     "yang-network": {
-      "sha256": "344d609d3bbb8ff05c3814d43869239040f1555c1d88967d2f7145e965e3cf0d",
-      "routes": 365,
+      "sha256": "8eabd6c122618b134a824deb620e83eea45d19e00293e1b1aca4c46d1b38892b",
+      "routes": 576,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -54236,6 +54299,90 @@
           "name": "乐恒小舒包",
           "tvgId": "",
           "group": "•歪歪「其他」"
+        },
+        "6d44aaa93162d54784b2b23bd90fdd5d17e672ac123332e488698e75130fc8e8": {
+          "channel": "c_ae50169f36df256fa39d3f80",
+          "name": "JIBGOD",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "dfef07966e3918b63dd5ce0bde9573ec091fe134351f738b8f4dc2ee6d738587": {
+          "channel": "c_c8e52d1a8d205aea4193d90c",
+          "name": "宇晨-天花板马可",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "29123ae9c5a953dad291814315b4054308945542408ffafa1a55d59805377a1d": {
+          "channel": "c_43c163af2bcb0d30a41ea44b",
+          "name": "沈姐笔记本",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "10f5ab13968e29548ca16cc0d9dcf80fc87426c14478c9c08161f1cc6b6bdf6e": {
+          "channel": "c_29d852c3025495aba49afc2d",
+          "name": "点点²³³（18号女生月赛）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "0599692a6f6e17dffeeae69200701cd63795b9b3fc4d6c0968a2af93a0c8706d": {
+          "channel": "c_45212619bd3e963ae39f946d",
+          "name": "美食三三",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "76e536ec0895fe53fe6741a4e1782a9134204eb0de03472b2727880683cb67ee": {
+          "channel": "c_3e7212f3d1aaca3e0b132d86",
+          "name": "董阳（11月26日生日快乐）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d7edd5cdfb1c1edeb59a86953ae0d6e644c108e494d315b5598c18c34965b8b4": {
+          "channel": "c_10dd5fbcb19bd7666440ab29",
+          "name": "随心吖",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "f43f2b8e0e3acc67c21f8b0472d68d51fa81450fece8fbbb44e32f600f727584": {
+          "channel": "c_5500846d1e2779b2ff740709",
+          "name": "백하♥",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
+        },
+        "7189f1b0d25f64663ca9eb14dc43a31c7835a95c08a52cbad8740623186c2c76": {
+          "channel": "c_77fcb2b0ce2925497ae447a0",
+          "name": "燃舞蹈-大坵坵（超级无敌白 ）",
+          "tvgId": "",
+          "group": "•歪歪「娱乐」"
+        },
+        "0c7344f207ffd6022ef0df2b46a17b4717a313791d8afb24bfebec31093d6346": {
+          "channel": "c_8ad696dd9d2d01d717a346f0",
+          "name": "可乐（绝活貂蝉）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "6f29a2eb0bf7b7229a6ae39207ea4fa960357a584057d5bb80e418eb1254b633": {
+          "channel": "c_1ac3b6bb98ec5bfb47550498",
+          "name": "林舒心（垚鑫来财版）",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
+        },
+        "8a62f220e84ec999db28de512e8e153ffe2e3dbf00fdc50112ae1aa7bf0301d6": {
+          "channel": "c_c95af539acaf9fed15a607c6",
+          "name": "威ゝ小宝",
+          "tvgId": "",
+          "group": "•Twitch「游戏」"
+        },
+        "f9d5baec1e99fccee0c852f95f5e6808729b8a8dbbe9b6eff3e4ba442c2a4cdc": {
+          "channel": "c_58c7ec584308c7d70747a0c0",
+          "name": "创艺 知意",
+          "tvgId": "",
+          "group": "•歪歪「游戏」"
+        },
+        "8c63ba283c0123f4a2e4b42b34a985b972b8fb752c2406ae94704fa3e95ba071": {
+          "channel": "c_664f37026f1dcb7cd1beaa9e",
+          "name": "自说自话的总裁",
+          "tvgId": "",
+          "group": "•斗鱼「其他」"
         }
       }
     },
