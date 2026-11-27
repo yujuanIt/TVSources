@@ -29407,7 +29407,7 @@
       }
     },
     "yang-tv": {
-      "sha256": "00cac6b6c2d77afae2bba18e1cdd29d59c69b4c54f84b3d5c6b17ff790e9e97d",
+      "sha256": "338aa6c2c8d6afe1e9afdaed53c74367c222a048540e6a92a30e2118a1ec9073",
       "routes": 171,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -32653,7 +32653,7 @@
       }
     },
     "yang-mytv": {
-      "sha256": "4c4080eb6c1001a491ac4f1252b2692d005da68daa4f9515ed8fc4608c450a3b",
+      "sha256": "bacb5936acf81c52a82f91c4c9fa2aeabd5053c0790f71687963f48e232528bf",
       "routes": 93,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
@@ -38005,8 +38005,8 @@
       }
     },
     "yang-network": {
-      "sha256": "12152812a9dbab6f6399c0fbe178c3d53ddcf2c29b5ca2041c4d781f022875b4",
-      "routes": 611,
+      "sha256": "57c487993579127cf3fbbe278815da1359b0a63df12e8462c8dab2e7716d48fe",
+      "routes": 362,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -54471,6 +54471,12 @@
           "name": "桃夜夜（12.7生日会）",
           "tvgId": "",
           "group": "•抖音「娱乐」"
+        },
+        "74c35e20b9775cafca055ecb7c104aeadef43def935fe93b9300d9a2f2cb2751": {
+          "channel": "c_88673aa0f2cf464f781656bd",
+          "name": "日落光信",
+          "tvgId": "",
+          "group": "•抖音「游戏」"
         }
       }
     },
