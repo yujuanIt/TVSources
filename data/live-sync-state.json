@@ -27384,6 +27384,27 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/yy/1355501191",
       "enabled": "true"
+    },
+    "c_86377f07a4c7712909870442": {
+      "name": "CF老四（盼之账号）",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/788968048",
+      "enabled": "true"
+    },
+    "c_26b89b9d3f9b2e2fa7cb79b8": {
+      "name": "兔娘",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/R05231208",
+      "enabled": "true"
+    },
+    "c_1afce8ba263ace0ffa6a1730": {
+      "name": "怀逝【李白导师】",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/huaishi4",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -37984,8 +38005,8 @@
       }
     },
     "yang-network": {
-      "sha256": "f5cba04e6427912794b5ff029e5eaa06f4dd6fa26564aa465381ed64dcdd6700",
-      "routes": 357,
+      "sha256": "12152812a9dbab6f6399c0fbe178c3d53ddcf2c29b5ca2041c4d781f022875b4",
+      "routes": 611,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -54414,6 +54435,42 @@
           "name": "YUAN¹¹²¹（11.21生日版）",
           "tvgId": "",
           "group": "•抖音「其他」"
+        },
+        "cc7e9320bb37b9df5856ba1ad168423fcfb05763b40bce019855541faa97b77d": {
+          "channel": "c_86377f07a4c7712909870442",
+          "name": "CF老四（盼之账号）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "71be6580f14ab2b00790765b38cfdfd00daca3a1fa5fc7cf4c7a85b7624d3812": {
+          "channel": "c_26bd652ee637b51d902e1932",
+          "name": "上海小杨摄影工作室|约拍跟拍",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "94b6ed54a2acb17934c61ca04a64e22cf9d7cbbfe7de1ca07824605dca87f02e": {
+          "channel": "c_26b89b9d3f9b2e2fa7cb79b8",
+          "name": "兔娘",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "c29f4c646c85e42ad66be07df5c6930ca5d92c401e2b6b0a5372851c4b38e168": {
+          "channel": "c_1afce8ba263ace0ffa6a1730",
+          "name": "怀逝【李白导师】",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "d1492708770ac949f0e2d60bcb2a307062ea2a0571bb2a3127ad29664070b4e4": {
+          "channel": "c_392a87f953e0b1d359efb14f",
+          "name": "敏敏中国舞",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "791aadd69fcafd2e4318e90bd407c55169380df59de0e61ab65b2631ac1f271b": {
+          "channel": "c_fcb85282113a5b9e4b56d272",
+          "name": "桃夜夜（12.7生日会）",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
         }
       }
     },
