@@ -27405,6 +27405,13 @@
       "tvgId": "",
       "logo": "https://live.yang-1989.eu.org/logo/douyin/huaishi4",
       "enabled": "true"
+    },
+    "c_c529434ce010e695057881a7": {
+      "name": "安萍",
+      "group": "抖音",
+      "tvgId": "",
+      "logo": "https://live.yang-1989.eu.org/logo/douyin/894089126235",
+      "enabled": "true"
     }
   },
   "sources": {
@@ -38005,8 +38012,8 @@
       }
     },
     "yang-network": {
-      "sha256": "57c487993579127cf3fbbe278815da1359b0a63df12e8462c8dab2e7716d48fe",
-      "routes": 362,
+      "sha256": "6eda277cea394aa0fd14c5ee41011d714e99db5ee2be9f6d026b6ff2b44b0c4e",
+      "routes": 524,
       "bindings": {
         "3afd8f534d54c312c1ccbc3d4a2bbff2b21c5eb000ad0ed5436165c8a03a7f89": {
           "channel": "c_946ea5084913f07b61dd85f0",
@@ -54477,6 +54484,24 @@
           "name": "日落光信",
           "tvgId": "",
           "group": "•抖音「游戏」"
+        },
+        "4a61268be7ece1f23e7e335c9f59c3555ebd582e244fece8ab93beb4e6233567": {
+          "channel": "c_48f0540a77fdc46a266788ce",
+          "name": "约稿第二份半张",
+          "tvgId": "",
+          "group": "•哔哩「娱乐」"
+        },
+        "5b2896c049ea9930e99fe473942a98fb44777e82b38dde5897514be2467ee280": {
+          "channel": "c_c529434ce010e695057881a7",
+          "name": "安萍",
+          "tvgId": "",
+          "group": "•抖音「娱乐」"
+        },
+        "1d5136c24cc4f89946861ba33f4c534965b30ee241e166534192b60e50713997": {
+          "channel": "c_0b17d5a919893acefbca0767",
+          "name": "쑤지§",
+          "tvgId": "",
+          "group": "•SOOP「娱乐」"
         }
       }
     },
